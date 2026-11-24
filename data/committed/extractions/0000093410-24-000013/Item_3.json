@@ -1,0 +1,189 @@
+{
+  "accession": "0000093410-24-000013",
+  "item": "Item_3",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T14:15:53Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Chevron received correspondence from California's Bay Area Air Quality Management District (BAAQMD) seeking to resolve certain Notices of Violation (NOVs) related to alleged violations that occurred at Chevron's refinery in Richmond, California, between 2019 and 2022. The parties negotiated a resolution of the NOVs, including additional NOVs from the first half of 2023, in a settlement effective February 12, 2024. Resolution of these alleged violations will result in the payment of a civil penalty of $20 million.",
+            "entity_name": "Chevron Richmond Refinery BAAQMD NOV Settlement",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The California Department of Fish and Wildlife, Office of Spill Prevention and Response (CDFW, OSPR) issued a Complaint - NOV to Chevron for alleged violations related to oil spills and impacted habitat and species occurring between January 2018 and May 2022 at different Chevron fields within Kern County, California. Chevron is negotiating a potential resolution of the NOVs with CDFW, OSPR. Resolution of the alleged violations will result in the payment of a civil penalty of $1.0 million or more.",
+            "entity_name": "Chevron Kern County Oil Spill CDFW OSPR NOV",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "CalGEM issued NOVs and two orders to Chevron related to seeps that occurred in the Cymric Oil Field in Kern County, California. An October 2, 2019 CalGEM order seeks a civil penalty of approximately $2.7 million. Chevron has filed an appeal of this order. Chevron is currently in discussions with CalGEM regarding a settlement to resolve the order and all past and present seeps in the Cymric Field, which will increase the amount of penalty paid.",
+            "entity_name": "Chevron Cymric Oil Field CalGEM NOVs and Orders",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On March 17, 2022, the Texas Commission on Environmental Quality and Harris County, Texas filed a civil lawsuit alleging violations of the Texas Clean Air Act in connection with a fire at Chevron's Pasadena, Texas refinery. The Pasadena refinery is currently negotiating a potential resolution that may result in the payment of a civil penalty of $1.0 million or more.",
+            "entity_name": "Texas TCEQ and Harris County v. Chevron Pasadena Refinery",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "BAAQMD Richmond refinery NOV settlement",
+              "Bay Area Air Quality Management District Chevron settlement"
+            ],
+            "attributes": {
+              "civil_penalty_usd": 20000000,
+              "counterparty": "California Bay Area Air Quality Management District",
+              "effective_date": "2024-02-12",
+              "geography": "Richmond, California",
+              "status": "settled",
+              "subject": "alleged air quality violations at Richmond refinery 2019–2023"
+            },
+            "identifiers": {},
+            "name": "Chevron Richmond Refinery BAAQMD NOV Settlement",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "CDFW OSPR Kern County oil spill NOV",
+              "California Fish and Wildlife Chevron Kern County NOV"
+            ],
+            "attributes": {
+              "civil_penalty_min_usd": 1000000,
+              "counterparty": "California Department of Fish and Wildlife, Office of Spill Prevention and Response",
+              "geography": "Kern County, California",
+              "status": "pending",
+              "subject": "alleged violations related to oil spills and impacted habitat and species January 2018 – May 2022"
+            },
+            "identifiers": {},
+            "name": "Chevron Kern County Oil Spill CDFW OSPR NOV",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "CalGEM Cymric Field seeps order",
+              "Cymric Oil Field underground injection control penalty"
+            ],
+            "attributes": {
+              "civil_penalty_approx_usd": 2700000,
+              "counterparty": "California Department of Conservation, California Geologic Energy Management Division",
+              "geography": "Cymric Oil Field, Kern County, California",
+              "order_date": "2019-10-02",
+              "status": "appealed",
+              "subject": "seeps at Cymric Oil Field under Underground Injection Control program"
+            },
+            "identifiers": {},
+            "name": "Chevron Cymric Oil Field CalGEM NOVs and Orders",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "TCEQ Harris County Pasadena refinery Texas Clean Air Act lawsuit",
+              "Chevron Pasadena Texas Clean Air Act civil lawsuit"
+            ],
+            "attributes": {
+              "civil_penalty_min_usd": 1000000,
+              "counterparty": "Texas Commission on Environmental Quality and Harris County, Texas",
+              "filed_date": "2022-03-17",
+              "geography": "Pasadena, Texas",
+              "status": "pending",
+              "subject": "alleged violations of Texas Clean Air Act related to fire at Pasadena refinery"
+            },
+            "identifiers": {},
+            "name": "Texas TCEQ and Harris County v. Chevron Pasadena Refinery",
+            "type": "LegalProceeding"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "Chevron Richmond Refinery BAAQMD NOV Settlement",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "civil_penalty_usd": 20000000,
+              "effective_date": "2024-02-12",
+              "new_status": "settled",
+              "prior_status": "pending"
+            },
+            "source_name": "Chevron Richmond Refinery BAAQMD NOV Settlement",
+            "source_type_entity": "LegalProceeding",
+            "target_name": "CVX 10-K 2023",
+            "target_type_entity": "Filing",
+            "type": "legal_proceeding_status_changed_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "Chevron Kern County Oil Spill CDFW OSPR NOV",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "Chevron Cymric Oil Field CalGEM NOVs and Orders",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "Texas TCEQ and Harris County v. Chevron Pasadena Refinery",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-24-000013.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "972ba00183b142076d8cde44435f340794fa55aeda05170fe4f3a8e89d485021"
+    }
+  ],
+  "prompt_version": "v3"
+}

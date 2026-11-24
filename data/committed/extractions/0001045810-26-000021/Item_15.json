@@ -1,0 +1,791 @@
+{
+  "accession": "0001045810-26-000021",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T12:14:48Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note_number": 2,
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "In December 2025, we entered into a non‑exclusive license agreement with Groq, Inc., or Groq, for its language processing unit technology and hired certain Groq employees. No customer contracts, existing products, or equity interests were purchased. We recorded $14.4 billion of goodwill and a $2.5 billion developed technology intangible asset, valued using a cost‑to‑recreate methodology with a five‑year useful life. Goodwill, primarily attributable to the workforce and future development of the licensed technology, was recorded in the Compute & Networking reporting unit. Total consideration consists of $13.0 billion paid at closing and $4 billion, inclusive of imputed interest, payable within one year included in Accrued and Other Current Liabilities on our Consolidated Balance Sheets.",
+            "entity_name": "NVDA Groq Technology License and Workforce Acquisition",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "financial_statement": "Consolidated Statements of Shareholders' Equity",
+              "period": "Year Ended Jan 25, 2026",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_return",
+            "content": "Shares repurchased(282)— (230)— (40,158)(40,388)",
+            "entity_name": "NVDA FY2026 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "financial_statement": "Consolidated Statements of Shareholders' Equity",
+              "period": "Year Ended Jan 25, 2026",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_return",
+            "content": "Cash dividends declared and paid ($0.04 per common share) — — — — (974)(974)",
+            "entity_name": "NVDA FY2026 Cash Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-02-25",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVIDIA",
+              "NVDA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVIDIA Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Groq deal",
+              "NVDA Groq LPU license"
+            ],
+            "attributes": {
+              "consideration_paid_usd": 13000000000,
+              "deferred_consideration_usd": 4000000000,
+              "effective_date": "2025-12",
+              "event_type": "acquisition",
+              "goodwill_recorded_usd": 14400000000,
+              "intangible_asset_recorded_usd": 2500000000,
+              "note": "non-exclusive LPU technology license; no equity interest acquired; goodwill primarily attributable to workforce and future technology development; recorded in Compute & Networking reporting unit",
+              "target_company": "Groq, Inc."
+            },
+            "identifiers": {},
+            "name": "NVDA Groq Technology License and Workforce Acquisition",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NVDA FY2026 buyback"
+            ],
+            "attributes": {
+              "amount_usd": 40388000000,
+              "effective_date": "FY2026",
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2026 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 974000000,
+              "effective_date": "FY2026",
+              "per_share": 0.04,
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2026 Cash Dividend",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Groq Technology License and Workforce Acquisition",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2026 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2026 Cash Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-02-25",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-26-000021.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "beae48229e642a1e0a03eec862b36739d8bfd96f552a51cf234a47b459f4beb4"
+    },
+    {
+      "extracted_at": "2026-06-17T12:20:56Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The plaintiffs in the putative securities class action lawsuit, captioned 4:18-cv-07669-HSG, initially filed on December 21, 2018 in the United States District Court for the Northern District of California, and titled In Re NVIDIA Corporation Securities Litigation, filed an amended complaint on May 13, 2020. The amended complaint asserted that NVIDIA and certain NVIDIA executives violated Section 10(b) of the Securities Exchange Act of 1934, as amended, or the Exchange Act, and SEC Rule 10b-5, by making materially false or misleading statements related to channel inventory and the impact of cryptocurrency mining on GPU demand between May 10, 2017 and November 14, 2018. Plaintiffs also alleged that the NVIDIA executives who they named as defendants violated Section 20(a) of the Exchange Act.",
+            "entity_name": "In Re NVIDIA Corporation Securities Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "NVIDIA filed a petition for a writ of certiorari on March 4, 2024. On June 17, 2024, the Supreme Court of the United States granted NVIDIA's petition for a writ of certiorari. After briefing and argument, the Supreme Court dismissed NVIDIA's writ of certiorari as improvidently granted on December 11, 2024, and issued judgment on January 13, 2025. On February 20, 2025, the Ninth Circuit's judgment, entered August 25, 2023 and corrected August 28, 2023, took effect, and the case was remanded to the district court for further proceedings.",
+            "entity_name": "In Re NVIDIA Corporation Securities Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The putative derivative lawsuit pending in the United States District Court for the Northern District of California, captioned 4:19-cv-00341-HSG, initially filed January 18, 2019 and titled In re NVIDIA Corporation Consolidated Derivative Litigation, was stayed pending resolution of the plaintiffs' appeal in the In Re NVIDIA Corporation Securities Litigation action. On February 22, 2022, the court administratively closed the case, but stated that it would reopen the case once the appeal in the In Re NVIDIA Corporation Securities Litigation action is resolved. The case has not yet been reopened by the court.",
+            "entity_name": "In re NVIDIA Corporation Consolidated Derivative Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The putative derivative actions initially filed September 24, 2019 and pending in the United States District Court for the District of Delaware, Lipchitz v. Huang, et al. (Case No. 1:19-cv-01795-MN) and Nelson v. Huang, et. al. (Case No. 1:19-cv-01798-MN), were stayed pending resolution of the plaintiffs' appeal in the In Re NVIDIA Corporation Securities Litigation action. On March 7, 2025, after the Supreme Court issued its judgment dismissing the Company's petition for writ of certiorari as improvidently granted in the In Re NVIDIA Securities Litigation action, the district court adopted the parties' stipulation to extend the stay until the final and complete resolution of the In Re NVIDIA Corporation Securities Litigation action.",
+            "entity_name": "Lipchitz v. Huang et al.",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The putative derivative actions initially filed September 24, 2019 and pending in the United States District Court for the District of Delaware, Lipchitz v. Huang, et al. (Case No. 1:19-cv-01795-MN) and Nelson v. Huang, et. al. (Case No. 1:19-cv-01798-MN), were stayed pending resolution of the plaintiffs' appeal in the In Re NVIDIA Corporation Securities Litigation action. On March 7, 2025, after the Supreme Court issued its judgment dismissing the Company's petition for writ of certiorari as improvidently granted in the In Re NVIDIA Securities Litigation action, the district court adopted the parties' stipulation to extend the stay until the final and complete resolution of the In Re NVIDIA Corporation Securities Litigation action.",
+            "entity_name": "Nelson v. Huang et al.",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Another putative derivative action was filed on October 30, 2023 in the Court of Chancery of the State of Delaware, captioned Horanic v. Huang, et al. (Case No. 2023-1096-KSJM). This lawsuit asserts claims, purportedly on behalf of us, against certain officers and directors of the Company for breach of fiduciary duty and insider trading based on the dissemination of allegedly false and misleading statements related to channel inventory and the impact of cryptocurrency mining on GPU demand. On August 11, 2025, the court granted the parties' stipulation to voluntarily dismiss with prejudice plaintiff City of Westland Police and Fire Retirement System. This derivative matter is stayed pending the final resolution of In Re NVIDIA Corporation Securities Litigation action.",
+            "entity_name": "Horanic v. Huang et al.",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_return",
+            "content": "On August 26, 2025, our Board of Directors approved an additional $60.0 billion in share repurchase authorization, without expiration. In fiscal years 2026 and 2025, we repurchased 282 million and 310 million shares of our common stock for $40.4 billion and $34.0 billion, respectively. As of January 25, 2026, we were authorized, subject to certain specifications, to repurchase up to $58.5 billion of our common stock.",
+            "entity_name": "NVDA August 2025 $60B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_return",
+            "content": "In fiscal years 2026 and 2025, we repurchased 282 million and 310 million shares of our common stock for $40.4 billion and $34.0 billion, respectively.",
+            "entity_name": "NVDA FY2026 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_return",
+            "content": "In fiscal years 2026, 2025, and 2024, we paid cash dividends to our shareholders of $974 million, $834 million, and $395 million, respectively. The payment of future cash dividends is subject to our Board of Directors' continuing determination that the declaration of dividends is in the best interests of our shareholders.",
+            "entity_name": "NVDA FY2026 Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_return",
+            "content": "From January 26, 2026 through February 20, 2026, we repurchased 8 million shares for $1.5 billion pursuant to a pre-established trading plan.",
+            "entity_name": "NVDA Post-FY2026 Share Repurchases Jan-Feb 2026",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In January 2026, we increased the size of our commercial paper program from $575 million to $25.0 billion. As of January 25, 2026, no commercial paper was outstanding.",
+            "entity_name": "NVDA January 2026 Commercial Paper Program Expansion",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "segment",
+            "content": "The Compute & Networking segment includes our Data Center accelerated computing and networking platforms and AI solutions and software, and Automotive platforms and autonomous and electric vehicle solutions including software.",
+            "entity_name": "NVDA Compute & Networking Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "segment",
+            "content": "Depreciation and amortization expense attributable to our Compute & Networking segment for fiscal years 2026, 2025, and 2024 was $1.6 billion, $732 million, and $457 million, respectively.",
+            "entity_name": "NVDA Compute & Networking Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "segment",
+            "content": "Direct Customers – For fiscal year 2026, sales to one direct customer represented 22% of total revenue and sales to another direct customer represented 14% of total revenue, all of which were primarily attributable to the Compute & Networking segment.",
+            "entity_name": "NVDA Compute & Networking Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "segment",
+            "content": "The Graphics segment includes GeForce GPUs for gaming and PCs, and Quadro/NVIDIA RTX GPUs for enterprise workstation graphics.",
+            "entity_name": "NVDA Graphics Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "segment",
+            "content": "Depreciation and amortization expense attributable to our Graphics segment for fiscal years 2026, 2025, and 2024 was $590 million, $372 million, and $307 million, respectively.",
+            "entity_name": "NVDA Graphics Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "In July 2025, the OBBBA was enacted into law and contains several changes to key U.S. federal income tax laws. We have recognized the tax effects of currently effective OBBBA provisions in our results for fiscal year 2026.",
+            "entity_name": "NVDA OBBBA Tax Law Recognition FY2026",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "The FASB issued a new accounting standard which includes new and updated income tax disclosures, including disaggregation of information in the rate reconciliation and income taxes paid, which we adopted on a prospective basis for the year ending January 25, 2026.",
+            "entity_name": "NVDA FASB Income Tax Disclosure Standard Adoption FY2026",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "In the third quarter of fiscal year 2026, we changed to revenue based upon the location of our customers' headquarters as we believe it provides a better representation of the geographic profile of our revenue. Prior period information has been recast to reflect this change.",
+            "entity_name": "NVDA Geographic Revenue Methodology Change FY2026",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "In fiscal year 2026, we entered into agreements to guarantee partners' facility lease obligations in the event of their default in exchange for warrants. The maximum gross exposure under all agreements is $3.5 billion, which is reduced as the partners make payments to the lessors over terms ranging from 5 to 7 years. The partners have placed $712 million in escrow to mitigate our potential exposure.",
+            "entity_name": "NVDA FY2026 Facility Lease Guarantees",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVIDIA",
+              "NVDA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVIDIA Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "NVDA Securities Class Action",
+              "Case 4:18-cv-07669-HSG"
+            ],
+            "attributes": {
+              "counterparty": "securities class action plaintiffs",
+              "court": "United States District Court for the Northern District of California (on remand from Ninth Circuit)",
+              "date_filed": "2018-12-21",
+              "status": "pending"
+            },
+            "identifiers": {
+              "case_number": "4:18-cv-07669-HSG"
+            },
+            "name": "In Re NVIDIA Corporation Securities Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "NVDA Consolidated Derivative",
+              "Case 4:19-cv-00341-HSG"
+            ],
+            "attributes": {
+              "counterparty": "derivative plaintiffs on behalf of NVIDIA",
+              "court": "United States District Court for the Northern District of California",
+              "date_filed": "2019-01-18",
+              "status": "pending"
+            },
+            "identifiers": {
+              "case_number": "4:19-cv-00341-HSG"
+            },
+            "name": "In re NVIDIA Corporation Consolidated Derivative Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "NVDA Delaware Derivative Lipchitz",
+              "Case 1:19-cv-01795-MN"
+            ],
+            "attributes": {
+              "counterparty": "derivative plaintiffs on behalf of NVIDIA",
+              "court": "United States District Court for the District of Delaware",
+              "date_filed": "2019-09-24",
+              "status": "pending"
+            },
+            "identifiers": {
+              "case_number": "1:19-cv-01795-MN"
+            },
+            "name": "Lipchitz v. Huang et al.",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "NVDA Delaware Derivative Nelson",
+              "Case 1:19-cv-01798-MN"
+            ],
+            "attributes": {
+              "counterparty": "derivative plaintiffs on behalf of NVIDIA",
+              "court": "United States District Court for the District of Delaware",
+              "date_filed": "2019-09-24",
+              "status": "pending"
+            },
+            "identifiers": {
+              "case_number": "1:19-cv-01798-MN"
+            },
+            "name": "Nelson v. Huang et al.",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "NVDA Delaware Chancery Derivative Horanic",
+              "Case 2023-1096-KSJM"
+            ],
+            "attributes": {
+              "counterparty": "derivative plaintiffs on behalf of NVIDIA",
+              "court": "Court of Chancery of the State of Delaware",
+              "date_filed": "2023-10-30",
+              "status": "pending"
+            },
+            "identifiers": {
+              "case_number": "2023-1096-KSJM"
+            },
+            "name": "Horanic v. Huang et al.",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "NVDA August 2025 buyback authorization"
+            ],
+            "attributes": {
+              "amount_usd": 60000000000,
+              "effective_date": "2025-08-26",
+              "remaining_authorization_usd": 58500000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "NVDA August 2025 $60B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 40400000000,
+              "period": "FY2026",
+              "return_type": "buyback",
+              "shares": 282000000
+            },
+            "identifiers": {},
+            "name": "NVDA FY2026 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 974000000,
+              "period": "FY2026",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2026 Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 1500000000,
+              "date_range": "2026-01-26 to 2026-02-20",
+              "period": "subsequent_event",
+              "return_type": "buyback",
+              "shares": 8000000
+            },
+            "identifiers": {},
+            "name": "NVDA Post-FY2026 Share Repurchases Jan-Feb 2026",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2026-01",
+              "instrument_type": "notes",
+              "note": "No commercial paper was outstanding as of January 25, 2026",
+              "principal_usd": 25000000000,
+              "prior_program_size_usd": 575000000
+            },
+            "identifiers": {},
+            "name": "NVDA January 2026 Commercial Paper Program Expansion",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Compute & Networking",
+              "NVDA C&N"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Compute & Networking",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Compute & Networking Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Graphics",
+              "NVDA Graphics"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Graphics",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Graphics Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "One Big Beautiful Budget Act NVDA",
+              "OBBBA NVDA FY2026"
+            ],
+            "attributes": {
+              "effective_date": "2025-07",
+              "event_type": "regulatory_action"
+            },
+            "identifiers": {},
+            "name": "NVDA OBBBA Tax Law Recognition FY2026",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "adoption_basis": "prospective",
+              "event_type": "accounting_change"
+            },
+            "identifiers": {},
+            "name": "NVDA FASB Income Tax Disclosure Standard Adoption FY2026",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "change_description": "Changed to revenue based upon location of customers headquarters; prior periods recast",
+              "effective_period": "Q3 FY2026",
+              "event_type": "accounting_change"
+            },
+            "identifiers": {},
+            "name": "NVDA Geographic Revenue Methodology Change FY2026",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NVDA partner facility lease guarantee program"
+            ],
+            "attributes": {
+              "consideration_received": "warrants",
+              "escrow_placed_by_partners_usd": 712000000,
+              "event_type": "joint_venture",
+              "lease_terms_years": "5 to 7",
+              "maximum_gross_exposure_usd": 3500000000
+            },
+            "identifiers": {},
+            "name": "NVDA FY2026 Facility Lease Guarantees",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "In Re NVIDIA Corporation Securities Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "In re NVIDIA Corporation Consolidated Derivative Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "Lipchitz v. Huang et al.",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "Nelson v. Huang et al.",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "Horanic v. Huang et al.",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA August 2025 $60B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2026 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2026 Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Post-FY2026 Share Repurchases Jan-Feb 2026",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA January 2026 Commercial Paper Program Expansion",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.665,
+              "margin": 0.673,
+              "operating_income": 130141000000,
+              "period": "FY2026",
+              "revenue": 193479000000
+            },
+            "source_name": "NVDA 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Compute & Networking Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.57,
+              "margin": 0.408,
+              "operating_income": 9156000000,
+              "period": "FY2026",
+              "revenue": 22459000000
+            },
+            "source_name": "NVDA 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Graphics Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA OBBBA Tax Law Recognition FY2026",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FASB Income Tax Disclosure Standard Adoption FY2026",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Geographic Revenue Methodology Change FY2026",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2026 Facility Lease Guarantees",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-26-000021.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "59e10cc82c9afe768bba01095a59f9e359334771506c8f57d863885584def92c"
+    }
+  ],
+  "prompt_version": "v3"
+}

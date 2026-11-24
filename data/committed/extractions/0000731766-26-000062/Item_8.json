@@ -1,0 +1,1289 @@
+{
+  "accession": "0000731766-26-000062",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T22:01:36Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Additionally, in the fourth quarter of 2025 the Company took restructuring and other actions that resulted in a total impact of $2.5 billion, which included real estate rationalization and workforce reductions of $746 million, contractual reassessments of $573 million, the establishment a loss contract reserve related to anticipated future losses in 2026 for certain value-based care businesses of $623 million, net valuation losses on equity securities of $329 million and the advance funding of the United Health Foundation of $250 million.",
+            "entity_name": "UNH Q4 2025 Restructuring and Other Actions",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In the fourth quarter of 2025, the Company took various actions as a result of a strategic review of the Company's assets and businesses to operationally advance and scale core businesses and initiatives, including the value-based care business at Optum Health. These actions primarily include losses on business exits and dispositions and other businesses held for sale and a gain on the deconsolidation of a business. As a result of the Company's portfolio actions, the Company recorded a net gain of $568 million, which included a net gain of $1.5 billion at Optum Rx, partially offset by losses of $821 million and $68 million at Optum Health and Optum Insight, respectively.",
+            "entity_name": "UNH Q4 2025 Portfolio Divestitures and Business Exits",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "To support care providers impacted by the Change Healthcare cyberattack that occurred on February 21, 2024, the Company provided interest-free loans. In the fourth quarter of 2025, the Company increased its reserves for net collection expectations associated with provider loans and other customer balances of $799 million, which are primarily within other assets on the Consolidated Balance Sheets and were recorded within operating costs within the Consolidated Statements of Operations. These amounts are included within Optum Insight's results.",
+            "entity_name": "Change Healthcare Cyberattack UNH Follow-On Charges",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "source_table": "Consolidated Statements of Changes in Equity"
+            },
+            "chunk_type": "capital_return",
+            "content": "Cash dividends paid on common shares ($8.73 per share)(7,916)(7,916)",
+            "entity_name": "UNH FY2025 Common Stock Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "source_table": "Consolidated Statements of Cash Flows"
+            },
+            "chunk_type": "capital_return",
+            "content": "Common share repurchases(5,545)(9,000)(8,000)",
+            "entity_name": "UNH FY2025 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In 2025, the Company entered into a $3.3 billion 364-day uncommitted receivables financing facility under which certain receivables may be sold to financial institutions. The sales of the receivables under the facility are recorded as a reduction to other current receivables on the Consolidated Balance Sheets and classified as an operating cash flow on the Consolidated Statement of Cash Flows. For the year ended December 31, 2025, the Company sold $3.0 billion of receivables under the receivables funding facility, and the loss on discounted receivables was immaterial.",
+            "entity_name": "UNH 2025 $3.3B Receivables Financing Facility",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_8",
+              "source_table": "Consolidated Statements of Operations"
+            },
+            "chunk_type": "segment",
+            "content": "Premiums$352,229 $308,810 $290,827",
+            "entity_name": "UNH Premiums",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_8",
+              "source_table": "Consolidated Statements of Operations"
+            },
+            "chunk_type": "segment",
+            "content": "Products53,380 50,226 42,583",
+            "entity_name": "UNH Products",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_8",
+              "source_table": "Consolidated Statements of Operations"
+            },
+            "chunk_type": "segment",
+            "content": "Services38,038 36,040 34,123",
+            "entity_name": "UNH Services",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In December 2023, the Financial Accounting Standards Board issued ASU No. 2023-09, \"Income Taxes (Topic 740): Improvements to Income Tax Disclosures.\" Under ASU 2023-09, an entity is required to provide additional income tax disclosures on an annual basis, including disclosure of the disaggregation of income tax expense or benefit from continuing operations by federal, state and local, and foreign taxes; cash paid for income taxes by jurisdiction; and prescribed specific categories to be included within the effective tax rate reconciliation. The Company adopted the standard on a prospective basis and has included the required disclosures in Note 9.",
+            "entity_name": "UNH Adoption of ASU 2023-09 Income Tax Disclosures",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UNH 2025 restructuring"
+            ],
+            "attributes": {
+              "contractual_reassessments_usd": 573000000,
+              "equity_valuation_losses_usd": 329000000,
+              "event_type": "restructuring",
+              "foundation_advance_usd": 250000000,
+              "loss_contract_reserve_usd": 623000000,
+              "period": "2025-Q4",
+              "total_impact_usd": 2500000000,
+              "workforce_and_real_estate_usd": 746000000
+            },
+            "identifiers": {},
+            "name": "UNH Q4 2025 Restructuring and Other Actions",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "UNH 2025 portfolio actions"
+            ],
+            "attributes": {
+              "event_type": "divestiture",
+              "net_gain_usd": 568000000,
+              "optum_health_loss_usd": 821000000,
+              "optum_insight_loss_usd": 68000000,
+              "optum_rx_gain_usd": 1500000000,
+              "period": "2025-Q4"
+            },
+            "identifiers": {},
+            "name": "UNH Q4 2025 Portfolio Divestitures and Business Exits",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Change Healthcare cyber incident"
+            ],
+            "attributes": {
+              "event_type": "cybersecurity_incident",
+              "incident_date": "2024-02-21",
+              "q4_2025_reserve_increase_usd": 799000000,
+              "segment": "Optum Insight"
+            },
+            "identifiers": {},
+            "name": "Change Healthcare Cyberattack UNH Follow-On Charges",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 7916000000,
+              "per_share": 8.73,
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "UNH FY2025 Common Stock Dividend",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 5545000000,
+              "return_type": "buyback",
+              "shares_repurchased_millions": 12
+            },
+            "identifiers": {},
+            "name": "UNH FY2025 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "UNH receivables facility 2025"
+            ],
+            "attributes": {
+              "committed": false,
+              "instrument_type": "revolver",
+              "principal_usd": 3300000000,
+              "receivables_sold_fy2025_usd": 3000000000,
+              "term_days": 364
+            },
+            "identifiers": {},
+            "name": "UNH 2025 $3.3B Receivables Financing Facility",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "UnitedHealth Group premium revenues"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Premiums",
+              "ticker": "UNH"
+            },
+            "name": "UNH Premiums",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "UnitedHealth Group product revenues",
+              "Optum Rx products"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Products",
+              "ticker": "UNH"
+            },
+            "name": "UNH Products",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "UnitedHealth Group services revenues"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Services",
+              "ticker": "UNH"
+            },
+            "name": "UNH Services",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "adoption_basis": "prospective",
+              "effective_year": 2025,
+              "event_type": "accounting_change",
+              "standard": "ASU No. 2023-09",
+              "topic": "Income Taxes (Topic 740): Improvements to Income Tax Disclosures"
+            },
+            "identifiers": {},
+            "name": "UNH Adoption of ASU 2023-09 Income Tax Disclosures",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Q4 2025 Restructuring and Other Actions",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Q4 2025 Portfolio Divestitures and Business Exits",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Change Healthcare Cyberattack UNH Follow-On Charges",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2025 Common Stock Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2025 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH 2025 $3.3B Receivables Financing Facility",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.141,
+              "period": "FY2025",
+              "revenue": 352229000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Premiums",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.063,
+              "period": "FY2025",
+              "revenue": 53380000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Products",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.055,
+              "period": "FY2025",
+              "revenue": 38038000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Services",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Adoption of ASU 2023-09 Income Tax Disclosures",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-26-000062.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "55dcc079c5ea3d4e0aebb5e33ee2c6762771c40635f4d85a1294370b37185aab"
+    },
+    {
+      "extracted_at": "2026-07-20T22:12:14Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "earnings_from_ops_usd_m": 9425,
+              "period": "FY2025",
+              "section_type": "Item_8",
+              "total_revenues_usd_m": 344903
+            },
+            "chunk_type": "segment",
+            "content": "UnitedHealthcare includes the combined results of operations of UnitedHealthcare Employer & Individual, UnitedHealthcare Medicare & Retirement and UnitedHealthcare Community & State. The businesses share significant common assets, including a contracted network of physicians, health care professionals, hospitals and other facilities, information technology and consumer engagement infrastructure and other resources.",
+            "entity_name": "UNH UnitedHealthcare Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_ops_usd_m": -278,
+              "period": "FY2025",
+              "section_type": "Item_8",
+              "total_revenues_usd_m": 101957
+            },
+            "chunk_type": "segment",
+            "content": "Optum Health focuses on care delivery, including value-based care; care management; wellness and consumer engagement and health financial services. Optum Health is building a comprehensive, connected health care delivery and engagement platform by directly providing high-quality care, helping people manage chronic and complex health needs, and proactively engaging consumers in managing their health through in-person, in-home, virtual and digital clinical platforms.",
+            "entity_name": "UNH Optum Health Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_ops_usd_m": 2624,
+              "period": "FY2025",
+              "section_type": "Item_8",
+              "total_revenues_usd_m": 19417
+            },
+            "chunk_type": "segment",
+            "content": "Optum Insight brings together advanced analytics, technology and health care expertise to deliver integrated services and solutions. Hospital systems, physicians, health plans, governments, life sciences companies and other organizations depend on Optum Insight to help them improve performance, achieve efficiency, reduce costs, meet compliance mandates and modernize their core operating systems to meet the changing needs of the health system.",
+            "entity_name": "UNH Optum Insight Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_ops_usd_m": 7193,
+              "period": "FY2025",
+              "section_type": "Item_8",
+              "total_revenues_usd_m": 154726
+            },
+            "chunk_type": "segment",
+            "content": "Optum Rx offers pharmacy care services and programs, including retail network contracting, home delivery, specialty and community health pharmacy services, infusion, purchasing and clinical capabilities, and develops programs in areas such as step therapy, formulary management, drug adherence and disease and drug therapy management. Optum Rx integrates pharmacy and medical care and is positioned to serve patients with complex clinical needs and consumers looking for a better digital pharmacy experience with transparent pricing.",
+            "entity_name": "UNH Optum Rx Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "In June 2025, the Company's Board of Directors increased the Company's quarterly cash dividend to shareholders to an annual rate of $8.84 compared to $8.40 per share, which the Company had paid since June 2024. Declaration and payment of future quarterly dividends is at the discretion of the Board and may be adjusted as business needs or market conditions change.",
+            "entity_name": "UNH June 2025 Quarterly Dividend Increase to $8.84 Annual Rate",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Common share repurchases, shares12 17 \nCommon share repurchases, average price per share$454.82 $529.85 \nCommon share repurchases, aggregate cost$5,482 $8,942 \nBoard authorized shares remaining21 33",
+            "entity_name": "UNH FY2025 Common Share Repurchases (12M Shares, $5.5B)",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "In June 2024, the Board of Directors amended the Company's share repurchase program to authorize the repurchase of up to 35 million shares of its common stock, in addition to all remaining shares authorized to be repurchased under the Board's 2018 renewal of the program. The Board of Directors from time to time may further amend the share repurchase program in order to increase the authorized number of shares which may be repurchased under the program.",
+            "entity_name": "UNH June 2024 Board Authorization to Repurchase 35M Additional Shares",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "The Company has $7.0 billion five-year, $7.0 billion three-year and $7.0 billion 364-day revolving bank credit facilities with 26 banks, which mature in November 2030, November 2028 and November 2026, respectively. These facilities provide full liquidity support for the Company's commercial paper program and are available for general corporate purposes. As of December 31, 2025, no amounts had been drawn on any of the bank credit facilities.",
+            "entity_name": "UNH $21B Revolving Bank Credit Facilities",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On February 14, 2017, the DOJ announced its decision to pursue certain claims within a lawsuit initially asserted against the Company and filed under seal by a whistleblower in 2011. The whistleblower's complaint, which was unsealed on February 15, 2017, alleges the Company made improper risk adjustment submissions and violated the False Claims Act. In March 2025, a Special Master appointed by the court issued a report recommending that the court enter summary judgment in the Company's favor on all remaining claims. In April 2025, the DOJ filed a motion asking the court to reject the Special Master's report. The Company cannot reasonably estimate the outcome which may result from this matter given its procedural status.",
+            "entity_name": "DOJ False Claims Act Lawsuit vs UnitedHealth Group (Whistleblower 2011)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "During the year ended December 31, 2025, the Company completed several business combinations for total consideration of $4.8 billion.",
+            "entity_name": "UNH FY2025 Business Combinations ($4.8B Total Consideration)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In the fourth quarter of 2025, the Company entered into an agreement to sell its remaining South American operations, which is expected to close in the second half of 2026, subject to regulatory and other customary closing conditions. Losses related to this transaction are included within loss on sale of subsidiary and subsidiaries held for sale on the Consolidated Statements of Operations as they relate to the strategic exit of South American markets and include significant losses related to foreign currency translation effects.",
+            "entity_name": "UNH Agreement to Sell Remaining South American Operations (Q4 2025)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "The Company initiated various other dispositions in the fourth quarter of 2025, which were classified as held for sale as of December 31, 2025. Losses related to these actions were $950 million and were included within operating costs on the Consolidated Statements of Operations.",
+            "entity_name": "UNH Q4 2025 Other Held-for-Sale Dispositions ($950M Loss)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Due to changes in governance rights, the Company deconsolidated a business that had net assets and redeemable noncontrolling interests with carrying values of $1.4 billion and $2.6 billion, respectively. As a result of the deconsolidation, the Company recorded an equity method investment of $575 million and recognized a gain of $1.7 billion, which was included within operating costs on the Consolidated Statements of Operations.",
+            "entity_name": "UNH FY2025 Business Deconsolidation ($1.7B Gain)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On January 1, 2026, the Company realigned certain businesses to respond to changes in the markets it serves and the opportunities that are emerging as the health system evolves. Optum Financial, including Optum Bank, which was historically included in Optum Health will now be included in Optum Insight. The Company's reportable segments will remain unchanged, with prior period segment financial information being recast to conform to the 2026 presentation, beginning with the Company's Quarterly Report on Form 10-Q for the three months ended March 31, 2026 filed with the SEC.",
+            "entity_name": "UNH 2026 Optum Financial Realignment to Optum Insight",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "CMS and OIG have selected certain of the Company's local plans for risk adjustment data validation (RADV) audits to validate the coding practices of and supporting documentation maintained by health care providers and such audits may result in retrospective adjustments to payments made to the Company's health plans.",
+            "entity_name": "UNH Government Investigations and Medicare Risk Adjustment Audit Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UnitedHealthcare"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "UnitedHealthcare",
+              "ticker": "UNH"
+            },
+            "name": "UNH UnitedHealthcare Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Health"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Health",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Health Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Insight"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Insight",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Insight Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Rx"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Rx",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Rx Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "UNH 2025 dividend increase"
+            ],
+            "attributes": {
+              "effective_date": "2025-06",
+              "per_share": 8.84,
+              "prior_per_share": 8.4,
+              "return_type": "dividend_increase"
+            },
+            "identifiers": {},
+            "name": "UNH June 2025 Quarterly Dividend Increase to $8.84 Annual Rate",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "UNH 2025 buyback activity"
+            ],
+            "attributes": {
+              "amount_usd": 5482000000,
+              "avg_price_per_share": 454.82,
+              "period": "FY2025",
+              "return_type": "buyback",
+              "shares_repurchased": 12000000
+            },
+            "identifiers": {},
+            "name": "UNH FY2025 Common Share Repurchases (12M Shares, $5.5B)",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "UNH 2024 repurchase authorization"
+            ],
+            "attributes": {
+              "board_authorized_shares_remaining_dec_2025": 21000000,
+              "effective_date": "2024-06",
+              "return_type": "repurchase_authorization",
+              "shares_authorized": 35000000
+            },
+            "identifiers": {},
+            "name": "UNH June 2024 Board Authorization to Repurchase 35M Additional Shares",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "UNH revolving credit facilities",
+              "UNH revolver"
+            ],
+            "attributes": {
+              "bank_count": 26,
+              "drawn_as_of_dec_2025": false,
+              "facility_breakdown": "$7B 5-year maturity Nov 2030, $7B 3-year maturity Nov 2028, $7B 364-day maturity Nov 2026",
+              "instrument_type": "revolver",
+              "principal_usd": 21000000000,
+              "rate_basis": "one-month term SOFR plus credit spread"
+            },
+            "identifiers": {},
+            "name": "UNH $21B Revolving Bank Credit Facilities",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "DOJ FCA whistleblower suit",
+              "UNH risk adjustment False Claims Act litigation"
+            ],
+            "attributes": {
+              "allegations": "improper risk adjustment submissions and violation of the False Claims Act",
+              "counterparty": "U.S. Department of Justice",
+              "doj_joined_date": "2017-02-14",
+              "latest_development": "DOJ filed motion in April 2025 to reject Special Master report",
+              "special_master_recommendation": "summary judgment for Company on all remaining claims (March 2025)",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "DOJ False Claims Act Lawsuit vs UnitedHealth Group (Whistleblower 2011)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "UNH 2025 acquisitions"
+            ],
+            "attributes": {
+              "event_type": "acquisition",
+              "goodwill_acquired_usd": 4295000000,
+              "intangible_assets_acquired_usd": 525000000,
+              "period": "FY2025",
+              "total_consideration_usd": 4800000000
+            },
+            "identifiers": {},
+            "name": "UNH FY2025 Business Combinations ($4.8B Total Consideration)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "UNH South America divestiture 2025"
+            ],
+            "attributes": {
+              "agreement_date": "Q4 2025",
+              "cumulative_fx_translation_loss_usd": 891000000,
+              "event_type": "divestiture",
+              "expected_close": "H2 2026",
+              "geography": "South America",
+              "nci_included_usd": 275000000
+            },
+            "identifiers": {},
+            "name": "UNH Agreement to Sell Remaining South American Operations (Q4 2025)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "UNH Q4 2025 portfolio dispositions"
+            ],
+            "attributes": {
+              "event_type": "divestiture",
+              "loss_usd": 950000000,
+              "period": "Q4 2025"
+            },
+            "identifiers": {},
+            "name": "UNH Q4 2025 Other Held-for-Sale Dispositions ($950M Loss)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "UNH 2025 deconsolidation"
+            ],
+            "attributes": {
+              "deconsolidated_net_assets_usd": 1400000000,
+              "equity_method_investment_usd": 575000000,
+              "event_type": "business_combination",
+              "gain_usd": 1700000000,
+              "redeemable_nci_usd": 2600000000
+            },
+            "identifiers": {},
+            "name": "UNH FY2025 Business Deconsolidation ($1.7B Gain)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "UNH 2026 segment realignment",
+              "Optum Bank move to Optum Insight"
+            ],
+            "attributes": {
+              "description": "Optum Financial including Optum Bank moved from Optum Health to Optum Insight segment",
+              "effective_date": "2026-01-01",
+              "event_type": "restructuring"
+            },
+            "identifiers": {},
+            "name": "UNH 2026 Optum Financial Realignment to Optum Insight",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "UNH RADV audit risk",
+              "CMS RADV audit risk",
+              "UNH regulatory investigation risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "regulators": "CMS, OIG, DOJ, SEC, IRS, FTC, CFPB, FDA and other governmental authorities",
+              "specific_risk": "retrospective adjustments to Medicare payments from risk adjustment data validation (RADV) audits"
+            },
+            "identifiers": {},
+            "name": "UNH Government Investigations and Medicare Risk Adjustment Audit Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "margin": 0.0273,
+              "period": "FY2025",
+              "revenue": 344903000000
+            },
+            "source_name": "UNH 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH UnitedHealthcare Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "margin": -0.0027,
+              "period": "FY2025",
+              "revenue": 101957000000
+            },
+            "source_name": "UNH 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Health Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "margin": 0.1351,
+              "period": "FY2025",
+              "revenue": 19417000000
+            },
+            "source_name": "UNH 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Insight Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "margin": 0.0465,
+              "period": "FY2025",
+              "revenue": 154726000000
+            },
+            "source_name": "UNH 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Rx Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH June 2025 Quarterly Dividend Increase to $8.84 Annual Rate",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2025 Common Share Repurchases (12M Shares, $5.5B)",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH June 2024 Board Authorization to Repurchase 35M Additional Shares",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH $21B Revolving Bank Credit Facilities",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "DOJ False Claims Act Lawsuit vs UnitedHealth Group (Whistleblower 2011)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2025 Business Combinations ($4.8B Total Consideration)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Agreement to Sell Remaining South American Operations (Q4 2025)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Q4 2025 Other Held-for-Sale Dispositions ($950M Loss)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2025 Business Deconsolidation ($1.7B Gain)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH 2026 Optum Financial Realignment to Optum Insight",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Government Investigations and Medicare Risk Adjustment Audit Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-26-000062.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "2d69d2f68faa983dac341232947f612af634c2012440a8dcd002482fc1c534ed"
+    },
+    {
+      "extracted_at": "2026-07-20T22:17:44Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "column_order": "UnitedHealthcare|OptumHealth|OptumInsight|OptumRx|Eliminations|TotalOptum|Corporate|Consolidated",
+              "period": "FY2025",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Total revenues$298,208 $105,358 $18,757 $133,231 $(4,389)$252,957 $(150,887)$400,278 \nEarnings from operations$15,584 $7,770 $3,097 $5,836 $— $16,703 $— $32,287",
+            "entity_name": "UNH UnitedHealthcare Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "column_order": "UnitedHealthcare|OptumHealth|OptumInsight|OptumRx|Eliminations|TotalOptum|Corporate|Consolidated",
+              "period": "FY2025",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Total revenues$298,208 $105,358 $18,757 $133,231 $(4,389)$252,957 $(150,887)$400,278 \nEarnings from operations$15,584 $7,770 $3,097 $5,836 $— $16,703 $— $32,287",
+            "entity_name": "UNH Optum Health Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "column_order": "UnitedHealthcare|OptumHealth|OptumInsight|OptumRx|Eliminations|TotalOptum|Corporate|Consolidated",
+              "period": "FY2025",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Total revenues$298,208 $105,358 $18,757 $133,231 $(4,389)$252,957 $(150,887)$400,278 \nEarnings from operations$15,584 $7,770 $3,097 $5,836 $— $16,703 $— $32,287",
+            "entity_name": "UNH Optum Insight Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "column_order": "UnitedHealthcare|OptumHealth|OptumInsight|OptumRx|Eliminations|TotalOptum|Corporate|Consolidated",
+              "period": "FY2025",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Total revenues$298,208 $105,358 $18,757 $133,231 $(4,389)$252,957 $(150,887)$400,278 \nEarnings from operations$15,584 $7,770 $3,097 $5,836 $— $16,703 $— $32,287",
+            "entity_name": "UNH Optum Rx Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "column_order": "UnitedHealthcare|OptumHealth|OptumInsight|OptumRx|Eliminations|TotalOptum|Corporate|Consolidated",
+              "period": "FY2023",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Total revenues$281,360 $95,319 $18,932 $116,087 $(3,703)$226,635 $(136,373)$371,622 \nEarnings from operations$16,415 $6,560 $4,268 $5,115 $— $15,943 $— $32,358",
+            "entity_name": "UNH UnitedHealthcare Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "column_order": "UnitedHealthcare|OptumHealth|OptumInsight|OptumRx|Eliminations|TotalOptum|Corporate|Consolidated",
+              "period": "FY2023",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Total revenues$281,360 $95,319 $18,932 $116,087 $(3,703)$226,635 $(136,373)$371,622 \nEarnings from operations$16,415 $6,560 $4,268 $5,115 $— $15,943 $— $32,358",
+            "entity_name": "UNH Optum Health Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "column_order": "UnitedHealthcare|OptumHealth|OptumInsight|OptumRx|Eliminations|TotalOptum|Corporate|Consolidated",
+              "period": "FY2023",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Total revenues$281,360 $95,319 $18,932 $116,087 $(3,703)$226,635 $(136,373)$371,622 \nEarnings from operations$16,415 $6,560 $4,268 $5,115 $— $15,943 $— $32,358",
+            "entity_name": "UNH Optum Insight Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "column_order": "UnitedHealthcare|OptumHealth|OptumInsight|OptumRx|Eliminations|TotalOptum|Corporate|Consolidated",
+              "period": "FY2023",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Total revenues$281,360 $95,319 $18,932 $116,087 $(3,703)$226,635 $(136,373)$371,622 \nEarnings from operations$16,415 $6,560 $4,268 $5,115 $— $15,943 $— $32,358",
+            "entity_name": "UNH Optum Rx Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Loss on sale of subsidiary and subsidiaries held for sale(8,310)— — — — — — (8,310)",
+            "entity_name": "UNH Loss on Sale of Subsidiary and Subsidiaries Held for Sale",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UnitedHealthcare",
+              "UHC"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "UnitedHealthcare",
+              "ticker": "UNH"
+            },
+            "name": "UNH UnitedHealthcare Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Health"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Health",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Health Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Insight"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Insight",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Insight Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Rx"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Rx",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Rx Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "UNH divestiture loss"
+            ],
+            "attributes": {
+              "event_type": "divestiture",
+              "loss_usd": 8310000000,
+              "reporting_segment": "UnitedHealthcare"
+            },
+            "identifiers": {},
+            "name": "UNH Loss on Sale of Subsidiary and Subsidiaries Held for Sale",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "earnings_from_operations_usd": 15584000000,
+              "margin": 0.0522,
+              "period": "FY2025",
+              "revenue": 298208000000,
+              "total_assets_usd": 119009000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH UnitedHealthcare Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations_usd": 7770000000,
+              "margin": 0.0737,
+              "period": "FY2025",
+              "revenue": 105358000000,
+              "total_assets_usd": 96472000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Health Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations_usd": 3097000000,
+              "margin": 0.1651,
+              "period": "FY2025",
+              "revenue": 18757000000,
+              "total_assets_usd": 34452000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Insight Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations_usd": 5836000000,
+              "margin": 0.0438,
+              "period": "FY2025",
+              "revenue": 133231000000,
+              "total_assets_usd": 59086000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Rx Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations_usd": 16415000000,
+              "margin": 0.0583,
+              "period": "FY2023",
+              "revenue": 281360000000,
+              "total_assets_usd": 110943000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH UnitedHealthcare Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations_usd": 6560000000,
+              "margin": 0.0688,
+              "period": "FY2023",
+              "revenue": 95319000000,
+              "total_assets_usd": 89432000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Health Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations_usd": 4268000000,
+              "margin": 0.2254,
+              "period": "FY2023",
+              "revenue": 18932000000,
+              "total_assets_usd": 34173000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Insight Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations_usd": 5115000000,
+              "margin": 0.0441,
+              "period": "FY2023",
+              "revenue": 116087000000,
+              "total_assets_usd": 51266000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Rx Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Loss on Sale of Subsidiary and Subsidiaries Held for Sale",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-26-000062.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "ccd07034cc4b5828973c916197719379d24908f3da9cc84ff716ba15f663bbd9"
+    }
+  ],
+  "prompt_version": "v3"
+}

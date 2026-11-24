@@ -1,0 +1,896 @@
+{
+  "accession": "0001193125-26-323660",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-11-02T04:03:37Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Income Statements",
+              "period": "FY2026",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Service and other 267,143 217,778 180,349\nService and other 94,276 74,330 58,842\nGross margin 225,465 193,893 171,008",
+            "entity_name": "MSFT Service and Other Revenue",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Income Statements",
+              "period": "FY2026",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Product $ 64,696 $ 63,946 $ 64,773\nProduct 12,098 13,501 15,272",
+            "entity_name": "MSFT Product Revenue",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 1 – Accounting Policies",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "We have a long-term strategic partnership with OpenAI. In October 2025, we signed a new definitive agreement with OpenAI that extends this partnership. We have an investment accounted for under the equity method that represents an approximate 25% interest on an as-converted basis.",
+            "entity_name": "MSFT-OpenAI New Definitive Agreement (October 2025)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 1 – Accounting Policies",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "For fiscal year 2026, we recorded revenue from commercial arrangements with OpenAI, inclusive of revenue-sharing payments, of $24.1 billion, and accounts receivable from OpenAI as of June 30, 2026 was $6.0 billion. We have made total funding commitments of $13.0 billion related to our investment, of which $11.9 billion has been funded as of June 30, 2026.",
+            "entity_name": "MSFT-OpenAI New Definitive Agreement (October 2025)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 1 – Accounting Policies",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In October 2025, OpenAI formed a public benefit corporation and completed a recapitalization (\"OpenAI Recapitalization\"). During fiscal year 2026, our proportionate ownership of OpenAI decreased due to the OpenAI Recapitalization and other funding activity, and we recorded dilution gains in other income (expense), net.",
+            "entity_name": "OpenAI Recapitalization and PBC Formation (October 2025)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 3 – Other Income (Expense), Net",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Other income (expense), net included $6.5 billion of net gains, $4.8 billion of net losses, and $1.5 billion of net losses for fiscal years 2026, 2025, and 2024, respectively, from investments in OpenAI, primarily net recognized gains (losses) on our equity method investment reflected in Other, net. The net gains recorded for fiscal year 2026 primarily relate to the dilution gain from the OpenAI Recapitalization.",
+            "entity_name": "OpenAI Recapitalization and PBC Formation (October 2025)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 1 – Accounting Policies",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In December 2023, the Financial Accounting Standards Board (\"FASB\") issued a new standard to improve income tax disclosures. The guidance requires additional disclosure of disaggregated income taxes paid and prescribes standardized categories for the components of the effective tax rate reconciliation. We adopted the standard prospectively beginning with our annual reporting for fiscal year 2026.",
+            "entity_name": "MSFT FY2026 Income Tax Disclosure Accounting Change",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Cash Flows Statements",
+              "period": "FY2026",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Common stock repurchased (22,271) (18,420) (17,254)",
+            "entity_name": "MSFT FY2026 Common Stock Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Cash Flows Statements and Stockholders' Equity Statements",
+              "period": "FY2026",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Common stock cash dividends paid (26,445) (24,082) (21,771)\nCash dividends declared per common share $ 3.64 $ 3.32 $ 3.00",
+            "entity_name": "MSFT FY2026 Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft",
+              "MSFT"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "Microsoft Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "OpenAI PBC"
+            ],
+            "attributes": {
+              "investee_type": "equity_method",
+              "msft_ownership_approx": "25%_as_converted"
+            },
+            "identifiers": {},
+            "name": "OpenAI",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Service and other revenue"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Service and Other",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Service and Other Revenue",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Product revenue"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Product",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Product Revenue",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "OpenAI partnership extension 2025"
+            ],
+            "attributes": {
+              "counterparty": "OpenAI",
+              "effective_date": "2025-10",
+              "event_type": "joint_venture"
+            },
+            "identifiers": {},
+            "name": "MSFT-OpenAI New Definitive Agreement (October 2025)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "OpenAI Recapitalization"
+            ],
+            "attributes": {
+              "counterparty": "OpenAI",
+              "effective_date": "2025-10",
+              "event_type": "business_combination"
+            },
+            "identifiers": {},
+            "name": "OpenAI Recapitalization and PBC Formation (October 2025)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "FASB Income Tax Disclosures adoption FY2026"
+            ],
+            "attributes": {
+              "adoption_method": "prospective",
+              "effective_period": "FY2026",
+              "event_type": "accounting_change",
+              "standard": "Income Taxes – Improvements to Income Tax Disclosures",
+              "standard_issuer": "FASB"
+            },
+            "identifiers": {},
+            "name": "MSFT FY2026 Income Tax Disclosure Accounting Change",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "MSFT FY2026 buyback"
+            ],
+            "attributes": {
+              "amount_usd": 22271000000,
+              "period": "FY2026",
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "MSFT FY2026 Common Stock Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "MSFT FY2026 dividend"
+            ],
+            "attributes": {
+              "amount_usd": 26445000000,
+              "per_share": 3.64,
+              "period": "FY2026",
+              "prior_per_share": 3.32,
+              "return_type": "dividend_increase"
+            },
+            "identifiers": {},
+            "name": "MSFT FY2026 Cash Dividends",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.227,
+              "margin": 0.647,
+              "period": "FY2026",
+              "revenue": 267143000000
+            },
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Service and Other Revenue",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.012,
+              "margin": 0.813,
+              "period": "FY2026",
+              "revenue": 64696000000
+            },
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Product Revenue",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT-OpenAI New Definitive Agreement (October 2025)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "OpenAI Recapitalization and PBC Formation (October 2025)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2026 Income Tax Disclosure Accounting Change",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2026 Common Stock Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2026 Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0001193125-26-323660.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "e4847a967ae2970e097deff5e3834471ac93b40c80dd02173b23ed4e1d7f6d09"
+    },
+    {
+      "extracted_at": "2026-11-02T04:09:11Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note 7",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On October 13, 2023, we completed our acquisition of Activision Blizzard, Inc. (\"Activision Blizzard\") for a total purchase price of $75.4 billion, consisting primarily of cash. Activision Blizzard is a leader in game development and an interactive entertainment content publisher. The acquisition will accelerate the growth in our gaming business across mobile, PC, console, and cloud gaming.",
+            "entity_name": "MSFT Acquisition of Activision Blizzard",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 11",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "With respect to the audit for tax years 2004 to 2013, on September 26, 2023, we received Notices of Proposed Adjustment (\"NOPAs\") from the IRS. The primary issues in the NOPAs relate to intercompany transfer pricing. In the NOPAs, the IRS is seeking an additional tax payment of $28.9 billion plus penalties and interest. As of June 30, 2026, we believe our allowances for income tax contingencies are adequate. We disagree with the proposed adjustments and will vigorously contest the NOPAs through the IRS's administrative appeals office and, if necessary, judicial proceedings.",
+            "entity_name": "MSFT IRS NOPA Tax Years 2004-2013",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 14",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In October 2024, the IDPC provided LinkedIn with a final decision alleging GDPR violations and assessing a fine. In November 2024, LinkedIn appealed the final decision. A preliminary hearing was held in December 2025. The court issued a ruling on the standard of appeal, which the IDPC may appeal.",
+            "entity_name": "LinkedIn GDPR Irish Data Protection Commission Matter",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "On September 16, 2024, our Board of Directors approved a share repurchase program authorizing up to $60.0 billion in share repurchases. This share repurchase program commenced in April 2025, following completion of the program approved on September 14, 2021, has no expiration date, and may be terminated at any time. As of June 30, 2026, $40.6 billion remained of this $60.0 billion share repurchase program.",
+            "entity_name": "MSFT September 2024 $60B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "fy2026_amount_usd_millions": 16719,
+              "fy2026_shares_millions": 36,
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "All share repurchases were made using cash resources. Shares repurchased during fiscal year 2026 were under the share repurchase program approved on September 16, 2024. The above table excludes shares repurchased to settle employee tax withholding related to the vesting of stock awards of $5.6 billion, $5.4 billion, and $5.3 billion for fiscal years 2026, 2025, and 2024, respectively.",
+            "entity_name": "MSFT FY2026 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Our Board of Directors declared the following dividends: Fiscal Year 2026: September 15, 2025 $0.91 $6,762; December 2, 2025 $0.91 $6,756; March 10, 2026 $0.91 $6,758; June 10, 2026 $0.91 $6,759; Total $3.64 $27,035. Fiscal Year 2025 Total $3.32 $24,676.",
+            "entity_name": "MSFT FY2026 Quarterly Dividend $0.91 Per Share",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 17",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Stock-based compensation expense and related income tax benefits were as follows: Year Ended June 30, 2026: Stock-based compensation expense $12,405 million; Income tax benefits related to stock-based compensation $2,089 million. As of June 30, 2026, total unrecognized compensation costs related to stock awards were $24.8 billion. These costs are expected to be recognized over a weighted average period of three years.",
+            "entity_name": "MSFT FY2026 Stock-Based Compensation Disclosure",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "guidance",
+            "content": "Revenue allocated to remaining performance obligations, which includes unearned revenue and amounts expected to be invoiced and recognized as revenue in future periods, was $684 billion as of June 30, 2026. Revenue allocated to remaining performance obligations related to the commercial portion of revenue was $678 billion as of June 30, 2026, with a weighted average duration of approximately 2.3 years. We expect to recognize approximately 30% of both our total company remaining performance obligation revenue and commercial remaining performance obligation revenue over the next 12 months and the remainder thereafter.",
+            "entity_name": "MSFT Remaining Performance Obligation Revenue Recognition Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Activision Blizzard acquisition"
+            ],
+            "attributes": {
+              "consideration": "cash",
+              "effective_date": "2023-10-13",
+              "event_type": "acquisition",
+              "purchase_price_usd": 75408000000,
+              "segment": "More Personal Computing",
+              "target_company": "Activision Blizzard, Inc."
+            },
+            "identifiers": {},
+            "name": "MSFT Acquisition of Activision Blizzard",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "IRS transfer pricing NOPA",
+              "Microsoft IRS intercompany transfer pricing dispute"
+            ],
+            "attributes": {
+              "counterparty": "Internal Revenue Service",
+              "nopa_date": "2023-09-26",
+              "primary_issue": "intercompany transfer pricing",
+              "proposed_additional_tax_usd": 28900000000,
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "MSFT IRS NOPA Tax Years 2004-2013",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "LinkedIn IDPC GDPR",
+              "LinkedIn data protection matter"
+            ],
+            "attributes": {
+              "appeal_date": "2024-11",
+              "counterparty": "Irish Data Protection Commission",
+              "status": "appealed",
+              "subject": "LinkedIn targeted advertising GDPR compliance"
+            },
+            "identifiers": {},
+            "name": "LinkedIn GDPR Irish Data Protection Commission Matter",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "MSFT Sept 2024 buyback program"
+            ],
+            "attributes": {
+              "amount_usd": 60000000000,
+              "effective_date": "2024-09-16",
+              "remaining_usd": 40600000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "MSFT September 2024 $60B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "MSFT FY2026 buybacks"
+            ],
+            "attributes": {
+              "amount_usd": 16719000000,
+              "period": "FY2026",
+              "return_type": "buyback",
+              "shares_millions": 36
+            },
+            "identifiers": {},
+            "name": "MSFT FY2026 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "MSFT FY2026 dividend"
+            ],
+            "attributes": {
+              "per_share": 0.91,
+              "period": "FY2026",
+              "prior_quarterly_per_share": 0.83,
+              "return_type": "dividend_increase",
+              "total_amount_usd": 27035000000,
+              "total_annual_per_share": 3.64
+            },
+            "identifiers": {},
+            "name": "MSFT FY2026 Quarterly Dividend $0.91 Per Share",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "MSFT FY2026 SBC expense"
+            ],
+            "attributes": {
+              "event_type": "compensation_disclosure",
+              "period": "FY2026",
+              "sbc_expense_usd": 12405000000,
+              "tax_benefit_usd": 2089000000
+            },
+            "identifiers": {},
+            "name": "MSFT FY2026 Stock-Based Compensation Disclosure",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "MSFT RPO recognition timing"
+            ],
+            "attributes": {
+              "metric": "remaining_performance_obligation_revenue_recognition",
+              "new_value": "approximately_30_pct_within_12_months",
+              "period": "next_12_months_from_June_2026",
+              "rpo_commercial_usd": 678000000000,
+              "rpo_total_usd": 684000000000,
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "MSFT Remaining Performance Obligation Revenue Recognition Guidance",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Acquisition of Activision Blizzard",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT IRS NOPA Tax Years 2004-2013",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "LinkedIn GDPR Irish Data Protection Commission Matter",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT September 2024 $60B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2026 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2026 Quarterly Dividend $0.91 Per Share",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2026 Stock-Based Compensation Disclosure",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Remaining Performance Obligation Revenue Recognition Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0001193125-26-323660.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "87e726de6bc7f7bfbb75b11dbb336130c066c79124c964ad9e16968aeda432a7"
+    },
+    {
+      "extracted_at": "2026-11-02T04:11:26Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Our Productivity and Business Processes segment consists of products and services in our portfolio of productivity, communication, and information services, spanning a variety of devices and platforms.",
+            "entity_name": "MSFT Productivity and Business Processes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-07-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "operating_income_millions": 83879,
+              "period": "FY2026",
+              "revenue_millions": 139996,
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Productivity and Business Processes Revenue $ 139,996 $ 120,810 $ 106,820 Cost of revenue 25,017 22,422 19,611 Operating expenses 31,100 28,615 27,548 Operating income $ 83,879 $ 69,773 $ 59,661",
+            "entity_name": "MSFT Productivity and Business Processes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-07-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Our Intelligent Cloud segment consists of our public, private, and hybrid server products and cloud services that power modern business and developers.",
+            "entity_name": "MSFT Intelligent Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-07-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "operating_income_millions": 56972,
+              "period": "FY2026",
+              "revenue_millions": 137791,
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Intelligent Cloud Revenue $ 137,791 $ 106,265 $ 87,464 Cost of revenue 57,876 40,171 29,611 Operating expenses 22,943 21,505 20,040 Operating income $ 56,972 $ 44,589 $ 37,813",
+            "entity_name": "MSFT Intelligent Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-07-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Our More Personal Computing segment consists of products and services that put customers at the center of the experience with our technology.",
+            "entity_name": "MSFT More Personal Computing Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-07-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "operating_income_millions": 14386,
+              "period": "FY2026",
+              "revenue_millions": 54052,
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "More Personal Computing Revenue $ 54,052 $ 54,649 $ 50,838 Cost of revenue 23,481 25,238 24,892 Operating expenses 16,185 15,245 13,987 Operating income $ 14,386 $ 14,166 $ 11,959",
+            "entity_name": "MSFT More Personal Computing Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-07-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Our Microsoft Cloud revenue, which includes Microsoft 365 Commercial cloud, Azure and other cloud services, the commercial portion of LinkedIn, and Dynamics 365, was $214.4 billion, $168.9 billion, and $137.7 billion in fiscal years 2026, 2025, and 2024, respectively.",
+            "entity_name": "MSFT Microsoft Cloud",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-07-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The Company remains under IRS audit, or subject to IRS audit, for tax years subsequent to 2003. During fiscal year 2024, the Company received Notices of Proposed Adjustments (\"NOPAs\") for the tax years 2004 to 2013, primarily related to intercompany transfer pricing. While the Company has settled a portion of the IRS audits, resolution of the remaining matters could have a material impact on the Company's financial statements.",
+            "entity_name": "MSFT IRS Transfer Pricing Audit",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2026-07-29",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Productivity and Business Processes",
+              "P&BP"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Productivity and Business Processes",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Productivity and Business Processes Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Intelligent Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Intelligent Cloud",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Intelligent Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "More Personal Computing",
+              "MPC"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "More Personal Computing",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT More Personal Computing Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Microsoft Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Microsoft Cloud",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Microsoft Cloud",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Microsoft IRS intercompany transfer pricing dispute",
+              "MSFT IRS NOPAs"
+            ],
+            "attributes": {
+              "counterparty": "Internal Revenue Service",
+              "status": "pending",
+              "subject": "intercompany transfer pricing",
+              "tax_years": "2004-2013"
+            },
+            "identifiers": {},
+            "name": "MSFT IRS Transfer Pricing Audit",
+            "type": "LegalProceeding"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.159,
+              "margin": 0.599,
+              "period": "FY2026",
+              "revenue": 139996000000
+            },
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Productivity and Business Processes Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-07-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.297,
+              "margin": 0.414,
+              "period": "FY2026",
+              "revenue": 137791000000
+            },
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Intelligent Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-07-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.011,
+              "margin": 0.266,
+              "period": "FY2026",
+              "revenue": 54052000000
+            },
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT More Personal Computing Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-07-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.269,
+              "period": "FY2026",
+              "revenue": 214400000000
+            },
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Microsoft Cloud",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-07-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT IRS Transfer Pricing Audit",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2026-07-29",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0001193125-26-323660.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "ed351dbe5f253dda7de5beb466306d46913e18768d488d79488647a0bd41ccda"
+    }
+  ],
+  "prompt_version": "v3"
+}

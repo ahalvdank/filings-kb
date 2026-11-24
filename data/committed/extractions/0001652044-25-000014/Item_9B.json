@@ -1,0 +1,245 @@
+{
+  "accession": "0001652044-25-000014",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T15:20:16Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "John Hennessy, Chair of the Board of Directors of Alphabet, through the John L. Hennessy & Andrea J. Hennessy Revocable Trust adopted a trading plan on November 5, 2024 (with the first trade under the plan scheduled for March 13, 2025). The trading plan will be effective until March 13, 2026 to sell 6,000 shares of Class C Capital Stock and 1,200 shares of Class A Common Stock.",
+            "entity_name": "John Hennessy 10b5-1 Plan Adoption 2024-11-05",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Sundar Pichai, Chief Executive Officer, together with the Pichai Family Foundation, adopted a trading plan on December 2, 2024 (with the first trade under the plan scheduled for April 2, 2025). The trading plan will be effective until April 18, 2026 to sell an aggregate of 876,000 shares of Class C Capital Stock.",
+            "entity_name": "Sundar Pichai 10b5-1 Plan Adoption 2024-12-02",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "material_event",
+            "content": "On April 16, 2024, the Leadership Development, Inclusion and Compensation Committee of the Board of Directors of Alphabet approved the accrual of dividend equivalent units to current and future holders of all unvested stock units in connection with any regular cash dividend that may be declared by the Board of Directors of Alphabet from time to time.",
+            "entity_name": "Alphabet Dividend Equivalent Units Policy Approval",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Alphabet",
+              "Google"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "John L. Hennessy"
+            ],
+            "attributes": {
+              "current_company_id": "GOOGL",
+              "insider_status": "director",
+              "officer_role": "ChairOfBoard"
+            },
+            "identifiers": {},
+            "name": "John Hennessy",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "GOOGL",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Sundar Pichai",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "GOOG",
+              "Alphabet GOOG"
+            ],
+            "attributes": {
+              "issuer_ticker": "GOOGL",
+              "share_class": "C"
+            },
+            "identifiers": {
+              "ticker": "GOOG"
+            },
+            "name": "Alphabet Class C Capital Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [
+              "GOOGL Class A"
+            ],
+            "attributes": {
+              "issuer_ticker": "GOOGL",
+              "share_class": "A"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Class A Common Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "first_trade_date": "2025-03-13",
+              "plan_adoption_date": "2024-11-05",
+              "plan_expiration_date": "2026-03-13",
+              "reporting_person": "John Hennessy",
+              "shares_class_a": 1200,
+              "shares_class_c": 6000,
+              "source": "10-K_Item_9B_10b5-1_plan",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "John Hennessy 10b5-1 Plan Adoption 2024-11-05",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "first_trade_date": "2025-04-02",
+              "plan_adoption_date": "2024-12-02",
+              "plan_expiration_date": "2026-04-18",
+              "reporting_person": "Sundar Pichai",
+              "share_class": "C",
+              "shares": 876000,
+              "source": "10-K_Item_9B_10b5-1_plan",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Sundar Pichai 10b5-1 Plan Adoption 2024-12-02",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [
+              "Alphabet DEU Policy 2024"
+            ],
+            "attributes": {
+              "approval_date": "2024-04-16",
+              "approving_body": "Leadership Development, Inclusion and Compensation Committee",
+              "event_type": "compensation_disclosure"
+            },
+            "identifiers": {},
+            "name": "Alphabet Dividend Equivalent Units Policy Approval",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "ChairOfBoard"
+            },
+            "source_name": "John Hennessy",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Sundar Pichai",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "10b5-1 plan adopted 2024-11-05; first trade scheduled 2025-03-13; plan effective until 2026-03-13",
+              "shares": 6000,
+              "transaction_code": "S",
+              "transaction_date": "2025-03-13"
+            },
+            "source_name": "John Hennessy",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Class C Capital Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "10b5-1 plan adopted 2024-11-05; first trade scheduled 2025-03-13; plan effective until 2026-03-13",
+              "shares": 1200,
+              "transaction_code": "S",
+              "transaction_date": "2025-03-13"
+            },
+            "source_name": "John Hennessy",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Class A Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "10b5-1 plan adopted 2024-12-02; first trade scheduled 2025-04-02; plan effective until 2026-04-18",
+              "shares": 876000,
+              "transaction_code": "S",
+              "transaction_date": "2025-04-02"
+            },
+            "source_name": "Sundar Pichai",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Class C Capital Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Alphabet Dividend Equivalent Units Policy Approval",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-25-000014.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "4d2e7d4be43a72ba692d29707d8ecd63ccb995a05c637957489b39aba1cf4790"
+    }
+  ],
+  "prompt_version": "v3"
+}

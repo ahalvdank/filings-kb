@@ -1,0 +1,147 @@
+{
+  "accession": "0000034088-23-000020",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T02:23:52Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "Our principal business involves exploration for, and production of, crude oil and natural gas; manufacture, trade, transport and sale of crude oil, natural gas, petroleum products, petrochemicals, and a wide variety of specialty products; and pursuit of lower-emission business opportunities including carbon capture and storage, hydrogen, and lower-emission fuels.",
+            "entity_name": "ExxonMobil Lower-Emission Business Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "As the Corporation progresses its emission-reduction plans, worldwide environmental expenditures are expected to increase to approximately $7.3 billion in 2023, with capital expenditures expected to account for approximately 46 percent of the total.",
+            "entity_name": "ExxonMobil 2023 Environmental Expenditure Forecast",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "Costs for 2024 are anticipated to increase to approximately $8.2 billion, with capital expenditures expected to account for approximately 51 percent of the total.",
+            "entity_name": "ExxonMobil 2024 Environmental Expenditure Forecast",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "ExxonMobil",
+              "Exxon",
+              "Esso",
+              "Mobil",
+              "XTO"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "XOM"
+            },
+            "name": "Exxon Mobil Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "ExxonMobil carbon capture and hydrogen initiative"
+            ],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "scope": "carbon_capture_storage_hydrogen_lower_emission_fuels"
+            },
+            "identifiers": {},
+            "name": "ExxonMobil Lower-Emission Business Commitment",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "capex_share_pct": 0.46,
+              "metric": "worldwide_environmental_expenditures",
+              "new_value": 7300000000,
+              "period": "2023",
+              "unit": "USD",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "ExxonMobil 2023 Environmental Expenditure Forecast",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "capex_share_pct": 0.51,
+              "metric": "worldwide_environmental_expenditures",
+              "new_value": 8200000000,
+              "period": "2024",
+              "unit": "USD",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "ExxonMobil 2024 Environmental Expenditure Forecast",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "ExxonMobil Lower-Emission Business Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "XOM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "ExxonMobil 2023 Environmental Expenditure Forecast",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "XOM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "ExxonMobil 2024 Environmental Expenditure Forecast",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-23-000020.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "2e0796faaa12db38dfba5a9ba9bf1f3380e3d5cdecb8c885ea5de7e0b19b3f08"
+    }
+  ],
+  "prompt_version": "v3"
+}

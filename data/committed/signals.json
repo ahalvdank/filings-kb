@@ -1,0 +1,2313 @@
+{
+  "meta": {
+    "claim_diff_failed": 0,
+    "claim_diff_model": "claude-sonnet-4-6",
+    "claim_diff_no_claims": 3,
+    "claim_diff_ok": 20,
+    "claim_diff_prompt_sha256": "71d2da8ab6cdab15e1608c2f958dd4ee476ccefb8769395dad274dfc53c246fc",
+    "claim_diff_requested": 24,
+    "rows": 96,
+    "rows_with_none_sentiment": 4,
+    "rows_with_none_tone": 4,
+    "sentiment_max_tokens": 512,
+    "sentiment_model": "ProsusAI/finbert",
+    "sentiment_scored_chunks": 2898,
+    "sentiment_truncated_chunks": 747,
+    "status": "shadow"
+  },
+  "signals": [
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_1A",
+      "prior_fy": 2021,
+      "sentiment_shift": 0.051902,
+      "status": "shadow",
+      "ticker": "AMD",
+      "tone_shift": 0.009769
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_1A",
+      "prior_fy": 2022,
+      "sentiment_shift": 0.002027,
+      "status": "shadow",
+      "ticker": "AMD",
+      "tone_shift": 0.014167
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_1A",
+      "prior_fy": 2023,
+      "sentiment_shift": -0.040624,
+      "status": "shadow",
+      "ticker": "AMD",
+      "tone_shift": 0.008038
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "AMD Competitive Market Intensity Risk",
+          "AMD China Export Control Market Access Risk",
+          "AMD AI Infrastructure Demand Trajectory Risk",
+          "AMD Memory and Materials Supply Shortage Risk",
+          "AMD Tariff and Trade Policy Risk",
+          "AMD THATIC JV BIS Entity List Exposure",
+          "AMD U.S. Government MI308 Revenue Sharing Demand Risk",
+          "AMD MI308 Export Restriction and Inventory Charge",
+          "BIS AI Diffusion Rule Rescission",
+          "BIS Entity List 50% Ownership Rule",
+          "AMD Export Control and EAR/ITAR Compliance Risk",
+          "AMD Tax Law Change and Examination Risk",
+          "AMD Environmental and Conflict Minerals Compliance Risk",
+          "AMD ESG and Corporate Responsibility Compliance Risk",
+          "AMD Responsible AI Use and Reputational Risk",
+          "AMD Commercial Commitment and Counterparty Risk"
+        ],
+        "changed": [
+          [
+            "AMD Third-Party Foundry Concentration Risk: key suppliers listed as TSMC, GLOBALFOUNDRIES, UMC, Samsung",
+            "AMD Third-Party Wafer Foundry Concentration Risk: key suppliers narrowed to TSMC and GLOBALFOUNDRIES only"
+          ],
+          [
+            "AMD Deferred Tax Asset Realization Risk: category=tax",
+            "AMD Deferred Tax Asset Realization Risk: category=financial"
+          ],
+          [
+            "AMD Litigation and IP Infringement Risk: listed as two separate entries (AMD Litigation and Legal Claims Risk and AMD Litigation and IP Infringement Risk)",
+            "AMD Litigation and IP Infringement Risk: consolidated into a single entry"
+          ],
+          [
+            "AMD Environmental and Regulatory Compliance Risk: category=regulatory; geography=global",
+            "AMD Environmental and Conflict Minerals Compliance Risk: scope expanded to include conflict minerals"
+          ],
+          [
+            "AMD ESG and Corporate Responsibility Reporting Risk: framed as a reporting risk",
+            "AMD ESG and Corporate Responsibility Compliance Risk: reframed as a compliance risk"
+          ],
+          [
+            "AMD Responsible AI Use Risk: category=reputational (standalone)",
+            "AMD Responsible AI Use and Reputational Risk: explicitly combined with reputational dimension in name"
+          ],
+          [
+            "AMD Acquisitions and Integration Risk / AMD Acquisition and Integration Risk: two overlapping entries, category=merger_acquisition and category=strategic",
+            "AMD Acquisition and Integration Risk: single entry, category=operational"
+          ],
+          [
+            "AMD ZT Systems Acquisition Closing Risk: status=pending_at_filing; termination_fee_usd=300000000",
+            "AMD Acquisition of ZT Systems: effective_date=2025-03; acquisition completed"
+          ],
+          [
+            "AMD $12B Stock Repurchase Program: amount_usd=12000000000; remaining_usd=4700000000 as of 2024-12-28",
+            "AMD $14B Stock Repurchase Authorization: amount_usd=14000000000; remaining_usd=9400000000 as of 2025-12-27"
+          ],
+          [
+            "AMD Cybersecurity and IT Outage Risk: category=cybersecurity",
+            "AMD Cybersecurity and IT Systems Threat Risk: category=operational"
+          ],
+          [
+            "AMD Natural Disaster and Climate Operational Risk: no geography specified",
+            "AMD Natural Disaster and Climate Operational Risk: geography=global added"
+          ],
+          [
+            "AMD Talent Retention Risk: category=human_capital",
+            "AMD Employee Retention and Talent Risk: category=operational"
+          ],
+          [
+            "AMD Debt Covenant Restriction Risk: category=financial",
+            "AMD Debt Covenant Operating Restriction Risk: category=financial (name expanded to emphasize operating restrictions)"
+          ],
+          [
+            "AMD Geopolitical and International Operations Risk: category=geopolitical; geography=global",
+            "AMD Geopolitical and Global Operations Risk: category=geopolitical; geography=global (minor rename)"
+          ]
+        ],
+        "removed": [
+          "AMD Intel Microprocessor Competition Risk",
+          "AMD Nvidia GPU and AI Accelerator Competition Risk",
+          "AMD End-Market Demand Fluctuation Risk",
+          "AMD Product Development and Introduction Timing Risk",
+          "AMD Customer Concentration Risk",
+          "AMD Macroeconomic and Market Uncertainty Risk",
+          "AMD Intellectual Property Protection Risk",
+          "AMD Foreign Currency Exchange Rate Risk",
+          "AMD Essential Equipment and Materials Availability Risk",
+          "AMD Third-Party Manufacturing Yield Risk",
+          "AMD Semi-Custom SoC Revenue Dependency Risk",
+          "AMD Product Security Vulnerability Risk",
+          "AMD Demand Forecasting and Inventory Management Risk",
+          "AMD Microsoft Software Support Dependency Risk",
+          "AMD Distributor and AIB Partner Risk",
+          "AMD Gray Market Sales Risk",
+          "AMD Export Control and China AI Chip Restriction Risk",
+          "AMD Global Tax Liability and Regulatory Change Risk",
+          "AMD ZT Systems Acquisition Closing Risk",
+          "AMD Defective Products Risk",
+          "AMD Litigation and Legal Claims Risk",
+          "AMD ESG and Corporate Responsibility Reporting Risk",
+          "AMD Responsible AI Use Risk",
+          "AMD Acquisition and Integration Risk",
+          "AMD ZT Systems Manufacturing Business Divestiture",
+          "AMD Senior Notes 3.924% due 2032 and 4.393% due 2052",
+          "AMD Guarantee of Xilinx 2.375% Notes due 2030",
+          "AMD $3.0B Revolving Credit Agreement",
+          "AMD Acquisition of Silo AI Oy"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2025,
+      "item": "Item_1A",
+      "prior_fy": 2024,
+      "sentiment_shift": 0.039023,
+      "status": "shadow",
+      "ticker": "AMD",
+      "tone_shift": 0.009953
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_7_MDA",
+      "prior_fy": 2021,
+      "sentiment_shift": -0.186566,
+      "status": "shadow",
+      "ticker": "AMD",
+      "tone_shift": 0.131341
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_7_MDA",
+      "prior_fy": 2022,
+      "sentiment_shift": -0.046522,
+      "status": "shadow",
+      "ticker": "AMD",
+      "tone_shift": 0.096127
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_7_MDA",
+      "prior_fy": 2023,
+      "sentiment_shift": 0.074385,
+      "status": "shadow",
+      "ticker": "AMD",
+      "tone_shift": 0.087103
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "AMD Client and Gaming Segment",
+          "AMD Divestiture of ZT Manufacturing Business",
+          "AMD OpenAI GPU Deployment Agreement",
+          "AMD MI308 U.S. Export Control Restriction",
+          "AMD IRS Dual Consolidated Loss Relief",
+          "One Big Beautiful Bill Act Impact on AMD",
+          "AMD March 2025 $1.5B Notes Issuance",
+          "AMD OpenAI Warrant Issuance",
+          "AMD MI308 U.S. Government Revenue Share Requirement",
+          "AMD OECD Pillar Two Global Minimum Tax Exposure"
+        ],
+        "changed": [
+          [
+            "Pending acquisition of ZT Group Int'l announced Aug 2024 for $3.4B cash and 8.3M shares, with up to $300M additional cash and 741K additional shares contingent consideration",
+            "Acquisition of ZT Systems completed March 2025 for stated $3.2B cash and 8.3M shares (9.1M total shares issued); net cash paid $2.0B after proceeds from simultaneous divestiture of manufacturing business"
+          ],
+          [
+            "FY2024 repurchased 5.9M shares for $862M; $4.7B remaining authorization",
+            "FY2025 repurchased 12.4M shares for $1.3B; $9.4B remaining authorization"
+          ]
+        ],
+        "removed": [
+          "AMD Client Segment",
+          "AMD Gaming Segment",
+          "AMD Acquisition of Silo AI Oy",
+          "AMD 2024 Restructuring Plan",
+          "AMD June 2024 2.95% Senior Notes Repayment"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2025,
+      "item": "Item_7_MDA",
+      "prior_fy": 2024,
+      "sentiment_shift": 0.146793,
+      "status": "shadow",
+      "ticker": "AMD",
+      "tone_shift": 0.107525
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_1A",
+      "prior_fy": 2021,
+      "sentiment_shift": 0.025278,
+      "status": "shadow",
+      "ticker": "AMZN",
+      "tone_shift": 0.011711
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_1A",
+      "prior_fy": 2022,
+      "sentiment_shift": 0.003611,
+      "status": "shadow",
+      "ticker": "AMZN",
+      "tone_shift": 0.014489
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_1A",
+      "prior_fy": 2023,
+      "sentiment_shift": -0.021915,
+      "status": "shadow",
+      "ticker": "AMZN",
+      "tone_shift": 0.003329
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "AMZN AI and New Technology Investment Risk",
+          "AMZN Climate Change Operational Risk"
+        ],
+        "changed": [
+          [
+            "China-based seller and supplier concentration categorized as supply chain risk",
+            "China seller concentration reframed as geopolitical risk; supplier supply-chain angle dropped"
+          ],
+          [
+            "IP infringement risk explicitly names AI copyright as a component",
+            "AI copyright no longer separately named; risk scoped to IP infringement only"
+          ],
+          [
+            "System interruption risk focused on website availability",
+            "System interruption risk focused on infrastructure redundancy"
+          ],
+          [
+            "Inventory risk centered on demand forecasting failures",
+            "Inventory risk centered on write-offs"
+          ],
+          [
+            "Tax risk names global minimum tax as a specific concern",
+            "Tax risk reframed around collection obligations; global minimum tax no longer named"
+          ]
+        ],
+        "removed": [
+          "AMZN New Product Service and Geographic Expansion Risk",
+          "AMZN International Operations Risk",
+          "AMZN Retail Demand Variability and Seasonality Risk",
+          "AMZN Operational Expansion and Management Strain Risk",
+          "AMZN Operating Results Fluctuation and Revenue Growth Sustainability Risk",
+          "AMZN Fulfillment Network and Data Center Optimization Risk",
+          "AMZN Commercial Agreement and Strategic Alliance Risk",
+          "AMZN Acquisition and Investment Integration Risk",
+          "AMZN Payment Processing Fraud and Regulatory Compliance Risk",
+          "AMZN Stock Price Volatility Risk",
+          "AMZN Claims Litigation and Government Investigation Risk",
+          "AMZN Government Contracts Procurement and Audit Risk"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2025,
+      "item": "Item_1A",
+      "prior_fy": 2024,
+      "sentiment_shift": 0.03679,
+      "status": "shadow",
+      "ticker": "AMZN",
+      "tone_shift": 0.009822
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_7_MDA",
+      "prior_fy": 2021,
+      "sentiment_shift": 0.031127,
+      "status": "shadow",
+      "ticker": "AMZN",
+      "tone_shift": 0.037979
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_7_MDA",
+      "prior_fy": 2022,
+      "sentiment_shift": 0.072142,
+      "status": "shadow",
+      "ticker": "AMZN",
+      "tone_shift": 0.052749
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_7_MDA",
+      "prior_fy": 2023,
+      "sentiment_shift": -0.088872,
+      "status": "shadow",
+      "ticker": "AMZN",
+      "tone_shift": 0.039154
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "AMZN Q1 2026 Net Sales Guidance",
+          "AMZN Q1 2026 Operating Income Guidance",
+          "Amazon FTC Lawsuit Settlement",
+          "AMZN 2025 Workforce Restructuring",
+          "AMZN 2025 Debt Issuance"
+        ],
+        "changed": [],
+        "removed": [
+          "AMZN Q1 2025 Net Sales Guidance",
+          "AMZN Q1 2025 Operating Income Guidance",
+          "AMZN 2025 Capital Expenditures Guidance",
+          "AMZN Anthropic Convertible Note Investment Series",
+          "AMZN Server Useful Life Accounting Change"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2025,
+      "item": "Item_7_MDA",
+      "prior_fy": 2024,
+      "sentiment_shift": 0.083103,
+      "status": "shadow",
+      "ticker": "AMZN",
+      "tone_shift": 0.079199
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_1A",
+      "prior_fy": 2021,
+      "sentiment_shift": 0.207916,
+      "status": "shadow",
+      "ticker": "BA",
+      "tone_shift": 0.025006
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_1A",
+      "prior_fy": 2022,
+      "sentiment_shift": -0.119948,
+      "status": "shadow",
+      "ticker": "BA",
+      "tone_shift": 0.014566
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_1A",
+      "prior_fy": 2023,
+      "sentiment_shift": 0.042339,
+      "status": "shadow",
+      "ticker": "BA",
+      "tone_shift": 0.031135
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "Boeing Digital Aviation Solutions Business Divestiture",
+          "BA Spirit Exchangeable Notes $230M 3.250% November 2028"
+        ],
+        "changed": [
+          [
+            "BA 737 Production Quality and FAA Oversight Risk: operational focus on manufacturing quality defects and heightened FAA regulatory oversight of the 737 program",
+            "Boeing 737 Production Rate Increase Execution Risk: focus shifted to execution risk of ramping 737 production to 47 aircraft per month by 2026"
+          ],
+          [
+            "BA New Aircraft Certification Delay Risk: certification delays for 777X, 737-7, and 737-10 with no loss figures disclosed",
+            "Boeing 777X Certification and Delivery Delay Risk: same programs; now discloses reach-forward losses of $3.5B (2024) and $4.9B (2025) with first 777X delivery expected 2027"
+          ],
+          [
+            "BA U.S. Government Defense Spending Uncertainty Risk: political uncertainty over BDS segment defense spending with no revenue percentage given",
+            "Boeing U.S. Defense Spending and Government Appropriations Risk: same risk now quantified at 35% of total 2025 revenue from U.S. government"
+          ],
+          [
+            "BA Labor Union Work Stoppage Risk: 58,000 unionized employees representing 34% of workforce",
+            "Boeing Labor Union Work Stoppage Risk: 72,000 unionized employees representing 40% of workforce"
+          ],
+          [
+            "BA International Sales and Geopolitical Risk: broad geopolitical exposure; non-U.S. revenue 46% of 2024 revenue",
+            "Boeing International Trade Policy and Tariff Exposure Risk: focus explicitly extended to tariff and trade-policy exposure; non-U.S. revenue remains 46% (now stated as 2025 figure)"
+          ],
+          [
+            "BA China Trade Relations Risk: broad China trade-relations risk",
+            "Boeing China Aircraft Delivery and Market Access Risk: risk narrowed specifically to inability to deliver aircraft to Chinese customers and loss of market access"
+          ],
+          [
+            "BA Spirit AeroSystems Acquisition Completion and Integration Risk: dual risk of completing the acquisition and then integrating Spirit",
+            "Boeing Spirit AeroSystems Acquisition Integration Risk: acquisition completed; risk is now solely post-close integration execution"
+          ],
+          [
+            "BA Liquidity and Capital Markets Access Risk: airplane financing commitments $17.1B; debt due within 3 years $13.6B; total debt $53.9B; 2024 operating cash flow -$12.1B",
+            "Boeing Liquidity and Debt Maturity Risk: airplane financing commitments reduced to $15.2B; debt due within 3 years increased to $15.5B; total debt $54.1B; operating cash flow figure no longer disclosed"
+          ],
+          [
+            "BA Fixed-Price Defense Contract Loss Risk: 2024 additional losses $5.0B across five named programs (KC-46A, T-7A, Commercial Crew, VC-25B, MQ-25)",
+            "Boeing BDS Fixed-Price Development Contract Overrun Risk: specific program losses removed; risk now described as 60% of 2025 BDS revenue on fixed-price contracts"
+          ],
+          [
+            "BA Climate Change and ESG Regulatory Risk: climate change and broader ESG regulatory exposure",
+            "Boeing Climate Change and Environmental Regulatory Compliance Risk: ESG framing dropped; risk restated as climate change and environmental regulatory compliance"
+          ],
+          [
+            "BA Pending Acquisition of Spirit AeroSystems Holdings: all-stock deal pending, stockholder approval received 2025-01-31, closing not yet complete",
+            "Boeing Acquisition of Spirit AeroSystems: acquisition completed, effective December 2025"
+          ],
+          [
+            "BA 6.00% Series A Mandatory Convertible Preferred Stock: coupon 6%, liquidation preference $1,000/share, mandatory conversion 2027-10-15, annual dividend $345M; conversion rates not disclosed",
+            "BA 6.00% Series A Mandatory Convertible Preferred Stock: same terms; conversion rates now specified (minimum 5.828 shares, maximum 6.994 shares per preferred share)"
+          ]
+        ],
+        "removed": [
+          "BA Commercial Airline Market Demand Risk",
+          "BA Credit Rating Downgrade Risk",
+          "BA Pension and Postretirement Benefit Obligation Risk",
+          "BA Litigation and Government Investigation Risk",
+          "BA Environmental Liability Risk",
+          "BA Boeing Distribution 2023 Cybersecurity Incident",
+          "BA Jeppesen 2022 Cybersecurity Incident"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2025,
+      "item": "Item_1A",
+      "prior_fy": 2024,
+      "sentiment_shift": -0.005257,
+      "status": "shadow",
+      "ticker": "BA",
+      "tone_shift": 0.013032
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_7_MDA",
+      "prior_fy": 2021,
+      "sentiment_shift": 0.016838,
+      "status": "shadow",
+      "ticker": "BA",
+      "tone_shift": 0.033943
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_7_MDA",
+      "prior_fy": 2022,
+      "sentiment_shift": 0.070699,
+      "status": "shadow",
+      "ticker": "BA",
+      "tone_shift": 0.037179
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_7_MDA",
+      "prior_fy": 2023,
+      "sentiment_shift": -0.029703,
+      "status": "shadow",
+      "ticker": "BA",
+      "tone_shift": 0.040796
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "BA Digital Aviation Solutions Divestiture",
+          "BA Spirit Acquisition",
+          "BA Spirit Acquisition Share Exchange December 2025",
+          "BA August 2025 $3.0B 364-Day Revolving Credit Agreement",
+          "BA Fitch BBB- Credit Rating Affirmation June 2025",
+          "BA S&P BBB- Credit Rating Affirmation October 2025",
+          "BA 737 Production Rate Increase to 47 Per Month in 2026",
+          "BA 737-7 and 737-10 FAA Certification Expected 2026",
+          "BA 767 Commercial Production Completion by 2027",
+          "BA FY2026 Pension Contribution Guidance",
+          "BA SPEEA Contract Expiry Risk",
+          "BA 737-7 and 737-10 Certification and Delivery Risk",
+          "BA 777X 767 Program Further Earnings Charges Risk"
+        ],
+        "changed": [
+          [
+            "BA Agreement to Acquire Spirit AeroSystems: pending all-stock acquisition at $37.25/share, $4.7B equity value, with assumption of Spirit net debt",
+            "BA Acquisition of Spirit AeroSystems Holdings: acquisition closed December 8, 2025 via share exchange"
+          ],
+          [
+            "Boeing DOJ Agreement: potential fine of $244M, status pending",
+            "BA U.S. Department of Justice Agreements: settled; 2024 charge $244M plus additional 2025 charge $445M"
+          ],
+          [
+            "BA 777-9 First Delivery 2026 Guidance: first delivery expected in 2026",
+            "BA 777-9 First Delivery Expected 2027: first delivery slipped to 2027"
+          ],
+          [
+            "BA 777-8 Freighter First Delivery 2028 Guidance: first delivery expected in 2028",
+            "BA 777-8 Freighter First Delivery Approximately Two Years After 777-9: first delivery approximately two years after 777-9 (~2029)"
+          ],
+          [
+            "BA 2025 Capital Expenditure Growth Outlook: FY2025 guidance, prior-year CapEx base $2.2B",
+            "BA FY2026 Capital Expenditure Growth Guidance: FY2026 guidance, prior-year CapEx base $2.9B"
+          ],
+          [
+            "BA Moody's Downgrade to Baa3/P-3 April 2024: downgraded to Baa3/P-3 and placed on review for further downgrade; S&P also placed on review for downgrade",
+            "BA Moody's Baa3 Credit Rating Affirmation December 2025: Baa3 affirmed with outlook revised to stable from negative"
+          ],
+          [
+            "BA 777X Certification and Delivery Delay Risk: certification and delivery delay risk",
+            "BA 777X Program Certification and Reach-Forward Loss Risk: now also includes $4.899B reach-forward loss recorded in FY2025"
+          ],
+          [
+            "BA 737 FAA Production Rate Cap Risk: FAA capped 737 production at 38 aircraft per month pending quality and safety compliance",
+            "BA 737 Production Rate FAA Concurrence Requirement: reframed as ongoing FAA concurrence requirement; specific 38/month cap no longer cited"
+          ],
+          [
+            "BA Fixed-Price Development Program Ongoing Loss Risk: FY2024 cumulative catch-up loss $6.562B across BDS programs",
+            "BA Fixed-Price Development Program Loss Risk: FY2025 earnings impact -$1.377B across same programs"
+          ],
+          [
+            "BA Deferred Tax Valuation Allowance Expansion Risk: valuation allowance $7.837B as of 2024-12-31, with $3.287B increase in 2024",
+            "BA Deferred Tax Valuation Allowance Risk: valuation allowance grew to $9.754B"
+          ],
+          [
+            "BA Supply Chain Disruptions and Labor Instability Risk: supply chain disruptions and labor instability",
+            "BA Supply Chain Disruption and Inflation Risk: labor instability removed; inflation added as a cited risk factor"
+          ],
+          [
+            "BA U.S. Government Budget and Funding Uncertainty Risk: broad budget and funding uncertainty",
+            "BA U.S. Government Funding and Shutdown Risk: government shutdown risk specifically highlighted"
+          ]
+        ],
+        "removed": [
+          "IAM 751 Work Stoppage 2024",
+          "BA 767 Freighter Program Production End Decision",
+          "BA FAA 737 Production Rate Cap Regulatory Action",
+          "BA Q4 2024 Common Stock Issuance",
+          "BA Q4 2024 Mandatory Convertible Preferred Stock Issuance",
+          "BA Q2 2024 $10B Fixed-Rate Senior Notes Issuance",
+          "BA Q2 2024 $4.0B Five-Year Revolving Credit Agreement",
+          "BA Acquisition of Spirit AeroSystems",
+          "BA BGS Commercial Revenue Outlook",
+          "BA Revenue Impact Pending Delivery Ramp Guidance",
+          "BA Pension Higher Contribution Risk"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2025,
+      "item": "Item_7_MDA",
+      "prior_fy": 2024,
+      "sentiment_shift": 0.043992,
+      "status": "shadow",
+      "ticker": "BA",
+      "tone_shift": 0.046968
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_1A",
+      "prior_fy": 2021,
+      "sentiment_shift": 0.00523,
+      "status": "shadow",
+      "ticker": "CVX",
+      "tone_shift": 0.011888
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_1A",
+      "prior_fy": 2022,
+      "sentiment_shift": 0.012854,
+      "status": "shadow",
+      "ticker": "CVX",
+      "tone_shift": 0.017405
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_1A",
+      "prior_fy": 2023,
+      "sentiment_shift": 0.063468,
+      "status": "shadow",
+      "ticker": "CVX",
+      "tone_shift": 0.010615
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "CVX Artificial Intelligence Technology Risk",
+          "CVX Hess Midstream General Partner Liability Risk",
+          "CVX Acquisition of Hess Corporation"
+        ],
+        "changed": [
+          [
+            "CVX Cybersecurity Risk covers cybersecurity threats only",
+            "CVX Cybersecurity and Digital Infrastructure Risk expands scope to include digital infrastructure alongside cybersecurity"
+          ],
+          [
+            "CVX Resource Replacement and Business Decline Risk categorized as operational",
+            "CVX Resource Replacement and Business Decline Risk reclassified as strategic"
+          ],
+          [
+            "CVX Operational Hazards and Safety Risk named with explicit safety language, categorized as operational",
+            "CVX Operational Hazards Risk drops 'and Safety' from name, recategorized as operational_safety"
+          ],
+          [
+            "CVX Self-Insurance and Catastrophic Loss Risk framed around catastrophic loss exposure",
+            "CVX Self-Insurance Financial Exposure Risk drops catastrophic loss framing, recast as general financial exposure"
+          ],
+          [
+            "CVX Hess Integration Risk pre-acquisition completion, categorized as strategic with no close date",
+            "CVX Hess Acquisition Integration Risk post-acquisition completion (close_date=2025-07), recategorized as acquisition_integration"
+          ],
+          [
+            "CVX Political Instability and Regulatory Change Risk scoped globally with no named geographies",
+            "CVX Political Instability and Regulatory Environment Risk names specific geographies: Venezuela, Russia, European Union"
+          ],
+          [
+            "CVX Tax Law Change Risk covers general tax law changes with no named jurisdictions",
+            "CVX Tax Law Changes and Windfall Profit Tax Risk explicitly adds windfall profit tax exposure with California and Australia named as specific jurisdictions"
+          ],
+          [
+            "CVX ESG Attention and Capital Access Risk framed around capital access constraints from ESG scrutiny",
+            "CVX ESG Stakeholder Pressure and Divestment Risk reframed around stakeholder pressure and divestment risk, replacing capital access language"
+          ],
+          [
+            "CVX ESG Ambitions and Disclosure Risk scoped globally (category=esg, geography=global)",
+            "CVX ESG Ambitions and Disclosure Achievement Risk narrows category to esg_disclosure and drops global geography scope"
+          ]
+        ],
+        "removed": [
+          "CVX Net Zero Upstream Scope 1 and 2 by 2050",
+          "CVX Hess Acquisition Completion Risk",
+          "HGEL Stabroek Block ROFR Arbitration",
+          "CVX Hess FTC Antitrust Consent Agreement"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2025,
+      "item": "Item_1A",
+      "prior_fy": 2024,
+      "sentiment_shift": -0.044236,
+      "status": "shadow",
+      "ticker": "CVX",
+      "tone_shift": 0.015794
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_7_MDA",
+      "prior_fy": 2021,
+      "sentiment_shift": -0.001994,
+      "status": "shadow",
+      "ticker": "CVX",
+      "tone_shift": 0.075575
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_7_MDA",
+      "prior_fy": 2022,
+      "sentiment_shift": 0.0,
+      "status": "shadow",
+      "ticker": "CVX",
+      "tone_shift": 0.0
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_7_MDA",
+      "prior_fy": 2023,
+      "sentiment_shift": 0.0,
+      "status": "shadow",
+      "ticker": "CVX",
+      "tone_shift": 0.0
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "no_claims",
+      "current_fy": 2025,
+      "item": "Item_7_MDA",
+      "prior_fy": 2024,
+      "sentiment_shift": 0.0,
+      "status": "shadow",
+      "ticker": "CVX",
+      "tone_shift": 0.0
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_1A",
+      "prior_fy": 2021,
+      "sentiment_shift": 0.044043,
+      "status": "shadow",
+      "ticker": "GOOGL",
+      "tone_shift": 0.01666
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_1A",
+      "prior_fy": 2022,
+      "sentiment_shift": 0.071857,
+      "status": "shadow",
+      "ticker": "GOOGL",
+      "tone_shift": 0.017221
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_1A",
+      "prior_fy": 2023,
+      "sentiment_shift": 0.004158,
+      "status": "shadow",
+      "ticker": "GOOGL",
+      "tone_shift": 0.007424
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "GOOGL AI Disruption of Advertising Industry Risk",
+          "GOOGL AI Infrastructure Capital Commitment Risk",
+          "GOOGL Power and Energy Infrastructure Constraint Risk",
+          "GOOGL Cyber Attack and Nation-State Threat Risk",
+          "GOOGL Foreign Currency Exchange Rate Risk",
+          "GOOGL Stock Ownership Concentration and Governance Risk",
+          "Alphabet AI Talent Competition and Retention Risk",
+          "Alphabet Immigration Policy Workforce Risk",
+          "Alphabet Corporate Culture Adaptation Risk"
+        ],
+        "changed": [
+          [
+            "Advertising revenue approximately 75% of total revenue (2024)",
+            "Advertising revenue approximately 70% of total revenue in Google Services segment (2025)"
+          ],
+          [
+            "Risk framed as broad competitive intensity combined with AI competition",
+            "Risk narrowed to AI competition specifically"
+          ],
+          [
+            "AI development risk centered on ethical concerns and legal exposure",
+            "AI development risk reframed around liability and regulatory exposure; ethical framing removed"
+          ],
+          [
+            "IT systems interruption and cybersecurity bundled as a single risk",
+            "IT systems interruption risk stands alone; cybersecurity split into separate standalone risks"
+          ],
+          [
+            "International operations risk combined with foreign exchange risk; international revenue 51% (2024)",
+            "International operations risk reframed around geopolitical concerns; FX split into a separate risk; international revenue 52% (2025)"
+          ],
+          [
+            "Data privacy risk framed as security and regulatory compliance",
+            "Data privacy risk reframed to explicitly include cybersecurity; regulatory framing de-emphasized"
+          ],
+          [
+            "Regulatory compliance risk named with antitrust as a key sub-topic",
+            "Regulatory compliance risk reframed around changing laws broadly; antitrust label removed from risk name"
+          ],
+          [
+            "DOJ/State AGs Search antitrust case in remedies proceeding phase, status pending",
+            "DOJ/State AGs Search antitrust case status changed to appealed"
+          ],
+          [
+            "State AGs Ad Tech antitrust (E.D. Tex.) pending with trial scheduled for 2025-03",
+            "State AGs Ad Tech antitrust (E.D. Tex.) pending; no trial date noted"
+          ],
+          [
+            "DOJ Ad Tech antitrust (E.D. Va.) pending with trial concluded 2024-09 and decision expected early 2025",
+            "DOJ Ad Tech antitrust (E.D. Va.) still pending; no decision timeline noted"
+          ]
+        ],
+        "removed": [
+          "Epic Games v. Google - Google Play Antitrust",
+          "GOOGL April 2024 Cash Dividend Program",
+          "GOOGL Share Repurchase Program",
+          "Larry Page and Sergey Brin Combined Class B Holdings (2024-12-31 snapshot)"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2025,
+      "item": "Item_1A",
+      "prior_fy": 2024,
+      "sentiment_shift": -0.024213,
+      "status": "shadow",
+      "ticker": "GOOGL",
+      "tone_shift": 0.01091
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_7_MDA",
+      "prior_fy": 2021,
+      "sentiment_shift": -0.12649,
+      "status": "shadow",
+      "ticker": "GOOGL",
+      "tone_shift": 0.034457
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_7_MDA",
+      "prior_fy": 2022,
+      "sentiment_shift": 0.129849,
+      "status": "shadow",
+      "ticker": "GOOGL",
+      "tone_shift": 0.033185
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_7_MDA",
+      "prior_fy": 2023,
+      "sentiment_shift": -0.019564,
+      "status": "shadow",
+      "ticker": "GOOGL",
+      "tone_shift": 0.034407
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "GOOGL FY2026 Technical Infrastructure Capex Guidance",
+          "GOOGL Pending Acquisition of Wiz Inc.",
+          "GOOGL Pending Acquisition of Intersect",
+          "GOOGL EC Fine Accrual Q3 2025",
+          "GOOGL US Tax Law Changes July 2025",
+          "GOOGL Waymo Q4 2025 Valuation-Based Compensation Charge",
+          "GOOGL FY2025 Share Repurchases",
+          "GOOGL April 2025 $70B Share Repurchase Authorization",
+          "GOOGL April 2025 Quarterly Dividend Increase",
+          "GOOGL May 2025 Senior Unsecured Notes Issuance",
+          "GOOGL November 2025 Senior Unsecured Notes Issuance",
+          "GOOGL International Trade and Macroeconomic Volatility Risk",
+          "GOOGL OECD Global Minimum Tax Risk"
+        ],
+        "changed": [],
+        "removed": [
+          "GOOGL FY2025 Technical Infrastructure CapEx Guidance",
+          "GOOGL 2024 Share Repurchases",
+          "GOOGL April 2024 $70B Repurchase Authorization",
+          "GOOGL 2024 Inaugural Dividend Program",
+          "EC 2017 Google Shopping Fine",
+          "EC 2018 Google Competition Fine",
+          "EC 2019 Google Competition Fine"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2025,
+      "item": "Item_7_MDA",
+      "prior_fy": 2024,
+      "sentiment_shift": 0.076514,
+      "status": "shadow",
+      "ticker": "GOOGL",
+      "tone_shift": 0.0663
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_1A",
+      "prior_fy": 2021,
+      "sentiment_shift": -0.054106,
+      "status": "shadow",
+      "ticker": "INTC",
+      "tone_shift": 0.009655
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_1A",
+      "prior_fy": 2022,
+      "sentiment_shift": 0.117369,
+      "status": "shadow",
+      "ticker": "INTC",
+      "tone_shift": 0.016369
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_1A",
+      "prior_fy": 2023,
+      "sentiment_shift": -0.023441,
+      "status": "shadow",
+      "ticker": "INTC",
+      "tone_shift": 0.011956
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "INTC Semiconductor Industry Competition Risk",
+          "INTC R&D and Manufacturing Capital Investment Return Risk",
+          "INTC SCIP Alternative Financing Arrangement Risk",
+          "INTC U.S. Government Equity Dilution and Governance Risk",
+          "INTC Processor Security Vulnerability Risk",
+          "INTC Product Defect and Errata Risk",
+          "INTC Global Supply Chain Single-Source Dependency Risk",
+          "INTC PC and Data Center Product Demand Variability Risk",
+          "INTC Manufacturing Facility Cancellations and Delays",
+          "INTC Q3 2025 U.S. Government Common Stock Equity Issuance",
+          "INTC Distributor Channel Concentration Risk",
+          "INTC Share Repurchase Authorization (2005, as amended 2019)",
+          "INTC CEO Appointment of Lip-Bu Tan (March 2025)",
+          "INTC EVP CTO and COO Appointment of Nagasubramaniyan Chandrasekaran (September 2025)"
+        ],
+        "changed": [
+          [
+            "INTC Foundry Strategy Competitive Execution Risk: general foundry execution risk, no named competitors",
+            "INTC Intel Foundry Business Competitive Risk: explicitly names TSMC, Samsung, Global Foundries, UMC, and SMIC as competitors"
+          ],
+          [
+            "INTC AI GPU Data Center Market Shift Risk: risk of data center customers shifting spend to AI GPU competitors",
+            "INTC AI Market Competition and Positioning Risk: broadened to AI accelerators, AI PCs, and data center GPU competitive positioning"
+          ],
+          [
+            "China revenue 29% of total revenue",
+            "China revenue 24% of FY2025 total revenue; total international revenue noted as 70%"
+          ],
+          [
+            "General Israel operations geopolitical risk",
+            "Specifically names Intel Israel leading-edge fab (Intel 7 node at risk) and Mobileye as affected entities; notes absence of war insurance coverage"
+          ],
+          [
+            "INTC Taiwan-TSMC Supply Chain Concentration Risk: supply chain concentration on Taiwan/TSMC",
+            "INTC Taiwan TSMC Supply Chain Risk: adds disaggregated tile processing as a specific dependency risk"
+          ],
+          [
+            "INTC State-Sponsored Cybersecurity and Manufacturing Sabotage Risk: focused on state-sponsored actors and manufacturing sabotage",
+            "INTC Cybersecurity Threat Risk: expanded to also name malicious hackers and insider threats as threat actors"
+          ],
+          [
+            "INTC Process Technology Node Development and Delay Risk: general risk of delays in developing and ramping leading-edge process nodes",
+            "INTC Intel 14A Node External Customer Risk: specifically focused on Intel 14A external customer adoption; consequence is pausing or discontinuing leading-edge node development if adoption is insufficient"
+          ],
+          [
+            "INTC CEO Succession and Senior Leadership Transition Risk: focused on CEO succession and senior leadership transition",
+            "INTC Key Talent and Leadership Retention Risk: broadened to talent retention across the organization; notes four CEO transitions (2019, 2021, 2024, 2025) and multiple rounds of headcount reductions"
+          ],
+          [
+            "INTC Intel 7 Manufacturing Asset Impairment Q3 2024: Q3 2024 Intel 7 manufacturing assets, $3.1B non-cash charge",
+            "INTC 2025 and 2024 Manufacturing Asset Non-Cash Impairment Charges: FY2024 charge revised to $3.3B; new FY2025 charge of $950M added; scope expanded beyond Intel 7 to all manufacturing PP&E with no remaining or reduced operational use"
+          ],
+          [
+            "INTC Mobileye Goodwill Impairment Q3 2024: impairment charge $2.9B",
+            "INTC Q3 2024 Mobileye Goodwill Impairment: impairment charge $2.8B"
+          ],
+          [
+            "R2 Semiconductor v. Intel (Dusseldorf Regional Court): standalone LegalProceeding; Dusseldorf injunction and recall order obtained February 2024; status pending",
+            "Folded into INTC IP Rights and Patent Litigation Risk; R2 Semiconductor cited as a noted litigant alongside VLSI; specific Dusseldorf proceeding details no longer disclosed as a standalone claim"
+          ],
+          [
+            "INTC Customer Concentration Risk: top 3 customers = 45% of FY2024 revenue",
+            "INTC Customer Revenue Concentration Risk: top 3 customers = 43% of FY2025 revenue"
+          ],
+          [
+            "INTC Hyperscaler Cloud Workload Shift Competitive Risk: risk from workload migration to public cloud displacing Intel data center CPUs",
+            "INTC Hyperscaler and AI Data Center Competitive Displacement Risk: now explicitly includes AI workloads as an additional driver of competitive displacement"
+          ],
+          [
+            "INTC Debt Level and Credit Rating Downgrade Risk: $51B outstanding debt",
+            "INTC Debt Obligations and Credit Rating Risk: $47.2B outstanding debt"
+          ],
+          [
+            "10% adverse FX scenario income impact quantified at $54M; primary expense currencies named as ILS, MYR, EUR, JPY, CNY",
+            "Qualitative description of FX exposure on operating expenses and capex in local currencies; no specific impact figures or named currencies disclosed"
+          ],
+          [
+            "INTC Catastrophic Events and Climate Change Risk: key geographies Oregon, California, Arizona, Israel; climate change explicitly framed as a driver",
+            "INTC Catastrophic Events and Operational Disruption Risk: climate change framing dropped; focuses globally on Arizona and Israel fabrication facilities; Oregon and California no longer listed"
+          ],
+          [
+            "INTC 2024 Multiple Credit Rating Downgrades: 2024 downgrades cited; $51B outstanding debt referenced",
+            "INTC 2025 Credit Rating Downgrades: updated to reflect 2025 downgrades; no outstanding debt figure cited"
+          ],
+          [
+            "INTC Gaudi AI Accelerator Inventory Write-Down 2024: standalone MaterialEvent, $922M FY2024 inventory charge",
+            "Reclassified as supporting context within INTC R&D and Manufacturing Capital Investment Return Risk; FY2024 $922M charge retained; FY2025 Gaudi charge of $375M added"
+          ],
+          [
+            "INTC Effective Tax Rate Variability Risk: general tax rate variability, no specific drivers named",
+            "Pillar Two OECD BEPS global minimum tax specifically identified as a notable driver"
+          ]
+        ],
+        "removed": [
+          "INTC CSP In-House Semiconductor Development Risk",
+          "INTC CEO Retirement December 2024",
+          "INTC Ireland Fab 34 SCIP JV Construction Penalty Q4 2024",
+          "INTC Gray Market Product Distribution Risk",
+          "INTC Government Contract Compliance Risk",
+          "INTC ESG and Corporate Responsibility Scrutiny Risk",
+          "INTC China STAR Market Equity Securities Concentration Risk",
+          "INTC Q4 2024 Quarterly Dividend Suspension"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2025,
+      "item": "Item_1A",
+      "prior_fy": 2024,
+      "sentiment_shift": 0.000436,
+      "status": "shadow",
+      "ticker": "INTC",
+      "tone_shift": 0.018649
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "no_section",
+      "current_fy": 2022,
+      "item": "Item_7_MDA",
+      "prior_fy": 2021,
+      "sentiment_shift": null,
+      "status": "shadow",
+      "ticker": "INTC",
+      "tone_shift": null
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "no_section",
+      "current_fy": 2023,
+      "item": "Item_7_MDA",
+      "prior_fy": 2022,
+      "sentiment_shift": null,
+      "status": "shadow",
+      "ticker": "INTC",
+      "tone_shift": null
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "no_section",
+      "current_fy": 2024,
+      "item": "Item_7_MDA",
+      "prior_fy": 2023,
+      "sentiment_shift": null,
+      "status": "shadow",
+      "ticker": "INTC",
+      "tone_shift": null
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "no_section",
+      "current_fy": 2025,
+      "item": "Item_7_MDA",
+      "prior_fy": 2024,
+      "sentiment_shift": null,
+      "status": "shadow",
+      "ticker": "INTC",
+      "tone_shift": null
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_1A",
+      "prior_fy": 2021,
+      "sentiment_shift": 0.008985,
+      "status": "shadow",
+      "ticker": "JPM",
+      "tone_shift": 0.002819
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_1A",
+      "prior_fy": 2022,
+      "sentiment_shift": 0.013745,
+      "status": "shadow",
+      "ticker": "JPM",
+      "tone_shift": 0.002623
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_1A",
+      "prior_fy": 2023,
+      "sentiment_shift": -0.00922,
+      "status": "shadow",
+      "ticker": "JPM",
+      "tone_shift": 0.009225
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "JPM Regulatory Competitive Disadvantage Risk",
+          "JPM Resolution Loss Absorption Risk",
+          "JPM Adverse Market and Economic Conditions Risk",
+          "JPM Wholesale Business Market Conditions Risk",
+          "JPM Financial Instrument Valuation Risk",
+          "JPM CCP Failure Risk"
+        ],
+        "changed": [
+          [
+            "Regulatory Investigation and Enforcement Risk; category=regulatory",
+            "Governmental Enforcement Action Risk; category=legal"
+          ],
+          [
+            "Less Predictable Legal Framework Risk; category=legal; example geography Russia",
+            "Unpredictable Legal and Judicial Framework Risk; category=regulatory; geography=certain jurisdictions"
+          ],
+          [
+            "Resolution Plan Security Holder Loss Risk focused on potential losses to security holders; category=regulatory",
+            "Resolution Plan Regulatory Change Risk focused on regulatory changes to resolution requirements; category=regulatory"
+          ],
+          [
+            "Political and Geopolitical Economic Uncertainty Risk; category=macro",
+            "Political and Geopolitical Risk; category=macro_political; explicitly cites Russia, Middle East, and China"
+          ],
+          [
+            "Interest Rate and Variable Rate Loan Risk; scope includes variable rate loan exposure; category=market",
+            "Interest Rate and Credit Spread Risk; scope shifted to credit spreads; category=market"
+          ],
+          [
+            "Counterparty and CCP Default Risk combined in one risk; category=credit",
+            "Counterparty and Client Credit Risk with CCP separated into its own standalone risk; category=credit"
+          ],
+          [
+            "Holding Company Subsidiary Cash Flow Dependency Risk; category=liquidity",
+            "Holding Company Subsidiary Dependency Risk; cash flow qualifier dropped; category=liquidity"
+          ],
+          [
+            "Capital Requirements and Basel III Reform Risk with explicit Basel III reform scope; category=regulatory",
+            "Regulatory Capital Requirements Risk; Basel III reform reference removed; category=capital"
+          ],
+          [
+            "Cyber Attack and Emerging Technology Threat Risk combined; category=operational",
+            "Cybersecurity Attack Risk only; emerging technology component split off to separate AI and Advanced Technology risk; category=operational"
+          ],
+          [
+            "Workforce and Human Capital Operational Risk; category=operational",
+            "Employee Staffing and Misconduct Risk; focus shifted to staffing and misconduct; category=operational"
+          ],
+          [
+            "Personal Information Privacy and Data Protection Risk; category=compliance",
+            "Personal Information Safeguarding Risk; category=operational"
+          ],
+          [
+            "AI-Enabled Identity Fraud Risk focused narrowly on AI-driven identity fraud; category=technology",
+            "AI and Advanced Technology Risk covering AI and advanced technology broadly; category=technology"
+          ],
+          [
+            "Extraordinary Events Business Continuity Risk tied to extraordinary events; category=operational",
+            "Operational Resiliency Risk with scope broadened to general operational resiliency; category=operational"
+          ],
+          [
+            "Data Quality and Management Risk; category=operational",
+            "Data Management Risk; quality qualifier removed; category=operational"
+          ],
+          [
+            "Risk Management Framework Adequacy Risk; category=risk_management",
+            "Risk Management Framework Inadequacy Risk; category=operational"
+          ],
+          [
+            "Model and Estimation Inadequacy Risk including estimation scope; category=model_risk",
+            "Model Risk; estimation scope removed; category=operational"
+          ],
+          [
+            "Disclosure and Financial Reporting Controls Risk including disclosure; category=financial_reporting",
+            "Financial Reporting Controls Risk; disclosure qualifier dropped; category=regulatory"
+          ],
+          [
+            "Financial Services Competition and Fintech Disruption Risk; category=competitive",
+            "Financial Services Competition Risk; fintech disruption dropped; category=competitive"
+          ],
+          [
+            "Climate Change Physical and Transition Risk with explicit physical and transition framing; category=climate",
+            "Climate Change Risk; physical and transition distinction removed; category=environmental"
+          ],
+          [
+            "Geopolitical and Armed Conflict Risk; category=geopolitical",
+            "Geopolitical Hostilities Risk; armed conflict replaced by hostilities; category=geopolitical"
+          ],
+          [
+            "Country and Emerging Market Political Risk with political qualifier; category=country_risk",
+            "Country and Emerging Markets Risk; political qualifier dropped broadening the scope; category=country_risk"
+          ],
+          [
+            "Talent Acquisition and Retention Risk; category=human_capital",
+            "Workforce Risk; scope broadened from talent acquisition and retention to all workforce matters; category=human_capital"
+          ],
+          [
+            "Legal and Regulatory Investigation Risk; category=legal",
+            "Civil and Governmental Legal Proceedings Risk; scope shifted from investigations to civil and governmental proceedings broadly; category=legal"
+          ]
+        ],
+        "removed": [
+          "JPM Commercial Real Estate Credit Risk",
+          "JPM Cyber Attack Investigation and Remediation Risk",
+          "JPM Operational Risk from New Products and Platform Changes",
+          "JPM Immigration and Travel Policy Risk"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2025,
+      "item": "Item_1A",
+      "prior_fy": 2024,
+      "sentiment_shift": -0.016817,
+      "status": "shadow",
+      "ticker": "JPM",
+      "tone_shift": 0.005946
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_7_MDA",
+      "prior_fy": 2021,
+      "sentiment_shift": -0.000266,
+      "status": "shadow",
+      "ticker": "JPM",
+      "tone_shift": 0.013361
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_7_MDA",
+      "prior_fy": 2022,
+      "sentiment_shift": 0.000585,
+      "status": "shadow",
+      "ticker": "JPM",
+      "tone_shift": 0.062648
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_7_MDA",
+      "prior_fy": 2023,
+      "sentiment_shift": 5.2e-05,
+      "status": "shadow",
+      "ticker": "JPM",
+      "tone_shift": 0.048111
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "no_claims",
+      "current_fy": 2025,
+      "item": "Item_7_MDA",
+      "prior_fy": 2024,
+      "sentiment_shift": -0.000467,
+      "status": "shadow",
+      "ticker": "JPM",
+      "tone_shift": 0.05078
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_1A",
+      "prior_fy": 2021,
+      "sentiment_shift": 0.0257,
+      "status": "shadow",
+      "ticker": "META",
+      "tone_shift": 0.005861
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_1A",
+      "prior_fy": 2022,
+      "sentiment_shift": 0.007946,
+      "status": "shadow",
+      "ticker": "META",
+      "tone_shift": 0.003845
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_1A",
+      "prior_fy": 2023,
+      "sentiment_shift": 0.02705,
+      "status": "shadow",
+      "ticker": "META",
+      "tone_shift": 0.003257
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "META EU Regulatory Compliance and DMA Risk",
+          "META Share Repurchase and Dividend Continuation Risk",
+          "META Youth-Related Litigation",
+          "META Reality Labs 2026 Operating Loss Guidance",
+          "META Reality Labs Segment",
+          "META Acquisition of Within Unlimited",
+          "OBBBA Enactment Tax Impact on Meta July 2025",
+          "Brazil Supreme Court Intermediary Liability Framework Change June 2025",
+          "India WhatsApp Privacy Supreme Court and CCI Proceedings",
+          "META AI Training Copyright Litigation"
+        ],
+        "changed": [
+          [
+            "META User Retention and Engagement Risk: global scope, category=user_engagement",
+            "META User Retention and Engagement Risk: scoped to Facebook and Instagram, category=product"
+          ],
+          [
+            "META Advertiser Revenue Concentration Risk: general revenue concentration risk",
+            "META Advertising Revenue Concentration Risk: Facebook and Instagram named as the specific advertising platforms at risk"
+          ],
+          [
+            "META Ad Targeting Signal Degradation Risk: general signal degradation risk",
+            "META Ad Targeting and Measurement Signal Risk: Apple iOS changes, GDPR, DMA, ePrivacy Directive, and U.S. state privacy laws named as specific drivers"
+          ],
+          [
+            "META AI Initiatives Risk: framed as a technology investment risk",
+            "META AI Initiatives Execution Risk: reframed as an execution and technology risk"
+          ],
+          [
+            "META Reality Labs Strategy Risk: 2024 operating loss of $17.73 billion cited",
+            "META Reality Labs and Metaverse Strategy Risk: specific operating loss figure removed; metaverse strategy explicitly named in title"
+          ],
+          [
+            "META Mobile Operating System Dependency Risk: generic platform dependency, no vendors named",
+            "META Mobile Operating System Dependency Risk: Apple and Google explicitly identified as counterparties"
+          ],
+          [
+            "META Competitive Landscape Risk: general competitive risk",
+            "META Competition Risk: TikTok, Apple, and Google specifically cited as competitors"
+          ],
+          [
+            "META Unfavorable Media Coverage Risk: limited to media coverage",
+            "META Unfavorable Media Coverage and Reputational Risk: explicitly extended to encompass reputational harm"
+          ],
+          [
+            "META Catastrophic Events and Crises Risk: no specific examples listed",
+            "META Catastrophic Events and Crises Risk: pandemics, natural disasters, terrorism, geopolitical conflict, and cyber-attacks added as examples"
+          ],
+          [
+            "META User Metrics Accuracy Risk: general accuracy risk across user metrics",
+            "META Family Metrics DAP Estimation Inaccuracy Risk: scoped specifically to DAP and family-metric estimation"
+          ],
+          [
+            "European Commission DMA Formal Proceedings re Meta Subscription for No Ads: preliminary findings July 2024, status=pending",
+            "European Commission DMA Non-Compliance Decision Against Meta: final non-compliance decision issued April 2025, status=appealed"
+          ],
+          [
+            "FTC Administrative Proceeding - Privacy Consent Order Compliance (COPPA): alleged deficient consent order compliance and COPPA violations",
+            "FTC Administrative Proceeding Against Meta Consent Order Compliance: proposed prohibition on use of minors' data for commercial purposes added to allegations"
+          ],
+          [
+            "META IRS Transfer Pricing Dispute (Tax Years 2010-2013): assessment issuance years not specified",
+            "IRS Transfer Pricing Assessment of Meta 2010-2013 Tax Years: IRS assessments issued in 2016 and 2018 now specified"
+          ],
+          [
+            "IDPC EUR 1.2 Billion GDPR Fine - EEA Facebook User Data Transfers: appeal venue not specified",
+            "IDPC EUR 1.2 Billion GDPR Fine and EEA Data Transfer Suspension: Irish High Court named as the appeal venue"
+          ],
+          [
+            "META Securities Litigation re User Data Practices and Developer Misuse: standalone proceeding",
+            "META Securities Litigation - Platform Data Practices and Earnings Disclosures: consolidated with Q2 2018, September 2021 whistleblower, and Q4 2021 earnings disclosure proceedings into a single entry"
+          ],
+          [
+            "META International Operations Risk: geography=international",
+            "META International Operations Risk: geography=global"
+          ],
+          [
+            "META Hardware Supply Chain Risk: topic=consumer_hardware, no geography specified",
+            "META Consumer Hardware Supply Chain Risk: geography=Asia explicitly named"
+          ],
+          [
+            "META Hardware Inventory Risk: category=operational, topic=inventory",
+            "META Consumer Hardware Inventory Risk: 'Consumer' qualifier added to scope"
+          ],
+          [
+            "META Acquisition Strategy and Integration Risk: framed as a strategy and integration risk",
+            "META Acquisition Regulatory Challenge and Integration Risk: regulatory challenge dimension explicitly added to name and scope"
+          ],
+          [
+            "META Tax Liability Risk: limited to uncertain tax positions",
+            "META Tax Liability and Transfer Pricing Audit Risk: scope expanded to include transfer pricing audits"
+          ],
+          [
+            "META Tax Law Changes Risk: general tax law changes",
+            "META Tax Law Changes and Digital Services Tax Risk: digital services taxes explicitly added to scope"
+          ],
+          [
+            "META Government Platform Access Restriction Risk: geography limited to China, Russia, Iran, North Korea",
+            "META Government Content Restriction and Product Access Block Risk: geography expanded to global"
+          ],
+          [
+            "META FTC Consent Order Compliance Risk: limited to FTC consent order compliance",
+            "META FTC Consent Order and Broad Privacy Regulation Non-Compliance Risk: scope expanded to include broader privacy regulation non-compliance"
+          ],
+          [
+            "META Content Liability Risk: limited to content liability",
+            "META Content Liability and Section 230 Protection Change Risk: Section 230 protection changes explicitly added to scope"
+          ],
+          [
+            "META Third-Party Developer and Partner Data Security Risk: focused on cybersecurity and third-party vendor data risk",
+            "META Platform Integrity and Third-Party Misuse Risk: broadened to encompass platform integrity and content or account misuse"
+          ],
+          [
+            "META Software and Hardware Vulnerabilities Risk: framed as a security vulnerability risk",
+            "META Software and Hardware Technical Errors Risk: reframed as a technical errors risk, broader than vulnerabilities alone"
+          ],
+          [
+            "META Intellectual Property Litigation Risk: general IP litigation risk",
+            "META IP Litigation and AI Copyright Risk: AI copyright infringement risk explicitly added"
+          ],
+          [
+            "META Class A Stock Price Volatility Risk: specific historical prices cited (high $638.40, low $17.55, IPO $38.00, as of 2024-12-31)",
+            "META Class A Common Stock Price Volatility Risk: specific historical price data removed"
+          ],
+          [
+            "META Dual Class Voting Control Concentration Risk: specific figures cited (Class A=1 vote, Class B=10 votes, Zuckerberg control threshold=9.1%)",
+            "META Dual Class Voting Control Concentration Risk: specific voting figures and control threshold percentage removed"
+          ],
+          [
+            "META Cybersecurity and Data Breach Risk: nation states and state-sponsored actors named as notable threat actors",
+            "META Cybersecurity and Data Breach Risk: specific threat actor types no longer enumerated"
+          ],
+          [
+            "META Controlled Company Governance Risk: exchange=Nasdaq specified",
+            "META Controlled Company Status Risk: Nasdaq reference removed"
+          ]
+        ],
+        "removed": [
+          "META New Products and Changes Failure Risk",
+          "META Brand Maintenance Risk",
+          "META Developer Ecosystem Risk",
+          "META Financial Results Fluctuation Risk",
+          "META Violating Accounts Metric Accuracy Risk",
+          "META Share-Based Compensation Tax Rate Volatility Risk",
+          "META Privacy and Data Regulation Compliance Risk",
+          "META China Advertising Revenue Risk",
+          "META IRS Tax Examination",
+          "META FTC Modified Consent Order",
+          "META Securities Litigation re Q2 2018 Earnings Disclosure",
+          "META Securities Litigation re Whistleblower Allegations (September 2021)",
+          "META Securities Litigation re Q4 2021 Earnings Disclosure",
+          "META Platform Misuse and Undesirable Activity Risk"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2025,
+      "item": "Item_1A",
+      "prior_fy": 2024,
+      "sentiment_shift": -0.038146,
+      "status": "shadow",
+      "ticker": "META",
+      "tone_shift": 0.003349
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_7_MDA",
+      "prior_fy": 2021,
+      "sentiment_shift": -0.283977,
+      "status": "shadow",
+      "ticker": "META",
+      "tone_shift": 0.050283
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_7_MDA",
+      "prior_fy": 2022,
+      "sentiment_shift": 0.183831,
+      "status": "shadow",
+      "ticker": "META",
+      "tone_shift": 0.0539
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_7_MDA",
+      "prior_fy": 2023,
+      "sentiment_shift": 0.04721,
+      "status": "shadow",
+      "ticker": "META",
+      "tone_shift": 0.066002
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "META Q3 2025 One Big Beautiful Bill Act Tax Charge",
+          "META Macroeconomic and Geopolitical Advertising Revenue Risk",
+          "META Global Minimum Tax Regime Risk"
+        ],
+        "changed": [
+          [
+            "Reality Labs operating-loss guidance: confirmation for FY2025, amount unquantified",
+            "Reality Labs operating-loss guidance: FY2026 expected similar to FY2025 (~$(19.19)B)"
+          ],
+          [
+            "Capital expenditure guidance: $60B\u2013$65B for FY2025",
+            "Capital expenditure guidance: $115B\u2013$135B for FY2026"
+          ],
+          [
+            "Effective tax rate guidance: 12\u201315% for FY2025",
+            "Effective tax rate guidance: 13\u201316% for FY2026"
+          ],
+          [
+            "Server/network asset useful-life change disclosed as forward-looking with expected $2.9B depreciation reduction in FY2025; new life 5.5 years",
+            "Same accounting change disclosed as a completed past event; $2.9B depreciation reduction estimate no longer stated"
+          ],
+          [
+            "FY2024 Class A share repurchases: $29.75B, 65M shares",
+            "FY2025 Class A share repurchases: $26.26B, 40M shares"
+          ],
+          [
+            "FY2024 dividends paid: $5.07B total, $2.0 per share for the year",
+            "Q1 2025 quarterly dividend rate increased from $0.50 to $0.525 per share"
+          ],
+          [
+            "August 2024 senior notes issuance: $10.43B new principal; aggregate outstanding $29.0B maturing 2027\u20132064",
+            "November 2025 senior notes issuance: $29.91B net proceeds; aggregate outstanding $59.0B maturing 2027\u20132064"
+          ]
+        ],
+        "removed": [
+          "META Share Repurchase Remaining Authorization December 2024"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2025,
+      "item": "Item_7_MDA",
+      "prior_fy": 2024,
+      "sentiment_shift": 0.02631,
+      "status": "shadow",
+      "ticker": "META",
+      "tone_shift": 0.087271
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_1A",
+      "prior_fy": 2022,
+      "sentiment_shift": 0.024776,
+      "status": "shadow",
+      "ticker": "MSFT",
+      "tone_shift": 0.016661
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_1A",
+      "prior_fy": 2023,
+      "sentiment_shift": -0.02492,
+      "status": "shadow",
+      "ticker": "MSFT",
+      "tone_shift": 0.014806
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2025,
+      "item": "Item_1A",
+      "prior_fy": 2024,
+      "sentiment_shift": 0.055921,
+      "status": "shadow",
+      "ticker": "MSFT",
+      "tone_shift": 0.012678
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "MSFT Cloud and AI Capital Investment Risk"
+        ],
+        "changed": [
+          [
+            "MSFT Competitive Technology Market Risk: category=competitive; geography=global",
+            "MSFT Technology Competition Risk: same scope, renamed"
+          ],
+          [
+            "MSFT Cybersecurity Threat Risk: category=cybersecurity (no geography)",
+            "MSFT Cybersecurity Nation-State Threat Risk: category=cybersecurity; geography=global; explicitly names nation-state threat"
+          ],
+          [
+            "MSFT AI Development and Deployment Risk: category=technology (no geography)",
+            "MSFT AI Development and Deployment Risk: category=technology; geography=global added"
+          ],
+          [
+            "MSFT Operations Infrastructure and Outage Risk: category=operational (no geography)",
+            "MSFT Datacenter Infrastructure and Power Availability Risk: category=operational; geography=global; scope narrowed to datacenter and power availability"
+          ],
+          [
+            "MSFT Supply Chain and Component Availability Risk: category=supply_chain (no geography)",
+            "MSFT Component Supply Chain Risk: category=supply_chain; geography=global added"
+          ],
+          [
+            "MSFT Tax Liability and Transfer Pricing Risk: category=tax (no geography, no amount)",
+            "MSFT Tax Liability Risk: category=tax; geography=global; potential_liability_usd=28900000000 added"
+          ],
+          [
+            "MSFT Data Privacy and Personal Data Misuse Risk: category=data_privacy (no geography)",
+            "MSFT Personal Data Privacy Risk: category=privacy; geography=global added"
+          ],
+          [
+            "MSFT Trade Restrictions and Export Controls Risk: category=trade; geography=global",
+            "MSFT Geopolitical and Trade Restriction Risk: category=geopolitical; geography=global; merged with geopolitical risk and trade restrictions combined into single risk"
+          ],
+          [
+            "MSFT Geopolitical and Adverse Economic Conditions Risk: category=macroeconomic; geography=global",
+            "MSFT Geopolitical and Trade Restriction Risk: category=geopolitical; geography=global; merged with trade restrictions, economic conditions framing removed"
+          ],
+          [
+            "Microsoft Nation-State Cybersecurity Incident (November 2023): attack_method=password spray attack; initial_disclosure_date=2024-01-19; initial_disclosure_form=Form 8-K",
+            "MSFT November 2023 Nation-State Email Account Breach: systems_affected=email accounts, source code repositories, internal systems added; initial_disclosure details removed"
+          ]
+        ],
+        "removed": [
+          "MSFT Cloud and AI Services Execution Risk",
+          "MSFT Operations Infrastructure and Outage Risk",
+          "MSFT Trade Restrictions and Export Controls Risk",
+          "MSFT Reputational and Brand Damage Risk",
+          "MSFT Data Privacy and Personal Data Misuse Risk"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2026,
+      "item": "Item_1A",
+      "prior_fy": 2025,
+      "sentiment_shift": 0.005879,
+      "status": "shadow",
+      "ticker": "MSFT",
+      "tone_shift": 0.018308
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_7_MDA",
+      "prior_fy": 2022,
+      "sentiment_shift": -0.275787,
+      "status": "shadow",
+      "ticker": "MSFT",
+      "tone_shift": 0.042135
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_7_MDA",
+      "prior_fy": 2023,
+      "sentiment_shift": 0.293758,
+      "status": "shadow",
+      "ticker": "MSFT",
+      "tone_shift": 0.03984
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2025,
+      "item": "Item_7_MDA",
+      "prior_fy": 2024,
+      "sentiment_shift": -0.004625,
+      "status": "shadow",
+      "ticker": "MSFT",
+      "tone_shift": 0.051487
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "MSFT $60B Share Repurchase Program",
+          "MSFT OpenAI Long-Term Partnership Extension FY2026",
+          "MSFT OpenAI Recapitalization Dilution Gain FY2026",
+          "MSFT XBOX Business Impairment FY2026"
+        ],
+        "changed": [
+          [
+            "MSFT Microsoft Cloud (name only, no qualifier)",
+            "MSFT Microsoft Cloud Revenue (renamed with 'Revenue' suffix)"
+          ],
+          [
+            "MSFT Microsoft 365 Commercial (no 'Cloud' qualifier)",
+            "MSFT Microsoft 365 Commercial Cloud"
+          ],
+          [
+            "MSFT Microsoft 365 Consumer (no 'Cloud' qualifier)",
+            "MSFT Microsoft 365 Consumer Cloud"
+          ],
+          [
+            "MSFT LinkedIn (no 'Revenue' suffix)",
+            "MSFT LinkedIn Revenue"
+          ],
+          [
+            "MSFT Dynamics 365 (no 'Revenue' suffix)",
+            "MSFT Dynamics 365 Revenue"
+          ],
+          [
+            "FY2025 Share Repurchases: amount_usd=13000000000; shares_repurchased=31000000; remaining_authorization_usd=57300000000",
+            "FY2026 Share Repurchase Activity: amount_usd=16700000000; shares_repurchased=36000000 (remaining authorization moved to separate $60B program claim)"
+          ],
+          [
+            "FY2025 Dividends Declared: amount_usd=24700000000",
+            "FY2026 Dividends Declared: amount_usd=27000000000"
+          ],
+          [
+            "MSFT IRS Transfer Pricing NOPAs (Tax Years 2004-2013): tax_years=2004-2013; claim_amount_usd=28900000000; two separate IRS proceedings (2004-2013 and 2014-2017)",
+            "MSFT IRS Transfer Pricing Dispute (Tax Years 2004-2017): tax_years=2004-2017; amount_claimed_usd=28900000000; consolidated into single proceeding covering 2004-2017"
+          ],
+          [
+            "MSFT AI Infrastructure Investment Margin Risk: category=financial; subcategory=operating_margin_compression",
+            "MSFT AI Infrastructure Investment Operating Margin Risk: category=operational (category changed from financial to operational, subcategory removed)"
+          ],
+          [
+            "MSFT Component Supply Concentration Risk: category=supply_chain; geography=global",
+            "MSFT Supply Chain Component Availability Risk: category=supply_chain (name reworded, geography removed)"
+          ]
+        ],
+        "removed": [
+          "MSFT Xbox Content and Services",
+          "MSFT Search and News Advertising",
+          "MSFT Activision Blizzard Acquisition",
+          "MSFT FY2025 Segment Composition Changes",
+          "MSFT One Big Beautiful Bill Act Tax Impact",
+          "MSFT IRS Audit (Tax Years 2014-2017)",
+          "MSFT GuidanceUpdate Dividend Continuation Guidance",
+          "MSFT CapEx and Cloud Infrastructure Investment Guidance"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2026,
+      "item": "Item_7_MDA",
+      "prior_fy": 2025,
+      "sentiment_shift": -0.005491,
+      "status": "shadow",
+      "ticker": "MSFT",
+      "tone_shift": 0.053385
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_1A",
+      "prior_fy": 2022,
+      "sentiment_shift": -0.008444,
+      "status": "shadow",
+      "ticker": "NVDA",
+      "tone_shift": 0.017757
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_1A",
+      "prior_fy": 2023,
+      "sentiment_shift": 0.061135,
+      "status": "shadow",
+      "ticker": "NVDA",
+      "tone_shift": 0.015295
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2025,
+      "item": "Item_1A",
+      "prior_fy": 2024,
+      "sentiment_shift": 0.048215,
+      "status": "shadow",
+      "ticker": "NVDA",
+      "tone_shift": 0.007743
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "NVDA Groq IP License Risk",
+          "NVDA Gaming Segment Supply Constraint Risk FY2027",
+          "NVDA Macroeconomic and Tariff Risk",
+          "NVDA International Operations Risk",
+          "NVDA Acquisition and Investment Integration Risk",
+          "NVDA OpenAI Investment Uncertainty Risk",
+          "NVDA Counterparty and Commercial Arrangement Risk",
+          "NVDA Talent Retention Risk",
+          "NVDA ERP Implementation and Internal Controls Risk",
+          "China SAMR Mellanox Acquisition Compliance Investigation",
+          "French Competition Authority NVDA Graphics Card Inquiry",
+          "Multi-Jurisdiction GPU Competition Regulator Information Requests",
+          "NVDA H20 Export Control Inventory Charge Q1 FY2026",
+          "NVDA H20 USG License Grant August 2025",
+          "NVDA H200 USG License Grant February 2026"
+        ],
+        "changed": [
+          [
+            "Export controls and GPU trade restriction risk (global; GPU-specific framing)",
+            "Export controls and trade restriction risk (global; GPU specificity removed, scope broadened to all products)"
+          ],
+          [
+            "Specific AI Diffusion IFR (January 2025) worldwide licensing risk",
+            "Broader AI regulation risk globally (specific IFR regulation reference removed)"
+          ],
+          [
+            "Supply and demand mismatch risk",
+            "Supply-demand mismatch and manufacturing lead time risk (lead time explicitly added)"
+          ],
+          [
+            "Product defect and general quality risk",
+            "Product defect and AI-specific quality risk"
+          ],
+          [
+            "Competitive pressure risk including specific custom silicon threat from cloud customers",
+            "General competition risk (custom silicon specificity removed)"
+          ],
+          [
+            "Risk from transitions in accelerated computing architecture",
+            "Broader industry and market evolution risk"
+          ],
+          [
+            "Risk of regulatory investigations by Chinese authorities",
+            "Risk of China data center market being foreclosed to NVDA"
+          ],
+          [
+            "Geopolitical disruption and Taiwan manufacturing concentration risk (Asia-focused)",
+            "Broader global business disruption and geopolitical risk (Taiwan-specific framing removed)"
+          ],
+          [
+            "Climate change and California wildfire operational risk (category=environmental)",
+            "General climate change risk (category=esg; California wildfire specificity removed)"
+          ],
+          [
+            "USG export controls on AI and GPU products (China, Middle East, Tier 2 countries)",
+            "Export control and trade restriction risk (China, Middle East, Europe, Latin America, Southeast Asia; geography expanded)"
+          ],
+          [
+            "Responsible AI use liability and reputational risk (category=technology)",
+            "AI responsible use and regulatory compliance risk (category=technology_regulatory; EU and US geographies specified; regulatory compliance angle added)"
+          ],
+          [
+            "Data privacy and security compliance risk (geography=global)",
+            "Data privacy and security regulatory risk (geography=United States, European Union, China)"
+          ],
+          [
+            "Tax liability and effective tax rate risk",
+            "Tax liability and tax law change risk"
+          ],
+          [
+            "Intellectual property litigation risk",
+            "Intellectual property litigation and protection risk (scope broadened to include active IP protection)"
+          ]
+        ],
+        "removed": [
+          "NVDA Cryptocurrency Demand Volatility Risk"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2026,
+      "item": "Item_1A",
+      "prior_fy": 2025,
+      "sentiment_shift": -0.066981,
+      "status": "shadow",
+      "ticker": "NVDA",
+      "tone_shift": 0.007404
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_7_MDA",
+      "prior_fy": 2022,
+      "sentiment_shift": -0.338668,
+      "status": "shadow",
+      "ticker": "NVDA",
+      "tone_shift": 0.091238
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_7_MDA",
+      "prior_fy": 2023,
+      "sentiment_shift": 0.316804,
+      "status": "shadow",
+      "ticker": "NVDA",
+      "tone_shift": 0.073305
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2025,
+      "item": "Item_7_MDA",
+      "prior_fy": 2024,
+      "sentiment_shift": 0.005368,
+      "status": "shadow",
+      "ticker": "NVDA",
+      "tone_shift": 0.074903
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "NVDA Data Center",
+          "NVDA Gaming",
+          "NVDA Professional Visualization",
+          "NVDA Automotive",
+          "NVDA Gaming Q1 FY2027 Supply Constraint Outlook",
+          "NVDA H20 Export Control $4.5B Charge",
+          "NVDA H200 China Export License with 25% Tariff",
+          "NVDA OpenAI Investment and Partnership Agreement",
+          "NVDA One Big Beautiful Bill Act Tax Impact",
+          "NVDA January 2026 Commercial Paper Program Expansion",
+          "NVDA Data Center Infrastructure and Energy Availability Risk",
+          "NVDA Open-Source AI Competition Risk",
+          "NVDA Customer Revenue Concentration Risk"
+        ],
+        "changed": [
+          [
+            "$50B repurchase authorization effective 2024-08-26",
+            "$60B repurchase authorization effective 2025-08-26"
+          ],
+          [
+            "FY2025 buybacks: $34B, 310M shares",
+            "FY2026 buybacks: $40.4B, 282M shares"
+          ],
+          [
+            "FY2025 cash dividends: $834M",
+            "FY2026 cash dividends: $974M"
+          ],
+          [
+            "Jan\u2013Feb 2025 post-year buybacks: $3.7B, 29M shares",
+            "Jan\u2013Feb 2026 post-year buybacks: $1.5B, 8M shares"
+          ],
+          [
+            "FY2026 capex guided higher than FY2025",
+            "FY2027 capex guided to increase vs FY2026"
+          ],
+          [
+            "Export control and AI Diffusion IFR risk spanning China, Middle East, and Tier 2 countries",
+            "Risk narrowed to China-specific export controls and tariffs"
+          ],
+          [
+            "Product transition and demand volatility risk",
+            "Product transition and supply chain complexity risk"
+          ]
+        ],
+        "removed": [
+          "NVDA Inventory Provisioning and Supply Commitment Risk",
+          "NVDA Israel Geopolitical Operational Risk"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2026,
+      "item": "Item_7_MDA",
+      "prior_fy": 2025,
+      "sentiment_shift": 0.038313,
+      "status": "shadow",
+      "ticker": "NVDA",
+      "tone_shift": 0.093637
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_1A",
+      "prior_fy": 2021,
+      "sentiment_shift": 0.009538,
+      "status": "shadow",
+      "ticker": "UNH",
+      "tone_shift": 0.008187
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_1A",
+      "prior_fy": 2022,
+      "sentiment_shift": -0.010826,
+      "status": "shadow",
+      "ticker": "UNH",
+      "tone_shift": 0.013821
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_1A",
+      "prior_fy": 2023,
+      "sentiment_shift": 0.006354,
+      "status": "shadow",
+      "ticker": "UNH",
+      "tone_shift": 0.003942
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "UNH AI Technology Legal and Operational Risk"
+        ],
+        "changed": [
+          [
+            "UNH Medical Cost Estimation and Pricing Risk categorized as underwriting; no revenue percentage disclosed",
+            "UNH Medical Cost Estimation and Pricing Risk categorized as actuarial; risk-based revenue disclosed at ~80% of revenues"
+          ],
+          [
+            "UNH Information Systems Data Integrity and AI/ML Risk categorized as technology",
+            "UNH Data Integrity and Information Systems Risk categorized as operational_technology with includes_ai=True"
+          ],
+          [
+            "UNH Legal Actions and Governmental Investigation Risk; no self-insured attribute",
+            "UNH Legal Actions and Governmental Investigations Risk; self_insured=True added"
+          ],
+          [
+            "UNH Key Employee and Executive Retention Risk categorized as human_capital",
+            "UNH Key Executive and Employee Retention Risk categorized as operational"
+          ],
+          [
+            "Goodwill carrying value $130B at 44% of total assets as of 2024-12-31",
+            "Goodwill carrying value $131B at 42% of total assets as of 2025-12-31"
+          ],
+          [
+            "UNH Healthcare Regulatory Compliance Risk with no geography specified",
+            "UNH Healthcare Regulatory Compliance Risk scope explicitly extended to US and international"
+          ],
+          [
+            "UNH Government Health Program Funding and Audit Risk; audit exposure in scope",
+            "UNH Government Healthcare Program Funding Risk; audit component removed from scope"
+          ],
+          [
+            "UNH Pharmacy Services Regulatory and Operational Risk scoped to Optum Rx only",
+            "UNH Pharmacy Care Services Regulatory Risk scope expanded to include both Optum Rx and UnitedHealthcare"
+          ],
+          [
+            "UNH Privacy Data Security and AI Regulatory Compliance Risk; AI component in scope; no geography",
+            "UNH Privacy and Data Compliance Risk; AI component removed from risk name; geography=global added"
+          ]
+        ],
+        "removed": [
+          "UNH Independent Sales Producer Retention Risk",
+          "UNH Intellectual Property Protection Risk"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2025,
+      "item": "Item_1A",
+      "prior_fy": 2024,
+      "sentiment_shift": 0.010311,
+      "status": "shadow",
+      "ticker": "UNH",
+      "tone_shift": 0.009521
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_7_MDA",
+      "prior_fy": 2021,
+      "sentiment_shift": -0.031468,
+      "status": "shadow",
+      "ticker": "UNH",
+      "tone_shift": 0.030487
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_7_MDA",
+      "prior_fy": 2022,
+      "sentiment_shift": 0.056479,
+      "status": "shadow",
+      "ticker": "UNH",
+      "tone_shift": 0.023697
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_7_MDA",
+      "prior_fy": 2023,
+      "sentiment_shift": -0.058558,
+      "status": "shadow",
+      "ticker": "UNH",
+      "tone_shift": 0.036201
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "UNH UnitedHealthcare Medicare & Retirement",
+          "UNH UnitedHealthcare Community & State",
+          "UNH UnitedHealthcare Employer & Individual",
+          "UNH Q4 2025 Net Portfolio Divestitures",
+          "UNH Q4 2025 Restructuring and Other Actions",
+          "Change Healthcare Cyberattack Q4 2025 Reserve Increase",
+          "UNH 2026 Business Realignment",
+          "UNH 2026 Medicare Advantage Membership Outlook",
+          "UNH 2026 Medicaid Membership Outlook",
+          "UNH 2026 Value-Based Care People Served Outlook",
+          "UNH Elevated Medical Cost Trend"
+        ],
+        "changed": [
+          [
+            "Annual dividend raised to $8.40/share effective June 2024",
+            "Annual dividend raised to $8.84/share effective June 2025"
+          ],
+          [
+            "Share repurchase authorization had 33M shares remaining as of 2024-12-31",
+            "Same authorization had 21M shares remaining as of 2025-12-31"
+          ],
+          [
+            "Medicaid risk characterized as margin pressure from inadequate rates",
+            "Medicaid risk characterized specifically as rate insufficiency risk"
+          ]
+        ],
+        "removed": [
+          "Change Healthcare Cyberattack",
+          "UNH Change Healthcare Cyberattack Residual Risks",
+          "UNH Sale of Brazil Operations",
+          "UNH South American Operations Held for Sale",
+          "UNH Pending Health Care Sector Acquisitions 2024",
+          "UNH 2025 Change Healthcare Response Cost Outlook",
+          "UNH 2025 Medicaid Rate Gap Outlook"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2025,
+      "item": "Item_7_MDA",
+      "prior_fy": 2024,
+      "sentiment_shift": -0.159498,
+      "status": "shadow",
+      "ticker": "UNH",
+      "tone_shift": 0.025918
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_1A",
+      "prior_fy": 2021,
+      "sentiment_shift": -0.005921,
+      "status": "shadow",
+      "ticker": "XOM",
+      "tone_shift": 0.019864
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_1A",
+      "prior_fy": 2022,
+      "sentiment_shift": 0.027162,
+      "status": "shadow",
+      "ticker": "XOM",
+      "tone_shift": 0.009582
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_1A",
+      "prior_fy": 2023,
+      "sentiment_shift": 0.019277,
+      "status": "shadow",
+      "ticker": "XOM",
+      "tone_shift": 0.016881
+    },
+    {
+      "claim_diff": {
+        "added": [
+          "XOM Lower-Emission Business Policy Development Risk",
+          "XOM Physical Security and Operational Disruption Risk"
+        ],
+        "changed": [
+          [
+            "XOM Economic Conditions and Energy Demand Risk: risk scoped to macroeconomic conditions and energy demand",
+            "XOM Global Economic Conditions Risk: energy demand component dropped; scope limited to global economic conditions"
+          ],
+          [
+            "XOM Energy Transition and Net-Zero Scenario Risk: risk framed around net-zero scenarios and energy transition",
+            "XOM Energy Transition Technology Uncertainty Risk: net-zero scenario framing replaced by technology uncertainty framing"
+          ],
+          [
+            "XOM Resource Access Limitations Risk: category=geopolitical_regulatory; covers resource access and regulatory constraints",
+            "XOM Geopolitical Access Limitations Risk: category=geopolitical only; regulatory component removed from scope"
+          ],
+          [
+            "XOM Cybersecurity Disruption Risk: threat_actors limited to state-sponsored actors",
+            "XOM Cybersecurity Disruption Risk: threat_actors expanded to state-sponsored actors and others"
+          ],
+          [
+            "XOM Competition Risk: broad competitive risk across geographies",
+            "XOM Competition from State-Owned Companies Risk: scope narrowed specifically to competition from state-owned companies; geography qualifier removed"
+          ]
+        ],
+        "removed": [
+          "XOM Pioneer Acquisition Integration Risk",
+          "XOM Sanctions and Business Restrictions Risk"
+        ]
+      },
+      "claim_diff_status": "ok",
+      "current_fy": 2025,
+      "item": "Item_1A",
+      "prior_fy": 2024,
+      "sentiment_shift": 0.014956,
+      "status": "shadow",
+      "ticker": "XOM",
+      "tone_shift": 0.007625
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2022,
+      "item": "Item_7_MDA",
+      "prior_fy": 2021,
+      "sentiment_shift": -0.103677,
+      "status": "shadow",
+      "ticker": "XOM",
+      "tone_shift": 0.438725
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2023,
+      "item": "Item_7_MDA",
+      "prior_fy": 2022,
+      "sentiment_shift": 0.0,
+      "status": "shadow",
+      "ticker": "XOM",
+      "tone_shift": 0.0
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "not_requested",
+      "current_fy": 2024,
+      "item": "Item_7_MDA",
+      "prior_fy": 2023,
+      "sentiment_shift": 0.0,
+      "status": "shadow",
+      "ticker": "XOM",
+      "tone_shift": 0.012863
+    },
+    {
+      "claim_diff": null,
+      "claim_diff_status": "no_claims",
+      "current_fy": 2025,
+      "item": "Item_7_MDA",
+      "prior_fy": 2024,
+      "sentiment_shift": 0.0,
+      "status": "shadow",
+      "ticker": "XOM",
+      "tone_shift": 0.0
+    }
+  ]
+}

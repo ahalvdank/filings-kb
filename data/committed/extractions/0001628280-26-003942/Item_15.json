@@ -1,0 +1,133 @@
+{
+  "accession": "0001628280-26-003942",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T07:23:50Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Certification of Mark Zuckerberg, Chief Executive Officer, pursuant to Rule 13a-14(a)/15d-14(a), as adopted pursuant to Section 302 of the Sarbanes-Oxley Act of 2002.",
+            "entity_name": "Mark Zuckerberg",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Certification of Susan Li, Chief Financial Officer, pursuant to Rule 13a-14(a)/15d-14(a), as adopted pursuant to Section 302 of the Sarbanes-Oxley Act of 2002.",
+            "entity_name": "Susan Li",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Amended and Restated Bonus Plan, effective January 1, 2026.",
+            "entity_name": "META Amended and Restated Bonus Plan Effective 2026-01-01",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "Meta Platforms, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Mark Zuckerberg",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "CFO"
+            },
+            "identifiers": {},
+            "name": "Susan Li",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2026-01-01",
+              "event_type": "compensation_disclosure"
+            },
+            "identifiers": {},
+            "name": "META Amended and Restated Bonus Plan Effective 2026-01-01",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Mark Zuckerberg",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO"
+            },
+            "source_name": "Susan Li",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "META Amended and Restated Bonus Plan Effective 2026-01-01",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001628280-26-003942.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "e091b9b863ba46d1bc273265f057c2ae2dea3dbbd8c5b1ea6a952cb348ed3802"
+    }
+  ],
+  "prompt_version": "v3"
+}

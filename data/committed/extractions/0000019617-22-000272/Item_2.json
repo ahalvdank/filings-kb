@@ -1,0 +1,92 @@
+{
+  "accession": "0000019617-22-000272",
+  "item": "Item_2",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-19T15:01:12Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "The demolition of the Firm's former headquarters at 270 Park Avenue in New York City was completed in 2021, and construction of a new headquarters on the same site has commenced.",
+            "entity_name": "JPM 270 Park Avenue Headquarters Redevelopment",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "There is no assurance that the Firm will be able to dispose of any such excess properties, premises or facilities, or that it will not incur costs in connection with such dispositions. Such disposition costs may be material to the Firm's results of operations in a given period.",
+            "entity_name": "JPM Excess Property Disposition Cost Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "270 Park Avenue demolition",
+              "JPM new HQ construction"
+            ],
+            "attributes": {
+              "event_type": "restructuring",
+              "location": "270 Park Avenue, New York City",
+              "note": "Demolition of former headquarters completed 2021; construction of new headquarters on same site commenced"
+            },
+            "identifiers": {},
+            "name": "JPM 270 Park Avenue Headquarters Redevelopment",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "property disposal cost risk",
+              "excess facilities disposition risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "JPM Excess Property Disposition Cost Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "JPM 270 Park Avenue Headquarters Redevelopment",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Excess Property Disposition Cost Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/JPM/0000019617-22-000272.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "1d7aba5530552eb7271b180eaaa5cc3eaace7b1358801ee120e421a6b8e70c4e"
+    }
+  ],
+  "prompt_version": "v3"
+}

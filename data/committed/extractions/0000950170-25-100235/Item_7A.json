@@ -1,0 +1,249 @@
+{
+  "accession": "0000950170-25-100235",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T12:19:40Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "as_of_date": "2025-06-30",
+              "section_type": "Item_7A",
+              "sensitivity_hypothetical_change": "10% decrease in foreign exchange rates",
+              "sensitivity_impact_type": "Earnings",
+              "sensitivity_impact_usd_millions": -11596
+            },
+            "chunk_type": "risk_factor",
+            "content": "Certain forecasted transactions, assets, and liabilities are exposed to foreign currency risk. We monitor our foreign currency exposures daily to maximize the economic effectiveness of our foreign currency positions, including hedges. Principal currency exposures include the Euro, Japanese yen, British pound, Canadian dollar, and Australian dollar.",
+            "entity_name": "MSFT Foreign Currency Revenue Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "as_of_date": "2025-06-30",
+              "section_type": "Item_7A",
+              "sensitivity_hypothetical_change": "10% decrease in foreign exchange rates",
+              "sensitivity_impact_type": "Fair Value",
+              "sensitivity_impact_usd_millions": -17
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are exposed to economic risk from foreign exchange rates, interest rates, credit risk, and equity prices. We use derivatives instruments to manage these risks, however, they may still impact our consolidated financial statements.",
+            "entity_name": "MSFT Foreign Currency Investment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "as_of_date": "2025-06-30",
+              "section_type": "Item_7A",
+              "sensitivity_hypothetical_change": "100 basis point increase in U.S. treasury interest rates",
+              "sensitivity_impact_type": "Fair Value",
+              "sensitivity_impact_usd_millions": -1415
+            },
+            "chunk_type": "risk_factor",
+            "content": "Securities held in our fixed-income portfolio are subject to different interest rate risks based on their maturities. We manage the average maturity of the fixed-income portfolio to achieve economic returns that correlate to certain global fixed-income indices.",
+            "entity_name": "MSFT Interest Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "as_of_date": "2025-06-30",
+              "section_type": "Item_7A",
+              "sensitivity_hypothetical_change": "100 basis point increase in credit spreads",
+              "sensitivity_impact_type": "Fair Value",
+              "sensitivity_impact_usd_millions": -436
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our fixed-income portfolio is diversified and consists primarily of investment-grade securities. We manage credit exposures relative to broad-based indices to facilitate portfolio diversification.",
+            "entity_name": "MSFT Credit Spread Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "as_of_date": "2025-06-30",
+              "section_type": "Item_7A",
+              "sensitivity_hypothetical_change": "10% decrease in equity market prices",
+              "sensitivity_impact_type": "Earnings",
+              "sensitivity_impact_usd_millions": -1213
+            },
+            "chunk_type": "risk_factor",
+            "content": "Securities held in our equity investments portfolio are subject to price risk.",
+            "entity_name": "MSFT Equity Price Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "FX revenue exposure",
+              "foreign exchange revenue risk"
+            ],
+            "attributes": {
+              "as_of_date": "2025-06-30",
+              "category": "market_risk",
+              "hypothetical_change": "10% decrease in foreign exchange rates",
+              "hypothetical_loss_usd_millions": 11596,
+              "impact_type": "earnings",
+              "principal_currencies": [
+                "Euro",
+                "Japanese yen",
+                "British pound",
+                "Canadian dollar",
+                "Australian dollar"
+              ],
+              "subcategory": "foreign_exchange"
+            },
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Foreign Currency Revenue Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "FX investment fair value exposure"
+            ],
+            "attributes": {
+              "as_of_date": "2025-06-30",
+              "category": "market_risk",
+              "hypothetical_change": "10% decrease in foreign exchange rates",
+              "hypothetical_loss_usd_millions": 17,
+              "impact_type": "fair_value",
+              "subcategory": "foreign_exchange"
+            },
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Foreign Currency Investment Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "fixed-income portfolio interest rate risk",
+              "treasury rate exposure"
+            ],
+            "attributes": {
+              "as_of_date": "2025-06-30",
+              "category": "market_risk",
+              "hypothetical_change": "100 basis point increase in U.S. treasury interest rates",
+              "hypothetical_loss_usd_millions": 1415,
+              "impact_type": "fair_value",
+              "subcategory": "interest_rate"
+            },
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Interest Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "credit risk exposure",
+              "credit spread exposure"
+            ],
+            "attributes": {
+              "as_of_date": "2025-06-30",
+              "category": "market_risk",
+              "hypothetical_change": "100 basis point increase in credit spreads",
+              "hypothetical_loss_usd_millions": 436,
+              "impact_type": "fair_value",
+              "subcategory": "credit"
+            },
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Credit Spread Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "equity market risk",
+              "equity price exposure"
+            ],
+            "attributes": {
+              "as_of_date": "2025-06-30",
+              "category": "market_risk",
+              "hypothetical_change": "10% decrease in equity market prices",
+              "hypothetical_loss_usd_millions": 1213,
+              "impact_type": "earnings",
+              "subcategory": "equity"
+            },
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Equity Price Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Foreign Currency Revenue Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Foreign Currency Investment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Interest Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Credit Spread Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Equity Price Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0000950170-25-100235.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "3a75f86297208d3709fe61de0f7c688fae9256ae6c43486c70ef7f47e513712c"
+    }
+  ],
+  "prompt_version": "v3"
+}

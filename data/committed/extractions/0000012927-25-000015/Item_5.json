@@ -1,0 +1,68 @@
+{
+  "accession": "0000012927-25-000015",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T05:29:26Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "A total of 65,997 shares were transferred to us from employees in satisfaction of minimum tax withholding obligations associated with the vesting of restricted stock units during the period. We did not purchase any shares of our common stock in the open market pursuant to a repurchase program.",
+            "entity_name": "BA Q4 2024 RSU Tax Withholding Share Acquisition",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "The Boeing Company",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "average_price_per_share": 158.01,
+              "note": "Shares were transferred from employees in satisfaction of minimum tax withholding obligations associated with RSU vesting. No open market repurchases were made pursuant to a repurchase program.",
+              "period": "Q4 2024",
+              "return_type": "buyback",
+              "shares_acquired": 65997
+            },
+            "identifiers": {},
+            "name": "BA Q4 2024 RSU Tax Withholding Share Acquisition",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Q4 2024 RSU Tax Withholding Share Acquisition",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-25-000015.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "b4f18449b8138cdbb780e9eccba6d1922a214f7833c9be50a67d53b52f6a20f1"
+    }
+  ],
+  "prompt_version": "v3"
+}

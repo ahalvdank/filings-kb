@@ -1,0 +1,758 @@
+{
+  "accession": "0001564590-22-026876",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T14:42:18Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue increased $9.4 billion or 18%. Office Commercial products and cloud services revenue increased $4.4 billion or 13%. Office 365 Commercial revenue grew 18% driven by seat growth of 14%, with continued momentum in small and medium business and frontline worker offerings, as well as growth in revenue per user. Office Commercial products revenue declined 22% driven by continued customer shift to cloud offerings.",
+            "entity_name": "MSFT Productivity and Business Processes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue increased $15.2 billion or 25%. Server products and cloud services revenue increased $14.7 billion or 28% driven by Azure and other cloud services. Azure and other cloud services revenue grew 45% driven by growth in our consumption-based services. Server products revenue increased 5% driven by hybrid solutions, including Windows Server and SQL Server running in multi-cloud environments.",
+            "entity_name": "MSFT Intelligent Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue increased $5.6 billion or 10%. Windows revenue increased $2.3 billion or 10% driven by growth in Windows OEM and Windows Commercial. Windows OEM revenue increased 11% driven by continued strength in the commercial PC market, which has higher revenue per license. Windows Commercial products and cloud services revenue increased 11% driven by demand for Microsoft 365.",
+            "entity_name": "MSFT More Personal Computing Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "gross_margin_pct": 0.7,
+              "period": "FY2022",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Microsoft Cloud (formerly commercial cloud) revenue increased 32% to $91.2 billion.",
+            "entity_name": "MSFT Microsoft Cloud",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Azure and other cloud services revenue grew 45% driven by growth in our consumption-based services.",
+            "entity_name": "MSFT Azure and Other Cloud Services",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "LinkedIn revenue increased $3.5 billion or 34% driven by a strong job market in our Talent Solutions business and advertising demand in our Marketing Solutions business.",
+            "entity_name": "MSFT LinkedIn Revenue",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "On March 4, 2022, we completed our acquisition of Nuance Communications, Inc. (\"Nuance\") for a total purchase price of $18.8 billion, consisting primarily of cash. Nuance is a cloud and artificial intelligence (\"AI\") software provider with healthcare and enterprise AI experience, and the acquisition will build on our industry-specific cloud offerings. The financial results of Nuance have been included in our consolidated financial statements since the date of the acquisition. Nuance is reported as part of our Intelligent Cloud segment.",
+            "entity_name": "MSFT Acquisition of Nuance Communications",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "On January 18, 2022, we entered into a definitive agreement to acquire Activision Blizzard, Inc. (\"Activision Blizzard\") for $95.00 per share in an all-cash transaction valued at $68.7 billion, inclusive of Activision Blizzard's net cash. The acquisition has been approved by Activision Blizzard's shareholders, and we expect it to close in fiscal year 2023, subject to the satisfaction of certain regulatory approvals and other customary closing conditions.",
+            "entity_name": "MSFT Pending Acquisition of Activision Blizzard",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal years 2022 and 2021, we repurchased 95 million shares and 101 million shares of our common stock for $28.0 billion and $23.0 billion, respectively, through our share repurchase programs. All repurchases were made using cash resources. As of June 30, 2022, $40.7 billion remained of our $60 billion share repurchase program.",
+            "entity_name": "MSFT FY2022 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal year 2022, our Board of Directors declared quarterly dividends of $0.62 per share. We intend to continue returning capital to shareholders in the form of dividends, subject to declaration by our Board of Directors.",
+            "entity_name": "MSFT FY2022 Quarterly Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In July 2022, we completed an assessment of the useful lives of our server and network equipment. Due to investments in software that increased efficiencies in how we operate our server and network equipment, as well as advances in technology, we determined we should increase the estimated useful lives of both server and network equipment from four years to six years. This change in accounting estimate will be effective beginning fiscal year 2023.",
+            "entity_name": "MSFT Server and Network Equipment Useful Life Change",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "Based on the carrying amount of server and network equipment included in property and equipment, net as of June 30, 2022, it is estimated this change will increase our fiscal year 2023 operating income by $3.7 billion.",
+            "entity_name": "MSFT FY2023 Operating Income Impact from Useful Life Change",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings.",
+            "entity_name": "MSFT Capital Expenditure Growth Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Satya Nadella\nChief Executive Officer",
+            "entity_name": "Satya Nadella",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Amy E. Hood\nExecutive Vice President and Chief Financial Officer",
+            "entity_name": "Amy E. Hood",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Alice L. Jolla\nCorporate Vice President and Chief Accounting Officer",
+            "entity_name": "Alice L. Jolla",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our devices are primarily manufactured by third-party contract manufacturers, some of which contain certain components for which there are very few qualified suppliers. For these components, we have limited near-term flexibility to use other manufacturers if a current vendor becomes unavailable or is unable to meet our requirements. Extended disruptions at these suppliers and/or manufacturers could lead to a similar disruption in our ability to manufacture devices on time to meet consumer demand.",
+            "entity_name": "MSFT Component Supplier Concentration Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our international operations provide a significant portion of our total revenue and expenses. Many of these revenue and expenses are denominated in currencies other than the U.S. dollar. As a result, changes in foreign exchange rates may significantly affect revenue and expenses.",
+            "entity_name": "MSFT Foreign Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our success is highly dependent on our ability to attract and retain qualified employees. We hire a mix of university and industry talent worldwide. We compete for talented individuals globally by offering an exceptional working environment, broad customer reach, scale in resources, the ability to grow one's career across many different products and businesses, and competitive compensation and benefits.",
+            "entity_name": "MSFT Talent Acquisition and Retention Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "As of June 30, 2022, the primary unresolved issues for the IRS audits relate to transfer pricing, which could have a material impact in our consolidated financial statements when the matters are resolved. We believe our allowances for income tax contingencies are adequate. We have not received a proposed assessment for the unresolved key transfer pricing issues and do not expect a final resolution of these issues in the next 12 months.",
+            "entity_name": "MSFT IRS Transfer Pricing Audit (Tax Years 2004-2017)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft",
+              "MSFT"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "Microsoft Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Productivity and Business Processes"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Productivity and Business Processes",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Productivity and Business Processes Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Intelligent Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Intelligent Cloud",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Intelligent Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "More Personal Computing",
+              "MPC"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "More Personal Computing",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT More Personal Computing Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Microsoft Cloud",
+              "commercial cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Microsoft Cloud",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Microsoft Cloud",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Azure"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Azure and other cloud services",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Azure and Other Cloud Services",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "LinkedIn"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "LinkedIn",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT LinkedIn Revenue",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Nuance acquisition"
+            ],
+            "attributes": {
+              "consideration": "cash",
+              "effective_date": "2022-03-04",
+              "event_type": "acquisition",
+              "purchase_price_usd": 18800000000,
+              "target_company": "Nuance Communications, Inc."
+            },
+            "identifiers": {},
+            "name": "MSFT Acquisition of Nuance Communications",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Activision Blizzard deal"
+            ],
+            "attributes": {
+              "agreement_date": "2022-01-18",
+              "consideration": "all_cash",
+              "event_type": "acquisition",
+              "expected_close": "FY2023",
+              "per_share_price": 95.0,
+              "target_company": "Activision Blizzard, Inc.",
+              "transaction_value_usd": 68700000000
+            },
+            "identifiers": {},
+            "name": "MSFT Pending Acquisition of Activision Blizzard",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "MSFT FY2022 buyback"
+            ],
+            "attributes": {
+              "amount_usd": 28000000000,
+              "remaining_authorization_usd": 40700000000,
+              "return_type": "buyback",
+              "shares_repurchased": 95000000,
+              "total_program_usd": 60000000000
+            },
+            "identifiers": {},
+            "name": "MSFT FY2022 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "MSFT quarterly dividend"
+            ],
+            "attributes": {
+              "frequency": "quarterly",
+              "per_share": 0.62,
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "MSFT FY2022 Quarterly Dividend",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "MSFT accounting estimate change FY2023"
+            ],
+            "attributes": {
+              "effective_fiscal_year": "FY2023",
+              "estimated_fy2023_operating_income_impact_usd": 3700000000,
+              "event_type": "accounting_change",
+              "new_useful_life_years": 6,
+              "prior_useful_life_years": 4
+            },
+            "identifiers": {},
+            "name": "MSFT Server and Network Equipment Useful Life Change",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "operating_income",
+              "new_value": "3700000000",
+              "period": "FY2023",
+              "unit": "USD",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "MSFT FY2023 Operating Income Impact from Useful Life Change",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "capital_expenditures",
+              "new_value": "increase_expected",
+              "period": "FY2023_and_beyond",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "MSFT Capital Expenditure Growth Outlook",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "MSFT",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Satya Nadella",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "MSFT",
+              "insider_status": "officer",
+              "officer_role": "CFO"
+            },
+            "identifiers": {},
+            "name": "Amy E. Hood",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "MSFT",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "Alice L. Jolla",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "device supply chain risk",
+              "device manufacturing concentration risk"
+            ],
+            "attributes": {
+              "category": "supply_chain"
+            },
+            "identifiers": {},
+            "name": "MSFT Component Supplier Concentration Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "FX risk",
+              "currency risk"
+            ],
+            "attributes": {
+              "category": "macro"
+            },
+            "identifiers": {},
+            "name": "MSFT Foreign Exchange Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "category": "operational"
+            },
+            "identifiers": {},
+            "name": "MSFT Talent Acquisition and Retention Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "IRS audit",
+              "MSFT IRS transfer pricing"
+            ],
+            "attributes": {
+              "counterparty": "Internal Revenue Service",
+              "primary_issue": "transfer pricing",
+              "status": "pending",
+              "tax_years": "2004-2017"
+            },
+            "identifiers": {},
+            "name": "MSFT IRS Transfer Pricing Audit (Tax Years 2004-2017)",
+            "type": "LegalProceeding"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.18,
+              "operating_income": 29687000000,
+              "operating_income_growth_pct": 0.22,
+              "period": "FY2022",
+              "revenue": 63364000000
+            },
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Productivity and Business Processes Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.25,
+              "operating_income": 32721000000,
+              "operating_income_growth_pct": 0.25,
+              "period": "FY2022",
+              "revenue": 75251000000
+            },
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Intelligent Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.1,
+              "operating_income": 20975000000,
+              "operating_income_growth_pct": 0.08,
+              "period": "FY2022",
+              "revenue": 59655000000
+            },
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT More Personal Computing Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.32,
+              "margin": 0.7,
+              "period": "FY2022",
+              "revenue": 91200000000
+            },
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Microsoft Cloud",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.45,
+              "period": "FY2022"
+            },
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Azure and Other Cloud Services",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.34,
+              "period": "FY2022"
+            },
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT LinkedIn Revenue",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Acquisition of Nuance Communications",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Pending Acquisition of Activision Blizzard",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2022 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2022 Quarterly Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Server and Network Equipment Useful Life Change",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2023 Operating Income Impact from Useful Life Change",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Capital Expenditure Growth Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Satya Nadella",
+            "source_type_entity": "Person",
+            "target_name": "Microsoft Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO"
+            },
+            "source_name": "Amy E. Hood",
+            "source_type_entity": "Person",
+            "target_name": "Microsoft Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Corporate Vice President and Chief Accounting Officer"
+            },
+            "source_name": "Alice L. Jolla",
+            "source_type_entity": "Person",
+            "target_name": "Microsoft Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Component Supplier Concentration Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Foreign Exchange Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Talent Acquisition and Retention Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT IRS Transfer Pricing Audit (Tax Years 2004-2017)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0001564590-22-026876.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "b52c7ad8e397ef4b62106aaed3b3c636077d59754f251d055ab7940adea64e59"
+    }
+  ],
+  "prompt_version": "v3"
+}

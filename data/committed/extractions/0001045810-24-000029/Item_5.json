@@ -1,0 +1,192 @@
+{
+  "accession": "0001045810-24-000029",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T12:40:24Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In August 2023, our Board of Directors approved an increase to our share repurchase program of an additional $25.0 billion, without expiration.",
+            "entity_name": "NVDA August 2023 $25B Share Repurchase Program Expansion",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal year 2024, we repurchased 21 million shares of our common stock for $9.7 billion. As of January 28, 2024, we were authorized, subject to certain specifications, to repurchase additional shares of our common stock up to $22.5 billion.",
+            "entity_name": "NVDA FY2024 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In fiscal year 2024, we paid $395 million in quarterly cash dividends.",
+            "entity_name": "NVDA FY2024 Quarterly Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "From January 29, 2024 to February 16, 2024, we repurchased 2.8 million shares for $1.9 billion pursuant to a Rule 10b5-1 trading plan.",
+            "entity_name": "NVDA Post-FY2024 Share Repurchases Jan-Feb 2024",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "During fiscal year 2024, we withheld approximately 7 million shares for a total value of $2.8 billion through net share settlements.",
+            "entity_name": "NVDA FY2024 RSU Net Share Settlement Withholding",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVDA 2023 buyback increase"
+            ],
+            "attributes": {
+              "amount_usd": 25000000000,
+              "effective_date": "2023-08",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "NVDA August 2023 $25B Share Repurchase Program Expansion",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 9700000000,
+              "period": "FY2024",
+              "remaining_authorization_usd": 22500000000,
+              "return_type": "buyback",
+              "shares": 21000000
+            },
+            "identifiers": {},
+            "name": "NVDA FY2024 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 395000000,
+              "period": "FY2024",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2024 Quarterly Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "NVDA Rule 10b5-1 post-quarter buyback"
+            ],
+            "attributes": {
+              "amount_usd": 1900000000,
+              "period": "2024-01-29 to 2024-02-16",
+              "program": "Rule 10b5-1",
+              "return_type": "buyback",
+              "shares": 2800000
+            },
+            "identifiers": {},
+            "name": "NVDA Post-FY2024 Share Repurchases Jan-Feb 2024",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "event_type": "compensation_disclosure",
+              "period": "FY2024",
+              "shares_withheld": 7000000,
+              "value_usd": 2800000000
+            },
+            "identifiers": {},
+            "name": "NVDA FY2024 RSU Net Share Settlement Withholding",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA August 2023 $25B Share Repurchase Program Expansion",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2024 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2024 Quarterly Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Post-FY2024 Share Repurchases Jan-Feb 2024",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2024 RSU Net Share Settlement Withholding",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-24-000029.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "e8cc1dc51a63ce8642ff4f4ce2cca5623c0a98c26ed5fed1fe474c382ec480e4"
+    }
+  ],
+  "prompt_version": "v3"
+}

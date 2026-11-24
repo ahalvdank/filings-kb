@@ -1,0 +1,148 @@
+{
+  "accession": "0000093410-22-000019",
+  "item": "Item_3",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T14:39:42Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The refinery in Pasadena, Texas acquired by Chevron on May 1, 2019 (Pasadena Refining System, Inc. and PRSI Trading LLC) has multiple outstanding Notices of Violation (NOVs) that were issued by the Texas Commission on Environmental Quality related to air emissions at the refinery. The Pasadena refinery is currently negotiating a resolution of the NOVs with the Texas Attorney General. Resolution of these alleged violations is expected to result in the payment of a civil penalty of $1.0 million or more.",
+            "entity_name": "Pasadena Refinery TCEQ NOVs",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "CalGEM issued NOVs and two orders to Chevron related to seeps that occurred in the Cymric Oil Field in Kern County, California. An October 2, 2019 CalGEM order seeks a civil penalty of approximately $2.7 million. Chevron has filed an appeal of this order. Chevron is currently in discussions with CalGEM to explore a global settlement to resolve the order and all past and present seeps in the Cymric Field, which would increase the amount of penalty paid.",
+            "entity_name": "CalGEM Cymric Oil Field Orders",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The parties have negotiated a resolution of these issues with the agencies, which was approved by the U.S. District Court, District of Colorado on September 28, 2021. Resolution of these alleged violations resulted in the payment of a civil penalty of $1.0 million on October 26, 2021.",
+            "entity_name": "Noble Energy Clean Water Act Violations - Weld County Colorado",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Pasadena Refining System air emissions NOVs"
+            ],
+            "attributes": {
+              "counterparty": "Texas Commission on Environmental Quality / Texas Attorney General",
+              "expected_civil_penalty_usd_min": 1000000,
+              "location": "Pasadena, Texas",
+              "status": "pending",
+              "subject": "air emissions at refinery"
+            },
+            "identifiers": {},
+            "name": "Pasadena Refinery TCEQ NOVs",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Cymric Field seep orders",
+              "CalGEM Kern County proceedings"
+            ],
+            "attributes": {
+              "civil_penalty_sought_usd": 2700000,
+              "counterparty": "California Department of Conservation / CalGEM",
+              "location": "Cymric Oil Field, Kern County, California",
+              "status": "appealed",
+              "subject": "underground injection control seeps"
+            },
+            "identifiers": {},
+            "name": "CalGEM Cymric Oil Field Orders",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Noble Energy CWA Weld County",
+              "Noble Midstream CWA 2014 flood"
+            ],
+            "attributes": {
+              "civil_penalty_paid_usd": 1000000,
+              "counterparty": "U.S. Department of Justice / U.S. Environmental Protection Agency",
+              "location": "Weld County, Colorado",
+              "penalty_paid_date": "2021-10-26",
+              "settlement_approval_date": "2021-09-28",
+              "status": "settled",
+              "subject": "Clean Water Act violations related to 2014 flood event"
+            },
+            "identifiers": {},
+            "name": "Noble Energy Clean Water Act Violations - Weld County Colorado",
+            "type": "LegalProceeding"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Pasadena Refinery TCEQ NOVs",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CalGEM Cymric Oil Field Orders",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Noble Energy Clean Water Act Violations - Weld County Colorado",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "new_status": "settled",
+              "prior_status": "pending"
+            },
+            "source_name": "Noble Energy Clean Water Act Violations - Weld County Colorado",
+            "source_type_entity": "LegalProceeding",
+            "target_name": "CVX 10-K 2022",
+            "target_type_entity": "Filing",
+            "type": "legal_proceeding_status_changed_in",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-22-000019.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "11cadbd8a43636f7463d4b887e98e34ce41c0a15a04117734cf31753e6a8ca78"
+    }
+  ],
+  "prompt_version": "v3"
+}

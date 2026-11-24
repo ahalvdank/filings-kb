@@ -1,0 +1,1328 @@
+{
+  "accession": "0001326801-25-000017",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T08:25:05Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note_ref": "Note 2",
+              "period": "FY2024/2023/2022",
+              "section_type": "Item_8",
+              "unit": "millions"
+            },
+            "chunk_type": "segment",
+            "content": "Advertising$160,633 $131,948 $113,642 Other revenue1,722 1,058 808 Family of Apps162,355 133,006 114,450 Reality Labs2,146 1,896 2,159 Total revenue$164,501 $134,902 $116,609",
+            "entity_name": "META Family of Apps Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2025-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_ref": "Note 2",
+              "period": "FY2024/2023/2022",
+              "section_type": "Item_8",
+              "unit": "millions"
+            },
+            "chunk_type": "segment",
+            "content": "Reality Labs2,146 1,896 2,159 Total revenue$164,501 $134,902 $116,609",
+            "entity_name": "META Reality Labs Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2025-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "source_statement": "Consolidated Statements of Cash Flows",
+              "unit": "millions"
+            },
+            "chunk_type": "capital_return",
+            "content": "Repurchases of Class A common stock(30,125)(19,774)(27,956)",
+            "entity_name": "META FY2024 Class A Common Stock Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2025-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_ref": "Note 4 footnote 1",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Our dividend program began in the first quarter of 2024.",
+            "entity_name": "META FY2024 Quarterly Cash Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2025-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_ref": "Note 4",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "We declared and paid four quarterly cash dividends, including dividend equivalents, totaling $2.00 for each share of common stock during the year ended December 31, 2024. Total dividends and dividend equivalents paid for Class A and Class B common stock were $4.38 billion and $691 million, respectively, during the year ended December 31, 2024.",
+            "entity_name": "META FY2024 Quarterly Cash Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2025-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_ref": "Note 3",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2022, we initiated several measures to pursue greater efficiency and to realign our business and strategic priorities. These measures included a facilities consolidation strategy to sublease, early terminate, or abandon several office buildings under operating leases, a layoff of approximately 11,000 employees across the Family of Apps (FoA) and Reality Labs (RL) segments, and a pivot towards a next generation data center design, including cancellation of multiple data center projects (the 2022 Restructuring). As of December 31, 2024, we have completed the 2022 restructuring initiatives.",
+            "entity_name": "META 2022 Restructuring Program Completion",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_ref": "Note 1",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In January 2025, we completed an assessment of the useful lives of certain servers and network assets, and determined we should extend the estimated useful lives to 5.5 years. This change in accounting estimate will be effective beginning fiscal year 2025.",
+            "entity_name": "META Server and Network Asset Useful Life Extension",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "source_statement": "Consolidated Statements of Cash Flows",
+              "unit": "millions"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Proceeds from issuance of long-term debt, net10,432 8,455 9,921",
+            "entity_name": "META FY2024 Long-term Debt Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2025-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "source": "Critical Audit Matter — Uncertain Tax Positions"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "As discussed in Note 15 to the consolidated financial statements, the Company has received certain notices from the Internal Revenue Service (IRS) related to transfer pricing agreements with the Company's foreign subsidiaries for certain periods examined. The IRS has stated that it will also apply its position to tax years subsequent to those examined. If the IRS prevails in its position, it could result in an additional federal tax liability, plus interest and any penalties asserted.",
+            "entity_name": "META IRS Transfer Pricing Dispute",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2025-01-29",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta",
+              "META"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "Meta Platforms, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Family of Apps",
+              "FoA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Family of Apps",
+              "ticker": "META"
+            },
+            "name": "META Family of Apps Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Reality Labs",
+              "RL"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Reality Labs",
+              "ticker": "META"
+            },
+            "name": "META Reality Labs Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "META 2024 share repurchase",
+              "META 2024 buyback"
+            ],
+            "attributes": {
+              "amount_usd": 30125000000,
+              "fiscal_year": "2024",
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "META FY2024 Class A Common Stock Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "META 2024 dividend",
+              "META dividend program initiation"
+            ],
+            "attributes": {
+              "amount_usd": 5072000000,
+              "note": "Dividend program began Q1 2024; first-ever dividend for Meta",
+              "per_share": 2.0,
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "META FY2024 Quarterly Cash Dividend",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "2022 Restructuring",
+              "META facilities consolidation restructuring"
+            ],
+            "attributes": {
+              "completion_date": "2024-12-31",
+              "event_type": "restructuring",
+              "total_charges_plan_to_date_usd": 7254000000
+            },
+            "identifiers": {},
+            "name": "META 2022 Restructuring Program Completion",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "META 2025 server useful life accounting change"
+            ],
+            "attributes": {
+              "asset_class": "servers and network assets",
+              "effective_date": "2025-01",
+              "event_type": "accounting_change",
+              "new_useful_life": "5.5 years"
+            },
+            "identifiers": {},
+            "name": "META Server and Network Asset Useful Life Extension",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "fiscal_year": "2024",
+              "instrument_type": "notes",
+              "principal_usd": 10432000000
+            },
+            "identifiers": {},
+            "name": "META FY2024 Long-term Debt Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "IRS transfer pricing matter",
+              "Meta IRS notices"
+            ],
+            "attributes": {
+              "counterparty": "Internal Revenue Service",
+              "status": "pending",
+              "subject": "transfer pricing agreements with foreign subsidiaries"
+            },
+            "identifiers": {},
+            "name": "META IRS Transfer Pricing Dispute",
+            "type": "LegalProceeding"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.221,
+              "period": "FY2024",
+              "revenue": 162355000000
+            },
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Family of Apps Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2025-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.132,
+              "period": "FY2024",
+              "revenue": 2146000000
+            },
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Reality Labs Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2025-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META FY2024 Class A Common Stock Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2025-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META FY2024 Quarterly Cash Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2025-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META 2022 Restructuring Program Completion",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Server and Network Asset Useful Life Extension",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META FY2024 Long-term Debt Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2025-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META IRS Transfer Pricing Dispute",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2025-01-29",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-25-000017.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "64e0f1eb6f73dcb4157c36852a8336705b093781478c94c3bffd2e36088e5cab"
+    },
+    {
+      "extracted_at": "2026-07-20T08:34:39Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "As of December 31, 2024 and 2023, we had $29.0 billion and $18.50 billion of fixed-rate senior unsecured notes (the Notes), respectively, including $10.50 billion of Notes issued in August 2024.",
+            "entity_name": "META August 2024 $10.5B Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Each series of the Notes in the table above rank equally with each other. Interest on the Notes is payable semi-annually in arrears. We may redeem the Notes at any time, in whole or in part, at specified redemption prices. We are not subject to any financial covenants under the Notes. Interest expense, net of capitalized interest, recognized on the Notes was $683 million, $420 million, and $160 million for the years ended December 31, 2024, 2023, and 2022, respectively.",
+            "entity_name": "META August 2024 $10.5B Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 13",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "In January 2024, an additional $50 billion of repurchases was authorized under this program. In 2024, we repurchased and subsequently retired 65 million shares of our Class A common stock for an aggregate amount of $29.75 billion, which includes the 1% excise tax accruals as a result of the Inflation Reduction Act of 2022. As of December 31, 2024, $51.28 billion remained available and authorized for repurchases.",
+            "entity_name": "META January 2024 $50B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 13",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "In 2024, we repurchased and subsequently retired 65 million shares of our Class A common stock for an aggregate amount of $29.75 billion, which includes the 1% excise tax accruals as a result of the Inflation Reduction Act of 2022.",
+            "entity_name": "META 2024 Class A Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 13",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Beginning in February 2024, our board of directors declared quarterly cash dividend of $0.50 per share to the holders of our Class A and Class B common stock. RSUs granted on or after March 1, 2024 under our 2012 Equity Incentive Plan (Amended 2012 Plan), which was most recently amended in May 2024, are entitled to dividend equivalent rights. During the year ended December 31, 2024, total dividend and dividend equivalent payments were $4.38 billion and $691 million for Class A and Class B common stock, respectively.",
+            "entity_name": "META 2024 Quarterly Cash Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8",
+              "subsection": "Competition"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On December 9, 2020, the FTC filed a complaint (FTC v. Meta Platforms, Inc.) against us in the U.S. District Court for the District of Columbia alleging that we engaged in anticompetitive conduct and unfair methods of competition in violation of Section 5 of the Federal Trade Commission Act and Section 2 of the Sherman Act, including by acquiring Instagram in 2012 and WhatsApp in 2014 and by maintaining conditions on access to our platform. The FTC sought a permanent injunction against our company's alleged violations of the antitrust laws, and other equitable relief, including divestiture or reconstruction of Instagram and WhatsApp.",
+            "entity_name": "FTC v. Meta Platforms, Inc. (Antitrust)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8",
+              "subsection": "Competition"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On November 13, 2024, the court granted in part and denied in part both our and the FTC's motions for summary judgment. Trial is set to begin on April 14, 2025.",
+            "entity_name": "FTC v. Meta Platforms, Inc. (Antitrust)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8",
+              "subsection": "Competition"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On November 18, 2024, the European Commission issued a decision that Meta infringed Article 102 on the Treaty of the Functioning of the European Union in relation to certain alleged business practices relating to Facebook Marketplace and imposed a fine of approximately EUR €798 million. We appealed the European Commission's decision on January 28, 2025.",
+            "entity_name": "European Commission Facebook Marketplace Fine",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8",
+              "subsection": "Privacy and Related Matters"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On May 3, 2023, the FTC filed a public administrative proceeding (In the Matter of Facebook, Inc.) seeking substantial changes to the modified consent order, which took effect in April 2020 after its entry by the U.S. District Court for the District of Columbia. The changes sought by the FTC are set forth in a proposed order and include, among others, a prohibition on our use of minors' data for any commercial purposes, changes to the composition of our board of directors, and significant limitations on our ability to modify and launch new products.",
+            "entity_name": "In the Matter of Facebook, Inc. (FTC Consent Order Modification)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8",
+              "subsection": "Privacy and Related Matters"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On January 10, 2025, the Commission issued a decision on certain threshold legal issues, including that the Commission has statutory authority to modify consent orders. The Commission stated that its decision is subject to Meta's jurisdictional challenges currently pending before the U.S. Court of Appeals for the District of Columbia Circuit in U.S. v. Facebook, Inc., and that the nature and scope of any further administrative proceedings would be addressed at a later date.",
+            "entity_name": "In the Matter of Facebook, Inc. (FTC Consent Order Modification)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8",
+              "subsection": "Youth-Related Actions"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Beginning in January 2022, we became subject to litigation and other proceedings that were filed in various federal and state courts alleging that Facebook and Instagram cause \"social media addiction\" in users, with most proceedings focused on those under 18 years old, resulting in various mental health and other harms. Putative class actions have been filed in the United States, Brazil, and Canada on behalf of users in those jurisdictions, and numerous school districts, municipalities, and tribal nations have filed public nuisance claims in the United States, Brazil, and/or Canada based on similar allegations.",
+            "entity_name": "In re Social Media Adolescent Addiction Product Liability Personal Injury Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8",
+              "subsection": "Youth-Related Actions"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Beginning in November 2024, counsel for thousands of individual claimants began sending mass arbitration demands relating to \"social media addiction\" and related harms allegedly caused by Instagram.",
+            "entity_name": "In re Social Media Adolescent Addiction Product Liability Personal Injury Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In July 2016, we received a Statutory Notice of Deficiency (Notice) from the IRS related to transfer pricing with our foreign subsidiaries in conjunction with the examination of the 2010 tax year. While the Notice applies only to the 2010 tax year, the IRS stated that it will also apply its position for tax years subsequent to 2010 and has done so in years covered by the second Notice described below. We do not agree with the position of the IRS and have filed a petition in the Tax Court challenging the Notice. On January 15, 2020, the IRS's amendment to answer was filed stating that it planned to assert at trial an adjustment that is higher than the adjustment stated in the Notice. The first session of the trial was completed in March 2020 and the final trial session was completed in August 2022. We expect the Tax Court to issue an opinion in 2025 which will likely provide a transfer pricing value for intellectual property transferred.",
+            "entity_name": "IRS Transfer Pricing Dispute (2010 Tax Year)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "If the IRS prevails in its updated position, this could result in an additional federal tax liability of an estimated, aggregate amount of up to approximately $9.0 billion in excess of the amounts in our originally filed U.S. return, plus interest and any penalties asserted.",
+            "entity_name": "IRS Transfer Pricing Dispute (2010 Tax Year)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In March 2018, we received a second Notice from the IRS in conjunction with the examination of our 2011 through 2013 tax years. The IRS applied its position from the 2010 tax year to each of these years and also proposed new adjustments related to other transfer pricing with our foreign subsidiaries and certain tax credits that we claimed. If the IRS prevails in its position for these new adjustments, this could result in an additional federal tax liability of up to approximately $680 million in excess of the amounts in our originally filed U.S. returns, plus interest and any penalties asserted.",
+            "entity_name": "IRS Transfer Pricing Dispute (2011-2013 Tax Years)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8",
+              "subsection": "Other Actions"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Beginning on July 7, 2023, multiple putative class actions were filed against us in the U.S. District Court for the Northern District of California (Kadrey, et al. v. Meta Platforms, Inc., Chabon, et al. v. Meta Platforms, Inc. and Farnsworth v. Meta Platforms, Inc.) and U.S. District Court for the Southern District of New York (Huckabee, et al. v. Meta Platforms, Inc. et al., which was subsequently transferred to the U.S. District Court for the Northern District of California) alleging that we used various copyrighted books and materials to train our artificial intelligence models, and seeking unspecified damages and injunctive relief. These cases have all been consolidated into Kadrey, et al. v. Meta Platforms, Inc.",
+            "entity_name": "Kadrey et al. v. Meta Platforms, Inc. (AI Copyright)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8",
+              "subsection": "Privacy and Related Matters"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In addition, on May 12, 2023, the IDPC issued a Final Decision concluding that Meta Platforms Ireland's reliance on Standard Contractual Clauses in respect of certain transfers of European Economic Area (EEA) Facebook user data was not in compliance with the GDPR. The IDPC issued an administrative fine of EUR €1.2 billion as well as corrective orders, which is described further in \"Legal Proceedings\" contained in Part I, Item 3 of this Annual Report on Form 10-K.",
+            "entity_name": "IDPC EUR 1.2 Billion GDPR Fine",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8",
+              "subsection": "Competition"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In March 2024, the European Commission opened an investigation into the compliance of our \"subscription for no ads\" consent model with requirements under Article 5(2) of the Digital Markets Act. The European Commission issued preliminary findings on July 1, 2024 reflecting its preliminary view that our model does not comply with such requirements, and indicated that it will conclude its investigation by March 2025.",
+            "entity_name": "European Commission Digital Markets Act Investigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8",
+              "subsection": "Privacy and Related Matters"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On November 29, 2023, we separately filed a complaint, also in the U.S. District Court for the District of Columbia (Meta Platforms, Inc. v. FTC), asserting constitutional challenges to the structure of the FTC, and seeking to preliminarily enjoin the FTC proceeding during the pendency of the litigation. On December 13, 2023, the FTC filed an opposition to our motion for preliminary injunction and a motion to dismiss the complaint.",
+            "entity_name": "Meta Platforms, Inc. v. FTC (Constitutional Challenge)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8",
+              "subsection": "Youth-Related Actions"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On May 16, 2024, the European Commission opened formal proceedings assessing our compliance with certain requirements under Articles 28, 34, and 35 of the Digital Services Act (DSA), including the way in which we identified, assessed, and mitigated against certain systemic risks to minors and other vulnerable users that may stem from the design and functioning of Instagram and Facebook.",
+            "entity_name": "European Commission DSA Formal Proceedings (Minors)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8",
+              "subsection": "Privacy and Related Matters"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On December 22, 2022, the parties entered into a settlement agreement to resolve the lawsuit, which provides for a payment of $725 million by us. The settlement was approved by the court on October 10, 2023, and the payment was made in November 2023. Two objectors appealed final approval (one of which was voluntarily dismissed as of June 24, 2024). The objection is fully briefed and will be heard on February 7, 2025.",
+            "entity_name": "In re Facebook Consumer Privacy User Profile Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8",
+              "subsection": "Other Actions"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On September 18, 2024, staff of the Consumer Financial Protection Bureau (CFPB or Bureau) initiated a Notice and Opportunity to Respond and Advise (NORA) process related to its investigation of advertising for financial products and services on our platform, informing us that staff may recommend to the Director of the CFPB that the Bureau take legal action alleging violations of the Consumer Financial Protection Act, including based on our alleged receipt and use for advertising of financial information from third parties through certain advertising tools as well as our related user disclosures and controls, and provided us with an opportunity to respond.",
+            "entity_name": "CFPB NORA Investigation (Financial Products Advertising)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 16",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "We report our financial results for our two reportable segments: Family of Apps (FoA) and Reality Labs (RL). FoA includes Facebook, Instagram, Messenger, WhatsApp, and other services.",
+            "entity_name": "META Family of Apps",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 16",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "RL includes our virtual, augmented, and mixed reality related consumer hardware, software, and content. Our operating segments are the same as our reportable segments.",
+            "entity_name": "META Reality Labs",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 8",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "We also recorded $385 million, $1.76 billion, and $1.71 billion net impairment losses for operating lease right-of-use assets as a part of our facilities consolidation restructuring efforts for the years ended December 31, 2024, 2023, and 2022, respectively.",
+            "entity_name": "META Facilities Consolidation Restructuring",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta",
+              "Facebook"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "Meta Platforms, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "August 2024 Notes"
+            ],
+            "attributes": {
+              "effective_interest_rate_range": "4.42%-5.60%",
+              "instrument_type": "notes",
+              "issuance_date": "2024-08",
+              "maturity_range": "2029-2064",
+              "note": "Fixed-rate senior unsecured notes ranking equally with August 2022 and May 2023 Notes",
+              "principal_usd": 10500000000,
+              "stated_interest_rate_range": "4.30%-5.55%"
+            },
+            "identifiers": {},
+            "name": "META August 2024 $10.5B Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Meta 2024 buyback authorization expansion"
+            ],
+            "attributes": {
+              "amount_usd": 50000000000,
+              "effective_date": "2024-01",
+              "remaining_authorized_as_of_2024_12_31_usd": 51280000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "META January 2024 $50B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Meta 2024 buyback execution"
+            ],
+            "attributes": {
+              "amount_usd": 29750000000,
+              "period": "FY2024",
+              "return_type": "buyback",
+              "share_class": "Class A",
+              "shares": 65000000
+            },
+            "identifiers": {},
+            "name": "META 2024 Class A Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Meta inaugural quarterly dividend"
+            ],
+            "attributes": {
+              "effective_date": "2024-02",
+              "per_share": 0.5,
+              "return_type": "dividend",
+              "total_paid_class_a_usd": 4380000000,
+              "total_paid_class_b_usd": 691000000
+            },
+            "identifiers": {},
+            "name": "META 2024 Quarterly Cash Dividend",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "FTC antitrust complaint",
+              "FTC Meta antitrust case"
+            ],
+            "attributes": {
+              "counterparty": "Federal Trade Commission",
+              "court": "U.S. District Court for the District of Columbia",
+              "status": "pending",
+              "subject": "anticompetitive conduct including acquisitions of Instagram and WhatsApp; divestiture sought",
+              "trial_date": "2025-04-14"
+            },
+            "identifiers": {},
+            "name": "FTC v. Meta Platforms, Inc. (Antitrust)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EC Facebook Marketplace antitrust fine",
+              "EC Article 102 Marketplace decision"
+            ],
+            "attributes": {
+              "appeal_date": "2025-01-28",
+              "counterparty": "European Commission",
+              "decision_date": "2024-11-18",
+              "fine_amount_eur": 798000000,
+              "status": "appealed",
+              "subject": "Facebook Marketplace tying and data use practices, Article 102 TFEU"
+            },
+            "identifiers": {},
+            "name": "European Commission Facebook Marketplace Fine",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "FTC consent order modification proceeding",
+              "FTC 2023 administrative proceeding"
+            ],
+            "attributes": {
+              "counterparty": "Federal Trade Commission",
+              "forum": "FTC administrative proceeding",
+              "status": "pending",
+              "subject": "proposed changes to 2020 consent order including prohibition on use of minors data and board composition changes"
+            },
+            "identifiers": {},
+            "name": "In the Matter of Facebook, Inc. (FTC Consent Order Modification)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "adolescent addiction litigation",
+              "youth social media addiction MDL"
+            ],
+            "attributes": {
+              "court": "U.S. District Court for the Northern District of California",
+              "status": "pending",
+              "subject": "allegations that Facebook and Instagram cause social media addiction in users under 18 resulting in mental health harms"
+            },
+            "identifiers": {},
+            "name": "In re Social Media Adolescent Addiction Product Liability Personal Injury Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "IRS 2010 Statutory Notice of Deficiency",
+              "Meta IRS Tax Court 2010"
+            ],
+            "attributes": {
+              "counterparty": "Internal Revenue Service",
+              "forum": "U.S. Tax Court",
+              "potential_additional_liability_usd": 9000000000,
+              "status": "pending",
+              "subject": "transfer pricing with foreign subsidiaries for 2010 tax year; Tax Court opinion expected 2025"
+            },
+            "identifiers": {},
+            "name": "IRS Transfer Pricing Dispute (2010 Tax Year)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "IRS second notice transfer pricing",
+              "Meta IRS Tax Court 2011-2013"
+            ],
+            "attributes": {
+              "counterparty": "Internal Revenue Service",
+              "forum": "U.S. Tax Court",
+              "potential_additional_liability_usd": 680000000,
+              "status": "pending",
+              "subject": "transfer pricing with foreign subsidiaries and tax credits, 2011-2013 tax years"
+            },
+            "identifiers": {},
+            "name": "IRS Transfer Pricing Dispute (2011-2013 Tax Years)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Kadrey AI copyright case",
+              "Meta AI training copyright litigation"
+            ],
+            "attributes": {
+              "counterparty": "Kadrey et al.",
+              "court": "U.S. District Court for the Northern District of California",
+              "status": "pending",
+              "subject": "use of copyrighted books and materials to train Meta AI models"
+            },
+            "identifiers": {},
+            "name": "Kadrey et al. v. Meta Platforms, Inc. (AI Copyright)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Irish DPC GDPR fine",
+              "Meta GDPR Standard Contractual Clauses fine"
+            ],
+            "attributes": {
+              "counterparty": "Irish Data Protection Commission",
+              "decision_date": "2023-05-12",
+              "fine_amount_eur": 1200000000,
+              "status": "pending",
+              "subject": "non-compliance with GDPR standard contractual clauses for EEA Facebook user data transfers"
+            },
+            "identifiers": {},
+            "name": "IDPC EUR 1.2 Billion GDPR Fine",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EC DMA subscription for no ads probe",
+              "DMA Article 5(2) investigation"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "opened_date": "2024-03",
+              "preliminary_findings_date": "2024-07-01",
+              "status": "pending",
+              "subject": "compliance of subscription for no ads consent model with Article 5(2) of the Digital Markets Act"
+            },
+            "identifiers": {},
+            "name": "European Commission Digital Markets Act Investigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Meta FTC constitutional challenge",
+              "Meta FTC structural challenge complaint"
+            ],
+            "attributes": {
+              "counterparty": "Federal Trade Commission",
+              "court": "U.S. District Court for the District of Columbia",
+              "status": "pending",
+              "subject": "constitutional challenges to the structure of the FTC"
+            },
+            "identifiers": {},
+            "name": "Meta Platforms, Inc. v. FTC (Constitutional Challenge)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EC DSA minors investigation",
+              "EC DSA Articles 28 34 35 proceedings"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "opened_date": "2024-05-16",
+              "status": "pending",
+              "subject": "compliance with DSA Articles 28, 34, and 35 regarding identification and mitigation of systemic risks to minors on Instagram and Facebook"
+            },
+            "identifiers": {},
+            "name": "European Commission DSA Formal Proceedings (Minors)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Facebook Consumer Privacy class action",
+              "$725M privacy settlement objectors appeal"
+            ],
+            "attributes": {
+              "counterparty": "putative consumer class",
+              "court": "U.S. District Court for the Northern District of California",
+              "settlement_amount_usd": 725000000,
+              "status": "appealed",
+              "subject": "platform and user data practices and misuse of data by developer; settlement approved Oct 2023, one objector appeal pending"
+            },
+            "identifiers": {},
+            "name": "In re Facebook Consumer Privacy User Profile Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "CFPB NORA advertising investigation",
+              "CFPB Meta financial advertising inquiry"
+            ],
+            "attributes": {
+              "counterparty": "Consumer Financial Protection Bureau",
+              "nora_date": "2024-09-18",
+              "status": "pending",
+              "subject": "advertising for financial products, alleged receipt and use of financial information from third parties through advertising tools"
+            },
+            "identifiers": {},
+            "name": "CFPB NORA Investigation (Financial Products Advertising)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "FoA",
+              "Family of Apps"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Family of Apps",
+              "ticker": "META"
+            },
+            "name": "META Family of Apps",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "RL",
+              "Reality Labs"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Reality Labs",
+              "ticker": "META"
+            },
+            "name": "META Reality Labs",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Meta office restructuring",
+              "Meta lease restructuring"
+            ],
+            "attributes": {
+              "event_type": "restructuring",
+              "operating_lease_roa_impairment_fy2024_usd": 385000000,
+              "period": "FY2024",
+              "property_equipment_impairment_fy2024_usd": 288000000
+            },
+            "identifiers": {},
+            "name": "META Facilities Consolidation Restructuring",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META August 2024 $10.5B Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META January 2024 $50B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META 2024 Class A Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META 2024 Quarterly Cash Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "FTC v. Meta Platforms, Inc. (Antitrust)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "European Commission Facebook Marketplace Fine",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "In the Matter of Facebook, Inc. (FTC Consent Order Modification)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "In re Social Media Adolescent Addiction Product Liability Personal Injury Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "IRS Transfer Pricing Dispute (2010 Tax Year)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "IRS Transfer Pricing Dispute (2011-2013 Tax Years)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Kadrey et al. v. Meta Platforms, Inc. (AI Copyright)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "IDPC EUR 1.2 Billion GDPR Fine",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "European Commission Digital Markets Act Investigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Meta Platforms, Inc. v. FTC (Constitutional Challenge)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "European Commission DSA Formal Proceedings (Minors)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "In re Facebook Consumer Privacy User Profile Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "CFPB NORA Investigation (Financial Products Advertising)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024"
+            },
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Family of Apps",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024"
+            },
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Reality Labs",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Facilities Consolidation Restructuring",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-25-000017.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "e7735753872bd83f3e06ab4e66a4649f534d34f49ccce8fe32bdadee5cb86464"
+    },
+    {
+      "extracted_at": "2026-07-20T08:36:05Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_8",
+              "unit": "millions_usd"
+            },
+            "chunk_type": "segment",
+            "content": "Family of Apps:\n\nRevenue$162,355 $133,006 $114,450 \n\nEmployee compensation (1)\n\n(31,116)(28,878)(28,545)\n\nOther costs and expenses (2)\n\n(44,130)(41,257)(43,244)\n\nIncome from operations$87,109 $62,871 $42,661",
+            "entity_name": "META Family of Apps Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_8",
+              "unit": "millions_usd"
+            },
+            "chunk_type": "segment",
+            "content": "Reality Labs:\n\nRevenue$2,146 $1,896 $2,159 \n\nEmployee compensation (1)\n\n(10,211)(8,942)(7,766)\n\nOther costs and expenses (3)\n\n(9,664)(9,074)(8,110)\n\nLoss from operations$(17,729)$(16,120)$(13,717)",
+            "entity_name": "META Reality Labs Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Beginning in 2024 annual reporting, we adopted ASU 2023-07 retrospectively.",
+            "entity_name": "META Adoption of ASU 2023-07 Segment Reporting",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "FoA",
+              "Family of Apps"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Family of Apps",
+              "ticker": "META"
+            },
+            "name": "META Family of Apps Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "RL",
+              "Reality Labs"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Reality Labs",
+              "ticker": "META"
+            },
+            "name": "META Reality Labs Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "ASU 2023-07 adoption"
+            ],
+            "attributes": {
+              "adoption_method": "retrospective",
+              "effective_period": "FY2024",
+              "event_type": "accounting_change",
+              "standard": "ASU 2023-07"
+            },
+            "identifiers": {},
+            "name": "META Adoption of ASU 2023-07 Segment Reporting",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "employee_compensation": 31116000000,
+              "growth_pct": 0.221,
+              "margin": 0.537,
+              "operating_income": 87109000000,
+              "period": "FY2024",
+              "revenue": 162355000000
+            },
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Family of Apps Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "employee_compensation": 10211000000,
+              "growth_pct": 0.132,
+              "margin": -8.261,
+              "operating_loss": -17729000000,
+              "period": "FY2024",
+              "revenue": 2146000000
+            },
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Reality Labs Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Adoption of ASU 2023-07 Segment Reporting",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-25-000017.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "b0cba7868332498b6f875a5139e490e6b7799e376c806e485c4d4817e599dfae"
+    }
+  ],
+  "prompt_version": "v3"
+}

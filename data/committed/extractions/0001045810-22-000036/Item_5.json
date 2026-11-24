@@ -1,0 +1,200 @@
+{
+  "accession": "0001045810-22-000036",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T17:46:23Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "On July 19, 2021, we executed a four-for-one stock split of our common stock, such that each stockholder of record at the close of business on June 21, 2021 received a dividend of three additional shares of common stock for every share held on the record date, or the Stock Split.",
+            "entity_name": "NVDA FY2021 Four-for-One Stock Split",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "As of January 30, 2022, we are authorized, subject to certain specifications, to repurchase shares of our common stock up to $7.24 billion through December 2022.",
+            "entity_name": "NVDA $7.24B Share Repurchase Authorization (through December 2022)",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In fiscal year 2022, we paid $399 million in quarterly cash dividends. Our cash dividend program and the payment of future cash dividends under that program are subject to our Board's continuing determination that the dividend program and the declaration of dividends thereunder are in the best interests of our shareholders.",
+            "entity_name": "NVDA FY2022 Quarterly Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "During the fourth quarter of fiscal year 2022, our Board of Directors approved the retirement of all existing 349 million treasury shares.",
+            "entity_name": "NVDA Q4 FY2022 Treasury Share Retirement",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "During fiscal year 2022, we issued a total of 175,333 shares of our common stock as consideration in connection with acquisitions, all in private transactions exempt from the registration requirements of the Securities Act of 1933, as amended, pursuant to Section 4(a)(2), Regulation D, or Regulation S.",
+            "entity_name": "NVDA FY2022 Equity Issuance for Acquisitions",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVIDIA",
+              "NVDA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVIDIA Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "NVIDIA 4-for-1 stock split 2021"
+            ],
+            "attributes": {
+              "effective_date": "2021-07-19",
+              "event_type": "stock_split",
+              "ratio": "4:1",
+              "record_date": "2021-06-21"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2021 Four-for-One Stock Split",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NVIDIA share repurchase program FY2022"
+            ],
+            "attributes": {
+              "amount_usd": 7240000000,
+              "expiration_date": "2022-12",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "NVDA $7.24B Share Repurchase Authorization (through December 2022)",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 399000000,
+              "period": "FY2022",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2022 Quarterly Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "event_type": "accounting_change",
+              "note": "Board approved retirement of all 349 million existing treasury shares; withheld shares assume authorized and unissued status beginning Q4 FY2022",
+              "shares_retired": 349000000
+            },
+            "identifiers": {},
+            "name": "NVDA Q4 FY2022 Treasury Share Retirement",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "equity_issuance",
+              "purpose": "acquisition_consideration",
+              "shares": 175333
+            },
+            "identifiers": {},
+            "name": "NVDA FY2022 Equity Issuance for Acquisitions",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2021 Four-for-One Stock Split",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA $7.24B Share Repurchase Authorization (through December 2022)",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2022 Quarterly Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Q4 FY2022 Treasury Share Retirement",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2022 Equity Issuance for Acquisitions",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-22-000036.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "081e7fdba6c00d47c6e2768b769fbbbda8cc7d30f90fbd31ec66bdde6e93c43a"
+    }
+  ],
+  "prompt_version": "v3"
+}

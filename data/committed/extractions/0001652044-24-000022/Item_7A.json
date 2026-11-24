@@ -1,0 +1,224 @@
+{
+  "accession": "0001652044-24-000022",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T19:48:31Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We transact business globally in multiple currencies. International revenues, as well as costs and expenses denominated in foreign currencies, expose us to the risk of fluctuations in foreign currency exchange rates against the U.S. dollar.",
+            "entity_name": "GOOGL Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If an adverse 10% foreign currency exchange rate change was applied to total monetary assets, liabilities, and commitments denominated in currencies other than the functional currencies at the balance sheet date, it would have resulted in an adverse effect on income before income taxes of approximately $136 million and $503 million as of December 31, 2022 and 2023, respectively, after consideration of the effect of foreign exchange contracts in place for the years ended December 31, 2022 and 2023.",
+            "entity_name": "GOOGL Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "hedge_type": "cash_flow",
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If the U.S. dollar weakened by 10% as of December 31, 2022 and 2023, the amount recorded in AOCI related to our cash flow hedges before tax effect would have been approximately $1.3 billion and $1.5 billion lower as of December 31, 2022 and 2023, respectively.",
+            "entity_name": "GOOGL Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "hedge_type": "net_investment",
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If the U.S. dollar weakened by 10%, the amount recorded in cumulative translation adjustment (CTA) within AOCI related to our net investment hedges before tax effect would have been approximately $903 million and $946 million lower as of December 31, 2022 and 2023, respectively.",
+            "entity_name": "GOOGL Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We use value-at-risk (VaR) analysis to determine the potential effect of fluctuations in interest rates on the value of our marketable debt security portfolio. The VaR is the expected loss in fair value, for a given confidence interval, for our investment portfolio due to adverse movements in interest rates. We use a variance/covariance VaR model with 95% confidence interval.",
+            "entity_name": "GOOGL Interest Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our investments in both fixed rate and floating rate interest earning securities carry a degree of interest rate risk. Fixed rate securities may have their fair market value adversely affected due to a rise in interest rates, while floating rate securities may produce less income than predicted if interest rates fall.",
+            "entity_name": "GOOGL Interest Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our marketable and non-marketable equity securities are subject to a wide variety of market-related risks that could substantially reduce or increase the fair value of our holdings.",
+            "entity_name": "GOOGL Equity Investment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A",
+              "security_type": "marketable_equity"
+            },
+            "chunk_type": "risk_factor",
+            "content": "A hypothetical adverse price change of 10% on our December 31, 2023 balance would decrease the fair value of marketable equity securities by $597 million.",
+            "entity_name": "GOOGL Equity Investment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A",
+              "security_type": "non_marketable_equity"
+            },
+            "chunk_type": "risk_factor",
+            "content": "These investments, especially those that are in the early stages, are inherently risky because the technologies or products these companies have under development are typically in the early phases and may never materialize, and they may experience a decline in financial condition, which could result in a loss of a substantial part of our investment in these companies. Valuations of our equity investments in private companies are inherently more complex due to the lack of readily available market data and observable transactions at lower valuations could result in significant losses.",
+            "entity_name": "GOOGL Equity Investment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "FX risk",
+              "foreign exchange risk",
+              "currency exchange rate risk"
+            ],
+            "attributes": {
+              "cash_flow_hedge_aoci_sensitivity_10pct_usd_weakening_2022_usd_billions": 1.3,
+              "cash_flow_hedge_aoci_sensitivity_10pct_usd_weakening_2023_usd_billions": 1.5,
+              "category": "market_risk",
+              "currencies_hedged": [
+                "AUD",
+                "GBP",
+                "CAD",
+                "EUR",
+                "JPY"
+              ],
+              "geography": "global",
+              "hedging_instruments": "foreign currency forward and option contracts",
+              "net_investment_hedge_cta_sensitivity_10pct_usd_weakening_2022_usd_millions": 903,
+              "net_investment_hedge_cta_sensitivity_10pct_usd_weakening_2023_usd_millions": 946,
+              "sensitivity_10pct_adverse_income_before_tax_2022_usd_millions": 136,
+              "sensitivity_10pct_adverse_income_before_tax_2023_usd_millions": 503
+            },
+            "identifiers": {},
+            "name": "GOOGL Foreign Currency Exchange Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "interest rate risk",
+              "debt portfolio interest rate risk"
+            ],
+            "attributes": {
+              "category": "market_risk",
+              "portfolio": "marketable debt securities",
+              "var_12mo_avg_2022_usd_millions": 198,
+              "var_12mo_avg_2023_usd_millions": 271,
+              "var_confidence_interval": 0.95,
+              "var_horizon": "one-day",
+              "var_methodology": "variance/covariance",
+              "var_one_day_2022_usd_millions": 256,
+              "var_one_day_2023_usd_millions": 296
+            },
+            "identifiers": {},
+            "name": "GOOGL Interest Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "equity price risk",
+              "equity investment risk",
+              "marketable and non-marketable equity risk"
+            ],
+            "attributes": {
+              "category": "market_risk",
+              "equity_method_investments_2022_usd_billions": 1.7,
+              "equity_method_investments_2023_usd_billions": 1.7,
+              "marketable_equity_securities_2022_usd_billions": 5.2,
+              "marketable_equity_securities_2023_usd_billions": 6.0,
+              "non_marketable_equity_securities_measurement_alternative_2022_usd_billions": 28.5,
+              "non_marketable_equity_securities_measurement_alternative_2023_usd_billions": 28.8,
+              "sensitivity_10pct_adverse_marketable_equity_2023_usd_millions": 597
+            },
+            "identifiers": {},
+            "name": "GOOGL Equity Investment Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Foreign Currency Exchange Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Interest Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Equity Investment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-24-000022.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "4694b51eaf299bd779bee1ad1cc3f53d1a3b3d50bbcf0aab89052fb7f0e69cdf"
+    }
+  ],
+  "prompt_version": "v3"
+}

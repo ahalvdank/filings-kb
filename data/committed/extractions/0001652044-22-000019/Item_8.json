@@ -1,0 +1,1272 @@
+{
+  "accession": "0001652044-22-000019",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T21:35:34Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note 2",
+              "period": "FY2021",
+              "section_type": "Item_8",
+              "years": "2019, 2020, 2021"
+            },
+            "chunk_type": "segment",
+            "content": "Google Search & other$98,115 $104,062 $148,951",
+            "entity_name": "GOOGL Google Search & Other Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 2",
+              "period": "FY2021",
+              "section_type": "Item_8",
+              "years": "2019, 2020, 2021"
+            },
+            "chunk_type": "segment",
+            "content": "YouTube ads15,149 19,772 28,845",
+            "entity_name": "GOOGL YouTube Ads Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 2",
+              "period": "FY2021",
+              "section_type": "Item_8",
+              "years": "2019, 2020, 2021"
+            },
+            "chunk_type": "segment",
+            "content": "Google Network21,547 23,090 31,701",
+            "entity_name": "GOOGL Google Network Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 2",
+              "period": "FY2021",
+              "section_type": "Item_8",
+              "years": "2019, 2020, 2021"
+            },
+            "chunk_type": "segment",
+            "content": "Google Cloud8,918 13,059 19,206",
+            "entity_name": "GOOGL Google Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "metric": "revenue_backlog",
+              "note": "Note 2",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "As of December 31, 2021 we had $51.0 billion of remaining performance obligations (\"revenue backlog\"), primarily related to Google Cloud, and expect to recognize approximately half of this amount as revenues over the next 24 months with the remaining thereafter.",
+            "entity_name": "GOOGL Google Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 2",
+              "period": "FY2021",
+              "section_type": "Item_8",
+              "years": "2019, 2020, 2021"
+            },
+            "chunk_type": "segment",
+            "content": "Other Bets659 657 753",
+            "entity_name": "GOOGL Other Bets Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 2",
+              "period": "FY2021",
+              "section_type": "Item_8",
+              "years": "2019, 2020, 2021"
+            },
+            "chunk_type": "segment",
+            "content": "Google Services total151,825 168,635 237,529",
+            "entity_name": "GOOGL Google Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "statement": "Consolidated Statements of Cash Flows",
+              "years": "2019, 2020, 2021"
+            },
+            "chunk_type": "capital_return",
+            "content": "Repurchases of common and capital stock(18,396)(31,149)(50,274)",
+            "entity_name": "GOOGL FY2021 Common and Capital Stock Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 1",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In January 2021, we completed an assessment of the useful lives of our servers and network equipment and adjusted the estimated useful life of our servers from three years to four years and the estimated useful life of certain network equipment from three years to five years. This change in accounting estimate was effective beginning in fiscal year 2021. Based on the carrying value of servers and certain network equipment as of December 31, 2020 and those acquired during the year ended December 31, 2021, the effect of this change in estimate was a reduction in depreciation expense of $2.6 billion and an increase in net income of $2.0 billion, or $3.02 per basic share and $2.98 per diluted share, for the year ended December 31, 2021.",
+            "entity_name": "GOOGL FY2021 Server and Network Equipment Useful Life Extension",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Alphabet",
+              "Google"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Google Search & other",
+              "Google Search"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Search & other",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Search & Other Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "YouTube ads",
+              "YouTube advertising"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "YouTube ads",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL YouTube Ads Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Network",
+              "AdSense",
+              "AdMob",
+              "Google Ad Manager"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Network",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Network Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Cloud",
+              "Google Cloud Platform",
+              "GCP",
+              "Google Workspace"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Cloud",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Other Bets"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Other Bets",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Other Bets Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Services total",
+              "Google Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Services total",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Alphabet 2021 buyback",
+              "Alphabet 2021 stock repurchase"
+            ],
+            "attributes": {
+              "amount_usd": 50274000000,
+              "period": "FY2021",
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "GOOGL FY2021 Common and Capital Stock Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Alphabet 2021 depreciation policy change",
+              "Alphabet server useful life change"
+            ],
+            "attributes": {
+              "depreciation_reduction_usd": 2600000000,
+              "effective_date": "2021-01",
+              "eps_impact_basic": 3.02,
+              "eps_impact_diluted": 2.98,
+              "event_type": "accounting_change",
+              "net_income_increase_usd": 2000000000,
+              "new_network_equipment_life_years": 5,
+              "new_server_life_years": 4,
+              "prior_network_equipment_life_years": 3,
+              "prior_server_life_years": 3
+            },
+            "identifiers": {},
+            "name": "GOOGL FY2021 Server and Network Equipment Useful Life Extension",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.431,
+              "period": "FY2021",
+              "revenue": 148951000000
+            },
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Search & Other Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.459,
+              "period": "FY2021",
+              "revenue": 28845000000
+            },
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL YouTube Ads Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.373,
+              "period": "FY2021",
+              "revenue": 31701000000
+            },
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Network Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.471,
+              "period": "FY2021",
+              "revenue": 19206000000
+            },
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.146,
+              "period": "FY2021",
+              "revenue": 753000000
+            },
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Other Bets Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.409,
+              "period": "FY2021",
+              "revenue": 237529000000
+            },
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL FY2021 Common and Capital Stock Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL FY2021 Server and Network Equipment Useful Life Extension",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-22-000019.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "12b635161733776473c45bfb45c78a3684cbc2eff7fd08fdfade0f41516b9716"
+    },
+    {
+      "extracted_at": "2026-07-19T21:46:19Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note_reference": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On June 27, 2017, the EC announced its decision that certain actions taken by Google regarding its display and ranking of shopping search results and ads infringed European competition law. The EC decision imposed a €2.4 billion ($2.7 billion as of June 27, 2017) fine. On September 11, 2017, we appealed the EC decision to the General Court, and on September 27, 2017, we implemented product changes to bring shopping ads into compliance with the EC's decision. We recognized a charge of $2.7 billion for the fine in the second quarter of 2017. On November 10, 2021, the General Court rejected our appeal, and we subsequently filed an appeal with the European Court of Justice on January 20, 2022.",
+            "entity_name": "EC Google Shopping Search Antitrust Decision",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On July 18, 2018, the EC announced its decision that certain provisions in Google's Android-related distribution agreements infringed European competition law. The EC decision imposed a €4.3 billion ($5.1 billion as of June 30, 2018) fine and directed the termination of the conduct at issue. On October 9, 2018, we appealed the EC decision. On October 29, 2018, we implemented changes to certain of our Android distribution practices. We recognized a charge of $5.1 billion for the fine in the second quarter of 2018.",
+            "entity_name": "EC Google Android Distribution Antitrust Decision",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On March 20, 2019, the EC announced its decision that certain contractual provisions in agreements that Google had with AdSense for Search partners infringed European competition law. The EC decision imposed a fine of €1.5 billion ($1.7 billion as of March 20, 2019) and directed actions related to AdSense for Search partners' agreements, which we implemented prior to the decision. On June 4, 2019, we appealed the EC decision. We recognized a charge of $1.7 billion for the fine in the first quarter of 2019.",
+            "entity_name": "EC Google AdSense for Search Antitrust Decision",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The DOJ and a number of state Attorneys General filed a lawsuit on October 20, 2020 alleging that Google violated U.S. antitrust laws relating to Search and Search advertising.",
+            "entity_name": "DOJ and State AGs v. Google Search and Search Advertising Antitrust",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Separately, on December 16, 2020, a number of state Attorneys General filed an antitrust complaint against Google in the U.S. District Court for the Eastern District of Texas, alleging that Google violated U.S. antitrust laws as well as state deceptive trade laws relating to its advertising technology.",
+            "entity_name": "State AGs v. Google Advertising Technology Antitrust (E.D. Texas)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On June 22, 2021, the EC opened a formal investigation into Google's advertising technology business practices.",
+            "entity_name": "EC Google Advertising Technology Business Practices Investigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On July 7, 2021, a number of state Attorneys General filed an antitrust complaint against us in the U.S. District Court for the Northern District of California, alleging that Google's operation of Android and Google Play violated U.S. antitrust laws and state antitrust and consumer protection laws.",
+            "entity_name": "State AGs v. Google Android and Google Play Antitrust (N.D. California)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On April 5, 2021, the Supreme Court reversed the Federal Circuit's ruling and found that Google's use of the Java APIs was a fair use as a matter of law. The Supreme Court remanded the case to the Federal Circuit for further proceedings in conformity with the Supreme Court opinion. On May 14, 2021, the Federal Circuit entered an order affirming the district court's final judgment in favor of Google. On June 21, 2021, the Federal Circuit issued a mandate returning the case to the district court, and the case is now concluded.",
+            "entity_name": "Oracle America Inc. v. Google LLC Java API Copyright",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 8",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In January 2021, we closed the acquisition of Fitbit, a leading wearables brand for $2.1 billion. The addition of Fitbit to Google Services is expected to help spur innovation in wearable devices. The assets acquired and liabilities assumed were recorded at fair value. The purchase price excludes post acquisition compensation arrangements. The purchase price was attributed to $440 million cash acquired, $590 million of intangible assets, $1.2 billion of goodwill and $92 million of net liabilities assumed.",
+            "entity_name": "GOOGL Acquisition of Fitbit",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 5",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In June 2021, Waymo, a self-driving technology development company and a consolidated VIE, completed an investment round of $2.5 billion, the majority of which represented investment from Alphabet. The investments from external parties were accounted for as equity transactions and resulted in recognition of noncontrolling interests.",
+            "entity_name": "Waymo June 2021 $2.5B Investment Round",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 11",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On February 1, 2022, the Company announced that the Board of Directors had approved and declared a 20-for-one stock split in the form of a one-time special stock dividend on each share of the Company's Class A, Class B, and Class C stock. The Stock Split is subject to stockholder approval of an amendment to the Company's Amended and Restated Certificate of Incorporation to increase the number of authorized shares of Class A, Class B, and Class C stock to accommodate the Stock Split.",
+            "entity_name": "Alphabet 20-for-1 Stock Split",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 13",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "For the years ended December 31, 2019, 2020, and 2021, total stock-based compensation expense was $11.7 billion, $13.4 billion, and $15.7 billion, including amounts associated with awards we expect to settle in Alphabet stock of $10.8 billion, $12.8 billion, and $15.0 billion, respectively.",
+            "entity_name": "GOOGL FY2021 Stock-Based Compensation Disclosure",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 13",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "As of December 31, 2021, there was $25.8 billion of unrecognized compensation cost related to unvested employee RSUs. This amount is expected to be recognized over a weighted-average period of 2.5 years.",
+            "entity_name": "GOOGL FY2021 Stock-Based Compensation Disclosure",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 11",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "In April 2021, the Board of Directors of Alphabet authorized the company to repurchase up to $50.0 billion of its Class C stock. In July 2021, the Alphabet board approved an amendment to the April 2021 authorization, permitting the company to repurchase both Class A and Class C shares in a manner deemed in the best interest of the company and its stockholders, taking into account the economic cost and prevailing market conditions, including the relative trading prices and volumes of the Class A and Class C shares. As of December 31, 2021, $17.4 billion remains available for Class A and Class C share repurchases under the amended authorization.",
+            "entity_name": "GOOGL April 2021 $50B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 11",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "In accordance with the authorizations of the Board of Directors of Alphabet, during the years ended December 31, 2020 and 2021, we repurchased and subsequently retired 21.5 million and 20.3 million aggregate shares for $31.1 billion and $50.3 billion, respectively. Of the aggregate amount repurchased and subsequently retired during 2021, 1.2 million shares were Class A stock for $3.4 billion.",
+            "entity_name": "GOOGL FY2021 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 6",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In April 2021, we terminated the existing $4.0 billion revolving credit facilities, which were scheduled to expire in July 2023, and entered into two new revolving credit facilities in the amounts of $4.0 billion and $6.0 billion, which will expire in April 2022 and April 2026, respectively. The interest rates for the new credit facilities are determined based on a formula using certain market rates, as well as our progress toward the achievement of certain sustainability goals. No amounts have been borrowed under the new credit facilities.",
+            "entity_name": "GOOGL April 2021 $10B Revolving Credit Facilities",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Google",
+              "Alphabet"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "EC Shopping Search Fine",
+              "Google Shopping antitrust"
+            ],
+            "attributes": {
+              "appeal_court": "European Court of Justice",
+              "counterparty": "European Commission",
+              "fine_eur": 2400000000,
+              "fine_usd_at_decision": 2700000000,
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "EC Google Shopping Search Antitrust Decision",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EC Android Fine"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "fine_eur": 4300000000,
+              "fine_usd_at_decision": 5100000000,
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "EC Google Android Distribution Antitrust Decision",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EC AdSense Fine"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "fine_eur": 1500000000,
+              "fine_usd_at_decision": 1700000000,
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "EC Google AdSense for Search Antitrust Decision",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "DOJ Search Antitrust Lawsuit"
+            ],
+            "attributes": {
+              "counterparty": "U.S. Department of Justice and state Attorneys General",
+              "filed_date": "2020-10-20",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "DOJ and State AGs v. Google Search and Search Advertising Antitrust",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Texas AdTech Antitrust"
+            ],
+            "attributes": {
+              "counterparty": "State Attorneys General",
+              "court": "U.S. District Court for the Eastern District of Texas",
+              "filed_date": "2020-12-16",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "State AGs v. Google Advertising Technology Antitrust (E.D. Texas)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EC AdTech Formal Investigation 2021"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "opened_date": "2021-06-22",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "EC Google Advertising Technology Business Practices Investigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "California Android Google Play Antitrust"
+            ],
+            "attributes": {
+              "counterparty": "State Attorneys General",
+              "court": "U.S. District Court for the Northern District of California",
+              "filed_date": "2021-07-07",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "State AGs v. Google Android and Google Play Antitrust (N.D. California)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Oracle v. Google",
+              "Java API copyright lawsuit"
+            ],
+            "attributes": {
+              "counterparty": "Oracle America, Inc.",
+              "status": "dismissed",
+              "subject": "Java API copyright infringement in Android"
+            },
+            "identifiers": {},
+            "name": "Oracle America Inc. v. Google LLC Java API Copyright",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Fitbit acquisition January 2021"
+            ],
+            "attributes": {
+              "cash_acquired_usd": 440000000,
+              "consideration_usd": 2100000000,
+              "effective_date": "2021-01",
+              "event_type": "acquisition",
+              "goodwill_usd": 1200000000,
+              "intangible_assets_usd": 590000000,
+              "net_liabilities_assumed_usd": 92000000,
+              "segment": "Google Services",
+              "target_company": "Fitbit"
+            },
+            "identifiers": {},
+            "name": "GOOGL Acquisition of Fitbit",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Waymo 2021 external investment round"
+            ],
+            "attributes": {
+              "effective_date": "2021-06",
+              "entity": "Waymo",
+              "event_type": "business_combination",
+              "note": "Majority investment from Alphabet; external party investments accounted for as equity transactions resulting in recognition of noncontrolling interests",
+              "round_size_usd": 2500000000
+            },
+            "identifiers": {},
+            "name": "Waymo June 2021 $2.5B Investment Round",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "GOOGL 20-for-1 stock split 2022"
+            ],
+            "attributes": {
+              "announcement_date": "2022-02-01",
+              "event_type": "stock_split",
+              "form": "special stock dividend",
+              "ratio": "20-for-1",
+              "record_date": "2022-07-01"
+            },
+            "identifiers": {},
+            "name": "Alphabet 20-for-1 Stock Split",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "event_type": "compensation_disclosure",
+              "period": "FY2021",
+              "sbc_expense_usd": 15700000000,
+              "unrecognized_sbc_cost_usd": 25800000000,
+              "weighted_avg_recognition_years": 2.5
+            },
+            "identifiers": {},
+            "name": "GOOGL FY2021 Stock-Based Compensation Disclosure",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet 2021 buyback authorization"
+            ],
+            "attributes": {
+              "amount_usd": 50000000000,
+              "effective_date": "2021-04",
+              "remaining_usd_as_of_2021_12_31": 17400000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "GOOGL April 2021 $50B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Alphabet 2021 buybacks"
+            ],
+            "attributes": {
+              "amount_usd": 50300000000,
+              "period": "FY2021",
+              "return_type": "buyback",
+              "shares": 20300000
+            },
+            "identifiers": {},
+            "name": "GOOGL FY2021 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Alphabet 2021 revolving credit facility"
+            ],
+            "attributes": {
+              "effective_date": "2021-04",
+              "facility_1_amount_usd": 4000000000,
+              "facility_1_expiry": "2022-04",
+              "facility_2_amount_usd": 6000000000,
+              "facility_2_expiry": "2026-04",
+              "instrument_type": "revolver",
+              "note": "Replaced terminated $4.0B facilities scheduled to expire July 2023; no amounts outstanding as of December 31, 2021",
+              "principal_usd": 10000000000,
+              "sustainability_linked_pricing": true
+            },
+            "identifiers": {},
+            "name": "GOOGL April 2021 $10B Revolving Credit Facilities",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "EC Google Shopping Search Antitrust Decision",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "General Court rejected first-level appeal on 2021-11-10; new appeal filed with European Court of Justice on 2022-01-20"
+            },
+            "source_name": "EC Google Shopping Search Antitrust Decision",
+            "source_type_entity": "LegalProceeding",
+            "target_name": "GOOGL 10-K 2021",
+            "target_type_entity": "Filing",
+            "type": "legal_proceeding_status_changed_in",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "EC Google Android Distribution Antitrust Decision",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "EC Google AdSense for Search Antitrust Decision",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "DOJ and State AGs v. Google Search and Search Advertising Antitrust",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "State AGs v. Google Advertising Technology Antitrust (E.D. Texas)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "EC Google Advertising Technology Business Practices Investigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "State AGs v. Google Android and Google Play Antitrust (N.D. California)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Oracle America Inc. v. Google LLC Java API Copyright",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "new_status": "dismissed",
+              "note": "Supreme Court ruled fair use on 2021-04-05; Federal Circuit affirmed district court judgment on 2021-05-14; case concluded June 2021",
+              "previous_status": "appealed"
+            },
+            "source_name": "Oracle America Inc. v. Google LLC Java API Copyright",
+            "source_type_entity": "LegalProceeding",
+            "target_name": "GOOGL 10-K 2021",
+            "target_type_entity": "Filing",
+            "type": "legal_proceeding_status_changed_in",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Acquisition of Fitbit",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Waymo June 2021 $2.5B Investment Round",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Alphabet 20-for-1 Stock Split",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL FY2021 Stock-Based Compensation Disclosure",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL April 2021 $50B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL FY2021 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL April 2021 $10B Revolving Credit Facilities",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-22-000019.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "6933073377647ebc4ac68e076a40c1e31e42f26ec6b8c73b96e18c1bf5cef50d"
+    },
+    {
+      "extracted_at": "2026-07-19T21:51:25Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Google Services includes products and services such as ads, Android, Chrome, hardware, Google Maps, Google Play, Search, and YouTube. Google Services generates revenues primarily from advertising; sales of apps and in-app purchases, digital content products, and hardware; and fees received for subscription-based products such as YouTube Premium and YouTube TV.",
+            "entity_name": "GOOGL Google Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Google Cloud includes Google's infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues from fees received for Google Cloud Platform services, Google Workspace collaboration tools and other enterprise services.",
+            "entity_name": "GOOGL Google Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Other Bets is a combination of multiple operating segments that are not individually material. Revenues from Other Bets are generated primarily from the sale of health technology and internet services.",
+            "entity_name": "GOOGL Other Bets Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "revenues and operating income in millions for years ended December 31, 2019, 2020, 2021",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues:\n\nGoogle Services$151,825 $168,635 $237,529 \n\nGoogle Cloud8,918 13,059 19,206 \n\nOther Bets659 657 753 \n\nHedging gains (losses)455 176 149 \n\nTotal revenues$161,857 $182,527 $257,637 \n\nOperating income (loss):\n\nGoogle Services$48,999 $54,606 $91,855 \n\nGoogle Cloud(4,645)(5,607)(3,099)\n\nOther Bets(4,824)(4,476)(5,281)\n\nCorporate costs, unallocated(1)\n(5,299)(3,299)(4,761)\n\nTotal income from operations$34,231 $41,224 $78,714",
+            "entity_name": "GOOGL Google Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "We are subject to the continuous examination of our income tax returns by the IRS and other tax authorities. The IRS is currently examining our 2016 through 2018 tax returns. We have also received tax assessments in multiple foreign jurisdictions asserting transfer pricing adjustments or permanent establishment. We continue to defend any and all such claims as presented.",
+            "entity_name": "GOOGL IRS Examination of 2016-2018 Tax Returns",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The tax years 2014 through 2020 remain subject to examination by the appropriate governmental agencies for Irish tax purposes. There are other ongoing audits in various other jurisdictions that are not material to our financial statements.",
+            "entity_name": "GOOGL Irish Tax Authority Examination 2014-2020",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "We have also received tax assessments in multiple foreign jurisdictions asserting transfer pricing adjustments or permanent establishment. We continue to defend any and all such claims as presented.",
+            "entity_name": "GOOGL Foreign Transfer Pricing and Permanent Establishment Tax Assessments",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "However, the outcome of tax audits cannot be predicted with certainty. If any issues addressed in our tax audits are resolved in a manner not consistent with management's expectations, we could be required to adjust our provision for income taxes in the period such resolution occurs. Although the timing of resolution, settlement, and closure of audits is not certain, it is reasonably possible that our unrecognized tax benefits from certain U.S. federal, state and non U.S. tax positions could decrease by approximately $2.0 billion in the next 12 months. Positions that may be resolved include various U.S. and non-U.S. matters.",
+            "entity_name": "GOOGL Unrecognized Tax Benefit Resolution Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Google Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Services",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Cloud",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Other Bets"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Other Bets",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Other Bets Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Alphabet IRS audit 2016-2018"
+            ],
+            "attributes": {
+              "counterparty": "Internal Revenue Service",
+              "jurisdiction": "U.S. federal",
+              "status": "pending",
+              "years_under_examination": "2016-2018"
+            },
+            "identifiers": {},
+            "name": "GOOGL IRS Examination of 2016-2018 Tax Returns",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Alphabet Ireland tax examination"
+            ],
+            "attributes": {
+              "counterparty": "Irish tax authorities",
+              "jurisdiction": "Ireland",
+              "status": "pending",
+              "years_under_examination": "2014-2020"
+            },
+            "identifiers": {},
+            "name": "GOOGL Irish Tax Authority Examination 2014-2020",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Alphabet foreign transfer pricing claims",
+              "GOOGL permanent establishment assessments"
+            ],
+            "attributes": {
+              "claim_type": "transfer_pricing_and_permanent_establishment",
+              "counterparty": "multiple foreign tax authorities",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "GOOGL Foreign Transfer Pricing and Permanent Establishment Tax Assessments",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Alphabet tax audit outcome uncertainty",
+              "GOOGL UTB reversal risk"
+            ],
+            "attributes": {
+              "category": "tax",
+              "potential_decrease_usd": 2000000000,
+              "timeframe": "next_12_months"
+            },
+            "identifiers": {},
+            "name": "GOOGL Unrecognized Tax Benefit Resolution Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.409,
+              "margin": 0.387,
+              "period": "FY2021",
+              "revenue": 237529000000
+            },
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.471,
+              "margin": -0.161,
+              "period": "FY2021",
+              "revenue": 19206000000
+            },
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.146,
+              "margin": -7.013,
+              "period": "FY2021",
+              "revenue": 753000000
+            },
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Other Bets Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL IRS Examination of 2016-2018 Tax Returns",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Irish Tax Authority Examination 2014-2020",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Foreign Transfer Pricing and Permanent Establishment Tax Assessments",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Unrecognized Tax Benefit Resolution Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-22-000019.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "078d164ffc20d1eb72044e0da87f55669777bd93f099b9680b2403b6a5ad52cf"
+    }
+  ],
+  "prompt_version": "v3"
+}

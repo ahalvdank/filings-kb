@@ -1,0 +1,134 @@
+{
+  "accession": "0000012927-22-000010",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T10:01:24Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are subject to foreign currency exchange rate risk relating to receipts from customers and payments to suppliers in foreign currencies. We use foreign currency forward contracts to hedge the price risk associated with firmly committed and forecasted foreign denominated payments and receipts related to our ongoing business. Foreign currency forward contracts are sensitive to changes in foreign currency exchange rates. At December 31, 2021, a 10% increase or decrease in the exchange rate in our portfolio of foreign currency contracts would have increased or decreased our unrealized losses by $241 million.",
+            "entity_name": "BA Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are subject to commodity price risk relating to commodity purchase contracts for items used in production that are subject to changes in the market price. We use commodity swaps and commodity purchase contracts to hedge against these potentially unfavorable price changes. At December 31, 2021, a 10% increase or decrease in the market price in our commodity derivatives would have increased or decreased our unrealized losses by $46 million.",
+            "entity_name": "BA Commodity Price Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In 2021, we repaid the $13.8 billion outstanding under our two-year floating-rate delayed draw term loan credit agreement. As a result, as of December 31, 2021, we do not have any significant floating-rate debt obligations.",
+            "entity_name": "BA 2021 $13.8B Floating-Rate Term Loan Repayment",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing FX risk",
+              "Boeing foreign currency risk"
+            ],
+            "attributes": {
+              "category": "currency",
+              "geography": "global",
+              "hedging_instrument": "foreign currency forward contracts",
+              "sensitivity_10pct_usd": 241000000
+            },
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "BA Foreign Currency Exchange Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing commodity risk"
+            ],
+            "attributes": {
+              "category": "commodity",
+              "hedging_instrument": "commodity swaps and commodity purchase contracts",
+              "sensitivity_10pct_usd": 46000000
+            },
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "BA Commodity Price Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing two-year delayed draw term loan repayment"
+            ],
+            "attributes": {
+              "effective_date": "2021",
+              "instrument_type": "term_loan",
+              "note": "Repaid $13.8 billion outstanding under two-year floating-rate delayed draw term loan credit agreement",
+              "principal_usd": 13800000000
+            },
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "BA 2021 $13.8B Floating-Rate Term Loan Repayment",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Foreign Currency Exchange Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Commodity Price Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA 2021 $13.8B Floating-Rate Term Loan Repayment",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-22-000010.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "df594c34e377fe6eb790ca249ef4a9a1149356923cd1494067038b85dae1ba06"
+    }
+  ],
+  "prompt_version": "v3"
+}

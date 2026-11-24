@@ -1,0 +1,159 @@
+{
+  "accession": "0000731766-22-000008",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-21T03:19:01Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2021, we had $25 billion of financial assets on which the interest rates received vary with market interest rates, which may significantly impact our investment income. Also as of December 31, 2021, $7 billion of our financial liabilities, which include debt and deposit liabilities, were at interest rates which vary with market rates, either directly or through the use of related interest rate swap contracts.",
+            "entity_name": "UNH Interest Rate Risk - Floating Rate Instruments",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The fair value of our fixed-rate investments and debt also varies with market interest rates. As of December 31, 2021, $37 billion of our investments were fixed-rate debt securities and $45 billion of our debt was non-swapped fixed-rate term debt. An increase in market interest rates decreases the market value of fixed-rate investments and fixed-rate debt. Conversely, a decrease in market interest rates increases the market value of fixed-rate investments and fixed-rate debt.",
+            "entity_name": "UNH Interest Rate Risk - Fixed Rate Fair Value",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have an exposure to changes in the value of foreign currencies, primarily the Brazilian real and the Chilean peso, to the U.S. dollar in translation of UnitedHealthcare Global's operating results at the average exchange rate over the accounting period, and UnitedHealthcare Global's assets and liabilities at the exchange rate at the end of the accounting period. The gains or losses resulting from translating foreign assets and liabilities into U.S. dollars are included in equity and comprehensive income.",
+            "entity_name": "UNH Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2021, a hypothetical 10% and 25% increase in the value of the U.S. dollar against those currencies would have caused a reduction in net assets of approximately $520 million and $1.1 billion, respectively.",
+            "entity_name": "UNH Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2021, we had $3.5 billion of investments in equity securities, primarily consisting of investments in employee savings plan related investments, other venture investments and non-U.S. dollar fixed-income funds. Valuations in non-U.S. dollar funds are subject to foreign exchange rates.",
+            "entity_name": "UNH Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "variable rate exposure",
+              "interest rate sensitivity on investment income"
+            ],
+            "attributes": {
+              "as_of_date": "2021-12-31",
+              "category": "market_risk",
+              "floating_rate_financial_assets_usd": 25000000000,
+              "floating_rate_financial_liabilities_usd": 7000000000,
+              "subcategory": "interest_rate_income_expense"
+            },
+            "identifiers": {},
+            "name": "UNH Interest Rate Risk - Floating Rate Instruments",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "fixed-rate investment fair value risk",
+              "interest rate duration risk"
+            ],
+            "attributes": {
+              "as_of_date": "2021-12-31",
+              "category": "market_risk",
+              "fixed_rate_debt_usd": 45000000000,
+              "fixed_rate_investments_usd": 37000000000,
+              "subcategory": "interest_rate_fair_value"
+            },
+            "identifiers": {},
+            "name": "UNH Interest Rate Risk - Fixed Rate Fair Value",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "FX risk",
+              "Brazilian real exposure",
+              "Chilean peso exposure",
+              "UnitedHealthcare Global currency risk"
+            ],
+            "attributes": {
+              "affected_subsidiary": "UnitedHealthcare Global",
+              "as_of_date": "2021-12-31",
+              "category": "market_risk",
+              "equity_securities_non_usd_usd": 3500000000,
+              "primary_currencies": "Brazilian real, Chilean peso",
+              "subcategory": "foreign_currency"
+            },
+            "identifiers": {},
+            "name": "UNH Foreign Currency Exchange Rate Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Interest Rate Risk - Floating Rate Instruments",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Interest Rate Risk - Fixed Rate Fair Value",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Foreign Currency Exchange Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-22-000008.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "6876fac44c663702a3e254ba9774075a758db3afb695e0185d97fe421ca427ea"
+    }
+  ],
+  "prompt_version": "v3"
+}

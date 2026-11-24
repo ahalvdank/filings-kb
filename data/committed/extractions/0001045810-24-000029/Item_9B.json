@@ -1,0 +1,120 @@
+{
+  "accession": "0001045810-24-000029",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T17:16:07Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "John O. Dabiri, a member of our Board of Directors, adopted a trading arrangement that is intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) for the sale through December 2, 2024 of an estimated 553 shares of our common stock, assuming our closing stock price as of January 26, 2024.",
+            "entity_name": "John O. Dabiri",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "On December 18, 2023, John O. Dabiri, a member of our Board of Directors, adopted a trading arrangement that is intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) for the sale through December 2, 2024 of an estimated 553 shares of our common stock, assuming our closing stock price as of January 26, 2024. The number of shares is based on an estimate because the plan specifies a formulaic dollar amount of shares to be sold.",
+            "entity_name": "John O. Dabiri 10b5-1 Plan Adoption (2023-12-18)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "NVDA",
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "John O. Dabiri",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "NVIDIA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVIDIA Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "NVIDIA common stock"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Common Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_end_date": "2024-12-02",
+              "reporting_person": "John O. Dabiri",
+              "shares": 553,
+              "source": "Item_9B_plan_adoption",
+              "transaction_code": "S",
+              "transaction_date": "2023-12-18"
+            },
+            "identifiers": {},
+            "name": "John O. Dabiri 10b5-1 Plan Adoption (2023-12-18)",
+            "type": "InsiderTransaction"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "John O. Dabiri",
+            "source_type_entity": "Person",
+            "target_name": "NVIDIA Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_end_date": "2024-12-02",
+              "plan_type": "10b5-1",
+              "shares": 553,
+              "transaction_code": "S",
+              "transaction_date": "2023-12-18"
+            },
+            "source_name": "John O. Dabiri",
+            "source_type_entity": "Person",
+            "target_name": "NVDA Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-24-000029.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "c8bed3ce2512a8a69af56cacce41fec4587d20585312c518bd3c81a1d5b8c040"
+    }
+  ],
+  "prompt_version": "v3"
+}

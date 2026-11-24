@@ -1,0 +1,162 @@
+{
+  "accession": "0000034088-22-000011",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T02:34:00Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "new and ongoing measures are taken to prevent and minimize the impact of our operations on air, water, and ground, including, but not limited to, compliance with environmental regulations. These include a significant investment in refining infrastructure and technology to manufacture clean fuels, as well as projects to monitor and reduce nitrogen oxide, sulfur oxide and greenhouse gas emissions, and expenditures for asset retirement obligations.",
+            "entity_name": "ExxonMobil Greenhouse Gas and Emissions Reduction Programs",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "ExxonMobil's 2021 worldwide environmental expenditures for all such preventative and remediation steps, including ExxonMobil's share of equity company expenditures, were $4.6 billion, of which $3.4 billion were included in expenses with the remainder in capital expenditures. The total cost for such activities is expected to increase to approximately $5.3 billion in 2022, with capital expenditures expected to account for approximately 30 percent of the total. Costs for 2023 are anticipated to be higher as the Low Carbon Solutions business matures and the Corporation progresses its emission-reduction plans.",
+            "entity_name": "ExxonMobil Greenhouse Gas and Emissions Reduction Programs",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "over the past decade 39 percent of our global hires for management, professional and technical positions were female and 35 percent of our U.S. hires for management, professional and technical positions were minorities. With over 160 nationalities represented in the company, we encourage and respect diversity of thought, ideas, and perspective from our workforce.",
+            "entity_name": "ExxonMobil Workforce Diversity and Inclusion Program",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "compliance with existing and potential future government regulations, including taxes, environmental regulations, and other government regulations and policies that directly or indirectly affect the production and sale of our products, may have material effects on the capital expenditures, earnings, and competitive position of ExxonMobil.",
+            "entity_name": "Government Regulation and Environmental Policy Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "ExxonMobil",
+              "Exxon",
+              "Esso",
+              "Mobil",
+              "XTO"
+            ],
+            "attributes": {
+              "regular_employees_2019": 75000,
+              "regular_employees_2020": 72000,
+              "regular_employees_2021": 63000,
+              "state_of_incorporation": "New Jersey",
+              "year_incorporated": 1882
+            },
+            "identifiers": {
+              "ticker": "XOM"
+            },
+            "name": "Exxon Mobil Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "ExxonMobil environmental expenditure program",
+              "ExxonMobil emission-reduction plans"
+            ],
+            "attributes": {
+              "capex_share_2022_pct": 0.3,
+              "commitment_type": "ghg_reduction",
+              "expenditure_2021_usd": 4600000000,
+              "expenditure_2022_expected_usd": 5300000000,
+              "scope": "nitrogen oxide, sulfur oxide, greenhouse gas emissions"
+            },
+            "identifiers": {},
+            "name": "ExxonMobil Greenhouse Gas and Emissions Reduction Programs",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "ExxonMobil DEI program"
+            ],
+            "attributes": {
+              "commitment_type": "dei",
+              "female_global_hires_decade_pct": 0.39,
+              "minority_us_hires_decade_pct": 0.35,
+              "nationalities_represented": 160
+            },
+            "identifiers": {},
+            "name": "ExxonMobil Workforce Diversity and Inclusion Program",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "regulatory compliance risk",
+              "environmental regulation risk",
+              "tax and policy risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "Government Regulation and Environmental Policy Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "ExxonMobil Greenhouse Gas and Emissions Reduction Programs",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "ExxonMobil Workforce Diversity and Inclusion Program",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Government Regulation and Environmental Policy Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-22-000011.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "a0e92047fb2b47a1d27d0ffbca6789ed1aeae4a49e142ad048a8e41308df6986"
+    }
+  ],
+  "prompt_version": "v3"
+}

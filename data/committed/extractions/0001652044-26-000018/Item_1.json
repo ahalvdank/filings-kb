@@ -1,0 +1,189 @@
+{
+  "accession": "0001652044-26-000018",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T13:18:06Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "We continue this work under the leadership of Alphabet and Google CEO, Sundar Pichai.",
+            "entity_name": "Sundar Pichai",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "Google Services' core products and platforms include ads, Android, Chrome, devices, Gmail, Google Drive, Google Gemini, Google Maps, Google Photos, Google Play, Search, and YouTube, with broad and growing adoption by users around the world.",
+            "entity_name": "GOOGL Google Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "Google Services generates revenues primarily by delivering both performance and brand advertising that appears on Google Search & other properties, YouTube, and Google Network partners' properties (\"Google Network properties\").",
+            "entity_name": "GOOGL Google Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "Through our Google Cloud Platform and Google Workspace offerings, Google Cloud generates revenues primarily from consumption-based fees and subscriptions for infrastructure, platform, applications, and other cloud services.",
+            "entity_name": "GOOGL Google Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "Alphabet's investment in the portfolio of Other Bets includes businesses that are at various stages of development, ranging from those in the research and development phase, such as X, our moonshot factory focused on developing breakthrough technologies, to those that are scaling commercialization, such as Waymo, which is expanding to more cities domestically, entering international markets, and further scaling operations.",
+            "entity_name": "GOOGL Other Bets Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues from Other Bets are generated primarily from the sale of autonomous transportation and internet services.",
+            "entity_name": "GOOGL Other Bets Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "GOOGL",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Sundar Pichai",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Alphabet"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Google Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Services",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Cloud",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Other Bets"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Other Bets",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Other Bets Segment",
+            "type": "RevenueSegment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Sundar Pichai",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Other Bets Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-26-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "e640d93149360931e70feb9d6429a96884112bacec164193ef6f0de38729d305"
+    }
+  ],
+  "prompt_version": "v3"
+}

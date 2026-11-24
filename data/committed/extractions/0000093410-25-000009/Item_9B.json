@@ -1,0 +1,137 @@
+{
+  "accession": "0000093410-25-000009",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T13:50:17Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Michael K. Wirth, Chairman of the Board and Chief Executive Officer, entered into a pre-arranged stock trading plan on November 6, 2024.",
+            "entity_name": "Michael K. Wirth",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Mr. Wirth's plan provides for the potential exercise of vested stock options and the associated sale of up to 320,700 shares of Chevron common stock between February 26, 2025, and February 28, 2026.",
+            "entity_name": "Michael K. Wirth 10b5-1 Plan Adoption (2024-11-06)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "The trading plan was entered into during an open insider trading window and is intended to satisfy the affirmative defense of Rule 10b5-1(c) under the Securities Exchange Act of 1934, as amended, and Chevron's policies regarding transactions in Chevron securities.",
+            "entity_name": "Michael K. Wirth 10b5-1 Plan Adoption (2024-11-06)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Michael K. Wirth",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Chevron"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "Chevron Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Chevron common stock"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "CVX Common Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "note": "Pre-arranged plan for potential exercise of vested stock options and associated sale of up to 320,700 shares; entered during open trading window",
+              "plan_period_end": "2026-02-28",
+              "plan_period_start": "2025-02-26",
+              "plan_type": "Rule 10b5-1",
+              "reporting_person": "Michael K. Wirth",
+              "shares": 320700,
+              "source": "10-K_Item_9B",
+              "transaction_code": "S",
+              "transaction_date": "2024-11-06"
+            },
+            "identifiers": {},
+            "name": "Michael K. Wirth 10b5-1 Plan Adoption (2024-11-06)",
+            "type": "InsiderTransaction"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "also_role": "ChairOfBoard",
+              "role": "CEO"
+            },
+            "source_name": "Michael K. Wirth",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Pre-arranged plan; potential exercise of vested options and sale",
+              "plan_period_end": "2026-02-28",
+              "plan_period_start": "2025-02-26",
+              "plan_type": "Rule 10b5-1",
+              "shares": 320700,
+              "transaction_code": "S",
+              "transaction_date": "2024-11-06"
+            },
+            "source_name": "Michael K. Wirth",
+            "source_type_entity": "Person",
+            "target_name": "CVX Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-25-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "f4cb5ed1af8e8fa1ef357772f25f2f29d2f30bad659c796db3415d32a3622967"
+    }
+  ],
+  "prompt_version": "v3"
+}

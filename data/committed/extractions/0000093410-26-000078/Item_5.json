@@ -1,0 +1,60 @@
+{
+  "accession": "0000093410-26-000078",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T13:39:23Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "October 1 - October 31, 20256,121,636 $153.55 6,121,482 $38.6\nNovember 1 - November 30, 20255,583,177 $152.49 5,583,177 $37.7\nDecember 1 - December 31, 20258,036,375 $150.08 8,034,641 $36.5\nTotal October 1 - December 31, 202519,741,188 $151.84 19,739,300",
+            "entity_name": "CVX Q4 2025 Share Repurchase Activity",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Chevron Q4 2025 buyback"
+            ],
+            "attributes": {
+              "avg_price_per_share": 151.84,
+              "period": "Q4 2025",
+              "remaining_authorization_usd": 36500000000,
+              "return_type": "buyback",
+              "shares_purchased_under_program": 19739300,
+              "total_shares_purchased": 19741188
+            },
+            "identifiers": {},
+            "name": "CVX Q4 2025 Share Repurchase Activity",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Q4 2025 Share Repurchase Activity",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-26-000078.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "a5596c3b13aef044c873c9747352f1940d49a2a13e752caa88aeac3b9be32962"
+    }
+  ],
+  "prompt_version": "v3"
+}

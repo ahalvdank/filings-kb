@@ -1,0 +1,770 @@
+{
+  "accession": "0000093410-25-000009",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T13:28:57Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "The company estimates its average worldwide oil-equivalent production in 2025 to increase six to eight percent over 2024, assuming a Brent crude oil price of $70 per barrel and excluding the impact of asset sales.",
+            "entity_name": "CVX 2025 Worldwide Oil-Equivalent Production Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "As one of the largest producers in the Permian Basin, Chevron continues to develop its advantaged portfolio of 1,780,000 net acres in the Delaware and Midland basins in west Texas and southeast New Mexico and is expected to achieve one million barrels of net oil-equivalent production per day in 2025.",
+            "entity_name": "CVX Permian Basin 2025 One Million BOE/d Production Target",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In December 2024, the company sold its 20 percent nonoperated working interest in the Athabasca Oil Sands Project and associated Quest carbon capture and storage project in Alberta, as well as its operated assets in the Duvernay shale.",
+            "entity_name": "CVX Divestiture of Athabasca Oil Sands Project and Duvernay Assets",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "Chevron withdrew from Myanmar, effective April 2024.",
+            "entity_name": "CVX Withdrawal from Myanmar",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In January 2025, the company sold its interest in the ROC portion of Lianzi, while retaining the Angolan portion.",
+            "entity_name": "CVX Sale of Republic of Congo Lianzi Interest",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In January 2025, the company sold its 31.5 percent nonoperated interest in the offshore Haute Mer permit area.",
+            "entity_name": "CVX Sale of Haute Mer Permit Area",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2024, the company agreed to an asset swap of its 16.7 percent interest in the NWS Project, NWS Oil Project and its 20 percent interest in Angel Carbon Capture and Storage Project with Woodside's 13 percent nonoperated interest in the Wheatstone Project and 65 percent operated interest in the Julimar-Brunello fields and related infrastructure, which is expected to close in 2026, subject to customary closing conditions and regulations.",
+            "entity_name": "CVX-Woodside NWS Wheatstone Asset Swap",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In early 2025, Chevron acquired an 80 percent-owned and operated interest in PEL82 (Blocks 2112B and 2212A) in the Walvis Basin.",
+            "entity_name": "CVX Acquisition of Namibia PEL82",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2024, Chevron acquired a 60 percent-owned and operated interest in offshore exploration Block OFF-1 with plans to initiate a 3D seismic campaign in 2025.",
+            "entity_name": "CVX Acquisition of Uruguay Block OFF-1",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "All blocks in which Chevron has a participating interest are in the process of being relinquished to the government.",
+            "entity_name": "CVX Mexico Block Relinquishments",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "During 2024, Chevron was formally awarded 26 exploration blocks as a result of Gulf of America lease sale 261.",
+            "entity_name": "CVX Gulf of America Lease Sale 261 Block Awards",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Chevron"
+            ],
+            "attributes": {
+              "incorporated": "Delaware",
+              "sector": "integrated_energy"
+            },
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "Chevron Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "assumption": "Brent crude $70 per barrel, excluding asset sales",
+              "metric": "worldwide_oil_equivalent_production_growth",
+              "new_value": "6 to 8 percent increase over 2024",
+              "period": "FY2025",
+              "unit": "percent_growth",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "CVX 2025 Worldwide Oil-Equivalent Production Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Permian 1M BOE/d target 2025"
+            ],
+            "attributes": {
+              "metric": "permian_basin_net_oil_equivalent_production",
+              "new_value": "1000000",
+              "period": "2025",
+              "unit": "BOE/day",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "CVX Permian Basin 2025 One Million BOE/d Production Target",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Canada upstream divestiture 2024",
+              "Athabasca AOSP sale"
+            ],
+            "attributes": {
+              "assets_divested": "20% nonoperated interest in Athabasca Oil Sands Project, Quest CCS project, operated Duvernay shale assets",
+              "effective_date": "2024-12",
+              "event_type": "divestiture",
+              "geography": "Alberta, Canada"
+            },
+            "identifiers": {},
+            "name": "CVX Divestiture of Athabasca Oil Sands Project and Duvernay Assets",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2024-04",
+              "event_type": "divestiture",
+              "geography": "Myanmar"
+            },
+            "identifiers": {},
+            "name": "CVX Withdrawal from Myanmar",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "CVX ROC Lianzi divestiture January 2025"
+            ],
+            "attributes": {
+              "effective_date": "2025-01",
+              "event_type": "divestiture",
+              "geography": "Republic of Congo"
+            },
+            "identifiers": {},
+            "name": "CVX Sale of Republic of Congo Lianzi Interest",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Haute Mer ROC divestiture"
+            ],
+            "attributes": {
+              "effective_date": "2025-01",
+              "event_type": "divestiture",
+              "geography": "Republic of Congo",
+              "ownership_divested": "31.5% nonoperated interest"
+            },
+            "identifiers": {},
+            "name": "CVX Sale of Haute Mer Permit Area",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NWS Woodside asset exchange",
+              "Australia asset swap 2024"
+            ],
+            "attributes": {
+              "assets_acquired": "13% Wheatstone Project nonoperated interest, 65% Julimar-Brunello operated interest",
+              "assets_divested": "16.7% NWS Project interest, 20% Angel CCS interest",
+              "counterparty": "Woodside",
+              "event_type": "business_combination",
+              "expected_close": "2026",
+              "geography": "Australia"
+            },
+            "identifiers": {},
+            "name": "CVX-Woodside NWS Wheatstone Asset Swap",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "PEL82 Walvis Basin acquisition early 2025"
+            ],
+            "attributes": {
+              "blocks": "PEL82 (Blocks 2112B and 2212A)",
+              "effective_date": "2025-Q1",
+              "event_type": "acquisition",
+              "geography": "Namibia, Walvis Basin",
+              "ownership": "80% operated interest"
+            },
+            "identifiers": {},
+            "name": "CVX Acquisition of Namibia PEL82",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Uruguay offshore exploration block acquisition 2024"
+            ],
+            "attributes": {
+              "effective_date": "2024",
+              "event_type": "acquisition",
+              "geography": "Uruguay, offshore",
+              "ownership": "60% operated interest"
+            },
+            "identifiers": {},
+            "name": "CVX Acquisition of Uruguay Block OFF-1",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Mexico upstream exit"
+            ],
+            "attributes": {
+              "event_type": "divestiture",
+              "geography": "Mexico",
+              "status": "in progress"
+            },
+            "identifiers": {},
+            "name": "CVX Mexico Block Relinquishments",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "GoA lease sale 261 2024",
+              "Gulf of Mexico lease sale 261"
+            ],
+            "attributes": {
+              "blocks_awarded": 26,
+              "effective_date": "2024",
+              "event_type": "acquisition",
+              "geography": "Gulf of America"
+            },
+            "identifiers": {},
+            "name": "CVX Gulf of America Lease Sale 261 Block Awards",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "metric": "worldwide_oil_equivalent_production_growth",
+              "new_value": "6-8% increase over 2024",
+              "period": "FY2025",
+              "unit": "percent_growth",
+              "update_type": "confirmation"
+            },
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX 2025 Worldwide Oil-Equivalent Production Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "2025",
+              "update_type": "confirmation"
+            },
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Permian Basin 2025 One Million BOE/d Production Target",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Divestiture of Athabasca Oil Sands Project and Duvernay Assets",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Withdrawal from Myanmar",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Sale of Republic of Congo Lianzi Interest",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Sale of Haute Mer Permit Area",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX-Woodside NWS Wheatstone Asset Swap",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Acquisition of Namibia PEL82",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Acquisition of Uruguay Block OFF-1",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Mexico Block Relinquishments",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Gulf of America Lease Sale 261 Block Awards",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-25-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "8ba676571acb25693ce7d601ac21a612a1d7920bbbdd7232d5ecc2c7ec19bd09"
+    },
+    {
+      "extracted_at": "2026-08-10T13:34:02Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "CPChem has two major integrated polymer projects under construction, the Golden Triangle Polymers Project in Orange, Texas, for which CPChem holds a 51 percent-owned and operated interest and the Ras Laffan Petrochemical Project in Ras Laffan, Qatar, for which CPChem holds a 30 percent nonoperated working interest. Start-up for both projects is targeted for 2026.",
+            "entity_name": "CPChem Golden Triangle Polymers Project",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "CPChem has two major integrated polymer projects under construction, the Golden Triangle Polymers Project in Orange, Texas, for which CPChem holds a 51 percent-owned and operated interest and the Ras Laffan Petrochemical Project in Ras Laffan, Qatar, for which CPChem holds a 30 percent nonoperated working interest. Start-up for both projects is targeted for 2026.",
+            "entity_name": "CPChem Ras Laffan Petrochemical Project",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In California, commercial operations began in 2024 at the central gas processing facility for CalBioGas Hilmar LLC, the company's newest partnership with California Bioenergy LLC, which includes seven new anaerobic digestion dairy farm projects.",
+            "entity_name": "CVX CalBioGas Hilmar LLC Partnership Commercial Operations 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "Chevron holds a 50 percent working interest in Bunge Chevron Ag Renewables LLC, which produces soybean oil from processing facilities in Destrehan, Louisiana, and Cairo, Illinois. Soybean oil can be used as a renewable feedstock to make renewable diesel, biodiesel and sustainable aviation fuel. In 2024, FID was taken to build a new oilseed processing plant in Louisiana.",
+            "entity_name": "Bunge Chevron Ag Renewables Louisiana Oilseed Plant FID 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "Expansion work at the Geismar renewable diesel plant in Louisiana to increase production capacity from 7,000 to 22,000 barrels per day is in final commissioning stage, with startup expected in first quarter 2025.",
+            "entity_name": "CVX Geismar Renewable Diesel Capacity Expansion",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "In 2024, Chevron announced plans to install a hard-sail wind-assisted propulsion system on a new time-chartered LNG carrier to reduce carbon intensity, with an expected delivery in 2026.",
+            "entity_name": "CVX LNG Carrier Wind-Assisted Propulsion System",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "The new energies organization is focused on developing new businesses with the aim to support the company's objectives to lower the carbon intensity of its operations and enable growth opportunities with the potential to generate competitive returns. These include additional fuel solutions utilizing hydrogen and its derivatives such as ammonia, carbon emissions management through carbon capture and offsets, and power generation for data centers.",
+            "entity_name": "CVX New Energies Carbon Intensity Reduction Program",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "SRC"
+            ],
+            "attributes": {
+              "crude_capacity_bpd": 290000,
+              "location": "Pulau Merlimau, Singapore",
+              "ownership_pct": 0.5,
+              "structure": "joint_venture"
+            },
+            "identifiers": {},
+            "name": "Singapore Refining Company",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "GSC",
+              "GS Caltex"
+            ],
+            "attributes": {
+              "crude_capacity_bpd": 800000,
+              "location": "Yeosu, South Korea",
+              "ownership_pct": 0.5,
+              "structure": "affiliate"
+            },
+            "identifiers": {},
+            "name": "GS Caltex Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "SPRC"
+            ],
+            "attributes": {
+              "crude_capacity_bpd": 175000,
+              "location": "Map Ta Phut, Thailand",
+              "ownership_pct": 0.606
+            },
+            "identifiers": {},
+            "name": "Star Petroleum Refining Public Company Limited",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "CPChem"
+            ],
+            "attributes": {
+              "ownership_pct": 0.5,
+              "structure": "joint_venture"
+            },
+            "identifiers": {},
+            "name": "Chevron Phillips Chemical Company LLC",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "chevron_working_interest": 0.5
+            },
+            "identifiers": {},
+            "name": "Bunge Chevron Ag Renewables LLC",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {},
+            "identifiers": {},
+            "name": "CalBioGas Hilmar LLC",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Golden Triangle Polymers Project Orange TX"
+            ],
+            "attributes": {
+              "cpchem_interest_pct": 0.51,
+              "event_type": "joint_venture",
+              "location": "Orange, Texas",
+              "operated": true,
+              "startup_target_year": "2026"
+            },
+            "identifiers": {},
+            "name": "CPChem Golden Triangle Polymers Project",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Ras Laffan Petrochemical Project Qatar"
+            ],
+            "attributes": {
+              "cpchem_interest_pct": 0.3,
+              "event_type": "joint_venture",
+              "location": "Ras Laffan, Qatar",
+              "operated": false,
+              "startup_target_year": "2026"
+            },
+            "identifiers": {},
+            "name": "CPChem Ras Laffan Petrochemical Project",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "CalBioGas Hilmar commercial startup 2024"
+            ],
+            "attributes": {
+              "effective_date": "2024",
+              "event_type": "joint_venture",
+              "location": "Hilmar, California",
+              "partner": "California Bioenergy LLC"
+            },
+            "identifiers": {},
+            "name": "CVX CalBioGas Hilmar LLC Partnership Commercial Operations 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Bunge Chevron oilseed plant FID"
+            ],
+            "attributes": {
+              "effective_date": "2024",
+              "event_type": "joint_venture",
+              "location": "Louisiana"
+            },
+            "identifiers": {},
+            "name": "Bunge Chevron Ag Renewables Louisiana Oilseed Plant FID 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Geismar renewable diesel expansion"
+            ],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "expected_startup": "Q1 2025",
+              "location": "Geismar, Louisiana",
+              "prior_capacity_bpd": 7000,
+              "target_capacity_bpd": 22000
+            },
+            "identifiers": {},
+            "name": "CVX Geismar Renewable Diesel Capacity Expansion",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Chevron hard-sail LNG carrier wind propulsion"
+            ],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "expected_delivery_year": "2026",
+              "technology": "hard-sail wind-assisted propulsion"
+            },
+            "identifiers": {},
+            "name": "CVX LNG Carrier Wind-Assisted Propulsion System",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Chevron New Energies program"
+            ],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "focus_areas": [
+                "hydrogen",
+                "ammonia",
+                "carbon_capture",
+                "geothermal",
+                "lithium_extraction",
+                "power_for_data_centers"
+              ]
+            },
+            "identifiers": {},
+            "name": "CVX New Energies Carbon Intensity Reduction Program",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "CPChem Golden Triangle Polymers Project",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "CPChem Ras Laffan Petrochemical Project",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "CVX CalBioGas Hilmar LLC Partnership Commercial Operations 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Bunge Chevron Ag Renewables Louisiana Oilseed Plant FID 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Geismar Renewable Diesel Capacity Expansion",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "CVX LNG Carrier Wind-Assisted Propulsion System",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "CVX New Energies Carbon Intensity Reduction Program",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-25-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "128b7fb5e731ea9d301477a9d17671db0e915e5f1909013f03ef2d374a93f220"
+    }
+  ],
+  "prompt_version": "v3"
+}

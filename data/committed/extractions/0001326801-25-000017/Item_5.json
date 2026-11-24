@@ -1,0 +1,110 @@
+{
+  "accession": "0001326801-25-000017",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T08:14:54Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Beginning in February 2024, our board of directors declared a quarterly cash dividend of $0.50 per share to the holders of our Class A and Class B common stock.",
+            "entity_name": "META FY2024 Quarterly Cash Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "During the year ended December 31, 2024, total dividend and dividend equivalent payments were $4.38 billion and $691 million for Class A and Class B common stock, respectively.",
+            "entity_name": "META FY2024 Quarterly Cash Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "Subject to legally available funds and future declaration by our board of directors, we currently intend to continue to pay a quarterly cash dividend on our outstanding common stock.",
+            "entity_name": "META Quarterly Dividend Continuation Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta $0.50 quarterly dividend",
+              "Meta quarterly dividend"
+            ],
+            "attributes": {
+              "amount_usd_class_a": 4380000000,
+              "amount_usd_class_b": 691000000,
+              "effective_date": "2024-02",
+              "frequency": "quarterly",
+              "per_share": 0.5,
+              "return_type": "dividend"
+            },
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "META FY2024 Quarterly Cash Dividend",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "quarterly_cash_dividend",
+              "new_value": "0.50_per_share_quarterly",
+              "unit": "USD_per_share",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "META Quarterly Dividend Continuation Guidance",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META FY2024 Quarterly Cash Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Quarterly Dividend Continuation Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-25-000017.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "477c4852a745de5a3a414e1b762ca60b0a723b7f8659036dc7c4c186bf321170"
+    }
+  ],
+  "prompt_version": "v3"
+}

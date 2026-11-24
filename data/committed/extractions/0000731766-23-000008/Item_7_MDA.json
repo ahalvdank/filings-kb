@@ -1,0 +1,468 @@
+{
+  "accession": "0000731766-23-000008",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-21T02:38:12Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "earnings_from_operations_usd": 14379000000,
+              "growth_pct": 0.12,
+              "operating_margin": 0.058,
+              "period": "FY2022",
+              "revenue_usd": 249741000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "UnitedHealthcare's revenues increased due to growth in the number of people served through Medicare Advantage and Medicaid. Earnings from operations increased due to growth in people served and COVID-19 effects, partially offset by decreased prior years favorable development.",
+            "entity_name": "UNH UnitedHealthcare Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations_usd": 6032000000,
+              "growth_pct": 0.32,
+              "operating_margin": 0.085,
+              "people_served_millions": 102,
+              "period": "FY2022",
+              "revenue_usd": 71174000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues at Optum Health increased primarily due to organic growth in patients served under value-based care arrangements and business combinations. Earnings from operations increased due to organic growth in the number of people served under value-based care arrangements, cost management initiatives, asset dispositions and COVID-19 effects. Optum Health served approximately 102 million people as of December 31, 2022 compared to 100 million people as of December 31, 2021.",
+            "entity_name": "UNH Optum Health Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations_usd": 3588000000,
+              "growth_pct": 0.2,
+              "operating_margin": 0.246,
+              "period": "FY2022",
+              "revenue_usd": 14581000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues and earnings from operations at Optum Insight increased due to growth in technology and managed services, with managed services revenue growth driven by business combinations and new health system partnerships.",
+            "entity_name": "UNH Optum Insight Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "adjusted_scripts_millions": 1438,
+              "earnings_from_operations_usd": 4436000000,
+              "growth_pct": 0.09,
+              "operating_margin": 0.044,
+              "period": "FY2022",
+              "revenue_usd": 99773000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues and earnings from operations at Optum Rx increased due to higher script volumes from growth in people served, increased utilization and organic growth in pharmacy care services, including community health, specialty and home delivery pharmacies. Earnings from operations also increased as a result of continued supply chain management initiatives. Optum Rx fulfilled 1,438 million and 1,368 million adjusted scripts in 2022 and 2021, respectively.",
+            "entity_name": "UNH Optum Rx Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations_usd": 14056000000,
+              "growth_pct": 0.17,
+              "operating_margin": 0.077,
+              "period": "FY2022",
+              "revenue_usd": 182768000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Consolidated revenues increased by 13%, UnitedHealthcare revenues increased 12% and Optum revenues grew 17%.",
+            "entity_name": "UNH Optum Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In June 2022, the Company's Board of Directors increased the Company's quarterly cash dividend to shareholders to an annual rate of $6.60 compared to $5.80 per share.",
+            "entity_name": "UNH June 2022 Dividend Increase",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "As of December 31, 2022, we had Board of Directors' authorization to purchase up to 31 million shares of our common stock.",
+            "entity_name": "UNH Share Repurchase Authorization (31M Shares, Dec 2022)",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "As of December 31, 2022, we have entered into agreements to acquire companies in the health care sector, most notably, LHC Group, Inc. (NASDAQ: LHCG), subject to regulatory approval and other customary closing conditions. The total anticipated capital required for these acquisitions, excluding the payoff of acquired indebtedness, is approximately $9 billion. We completed the acquisition of LHC Group, Inc. on February 22, 2023.",
+            "entity_name": "UNH Acquisition of LHC Group, Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Medicare Advantage rate notices over the years have at times resulted in industry base rates well below industry forward medical trend. For example, the February 2023 Advance Notice for 2024 rates would result in an industry base rate decrease, well short of what is an increasing industry forward medical cost trend, creating continued pressure in the Medicare Advantage program. Further, proposed substantial revisions to the risk adjustment model, which serves to adjust rates to reflect a patient's health status and care resource needs, would result in reduced funding and benefits for people, especially those with some of the greatest health and social challenges.",
+            "entity_name": "UNH Medicare Advantage Rate and Funding Pressure",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In Medicaid, we believe the payment rate environment creates the risk of continued downward pressure on Medicaid margin percentages. We continue to take a prudent, market-sustainable posture for both new business and maintenance of existing relationships.",
+            "entity_name": "UNH Medicaid Margin Pressure",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In December 2022, Congress passed the 2023 Omnibus Appropriations bill that allows states to resume Medicaid redeterminations beginning in April 2023. Redeterminations will result in a decline in people served through our Medicaid business and an expected increase in people served through our commercial and exchange-based offerings as we endeavor to ensure that people have continued access to benefits.",
+            "entity_name": "UNH Medicaid Redetermination Enrollment Impact",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UnitedHealth Group",
+              "UNH"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "UNH"
+            },
+            "name": "UnitedHealth Group Incorporated",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "LHC Group",
+              "LHCG"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "LHCG"
+            },
+            "name": "LHC Group, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "UnitedHealthcare"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "UnitedHealthcare",
+              "ticker": "UNH"
+            },
+            "name": "UNH UnitedHealthcare Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Health"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Health",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Health Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Insight"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Insight",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Insight Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Rx"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Rx",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Rx Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2022-06",
+              "per_share": 6.6,
+              "prior_per_share_annual": 5.8,
+              "return_type": "dividend_increase"
+            },
+            "identifiers": {},
+            "name": "UNH June 2022 Dividend Increase",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "as_of_date": "2022-12-31",
+              "return_type": "repurchase_authorization",
+              "shares_remaining": 31000000
+            },
+            "identifiers": {},
+            "name": "UNH Share Repurchase Authorization (31M Shares, Dec 2022)",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "LHC Group acquisition",
+              "LHCG acquisition"
+            ],
+            "attributes": {
+              "close_date": "2023-02-22",
+              "event_type": "acquisition",
+              "target_company": "LHC Group, Inc.",
+              "total_capital_usd": 9000000000
+            },
+            "identifiers": {},
+            "name": "UNH Acquisition of LHC Group, Inc.",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Medicare Advantage rate pressure",
+              "MA funding risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States",
+              "program": "Medicare Advantage"
+            },
+            "identifiers": {},
+            "name": "UNH Medicare Advantage Rate and Funding Pressure",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Medicaid payment rate risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States",
+              "program": "Medicaid"
+            },
+            "identifiers": {},
+            "name": "UNH Medicaid Margin Pressure",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Medicaid redeterminations risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States",
+              "program": "Medicaid"
+            },
+            "identifiers": {},
+            "name": "UNH Medicaid Redetermination Enrollment Impact",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.12,
+              "margin": 0.058,
+              "period": "FY2022",
+              "revenue": 249741000000
+            },
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH UnitedHealthcare Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.32,
+              "margin": 0.085,
+              "period": "FY2022",
+              "revenue": 71174000000
+            },
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Health Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.2,
+              "margin": 0.246,
+              "period": "FY2022",
+              "revenue": 14581000000
+            },
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Insight Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.09,
+              "margin": 0.044,
+              "period": "FY2022",
+              "revenue": 99773000000
+            },
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Rx Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.17,
+              "margin": 0.077,
+              "period": "FY2022",
+              "revenue": 182768000000
+            },
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH June 2022 Dividend Increase",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Share Repurchase Authorization (31M Shares, Dec 2022)",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Acquisition of LHC Group, Inc.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Medicare Advantage Rate and Funding Pressure",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Medicaid Margin Pressure",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Medicaid Redetermination Enrollment Impact",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-23-000008.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "a69e9cb2da9fec6bbc2178a9bd067d2dd2f5eda099b50f068be61e2766b8c6fa"
+    }
+  ],
+  "prompt_version": "v3"
+}

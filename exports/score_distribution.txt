@@ -1,0 +1,64 @@
+Score distribution over 13 traces, 494 retrieved passages
+(cosine similarity; from the committed answer snapshots)
+
+Overall histogram, 0.05 buckets
+bucket        count
+0.10-0.15      1  
+0.15-0.20      3  ##
+0.20-0.25      1  
+0.25-0.30      6  ###
+0.30-0.35     10  #####
+0.35-0.40     65  ################################
+0.40-0.45     92  ##############################################
+0.45-0.50    123  ##############################################################
+0.50-0.55    114  #########################################################
+0.55-0.60     54  ###########################
+0.60-0.65     25  ############
+
+Per trace
+slug                                                       n    min median    max lowest cited
+ai-value-chain-suppliers-vs-buyers                        40  0.370  0.482  0.636        0.448
+amd-fy2025-10ka-amendment                                 35  0.146  0.379  0.631        0.537
+ba-delivery-outlook-vs-constraints-fy25                   40  0.290  0.469  0.577        0.448
+ba-liquidity-and-debt-fy24-fy25                           40  0.443  0.502  0.593        0.453
+cvx-lower-carbon-vs-upstream-investment-fy25              33  0.484  0.551  0.648        0.509
+intc-capital-return-and-external-funding-fy24-fy25        40  0.353  0.491  0.585        0.375
+intc-foundry-execution-risk-fy24-fy25                     40  0.407  0.483  0.646        0.546
+jpm-capital-return-and-regulatory-capital-fy24-fy25       40  0.412  0.539  0.609        0.412
+meta-ai-capex-vs-monetization-risk-fy25                   40  0.327  0.407  0.558        0.381
+nvda-amd-intc-foundry-dependency-fy25                     40  0.381  0.430  0.527        0.441
+nvda-export-control-risk-fy22-fy26                        40  0.377  0.509  0.643        0.377
+unh-cyber-regulatory-risk-fy23-fy25                       40  0.367  0.398  0.490        0.380
+xom-vs-cvx-energy-transition-risk-fy25                    26  0.301  0.484  0.571        0.387
+
+Lowest-scoring passage any current answer cites: 0.375
+
+Full top-k pool before the quota and max_passages cut: 816 candidates
+bucket        count
+0.10-0.15      1  
+0.15-0.20      3  ##
+0.20-0.25      3  ##
+0.25-0.30     19  ##########
+0.30-0.35     60  ##############################
+0.35-0.40    169  ####################################################################################
+0.40-0.45    183  ############################################################################################
+0.45-0.50    177  ########################################################################################
+0.50-0.55    122  #############################################################
+0.55-0.60     54  ###########################
+0.60-0.65     25  ############
+
+Pool per trace; 'below' counts candidates under display_cutoff 0.35
+slug                                                       n    min median    max below
+nvda-export-control-risk-fy22-fy26                       100  0.305  0.431  0.643    10
+intc-foundry-execution-risk-fy24-fy25                     40  0.407  0.483  0.646     0
+unh-cyber-regulatory-risk-fy23-fy25                       63  0.323  0.380  0.490    18
+amd-fy2025-10ka-amendment                                 35  0.146  0.379  0.631    14
+meta-ai-capex-vs-monetization-risk-fy25                   40  0.327  0.407  0.558     1
+ba-delivery-outlook-vs-constraints-fy25                   41  0.228  0.468  0.577     6
+cvx-lower-carbon-vs-upstream-investment-fy25              33  0.484  0.551  0.648     0
+ba-liquidity-and-debt-fy24-fy25                           80  0.395  0.449  0.593     0
+jpm-capital-return-and-regulatory-capital-fy24-fy25       78  0.210  0.505  0.609     2
+intc-capital-return-and-external-funding-fy24-fy25        80  0.278  0.453  0.585    19
+nvda-amd-intc-foundry-dependency-fy25                     60  0.347  0.411  0.527     1
+ai-value-chain-suppliers-vs-buyers                       140  0.268  0.410  0.636    14
+xom-vs-cvx-energy-transition-risk-fy25                    26  0.301  0.484  0.571     1

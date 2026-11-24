@@ -1,0 +1,61 @@
+{
+  "accession": "0000093410-22-000019",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T14:40:57Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "October 1 – October 31, 2021 1,998,279 $109.20 1,997,367 $18.7 November 1 – November 30, 2021 2,759,499 $114.35 2,757,758 $18.4 December 1 – December 31, 2021 1,861,236 $116.38 1,860,752 $18.2 Total October 1 – December 31, 2021 6,619,014 $113.36 6,615,877",
+            "entity_name": "CVX Q4 2021 Share Repurchase Activity",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Chevron Q4 2021 buyback"
+            ],
+            "attributes": {
+              "avg_price_per_share": 113.36,
+              "period": "Q4_2021",
+              "remaining_authorization_usd": 18200000000,
+              "return_type": "buyback",
+              "shares_purchased_program": 6615877
+            },
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "CVX Q4 2021 Share Repurchase Activity",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Q4 2021 Share Repurchase Activity",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-22-000019.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "bf3fe2b00a089a587426e7e13a9c836496711305180e2b995d30a42fbf54e867"
+    }
+  ],
+  "prompt_version": "v3"
+}

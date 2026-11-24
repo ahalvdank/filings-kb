@@ -1,0 +1,71 @@
+{
+  "accession": "0001628280-26-004357",
+  "item": "Item_9A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T05:10:26Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9A"
+            },
+            "chunk_type": "material_event",
+            "content": "Our assessment of the effectiveness of our internal control over financial reporting as of December 31, 2025, did not include an assessment of the effectiveness of internal control over financial reporting of Spirit AeroSystems Holdings, Inc. (Spirit), which was acquired on December 8, 2025. The operating results of Spirit are included in our Consolidated Financial Statements from the period subsequent to the acquisition date and represent approximately nine percent of our Total assets as of December 31, 2025 and less than one percent of each our Total revenues and Earnings from operations for the year then ended.",
+            "entity_name": "Boeing Acquisition of Spirit AeroSystems Holdings",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Spirit AeroSystems acquisition",
+              "Spirit acquisition"
+            ],
+            "attributes": {
+              "effective_date": "2025-12-08",
+              "event_type": "acquisition",
+              "pct_earnings_from_operations": "less than 1%",
+              "pct_total_assets": "approximately 9%",
+              "pct_total_revenues": "less than 1%",
+              "target_company": "Spirit AeroSystems Holdings, Inc."
+            },
+            "identifiers": {},
+            "name": "Boeing Acquisition of Spirit AeroSystems Holdings",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Spirit AeroSystems",
+              "Spirit"
+            ],
+            "attributes": {},
+            "identifiers": {},
+            "name": "Spirit AeroSystems Holdings, Inc.",
+            "type": "Company"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Acquisition of Spirit AeroSystems Holdings",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0001628280-26-004357.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "dbd9bdbdd696f70d596b543c05938e40250745203b3463744df0bbaa90bd38fb"
+    }
+  ],
+  "prompt_version": "v3"
+}

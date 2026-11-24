@@ -1,0 +1,151 @@
+{
+  "accession": "0000731766-23-000008",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-21T02:39:17Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2022, we had $31 billion of financial assets on which the interest rates received vary with market interest rates, which may significantly impact our investment income. Also as of December 31, 2022, $16 billion of our financial liabilities, which include debt and deposit liabilities, were at interest rates which vary with market rates, either directly or through the use of related interest rate swap contracts.",
+            "entity_name": "UNH Interest Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2022, $38 billion of our investments were fixed-rate debt securities and $43 billion of our debt was non-swapped fixed-rate term debt. An increase in market interest rates decreases the market value of fixed-rate investments and fixed-rate debt. Conversely, a decrease in market interest rates increases the market value of fixed-rate investments and fixed-rate debt.",
+            "entity_name": "UNH Interest Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A",
+              "sensitivity_1pct_up_fair_value_assets_usd_mm": -1746,
+              "sensitivity_1pct_up_fair_value_liabilities_usd_mm": -4002,
+              "sensitivity_1pct_up_interest_expense_usd_mm": 164,
+              "sensitivity_1pct_up_investment_income_usd_mm": 314
+            },
+            "chunk_type": "risk_factor",
+            "content": "We manage exposure to market interest rates by diversifying investments across different fixed-income market sectors and debt across maturities, as well as by matching a portion of our floating-rate assets and liabilities, either directly or through the use of interest rate swap contracts.",
+            "entity_name": "UNH Interest Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have an exposure to changes in the value of foreign currencies, primarily the Brazilian real and the Chilean peso, to the U.S. dollar in translation of UnitedHealthcare Employer & Individual's international business operating results at the average exchange rate over the accounting period, and assets and liabilities at the exchange rate at the end of the accounting period.",
+            "entity_name": "UNH Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2022, a hypothetical 10% and 25% increase in the value of the U.S. dollar against those currencies would have caused a reduction in net assets of approximately $560 million and $1.2 billion, respectively.",
+            "entity_name": "UNH Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2022, we had $3.7 billion of investments in equity securities, primarily consisting of investments in employee savings plan related investments, other venture investments and non-U.S. dollar fixed-income funds. Valuations in non-U.S. dollar funds are subject to foreign exchange rates.",
+            "entity_name": "UNH Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "market interest rate risk",
+              "interest rate exposure"
+            ],
+            "attributes": {
+              "as_of_date": "2022-12-31",
+              "category": "market",
+              "fixed_rate_debt_usd": 43000000000,
+              "fixed_rate_investments_usd": 38000000000,
+              "sub_category": "interest_rate",
+              "variable_rate_assets_usd": 31000000000,
+              "variable_rate_liabilities_usd": 16000000000
+            },
+            "identifiers": {},
+            "name": "UNH Interest Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "FX translation risk",
+              "currency risk",
+              "Brazilian real Chilean peso exposure"
+            ],
+            "attributes": {
+              "as_of_date": "2022-12-31",
+              "category": "market",
+              "equity_securities_in_non_usd_funds_usd": 3700000000,
+              "primary_currencies": [
+                "BRL",
+                "CLP"
+              ],
+              "sub_category": "foreign_exchange"
+            },
+            "identifiers": {},
+            "name": "UNH Foreign Currency Exchange Rate Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Interest Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Foreign Currency Exchange Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-23-000008.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "967dc510661cf88d629f4b245e9bfd7b31b328965320935d39a7a7e5155e3298"
+    }
+  ],
+  "prompt_version": "v3"
+}

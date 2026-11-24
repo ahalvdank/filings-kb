@@ -1,0 +1,731 @@
+{
+  "accession": "0001045810-22-000036",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T17:58:03Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "On July 19, 2021, we executed a four-for-one stock split of our common stock. All share, equity award, and per share amounts and related shareholders' equity balances presented herein have been retroactively adjusted to reflect the Stock Split.",
+            "entity_name": "NVDA Four-for-One Stock Split July 2021",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-03-18",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "On February 8, 2022, NVIDIA and SoftBank announced the termination of the Share Purchase Agreement whereby NVIDIA would have acquired Arm from SoftBank. The parties agreed to terminate because of significant regulatory challenges preventing the completion of the transaction. We intend to record in operating expenses a $1.36 billion charge in the first quarter of fiscal year 2023 reflecting the write-off of the prepayment provided at signing in September 2020.",
+            "entity_name": "NVDA Arm Acquisition Termination February 2022",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-03-18",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "In April 2020, we completed the acquisition of all outstanding shares of Mellanox for a total purchase consideration of $7.13 billion. Mellanox is a supplier of high-performance interconnect products for computing, storage and communications applications. We acquired Mellanox to optimize data center workloads to scale across the entire computing, networking, and storage stack.",
+            "entity_name": "NVDA Acquisition of Mellanox Technologies April 2020",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-03-18",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "In October 2021, the Financial Accounting Standards Board issued a new accounting standard to require that an acquirer recognize and measure contract assets and liabilities acquired in a business combination in accordance with Accounting Standards Codification 606, Revenue from Contracts with Customers. We early adopted this accounting standard in the third quarter of fiscal year 2022 and the impact was immaterial.",
+            "entity_name": "NVDA Early Adoption ASC 606 Business Combination Standard FY2022",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-03-18",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "amount_usd": 399000000,
+              "fiscal_year": "FY2022",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_return",
+            "content": "Cash dividends declared and paid ($0.16 per common share)",
+            "entity_name": "NVDA FY2022 Annual Cash Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-03-18",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "fiscal_year": "FY2022",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Issuance of debt, net of issuance costs4,977 4,968 —",
+            "entity_name": "NVDA FY2022 $4.977B Debt Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2022-03-18",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVIDIA 4:1 stock split",
+              "NVIDIA stock split 2021"
+            ],
+            "attributes": {
+              "effective_date": "2021-07-19",
+              "event_type": "stock_split",
+              "ratio": "4-for-1"
+            },
+            "identifiers": {},
+            "name": "NVDA Four-for-One Stock Split July 2021",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NVIDIA Arm deal termination",
+              "SoftBank Arm deal canceled"
+            ],
+            "attributes": {
+              "charge_period": "Q1_FY2023",
+              "counterparty": "SoftBank",
+              "event_type": "business_combination",
+              "outcome": "terminated",
+              "target": "Arm",
+              "termination_date": "2022-02-08",
+              "termination_reason": "regulatory_challenges",
+              "write_off_charge_usd": 1360000000
+            },
+            "identifiers": {},
+            "name": "NVDA Arm Acquisition Termination February 2022",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Mellanox deal",
+              "NVIDIA Mellanox acquisition"
+            ],
+            "attributes": {
+              "consideration": "all_cash",
+              "effective_date": "2020-04",
+              "event_type": "acquisition",
+              "target_company": "Mellanox Technologies, Ltd.",
+              "total_consideration_usd": 7134000000
+            },
+            "identifiers": {},
+            "name": "NVDA Acquisition of Mellanox Technologies April 2020",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NVIDIA accounting standard early adoption Q3 FY2022"
+            ],
+            "attributes": {
+              "adoption_period": "Q3_FY2022",
+              "event_type": "accounting_change",
+              "materiality": "immaterial",
+              "standard": "FASB ASC 606 for business combinations"
+            },
+            "identifiers": {},
+            "name": "NVDA Early Adoption ASC 606 Business Combination Standard FY2022",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NVIDIA FY2022 dividend"
+            ],
+            "attributes": {
+              "amount_usd": 399000000,
+              "per_share": 0.16,
+              "period": "FY2022",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2022 Annual Cash Dividend",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "NVIDIA FY2022 debt issuance"
+            ],
+            "attributes": {
+              "instrument_type": "notes",
+              "period": "FY2022",
+              "principal_usd": 4977000000
+            },
+            "identifiers": {},
+            "name": "NVDA FY2022 $4.977B Debt Issuance",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Four-for-One Stock Split July 2021",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-03-18",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Arm Acquisition Termination February 2022",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-03-18",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Acquisition of Mellanox Technologies April 2020",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-03-18",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Early Adoption ASC 606 Business Combination Standard FY2022",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-03-18",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2022 Annual Cash Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-03-18",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2022 $4.977B Debt Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2022-03-18",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-22-000036.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "c2024fd73a59526239b39f177f87f295e0ec3cd70737cbe7dd6bb9b23a735144"
+    },
+    {
+      "extracted_at": "2026-06-18T21:05:04Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On March 2, 2021, the district court granted NVIDIA's motion to dismiss the complaint without leave to amend, entered judgment in favor of NVIDIA and closed the case. On March 30, 2021, plaintiffs filed an appeal from judgment in the United States Court of Appeals for the Ninth Circuit, case number 21-15604. Oral argument is scheduled for May 10, 2022.",
+            "entity_name": "In Re NVIDIA Corporation Securities Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The putative derivative lawsuit pending in the United States District Court for the Northern District of California, captioned 4:19-cv-00341-HSG, initially filed January 18, 2019 and titled In re NVIDIA Corporation Consolidated Derivative Litigation, was stayed pending resolution of the plaintiffs' appeal in the In Re NVIDIA Corporation Securities Litigation action. On February 22, 2022, the court administratively closed the case, but stated that it would reopen the case once the appeal in the In Re NVIDIA Corporation Securities Litigation action is resolved.",
+            "entity_name": "In re NVIDIA Corporation Consolidated Derivative Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The putative derivative actions initially filed September 24, 2019 and pending in the United States District Court for the District of Delaware, Lipchitz v. Huang, et al. (Case No. 1:19-cv-01795-UNA) and Nelson v. Huang, et. al. (Case No. 1:19-cv-01798- UNA), remain stayed pending resolution of the plaintiffs' appeal in the In Re NVIDIA Corporation Securities Litigation action.",
+            "entity_name": "Lipchitz v. Huang, et al.",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The putative derivative actions initially filed September 24, 2019 and pending in the United States District Court for the District of Delaware, Lipchitz v. Huang, et al. (Case No. 1:19-cv-01795-UNA) and Nelson v. Huang, et. al. (Case No. 1:19-cv-01798- UNA), remain stayed pending resolution of the plaintiffs' appeal in the In Re NVIDIA Corporation Securities Litigation action.",
+            "entity_name": "Nelson v. Huang, et al.",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_return",
+            "content": "As of January 30, 2022, we have a remaining authorization, subject to certain specifications, to repurchase shares of our common stock up to $7.24 billion through December 2022. From January 31, 2022 through March 17, 2022, we repurchased 7.7 million shares of our common stock for $1.75 billion.",
+            "entity_name": "NVDA FY2022 Share Repurchase Remaining Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal years 2022, 2021, and 2020, we paid $399 million, $395 million, and $390 million in cash dividends to our shareholders, respectively.",
+            "entity_name": "NVDA FY2022 Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In June 2021, March 2020, and September 2016, we issued a total of $5.00 billion, $5.00 billion, and $2.00 billion aggregate principal of senior notes, respectively. The net proceeds from these offerings were $4.98 billion, $4.97 billion, and $1.98 billion, respectively, after deducting debt discount and issuance costs.",
+            "entity_name": "NVDA June 2021 $5.0B Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "On August 16, 2021, we repaid the $1.00 billion of 2.20% Notes Due 2021.",
+            "entity_name": "NVDA August 2021 Repayment of 2.20% Notes Due 2021",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "segment",
+            "content": "Our Graphics segment includes GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming platforms; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics; vGPU software for cloud-based visual and virtual computing; automotive platforms for infotainment systems; and Omniverse software for building 3D designs and virtual worlds.",
+            "entity_name": "NVDA Graphics Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "segment",
+            "content": "Our Compute & Networking segment includes Data Center platforms and systems for AI, HPC, and accelerated computing; Mellanox networking and interconnect solutions; automotive AI Cockpit, autonomous driving development agreements, and autonomous vehicle solutions; CMP; Jetson for robotics and other embedded platforms; and NVIDIA AI Enterprise and other software.",
+            "entity_name": "NVDA Compute & Networking Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "segment",
+            "content": "Gaming$12,462 $7,759 $5,518",
+            "entity_name": "NVDA Gaming End Market",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "segment",
+            "content": "Data Center10,613 6,696 2,983",
+            "entity_name": "NVDA Data Center End Market",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "On June 28, 2021, we simplified our corporate structure by repatriating the economic rights of certain non-U.S. IP to the United States via domestication of a foreign subsidiary, or the Domestication. The Domestication more closely aligns our corporate structure to our operating structure in accordance with the Organization for Economic Cooperation and Development's Base Erosion and Profit Shifting conclusions and changes to U.S. and European tax laws. The impact of the Domestication, which is regarded as a change in tax status, resulted in a discrete benefit primarily from re-valuing certain deferred tax assets, net of deferred tax liabilities, of $244 million in fiscal year 2022.",
+            "entity_name": "NVDA IP Domestication FY2022",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVIDIA",
+              "NVDA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVIDIA Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "NVIDIA Securities Class Action",
+              "4:18-cv-07669-HSG"
+            ],
+            "attributes": {
+              "counterparty": "Putative securities class action plaintiffs",
+              "court": "U.S. Court of Appeals, Ninth Circuit",
+              "status": "pending"
+            },
+            "identifiers": {
+              "case_number": "4:18-cv-07669-HSG"
+            },
+            "name": "In Re NVIDIA Corporation Securities Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "NVIDIA Consolidated Derivative Litigation",
+              "4:19-cv-00341-HSG"
+            ],
+            "attributes": {
+              "counterparty": "Derivative plaintiffs",
+              "court": "U.S. District Court, Northern District of California",
+              "status": "pending"
+            },
+            "identifiers": {
+              "case_number": "4:19-cv-00341-HSG"
+            },
+            "name": "In re NVIDIA Corporation Consolidated Derivative Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "1:19-cv-01795-UNA"
+            ],
+            "attributes": {
+              "counterparty": "Lipchitz (derivative plaintiff)",
+              "court": "U.S. District Court, District of Delaware",
+              "status": "pending"
+            },
+            "identifiers": {
+              "case_number": "1:19-cv-01795-UNA"
+            },
+            "name": "Lipchitz v. Huang, et al.",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "1:19-cv-01798-UNA"
+            ],
+            "attributes": {
+              "counterparty": "Nelson (derivative plaintiff)",
+              "court": "U.S. District Court, District of Delaware",
+              "status": "pending"
+            },
+            "identifiers": {
+              "case_number": "1:19-cv-01798-UNA"
+            },
+            "name": "Nelson v. Huang, et al.",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "NVDA buyback authorization December 2022"
+            ],
+            "attributes": {
+              "amount_usd": 7240000000,
+              "effective_date": "2022-01",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2022 Share Repurchase Remaining Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 399000000,
+              "period": "FY2022",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2022 Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "NVDA June 2021 notes"
+            ],
+            "attributes": {
+              "instrument_type": "notes",
+              "issuance_date": "2021-06",
+              "net_proceeds_usd": 4980000000,
+              "principal_usd": 5000000000
+            },
+            "identifiers": {},
+            "name": "NVDA June 2021 $5.0B Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2021-08-16",
+              "instrument_type": "refinancing",
+              "principal_usd": 1000000000
+            },
+            "identifiers": {},
+            "name": "NVDA August 2021 Repayment of 2.20% Notes Due 2021",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Graphics"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Graphics",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Graphics Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Compute & Networking"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Compute & Networking",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Compute & Networking Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Gaming"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Gaming",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Gaming End Market",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Data Center"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Data Center End Market",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "NVIDIA Domestication",
+              "NVDA IP repatriation"
+            ],
+            "attributes": {
+              "effective_date": "2021-06-28",
+              "event_type": "accounting_change"
+            },
+            "identifiers": {},
+            "name": "NVDA IP Domestication FY2022",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "In Re NVIDIA Corporation Securities Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "In re NVIDIA Corporation Consolidated Derivative Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "Lipchitz v. Huang, et al.",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "Nelson v. Huang, et al.",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2022 Share Repurchase Remaining Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2022 Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA June 2021 $5.0B Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA August 2021 Repayment of 2.20% Notes Due 2021",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.614,
+              "margin": 0.535,
+              "period": "FY2022",
+              "revenue": 15868000000
+            },
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Graphics Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.615,
+              "margin": 0.416,
+              "period": "FY2022",
+              "revenue": 11046000000
+            },
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Compute & Networking Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.606,
+              "period": "FY2022",
+              "revenue": 12462000000
+            },
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Gaming End Market",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.585,
+              "period": "FY2022",
+              "revenue": 10613000000
+            },
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Data Center End Market",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA IP Domestication FY2022",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-22-000036.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "bfdca3c4a14d56225b3f3b0f5a09442dbb462968b037e8b2a529bd1dcd68c98f"
+    }
+  ],
+  "prompt_version": "v3"
+}

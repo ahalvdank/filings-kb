@@ -1,0 +1,195 @@
+{
+  "accession": "0000002488-24-000012",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T02:00:59Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Lisa Su   Chair, President and Chief Executive OfficerAdoptNovember 20, 2023X834,226December 5, 2024",
+            "entity_name": "Lisa Su",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Lisa Su   Chair, President and Chief Executive OfficerAdoptNovember 20, 2023X834,226December 5, 2024",
+            "entity_name": "Lisa Su 10b5-1 Plan Adoption (2023-11-20)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Mark Papermaster   Executive Vice President, Chief Technology OfficerAdoptNovember 15, 2023X97,756November 15, 2024",
+            "entity_name": "Mark Papermaster",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Mark Papermaster   Executive Vice President, Chief Technology OfficerAdoptNovember 15, 2023X97,756November 15, 2024",
+            "entity_name": "Mark Papermaster 10b5-1 Plan Adoption (2023-11-15)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "AMD"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "Advanced Micro Devices, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD Common Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMD",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Lisa Su",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMD",
+              "insider_status": "officer",
+              "officer_role": "CTO"
+            },
+            "identifiers": {},
+            "name": "Mark Papermaster",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_adoption_date": "2023-11-20",
+              "plan_expiration_date": "2024-12-05",
+              "plan_type": "Rule_10b5-1",
+              "reporting_person": "Lisa Su",
+              "shares": 834226,
+              "source": "10-K_Item_9B_partial",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Lisa Su 10b5-1 Plan Adoption (2023-11-20)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_adoption_date": "2023-11-15",
+              "plan_expiration_date": "2024-11-15",
+              "plan_type": "Rule_10b5-1",
+              "reporting_person": "Mark Papermaster",
+              "shares": 97756,
+              "source": "10-K_Item_9B_partial",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Mark Papermaster 10b5-1 Plan Adoption (2023-11-15)",
+            "type": "InsiderTransaction"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Lisa Su",
+            "source_type_entity": "Person",
+            "target_name": "Advanced Micro Devices, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CTO"
+            },
+            "source_name": "Mark Papermaster",
+            "source_type_entity": "Person",
+            "target_name": "Advanced Micro Devices, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_adoption_date": "2023-11-20",
+              "plan_expiration_date": "2024-12-05",
+              "plan_type": "Rule_10b5-1",
+              "shares": 834226,
+              "transaction_code": "S"
+            },
+            "source_name": "Lisa Su",
+            "source_type_entity": "Person",
+            "target_name": "AMD Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_adoption_date": "2023-11-15",
+              "plan_expiration_date": "2024-11-15",
+              "plan_type": "Rule_10b5-1",
+              "shares": 97756,
+              "transaction_code": "S"
+            },
+            "source_name": "Mark Papermaster",
+            "source_type_entity": "Person",
+            "target_name": "AMD Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-24-000012.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "5664e881d965698b14294da31c3d04ed108564c56e32a96a969eb97969b7518a"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,197 @@
+{
+  "accession": "0001628280-26-003942",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T06:11:09Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "In 2025, 82% of our total costs and expenses were recognized in FoA and 18% were recognized in RL. Our FoA investments were $96.29 billion in 2025 and include expenses relating to headcount, data centers and technical infrastructure as part of our efforts to develop our apps and our advertising services.",
+            "entity_name": "META Family of Apps Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "Our total RL investments were $21.40 billion in 2025 and include expenses relating to headcount and technology development across these efforts. These are fundamentally new technologies that we expect will evolve as the next computing platform develops, and many products may only be fully realized in the next decade.",
+            "entity_name": "META Reality Labs Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "In 2026, we expect to spend approximately 70% of our Reality Labs operating expenses on our wearables initiatives, and the remaining 30% on our VR and Horizon initiatives.",
+            "entity_name": "META RL 2026 Operating Expense Allocation Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "we expect our RL segment to continue to operate at a loss for the foreseeable future, and our ability to support our efforts to build the next computing platform is dependent on generating sufficient profits from other areas of our business.",
+            "entity_name": "META RL Segment Ongoing Operating Loss Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta"
+            ],
+            "attributes": {
+              "employee_count": 78865,
+              "employee_count_date": "2025-12-31",
+              "headquarters": "Menlo Park, California",
+              "incorporation_date": "2004-07",
+              "incorporation_state": "Delaware",
+              "ipo_date": "2012-05",
+              "listing_exchange": "Nasdaq Global Select Market"
+            },
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "Meta Platforms, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "FoA",
+              "Family of Apps"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Family of Apps",
+              "ticker": "META"
+            },
+            "name": "META Family of Apps Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "RL",
+              "Reality Labs"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Reality Labs",
+              "ticker": "META"
+            },
+            "name": "META Reality Labs Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Reality Labs 2026 expense split"
+            ],
+            "attributes": {
+              "metric": "rl_opex_allocation",
+              "period": "FY2026",
+              "update_type": "confirmation",
+              "vr_horizon_pct": 0.3,
+              "wearables_pct": 0.7
+            },
+            "identifiers": {},
+            "name": "META RL 2026 Operating Expense Allocation Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Reality Labs loss outlook"
+            ],
+            "attributes": {
+              "metric": "rl_segment_profitability",
+              "new_value": "operating_loss",
+              "period": "foreseeable_future",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "META RL Segment Ongoing Operating Loss Outlook",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "pct_of_total_costs": 0.82,
+              "period": "FY2025",
+              "primary_revenue_source": "advertising",
+              "total_investments_usd": 96290000000
+            },
+            "source_name": "META 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "META Family of Apps Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "pct_of_total_costs": 0.18,
+              "period": "FY2025",
+              "primary_revenue_source": "hardware_software_content",
+              "total_investments_usd": 21400000000
+            },
+            "source_name": "META 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "META Reality Labs Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "META 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "META RL 2026 Operating Expense Allocation Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "META 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "META RL Segment Ongoing Operating Loss Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001628280-26-003942.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "c79a0cad891d8578507d80c1e446149507d45bc69a9e1d6ed06e0b04a06a8e3a"
+    }
+  ],
+  "prompt_version": "v3"
+}

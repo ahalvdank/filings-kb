@@ -1,0 +1,94 @@
+{
+  "accession": "0000012927-23-000007",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T07:08:19Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "On March 21, 2020, the Board of Directors terminated its prior authorization to repurchase shares of the Company's outstanding common stock. Share repurchases under this open market repurchase program have been suspended since April 2019.",
+            "entity_name": "BA Share Repurchase Program Termination",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "A total of 25,742 shares were transferred to us from employees in satisfaction of tax withholding obligations associated with the vesting of restricted stock units during the period. We did not purchase any shares of our common stock in the open market pursuant to a repurchase program.",
+            "entity_name": "BA Q4 2022 RSU Tax Withholding Share Acquisitions",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing buyback suspension",
+              "Boeing share repurchase suspension"
+            ],
+            "attributes": {
+              "note": "Board of Directors terminated prior authorization on March 21, 2020; no open market repurchases since April 2019",
+              "return_type": "repurchase_authorization",
+              "status": "terminated",
+              "suspension_since": "2019-04",
+              "termination_date": "2020-03-21"
+            },
+            "identifiers": {},
+            "name": "BA Share Repurchase Program Termination",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "note": "Shares transferred from employees in satisfaction of tax withholding obligations on RSU vesting; not open market repurchases under a repurchase program",
+              "per_share": 169.94,
+              "period": "Q4_2022",
+              "return_type": "buyback",
+              "shares": 25742
+            },
+            "identifiers": {},
+            "name": "BA Q4 2022 RSU Tax Withholding Share Acquisitions",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Share Repurchase Program Termination",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Q4 2022 RSU Tax Withholding Share Acquisitions",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-23-000007.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "4926f019b7edcb22bc3c59be6500a54cb7ca18d5f97f6f2309003f96a01b72a7"
+    }
+  ],
+  "prompt_version": "v3"
+}

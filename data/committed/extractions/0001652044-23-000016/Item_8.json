@@ -1,0 +1,1271 @@
+{
+  "accession": "0001652044-23-000016",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T20:47:11Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note_2",
+              "section_type": "Item_8",
+              "unit": "USD_millions",
+              "years": "2020_2021_2022"
+            },
+            "chunk_type": "segment",
+            "content": "Google Search & other$104,062 $148,951 $162,450",
+            "entity_name": "GOOGL Google Search & Other Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note_2",
+              "section_type": "Item_8",
+              "unit": "USD_millions",
+              "years": "2020_2021_2022"
+            },
+            "chunk_type": "segment",
+            "content": "YouTube ads19,772 28,845 29,243",
+            "entity_name": "GOOGL YouTube Ads Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note_2",
+              "section_type": "Item_8",
+              "unit": "USD_millions",
+              "years": "2020_2021_2022"
+            },
+            "chunk_type": "segment",
+            "content": "Google Network23,090 31,701 32,780",
+            "entity_name": "GOOGL Google Network Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note_2",
+              "section_type": "Item_8",
+              "unit": "USD_millions",
+              "years": "2020_2021_2022"
+            },
+            "chunk_type": "segment",
+            "content": "Google advertising146,924 209,497 224,473",
+            "entity_name": "GOOGL Google Advertising Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note_2",
+              "section_type": "Item_8",
+              "unit": "USD_millions",
+              "years": "2020_2021_2022"
+            },
+            "chunk_type": "segment",
+            "content": "Google other21,711 28,032 29,055",
+            "entity_name": "GOOGL Google Other Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note_2",
+              "section_type": "Item_8",
+              "unit": "USD_millions",
+              "years": "2020_2021_2022"
+            },
+            "chunk_type": "segment",
+            "content": "Google Services total168,635 237,529 253,528",
+            "entity_name": "GOOGL Google Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note_2",
+              "section_type": "Item_8",
+              "unit": "USD_millions",
+              "years": "2020_2021_2022"
+            },
+            "chunk_type": "segment",
+            "content": "Google Cloud13,059 19,206 26,280",
+            "entity_name": "GOOGL Google Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "metric": "revenue_backlog",
+              "note": "Note_2",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "As of December 31, 2022, we had $64.3 billion of remaining performance obligations (\"revenue backlog\"), primarily related to Google Cloud. Our revenue backlog represents commitments in customer contracts for future services that have not yet been recognized as revenue. We expect to recognize approximately half of the revenue backlog as revenues over the next 24 months with the remaining to be recognized thereafter.",
+            "entity_name": "GOOGL Google Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note_2",
+              "section_type": "Item_8",
+              "unit": "USD_millions",
+              "years": "2020_2021_2022"
+            },
+            "chunk_type": "segment",
+            "content": "Other Bets657 753 1,068",
+            "entity_name": "GOOGL Other Bets Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note_1",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On February 1, 2022, the company announced that the Board of Directors had approved and declared a 20-for-one stock split in the form of a one-time special stock dividend on each share of the company's Class A, Class B, and Class C stock. The Stock Split had a record date of July 1, 2022 and an effective date of July 15, 2022.",
+            "entity_name": "GOOGL July 2022 20-for-1 Stock Split",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note_1",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In January 2023, we completed an assessment of the useful lives of our servers and network equipment and adjusted the estimated useful life of our servers from four years to six years and the estimated useful life of certain network equipment from five years to six years. This change in accounting estimate is effective beginning in fiscal year 2023.",
+            "entity_name": "GOOGL FY2023 Server and Network Equipment Useful Life Accounting Change",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "columns": "shares_millions|APIC_millions|AOCI_millions|retained_earnings_millions|total_millions",
+              "period": "FY2022",
+              "section_type": "Item_8",
+              "statement": "Consolidated Statements of Stockholders Equity"
+            },
+            "chunk_type": "capital_return",
+            "content": "Repurchases of stock(530)(3,404)0 (55,892)(59,296)",
+            "entity_name": "GOOGL FY2022 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "source": "Critical_Audit_Matter"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The Company is regularly subject to claims, lawsuits, regulatory and government investigations, other proceedings, and consent orders involving competition, intellectual property, data privacy and security, tax and related compliance, labor and employment, commercial disputes, content generated by its users, goods and services offered by advertisers or publishers using their platforms, personal injury, consumer protection, and other matters. As described in Note 10 to the consolidated financial statements \"Commitments and contingencies\" such claims, lawsuits, regulatory and government investigations, other proceedings, and consent orders could result in adverse consequences.",
+            "entity_name": "GOOGL Regulatory Investigation and Litigation Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Google",
+              "Alphabet"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Google Search & other",
+              "Google Search"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Search & other",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Search & Other Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "YouTube ads",
+              "YouTube advertising"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "YouTube ads",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL YouTube Ads Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Network"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Network",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Network Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google advertising"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google advertising",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Advertising Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google other"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google other",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Other Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Services",
+              "Google Services total"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Services",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Cloud",
+              "GCP",
+              "Google Workspace"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Cloud",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Other Bets"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Other Bets",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Other Bets Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Alphabet 2022 stock split",
+              "GOOGL 20-for-1 split"
+            ],
+            "attributes": {
+              "effective_date": "2022-07-15",
+              "event_type": "stock_split",
+              "record_date": "2022-07-01",
+              "split_ratio": "20-for-1"
+            },
+            "identifiers": {},
+            "name": "GOOGL July 2022 20-for-1 Stock Split",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet server useful life change 2023"
+            ],
+            "attributes": {
+              "assessment_date": "2023-01",
+              "effective_fiscal_year": "FY2023",
+              "event_type": "accounting_change",
+              "network_equipment_useful_life_prior_years": 5,
+              "network_equipment_useful_life_revised_years": 6,
+              "server_useful_life_prior_years": 4,
+              "server_useful_life_revised_years": 6
+            },
+            "identifiers": {},
+            "name": "GOOGL FY2023 Server and Network Equipment Useful Life Accounting Change",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet 2022 buyback",
+              "GOOGL 2022 repurchases"
+            ],
+            "attributes": {
+              "amount_usd": 59296000000,
+              "period": "FY2022",
+              "return_type": "buyback",
+              "shares_repurchased_millions": 530
+            },
+            "identifiers": {},
+            "name": "GOOGL FY2022 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Alphabet loss contingencies",
+              "Google legal and regulatory risk"
+            ],
+            "attributes": {
+              "category": "legal_regulatory",
+              "domains": [
+                "competition",
+                "intellectual_property",
+                "data_privacy_and_security",
+                "tax",
+                "labor_and_employment",
+                "commercial_disputes"
+              ]
+            },
+            "identifiers": {},
+            "name": "GOOGL Regulatory Investigation and Litigation Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.0906,
+              "period": "FY2022",
+              "revenue": 162450000000
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Search & Other Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.0138,
+              "period": "FY2022",
+              "revenue": 29243000000
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL YouTube Ads Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.034,
+              "period": "FY2022",
+              "revenue": 32780000000
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Network Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.0715,
+              "period": "FY2022",
+              "revenue": 224473000000
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Advertising Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.0365,
+              "period": "FY2022",
+              "revenue": 29055000000
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Other Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.0674,
+              "period": "FY2022",
+              "revenue": 253528000000
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.3683,
+              "period": "FY2022",
+              "revenue": 26280000000
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.4183,
+              "period": "FY2022",
+              "revenue": 1068000000
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Other Bets Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL July 2022 20-for-1 Stock Split",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL FY2023 Server and Network Equipment Useful Life Accounting Change",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL FY2022 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Regulatory Investigation and Litigation Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-23-000016.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "2e324dc016681900beb69db87cdfe29c648deb429713b38449046ce06b8330de"
+    },
+    {
+      "extracted_at": "2026-07-19T20:51:52Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On June 27, 2017, the EC announced its decision that certain actions taken by Google regarding its display and ranking of shopping search results and ads infringed European competition law. The EC decision imposed a €2.4 billion ($2.7 billion as of June 27, 2017) fine. On November 10, 2021, the General Court rejected our appeal, and we subsequently filed an appeal with the European Court of Justice on January 20, 2022.",
+            "entity_name": "EC Google Shopping Antitrust Decision",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On July 18, 2018, the EC announced its decision that certain provisions in Google's Android-related distribution agreements infringed European competition law. The EC decision imposed a €4.3 billion ($5.1 billion as of June 30, 2018) fine and directed the termination of the conduct at issue. On September 14, 2022, the General Court reduced the fine from €4.3 billion to €4.1 billion. We subsequently filed an appeal with the European Court of Justice.",
+            "entity_name": "EC Android Antitrust Decision",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On March 20, 2019, the EC announced its decision that certain contractual provisions in agreements that Google had with AdSense for Search partners infringed European competition law. The EC decision imposed a fine of €1.5 billion ($1.7 billion as of March 20, 2019) and directed actions related to AdSense for Search partners' agreements, which we implemented prior to the decision. On June 4, 2019, we appealed the EC decision, which remains pending.",
+            "entity_name": "EC AdSense for Search Antitrust Decision",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The DOJ and a number of state Attorneys General filed a lawsuit on October 20, 2020 alleging that Google violated U.S. antitrust laws relating to Search and Search advertising. Further, in June 2022, the Australian Competition and Consumer Commission (ACCC) and the United Kingdom's Competition and Markets Authority (CMA) each opened an investigation into Search distribution practices.",
+            "entity_name": "DOJ and State AGs Search Antitrust Lawsuit",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On December 16, 2020, a number of state Attorneys General filed an antitrust complaint in the U.S. District Court for the Eastern District of Texas, alleging that Google violated U.S. antitrust laws as well as state deceptive trade laws relating to its advertising technology. Additionally, on January 24, 2023, the DOJ, along with a number of state Attorneys General, filed an antitrust complaint alleging that Google's digital advertising technology products violate U.S. antitrust laws.",
+            "entity_name": "State AGs and DOJ Advertising Technology Antitrust",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On July 7, 2021, a number of state Attorneys General filed an antitrust complaint in the U.S. District Court for the Northern District of California, alleging that Google's operation of Android and Google Play violated U.S. antitrust laws and state antitrust and consumer protection laws.",
+            "entity_name": "State AGs Android and Google Play Antitrust",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 11",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On July 15, 2022, the company executed a 20-for-one stock split with a record date of July 1, 2022, effected in the form of a one-time special stock dividend on each share of the company's Class A, Class B, and Class C stock.",
+            "entity_name": "GOOGL 20-for-1 Stock Split July 2022",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 11",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "In April 2022, the Board of Directors of Alphabet authorized the company to repurchase up to $70.0 billion of its Class A and Class C shares. As of December 31, 2022, $28.1 billion remains available for Class A and Class C share repurchases.",
+            "entity_name": "GOOGL April 2022 $70B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 8",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On September 12, 2022 we closed the acquisition of Mandiant for a total purchase price of $6.1 billion, including cash and debt. The purchase price excludes post acquisition compensation arrangements. Mandiant's dynamic cyber defense, threat intelligence and incident response services are expected to enhance Google Cloud's security offerings.",
+            "entity_name": "GOOGL Acquisition of Mandiant",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 13",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "For the years ended December 31, 2020, 2021, and 2022, total stock-based compensation expense was $13.4 billion, $15.7 billion, and $19.5 billion, including amounts associated with awards we expect to settle in Alphabet stock of $12.8 billion, $15.0 billion, and $18.8 billion, respectively.",
+            "entity_name": "GOOGL FY2022 Stock-Based Compensation Disclosure",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 14",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "As required by the 2017 Tax Cuts and Jobs Act, effective January 1, 2022, our research and development expenditures were capitalized and amortized which resulted in substantially higher cash taxes for 2022 with an equal amount of deferred tax benefit.",
+            "entity_name": "GOOGL R&D Capitalization Accounting Change 2022",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Google Services includes products and services such as ads, Android, Chrome, hardware, Google Maps, Google Play, Search, and YouTube. Google Services generates revenues primarily from advertising; sales of apps and in-app purchases, and hardware; and fees received for subscription-based products such as YouTube Premium and YouTube TV.",
+            "entity_name": "Alphabet Google Services",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues from fees received for Google Cloud Platform services, Google Workspace communication and collaboration tools, and other enterprise services.",
+            "entity_name": "Alphabet Google Cloud",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Alphabet",
+              "Google"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "EU Shopping Ads Fine",
+              "Google Shopping EC Decision"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "court": "European Court of Justice",
+              "original_fine_eur": 2400000000,
+              "original_fine_usd": 2700000000,
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "EC Google Shopping Antitrust Decision",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EU Android Fine",
+              "Google Android EC Decision"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "court": "European Court of Justice",
+              "original_fine_eur": 4300000000,
+              "reduced_fine_eur": 4100000000,
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "EC Android Antitrust Decision",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EU AdSense Fine",
+              "Google AdSense EC Decision"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "court": "General Court EU",
+              "fine_eur": 1500000000,
+              "fine_usd": 1700000000,
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "EC AdSense for Search Antitrust Decision",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "DOJ Google Search Lawsuit",
+              "US v. Google Search Advertising"
+            ],
+            "attributes": {
+              "counterparty": "U.S. Department of Justice and State Attorneys General",
+              "filing_date_of_action": "2020-10-20",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "DOJ and State AGs Search Antitrust Lawsuit",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Google Ad Tech Antitrust",
+              "DOJ Ad Tech Lawsuit"
+            ],
+            "attributes": {
+              "counterparty": "U.S. Department of Justice and State Attorneys General",
+              "court": "U.S. District Court for the Eastern District of Texas",
+              "filing_date_of_action": "2020-12-16",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "State AGs and DOJ Advertising Technology Antitrust",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Google Play Antitrust Lawsuit",
+              "Android App Store Antitrust"
+            ],
+            "attributes": {
+              "counterparty": "State Attorneys General",
+              "court": "U.S. District Court for the Northern District of California",
+              "filing_date_of_action": "2021-07-07",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "State AGs Android and Google Play Antitrust",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Alphabet 2022 stock split"
+            ],
+            "attributes": {
+              "effective_date": "2022-07-15",
+              "event_type": "stock_split",
+              "record_date": "2022-07-01",
+              "split_ratio": "20-for-1"
+            },
+            "identifiers": {},
+            "name": "GOOGL 20-for-1 Stock Split July 2022",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet 2022 buyback authorization"
+            ],
+            "attributes": {
+              "amount_usd": 70000000000,
+              "effective_date": "2022-04",
+              "remaining_usd_as_of_20221231": 28100000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "GOOGL April 2022 $70B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Mandiant acquisition",
+              "Google Mandiant deal"
+            ],
+            "attributes": {
+              "acquiring_segment": "Google Cloud",
+              "effective_date": "2022-09-12",
+              "event_type": "acquisition",
+              "purchase_price_usd": 6100000000,
+              "target_company": "Mandiant"
+            },
+            "identifiers": {},
+            "name": "GOOGL Acquisition of Mandiant",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet 2022 SBC disclosure"
+            ],
+            "attributes": {
+              "event_type": "compensation_disclosure",
+              "period": "FY2022",
+              "total_sbc_usd": 19500000000
+            },
+            "identifiers": {},
+            "name": "GOOGL FY2022 Stock-Based Compensation Disclosure",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet R&D capitalization TCJA change"
+            ],
+            "attributes": {
+              "basis": "2017 Tax Cuts and Jobs Act",
+              "effective_date": "2022-01-01",
+              "event_type": "accounting_change"
+            },
+            "identifiers": {},
+            "name": "GOOGL R&D Capitalization Accounting Change 2022",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Google Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Services",
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Google Services",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Cloud",
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Google Cloud",
+            "type": "RevenueSegment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "EC Google Shopping Antitrust Decision",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "EC Android Antitrust Decision",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "EC AdSense for Search Antitrust Decision",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "DOJ and State AGs Search Antitrust Lawsuit",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "State AGs and DOJ Advertising Technology Antitrust",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "State AGs Android and Google Play Antitrust",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL 20-for-1 Stock Split July 2022",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL April 2022 $70B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Acquisition of Mandiant",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL FY2022 Stock-Based Compensation Disclosure",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL R&D Capitalization Accounting Change 2022",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Alphabet Google Services",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Alphabet Google Cloud",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-23-000016.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "c35742393f4ff8761405cf354b13efb1da5f774043dc3831f198e2c8c9615ffa"
+    },
+    {
+      "extracted_at": "2026-07-19T20:56:19Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Year Ended December 31, 202020212022 Revenues: Google Services$168,635 $237,529 $253,528 Google Cloud13,059 19,206 26,280 Other Bets657 753 1,068 Hedging gains (losses)176 149 1,960 Total revenues$182,527 $257,637 $282,836 Operating income (loss): Google Services$54,606 $91,855 $86,572 Google Cloud(5,607)(3,099)(2,968) Other Bets(4,476)(5,281)(6,083) Corporate costs, unallocated(3,299)(4,761)(2,679) Total income from operations$41,224 $78,714 $74,842",
+            "entity_name": "GOOGL Google Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Year Ended December 31, 202020212022 Revenues: Google Services$168,635 $237,529 $253,528 Google Cloud13,059 19,206 26,280 Other Bets657 753 1,068 Hedging gains (losses)176 149 1,960 Total revenues$182,527 $257,637 $282,836 Operating income (loss): Google Services$54,606 $91,855 $86,572 Google Cloud(5,607)(3,099)(2,968) Other Bets(4,476)(5,281)(6,083) Corporate costs, unallocated(3,299)(4,761)(2,679) Total income from operations$41,224 $78,714 $74,842",
+            "entity_name": "GOOGL Google Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Other Bets is a combination of multiple operating segments that are not individually material. Revenues from Other Bets are generated primarily from the sale of health technology and internet services.",
+            "entity_name": "GOOGL Other Bets Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "subsection": "Note 16 Subsequent Event"
+            },
+            "chunk_type": "material_event",
+            "content": "In January 2023, we announced a reduction of our workforce of approximately 12,000 roles. We expect to incur employee severance and related charges of $1.9 billion to $2.3 billion, the majority of which will be recognized in the first quarter of 2023.",
+            "entity_name": "GOOGL January 2023 Workforce Reduction",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "subsection": "Note 16 Subsequent Event"
+            },
+            "chunk_type": "material_event",
+            "content": "In addition, we are taking actions to optimize our global office space. As a result we expect to incur exit costs relating to office space reductions of approximately $0.5 billion in the first quarter of 2023. We may incur additional charges in the future as we further evaluate our real estate needs.",
+            "entity_name": "GOOGL 2023 Office Space Reduction",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "DeepMind, previously reported within Other Bets, will be reported as part of Alphabet's corporate costs, reflecting its increasing collaboration with Google Services, Google Cloud, and Other Bets. Prior periods will be recast to conform to the revised presentation.",
+            "entity_name": "GOOGL DeepMind Segment Reclassification",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Google Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Services",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Cloud",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Other Bets"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Other Bets",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Other Bets Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Alphabet 2023 layoffs",
+              "Alphabet 12,000 role reduction"
+            ],
+            "attributes": {
+              "charge_recognition_period": "Q1 2023",
+              "effective_date": "2023-01",
+              "event_type": "restructuring",
+              "expected_charges_high_usd": 2300000000,
+              "expected_charges_low_usd": 1900000000,
+              "headcount_reduction": 12000
+            },
+            "identifiers": {},
+            "name": "GOOGL January 2023 Workforce Reduction",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet 2023 global office space optimization"
+            ],
+            "attributes": {
+              "charge_recognition_period": "Q1 2023",
+              "event_type": "restructuring",
+              "expected_exit_costs_usd": 500000000
+            },
+            "identifiers": {},
+            "name": "GOOGL 2023 Office Space Reduction",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "DeepMind moved from Other Bets to corporate costs"
+            ],
+            "attributes": {
+              "effective_date": "2023-01",
+              "event_type": "accounting_change",
+              "from_segment": "Other Bets",
+              "to_segment": "corporate costs"
+            },
+            "identifiers": {},
+            "name": "GOOGL DeepMind Segment Reclassification",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.067,
+              "margin": 0.342,
+              "operating_income": 86572000000,
+              "period": "FY2022",
+              "revenue": 253528000000
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.368,
+              "margin": -0.113,
+              "operating_income": -2968000000,
+              "period": "FY2022",
+              "revenue": 26280000000
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.418,
+              "margin": -5.694,
+              "operating_income": -6083000000,
+              "period": "FY2022",
+              "revenue": 1068000000
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Other Bets Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL January 2023 Workforce Reduction",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL 2023 Office Space Reduction",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL DeepMind Segment Reclassification",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-23-000016.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "9d64c6227f6b5f370bcad14219f3a4f5062d7e671723f986f1ada59dc92e3a3c"
+    }
+  ],
+  "prompt_version": "v3"
+}

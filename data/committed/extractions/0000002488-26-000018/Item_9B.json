@@ -1,0 +1,92 @@
+{
+  "accession": "0000002488-26-000018",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T00:02:56Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Mark Papermaster, our Executive Vice President, Chief Technology Officer, adopted a Rule 10b5-1 trading plan, that is intended to satisfy the affirmative defense of Rule 10b5-1(c) under the Exchange Act, pursuant to which a maximum of 124,936 shares of our common stock may be sold.",
+            "entity_name": "Mark Papermaster",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "On November 14, 2025, Mark Papermaster, our Executive Vice President, Chief Technology Officer, adopted a Rule 10b5-1 trading plan, that is intended to satisfy the affirmative defense of Rule 10b5-1(c) under the Exchange Act, pursuant to which a maximum of 124,936 shares of our common stock may be sold. The plan will terminate on November 16, 2026, or such date as the plan is otherwise terminated according to its terms.",
+            "entity_name": "Mark Papermaster 10b5-1 Plan Adoption (2025-11-14)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMD",
+              "insider_status": "officer",
+              "officer_role": "CTO"
+            },
+            "identifiers": {},
+            "name": "Mark Papermaster",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "AMD"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "Advanced Micro Devices, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_termination_date": "2026-11-16",
+              "reporting_person": "Mark Papermaster",
+              "shares": 124936,
+              "source": "Item_9B_10b5-1_plan_adoption",
+              "transaction_date": "2025-11-14"
+            },
+            "identifiers": {},
+            "name": "Mark Papermaster 10b5-1 Plan Adoption (2025-11-14)",
+            "type": "InsiderTransaction"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "CTO"
+            },
+            "source_name": "Mark Papermaster",
+            "source_type_entity": "Person",
+            "target_name": "Advanced Micro Devices, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-26-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "df6142556916097b119b3b577deef07f5017c21bb94097548ab047b70b52e24e"
+    }
+  ],
+  "prompt_version": "v3"
+}

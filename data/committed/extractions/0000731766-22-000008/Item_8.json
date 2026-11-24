@@ -1,0 +1,718 @@
+{
+  "accession": "0000731766-22-000008",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-21T03:24:22Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note 1 - Description of Business",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Our two distinct, yet complementary business platforms — Optum and UnitedHealthcare — are working to help build a modern, high-performing health system through improved access, affordability, outcomes and experiences for the individuals and organizations we are privileged to serve.",
+            "entity_name": "UNH UnitedHealthcare Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-15",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 2 - Products and Services",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Optum Health's service revenues include net patient service revenues recorded based upon established billing rates, less allowances for contractual adjustments, and are recognized as services are provided. For its financial services offerings, Optum Health charges fees and earns investment income on managed funds.",
+            "entity_name": "UNH Optum Health Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-15",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 2 - Products and Services",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Optum Insight provides software and information products, advisory consulting arrangements and managed services outsourcing contracts, which may be delivered over several years. Optum Insight revenues are generally recognized over time and measured each period based on the progress to date as services are performed or made available to customers.",
+            "entity_name": "UNH Optum Insight Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-15",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 2 - Products and Services",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "For the Company's Optum Rx pharmacy care services business, the majority of revenues are derived from products sold through a contracted network of retail pharmacies or home delivery, specialty and community health pharmacies. Product revenues include the cost of pharmaceuticals (net of rebates), a negotiated dispensing fee and customer co-payments for drugs dispensed through the Company's home delivery, specialty and community pharmacies.",
+            "entity_name": "UNH Optum Rx Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-15",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "columns": "2021, 2020, 2019",
+              "section_type": "Item_8",
+              "statement": "Consolidated Statements of Cash Flows"
+            },
+            "chunk_type": "capital_return",
+            "content": "Common share repurchases(5,000)(4,250)(5,500)",
+            "entity_name": "UNH FY2021 Common Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-02-15",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "statement": "Consolidated Statements of Changes in Equity"
+            },
+            "chunk_type": "capital_return",
+            "content": "Cash dividends paid on common shares ($5.60 per share) (5,280)",
+            "entity_name": "UNH FY2021 Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-02-15",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "columns": "2021, 2020, 2019",
+              "section_type": "Item_8",
+              "statement": "Consolidated Statements of Cash Flows"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Proceeds from issuance of long-term debt6,933 4,864 5,444",
+            "entity_name": "UNH FY2021 Long-Term Debt Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2022-02-15",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 2 - ACA Tax",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "The Health Insurance Tax was permanently repealed by Congress, effective January 1, 2021. The permanent repeal of the tax impacts year-over-year comparability of our financial statements, including revenues, operating costs, medical care ratio (MCR), operating cost ratio, effective tax rate and cash flows from operations.",
+            "entity_name": "UNH ACA Health Insurance Tax Permanent Repeal",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-02-15",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UnitedHealth Group",
+              "UNH"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "UNH"
+            },
+            "name": "UnitedHealth Group Incorporated",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "UnitedHealthcare"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "UnitedHealthcare",
+              "ticker": "UNH"
+            },
+            "name": "UNH UnitedHealthcare Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Health"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Health",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Health Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Insight"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Insight",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Insight Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Rx"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Rx",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Rx Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "UNH 2021 buyback"
+            ],
+            "attributes": {
+              "amount_usd": 5000000000,
+              "period": "FY2021",
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "UNH FY2021 Common Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "UNH 2021 dividend"
+            ],
+            "attributes": {
+              "amount_usd": 5280000000,
+              "per_share": 5.6,
+              "period": "FY2021",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "UNH FY2021 Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "notes",
+              "period": "FY2021",
+              "principal_usd": 6933000000,
+              "repayments_usd": 3150000000
+            },
+            "identifiers": {},
+            "name": "UNH FY2021 Long-Term Debt Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Health Insurance Tax repeal",
+              "ACA HIT repeal"
+            ],
+            "attributes": {
+              "effective_date": "2021-01-01",
+              "event_type": "regulatory_action"
+            },
+            "identifiers": {},
+            "name": "UNH ACA Health Insurance Tax Permanent Repeal",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "period": "FY2021"
+            },
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH UnitedHealthcare Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-15",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021"
+            },
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Health Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-15",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021"
+            },
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Insight Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-15",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021"
+            },
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Rx Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-15",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2021 Common Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-02-15",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2021 Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-02-15",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2021 Long-Term Debt Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2022-02-15",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH ACA Health Insurance Tax Permanent Repeal",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-02-15",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-22-000008.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "3427d12e53752d8060f6cdd3c5b7683dc9232d2372734f0261dc9abc8c89fe30"
+    },
+    {
+      "extracted_at": "2026-07-21T03:28:55Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "earnings_from_operations_fy2021_usd": 11975000000,
+              "revenue_fy2021_usd": 222899000000,
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "UnitedHealthcare includes the combined results of operations of UnitedHealthcare Employer & Individual, UnitedHealthcare Medicare & Retirement, UnitedHealthcare Community & State and UnitedHealthcare Global. The U.S. businesses share significant common assets, including a contracted network of physicians, health care professionals, hospitals and other facilities, information technology and consumer engagement infrastructure and other resources.",
+            "entity_name": "UNH UnitedHealthcare Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations_fy2021_usd": 4462000000,
+              "revenue_fy2021_usd": 54065000000,
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Optum Health focuses on care delivery, care management, wellness and consumer engagement, and health financial services. Optum Health is building a comprehensive, connected health care delivery and engagement platform by directly providing high-quality care, helping people manage chronic and complex health needs, and proactively engaging consumers in managing their health through in-person, in-home, virtual and digital clinical platforms.",
+            "entity_name": "UNH Optum Health Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations_fy2021_usd": 3398000000,
+              "revenue_fy2021_usd": 12199000000,
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Optum Insight brings together advanced analytics, technology and health care expertise to deliver integrated services and solutions. Hospital systems, physicians, health plans, governments, life sciences companies and other organizations comprising the health care industry depend on Optum Insight to help them improve performance, achieve efficiency, reduce costs, meet compliance mandates and modernize their core operating systems to meet the changing needs of the health system.",
+            "entity_name": "UNH Optum Insight Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations_fy2021_usd": 4135000000,
+              "revenue_fy2021_usd": 91314000000,
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Optum Rx offers pharmacy care services and programs, including retail network contracting, home delivery, specialty and community health pharmacy services, purchasing and clinical capabilities, and develops programs in areas such as step therapy, formulary management, drug adherence and disease/drug therapy management. Optum Rx integrates pharmacy and medical care and is positioned to serve patients with complex clinical needs and consumers looking for a better digital pharmacy experience with transparent pricing.",
+            "entity_name": "UNH Optum Rx Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Under its Board of Directors' authorization, the Company maintains a share repurchase program. The objectives of the share repurchase program are to optimize the Company's capital structure and cost of capital, thereby improving returns to shareholders, as well as to offset the dilutive impact of share-based awards. In June 2018, the Board renewed the Company's share repurchase program with an authorization to repurchase up to 100 million shares of its common stock.",
+            "entity_name": "UNH FY2021 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "In June 2021, the Company's Board of Directors increased the Company's quarterly cash dividend to shareholders to an annual rate of $5.80 compared to $5.00 per share, which the Company had paid since June 2020. Declaration and payment of future quarterly dividends is at the discretion of the Board and may be adjusted as business needs or market conditions change.",
+            "entity_name": "UNH June 2021 Dividend Increase",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2021, we entered into agreements to acquire multiple companies in the health care sector, most notably, Change Healthcare (NASDAQ: CHNG), subject to regulatory approval and other customary closing conditions. Additionally, in January 2022, we entered into agreements to acquire multiple companies in the health care sector, subject to regulatory approval and other customary closing conditions. The total anticipated capital required for these acquisitions, excluding the payoff of acquired indebtedness, is approximately $12 billion.",
+            "entity_name": "UNH Pending Acquisition of Change Healthcare",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On February 14, 2017, the DOJ announced its decision to pursue certain claims within a lawsuit initially asserted against the Company and filed under seal by a whistleblower in 2011. The whistleblower's complaint, which was unsealed on February 15, 2017, alleges the Company made improper risk adjustment submissions and violated the False Claims Act. In March 2019, the court denied the government's motion for partial summary judgment and dismissed the Company's counterclaims without prejudice. The Company cannot reasonably estimate the outcome which may result from this matter given its procedural status.",
+            "entity_name": "DOJ False Claims Act Lawsuit vs. UnitedHealth Group",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "CMS has selected certain of the Company's local plans for risk adjustment data validation (RADV) audits to validate the coding practices of and supporting documentation maintained by health care providers and such audits may result in retrospective adjustments to payments made to the Company's health plans.",
+            "entity_name": "CMS RADV Audits of UNH Local Health Plans",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "The Company has $5.6 billion five-year, $5.6 billion three-year and $3.8 billion 364-day revolving bank credit facilities with 24 banks, which mature in December 2026, December 2024 and December 2022, respectively. These facilities provide full liquidity support for the Company's commercial paper program and are available for general corporate purposes. As of December 31, 2021, no amounts had been drawn on any of the bank credit facilities.",
+            "entity_name": "UNH Revolving Credit Facilities (December 2021)",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UnitedHealthcare"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "UnitedHealthcare",
+              "ticker": "UNH"
+            },
+            "name": "UNH UnitedHealthcare Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Health"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Health",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Health Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Insight"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Insight",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Insight Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Rx"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Rx",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Rx Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 5000000000,
+              "avg_price_per_share": 389.92,
+              "board_authorized_remaining_shares_millions": 45,
+              "return_type": "buyback",
+              "shares_repurchased_millions": 13
+            },
+            "identifiers": {},
+            "name": "UNH FY2021 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2021-06",
+              "per_share": 5.8,
+              "prior_per_share": 5.0,
+              "return_type": "dividend_increase"
+            },
+            "identifiers": {},
+            "name": "UNH June 2021 Dividend Increase",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Change Healthcare acquisition",
+              "CHNG acquisition"
+            ],
+            "attributes": {
+              "event_type": "acquisition",
+              "status": "pending_regulatory_approval",
+              "target_company": "Change Healthcare",
+              "target_ticker": "CHNG",
+              "total_capital_required_approx_usd": 12000000000
+            },
+            "identifiers": {},
+            "name": "UNH Pending Acquisition of Change Healthcare",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "DOJ whistleblower FCA suit",
+              "Medicare risk adjustment whistleblower case"
+            ],
+            "attributes": {
+              "allegations": "improper risk adjustment submissions; violation of False Claims Act",
+              "counterparty": "U.S. Department of Justice",
+              "doj_intervention_date": "2017-02-14",
+              "original_complaint_year": 2011,
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "DOJ False Claims Act Lawsuit vs. UnitedHealth Group",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "risk adjustment data validation audits",
+              "RADV audits"
+            ],
+            "attributes": {
+              "counterparty": "Centers for Medicare & Medicaid Services",
+              "status": "pending",
+              "subject": "coding practices and supporting documentation under Medicare risk-adjustment model"
+            },
+            "identifiers": {},
+            "name": "CMS RADV Audits of UNH Local Health Plans",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "UNH bank credit facilities",
+              "UNH revolving bank credit facilities"
+            ],
+            "attributes": {
+              "benchmark_rate": "SOFR",
+              "day364_facility_usd": 3800000000,
+              "day364_maturity": "2022-12",
+              "drawn_at_period_end": false,
+              "five_year_facility_usd": 5600000000,
+              "five_year_maturity": "2026-12",
+              "instrument_type": "revolver",
+              "number_of_banks": 24,
+              "three_year_facility_usd": 5600000000,
+              "three_year_maturity": "2024-12",
+              "total_capacity_usd": 15000000000
+            },
+            "identifiers": {},
+            "name": "UNH Revolving Credit Facilities (December 2021)",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "earnings_from_operations": 11975000000,
+              "growth_pct": 0.11,
+              "margin": 0.054,
+              "period": "FY2021",
+              "revenue": 222899000000
+            },
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH UnitedHealthcare Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations": 4462000000,
+              "growth_pct": 0.358,
+              "margin": 0.082,
+              "period": "FY2021",
+              "revenue": 54065000000
+            },
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Health Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations": 3398000000,
+              "growth_pct": 0.129,
+              "margin": 0.279,
+              "period": "FY2021",
+              "revenue": 12199000000
+            },
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Insight Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations": 4135000000,
+              "growth_pct": 0.044,
+              "margin": 0.045,
+              "period": "FY2021",
+              "revenue": 91314000000
+            },
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Rx Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2021 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH June 2021 Dividend Increase",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Pending Acquisition of Change Healthcare",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "DOJ False Claims Act Lawsuit vs. UnitedHealth Group",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "CMS RADV Audits of UNH Local Health Plans",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Revolving Credit Facilities (December 2021)",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-22-000008.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "8c307de3ba4fd96b41ccfe99ea0fab6589e83e7db498338b1e65d7e4868f138f"
+    }
+  ],
+  "prompt_version": "v3"
+}

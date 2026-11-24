@@ -1,0 +1,124 @@
+{
+  "accession": "0000034088-23-000020",
+  "item": "Item_3",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T02:34:17Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On August 4, 2022, XTO Energy, Inc. (\"XTO\") received a letter from the Department of Justice (\"DOJ\") notifying XTO of the United States Environmental Protection Agency's (\"EPA\") request to initiate a potential civil action against XTO regarding the Schnegg well in Powhatan Point, Ohio. The EPA alleges XTO breached its duty under the General Duty Clause of the Clean Air Act for the Schnegg well, and such breaches resulted in the 2018 well blowout. Neither a civil action has been filed nor a draft consent decree has been provided by the DOJ.",
+            "entity_name": "XTO Energy EPA Clean Air Act Proceeding (Schnegg Well)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In discussions in January 2023, the DOJ indicated it may seek a potential penalty substantially in excess of $1 million and XTO strongly disagrees with DOJ's initial position.",
+            "entity_name": "XTO Energy EPA Clean Air Act Proceeding (Schnegg Well)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On November 21, 2022, the State of Texas, acting by and through its Attorney General (\"State\"), filed a complaint against the Corporation (captioned State of Texas v. Exxon Mobil Corporation) in Travis County District Court, TX, Cause No. D-1-GN-22-006534, for alleged violations of the Texas Clean Air Act at the Baytown Olefins Plant located in Baytown, Texas.",
+            "entity_name": "State of Texas v. Exxon Mobil Corporation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The complaint seeks civil penalties for alleged unauthorized air pollution, unauthorized outdoor burning, nuisance, and unauthorized visible emissions associated with multiple alleged air emissions events between 2018 and 2022 in an amount in excess of $1 million and injunctive relief against the Corporation to enjoin a violation or threatened violation of any Texas Commission on Environmental Quality statute.",
+            "entity_name": "State of Texas v. Exxon Mobil Corporation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Schnegg well DOJ/EPA action",
+              "XTO Schnegg well blowout proceeding"
+            ],
+            "attributes": {
+              "allegation": "Breach of General Duty Clause of the Clean Air Act; 2018 well blowout",
+              "counterparty": "U.S. Department of Justice / Environmental Protection Agency",
+              "location": "Powhatan Point, Ohio",
+              "potential_penalty": "substantially in excess of $1 million",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "XTO Energy EPA Clean Air Act Proceeding (Schnegg Well)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Texas Clean Air Act action",
+              "Baytown Olefins Plant litigation"
+            ],
+            "attributes": {
+              "allegation": "Violations of Texas Clean Air Act at Baytown Olefins Plant; unauthorized air pollution, outdoor burning, nuisance, visible emissions",
+              "counterparty": "State of Texas",
+              "court": "Travis County District Court, TX",
+              "filed_date": "2022-11-21",
+              "location": "Baytown, Texas",
+              "potential_penalty": "in excess of $1 million",
+              "relief_sought": "civil penalties and injunctive relief",
+              "status": "pending"
+            },
+            "identifiers": {
+              "case_number": "D-1-GN-22-006534"
+            },
+            "name": "State of Texas v. Exxon Mobil Corporation",
+            "type": "LegalProceeding"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "XTO Energy EPA Clean Air Act Proceeding (Schnegg Well)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "State of Texas v. Exxon Mobil Corporation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-23-000020.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "235319c5e3ff4da215710e0b501cdfc4cbc4e62e51e456e3791f8ed32754c747"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,733 @@
+{
+  "accession": "0000731766-23-000008",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-21T02:44:48Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "subsection": "Consolidated Statements of Cash Flows"
+            },
+            "chunk_type": "capital_return",
+            "content": "Common share repurchases(7,000)(5,000)(4,250)",
+            "entity_name": "UNH FY2022 Common Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Columns: shares (millions), common stock par value, additional paid-in capital, retained earnings, total equity",
+              "section_type": "Item_8",
+              "subsection": "Consolidated Statements of Changes in Equity"
+            },
+            "chunk_type": "capital_return",
+            "content": "Common share repurchases\n\n(14)(1)(1,892)(5,107)(7,000)",
+            "entity_name": "UNH FY2022 Common Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "subsection": "Consolidated Statements of Changes in Equity"
+            },
+            "chunk_type": "capital_return",
+            "content": "Cash dividends paid on common shares ($6.40 per share)\n\n(5,991)(5,991)",
+            "entity_name": "UNH FY2022 Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "subsection": "Consolidated Statements of Cash Flows"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Repayments of long-term debt(3,015)(3,150)(3,150)\nProceeds from (repayments of) short-term borrowings, net732 (1,302)872\nProceeds from issuance of long-term debt14,819 6,933 4,864",
+            "entity_name": "UNH FY2022 Long-Term Debt Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "subsection": "Consolidated Statements of Cash Flows"
+            },
+            "chunk_type": "material_event",
+            "content": "Cash paid for acquisitions, net of cash assumed(21,458)(4,821)(7,139)",
+            "entity_name": "UNH FY2022 Business Acquisitions",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "column_headers": "UnitedHealthcare, Optum Health, Optum Insight, Optum Rx, Consolidated",
+              "section_type": "Item_8",
+              "subsection": "Note 6 Goodwill and Other Intangible Assets"
+            },
+            "chunk_type": "material_event",
+            "content": "Balance at December 31, 202127,389 24,224 8,619 15,563 75,795\nAcquisitions19 5,158 8,623 3,910 17,710\nForeign currency effects and other adjustments, net(13)(144)2 2 (153)\nBalance at December 31, 2022$27,395 $29,238 $17,244 $19,475 $93,352",
+            "entity_name": "UNH FY2022 Business Acquisitions",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Acquisition-date fair values of finite-lived intangibles: $5,761M (2022) vs $660M (2021)",
+              "section_type": "Item_8",
+              "subsection": "Note 6 Goodwill and Other Intangible Assets"
+            },
+            "chunk_type": "material_event",
+            "content": "Total acquired finite-lived intangible assets$5,761 13 years$660 8 years",
+            "entity_name": "UNH FY2022 Business Acquisitions",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UnitedHealth Group",
+              "UNH"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "UNH"
+            },
+            "name": "UnitedHealth Group Incorporated",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "UNH 2022 share buyback"
+            ],
+            "attributes": {
+              "amount_usd": 7000000000,
+              "fiscal_year": "2022",
+              "return_type": "buyback",
+              "shares_repurchased_millions": 14
+            },
+            "identifiers": {},
+            "name": "UNH FY2022 Common Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 5991000000,
+              "fiscal_year": "2022",
+              "per_share": 6.4,
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "UNH FY2022 Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "fiscal_year": "2022",
+              "instrument_type": "notes",
+              "principal_usd": 14819000000,
+              "repayments_usd": 3015000000
+            },
+            "identifiers": {},
+            "name": "UNH FY2022 Long-Term Debt Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "cash_paid_usd": 21458000000,
+              "event_type": "acquisition",
+              "fiscal_year": "2022",
+              "goodwill_added_usd": 17710000000
+            },
+            "identifiers": {},
+            "name": "UNH FY2022 Business Acquisitions",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2022 Common Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2022 Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2022 Long-Term Debt Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2022 Business Acquisitions",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-23-000008.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "94ce35fda1a01bc86c06f04c6a73ebb4a788114111b15ee3147e23c41543bab0"
+    },
+    {
+      "extracted_at": "2026-07-21T02:52:07Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "fy2022_earnings_from_operations_millions": 14379,
+              "fy2022_total_revenues_millions": 249741,
+              "note": "Note 14",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "UnitedHealthcare includes the combined results of operations of UnitedHealthcare Employer & Individual, UnitedHealthcare Medicare & Retirement and UnitedHealthcare Community & State. The U.S. businesses share significant common assets, including a contracted network of physicians, health care professionals, hospitals and other facilities, information technology and consumer engagement infrastructure and other resources.",
+            "entity_name": "UNH UnitedHealthcare Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "fy2022_earnings_from_operations_millions": 6032,
+              "fy2022_total_revenues_millions": 71174,
+              "note": "Note 14",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Optum Health focuses on care delivery, care management, wellness and consumer engagement, and health financial services. Optum Health is building a comprehensive, connected health care delivery and engagement platform by directly providing high-quality care, helping people manage chronic and complex health needs, and proactively engaging consumers in managing their health through in-person, in-home, virtual and digital clinical platforms.",
+            "entity_name": "UNH Optum Health Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "fy2022_earnings_from_operations_millions": 3588,
+              "fy2022_total_revenues_millions": 14581,
+              "note": "Note 14",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Optum Insight brings together advanced analytics, technology and health care expertise to deliver integrated services and solutions. Hospital systems, physicians, health plans, governments, life sciences companies and other organizations depend on Optum Insight to help them improve performance, achieve efficiency, reduce costs, meet compliance mandates and modernize their core operating systems to meet the changing needs of the health system.",
+            "entity_name": "UNH Optum Insight Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "fy2022_earnings_from_operations_millions": 4436,
+              "fy2022_total_revenues_millions": 99773,
+              "note": "Note 14",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Optum Rx offers pharmacy care services and programs, including retail network contracting, home delivery, specialty and community health pharmacy services, purchasing and clinical capabilities, and develops programs in areas such as step therapy, formulary management, drug adherence and disease/drug therapy management. Optum Rx integrates pharmacy and medical care and is positioned to serve patients with complex clinical needs and consumers looking for a better digital pharmacy experience with transparent pricing.",
+            "entity_name": "UNH Optum Rx Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "board_authorized_remaining_shares_millions": 31,
+              "fy2022_aggregate_cost_millions": 7000,
+              "fy2022_avg_price_per_share": 501.67,
+              "fy2022_shares_repurchased_millions": 14,
+              "note": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Under its Board of Directors' authorization, the Company maintains a share repurchase program. The objectives of the share repurchase program are to optimize the Company's capital structure and cost of capital, thereby improving returns to shareholders, as well as to offset the dilutive impact of share-based awards. Repurchases may be made from time to time in open market purchases or other types of transactions (including prepaid or structured share repurchase programs), subject to certain restrictions. In June 2018, the Board of Directors renewed the Company's share repurchase program with an authorization to repurchase up to 100 million shares of its common stock.",
+            "entity_name": "UNH 2022 Share Repurchase",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "In June 2022, the Company's Board of Directors increased the Company's quarterly cash dividend to shareholders to an annual rate of $6.60 compared to $5.80 per share, which the Company had paid since June 2021. Declaration and payment of future quarterly dividends is at the discretion of the Board and may be adjusted as business needs or market conditions change.",
+            "entity_name": "UNH June 2022 Quarterly Dividend Increase",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 13",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On October 3, 2022, the Company acquired all of the outstanding common shares of Change Healthcare Inc. (Change) and funded Change's payoff of its outstanding debt and credit facility for a total of $13.9 billion in cash. The combination of the Company and Change will connect and simplify the core clinical, administrative and payment processes health care providers and payers depend on to serve patients.",
+            "entity_name": "UNH Acquisition of Change Healthcare Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 13",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Subsequent to closing and as planned, the Company sold Change's claims editing business to an affiliate of investment funds of TPG Inc. for $2.2 billion in cash. The net assets and net liabilities associated with this sale were classified as held-for-sale at the time of acquisition. There was no gain or loss associated with this transaction.",
+            "entity_name": "UNH Divestiture of Change Healthcare Claims Editing Business to TPG",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "As of December 31, 2022, the Company has entered into agreements to acquire companies in the health care sector, most notably, LHC Group, Inc. (NASDAQ: LHCG), subject to regulatory approval and other customary closing conditions. The total anticipated capital required for these acquisitions, excluding the payoff of acquired indebtedness, is approximately $9 billion. The Company completed the acquisition of LHC Group, Inc. on February 22, 2023.",
+            "entity_name": "UNH Pending Acquisition of LHC Group Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On February 14, 2017, the DOJ announced its decision to pursue certain claims within a lawsuit initially asserted against the Company and filed under seal by a whistleblower in 2011. The whistleblower's complaint, which was unsealed on February 15, 2017, alleges the Company made improper risk adjustment submissions and violated the False Claims Act. On February 12, 2018, the court granted in part and denied in part the Company's motion to dismiss. In March 2019, the court denied the government's motion for partial summary judgment and dismissed the Company's counterclaims without prejudice. The Company cannot reasonably estimate the outcome which may result from this matter given its procedural status.",
+            "entity_name": "DOJ False Claims Act Lawsuit - UNH Risk Adjustment",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "CMS has selected certain of the Company's local plans for risk adjustment data validation (RADV) audits to validate the coding practices of and supporting documentation maintained by health care providers and such audits may result in retrospective adjustments to payments made to the Company's health plans.",
+            "entity_name": "UNH CMS RADV Audits",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 8",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "The Company has $6.0 billion five-year, $6.0 billion three-year and $6.0 billion 364-day revolving bank credit facilities with 25 banks, which mature in December 2027, December 2025 and December 2023, respectively. These facilities provide full liquidity support for the Company's commercial paper program and are available for general corporate purposes. As of December 31, 2022, no amounts had been drawn on any of the bank credit facilities.",
+            "entity_name": "UNH Revolving Bank Credit Facilities",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The Company is frequently made party to a variety of legal actions and regulatory inquiries, including class actions and suits brought by members, care providers, consumer advocacy organizations, customers and regulators, relating to the Company's businesses, including management and administration of health benefit plans and other services. These matters include medical malpractice, employment, intellectual property, antitrust, privacy and contract claims and claims related to health care benefits coverage and other business practices.",
+            "entity_name": "UNH General Legal Actions and Regulatory Inquiry Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UnitedHealthcare"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "UnitedHealthcare",
+              "ticker": "UNH"
+            },
+            "name": "UNH UnitedHealthcare Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Health"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Health",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Health Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Insight"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Insight",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Insight Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Rx"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Rx",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Rx Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "UNH 2022 buyback"
+            ],
+            "attributes": {
+              "amount_usd": 7000000000,
+              "avg_price_per_share": 501.67,
+              "board_authorized_remaining_shares_millions": 31,
+              "return_type": "buyback",
+              "shares_repurchased_millions": 14
+            },
+            "identifiers": {},
+            "name": "UNH 2022 Share Repurchase",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2022-06",
+              "per_share": 6.6,
+              "prior_annual_rate_per_share": 5.8,
+              "return_type": "dividend_increase"
+            },
+            "identifiers": {},
+            "name": "UNH June 2022 Quarterly Dividend Increase",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Change Healthcare acquisition",
+              "UNH-Change deal"
+            ],
+            "attributes": {
+              "consideration": "cash",
+              "effective_date": "2022-10-03",
+              "event_type": "acquisition",
+              "target_company": "Change Healthcare Inc.",
+              "total_consideration_usd": 13900000000
+            },
+            "identifiers": {},
+            "name": "UNH Acquisition of Change Healthcare Inc.",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Change claims editing divestiture"
+            ],
+            "attributes": {
+              "acquirer": "TPG Inc.",
+              "consideration_usd": 2200000000,
+              "divested_unit": "Change Healthcare claims editing business",
+              "event_type": "divestiture"
+            },
+            "identifiers": {},
+            "name": "UNH Divestiture of Change Healthcare Claims Editing Business to TPG",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "LHC Group acquisition"
+            ],
+            "attributes": {
+              "anticipated_capital_usd": 9000000000,
+              "completed_date": "2023-02-22",
+              "event_type": "acquisition",
+              "status_as_of_filing_date": "pending",
+              "target_company": "LHC Group, Inc.",
+              "target_ticker": "LHCG"
+            },
+            "identifiers": {},
+            "name": "UNH Pending Acquisition of LHC Group Inc.",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "DOJ whistleblower FCA suit",
+              "UNH risk adjustment False Claims Act litigation"
+            ],
+            "attributes": {
+              "allegations": "improper risk adjustment submissions; violation of False Claims Act",
+              "counterparty": "U.S. Department of Justice",
+              "doj_intervention_date": "2017-02-14",
+              "status": "pending",
+              "whistleblower_original_filing_year": "2011"
+            },
+            "identifiers": {},
+            "name": "DOJ False Claims Act Lawsuit - UNH Risk Adjustment",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Risk Adjustment Data Validation audits",
+              "RADV audits"
+            ],
+            "attributes": {
+              "counterparty": "Centers for Medicare & Medicaid Services",
+              "status": "pending",
+              "subject": "risk adjustment data validation; coding practices and supporting documentation"
+            },
+            "identifiers": {},
+            "name": "UNH CMS RADV Audits",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "UNH $18B revolving credit facilities"
+            ],
+            "attributes": {
+              "364_day_facility_usd": 6000000000,
+              "364_day_maturity": "2023-12",
+              "five_year_facility_usd": 6000000000,
+              "five_year_maturity": "2027-12",
+              "instrument_type": "revolver",
+              "num_banks": 25,
+              "outstanding_draws_usd": 0,
+              "principal_usd": 18000000000,
+              "three_year_facility_usd": 6000000000,
+              "three_year_maturity": "2025-12"
+            },
+            "identifiers": {},
+            "name": "UNH Revolving Bank Credit Facilities",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "UNH litigation risk",
+              "UNH regulatory inquiry risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "claim_types": "medical malpractice, employment, intellectual property, antitrust, privacy, contract",
+              "scope": "class actions, member and provider suits, regulatory inquiries"
+            },
+            "identifiers": {},
+            "name": "UNH General Legal Actions and Regulatory Inquiry Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.12,
+              "margin": 0.058,
+              "operating_earnings_usd": 14379000000,
+              "period": "FY2022",
+              "revenue": 249741000000
+            },
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH UnitedHealthcare Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.316,
+              "margin": 0.085,
+              "operating_earnings_usd": 6032000000,
+              "period": "FY2022",
+              "revenue": 71174000000
+            },
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Health Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.195,
+              "margin": 0.246,
+              "operating_earnings_usd": 3588000000,
+              "period": "FY2022",
+              "revenue": 14581000000
+            },
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Insight Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.093,
+              "margin": 0.044,
+              "operating_earnings_usd": 4436000000,
+              "period": "FY2022",
+              "revenue": 99773000000
+            },
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Rx Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH 2022 Share Repurchase",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH June 2022 Quarterly Dividend Increase",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Acquisition of Change Healthcare Inc.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Divestiture of Change Healthcare Claims Editing Business to TPG",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Pending Acquisition of LHC Group Inc.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "DOJ False Claims Act Lawsuit - UNH Risk Adjustment",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH CMS RADV Audits",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Revolving Bank Credit Facilities",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH General Legal Actions and Regulatory Inquiry Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-23-000008.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "9de7f1e14b051ea476346bb5a976294b5b14e85b62862abaf781ed0402a7afb3"
+    }
+  ],
+  "prompt_version": "v3"
+}

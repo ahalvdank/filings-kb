@@ -1,0 +1,137 @@
+{
+  "accession": "0000002488-23-000047",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T02:29:22Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "These securities are subject to interest rate risk and will decrease in value if market interest rates increase. A hypothetical 50 basis-point (half percentage point) increase or decrease in interest rates compared to rates at December 31, 2022 would have affected the fair value of our cash equivalent and investment portfolio by approximately $2.9 million.",
+            "entity_name": "AMD Interest Rate Risk - Investment Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We mitigate default risk in our investment portfolio by investing in only high credit quality securities and by constantly positioning our portfolio to respond to a significant reduction in a credit rating of any investment issuer or guarantor. Our portfolio includes investments in marketable debt securities with active secondary or resale markets to ensure portfolio liquidity.",
+            "entity_name": "AMD Default Risk - Investment Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As a result of our foreign operations, we incur costs and we carry assets and liabilities that are denominated in foreign currencies, while sales of products are primarily denominated in U.S. dollars. We maintain a foreign currency hedging strategy which uses derivative financial instruments to mitigate the risks associated with changes in foreign currency exchange rates.",
+            "entity_name": "AMD Foreign Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "AMD interest rate risk on investments",
+              "AMD cash equivalent interest rate exposure"
+            ],
+            "attributes": {
+              "category": "interest_rate",
+              "quantification_note": "50bp change affects fair value by approximately $2.9 million as of December 31, 2022"
+            },
+            "identifiers": {},
+            "name": "AMD Interest Rate Risk - Investment Portfolio",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "AMD credit default risk",
+              "AMD issuer default risk"
+            ],
+            "attributes": {
+              "category": "credit_default",
+              "credit_quality_threshold": "A-rated"
+            },
+            "identifiers": {},
+            "name": "AMD Default Risk - Investment Portfolio",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "AMD FX risk",
+              "AMD currency risk",
+              "AMD foreign currency risk"
+            ],
+            "attributes": {
+              "category": "foreign_exchange",
+              "hedge_notional_usd": 2421000000,
+              "primary_currencies": [
+                "CNY",
+                "CAD",
+                "INR",
+                "TWD",
+                "SGD",
+                "EUR",
+                "GBP",
+                "JPY",
+                "AUD"
+              ]
+            },
+            "identifiers": {},
+            "name": "AMD Foreign Exchange Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Interest Rate Risk - Investment Portfolio",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Default Risk - Investment Portfolio",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Foreign Exchange Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-23-000047.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "5c3e6dc3cf9ec4b22d0b2c0217d250c7b8ace76c51c21fa46621bab79d04a549"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,99 @@
+{
+  "accession": "0001564590-22-026876",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T14:35:25Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "We returned $12.4 billion to shareholders in the form of share repurchases and dividends in the fourth quarter of fiscal year 2022. All share repurchases were made using cash resources. Our share repurchases may occur through open market purchases or pursuant to a Rule 10b5-1 trading plan.",
+            "entity_name": "MSFT Q4 FY2022 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Our Board of Directors declared the following dividends during the fourth quarter of fiscal year 2022: Declaration Date June 14, 2022, Record Date August 18, 2022, Payment Date September 8, 2022, Dividend Per Share $0.62, Amount $4,627 (in millions).",
+            "entity_name": "MSFT Q4 FY2022 Quarterly Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft Q4 2022 buyback"
+            ],
+            "attributes": {
+              "period": "Q4_FY2022",
+              "remaining_authorization_usd": 40709000000,
+              "return_type": "buyback",
+              "shares_repurchased": 28767531
+            },
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Q4 FY2022 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Microsoft September 2022 quarterly dividend"
+            ],
+            "attributes": {
+              "amount_usd": 4627000000,
+              "declaration_date": "2022-06-14",
+              "effective_date": "2022-09-08",
+              "per_share": 0.62,
+              "record_date": "2022-08-18",
+              "return_type": "dividend"
+            },
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Q4 FY2022 Quarterly Dividend",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Q4 FY2022 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Q4 FY2022 Quarterly Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0001564590-22-026876.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "3fc43a4631a2c3d43f52e0dcb249508b1d0d6d5f6f88f2bd2ad11b305c56c7ae"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,260 @@
+{
+  "claims": {
+    "CapitalReturn": {
+      "comparable": true,
+      "diagnostic_raw_counts": {
+        "private_accession_doc": 231,
+        "private_unlinked_entities": 12,
+        "private_with_manifest": 248,
+        "public_claims": 437
+      },
+      "failing": false,
+      "n": 244,
+      "private_clusters": 244,
+      "private_matched": 236,
+      "private_matched_names_only": 234,
+      "public_clusters": 295,
+      "public_matched": 240,
+      "public_matched_names_only": 234,
+      "recall_private_in_public_names_only_pct": 95.9,
+      "recall_private_in_public_pct": 96.7,
+      "recall_public_in_private_names_only_pct": 79.3,
+      "recall_public_in_private_pct": 81.4
+    },
+    "CapitalStructureEvent": {
+      "comparable": true,
+      "diagnostic_raw_counts": {
+        "private_accession_doc": 213,
+        "private_unlinked_entities": 23,
+        "private_with_manifest": 229,
+        "public_claims": 373
+      },
+      "failing": true,
+      "n": 222,
+      "private_clusters": 222,
+      "private_matched": 213,
+      "private_matched_names_only": 210,
+      "public_clusters": 268,
+      "public_matched": 213,
+      "public_matched_names_only": 212,
+      "recall_private_in_public_names_only_pct": 94.6,
+      "recall_private_in_public_pct": 95.9,
+      "recall_public_in_private_names_only_pct": 79.1,
+      "recall_public_in_private_pct": 79.5
+    },
+    "ESGCommitment": {
+      "comparable": true,
+      "diagnostic_raw_counts": {
+        "private_accession_doc": 106,
+        "private_unlinked_entities": 10,
+        "private_with_manifest": 116,
+        "public_claims": 132
+      },
+      "failing": false,
+      "n": 113,
+      "private_clusters": 113,
+      "private_matched": 106,
+      "private_matched_names_only": 106,
+      "public_clusters": 126,
+      "public_matched": 107,
+      "public_matched_names_only": 106,
+      "recall_private_in_public_names_only_pct": 93.8,
+      "recall_private_in_public_pct": 93.8,
+      "recall_public_in_private_names_only_pct": 84.1,
+      "recall_public_in_private_pct": 84.9
+    },
+    "GuidanceUpdate": {
+      "comparable": true,
+      "diagnostic_raw_counts": {
+        "private_accession_doc": 166,
+        "private_unlinked_entities": 4,
+        "private_with_manifest": 177,
+        "public_claims": 208
+      },
+      "failing": false,
+      "n": 171,
+      "private_clusters": 171,
+      "private_matched": 166,
+      "private_matched_names_only": 164,
+      "public_clusters": 198,
+      "public_matched": 166,
+      "public_matched_names_only": 164,
+      "recall_private_in_public_names_only_pct": 95.9,
+      "recall_private_in_public_pct": 97.1,
+      "recall_public_in_private_names_only_pct": 82.8,
+      "recall_public_in_private_pct": 83.8
+    },
+    "InsiderTransaction": {
+      "comparable": false,
+      "diagnostic_raw_counts": {
+        "private_accession_doc": 0,
+        "private_unlinked_entities": 758,
+        "private_with_manifest": 0,
+        "public_claims": 79
+      },
+      "failing": false,
+      "n": 0,
+      "private_clusters": 0,
+      "private_matched": 0,
+      "private_matched_names_only": 0,
+      "public_clusters": 77,
+      "public_matched": 0,
+      "public_matched_names_only": 0,
+      "recall_private_in_public_names_only_pct": null,
+      "recall_private_in_public_pct": null,
+      "recall_public_in_private_names_only_pct": null,
+      "recall_public_in_private_pct": null
+    },
+    "LegalProceeding": {
+      "comparable": true,
+      "diagnostic_raw_counts": {
+        "private_accession_doc": 460,
+        "private_unlinked_entities": 19,
+        "private_with_manifest": 507,
+        "public_claims": 695
+      },
+      "failing": true,
+      "n": 486,
+      "private_clusters": 486,
+      "private_matched": 450,
+      "private_matched_names_only": 436,
+      "public_clusters": 594,
+      "public_matched": 462,
+      "public_matched_names_only": 437,
+      "recall_private_in_public_names_only_pct": 89.7,
+      "recall_private_in_public_pct": 92.6,
+      "recall_public_in_private_names_only_pct": 73.6,
+      "recall_public_in_private_pct": 77.8
+    },
+    "MaterialEvent": {
+      "comparable": true,
+      "diagnostic_raw_counts": {
+        "private_accession_doc": 622,
+        "private_unlinked_entities": 59,
+        "private_with_manifest": 666,
+        "public_claims": 1035
+      },
+      "failing": false,
+      "n": 655,
+      "private_clusters": 655,
+      "private_matched": 626,
+      "private_matched_names_only": 619,
+      "public_clusters": 748,
+      "public_matched": 646,
+      "public_matched_names_only": 629,
+      "recall_private_in_public_names_only_pct": 94.5,
+      "recall_private_in_public_pct": 95.6,
+      "recall_public_in_private_names_only_pct": 84.1,
+      "recall_public_in_private_pct": 86.4
+    },
+    "RevenueSegment": {
+      "comparable": true,
+      "diagnostic_raw_counts": {
+        "private_accession_doc": 296,
+        "private_unlinked_entities": 22,
+        "private_with_manifest": 306,
+        "public_claims": 815
+      },
+      "failing": false,
+      "n": 306,
+      "private_clusters": 306,
+      "private_matched": 295,
+      "private_matched_names_only": 286,
+      "public_clusters": 380,
+      "public_matched": 313,
+      "public_matched_names_only": 293,
+      "recall_private_in_public_names_only_pct": 93.5,
+      "recall_private_in_public_pct": 96.4,
+      "recall_public_in_private_names_only_pct": 77.1,
+      "recall_public_in_private_pct": 82.4
+    },
+    "Risk": {
+      "comparable": true,
+      "diagnostic_raw_counts": {
+        "private_accession_doc": 1670,
+        "private_unlinked_entities": 150,
+        "private_with_manifest": 2001,
+        "public_claims": 2155
+      },
+      "failing": false,
+      "n": 1911,
+      "private_clusters": 1911,
+      "private_matched": 1668,
+      "private_matched_names_only": 1621,
+      "public_clusters": 2051,
+      "public_matched": 1681,
+      "public_matched_names_only": 1624,
+      "recall_private_in_public_names_only_pct": 84.8,
+      "recall_private_in_public_pct": 87.3,
+      "recall_public_in_private_names_only_pct": 79.2,
+      "recall_public_in_private_pct": 82.0
+    }
+  },
+  "fidelity": {
+    "comparable": 682,
+    "coverage_pct": 82.8,
+    "match": 681,
+    "match_rate_pct": 99.9,
+    "mismatch": 1,
+    "not_comparable_split": 103,
+    "not_detected": 39,
+    "sections": 824
+  },
+  "filings": 61,
+  "ingest_vs_cache": {
+    "CapitalReturn": {
+      "cache": 438,
+      "public_all": 438,
+      "public_open": 437
+    },
+    "CapitalStructureEvent": {
+      "cache": 377,
+      "public_all": 377,
+      "public_open": 373
+    },
+    "ESGCommitment": {
+      "cache": 132,
+      "public_all": 132,
+      "public_open": 132
+    },
+    "GuidanceUpdate": {
+      "cache": 208,
+      "public_all": 208,
+      "public_open": 208
+    },
+    "InsiderTransaction": {
+      "cache": 79,
+      "public_all": 79,
+      "public_open": 79
+    },
+    "LegalProceeding": {
+      "cache": 695,
+      "public_all": 695,
+      "public_open": 695
+    },
+    "MaterialEvent": {
+      "cache": 1041,
+      "public_all": 1041,
+      "public_open": 1035
+    },
+    "RevenueSegment": {
+      "cache": 820,
+      "public_all": 820,
+      "public_open": 815
+    },
+    "Risk": {
+      "cache": 2156,
+      "public_all": 2156,
+      "public_open": 2155
+    }
+  },
+  "rule": {
+    "alias_min_token_sort_ratio": 90,
+    "cluster_threshold_wratio": 90.0,
+    "gated_direction": "both",
+    "min_fidelity_pct": 90,
+    "min_n": 20,
+    "min_recall_pct": 80,
+    "n": "private_clusters"
+  }
+}

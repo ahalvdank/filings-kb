@@ -1,0 +1,814 @@
+{
+  "accession": "0001045810-26-000021",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T12:02:52Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "growth_pct": 0.67,
+              "period": "FY2026",
+              "revenue": 193479000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Compute & Networking revenue – The year over year increase was driven by the major platform shifts – accelerated computing and AI. Revenue from Data Center computing grew 59% driven by demand for our Blackwell computing platform. Revenue from Data Center networking grew 142% driven by the introduction and continued ramp of NVLink compute fabric for GB200 and GB300 systems and the growth of Ethernet and InfiniBand platforms.",
+            "entity_name": "NVDA Compute & Networking Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.57,
+              "period": "FY2026",
+              "revenue": 22459000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Graphics revenue – The year over year increase was driven by sales of our Blackwell architecture. The year over year increase in Graphics segment operating income was driven by the growth in revenue.",
+            "entity_name": "NVDA Graphics Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.68,
+              "period": "FY2026",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Data Center revenue for fiscal year 2026 was up 68% from a year ago. The strong year-on-year growth was driven by the major platform shifts – accelerated computing and AI.",
+            "entity_name": "NVDA Data Center",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.41,
+              "period": "FY2026",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Gaming revenue for fiscal year 2026 was up 41% from a year ago, driven by strong Blackwell demand. We expect supply constraints to be a headwind to Gaming in the first quarter of fiscal 2027 and beyond.",
+            "entity_name": "NVDA Gaming",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.7,
+              "period": "FY2026",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Professional Visualization revenue for fiscal year 2026 was up 70% from a year ago, driven by exceptional demand for Blackwell as well as the launch of our new DGX Spark.",
+            "entity_name": "NVDA Professional Visualization",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.39,
+              "period": "FY2026",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Automotive revenue for fiscal year 2026 was up 39% from a year ago, driven by continued adoption of our self-driving platforms.",
+            "entity_name": "NVDA Automotive",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect supply constraints to be a headwind to Gaming in the first quarter of fiscal 2027 and beyond.",
+            "entity_name": "NVDA Gaming Q1 FY2027 Supply Constraint Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect to increase capital expenditures in fiscal year 2027 relative to fiscal year 2026 to support the future growth of our business.",
+            "entity_name": "NVDA FY2027 Capital Expenditure Increase Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In April 2025, the USG informed us that a license is required for exports of our H20 product into the China market. As a result of these requirements, we incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations, as the demand for H20 diminished.",
+            "entity_name": "NVDA H20 Export Control $4.5B Charge",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In February 2026, the USG granted a license that would allow us to ship small amounts of H200 products to specific China-based customers. To date, we have not generated any revenue under the H200 licensing program, and do not yet know whether any imports will be allowed into China. The license requires that the H200s go through an inspection process in the United States prior to any shipment to the customer. As a result, any H200 shipped under the new licensing program will be subject to a 25% tariff upon importation into the United States.",
+            "entity_name": "NVDA H200 China Export License with 25% Tariff",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "We are finalizing an investment and partnership agreement with OpenAI. There is no assurance that we will enter into an investment and partnership agreement with OpenAI or that a transaction will be completed.",
+            "entity_name": "NVDA OpenAI Investment and Partnership Agreement",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In July 2025, the One Big Beautiful Bill Act (OBBBA) was enacted into law and contains several changes to key U.S. federal income tax laws. We have recognized the tax effects of currently effective OBBBA provisions in our results for fiscal year 2026.",
+            "entity_name": "NVDA One Big Beautiful Bill Act Tax Impact",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "On August 26, 2025, our Board of Directors approved an additional $60.0 billion in share repurchase authorization, without expiration.",
+            "entity_name": "NVDA August 2025 $60B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In fiscal year 2026, we repurchased 282 million shares of our common stock for $40.4 billion. As of January 25, 2026, we were authorized, subject to certain specifications, to repurchase up to $58.5 billion of our common stock.",
+            "entity_name": "NVDA FY2026 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "From January 26, 2026 through February 20, 2026, we repurchased 8 million shares for $1.5 billion pursuant to a pre-established trading plan.",
+            "entity_name": "NVDA Post-FY2026 Share Repurchases Jan-Feb 2026",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In fiscal year 2026, we paid cash dividends to our shareholders of $974 million. The payment of future cash dividends is subject to our Board of Directors' continuing determination that the declaration of dividends is in the best interests of our shareholders.",
+            "entity_name": "NVDA FY2026 Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In January 2026, we increased the amount of our commercial paper program, pursuant to which we may issue unsecured commercial paper notes from time to time or all at once up to $25.0 billion. As of January 25, 2026, no commercial paper was outstanding.",
+            "entity_name": "NVDA January 2026 Commercial Paper Program Expansion",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The availability of data centers, energy, and capital to support the buildout of NVIDIA AI infrastructure by our customers and partners is crucial, and any shortage of these or other necessary resources could impact our future revenue and financial performance. Expanding energy capacity to meet demand is a complex, multi-year process that involves significant regulatory, technical, and construction challenges.",
+            "entity_name": "NVDA Data Center Infrastructure and Energy Availability Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The complexity of our product transitions and sophisticated system configurations has and may in the future cause delays in production and create challenges in managing supply and demand. This could further result in revenue volatility, quality issues, increased inventory provisions, decreases in product yields and higher material costs, and/or increased warranty costs.",
+            "entity_name": "NVDA Product Transition and Supply Chain Complexity Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The recent rise in high-quality open-source foundation models is making advanced AI capabilities broadly accessible. Open-source AI is dependent on developer adoption and if deployed on our competitors' platforms, it could reduce demand for our products and services.",
+            "entity_name": "NVDA Open-Source AI Competition Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In February 2026, the USG granted a license that would allow us to ship small amounts of H200 products to specific China-based customers. To date, we have not generated any revenue under the H200 licensing program, and do not yet know whether any imports will be allowed into China. As a result, any H200 shipped under the new licensing program will be subject to a 25% tariff upon importation into the United States.",
+            "entity_name": "NVDA China Export Control and Tariff Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our revenue is concentrated among a limited number of direct and indirect customers and this trend may continue. Direct Customers – For fiscal year 2026, sales to one direct customer represented 22% of total revenue and sales to another direct customer represented 14% of total revenue, all of which were primarily attributable to the Compute & Networking segment.",
+            "entity_name": "NVDA Customer Revenue Concentration Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVIDIA",
+              "NVDA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVIDIA Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Compute and Networking",
+              "C&N"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Compute & Networking",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Compute & Networking Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Graphics"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Graphics",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Graphics Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Data Center"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Data Center",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Gaming"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Gaming",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Gaming",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Professional Visualization",
+              "ProViz"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Professional Visualization",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Professional Visualization",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Automotive"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Automotive",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Automotive",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "direction": "headwind",
+              "metric": "gaming_supply",
+              "period": "Q1 FY2027",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "NVDA Gaming Q1 FY2027 Supply Constraint Outlook",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "direction": "increase_vs_fy2026",
+              "metric": "capital_expenditures",
+              "period": "FY2027",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2027 Capital Expenditure Increase Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "H20 China export restriction charge"
+            ],
+            "attributes": {
+              "charge_usd": 4500000000,
+              "effective_date": "2025-04",
+              "event_type": "regulatory_action",
+              "geography": "China",
+              "product": "H20"
+            },
+            "identifiers": {},
+            "name": "NVDA H20 Export Control $4.5B Charge",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "H200 China export license"
+            ],
+            "attributes": {
+              "effective_date": "2026-02",
+              "event_type": "regulatory_action",
+              "geography": "China",
+              "product": "H200",
+              "tariff_rate": 0.25
+            },
+            "identifiers": {},
+            "name": "NVDA H200 China Export License with 25% Tariff",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "OpenAI partnership",
+              "NVDA OpenAI deal"
+            ],
+            "attributes": {
+              "counterparty": "OpenAI",
+              "event_type": "joint_venture",
+              "status": "finalizing"
+            },
+            "identifiers": {},
+            "name": "NVDA OpenAI Investment and Partnership Agreement",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "OBBBA tax impact"
+            ],
+            "attributes": {
+              "effective_date": "2025-07",
+              "event_type": "accounting_change"
+            },
+            "identifiers": {},
+            "name": "NVDA One Big Beautiful Bill Act Tax Impact",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "$60B buyback authorization"
+            ],
+            "attributes": {
+              "amount_usd": 60000000000,
+              "effective_date": "2025-08-26",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "NVDA August 2025 $60B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "FY2026 buyback"
+            ],
+            "attributes": {
+              "amount_usd": 40400000000,
+              "period": "FY2026",
+              "return_type": "buyback",
+              "shares": 282000000
+            },
+            "identifiers": {},
+            "name": "NVDA FY2026 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 1500000000,
+              "period": "Jan-Feb 2026",
+              "return_type": "buyback",
+              "shares": 8000000
+            },
+            "identifiers": {},
+            "name": "NVDA Post-FY2026 Share Repurchases Jan-Feb 2026",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 974000000,
+              "period": "FY2026",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2026 Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "$25B commercial paper program"
+            ],
+            "attributes": {
+              "effective_date": "2026-01",
+              "instrument_type": "notes",
+              "principal_usd": 25000000000
+            },
+            "identifiers": {},
+            "name": "NVDA January 2026 Commercial Paper Program Expansion",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "AI infrastructure build-out risk",
+              "energy capacity risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "NVDA Data Center Infrastructure and Energy Availability Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Blackwell transition risk",
+              "product cadence execution risk"
+            ],
+            "attributes": {
+              "category": "operational"
+            },
+            "identifiers": {},
+            "name": "NVDA Product Transition and Supply Chain Complexity Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "open-source foundation model risk"
+            ],
+            "attributes": {
+              "category": "competitive"
+            },
+            "identifiers": {},
+            "name": "NVDA Open-Source AI Competition Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "China H20 H200 export restriction risk",
+              "China trade restriction risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "China"
+            },
+            "identifiers": {},
+            "name": "NVDA China Export Control and Tariff Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "customer concentration risk"
+            ],
+            "attributes": {
+              "category": "market"
+            },
+            "identifiers": {},
+            "name": "NVDA Customer Revenue Concentration Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.67,
+              "period": "FY2026",
+              "revenue": 193479000000
+            },
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Compute & Networking Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.57,
+              "period": "FY2026",
+              "revenue": 22459000000
+            },
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Graphics Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.68,
+              "period": "FY2026"
+            },
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Data Center",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.41,
+              "period": "FY2026"
+            },
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Gaming",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.7,
+              "period": "FY2026"
+            },
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Professional Visualization",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.39,
+              "period": "FY2026"
+            },
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Automotive",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Gaming Q1 FY2027 Supply Constraint Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2027 Capital Expenditure Increase Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA H20 Export Control $4.5B Charge",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA H200 China Export License with 25% Tariff",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA OpenAI Investment and Partnership Agreement",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA One Big Beautiful Bill Act Tax Impact",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA August 2025 $60B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2026 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Post-FY2026 Share Repurchases Jan-Feb 2026",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2026 Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA January 2026 Commercial Paper Program Expansion",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Data Center Infrastructure and Energy Availability Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Product Transition and Supply Chain Complexity Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Open-Source AI Competition Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA China Export Control and Tariff Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Customer Revenue Concentration Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-02-26",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-26-000021.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "5c607e873643f078d1b29aff99a224f3883af27f6b51bab0dea55632ea4f8b3d"
+    }
+  ],
+  "prompt_version": "v3"
+}

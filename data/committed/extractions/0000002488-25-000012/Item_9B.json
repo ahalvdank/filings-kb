@@ -1,0 +1,156 @@
+{
+  "accession": "0000002488-25-000012",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-10-14T01:12:16Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Lisa Su Chair, President and Chief Executive Officer Adopt December 2, 2024 X 750,000 December 10, 2025",
+            "entity_name": "Lisa Su",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Lisa Su Chair, President and Chief Executive Officer Adopt December 2, 2024 X 750,000 December 10, 2025",
+            "entity_name": "Lisa Su 10b5-1 Plan Adoption (December 2, 2024)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Mark Papermaster Executive Vice President, Chief Technology Officer Adopt November 5, 2024 X 173,006 December 31, 2025",
+            "entity_name": "Mark Papermaster",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Mark Papermaster Executive Vice President, Chief Technology Officer Adopt November 5, 2024 X 173,006 December 31, 2025",
+            "entity_name": "Mark Papermaster 10b5-1 Plan Adoption (November 5, 2024)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMD",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Lisa Su",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMD",
+              "insider_status": "officer",
+              "officer_role": "CTO"
+            },
+            "identifiers": {},
+            "name": "Mark Papermaster",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "AMD"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "Advanced Micro Devices, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "action": "Adopt",
+              "expiration_date": "2025-12-10",
+              "plan_type": "Rule 10b5-1",
+              "reporting_person": "Lisa Su",
+              "shares": 750000,
+              "source": "10-K_Item_9B_plan_adoption",
+              "transaction_code": "S",
+              "transaction_date": "2024-12-02"
+            },
+            "identifiers": {},
+            "name": "Lisa Su 10b5-1 Plan Adoption (December 2, 2024)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "action": "Adopt",
+              "expiration_date": "2025-12-31",
+              "plan_type": "Rule 10b5-1",
+              "reporting_person": "Mark Papermaster",
+              "shares": 173006,
+              "source": "10-K_Item_9B_plan_adoption",
+              "transaction_code": "S",
+              "transaction_date": "2024-11-05"
+            },
+            "identifiers": {},
+            "name": "Mark Papermaster 10b5-1 Plan Adoption (November 5, 2024)",
+            "type": "InsiderTransaction"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Lisa Su",
+            "source_type_entity": "Person",
+            "target_name": "Advanced Micro Devices, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CTO"
+            },
+            "source_name": "Mark Papermaster",
+            "source_type_entity": "Person",
+            "target_name": "Advanced Micro Devices, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-25-000012.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "b4a7779b01bb40811bcb20ee71e4457f31ee0804c34c0c8134b52da843f42c96"
+    }
+  ],
+  "prompt_version": "v3"
+}

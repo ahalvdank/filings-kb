@@ -1,0 +1,285 @@
+{
+  "accession": "0000002488-22-000016",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T03:58:48Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "On October 26, 2020, we entered into an Agreement and Plan of Merger (the Merger Agreement) with Thrones Merger Sub, Inc., our wholly owned subsidiary (Merger Sub), and Xilinx, Inc. (Xilinx), whereby Merger Sub will merge with and into Xilinx (the Merger), with Xilinx surviving such Merger as a wholly owned subsidiary of ours. Under the Merger Agreement, at the effective time of the Merger (the Effective Time), each share of common stock of Xilinx (Xilinx Common Stock) issued and outstanding immediately prior to the Effective Time (other than treasury shares and any shares of Xilinx Common Stock held directly by us or Merger Sub) will be converted into the right to receive 1.7234 fully paid and non-assessable shares of our common stock and, if applicable, cash in lieu of fractional shares, subject to any applicable withholding. As of the signing of the Merger Agreement, the transaction was valued at $35 billion.",
+            "entity_name": "AMD Pending Acquisition of Xilinx",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "We are party to two assembly, test, mark and pack (ATMP) joint ventures (collectively, the ATMP JVs) with Tongfu Microelectronics Co., Ltd. The majority of our ATMP services are provided by the ATMP JVs.",
+            "entity_name": "AMD ATMP Joint Ventures with Tongfu Microelectronics",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "In 2021, Dr. Lisa Su received the \"Woman Innovation Award\" from the Global Semiconductor Alliance and she was listed among Barron's World's Best CEOs and Forbes' World's Most Powerful Women for her strategic vision and successful company turn around. In addition, Dr. Su was appointed by President Biden to the President's Council of Advisors on Science and Technology.",
+            "entity_name": "Lisa Su",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "In 2021, we were recognized for the fifth consecutive year by the Human Rights Campaign Foundation as a Best Place to Work for LGBTQ+ equality and were included in Bloomberg's Gender Equality Index for the third consecutive year.",
+            "entity_name": "AMD Diversity, Belonging and Inclusion Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "We are named as a responsible party on Superfund clean-up orders for three sites in Sunnyvale, California that are on the National Priorities List. Since 1981, we have discovered hazardous material releases to the groundwater from former underground tanks and proceeded to investigate and conduct remediation at these three sites. The chemicals released into the groundwater were commonly used in the semiconductor industry in the United States in the wafer fabrication process prior to 1979.",
+            "entity_name": "AMD Sunnyvale Superfund Remediation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Two customers, A and B, accounted for 14% and 11%, respectively, of our consolidated net revenue for the year ended December 25, 2021. Sales to Customer A consisted of products from our Enterprise, Embedded and Semi-Custom segment, and sales to Customer B consisted of products from our Computing and Graphics segment. A loss of either of these customers would have a material adverse effect on our business.",
+            "entity_name": "AMD Customer Concentration Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We cannot assure you that our costs of complying with current and future environmental and health and safety laws, and our liabilities arising from past and future releases of, or exposure to, hazardous substances will not have a material adverse effect on us.",
+            "entity_name": "AMD Environmental Regulatory Compliance Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "AMD"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "cik": "0000002488",
+              "ticker": "AMD"
+            },
+            "name": "Advanced Micro Devices, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Xilinx"
+            ],
+            "attributes": {},
+            "identifiers": {},
+            "name": "Xilinx, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Dr. Lisa Su"
+            ],
+            "attributes": {
+              "current_company_id": "AMD",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Lisa Su",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "AMD-Xilinx Merger"
+            ],
+            "attributes": {
+              "announced_date": "2020-10-26",
+              "consideration": "stock",
+              "estimated_value_usd": 35000000000,
+              "event_type": "acquisition",
+              "exchange_ratio": 1.7234,
+              "expected_close": "2022-Q1",
+              "status": "pending",
+              "target_company": "Xilinx, Inc."
+            },
+            "identifiers": {},
+            "name": "AMD Pending Acquisition of Xilinx",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD ATMP JVs"
+            ],
+            "attributes": {
+              "event_type": "joint_venture",
+              "partner": "Tongfu Microelectronics Co., Ltd.",
+              "purpose": "assembly, test, mark and packaging"
+            },
+            "identifiers": {},
+            "name": "AMD ATMP Joint Ventures with Tongfu Microelectronics",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD DEI commitment"
+            ],
+            "attributes": {
+              "commitment_type": "dei"
+            },
+            "identifiers": {},
+            "name": "AMD Diversity, Belonging and Inclusion Commitment",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "AMD Sunnyvale groundwater remediation",
+              "AMD Superfund sites"
+            ],
+            "attributes": {
+              "counterparty": "U.S. Environmental Protection Agency",
+              "jurisdiction": "Sunnyvale, California",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "AMD Sunnyvale Superfund Remediation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "AMD top customer revenue concentration"
+            ],
+            "attributes": {
+              "category": "customer_concentration"
+            },
+            "identifiers": {},
+            "name": "AMD Customer Concentration Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "AMD environmental compliance risk"
+            ],
+            "attributes": {
+              "category": "regulatory_compliance",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "AMD Environmental Regulatory Compliance Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Pending Acquisition of Xilinx",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD ATMP Joint Ventures with Tongfu Microelectronics",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Lisa Su",
+            "source_type_entity": "Person",
+            "target_name": "Advanced Micro Devices, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Diversity, Belonging and Inclusion Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Sunnyvale Superfund Remediation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Customer Concentration Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Environmental Regulatory Compliance Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-22-000016.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "2851992271aac5a6f47f64ca832be729a60c07bc48a061b14f7ea5841e7fae41"
+    }
+  ],
+  "prompt_version": "v3"
+}

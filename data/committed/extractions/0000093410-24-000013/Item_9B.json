@@ -1,0 +1,278 @@
+{
+  "accession": "0000093410-24-000013",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T14:22:05Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Michael K. Wirth, Chairman of the Board and Chief Executive Officer, entered into a pre-arranged stock trading plan on November 22, 2023.",
+            "entity_name": "Michael K. Wirth",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Mr. Wirth's plan provides for the potential exercise of vested stock options and the associated sale of up to 404,500 shares of Chevron common stock between February 27, 2024 and January 28, 2025.",
+            "entity_name": "Michael K. Wirth 10b5-1 Plan (2023-11-22)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "R. Hewitt Pate, Vice President and General Counsel, entered into a pre-arranged stock trading plan on November 27, 2023.",
+            "entity_name": "R. Hewitt Pate",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Mr. Pate's plan provides for the potential exercise of vested stock options and the associated sale of up to 250,742 shares of Chevron common stock between February 27, 2024 and February 7, 2025.",
+            "entity_name": "R. Hewitt Pate 10b5-1 Plan (2023-11-27)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Alana K. Knowles, Vice President and Controller, entered into a pre-arranged stock trading plan on November 27, 2023.",
+            "entity_name": "Alana K. Knowles",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Ms. Knowles' plan provides for the potential exercise of vested stock options and the associated sale of up to 17,534 shares of Chevron common stock between February 27, 2024 and November 30, 2024.",
+            "entity_name": "Alana K. Knowles 10b5-1 Plan (2023-11-27)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "additional_role": "ChairOfBoard",
+              "current_company_id": "CVX",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Michael K. Wirth",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "officer",
+              "officer_role": "GeneralCounsel"
+            },
+            "identifiers": {},
+            "name": "R. Hewitt Pate",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "title": "Vice President and Controller"
+            },
+            "identifiers": {},
+            "name": "Alana K. Knowles",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Chevron"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "Chevron Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Chevron common stock"
+            ],
+            "attributes": {
+              "security_type": "common_stock"
+            },
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "CVX Common Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_adoption_date": "2023-11-22",
+              "plan_rule": "10b5-1(c)",
+              "reporting_person": "Michael K. Wirth",
+              "shares": 404500,
+              "source": "10-K_Item_9B_partial",
+              "trading_window_end": "2025-01-28",
+              "trading_window_start": "2024-02-27",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Michael K. Wirth 10b5-1 Plan (2023-11-22)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_adoption_date": "2023-11-27",
+              "plan_rule": "10b5-1(c)",
+              "reporting_person": "R. Hewitt Pate",
+              "shares": 250742,
+              "source": "10-K_Item_9B_partial",
+              "trading_window_end": "2025-02-07",
+              "trading_window_start": "2024-02-27",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "R. Hewitt Pate 10b5-1 Plan (2023-11-27)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_adoption_date": "2023-11-27",
+              "plan_rule": "10b5-1(c)",
+              "reporting_person": "Alana K. Knowles",
+              "shares": 17534,
+              "source": "10-K_Item_9B_partial",
+              "trading_window_end": "2024-11-30",
+              "trading_window_start": "2024-02-27",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Alana K. Knowles 10b5-1 Plan (2023-11-27)",
+            "type": "InsiderTransaction"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Michael K. Wirth",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "GeneralCounsel"
+            },
+            "source_name": "R. Hewitt Pate",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Other",
+              "title": "Vice President and Controller"
+            },
+            "source_name": "Alana K. Knowles",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Rule 10b5-1(c) pre-arranged plan; potential exercise of vested stock options and associated sale",
+              "plan_adoption_date": "2023-11-22",
+              "shares": 404500,
+              "transaction_code": "S"
+            },
+            "source_name": "Michael K. Wirth",
+            "source_type_entity": "Person",
+            "target_name": "CVX Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Rule 10b5-1(c) pre-arranged plan; potential exercise of vested stock options and associated sale",
+              "plan_adoption_date": "2023-11-27",
+              "shares": 250742,
+              "transaction_code": "S"
+            },
+            "source_name": "R. Hewitt Pate",
+            "source_type_entity": "Person",
+            "target_name": "CVX Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Rule 10b5-1(c) pre-arranged plan; potential exercise of vested stock options and associated sale",
+              "plan_adoption_date": "2023-11-27",
+              "shares": 17534,
+              "transaction_code": "S"
+            },
+            "source_name": "Alana K. Knowles",
+            "source_type_entity": "Person",
+            "target_name": "CVX Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-24-000013.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "e92912854b100a1e5ab4e977e7f178a5b07eded07a6ac5a37687d2e78738b553"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,60 @@
+{
+  "accession": "0001652044-24-000022",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T18:44:57Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our business strategy, results of operations and financial condition have not been materially affected by risks from cybersecurity threats, including as a result of previously identified cybersecurity incidents, but we cannot provide assurance that they will not be materially affected in the future by such risks or any future material incidents.",
+            "entity_name": "GOOGL Cybersecurity Threat Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Alphabet cybersecurity incident risk",
+              "cybersecurity threat risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "forward_looking_qualifier": "cannot provide assurance threats will not be materially affecting in the future",
+              "prior_materiality": "none_to_date"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Cybersecurity Threat Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Cybersecurity Threat Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-24-000022.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "202ef9a895a5d5c530357591c93f7eb4d924f255433283b7d513400cb3c7e2c3"
+    }
+  ],
+  "prompt_version": "v3"
+}

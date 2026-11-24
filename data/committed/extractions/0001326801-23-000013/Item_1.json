@@ -1,0 +1,304 @@
+{
+  "accession": "0001326801-23-000013",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T10:03:21Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "We report financial results for two segments: Family of Apps (FoA) and Reality Labs (RL). Currently, we generate substantially all of our revenue from selling advertising placements on our family of apps to marketers, which is reflected in FoA.",
+            "entity_name": "META Family of Apps Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "In 2022, 82% of our total costs and expenses were recognized in FoA and 18% were recognized in RL. Our FoA investments were $71.79 billion in 2022 and include expenses relating to headcount, data centers and technical infrastructure as part of our efforts to develop our apps and our advertising services.",
+            "entity_name": "META Family of Apps Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "RL reflects our efforts to develop the metaverse and generates revenue from sales of consumer hardware products, software and content.",
+            "entity_name": "META Reality Labs Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "Our total RL investments were $15.88 billion in 2022 and include expenses relating to headcount and technology development across these efforts.",
+            "entity_name": "META Reality Labs Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "we expect our RL segment to continue to operate at a loss for the foreseeable future, and our ability to support our metaverse efforts is dependent on generating sufficient profits from other areas of our business.",
+            "entity_name": "META Reality Labs Ongoing Operating Loss Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "in 2023, we expect to spend approximately 50% of our Reality Labs operating expenses on our augmented reality initiatives, approximately 40% on our virtual reality initiatives, and approximately 10% on social platforms and other initiatives.",
+            "entity_name": "META Reality Labs 2023 Operating Expense Allocation Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "To address this new environment, we took a number of steps to become a more capital efficient company and, in November 2022, made one of the most difficult changes in Meta's history and announced a layoff of approximately 11,000 employees.",
+            "entity_name": "META November 2022 Workforce Reduction",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "The cost reduction efforts that we announced, including our plans to scale back budgets, reduce company perks, shrink our real estate footprint, and restructure teams to increase efficiency alone would not bring our expenses in line with our revenue growth and we had to implement the layoff.",
+            "entity_name": "META November 2022 Workforce Reduction",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "We work to build a diverse and inclusive workplace where we can leverage our collective cognitive diversity to build the best products and make the best decisions for the global community we serve.",
+            "entity_name": "META Diversity, Equity and Inclusion Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "In 2022, we announced that our analyses indicate that we continue to have pay equity across genders globally and race in the United States for people in similar jobs, accounting for factors such as location, role, and level.",
+            "entity_name": "META Diversity, Equity and Inclusion Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta",
+              "Facebook"
+            ],
+            "attributes": {
+              "exchange": "Nasdaq Global Select Market",
+              "hq": "Menlo Park, California",
+              "incorporated_state": "Delaware",
+              "ipo_date": "2012-05"
+            },
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "Meta Platforms, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Family of Apps",
+              "FoA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Family of Apps",
+              "ticker": "META"
+            },
+            "name": "META Family of Apps Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Reality Labs",
+              "RL"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Reality Labs",
+              "ticker": "META"
+            },
+            "name": "META Reality Labs Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Meta November 2022 layoff",
+              "Meta 11000 employee layoff"
+            ],
+            "attributes": {
+              "announcement_date": "2022-11",
+              "employees_affected": 11000,
+              "event_type": "restructuring"
+            },
+            "identifiers": {},
+            "name": "META November 2022 Workforce Reduction",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "reality_labs_operating_income",
+              "new_value": "operating_at_loss",
+              "period": "foreseeable_future",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "META Reality Labs Ongoing Operating Loss Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "ar_initiatives_pct": 0.5,
+              "metric": "reality_labs_opex_allocation_by_initiative",
+              "period": "FY2023",
+              "social_platforms_and_other_pct": 0.1,
+              "update_type": "confirmation",
+              "vr_initiatives_pct": 0.4
+            },
+            "identifiers": {},
+            "name": "META Reality Labs 2023 Operating Expense Allocation Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Meta DEI commitment",
+              "Meta pay equity commitment"
+            ],
+            "attributes": {
+              "commitment_type": "dei"
+            },
+            "identifiers": {},
+            "name": "META Diversity, Equity and Inclusion Commitment",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "cost_share_pct": 0.82,
+              "note": "cost/investment figures; segment revenue not separately disclosed in Item 1",
+              "period": "FY2022",
+              "total_investments_usd": 71790000000
+            },
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META Family of Apps Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "cost_share_pct": 0.18,
+              "operating_status": "operating_at_loss",
+              "period": "FY2022",
+              "total_investments_usd": 15880000000
+            },
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META Reality Labs Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META November 2022 Workforce Reduction",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META Reality Labs Ongoing Operating Loss Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META Reality Labs 2023 Operating Expense Allocation Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META Diversity, Equity and Inclusion Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-23-000013.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "43168707e67da0e76e4f81fc7d318888dfef7636732b4ac9d2389db86a4fef6f"
+    }
+  ],
+  "prompt_version": "v3"
+}

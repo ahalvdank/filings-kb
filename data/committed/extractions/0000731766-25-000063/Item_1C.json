@@ -1,0 +1,70 @@
+{
+  "accession": "0000731766-25-000063",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T22:34:25Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2024, the Company has not identified any risks from cybersecurity threats that have materially affected or are reasonably likely to materially affect the Company, including our business strategy, results of operations or financial condition, but there can be no assurance that any such risk will not materially affect the Company in the future.",
+            "entity_name": "UNH Cybersecurity Threat Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "governance_and_oversight_description",
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our cybersecurity program is managed by our Chief Digital and Technology Officer and our Chief Security Officer. The Audit and Finance Committee of the Board of Directors has oversight of our cybersecurity program and is responsible for reviewing and assessing the effectiveness of the Company's cybersecurity and data protection policies, procedures and resource commitment, including key risk areas and mitigation strategies.",
+            "entity_name": "UNH Cybersecurity Threat Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UnitedHealth Group cybersecurity risk",
+              "UNH information security risk"
+            ],
+            "attributes": {
+              "as_of_date": "2024-12-31",
+              "category": "cybersecurity",
+              "materiality_assessment": "no_material_impact_identified_as_of_2024-12-31"
+            },
+            "identifiers": {},
+            "name": "UNH Cybersecurity Threat Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Cybersecurity Threat Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-25-000063.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "a598b094d994d3c18aeb4fafea473ee74ebee7279494570526ed101d84a887a7"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,564 @@
+{
+  "accession": "0000093410-26-000078",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T13:25:13Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "Worldwide oil-equivalent production of 3.7 million barrels per day in 2025 was up approximately 12 percent from 2024, mainly due to the acquisition of Hess, completion of the Future Growth Project at Tengizchevroil (TCO), record production in the Permian Basin, and ramp-up of production in the Gulf of America, partially offset by asset sales in Canada and the Republic of Congo.",
+            "entity_name": "CVX Acquisition of Hess Corporation",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "context": "proved reserves impact of Hess acquisition",
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "The largest additions were from the acquisition of Hess Corporation (Hess) and extensions and discoveries in shale and tight assets in the Permian Basin, and project approvals in Australia and Guyana. At December 31, 2025, 43 percent of the company's net proved oil-equivalent reserves were located in the United States, 15 percent were located in Australia and 11 percent were located in Kazakhstan.",
+            "entity_name": "CVX Acquisition of Hess Corporation",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "Chevron sold 70 percent of its working interest in Haynesville shale in East Texas in 2025 while retaining a 30 percent non-operated working interest and an approximately 12.5 percent overriding royalty interest in the newly formed joint venture. Chevron holds approximately 70,000 net acres and obtained a capital carry of $450 million for the development of this area through the sale transaction.",
+            "entity_name": "CVX Haynesville Shale 70% Working Interest Sale",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In January 2025, the company sold its 31.5 percent nonoperated interest in the offshore Haute Mer permit area.",
+            "entity_name": "CVX Republic of Congo Haute Mer Divestiture",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In January 2025, Chevron sold its interest in the ROC portion of Lianzi, while retaining the Angolan portion.",
+            "entity_name": "CVX Angola-ROC Lianzi Partial Divestiture",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "geography": "Kurdistan Region of Iraq",
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2025, Chevron completed exit agreements and withdrew from the country.",
+            "entity_name": "CVX Kurdistan Region of Iraq Exit",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "During 2025, the JDA Block A-18, acquired through the acquisition of Hess, was sold.",
+            "entity_name": "CVX Malaysia JDA Block A-18 Sale",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "The company estimates its average worldwide oil-equivalent production in 2026 to increase 7 to 10 percent over 2025, assuming a Brent crude oil price of $60 per barrel and excluding the impact of asset sales. This includes a full-year contribution from Hess assets. This estimate is subject to many factors and uncertainties, as described beginning on page 39.",
+            "entity_name": "CVX FY2026 Worldwide Oil-Equivalent Production Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Chevron",
+              "CVX"
+            ],
+            "attributes": {
+              "incorporation_state": "Delaware",
+              "incorporation_year": 1926
+            },
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "Chevron Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Hess"
+            ],
+            "attributes": {},
+            "identifiers": {},
+            "name": "Hess Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Hess acquisition",
+              "CVX-Hess deal"
+            ],
+            "attributes": {
+              "effective_date": "2025-07",
+              "event_type": "acquisition",
+              "target_company": "Hess Corporation"
+            },
+            "identifiers": {},
+            "name": "CVX Acquisition of Hess Corporation",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Haynesville divestiture"
+            ],
+            "attributes": {
+              "asset": "Haynesville shale, East Texas",
+              "capital_carry_usd": 450000000,
+              "effective_date": "2025",
+              "event_type": "divestiture",
+              "interest_sold_pct": 70,
+              "retained_overriding_royalty_pct": 12.5,
+              "retained_working_interest_pct": 30
+            },
+            "identifiers": {},
+            "name": "CVX Haynesville Shale 70% Working Interest Sale",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "ROC Haute Mer sale"
+            ],
+            "attributes": {
+              "asset": "offshore Haute Mer permit area",
+              "effective_date": "2025-01",
+              "event_type": "divestiture",
+              "geography": "Republic of Congo",
+              "interest_sold_pct": 31.5
+            },
+            "identifiers": {},
+            "name": "CVX Republic of Congo Haute Mer Divestiture",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Lianzi ROC portion sale"
+            ],
+            "attributes": {
+              "asset": "ROC portion of Lianzi Unitization Zone",
+              "effective_date": "2025-01",
+              "event_type": "divestiture",
+              "geography": "Angola-Republic of Congo Joint Development Area",
+              "note": "Retained Angolan portion"
+            },
+            "identifiers": {},
+            "name": "CVX Angola-ROC Lianzi Partial Divestiture",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Kurdistan exit",
+              "Kurdistan withdrawal"
+            ],
+            "attributes": {
+              "effective_date": "2025",
+              "event_type": "divestiture",
+              "geography": "Kurdistan Region of Iraq"
+            },
+            "identifiers": {},
+            "name": "CVX Kurdistan Region of Iraq Exit",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "JDA Block A-18 divestiture"
+            ],
+            "attributes": {
+              "asset": "JDA Block A-18, Malaysia/Thailand Joint Development Area",
+              "effective_date": "2025",
+              "event_type": "divestiture",
+              "note": "Acquired through Hess acquisition then immediately sold"
+            },
+            "identifiers": {},
+            "name": "CVX Malaysia JDA Block A-18 Sale",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "CVX 2026 production outlook",
+              "CVX 2026 production guidance"
+            ],
+            "attributes": {
+              "excludes": "impact of asset sales",
+              "metric": "worldwide_oil_equivalent_production_growth",
+              "new_value": "7-10% increase over 2025",
+              "period": "FY2026",
+              "price_assumption": "Brent crude $60/bbl",
+              "unit": "percent_growth_yoy",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "CVX FY2026 Worldwide Oil-Equivalent Production Guidance",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Acquisition of Hess Corporation",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Haynesville Shale 70% Working Interest Sale",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Republic of Congo Haute Mer Divestiture",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Angola-ROC Lianzi Partial Divestiture",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Kurdistan Region of Iraq Exit",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Malaysia JDA Block A-18 Sale",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX FY2026 Worldwide Oil-Equivalent Production Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-26-000078.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "ca6317cfa104ccfd4ad87a5eec69e0269952a0f47e0473fc1afb300f913cfbd1"
+    },
+    {
+      "extracted_at": "2026-08-10T13:28:41Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2024, the company agreed to an asset swap of its 16.7 percent interest in the NWS Project, NWS Oil Project and its 20 percent interest in Angel Carbon Capture and Storage Project with Woodside's 13 percent nonoperated interest in the Wheatstone Project and 65 percent operated interest in the Julimar-Brunello fields and related infrastructure, which is expected to close in 2026, subject to customary closing conditions and regulations.",
+            "entity_name": "CVX NWS/Wheatstone Asset Swap with Woodside",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In May 2025, the Barrow Island oil field ceased production and entered the decommissioning phase.",
+            "entity_name": "CVX Barrow Island Oil Field Decommissioning",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In early 2025, Chevron acquired the remaining equity of Brightmark RNG Holdings LLC and renamed the company to Chevron RNG Holdings LLC (Chevron RNG).",
+            "entity_name": "CVX Acquisition of Brightmark RNG Holdings LLC",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2025, Chevron acquired further pipeline infrastructure through its acquisition of Hess.",
+            "entity_name": "CVX Acquisition of Hess Corporation",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In early 2026, Chevron was awarded four deep-sea blocks off the Peloponnese peninsula and the island of Crete.",
+            "entity_name": "CVX Greece Offshore Deep-Sea Block Awards 2026",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "Chevron holds operated and nonoperated working interests ranging from 20 to 70 percent in five greenhouse gas assessment permits to evaluate the potential of carbon dioxide storage. The blocks, including four in the Carnarvon Basin off the northwestern coast of Western Australia and one in the Bonaparte Basin offshore Northern Territory, total nearly 10.2 million gross acres.",
+            "entity_name": "CVX Greenhouse Gas Assessment Permits for Carbon Dioxide Storage",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Chevron",
+              "CVX"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "Chevron Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "NWS asset swap",
+              "NWS Wheatstone swap"
+            ],
+            "attributes": {
+              "acquiring": "Woodside's 13% nonoperated Wheatstone Project, 65% operated Julimar-Brunello fields",
+              "agreed_date": "2024",
+              "counterparty": "Woodside",
+              "divesting": "16.7% NWS Project and NWS Oil Project, 20% Angel Carbon Capture and Storage Project",
+              "event_type": "divestiture",
+              "expected_close": "2026",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "CVX NWS/Wheatstone Asset Swap with Woodside",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Barrow Island decommissioning",
+              "WA Oil decommissioning"
+            ],
+            "attributes": {
+              "effective_date": "2025-05",
+              "event_type": "restructuring",
+              "field": "Barrow Island",
+              "location": "Western Australia"
+            },
+            "identifiers": {},
+            "name": "CVX Barrow Island Oil Field Decommissioning",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Brightmark RNG acquisition",
+              "Chevron RNG Holdings acquisition"
+            ],
+            "attributes": {
+              "effective_date": "2025-Q1",
+              "event_type": "acquisition",
+              "renamed_to": "Chevron RNG Holdings LLC",
+              "target_company": "Brightmark RNG Holdings LLC"
+            },
+            "identifiers": {},
+            "name": "CVX Acquisition of Brightmark RNG Holdings LLC",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Hess acquisition",
+              "CVX-Hess deal"
+            ],
+            "attributes": {
+              "effective_date": "2025",
+              "event_type": "acquisition",
+              "target_company": "Hess Corporation"
+            },
+            "identifiers": {},
+            "name": "CVX Acquisition of Hess Corporation",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Greece block awards",
+              "Peloponnese Crete block awards"
+            ],
+            "attributes": {
+              "blocks_awarded": 4,
+              "effective_date": "2026-Q1",
+              "event_type": "regulatory_action",
+              "geography": "Greece"
+            },
+            "identifiers": {},
+            "name": "CVX Greece Offshore Deep-Sea Block Awards 2026",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "CVX CCS assessment permits",
+              "CVX carbon storage permits"
+            ],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "gross_acres": 10200000,
+              "locations": [
+                "Carnarvon Basin, Western Australia",
+                "Bonaparte Basin, Northern Territory"
+              ],
+              "permit_count": 5
+            },
+            "identifiers": {},
+            "name": "CVX Greenhouse Gas Assessment Permits for Carbon Dioxide Storage",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX NWS/Wheatstone Asset Swap with Woodside",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Barrow Island Oil Field Decommissioning",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Acquisition of Brightmark RNG Holdings LLC",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Acquisition of Hess Corporation",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Greece Offshore Deep-Sea Block Awards 2026",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Greenhouse Gas Assessment Permits for Carbon Dioxide Storage",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-26-000078.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "9f663a432c2163319021d5e709c6253677364d0619e9eafe9ec7782e07b7ffad"
+    }
+  ],
+  "prompt_version": "v3"
+}

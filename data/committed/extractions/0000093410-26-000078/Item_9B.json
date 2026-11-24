@@ -1,0 +1,250 @@
+{
+  "accession": "0000093410-26-000078",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T13:43:43Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Michael K. Wirth, Chairman of the Board and Chief Executive Officer, entered into a pre-arranged stock trading plan on November 26, 2025. Mr. Wirth's plan provides for the potential exercise of vested stock options and the associated sale of up to 262,900 shares of Chevron common stock between March 2, 2026 and February 26, 2027.",
+            "entity_name": "Michael K. Wirth",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Eimear P. Bonner, Chief Financial Officer, entered into a pre-arranged stock trading plan on November 22, 2025. Ms. Bonner's plan provides for the potential exercise of vested stock options and the associated sale of up to 132,768 shares of Chevron common stock between February 27, 2026 and February 26, 2027.",
+            "entity_name": "Eimear P. Bonner",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "R. Hewitt Pate, Chief Legal Officer, entered into a pre-arranged stock trading plan on November 26, 2025. Mr. Pate's plan provides for the potential exercise of vested stock options and the associated sale of up to 335,509 shares of Chevron common stock between February 27, 2026 and February 26, 2027.",
+            "entity_name": "R. Hewitt Pate",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "board_role": "ChairOfBoard",
+              "current_company_id": "CVX",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Michael K. Wirth",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "officer",
+              "officer_role": "CFO"
+            },
+            "identifiers": {},
+            "name": "Eimear P. Bonner",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "title": "Chief Legal Officer"
+            },
+            "identifiers": {},
+            "name": "R. Hewitt Pate",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Chevron"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "Chevron Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "CVX common stock"
+            ],
+            "attributes": {
+              "security_type": "common_stock"
+            },
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "Chevron Common Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_adoption_date": "2025-11-26",
+              "plan_type": "Rule_10b5-1",
+              "reporting_person": "Michael K. Wirth",
+              "shares": 262900,
+              "source": "Item_9B_plan_disclosure",
+              "trading_period_end": "2027-02-26",
+              "trading_period_start": "2026-03-02",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Michael K. Wirth 10b5-1 Plan Adopted 2025-11-26",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_adoption_date": "2025-11-22",
+              "plan_type": "Rule_10b5-1",
+              "reporting_person": "Eimear P. Bonner",
+              "shares": 132768,
+              "source": "Item_9B_plan_disclosure",
+              "trading_period_end": "2027-02-26",
+              "trading_period_start": "2026-02-27",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Eimear P. Bonner 10b5-1 Plan Adopted 2025-11-22",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_adoption_date": "2025-11-26",
+              "plan_type": "Rule_10b5-1",
+              "reporting_person": "R. Hewitt Pate",
+              "shares": 335509,
+              "source": "Item_9B_plan_disclosure",
+              "trading_period_end": "2027-02-26",
+              "trading_period_start": "2026-02-27",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "R. Hewitt Pate 10b5-1 Plan Adopted 2025-11-26",
+            "type": "InsiderTransaction"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Michael K. Wirth",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO"
+            },
+            "source_name": "Eimear P. Bonner",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Chief Legal Officer"
+            },
+            "source_name": "R. Hewitt Pate",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_adoption_date": "2025-11-26",
+              "plan_type": "Rule_10b5-1",
+              "shares": 262900,
+              "trading_period_end": "2027-02-26",
+              "trading_period_start": "2026-03-02",
+              "transaction_code": "S"
+            },
+            "source_name": "Michael K. Wirth",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_adoption_date": "2025-11-22",
+              "plan_type": "Rule_10b5-1",
+              "shares": 132768,
+              "trading_period_end": "2027-02-26",
+              "trading_period_start": "2026-02-27",
+              "transaction_code": "S"
+            },
+            "source_name": "Eimear P. Bonner",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_adoption_date": "2025-11-26",
+              "plan_type": "Rule_10b5-1",
+              "shares": 335509,
+              "trading_period_end": "2027-02-26",
+              "trading_period_start": "2026-02-27",
+              "transaction_code": "S"
+            },
+            "source_name": "R. Hewitt Pate",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-26-000078.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "4f7dc221dc60a3a56958d41d36456fbc9db02ffb9946265d4d324e87af390847"
+    }
+  ],
+  "prompt_version": "v3"
+}

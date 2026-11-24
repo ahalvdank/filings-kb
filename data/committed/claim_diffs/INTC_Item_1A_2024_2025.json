@@ -1,0 +1,116 @@
+{
+  "created_at": "2026-11-23T08:07:18.737480+00:00",
+  "current_fy": 2025,
+  "input_sha256": "463590427181e24e820aaabc46cf979a28a0e5be4c9ead7b1b397c957b8a226d",
+  "item": "Item_1A",
+  "model": "claude-sonnet-4-6",
+  "prior_fy": 2024,
+  "prompt_sha256": "71d2da8ab6cdab15e1608c2f958dd4ee476ccefb8769395dad274dfc53c246fc",
+  "result": {
+    "added": [
+      "INTC Semiconductor Industry Competition Risk",
+      "INTC R&D and Manufacturing Capital Investment Return Risk",
+      "INTC SCIP Alternative Financing Arrangement Risk",
+      "INTC U.S. Government Equity Dilution and Governance Risk",
+      "INTC Processor Security Vulnerability Risk",
+      "INTC Product Defect and Errata Risk",
+      "INTC Global Supply Chain Single-Source Dependency Risk",
+      "INTC PC and Data Center Product Demand Variability Risk",
+      "INTC Manufacturing Facility Cancellations and Delays",
+      "INTC Q3 2025 U.S. Government Common Stock Equity Issuance",
+      "INTC Distributor Channel Concentration Risk",
+      "INTC Share Repurchase Authorization (2005, as amended 2019)",
+      "INTC CEO Appointment of Lip-Bu Tan (March 2025)",
+      "INTC EVP CTO and COO Appointment of Nagasubramaniyan Chandrasekaran (September 2025)"
+    ],
+    "changed": [
+      [
+        "INTC Foundry Strategy Competitive Execution Risk: general foundry execution risk, no named competitors",
+        "INTC Intel Foundry Business Competitive Risk: explicitly names TSMC, Samsung, Global Foundries, UMC, and SMIC as competitors"
+      ],
+      [
+        "INTC AI GPU Data Center Market Shift Risk: risk of data center customers shifting spend to AI GPU competitors",
+        "INTC AI Market Competition and Positioning Risk: broadened to AI accelerators, AI PCs, and data center GPU competitive positioning"
+      ],
+      [
+        "China revenue 29% of total revenue",
+        "China revenue 24% of FY2025 total revenue; total international revenue noted as 70%"
+      ],
+      [
+        "General Israel operations geopolitical risk",
+        "Specifically names Intel Israel leading-edge fab (Intel 7 node at risk) and Mobileye as affected entities; notes absence of war insurance coverage"
+      ],
+      [
+        "INTC Taiwan-TSMC Supply Chain Concentration Risk: supply chain concentration on Taiwan/TSMC",
+        "INTC Taiwan TSMC Supply Chain Risk: adds disaggregated tile processing as a specific dependency risk"
+      ],
+      [
+        "INTC State-Sponsored Cybersecurity and Manufacturing Sabotage Risk: focused on state-sponsored actors and manufacturing sabotage",
+        "INTC Cybersecurity Threat Risk: expanded to also name malicious hackers and insider threats as threat actors"
+      ],
+      [
+        "INTC Process Technology Node Development and Delay Risk: general risk of delays in developing and ramping leading-edge process nodes",
+        "INTC Intel 14A Node External Customer Risk: specifically focused on Intel 14A external customer adoption; consequence is pausing or discontinuing leading-edge node development if adoption is insufficient"
+      ],
+      [
+        "INTC CEO Succession and Senior Leadership Transition Risk: focused on CEO succession and senior leadership transition",
+        "INTC Key Talent and Leadership Retention Risk: broadened to talent retention across the organization; notes four CEO transitions (2019, 2021, 2024, 2025) and multiple rounds of headcount reductions"
+      ],
+      [
+        "INTC Intel 7 Manufacturing Asset Impairment Q3 2024: Q3 2024 Intel 7 manufacturing assets, $3.1B non-cash charge",
+        "INTC 2025 and 2024 Manufacturing Asset Non-Cash Impairment Charges: FY2024 charge revised to $3.3B; new FY2025 charge of $950M added; scope expanded beyond Intel 7 to all manufacturing PP&E with no remaining or reduced operational use"
+      ],
+      [
+        "INTC Mobileye Goodwill Impairment Q3 2024: impairment charge $2.9B",
+        "INTC Q3 2024 Mobileye Goodwill Impairment: impairment charge $2.8B"
+      ],
+      [
+        "R2 Semiconductor v. Intel (Dusseldorf Regional Court): standalone LegalProceeding; Dusseldorf injunction and recall order obtained February 2024; status pending",
+        "Folded into INTC IP Rights and Patent Litigation Risk; R2 Semiconductor cited as a noted litigant alongside VLSI; specific Dusseldorf proceeding details no longer disclosed as a standalone claim"
+      ],
+      [
+        "INTC Customer Concentration Risk: top 3 customers = 45% of FY2024 revenue",
+        "INTC Customer Revenue Concentration Risk: top 3 customers = 43% of FY2025 revenue"
+      ],
+      [
+        "INTC Hyperscaler Cloud Workload Shift Competitive Risk: risk from workload migration to public cloud displacing Intel data center CPUs",
+        "INTC Hyperscaler and AI Data Center Competitive Displacement Risk: now explicitly includes AI workloads as an additional driver of competitive displacement"
+      ],
+      [
+        "INTC Debt Level and Credit Rating Downgrade Risk: $51B outstanding debt",
+        "INTC Debt Obligations and Credit Rating Risk: $47.2B outstanding debt"
+      ],
+      [
+        "10% adverse FX scenario income impact quantified at $54M; primary expense currencies named as ILS, MYR, EUR, JPY, CNY",
+        "Qualitative description of FX exposure on operating expenses and capex in local currencies; no specific impact figures or named currencies disclosed"
+      ],
+      [
+        "INTC Catastrophic Events and Climate Change Risk: key geographies Oregon, California, Arizona, Israel; climate change explicitly framed as a driver",
+        "INTC Catastrophic Events and Operational Disruption Risk: climate change framing dropped; focuses globally on Arizona and Israel fabrication facilities; Oregon and California no longer listed"
+      ],
+      [
+        "INTC 2024 Multiple Credit Rating Downgrades: 2024 downgrades cited; $51B outstanding debt referenced",
+        "INTC 2025 Credit Rating Downgrades: updated to reflect 2025 downgrades; no outstanding debt figure cited"
+      ],
+      [
+        "INTC Gaudi AI Accelerator Inventory Write-Down 2024: standalone MaterialEvent, $922M FY2024 inventory charge",
+        "Reclassified as supporting context within INTC R&D and Manufacturing Capital Investment Return Risk; FY2024 $922M charge retained; FY2025 Gaudi charge of $375M added"
+      ],
+      [
+        "INTC Effective Tax Rate Variability Risk: general tax rate variability, no specific drivers named",
+        "Pillar Two OECD BEPS global minimum tax specifically identified as a notable driver"
+      ]
+    ],
+    "removed": [
+      "INTC CSP In-House Semiconductor Development Risk",
+      "INTC CEO Retirement December 2024",
+      "INTC Ireland Fab 34 SCIP JV Construction Penalty Q4 2024",
+      "INTC Gray Market Product Distribution Risk",
+      "INTC Government Contract Compliance Risk",
+      "INTC ESG and Corporate Responsibility Scrutiny Risk",
+      "INTC China STAR Market Equity Securities Concentration Risk",
+      "INTC Q4 2024 Quarterly Dividend Suspension"
+    ]
+  },
+  "ticker": "INTC"
+}

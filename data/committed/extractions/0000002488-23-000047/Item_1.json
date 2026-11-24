@@ -1,0 +1,351 @@
+{
+  "accession": "0000002488-23-000047",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T02:10:10Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "the Data Center segment, which primarily includes server CPUs and GPUs, DPUs, FPGAs, and Adaptive SoC products for data centers;",
+            "entity_name": "AMD Data Center Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "the Client segment, which primarily includes CPUs, APUs, and chipsets for desktop and notebook personal computers;",
+            "entity_name": "AMD Client Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "the Gaming segment, which primarily includes discrete GPUs, semi-custom SoC products and development services;",
+            "entity_name": "AMD Gaming Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "the Embedded segment, which primarily includes embedded CPUs, GPUs, APUs, FPGAs and Adaptive SoC products.",
+            "entity_name": "AMD Embedded Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "With the acquisition of Xilinx, Inc. (XIlinx) in February 2022, our product portfolio now includes FPGAs and Adaptive SoCs used in the data center and embedded markets.",
+            "entity_name": "AMD Acquisition of Xilinx, Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "Also, with the acquisition of Pensando Systems, Inc. in May 2022, we offer high-performance DPUs and next generation data center solutions.",
+            "entity_name": "AMD Acquisition of Pensando Systems, Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "We have been named as a responsible party on Superfund clean-up orders for three sites in Sunnyvale, California that are on the National Priorities List. Since 1981, we have discovered hazardous material releases to the groundwater from former underground tanks and proceeded to investigate and conduct remediation at these three sites.",
+            "entity_name": "AMD Sunnyvale Superfund Environmental Remediation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "To address anticipated future remediation costs under the orders, we have computed and recorded an estimated environmental liability of approximately $3.9 million and have not recorded any potential insurance recoveries in determining the estimated costs of the cleanup.",
+            "entity_name": "AMD Sunnyvale Superfund Environmental Remediation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "We are proud to be led by a highly regarded CEO who has won many esteemed awards for her business and leadership prowess. In 2022, Dr. Lisa Su was listed among \"Fortune's Most Powerful Women\". In the last two years, she also received the \"Woman Innovation Award\" from the Global Semiconductor Alliance and was listed among Barron's World's Best CEOs and Forbes' World's Most Powerful Women.",
+            "entity_name": "Lisa Su",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "Our diverse and inclusive workforce encourages employees to share their opinions and different perspectives. We believe that building a diverse talent pipeline, encouraging a culture of respect and belonging, and increasing inclusion of unique and underrepresented voices makes our Company stronger.",
+            "entity_name": "AMD Diversity, Belonging and Inclusion Program",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "AMD"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "Advanced Micro Devices, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Data Center"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center",
+              "ticker": "AMD"
+            },
+            "name": "AMD Data Center Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Client"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Client",
+              "ticker": "AMD"
+            },
+            "name": "AMD Client Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Gaming"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Gaming",
+              "ticker": "AMD"
+            },
+            "name": "AMD Gaming Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Embedded"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Embedded",
+              "ticker": "AMD"
+            },
+            "name": "AMD Embedded Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Xilinx acquisition",
+              "AMD-Xilinx deal"
+            ],
+            "attributes": {
+              "effective_date": "2022-02",
+              "event_type": "acquisition",
+              "target_company": "Xilinx, Inc."
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of Xilinx, Inc.",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Pensando acquisition"
+            ],
+            "attributes": {
+              "effective_date": "2022-05",
+              "event_type": "acquisition",
+              "target_company": "Pensando Systems, Inc."
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of Pensando Systems, Inc.",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Sunnyvale Superfund sites",
+              "AMD Superfund sites"
+            ],
+            "attributes": {
+              "accrued_liability_usd": 3900000,
+              "location": "Sunnyvale, California",
+              "regulator": "U.S. EPA / California Regional Water Quality Control Board",
+              "sites": 3,
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "AMD Sunnyvale Superfund Environmental Remediation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Dr. Lisa Su"
+            ],
+            "attributes": {
+              "current_company_id": "AMD",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Lisa Su",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "AMD DEI program"
+            ],
+            "attributes": {
+              "commitment_type": "dei"
+            },
+            "identifiers": {},
+            "name": "AMD Diversity, Belonging and Inclusion Program",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Data Center Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Client Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Gaming Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Embedded Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of Xilinx, Inc.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of Pensando Systems, Inc.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Sunnyvale Superfund Environmental Remediation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Lisa Su",
+            "source_type_entity": "Person",
+            "target_name": "Advanced Micro Devices, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Diversity, Belonging and Inclusion Program",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-23-000047.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "16776a312218159b8ad818ed2280b55b52df2f798e9a04d40790961068cfdf3b"
+    }
+  ],
+  "prompt_version": "v3"
+}

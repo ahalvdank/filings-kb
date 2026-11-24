@@ -1,0 +1,72 @@
+{
+  "accession": "0000093410-25-000009",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T13:47:37Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "October 1 - October 31, 2024 9,521,027 $150.02 9,520,248 $51.7\nNovember 1 - November 30, 2024 7,067,420 $158.89 7,067,420 $50.5\nDecember 1 - December 31, 2024 12,874,652 $151.37 12,874,652 $48.6\nTotal October 1 - December 31, 2024 29,463,099 $152.74 29,462,320",
+            "entity_name": "CVX Q4 2024 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Chevron",
+              "CVX"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "exchange": "NYSE",
+              "ticker": "CVX"
+            },
+            "name": "Chevron Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Chevron Q4 2024 buyback"
+            ],
+            "attributes": {
+              "avg_price_per_share": 152.74,
+              "period": "Q4 2024",
+              "remaining_authorization_usd": 48600000000,
+              "return_type": "buyback",
+              "shares_purchased": 29463099
+            },
+            "identifiers": {},
+            "name": "CVX Q4 2024 Share Repurchases",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Q4 2024 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-25-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "e20011a7948b83b102423660ccc53dce03516eb90dfc36dece3c923fdd30dcdc"
+    }
+  ],
+  "prompt_version": "v3"
+}

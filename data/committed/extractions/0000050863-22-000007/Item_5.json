@@ -1,0 +1,1599 @@
+{
+  "accession": "0000050863-22-000007",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-28T19:06:07Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "segment",
+            "content": "We delivered our sixth consecutive year of revenue growth, to $40.5 billion, as the PC continues to be more essential than ever.",
+            "entity_name": "INTC Client Computing Group",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "segment",
+            "content": "Operating income decreased 3% year over year, and operating margin was 36% in 2021.",
+            "entity_name": "INTC Client Computing Group",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "segment",
+            "content": "Amid effects of industry component supply constraints and a competitive environment, revenue decreased 1% year over year.",
+            "entity_name": "INTC Data Center Group",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "segment",
+            "content": "Operating income decreased 34% year over year, and operating margin was 27% in 2021.",
+            "entity_name": "INTC Data Center Group",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue was up 33%, driven by increased demand for IOTG platform products due to recovery from the economic impacts of COVID-19 across all key market segments. Most notably, we saw strength in our retail, industrial, and healthcare market segments.",
+            "entity_name": "INTC Internet of Things Group",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "segment",
+            "content": "We achieved record revenue in 2021 as global vehicle production improved amid recovery from the economic impacts of COVID-19. Our EyeQ SoC volume grew 42% and we expect to see additional growth in the adoption of enhanced ADAS technologies. We have shipped over 100 million chips to date, including 28 million EyeQ SoCs in 2021.",
+            "entity_name": "INTC Mobileye Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We will continue to look for opportunities to further our strategy through acquisitions and intend to maintain our dividend.",
+            "entity_name": "INTC Dividend Maintenance Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5",
+              "update_type": "revision_down"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect our future stock repurchases to be significantly below our levels from the last few years.",
+            "entity_name": "INTC Share Repurchase Reduction Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We operate in a particularly competitive market. In processors, we compete with AMD and vendors who design applications processors based on ARM architecture, such as Qualcomm Inc. (Qualcomm), and, increasingly, Apple Inc., (Apple) with its most recent launch of M1 Max and M1 Pro. We expect this competitive environment to intensify in 2022.",
+            "entity_name": "INTC CCG Competitive Intensity Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We continue to face industry-wide supply constraints, which are expected to persist into 2022.",
+            "entity_name": "INTC Industry-Wide Supply Chain Constraints Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "We take action when investments do not strategically align to our key priorities, and subsequent to our fiscal 2021 year-end, we completed the first closing of the divestiture of our NAND memory business.",
+            "entity_name": "Intel NAND Memory Business Divestiture",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "In December 2021, we announced our intention to take Mobileye public in the US via an IPO of newly issued Mobileye stock. Intel expects to retain majority ownership of Mobileye following the completion of the IPO.",
+            "entity_name": "Intel Mobileye IPO Announcement",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "Our key acquisitions over the last three years include our 2020 acquisition of Moovit to accelerate Mobileye's mobility-as-a-service offering and our 2019 acquisition of Habana Labs to strengthen and extend the reach of our AI portfolio.",
+            "entity_name": "Intel Acquisition of Moovit",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "Our key acquisitions over the last three years include our 2020 acquisition of Moovit to accelerate Mobileye's mobility-as-a-service offering and our 2019 acquisition of Habana Labs to strengthen and extend the reach of our AI portfolio.",
+            "entity_name": "Intel Acquisition of Habana Labs",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "Through our 2030 goals we will continue to drive to higher levels of operational efficiency, including a goal of a further 10% reduction in our carbon emissions on an absolute basis even as we continue to grow.",
+            "entity_name": "INTC 2030 GHG Emissions Reduction Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "We also invest in green power and on-site alternative energy projects in support of our 2030 goal to achieve 100% renewable energy use across our global manufacturing operations. We have reached 81% renewable energy globally.",
+            "entity_name": "INTC 2030 Renewable Energy Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "Through our 2030 goals, we have committed to conserve an additional 60 billion gallons in this decade. As part of this commitment, we plan to achieve net positive water use globally.",
+            "entity_name": "INTC 2030 Water Conservation Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "Our RISE strategy and 2030 goals set our global ambitions for the rest of the decade, including doubling the number of women in senior leadership; doubling the number of underrepresented minorities in US senior leadership; and embedding inclusive leadership practices across our business.",
+            "entity_name": "INTC 2030 DEI Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Here at Intel, we take pride in attracting some of the world's best engineers, technologists, and innovators. We are advocates for a patent system that eliminates abuse by hedge funds and others who exploit weaknesses in the system to drive their profits at the expense of those of us who actually invent, create, and produce products that are central to the modern economy. —Steve Rodgers, Executive Vice President and General Counsel",
+            "entity_name": "Steve Rodgers",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Process and packaging are at the very heart of Intel’s heritage and are the foundation of everything we build. With the roadmaps we unveiled this year, we plan to accelerate our rate of innovation to reach process performance-per-watt parity by 2024 and leadership by 2025, and to maintain advanced packaging leadership. —Dr. Ann Kelleher, Executive Vice President and General Manager of Technology Development",
+            "entity_name": "Ann Kelleher",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "executive_biography",
+            "content": "At Intel we tackle hard problems, think boldly, and create technology that improves the life of every person on the planet. Our culture unleashes the diverse perspectives, experiences, and potential of our employees to drive innovation and business results for Intel and our customers. —Christy Pambianchi, Executive Vice President and Chief People Officer",
+            "entity_name": "Christy Pambianchi",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "executive_biography",
+            "content": "In alignment with our IDM 2.0 strategy, we are repositioning Intel for growth by increasing our investment in internal manufacturing, expanding our global capacity for supply chain resiliency, and delivering on world class manufacturing execution. —Keyvan Esfarjani, Senior Vice President and General Manager of Manufacturing, Supply Chain, and Operations",
+            "entity_name": "Keyvan Esfarjani",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "executive_biography",
+            "content": "At Intel our customer first mindset means that we put customer needs at the center of our business. We are committed to our customers’ success by delivering a portfolio of high quality products, performance, and experiences to solve the world’s most challenging problems. —Michelle Johnston Holthaus, Executive Vice President and General Manager of the Sales, Marketing, and Communications Group",
+            "entity_name": "Michelle Johnston Holthaus",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Intel has the breadth and depth of leadership products to solve our customers’ most complex problems in a world where the digitization of everything is accelerating the need for high-performance computing. —Sandra Rivera, Executive Vice President and General Manager, Data Center and AI Group",
+            "entity_name": "Sandra Rivera",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "executive_biography",
+            "content": "The future of autonomous driving will be driven by the expansion of Robotaxis, followed by the proliferation of consumer level AVs. While it is too early to determine which realm will dominate, Mobileye is uniquely positioned to become a leader in both spaces. —Prof. Amnon Shashua, President and Chief Executive Officer, Mobileye",
+            "entity_name": "Amnon Shashua",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Intel",
+              "INTC"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "Intel Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "parent": "Intel Corporation"
+            },
+            "identifiers": {},
+            "name": "Mobileye",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "CCG",
+              "Client Computing Group"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Client Computing Group",
+              "ticker": "INTC"
+            },
+            "name": "INTC Client Computing Group",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "DCG",
+              "Data Center Group"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center Group",
+              "ticker": "INTC"
+            },
+            "name": "INTC Data Center Group",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "IOTG",
+              "Internet of Things Group"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Internet of Things Group",
+              "ticker": "INTC"
+            },
+            "name": "INTC Internet of Things Group",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Mobileye"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Mobileye",
+              "ticker": "INTC"
+            },
+            "name": "INTC Mobileye Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "dividend",
+              "period": "FY2022_forward",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "INTC Dividend Maintenance Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "share_repurchases",
+              "new_value": "significantly below recent levels",
+              "period": "FY2022_forward",
+              "update_type": "revision_down"
+            },
+            "identifiers": {},
+            "name": "INTC Share Repurchase Reduction Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Intel PC market competitive risk"
+            ],
+            "attributes": {
+              "category": "competitive",
+              "competitors_cited": [
+                "AMD",
+                "Qualcomm",
+                "Apple"
+              ],
+              "segment": "Client Computing Group"
+            },
+            "identifiers": {},
+            "name": "INTC CCG Competitive Intensity Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel supply constraints 2022"
+            ],
+            "attributes": {
+              "category": "supply_chain",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "INTC Industry-Wide Supply Chain Constraints Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "NAND divestiture",
+              "Dalian factory sale"
+            ],
+            "attributes": {
+              "business_unit": "NAND memory business",
+              "event_type": "divestiture",
+              "status": "first closing completed subsequent to fiscal 2021 year-end"
+            },
+            "identifiers": {},
+            "name": "Intel NAND Memory Business Divestiture",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Mobileye IPO 2022"
+            ],
+            "attributes": {
+              "announcement_date": "2021-12",
+              "event_type": "business_combination",
+              "note": "Intel expects to retain majority ownership following IPO completion",
+              "subsidiary": "Mobileye"
+            },
+            "identifiers": {},
+            "name": "Intel Mobileye IPO Announcement",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Moovit acquisition 2020"
+            ],
+            "attributes": {
+              "effective_date": "2020",
+              "event_type": "acquisition",
+              "purpose": "accelerate Mobileye mobility-as-a-service offering",
+              "target_company": "Moovit"
+            },
+            "identifiers": {},
+            "name": "Intel Acquisition of Moovit",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Habana Labs acquisition 2019"
+            ],
+            "attributes": {
+              "effective_date": "2019",
+              "event_type": "acquisition",
+              "purpose": "strengthen and extend AI portfolio",
+              "target_company": "Habana Labs"
+            },
+            "identifiers": {},
+            "name": "Intel Acquisition of Habana Labs",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel 10% carbon reduction 2030"
+            ],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "target_value": "10% absolute reduction in carbon emissions",
+              "target_year": 2030
+            },
+            "identifiers": {},
+            "name": "INTC 2030 GHG Emissions Reduction Commitment",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Intel 100% renewable energy 2030"
+            ],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "current_progress_pct": 81,
+              "target_value": "100% renewable energy for global manufacturing operations",
+              "target_year": 2030
+            },
+            "identifiers": {},
+            "name": "INTC 2030 Renewable Energy Commitment",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Intel net positive water use 2030"
+            ],
+            "attributes": {
+              "commitment_type": "water_use",
+              "target_value": "conserve additional 60 billion gallons; achieve net positive water use globally",
+              "target_year": 2030
+            },
+            "identifiers": {},
+            "name": "INTC 2030 Water Conservation Commitment",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Intel RISE DEI 2030"
+            ],
+            "attributes": {
+              "commitment_type": "dei",
+              "target_year": 2030,
+              "targets": "double women in senior leadership; double underrepresented minorities in US senior leadership"
+            },
+            "identifiers": {},
+            "name": "INTC 2030 DEI Commitment",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "officer",
+              "officer_role": "GeneralCounsel"
+            },
+            "identifiers": {},
+            "name": "Steve Rodgers",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Dr. Ann Kelleher"
+            ],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "Ann Kelleher",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "Christy Pambianchi",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "Keyvan Esfarjani",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "Michelle Johnston Holthaus",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "Sandra Rivera",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Prof. Amnon Shashua"
+            ],
+            "attributes": {
+              "current_company_id": "Mobileye",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Amnon Shashua",
+            "type": "Person"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "margin": 0.36,
+              "period": "FY2021",
+              "revenue": 40500000000
+            },
+            "source_name": "INTC 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Client Computing Group",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.01,
+              "margin": 0.27,
+              "period": "FY2021"
+            },
+            "source_name": "INTC 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Data Center Group",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.33,
+              "period": "FY2021"
+            },
+            "source_name": "INTC 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Internet of Things Group",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "record revenue; EyeQ SoC volume grew 42%",
+              "period": "FY2021"
+            },
+            "source_name": "INTC 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Mobileye Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "INTC 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Dividend Maintenance Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "revision_down"
+            },
+            "source_name": "INTC 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Share Repurchase Reduction Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC CCG Competitive Intensity Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Industry-Wide Supply Chain Constraints Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "Intel NAND Memory Business Divestiture",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "Intel Mobileye IPO Announcement",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "Intel Acquisition of Moovit",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "Intel Acquisition of Habana Labs",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2030 GHG Emissions Reduction Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2030 Renewable Energy Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2030 Water Conservation Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2030 DEI Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Executive Vice President and General Counsel"
+            },
+            "source_name": "Steve Rodgers",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Executive Vice President and General Manager of Technology Development"
+            },
+            "source_name": "Ann Kelleher",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Executive Vice President and Chief People Officer"
+            },
+            "source_name": "Christy Pambianchi",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Senior Vice President and General Manager of Manufacturing, Supply Chain, and Operations"
+            },
+            "source_name": "Keyvan Esfarjani",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Executive Vice President and General Manager of the Sales, Marketing, and Communications Group"
+            },
+            "source_name": "Michelle Johnston Holthaus",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Executive Vice President and General Manager, Data Center and AI Group"
+            },
+            "source_name": "Sandra Rivera",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "President and Chief Executive Officer"
+            },
+            "source_name": "Amnon Shashua",
+            "source_type_entity": "Person",
+            "target_name": "Mobileye",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/INTC/0000050863-22-000007.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "96778abc085bf4b15a2a80c3f220f445a83c968b0ac7129b899c7435457821c1"
+    },
+    {
+      "extracted_at": "2026-07-28T19:15:04Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "segment",
+            "content": "IOTG revenue increased $991 million, primarily driven by $1.1 billion related to higher demand for IOTG platform products amid recovery from the economic impacts of COVID-19, partially offset by $115 million due to lower ASPs.",
+            "entity_name": "INTC IOTG Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "segment",
+            "content": "Mobileye revenue increased $419 million, driven by improvement in global vehicle production, recovery from the economic impacts of COVID-19, and increasing adoption of ADAS compared to 2020.",
+            "entity_name": "INTC Mobileye Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2020",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "segment",
+            "content": "Mobileye revenue was $967 million, up $88 million, driven by higher demand from improved global vehicle production in the second half of 2020, offsetting the decline in production experienced in the first half of the year due to the effects of the COVID-19 pandemic.",
+            "entity_name": "INTC Mobileye Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue decreased $1.1 billion, driven by $712 million lower ASPs due to market softness and pricing pressure and $392 million due to the transfer of the Intel Optane memory business to DCG.",
+            "entity_name": "INTC NSG Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "segment",
+            "content": "NSG had an operating profit of $1.4 billion, up from an operating profit of $361 million in 2020. The operating profit was driven by $1.4 billion of improvements in unit cost, primarily driven by the absence of depreciation expense from NAND property, plant and equipment that was held for sale, $366 million of lower period charges, and $220 million of lower operating expenses, partially offset by $929 million of lower revenue primarily on ASP decline.",
+            "entity_name": "INTC NSG Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue increased $81 million, driven by recovery in the embedded and communications market segments from COVID-19 lows, partially offset by customer inventory digestion in the cloud market segment.",
+            "entity_name": "INTC PSG Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "segment",
+            "content": "DCG revenue decreased 1% primarily due to lower ASPs driven by product mix and a competitive environment, partially offset by higher platform volume from recovery in the enterprise and government market segment.",
+            "entity_name": "INTC DCG Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "segment",
+            "content": "CCG revenue grew 1% due to continued strength in notebook demand and recovery in desktop demand, partially offset by lower notebook ASPs due to strength in the consumer and education market segments.",
+            "entity_name": "INTC CCG Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "In October 2020, we signed an agreement with SK hynix to divest our NAND memory business. The NAND memory business makes up our NSG segment. The transaction will occur over two closings, the first of which was completed on December 29, 2021, subsequent to our fiscal 2021 year-end. We will fully deconsolidate our ongoing interests in the NAND OpCo Business in the first quarter of 2022.",
+            "entity_name": "INTC NAND Memory Business Divestiture to SK hynix",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Litigation charges and other includes a charge of $2.2 billion in the first quarter of 2021 related to the VLSI Technology LLC (VLSI) litigation, which is recorded as a corporate charge in the \"all other\" category presented in \"Note 3: Operating Segments\" within Notes to Consolidated Financial Statements.",
+            "entity_name": "VLSI Technology LLC v. Intel",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "The goodwill related to these businesses was impaired, resulting in a charge of $238 million recognized in the second quarter of 2021 in the \"all other\" category along with other impairment charges related to these businesses.",
+            "entity_name": "INTC Q2 2021 Goodwill Impairment on Non-Strategic Businesses",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "Asset impairment charges includes impairments related to the shutdown in the second quarter of 2021 of two of our non-strategic businesses, the results of which are included in the \"all other\" category presented in \"Note 3: Operating Segments\" within Notes to Consolidated Financial Statements.",
+            "entity_name": "INTC Q2 2021 Shutdown of Two Non-Strategic Businesses",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "We also announced with the US Defense Advanced Research Projects Agency a three-year partnership to advance the development of domestically manufactured structured ASIC platforms.",
+            "entity_name": "INTC DARPA Three-Year Structured ASIC R&D Partnership",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "During 2021, we issued a total of $5.0 billion aggregate principal amount of senior notes, and entered into a $5.0 billion variable-rate revolving credit facility that matures in March 2026.",
+            "entity_name": "INTC 2021 $5.0B Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "During 2021, we issued a total of $5.0 billion aggregate principal amount of senior notes, and entered into a $5.0 billion variable-rate revolving credit facility that matures in March 2026.",
+            "entity_name": "INTC 2021 $5.0B Variable-Rate Revolving Credit Facility",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "We repaid $500 million of our 1.70% senior notes that matured in May 2021 and $2.0 billion of our 3.30% senior notes that matured in October 2021.",
+            "entity_name": "INTC Repayment of $500M 1.70% Senior Notes May 2021",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "We repaid $500 million of our 1.70% senior notes that matured in May 2021 and $2.0 billion of our 3.30% senior notes that matured in October 2021.",
+            "entity_name": "INTC Repayment of $2.0B 3.30% Senior Notes October 2021",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In the first quarter of 2021, we repurchased the remaining $2.4 billion in shares of our planned $20.0 billion share repurchases announced in October 2019.",
+            "entity_name": "INTC Q1 2021 $2.4B Share Repurchase Completion",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Our total dividend payments were $5.6 billion in 2021 compared to $5.6 billion in 2020. We have paid a cash dividend in each of the past 117 quarters.",
+            "entity_name": "INTC FY2021 Dividend Payments",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "As of December 25, 2021 we had commitments for capital expenditures of $22.3 billion for 2022, and we expect our total capital expenditures for 2022 to be above that amount.",
+            "entity_name": "INTC FY2022 Capital Expenditure Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5",
+              "update_type": "revision_down"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect our future stock repurchases to be significantly below our levels from the last few years.",
+            "entity_name": "INTC Future Stock Repurchase Reduction Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Internet of Things Group",
+              "IOTG"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "IOTG",
+              "ticker": "INTC"
+            },
+            "name": "INTC IOTG Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Mobileye"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Mobileye",
+              "ticker": "INTC"
+            },
+            "name": "INTC Mobileye Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "NAND Solutions Group",
+              "NSG"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "NSG",
+              "ticker": "INTC"
+            },
+            "name": "INTC NSG Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Programmable Solutions Group",
+              "PSG"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "PSG",
+              "ticker": "INTC"
+            },
+            "name": "INTC PSG Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Data Center Group",
+              "DCG"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "DCG",
+              "ticker": "INTC"
+            },
+            "name": "INTC DCG Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Client Computing Group",
+              "CCG"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "CCG",
+              "ticker": "INTC"
+            },
+            "name": "INTC CCG Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "NSG divestiture",
+              "NAND business sale to SK hynix"
+            ],
+            "attributes": {
+              "agreement_date": "2020-10",
+              "counterparty": "SK hynix",
+              "event_type": "divestiture",
+              "first_closing_date": "2021-12-29"
+            },
+            "identifiers": {},
+            "name": "INTC NAND Memory Business Divestiture to SK hynix",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "VLSI litigation"
+            ],
+            "attributes": {
+              "charge_period": "Q1 2021",
+              "charge_recognized_usd": 2200000000,
+              "counterparty": "VLSI Technology LLC",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "VLSI Technology LLC v. Intel",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "charge_usd": 238000000,
+              "event_type": "goodwill_impairment",
+              "period": "Q2 2021"
+            },
+            "identifiers": {},
+            "name": "INTC Q2 2021 Goodwill Impairment on Non-Strategic Businesses",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "event_type": "restructuring",
+              "period": "Q2 2021"
+            },
+            "identifiers": {},
+            "name": "INTC Q2 2021 Shutdown of Two Non-Strategic Businesses",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel DARPA ASIC partnership"
+            ],
+            "attributes": {
+              "counterparty": "US Defense Advanced Research Projects Agency",
+              "duration_years": 3,
+              "event_type": "joint_venture",
+              "focus": "domestically manufactured structured ASIC platforms"
+            },
+            "identifiers": {},
+            "name": "INTC DARPA Three-Year Structured ASIC R&D Partnership",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "notes",
+              "issuance_year": "2021",
+              "principal_usd": 5000000000
+            },
+            "identifiers": {},
+            "name": "INTC 2021 $5.0B Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "revolver",
+              "maturity": "2026-03",
+              "principal_usd": 5000000000,
+              "rate_type": "variable"
+            },
+            "identifiers": {},
+            "name": "INTC 2021 $5.0B Variable-Rate Revolving Credit Facility",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "coupon": 0.017,
+              "instrument_type": "notes",
+              "maturity_date": "2021-05",
+              "principal_usd": 500000000,
+              "transaction_type": "repayment"
+            },
+            "identifiers": {},
+            "name": "INTC Repayment of $500M 1.70% Senior Notes May 2021",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "coupon": 0.033,
+              "instrument_type": "notes",
+              "maturity_date": "2021-10",
+              "principal_usd": 2000000000,
+              "transaction_type": "repayment"
+            },
+            "identifiers": {},
+            "name": "INTC Repayment of $2.0B 3.30% Senior Notes October 2021",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "INTC $20B buyback program completion"
+            ],
+            "attributes": {
+              "amount_usd": 2400000000,
+              "effective_date": "2021-Q1",
+              "program_announced": "2019-10",
+              "program_total_usd": 20000000000,
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "INTC Q1 2021 $2.4B Share Repurchase Completion",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 5600000000,
+              "consecutive_dividend_quarters": 117,
+              "period": "FY2021",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "INTC FY2021 Dividend Payments",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "capital_expenditures",
+              "new_value": "above_22300000000",
+              "period": "FY2022",
+              "unit": "USD",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "INTC FY2022 Capital Expenditure Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "stock_repurchases",
+              "qualitative_guidance": "significantly below levels from last few years",
+              "update_type": "revision_down"
+            },
+            "identifiers": {},
+            "name": "INTC Future Stock Repurchase Reduction Guidance",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.33,
+              "operating_income_change_usd": 548000000,
+              "period": "FY2021",
+              "revenue_change_usd": 991000000
+            },
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC IOTG Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.43,
+              "operating_income_change_usd": 219000000,
+              "period": "FY2021",
+              "revenue": 1386000000,
+              "revenue_change_usd": 419000000
+            },
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Mobileye Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "operating_income_prior_year_usd": 361000000,
+              "operating_income_usd": 1400000000,
+              "period": "FY2021",
+              "revenue_change_usd": -1100000000
+            },
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC NSG Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.04,
+              "operating_income_change_usd": 37000000,
+              "period": "FY2021",
+              "revenue_change_usd": 81000000
+            },
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC PSG Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.01,
+              "period": "FY2021"
+            },
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC DCG Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.01,
+              "period": "FY2021"
+            },
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC CCG Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC NAND Memory Business Divestiture to SK hynix",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "VLSI Technology LLC v. Intel",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Q2 2021 Goodwill Impairment on Non-Strategic Businesses",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Q2 2021 Shutdown of Two Non-Strategic Businesses",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC DARPA Three-Year Structured ASIC R&D Partnership",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2021 $5.0B Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2021 $5.0B Variable-Rate Revolving Credit Facility",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Repayment of $500M 1.70% Senior Notes May 2021",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Repayment of $2.0B 3.30% Senior Notes October 2021",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Q1 2021 $2.4B Share Repurchase Completion",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC FY2021 Dividend Payments",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC FY2022 Capital Expenditure Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "revision_down"
+            },
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Future Stock Repurchase Reduction Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/INTC/0000050863-22-000007.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "10df6b87fcff98ce74682a26179c1fd22be667eaad9817cd54f5f89459bca5b0"
+    }
+  ],
+  "prompt_version": "v3"
+}

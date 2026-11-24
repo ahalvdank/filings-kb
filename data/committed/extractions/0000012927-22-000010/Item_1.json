@@ -1,0 +1,352 @@
+{
+  "accession": "0000012927-22-000010",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T09:27:24Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "This segment develops, produces and markets commercial jet aircraft and provides fleet support services, principally to the commercial airline industry worldwide. We are a leading producer of commercial aircraft and offer a family of commercial jetliners designed to meet a broad spectrum of global passenger and cargo requirements of airlines. This family of commercial jet aircraft in production includes the 737 narrow-body model and the 747, 767, 777 and 787 wide-body models. Development continues on the 777X program and certain 737 MAX derivatives.",
+            "entity_name": "BA Commercial Airplanes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "BDS' primary customer is the United States Department of Defense (U.S. DoD). Revenues from the U.S. DoD, including foreign military sales through the U.S. government, accounted for approximately 84% of its 2021 revenues. Other significant BDS customers include the National Aeronautics and Space Administration (NASA) and customers in international defense, civil and commercial satellite markets.",
+            "entity_name": "BA Defense Space & Security Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "This segment provides services to our commercial and defense customers worldwide. BGS sustains aerospace platforms and systems with a full spectrum of products and services, including supply chain and logistics management, engineering, maintenance and modifications, upgrades and conversions, spare parts, pilot and maintenance training systems and services, technical and maintenance documents, and data analytics and digital services.",
+            "entity_name": "BA Global Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "BCC seeks to ensure that Boeing customers have the financing they need to buy and take delivery of their Boeing product, while managing overall financing exposure. BCC's portfolio consists of equipment under operating leases, sales-type/finance leases, notes and other receivables, assets held for sale or re-lease and investments.",
+            "entity_name": "BA Boeing Capital Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "It is reasonably possible that costs incurred to ensure continued environmental compliance could have a material impact on our results of operations, financial condition or cash flows if additional work requirements or more stringent clean-up standards are imposed by regulators, new areas of soil, air and groundwater contamination are discovered and/or expansions of work scope are prompted by the results of investigations.",
+            "entity_name": "BA Environmental Compliance Cost Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We could also be affected by future laws and regulations relating to climate change, including laws related to greenhouse gas emissions. These laws and regulations could lead to increased environmental compliance expenditures, increased energy and raw materials costs and new and/or additional investment in designs and technologies.",
+            "entity_name": "BA Climate Change Regulatory Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are dependent upon the ability of a large number of U.S. and non-U.S. suppliers and subcontractors to meet performance specifications, quality standards and delivery schedules at our anticipated costs. While we maintain an extensive qualification and performance surveillance system to control risk associated with such reliance on third parties, failure of suppliers or subcontractors to meet commitments could adversely affect production schedules and program/contract profitability, thereby jeopardizing our ability to fulfill commitments to our customers.",
+            "entity_name": "BA Supplier and Subcontractor Dependency Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The U.S. government, and other governments, may terminate any of our government contracts at their convenience, as well as for default based on our failure to meet specified performance requirements. If any of our U.S. government contracts were to be terminated for convenience, we generally would be entitled to receive payment for work completed and allowable termination or cancellation costs. If any of our government contracts were to be terminated for default, generally the U.S. government would pay only for the work that has been accepted and could require us to pay the difference between the original contract price and the cost to re-procure the contract items, net of the work accepted from the original contract.",
+            "entity_name": "BA Government Contract Termination Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "We aspire to be the most equitable, diverse and inclusive company. Guided by our values, we are committed to creating a company where everyone is included and respected, and where we support each other in reaching our full potential. We are committed to diverse representation across all levels of our workforce to reflect the vibrant and thriving diversity of the communities in which we live and work.",
+            "entity_name": "Boeing Global Equity Diversity and Inclusion Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing",
+              "BA"
+            ],
+            "attributes": {
+              "hq_city": "Chicago, Illinois",
+              "incorporated_state": "Delaware"
+            },
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "The Boeing Company",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "BCA",
+              "Commercial Airplanes"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Commercial Airplanes",
+              "ticker": "BA"
+            },
+            "name": "BA Commercial Airplanes Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BDS",
+              "Defense, Space & Security"
+            ],
+            "attributes": {
+              "dod_revenue_pct_2021": 0.84,
+              "primary_customer": "U.S. Department of Defense"
+            },
+            "identifiers": {
+              "segment_name": "Defense, Space & Security",
+              "ticker": "BA"
+            },
+            "name": "BA Defense Space & Security Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BGS",
+              "Global Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Global Services",
+              "ticker": "BA"
+            },
+            "name": "BA Global Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BCC",
+              "Boeing Capital"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Boeing Capital",
+              "ticker": "BA"
+            },
+            "name": "BA Boeing Capital Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Boeing environmental remediation risk",
+              "Boeing PRP liability risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "subcategory": "environmental_compliance"
+            },
+            "identifiers": {},
+            "name": "BA Environmental Compliance Cost Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing climate legislation risk",
+              "Boeing GHG regulation risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "subcategory": "climate_legislation"
+            },
+            "identifiers": {},
+            "name": "BA Climate Change Regulatory Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing supply chain concentration risk",
+              "Boeing sole-source supplier risk"
+            ],
+            "attributes": {
+              "category": "supply_chain"
+            },
+            "identifiers": {},
+            "name": "BA Supplier and Subcontractor Dependency Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing U.S. government contract termination risk"
+            ],
+            "attributes": {
+              "category": "government_contract",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "BA Government Contract Termination Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing DEI commitment",
+              "Boeing GED&I"
+            ],
+            "attributes": {
+              "commitment_type": "dei"
+            },
+            "identifiers": {},
+            "name": "Boeing Global Equity Diversity and Inclusion Commitment",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "period": "FY2021"
+            },
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Commercial Airplanes Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021"
+            },
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Defense Space & Security Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021"
+            },
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Global Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021"
+            },
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Boeing Capital Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Environmental Compliance Cost Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Climate Change Regulatory Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Supplier and Subcontractor Dependency Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Government Contract Termination Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Global Equity Diversity and Inclusion Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-22-000010.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "22b5953d20cf7a522b484ea7b5fe12284c83da81c9471e571e96a6e523bf6f56"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,945 @@
+{
+  "accession": "0001652044-26-000018",
+  "item": "Item_1A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T13:26:20Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We generated more than 70% of total revenues from online advertising in 2025. Many of our advertisers, companies that distribute our products and services, digital publishers, and content providers can terminate their contracts with us at any time. These partners may not continue to do business with us if we do not create more value (such as increased numbers of users or customers, new sales leads, increased brand awareness, or more effective monetization) than their available alternatives.",
+            "entity_name": "GOOGL Advertising Revenue Concentration Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We believe AI is quickly reshaping the advertising industry, including how ads are delivered online, and we and our competitors are constantly adjusting to meet this shift and provide new and evolving advertising formats. There is no assurance that we will adapt effectively and competitively to meet this shift, and that such advertising formats, strategies, and offerings will be successful.",
+            "entity_name": "GOOGL AI Disruption of Advertising Industry Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "To meet the compute capacity demands of AI training and inference, as well as traditional cloud computing services, we are entering into significant leasing arrangements with third party operators, which may increase costs and operational complexity. We also have a number of large, long-duration commercial agreements, which could increase our liabilities and obligations in the event of nonperformance by us, our counterparties, or vendors. In such nonperformance or an industry downturn, we may incur additional liabilities, have excess capacity that we cannot easily redeploy, and not receive payments from our counterparties or customers.",
+            "entity_name": "GOOGL AI Infrastructure Capital Commitment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "AI technology and services are highly competitive, rapidly evolving, and require significant investment, including technical infrastructure, development, and operational costs. Our ability to deploy certain AI technologies critical for our products and services and for our business strategy may depend on the availability and pricing of third-party equipment and other technical infrastructure operations costs, including network capacity, energy, and equipment costs. Additionally, other companies may develop AI products and technologies that are similar or superior to our technologies or more cost-effective to develop or deploy. Other companies may also have (or in the future may obtain) patents or other proprietary rights that would prevent, limit, or interfere with our ability to make, use, or sell our own AI products and services.",
+            "entity_name": "GOOGL AI Competition Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our revenue growth rate could decline over time as a result of a number of factors, including changes in customer usage and demand for our existing products and increasing demand for competing technologies; changes in the devices and modalities used to access our products and services; changes in geographic mix; deceleration or declines in advertiser spending; competition; decreases in the pricing of our products and services; ongoing product and policy changes; and shifts to lower priced products and services.",
+            "entity_name": "GOOGL Revenue Growth Decline and Operating Margin Pressure Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have experienced and may in the future experience supply shortages, price increases, quality issues, or longer lead times that could harm our operations, driven by raw material or component availability, manufacturing capacity, labor shortages, industry allocations, logistics capacity, inflation, foreign currency exchange rates, tariffs, sanctions and export controls, trade disputes and barriers, forced labor concerns, sourcing requirements, geopolitical tensions, armed conflicts, natural disasters or pandemics, the effects of climate change, power and transmission availability, and significant changes in the financial or business condition of our suppliers.",
+            "entity_name": "GOOGL Manufacturing and Supply Chain Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our ability to scale our technical infrastructure is increasingly constrained by the availability of power, water, and land. For example, energy supply is constrained globally due to the significant increase in demand for and limited availability of energy to power AI compute. Securing this capacity involves entering into complex, long-lead-time arrangements. Additionally, manufacturing and supply of servers and network equipment for our technical infrastructure, particularly for specialized AI chips, is limited to a small number of qualified suppliers.",
+            "entity_name": "GOOGL Power and Energy Infrastructure Constraint Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our systems are vulnerable to damage, interference, or interruption from modifications or upgrades, terrorist attacks, state-sponsored attacks, natural disasters or pandemics, geopolitical tensions or armed conflicts, export controls and sanctions, tariffs and non-tariff trade barriers, the effects of climate change, power and transmission availability challenges, utility outages, telecommunications failures, computer viruses, software bugs, cyber attacks, supply-chain attacks, computer denial of service attacks, phishing schemes, or other attempts to harm or access our systems.",
+            "entity_name": "GOOGL IT Systems Interruption Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our international operations are significant to our revenues and net income, and we plan to continue growing internationally. International revenues accounted for approximately 52% of consolidated revenues in 2025. In addition to risks described elsewhere in this section, our international operations expose us to other risks, including: restrictions on foreign ownership and investments, and stringent foreign exchange controls that might prevent us from repatriating cash earned in countries outside the US; sanctions, tariffs, import and export controls, other market access barriers, political unrest, geopolitical tensions, changes in regimes, or armed conflict (such as ongoing conflicts in the Middle East and Ukraine), any of which may affect our business continuity, increase our operating costs, limit demand for our products and services, limit our ability to source components or final products, or prevent or impede us from operating in certain jurisdictions, complying with local laws, or offering products or services",
+            "entity_name": "GOOGL International Operations and Geopolitical Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our evolving AI-enabled products and services may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infringement or misappropriation, violation of rights of publicity, defamation, data privacy, cybersecurity, minor protection, and other issues. As a result of these and other challenges associated with innovative technologies, our implementation of AI systems could subject us to competitive harm, regulatory action, legal liability (including under new and proposed legislation and regulations), new applications of existing data protection, privacy, intellectual property, and other laws, and brand or reputational harm.",
+            "entity_name": "GOOGL AI Development Liability and Regulatory Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Concerns about, including the adequacy of, our practices with regard to the collection, use, governance, disclosure, or security of personal data or other data-privacy-related matters, even if unfounded, could harm our business, reputation, financial condition, and operating results. Our products and services involve the storage, handling, and transmission of proprietary and other sensitive information. Malicious software such as viruses, software bugs, theft, misuse, defects, vulnerabilities in our products and services, as well as cyber attacks, phishing schemes, and other types of security attacks, which increasingly use AI, expose us to a risk of loss or improper use and disclosure of such information, which could result in litigation and other potential liabilities, including regulatory fines and penalties, as well as reputational harm.",
+            "entity_name": "GOOGL Data Privacy and Cybersecurity Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We experience cyber attacks and other attempts to gain unauthorized access to our systems on a regular basis. Cyber attacks continue to evolve in sophistication and volume, and inherently may be difficult to detect for long periods of time. The development and implementation of AI technologies may further increase our exposure to or exacerbate the risks of cyber attacks or other security incidents, particularly where such technologies are exploited by third parties to breach our or other parties' systems, including when such technologies are used to target our employees or impersonate members of senior management in order to gain unauthorized access to our systems.",
+            "entity_name": "GOOGL Cyber Attack and Nation-State Threat Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are subject to numerous US federal and state as well as foreign laws and regulations covering a wide variety of subjects, and our introduction of new businesses, products, services, and technologies will likely continue to subject us to additional laws and regulations. In recent years, governments around the world have proposed and adopted a large number of new laws and regulations relevant to the digital economy, particularly in the areas of data privacy and security, competition, AI, and online content. The costs of compliance with these measures are high and are likely to increase in the future, including as a result of differing, and sometimes conflicting, laws and regulations.",
+            "entity_name": "GOOGL Regulatory Compliance and Changing Laws Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Further, due to shifting economic and political conditions, tax policies, laws, or rates in various jurisdictions may be subject to significant changes in ways that could harm our financial condition and operating results. For example, various jurisdictions around the world have enacted or are considering revenue-based taxes such as digital services taxes and other targeted taxes, which could lead to inconsistent and potentially overlapping international tax regimes. The US has imposed a 1% excise tax on the fair market value of shares repurchased, which could increase in the future. Over 140 countries are negotiating changes to international tax policies led by the Organization for Economic Cooperation and Development (OECD), including a 15% global minimum tax rate.",
+            "entity_name": "GOOGL Tax Rate Change and International Tax Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Because we conduct business in currencies other than US dollars but report our financial results in US dollars, we have faced, and will continue to face, exposure to fluctuations in foreign currency exchange rates. Although we hedge a portion of our international currency exposure, significant fluctuations in exchange rates between the US dollar and foreign currencies have and may in the future adversely affect our revenues and earnings. Hedging programs are also inherently risky and could expose us to additional risks that could harm our financial condition and operating results.",
+            "entity_name": "GOOGL Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We, like other internet, technology, and media companies, are frequently subject to litigation based on allegations of infringement or other violations of intellectual property rights, including patent, copyright, trade secrets, and trademarks. Parties have also sought broad injunctive relief against us by filing claims in US and international courts and the US International Trade Commission (ITC) for exclusion and cease-and-desist orders. In addition, patent-holding companies may frequently seek to generate income from patents they have obtained by bringing claims against us.",
+            "entity_name": "GOOGL Intellectual Property Infringement Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2025, Larry Page and Sergey Brin beneficially owned approximately 89.3% of our outstanding Class B stock, which represented approximately 52.7% of the voting power of our outstanding common stock. Through their stock ownership, Larry and Sergey have significant influence over all matters requiring stockholder approval, including the election of directors and significant corporate transactions, such as a merger or other sale of our company or our assets, for the foreseeable future.",
+            "entity_name": "GOOGL Stock Ownership Concentration and Governance Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In August 2024, the US District Court for the District of Columbia ruled against Google, and in December 2025, entered a final judgment requiring remedies, which, among other things, imposes restrictions on how we distribute our services and requires us to share certain search data with and offer syndication services to certain competitors. In January 2026, we appealed the final judgment and moved to pause implementation of certain remedies. In February 2026, the DOJ and state Attorneys General also appealed.",
+            "entity_name": "DOJ v. Google Search Antitrust Lawsuit",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In April 2025, the presiding judge issued a mixed decision in the DOJ case against us, ruling that neither our advertiser tools nor the DoubleClick and AdMeld acquisitions were anticompetitive, but that our publisher tools unfairly excluded rivals. A separate proceeding to determine remedies, the range of which varies widely, took place in September 2025 with the parties presenting differing remedy proposals. The DOJ's remedy proposal includes structural remedies that could harm our business. Closing arguments were held in November 2025, and we are awaiting a final judgment.",
+            "entity_name": "DOJ v. Google Ad Tech Antitrust Lawsuit (E.D. Va.)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Furthermore, in December 2020, a number of state Attorneys General, led by the Texas Attorney General, filed a lawsuit in the US District Court for the Eastern District of Texas concerning our advertising technology and our compliance with US antitrust laws and other laws. A trial in the state Attorneys General case in the Eastern District of Texas will take place after a decision on remedies is issued in the DOJ advertising technology case, and could result in remedies that could harm our business, reputation, financial condition, and operating results.",
+            "entity_name": "Texas AG v. Google Ad Tech Antitrust Lawsuit (E.D. Tex.)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "online advertising dependence risk",
+              "advertiser concentration risk"
+            ],
+            "attributes": {
+              "advertising_revenue_pct_2025": 0.7,
+              "category": "revenue_concentration",
+              "segment": "Google Services"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Advertising Revenue Concentration Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "AI advertising formats risk",
+              "advertising industry AI disruption"
+            ],
+            "attributes": {
+              "category": "technology_disruption",
+              "geography": "Global"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL AI Disruption of Advertising Industry Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "AI leasing risk",
+              "long-duration commercial agreement risk"
+            ],
+            "attributes": {
+              "category": "capital_expenditure",
+              "geography": "Global"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL AI Infrastructure Capital Commitment Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "generative AI competitive risk",
+              "AI products and services competition"
+            ],
+            "attributes": {
+              "category": "competitive",
+              "geography": "Global"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL AI Competition Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "revenue growth deceleration risk",
+              "margin compression risk"
+            ],
+            "attributes": {
+              "category": "financial_performance",
+              "geography": "Global"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Revenue Growth Decline and Operating Margin Pressure Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "supply chain disruption risk",
+              "component availability risk"
+            ],
+            "attributes": {
+              "category": "supply_chain",
+              "geography": "Global"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Manufacturing and Supply Chain Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "energy supply constraint risk",
+              "AI compute energy demand risk"
+            ],
+            "attributes": {
+              "category": "infrastructure",
+              "geography": "Global"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Power and Energy Infrastructure Constraint Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "data center disruption risk",
+              "systems failure risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "geography": "Global"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL IT Systems Interruption Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "geopolitical exposure risk",
+              "international revenue risk"
+            ],
+            "attributes": {
+              "category": "geopolitical",
+              "geography": "International",
+              "international_revenue_pct_2025": 0.52
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL International Operations and Geopolitical Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "AI ethical and legal risk",
+              "AI regulation risk"
+            ],
+            "attributes": {
+              "category": "regulatory_legal",
+              "geography": "Global"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL AI Development Liability and Regulatory Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "data breach risk",
+              "privacy compliance risk",
+              "user data security risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity_privacy",
+              "geography": "Global"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Data Privacy and Cybersecurity Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "nation-state cyber attack risk",
+              "AI-enhanced cyber threat risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "geography": "Global"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Cyber Attack and Nation-State Threat Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "regulatory risk",
+              "digital regulation risk",
+              "new laws and regulations risk"
+            ],
+            "attributes": {
+              "category": "regulatory_legal",
+              "geography": "Global"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Regulatory Compliance and Changing Laws Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "digital services tax risk",
+              "OECD global minimum tax risk"
+            ],
+            "attributes": {
+              "category": "tax",
+              "geography": "Global"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Tax Rate Change and International Tax Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "FX risk",
+              "currency fluctuation risk"
+            ],
+            "attributes": {
+              "category": "financial",
+              "geography": "International"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Foreign Currency Exchange Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "IP litigation risk",
+              "patent infringement risk",
+              "copyright infringement risk"
+            ],
+            "attributes": {
+              "category": "intellectual_property",
+              "geography": "Global"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Intellectual Property Infringement Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "dual-class voting structure risk",
+              "founder voting control risk"
+            ],
+            "attributes": {
+              "category": "governance",
+              "geography": "US"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Stock Ownership Concentration and Governance Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "DOJ Search antitrust",
+              "Google Search distribution antitrust case"
+            ],
+            "attributes": {
+              "counterparty": "US Department of Justice and state Attorneys General",
+              "court": "US District Court for the District of Columbia",
+              "status": "appealed",
+              "subject": "Search and Search advertising practices and distribution"
+            },
+            "identifiers": {},
+            "name": "DOJ v. Google Search Antitrust Lawsuit",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "DOJ ad tech antitrust case",
+              "Eastern District of Virginia ad tech case"
+            ],
+            "attributes": {
+              "counterparty": "US Department of Justice and state Attorneys General",
+              "court": "US District Court for the Eastern District of Virginia",
+              "status": "pending",
+              "subject": "advertising technology antitrust"
+            },
+            "identifiers": {},
+            "name": "DOJ v. Google Ad Tech Antitrust Lawsuit (E.D. Va.)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Texas AG ad tech case",
+              "state AGs Eastern District of Texas ad tech"
+            ],
+            "attributes": {
+              "counterparty": "Texas Attorney General and coalition of state Attorneys General",
+              "court": "US District Court for the Eastern District of Texas",
+              "status": "pending",
+              "subject": "advertising technology antitrust"
+            },
+            "identifiers": {},
+            "name": "Texas AG v. Google Ad Tech Antitrust Lawsuit (E.D. Tex.)",
+            "type": "LegalProceeding"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Advertising Revenue Concentration Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL AI Disruption of Advertising Industry Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL AI Infrastructure Capital Commitment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL AI Competition Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Revenue Growth Decline and Operating Margin Pressure Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Manufacturing and Supply Chain Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Power and Energy Infrastructure Constraint Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL IT Systems Interruption Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL International Operations and Geopolitical Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL AI Development Liability and Regulatory Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Data Privacy and Cybersecurity Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Cyber Attack and Nation-State Threat Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Regulatory Compliance and Changing Laws Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Tax Rate Change and International Tax Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Foreign Currency Exchange Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Intellectual Property Infringement Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Stock Ownership Concentration and Governance Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "DOJ v. Google Search Antitrust Lawsuit",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "DOJ v. Google Ad Tech Antitrust Lawsuit (E.D. Va.)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "Texas AG v. Google Ad Tech Antitrust Lawsuit (E.D. Tex.)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "new_status": "appealed",
+              "prior_status": "pending"
+            },
+            "source_name": "DOJ v. Google Search Antitrust Lawsuit",
+            "source_type_entity": "LegalProceeding",
+            "target_name": "Alphabet Inc. 10-K FY2025",
+            "target_type_entity": "Filing",
+            "type": "legal_proceeding_status_changed_in",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-26-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "b05ee00b89cd3ceda617aea7847756718c9902c7ea99ce9bc5053314acbd02c9"
+    },
+    {
+      "extracted_at": "2026-07-19T13:28:21Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our performance and future success depends in large part upon the continued service of key technical leads as well as members of our senior management team. For instance, Sundar Pichai is critical to the overall management of Alphabet and its subsidiaries and plays an important role in the development of our technology, maintaining our culture, and setting our strategic direction.",
+            "entity_name": "Alphabet Key Personnel Dependency Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Competition in our industry for qualified employees, particularly AI talent, is intense, and certain of our competitors have directly targeted, and may continue to target, our employees. In addition, our compensation arrangements, such as our equity award programs, may not always be successful in attracting new employees and retaining and motivating our existing employees.",
+            "entity_name": "Alphabet AI Talent Competition and Retention Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Immigration policy and regulatory changes, and uncertainty regarding such policies and regulations, may also affect our ability to hire, mobilize, or retain some of our global talent.",
+            "entity_name": "Alphabet Immigration Policy Workforce Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As our organization grows and evolves, we may need to adapt our corporate culture and work environments to ever-changing circumstances, and these changes could affect our ability to compete effectively or have an adverse effect on our corporate culture.",
+            "entity_name": "Alphabet Corporate Culture Adaptation Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "key person risk",
+              "Sundar Pichai succession risk"
+            ],
+            "attributes": {
+              "category": "management",
+              "key_person": "Sundar Pichai"
+            },
+            "identifiers": {},
+            "name": "Alphabet Key Personnel Dependency Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "AI talent war risk",
+              "employee retention risk"
+            ],
+            "attributes": {
+              "category": "human_capital",
+              "talent_area": "AI"
+            },
+            "identifiers": {},
+            "name": "Alphabet AI Talent Competition and Retention Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "immigration policy risk",
+              "global talent mobility risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "Alphabet Immigration Policy Workforce Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "corporate culture risk",
+              "organizational culture risk"
+            ],
+            "attributes": {
+              "category": "operational"
+            },
+            "identifiers": {},
+            "name": "Alphabet Corporate Culture Adaptation Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "GOOGL",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Sundar Pichai",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Alphabet",
+              "Google"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "Alphabet Key Personnel Dependency Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "Alphabet AI Talent Competition and Retention Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "Alphabet Immigration Policy Workforce Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "Alphabet Corporate Culture Adaptation Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Sundar Pichai",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-26-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "edab397fcc9f74a366e9828e446a2857272d0b41301338ad58b3f922925bd6b6"
+    }
+  ],
+  "prompt_version": "v3"
+}

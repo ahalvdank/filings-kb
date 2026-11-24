@@ -1,0 +1,679 @@
+{
+  "accession": "0000012927-24-000010",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T06:45:06Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "table": "Summary of Business Segment Data"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues: Commercial Airplanes$33,901 $26,026 $19,714 Defense, Space & Security24,933 23,162 26,540 Global Services19,127 17,611 16,328 Unallocated items, eliminations and other(167)(191)(296) Total revenues$77,794 $66,608 $62,286",
+            "entity_name": "BA Commercial Airplanes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "table": "Summary of Business Segment Data"
+            },
+            "chunk_type": "segment",
+            "content": "Loss from operations: Commercial Airplanes($1,635)($2,341)($6,377) Defense, Space & Security(1,764)(3,544)1,544 Global Services3,329 2,727 2,017 Segment operating loss(70)(3,158)(2,816) Unallocated items, eliminations and other(1,759)(1,504)(1,227) FAS/CAS service cost adjustment1,056 1,143 1,173 Loss from operations(773)(3,519)(2,870)",
+            "entity_name": "BA Defense, Space & Security Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 1 net cumulative catch-up adjustments on long-term contracts",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Decrease to Revenue($1,706)($2,335)($379) Increase to Loss from operations ($2,943)($5,253)($880) Increase to Diluted loss per share ($5.43)($8.88)($1.28) Significant adjustments during the three years ended December 31, 2023 included losses on VC-25B, KC-46A Tanker, MQ-25, Commercial Crew and T-7A Red Hawk programs in addition to lower earnings on F-15 and satellites.",
+            "entity_name": "BA Defense, Space & Security Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing",
+              "BA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "The Boeing Company",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "BCA",
+              "Commercial Airplanes"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Commercial Airplanes",
+              "ticker": "BA"
+            },
+            "name": "BA Commercial Airplanes Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BDS",
+              "Defense, Space & Security"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Defense, Space & Security",
+              "ticker": "BA"
+            },
+            "name": "BA Defense, Space & Security Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BGS",
+              "Global Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Global Services",
+              "ticker": "BA"
+            },
+            "name": "BA Global Services Segment",
+            "type": "RevenueSegment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.303,
+              "margin": -0.048,
+              "period": "FY2023",
+              "revenue": 33901000000
+            },
+            "source_name": "BA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "BA Commercial Airplanes Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.076,
+              "margin": -0.071,
+              "period": "FY2023",
+              "revenue": 24933000000
+            },
+            "source_name": "BA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "BA Defense, Space & Security Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.086,
+              "margin": 0.174,
+              "period": "FY2023",
+              "revenue": 19127000000
+            },
+            "source_name": "BA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "BA Global Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-24-000010.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "4298241cc96a501c2d1ea7dc9a39ebd14bd67d4fc089848ec803711c305ed291"
+    },
+    {
+      "extracted_at": "2026-07-01T06:47:23Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note_reference": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In the third quarter of 2023, we entered into a $3,000 five-year revolving credit agreement expiring in August 2028 and a $800 364-day revolving credit agreement expiring in August 2024.",
+            "entity_name": "BA Q3 2023 $3.0B Five-Year Revolving Credit Agreement",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In the third quarter of 2023, we entered into a $3,000 five-year revolving credit agreement expiring in August 2028 and a $800 364-day revolving credit agreement expiring in August 2024. The 364-day credit facility has a one-year term out option which allows us to extend the maturity of any borrowings until August 2025.",
+            "entity_name": "BA Q3 2023 $800M 364-Day Revolving Credit Agreement",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "$3 billion five-year revolver"
+            ],
+            "attributes": {
+              "inception_period": "2023-Q3",
+              "instrument_type": "revolver",
+              "maturity": "2028-08",
+              "principal_usd": 3000000000
+            },
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "BA Q3 2023 $3.0B Five-Year Revolving Credit Agreement",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "$800 million 364-day revolver"
+            ],
+            "attributes": {
+              "inception_period": "2023-Q3",
+              "instrument_type": "revolver",
+              "maturity": "2024-08",
+              "principal_usd": 800000000,
+              "term_out_option_maturity": "2025-08"
+            },
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "BA Q3 2023 $800M 364-Day Revolving Credit Agreement",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "BA Q3 2023 $3.0B Five-Year Revolving Credit Agreement",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "BA Q3 2023 $800M 364-Day Revolving Credit Agreement",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-24-000010.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "bddae51e9f0fe53ce177a3b66f4d0aafecc745284cf02d7de76720eb060cc13c"
+    },
+    {
+      "extracted_at": "2026-07-01T06:52:47Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note 21",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On January 7, 2021, we entered into a Deferred Prosecution Agreement (DPA) with the U.S. Department of Justice that resolved the Department of Justice's investigation into us regarding the evaluation of the 737 MAX by the Federal Aviation Administration (FAA). Among other obligations, the DPA includes a three-year reporting period, which ended earlier this month. The Department is currently considering whether we fulfilled our obligations under the DPA and whether to move to dismiss the information, which motion will require court approval.",
+            "entity_name": "Boeing 737 MAX DOJ Deferred Prosecution Agreement",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 21",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In 2020, we exercised our contractual right to terminate these agreements based on Embraer's failure to meet certain required closing conditions. Embraer has disputed our right to terminate the agreements, and the dispute is currently in arbitration, which we currently expect to be resolved in 2024.",
+            "entity_name": "Boeing-Embraer Joint Venture Termination Arbitration",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 22",
+              "period": "FY2023",
+              "section_type": "Item_8",
+              "total_segment_revenue_millions": 33901
+            },
+            "chunk_type": "segment",
+            "content": "BCA develops, produces and markets commercial jet aircraft principally to the commercial airline industry worldwide. Revenue on commercial aircraft contracts is recognized at the point in time when an aircraft is completed and accepted by the customer.",
+            "entity_name": "Boeing Commercial Airplanes",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 22",
+              "period": "FY2023",
+              "section_type": "Item_8",
+              "total_revenue_from_customers_millions": 24933
+            },
+            "chunk_type": "segment",
+            "content": "BDS engages in the research, development, production and modification of the following products and related services: manned and unmanned military aircraft and weapons systems, surveillance and engagement, strategic defense and intelligence systems, satellite systems and space exploration. BDS revenue is generally recognized over the contract term (over time) as costs are incurred.",
+            "entity_name": "Boeing Defense, Space & Security",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 22",
+              "period": "FY2023",
+              "section_type": "Item_8",
+              "total_segment_revenue_millions": 19127
+            },
+            "chunk_type": "segment",
+            "content": "BGS provides parts, maintenance, modifications, logistics support, training, data analytics and information-based services to commercial and government customers worldwide. BGS segment revenue and costs include certain products and services provided to other segments.",
+            "entity_name": "Boeing Global Services",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 23",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On January 5, 2024, an Alaska Airlines 737-9 flight made an emergency landing after a mid-exit door plug detached in flight. Following the accident, the Federal Aviation Administration (FAA) grounded and required inspections of all 737-9 aircraft with a mid-exit door plug, which constitute the large majority of the approximately 220 737-9 aircraft in the in-service fleet.",
+            "entity_name": "Alaska Airlines 737-9 Mid-Exit Door Plug Detachment",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 23",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On January 10, 2024, the FAA notified Boeing that the FAA has initiated an investigation into Boeing's quality control system. On January 24, 2024, the FAA stated that it will not approve production rate increases or additional production lines for the 737 MAX until it is satisfied that Boeing is in full compliance with required quality control procedures.",
+            "entity_name": "FAA Investigation into Boeing Quality Control System",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 17",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Share-based plans expense is primarily included in Total costs and expenses and General and administrative expense, as well as a portion allocated to production as inventoried costs. The share-based plans expense and related income tax benefit were as follows: Restricted stock units and other awards$697 $726 $840",
+            "entity_name": "Boeing Share-Based Compensation Disclosure FY2023",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 23",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are currently unable to reasonably estimate what impact the accident and the related FAA actions will have on our financial position, results of operations and cash flows.",
+            "entity_name": "737 MAX Production Rate Freeze and Financial Impact Uncertainty",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "Required pension contributions under the Employee Retirement Income Security Act (ERISA), as well as rules governing funding of our non-US pension plans, are not expected to be significant in 2024. We do not expect to make discretionary contributions to our pension plans in 2024.",
+            "entity_name": "BA FY2024 Pension Contribution Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "Our backlog at December 31, 2023 was $520,195. We expect approximately 16% to be converted to revenue through 2024 and approximately 62% through 2027, with the remainder thereafter. There is significant uncertainty regarding the timing of when backlog will convert into revenue due to timing of 737 and 787 deliveries from inventory and timing of entry into service of the 777X, 737-7 and/or 737-10.",
+            "entity_name": "BA Backlog Revenue Conversion Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "The Boeing Company",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "737 MAX DPA",
+              "DOJ DPA Boeing 737 MAX"
+            ],
+            "attributes": {
+              "counterparty": "U.S. Department of Justice",
+              "dpa_date": "2021-01-07",
+              "related_accidents": "Lion Air Flight 610, Ethiopian Airlines Flight 302",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Boeing 737 MAX DOJ Deferred Prosecution Agreement",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Embraer arbitration"
+            ],
+            "attributes": {
+              "counterparty": "Embraer S.A.",
+              "expected_resolution": "2024",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Boeing-Embraer Joint Venture Termination Arbitration",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "BCA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "BCA",
+              "ticker": "BA"
+            },
+            "name": "Boeing Commercial Airplanes",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BDS"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "BDS",
+              "ticker": "BA"
+            },
+            "name": "Boeing Defense, Space & Security",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BGS"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "BGS",
+              "ticker": "BA"
+            },
+            "name": "Boeing Global Services",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Alaska Airlines 737-9 incident",
+              "737-9 door plug incident"
+            ],
+            "attributes": {
+              "event_type": "regulatory_action",
+              "incident_date": "2024-01-05",
+              "regulator": "Federal Aviation Administration"
+            },
+            "identifiers": {},
+            "name": "Alaska Airlines 737-9 Mid-Exit Door Plug Detachment",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "FAA Boeing quality control investigation",
+              "FAA 737 MAX production freeze"
+            ],
+            "attributes": {
+              "event_type": "regulatory_action",
+              "investigation_initiated": "2024-01-10",
+              "production_freeze_date": "2024-01-24",
+              "regulator": "Federal Aviation Administration"
+            },
+            "identifiers": {},
+            "name": "FAA Investigation into Boeing Quality Control System",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "event_type": "compensation_disclosure",
+              "period": "FY2023",
+              "rsu_and_other_awards_expense_millions": 697
+            },
+            "identifiers": {},
+            "name": "Boeing Share-Based Compensation Disclosure FY2023",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "FAA 737 MAX production freeze risk",
+              "737-9 grounding financial impact uncertainty"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States",
+              "triggered_by": "Alaska Airlines 737-9 door plug detachment and subsequent FAA actions"
+            },
+            "identifiers": {},
+            "name": "737 MAX Production Rate Freeze and Financial Impact Uncertainty",
+            "type": "Risk"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "pension_contributions",
+              "new_value": "not_significant_no_discretionary_contributions_expected",
+              "period": "FY2024",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "BA FY2024 Pension Contribution Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "backlog_total_millions": 520195,
+              "metric": "backlog_revenue_conversion",
+              "pct_through_2024": 0.16,
+              "pct_through_2027": 0.62,
+              "period": "FY2024_FY2027",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "BA Backlog Revenue Conversion Outlook",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing 737 MAX DOJ Deferred Prosecution Agreement",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing-Embraer Joint Venture Termination Arbitration",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.303,
+              "period": "FY2023",
+              "revenue": 33901000000
+            },
+            "source_name": "BA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Commercial Airplanes",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.076,
+              "period": "FY2023",
+              "revenue": 24933000000
+            },
+            "source_name": "BA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Defense, Space & Security",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.086,
+              "period": "FY2023",
+              "revenue": 19127000000
+            },
+            "source_name": "BA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Global Services",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "Alaska Airlines 737-9 Mid-Exit Door Plug Detachment",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "FAA Investigation into Boeing Quality Control System",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Share-Based Compensation Disclosure FY2023",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "737 MAX Production Rate Freeze and Financial Impact Uncertainty",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "BA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "BA FY2024 Pension Contribution Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "BA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "BA Backlog Revenue Conversion Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-24-000010.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "530ffe9166637cc183b96657163ea0a56482d7f27d8a501bb07aee37ec4b88ac"
+    }
+  ],
+  "prompt_version": "v3"
+}

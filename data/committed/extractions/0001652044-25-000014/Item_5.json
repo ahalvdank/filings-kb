@@ -1,0 +1,143 @@
+{
+  "accession": "0001652044-25-000014",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T14:30:56Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Dividend payments to stockholders of Class A, Class B, and Class C shares were $3.5 billion, $519 million, and $3.3 billion, respectively, for the year ended December 31, 2024.",
+            "entity_name": "GOOGL FY2024 Dividend Payments",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "The company intends to pay quarterly cash dividends in the future, subject to review and approval by the company's Board of Directors in its sole discretion. We regularly evaluate our cash and capital structure, including the size, pace, and form of capital return to stockholders.",
+            "entity_name": "GOOGL Quarterly Dividend Continuation Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Repurchases are being executed from time to time, subject to general business and market conditions and other investment opportunities, through open market purchases or privately negotiated transactions, including through Rule 10b5-1 plans. The repurchase program does not have an expiration date.",
+            "entity_name": "GOOGL Q4 2024 Class A and Class C Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Google Inc.",
+              "Alphabet"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Alphabet 2024 annual dividends"
+            ],
+            "attributes": {
+              "class_a_amount_usd": 3500000000,
+              "class_b_amount_usd": 519000000,
+              "class_c_amount_usd": 3300000000,
+              "period": "FY2024",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "GOOGL FY2024 Dividend Payments",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "quarterly_cash_dividend",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "GOOGL Quarterly Dividend Continuation Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Alphabet Q4 2024 buyback"
+            ],
+            "attributes": {
+              "class_a_shares_thousands": 13676,
+              "class_c_shares_thousands": 72102,
+              "period": "Q4_2024",
+              "program_expiration": "none",
+              "remaining_authorization_usd": 44704000000,
+              "return_type": "buyback",
+              "total_shares_repurchased_thousands": 85778
+            },
+            "identifiers": {},
+            "name": "GOOGL Q4 2024 Class A and Class C Share Repurchases",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL FY2024 Dividend Payments",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Quarterly Dividend Continuation Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Q4 2024 Class A and Class C Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-25-000014.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "2fc295ecb6977c4a31bc38d7e80938c8e8e8be5aa91e28a3b2f9027dce1fac5f"
+    }
+  ],
+  "prompt_version": "v3"
+}

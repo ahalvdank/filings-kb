@@ -1,0 +1,149 @@
+{
+  "accession": "0001045810-22-000036",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T17:52:07Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of January 30, 2022, we performed a sensitivity analysis on our investment portfolio. According to our analysis, parallel shifts in the yield curve of both plus or minus 0.5%, taking into account a zero percent yield floor, would result in a decrease in fair value for these investments of $33 million, or an increase in fair value for these investments of $22 million, respectively.",
+            "entity_name": "NVDA Interest Rate Risk on Investment Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "fixed-rate debt insulates P&L from rate moves; investment portfolio retains sensitivity",
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "At January 30, 2022, we had $11.00 billion of senior Notes outstanding. We carry the Notes at face value less unamortized discount on our Consolidated Balance Sheets. As the Notes bear interest at a fixed rate, we have no financial statement risk associated with changes in interest rates.",
+            "entity_name": "NVDA Interest Rate Risk on Investment Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We consider our direct exposure to foreign exchange rate fluctuations to be minimal. Gains or losses from foreign currency remeasurement are included in other income or expense and to date have not been significant.",
+            "entity_name": "NVDA Foreign Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We use foreign currency forward contracts to mitigate the impact of foreign currency exchange rate movements on our operating expenses. We designate these contracts as cash flow hedges and assess the effectiveness of the hedge relationships on a spot to spot basis.",
+            "entity_name": "NVDA Foreign Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If the U.S. dollar strengthened by 10% as of January 30, 2022 and January 31, 2021, the amount recorded in accumulated other comprehensive income (loss) related to our foreign exchange contracts before tax effect would have been approximately $103 million and $84 million lower as of January 30, 2022 and January 31, 2021, respectively.",
+            "entity_name": "NVDA Foreign Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If an adverse 10% foreign exchange rate change was applied to our balance sheet hedging contracts, it would have resulted in an adverse impact on income before taxes of approximately $41 million and $44 million as of January 30, 2022 and January 31, 2021, respectively.",
+            "entity_name": "NVDA Foreign Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVDA investment portfolio interest rate sensitivity",
+              "NVDA yield curve sensitivity"
+            ],
+            "attributes": {
+              "as_of_date": "2022-01-30",
+              "category": "market_risk",
+              "sensitivity_minus_50bps_fair_value_change_usd": 22000000,
+              "sensitivity_plus_50bps_fair_value_change_usd": -33000000,
+              "subcategory": "interest_rate_risk"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Interest Rate Risk on Investment Portfolio",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "NVDA FX risk",
+              "NVDA currency risk",
+              "NVDA foreign currency exposure"
+            ],
+            "attributes": {
+              "as_of_date": "2022-01-30",
+              "category": "market_risk",
+              "direct_exposure_characterization": "minimal",
+              "hedge_instrument": "foreign_currency_forward_contracts",
+              "sensitivity_10pct_adverse_bs_hedge_pretax_income_impact_usd": -41000000,
+              "sensitivity_10pct_usd_strength_aoci_impact_usd": -103000000,
+              "subcategory": "foreign_exchange_risk"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Foreign Exchange Rate Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Interest Rate Risk on Investment Portfolio",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Foreign Exchange Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-22-000036.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "b8aea612bb94bbdb1f7b8c932d0294bb710f56c5586676a6f4896e2cf78ab888"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,421 @@
+{
+  "accession": "0001045810-25-000023",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T11:53:15Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Jen-Hsun Huang co-founded NVIDIA in 1993 and has served as our President, Chief Executive Officer, and a member of the Board of Directors since our inception.",
+            "entity_name": "Jen-Hsun Huang",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Colette M. Kress joined NVIDIA in 2013 as Executive Vice President and Chief Financial Officer. Prior to NVIDIA, Ms. Kress most recently served as Senior Vice President and Chief Financial Officer of the Business Technology and Operations Finance organization at Cisco Systems, Inc., a networking equipment company, since 2010.",
+            "entity_name": "Colette M. Kress",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Ajay K. Puri joined NVIDIA in 2005 as Senior Vice President, Worldwide Sales and became Executive Vice President, Worldwide Field Operations in 2009.",
+            "entity_name": "Ajay K. Puri",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Debora Shoquist joined NVIDIA in 2007 as Senior Vice President of Operations and in 2009 became Executive Vice President of Operations.",
+            "entity_name": "Debora Shoquist",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Timothy S. Teter joined NVIDIA in 2017 as Senior Vice President, General Counsel and Secretary and became Executive Vice President, General Counsel and Secretary in February 2018.",
+            "entity_name": "Timothy S. Teter",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "The Compute & Networking segment includes our Data Center accelerated computing platforms and AI solutions and software; networking; automotive platforms and autonomous and electric vehicle solutions; Jetson for robotics and other embedded platforms; and DGX Cloud computing services.",
+            "entity_name": "NVDA Compute & Networking Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "The Graphics segment includes GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming platforms; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics; virtual GPU, or vGPU, software for cloud-based visual and virtual computing; automotive platforms for infotainment systems; and Omniverse Enterprise software for building and operating industrial AI and digital twin applications.",
+            "entity_name": "NVDA Graphics Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "We committed to purchase or generate enough renewable energy to match 100% of our global electricity usage for offices and data centers under our operational control starting with our fiscal year 2025.",
+            "entity_name": "NVDA 100% Renewable Energy Match FY2025",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "By the end of fiscal year 2026, we also aim to engage manufacturing suppliers comprising at least 67% of NVIDIA's scope 3 category 1 GHG emissions with the goal of effecting supplier adoption of science-based targets.",
+            "entity_name": "NVDA Scope 3 Supplier Science-Based Targets FY2026",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our competitive position has been harmed by the existing export controls, and our competitive position and future results may be further harmed, over the long term, if there are further changes in the USG's export controls. Given the increasing strategic importance of AI and rising geopolitical tensions, the USG has changed and may again change the export control rules at any time and further subject a wider range of our products to export restrictions and licensing requirements, negatively impacting our business and financial results.",
+            "entity_name": "NVDA Export Control Expansion and AI Diffusion IFR Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Compliance with existing or future governmental regulations, including, but not limited to, those pertaining to IP ownership and infringement, taxes, import and export requirements and tariffs, anti-corruption, business acquisitions, foreign exchange controls and cash repatriation restrictions, data privacy requirements, competition and antitrust, advertising, employment, product regulations, cybersecurity, environmental, health and safety requirements, the responsible use of AI, climate change, cryptocurrency, and consumer laws, could further increase our costs, impact our competitive position, and otherwise may have a material adverse impact on our business, financial condition and results of operations in subsequent periods.",
+            "entity_name": "NVDA Broad Regulatory Compliance Cost Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVIDIA",
+              "NVDA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVIDIA Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Jensen Huang"
+            ],
+            "attributes": {
+              "current_company_id": "NVDA",
+              "insider_status": "officer",
+              "officer_role": "CEO",
+              "tenure_start_date": "1993-04"
+            },
+            "identifiers": {},
+            "name": "Jen-Hsun Huang",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "NVDA",
+              "insider_status": "officer",
+              "officer_role": "CFO",
+              "tenure_start_date": "2013"
+            },
+            "identifiers": {},
+            "name": "Colette M. Kress",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "NVDA",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "tenure_start_date": "2009"
+            },
+            "identifiers": {},
+            "name": "Ajay K. Puri",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "NVDA",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "tenure_start_date": "2009"
+            },
+            "identifiers": {},
+            "name": "Debora Shoquist",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "NVDA",
+              "insider_status": "officer",
+              "officer_role": "GeneralCounsel",
+              "tenure_start_date": "2018-02"
+            },
+            "identifiers": {},
+            "name": "Timothy S. Teter",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Compute & Networking",
+              "Compute and Networking"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Compute & Networking",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Compute & Networking Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Graphics"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Graphics",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Graphics Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "NVIDIA renewable energy commitment"
+            ],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "scope": "global offices and data centers under operational control",
+              "target_value": "100% renewable energy match",
+              "target_year": 2025
+            },
+            "identifiers": {},
+            "name": "NVDA 100% Renewable Energy Match FY2025",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "NVIDIA supplier GHG engagement"
+            ],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "target_value": "engage suppliers comprising 67% of scope 3 category 1 GHG emissions",
+              "target_year": 2026
+            },
+            "identifiers": {},
+            "name": "NVDA Scope 3 Supplier Science-Based Targets FY2026",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "China export control risk",
+              "AI Diffusion IFR risk",
+              "NVIDIA export restriction risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "China, Middle East, Tier 2 countries"
+            },
+            "identifiers": {},
+            "name": "NVDA Export Control Expansion and AI Diffusion IFR Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "NVIDIA multi-jurisdiction regulatory risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "NVDA Broad Regulatory Compliance Cost Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "CEO",
+              "tenure_start_date": "1993-04"
+            },
+            "source_name": "Jen-Hsun Huang",
+            "source_type_entity": "Person",
+            "target_name": "NVIDIA Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "1993-04-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO",
+              "tenure_start_date": "2013"
+            },
+            "source_name": "Colette M. Kress",
+            "source_type_entity": "Person",
+            "target_name": "NVIDIA Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2013-01-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "EVP Worldwide Field Operations",
+              "tenure_start_date": "2009"
+            },
+            "source_name": "Ajay K. Puri",
+            "source_type_entity": "Person",
+            "target_name": "NVIDIA Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2009-01-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "EVP Operations",
+              "tenure_start_date": "2009"
+            },
+            "source_name": "Debora Shoquist",
+            "source_type_entity": "Person",
+            "target_name": "NVIDIA Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2009-01-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "GeneralCounsel",
+              "tenure_start_date": "2018-02"
+            },
+            "source_name": "Timothy S. Teter",
+            "source_type_entity": "Person",
+            "target_name": "NVIDIA Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2018-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Compute & Networking Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Graphics Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA 100% Renewable Energy Match FY2025",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Scope 3 Supplier Science-Based Targets FY2026",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Export Control Expansion and AI Diffusion IFR Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Broad Regulatory Compliance Cost Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-25-000023.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "cfb7bfb62f5ab976f671a833feefd7ae679aad30c952681e764970e9fb38c320"
+    }
+  ],
+  "prompt_version": "v3"
+}

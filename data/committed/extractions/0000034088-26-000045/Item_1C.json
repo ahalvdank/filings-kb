@@ -1,0 +1,82 @@
+{
+  "accession": "0000034088-26-000045",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T01:40:40Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "While the Corporation believes its cybersecurity program to be appropriate for managing constantly evolving cybersecurity risks, no program can fully protect against all possible adverse events. For additional information on these risks and potential consequences if the measures we are taking prove to be insufficient or if our proprietary data is otherwise not protected, see \"Item 1A. Risk Factors: Operational and Other Factors -- Cybersecurity\" in this report.",
+            "entity_name": "ExxonMobil Cybersecurity Threat Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_dimension": "third_party_provider",
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The Corporation takes a risk-based approach with respect to its third-party service providers, tailoring processes according to the nature and sensitivity of the data or systems accessed by such third-party service providers, and performing additional risk screenings and procedures, as appropriate.",
+            "entity_name": "ExxonMobil Cybersecurity Threat Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "ExxonMobil",
+              "XOM"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "XOM"
+            },
+            "name": "Exxon Mobil Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "cybersecurity risk",
+              "cyber disruption risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "nist_framework_adopted": true,
+              "third_party_exposure": true
+            },
+            "identifiers": {},
+            "name": "ExxonMobil Cybersecurity Threat Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "ExxonMobil Cybersecurity Threat Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-26-000045.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "5ee6f3745e4f0e47b2f6c44698b05097cce429223652551dad803510473d9543"
+    }
+  ],
+  "prompt_version": "v3"
+}

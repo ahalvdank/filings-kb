@@ -1,0 +1,71 @@
+{
+  "accession": "0000034088-25-000010",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T02:11:53Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "While the Corporation believes its cybersecurity program to be appropriate for managing constantly evolving cybersecurity risks, no program can fully protect against all possible adverse events. For additional information on these risks and potential consequences if the measures we are taking prove to be insufficient or if our proprietary data is otherwise not protected, see \"Item 1A. Risk Factors: Operational and Other Factors -- Cybersecurity\" in this report.",
+            "entity_name": "ExxonMobil Cybersecurity Program Insufficiency Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of the date of this report, we have not identified any risks from known cybersecurity threats, including as a result of any prior cybersecurity incidents, that have materially affected, or are reasonably likely to materially affect the Corporation, including our business strategy, results of operations, or financial condition.",
+            "entity_name": "ExxonMobil Cybersecurity Program Insufficiency Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "XOM cybersecurity risk",
+              "cybersecurity operational risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "geography": "global",
+              "note": "Corporation states no material impact identified as of filing date, but acknowledges no program can fully protect against all possible adverse events"
+            },
+            "identifiers": {
+              "ticker": "XOM"
+            },
+            "name": "ExxonMobil Cybersecurity Program Insufficiency Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "ExxonMobil Cybersecurity Program Insufficiency Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-25-000010.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "0a4011ff25479884f2bb15615693dc010f0a76793c34a3fa35e9cf81fcec1859"
+    }
+  ],
+  "prompt_version": "v3"
+}

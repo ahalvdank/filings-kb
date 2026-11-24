@@ -1,0 +1,101 @@
+{
+  "accession": "0001628280-26-008131",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-19T10:40:31Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "On July 1, 2025, the Firm announced that its Board of Directors had authorized a new $50 billion common share repurchase program, effective July 1, 2025. Through June 30, 2025, the Firm was authorized to purchase up to $30 billion of common shares under its previously-approved common share repurchase program that was announced on June 28, 2024.",
+            "entity_name": "JPM July 2025 $50B Common Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-02-18",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Shares repurchased pursuant to the common share repurchase programs during 2025 were as follows: Full year 114,408,296 $276.55 $31,640 $33,423 (c)",
+            "entity_name": "JPM FY2025 Common Share Buybacks",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-02-18",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "$50 billion repurchase program",
+              "JPM 2025 buyback authorization"
+            ],
+            "attributes": {
+              "amount_usd": 50000000000,
+              "effective_date": "2025-07-01",
+              "note": "Prior $30B authorization announced June 28, 2024 was canceled; $4.3B remaining under prior authorization was forfeited at new program inception",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {
+              "ticker": "JPM"
+            },
+            "name": "JPM July 2025 $50B Common Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "JPM 2025 share repurchases",
+              "JPM 2025 buyback activity"
+            ],
+            "attributes": {
+              "amount_usd": 31640000000,
+              "avg_price_per_share": 276.55,
+              "period": "FY2025",
+              "remaining_authorization_usd": 33423000000,
+              "return_type": "buyback",
+              "shares_repurchased": 114408296
+            },
+            "identifiers": {
+              "ticker": "JPM"
+            },
+            "name": "JPM FY2025 Common Share Buybacks",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "JPM July 2025 $50B Common Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-02-18",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "JPM FY2025 Common Share Buybacks",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-02-18",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/JPM/0001628280-26-008131.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "dc8a2974e4f248609b8266f59d778b1dec8e7448195a7b6b258eaef429ac3023"
+    }
+  ],
+  "prompt_version": "v3"
+}

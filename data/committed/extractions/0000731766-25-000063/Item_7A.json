@@ -1,0 +1,86 @@
+{
+  "accession": "0000731766-25-000063",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T22:43:05Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our primary market risks are exposures to changes in interest rates impacting our investment income and interest expense and the fair value of certain of our fixed-rate investments and debt.",
+            "entity_name": "UNH Interest Rate Risk on Investment Income and Fair Value",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2024, we had $33 billion of financial assets on which the interest rates received vary with market interest rates, which may significantly impact our investment income. Also as of December 31, 2024, $27 billion of our financial liabilities, which include debt and deposit liabilities, were at interest rates which vary with market rates, either directly or through the use of related interest rate swap contracts.",
+            "entity_name": "UNH Interest Rate Risk on Investment Income and Fair Value",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The fair value of our fixed-rate investments and debt also varies with market interest rates. As of December 31, 2024, $46 billion of our investments were fixed-rate debt securities and $49 billion of our debt was non-swapped fixed-rate term debt. An increase in market interest rates decreases the market value of fixed-rate investments and fixed-rate debt.",
+            "entity_name": "UNH Interest Rate Risk on Investment Income and Fair Value",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UNH market interest rate risk",
+              "interest rate market risk"
+            ],
+            "attributes": {
+              "as_of_date": "2024-12-31",
+              "category": "market_risk",
+              "exposure_type": "interest_rate",
+              "fixed_rate_investments_usd": 46000000000,
+              "fixed_rate_term_debt_non_swapped_usd": 49000000000,
+              "variable_rate_financial_assets_usd": 33000000000,
+              "variable_rate_financial_liabilities_usd": 27000000000
+            },
+            "identifiers": {
+              "ticker": "UNH"
+            },
+            "name": "UNH Interest Rate Risk on Investment Income and Fair Value",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Interest Rate Risk on Investment Income and Fair Value",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-25-000063.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "4d48a929de57aa248b7f2bc1e8df8d408f1cc90d5c80907b7b44f0b6e9016593"
+    }
+  ],
+  "prompt_version": "v3"
+}

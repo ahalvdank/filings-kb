@@ -1,0 +1,428 @@
+{
+  "accession": "0001326801-25-000017",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T07:32:23Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "In 2024, 79% of our total costs and expenses were recognized in FoA and 21% were recognized in RL. Our FoA investments were $75.25 billion in 2024 and include expenses relating to headcount, data centers and technical infrastructure as part of our efforts to develop our apps and our advertising services.",
+            "entity_name": "META Family of Apps Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "Our total RL investments were $19.88 billion in 2024 and include expenses relating to headcount and technology development across these efforts. These are fundamentally new technologies that we expect will evolve as the next computing platform develops, and many products may only be fully realized in the next decade.",
+            "entity_name": "META Reality Labs Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "Although it is inherently difficult to predict when and how the next computing platform will develop, we expect our RL segment to continue to operate at a loss for the foreseeable future, and our ability to support our efforts to build the next computing platform is dependent on generating sufficient profits from other areas of our business.",
+            "entity_name": "META Reality Labs Operating Loss Continuation Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "on May 12, 2023, the IDPC issued a Final Decision concluding that Meta Platforms Ireland's reliance on SCCs in respect of certain transfers of European Economic Area (EEA) Facebook user data was not in compliance with the European General Data Protection Regulation (GDPR). The IDPC issued an administrative fine of EUR €1.2 billion as well as corrective orders requiring Meta Platforms Ireland to suspend the relevant transfers and to bring its processing operations into compliance with Chapter V GDPR by ceasing the unlawful processing, including storage, of such data in the United States. We are appealing this Final Decision and it is currently subject to an interim stay from the Irish High Court.",
+            "entity_name": "Meta IDPC GDPR Administrative Fine and Transfer Suspension Order (2023)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The FTC also continues to monitor us and our compliance with the modified consent order and initiated an administrative proceeding against us, which we are challenging at the agency and in federal court, that alleges deficient compliance and violations of the Children's Online Privacy Protection Act (COPPA), the COPPA Rule, and Section 5 of the Federal Trade Commission Act and seeks changes to our business.",
+            "entity_name": "FTC Administrative Proceeding vs. Meta Platforms",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "For example, in March 2024, the European Commission opened formal proceedings regarding the compliance of our \"subscription for no ads\" model with requirements under the DMA, and it issued preliminary findings in July 2024, reflecting its preliminary view that our model does not comply with such requirements, and indicated that it will conclude its investigation in March 2025.",
+            "entity_name": "European Commission DMA Investigation (Meta Subscription for No Ads)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "A further invalidation of the EU-U.S. DPF by the CJEU could create considerable uncertainty and lead to us being unable to offer a number of our most significant products and services, including Facebook and Instagram, in Europe, which would materially and adversely affect our business, financial condition, and results of operations.",
+            "entity_name": "EU-U.S. Data Privacy Framework Invalidation Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The DMA has caused, and may in the future cause, us to incur significant compliance costs and make changes to our products or business practices. The requirements under the DMA will likely be subject to further interpretation and regulatory engagement.",
+            "entity_name": "DMA and DSA Regulatory Compliance Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We may face similar challenges in light of recent legislation in Australia which imposes a social media ban for users under 16 years old that is expected to be effective by December 2025, requiring certain social media companies to take reasonable steps to ensure under 16 year olds do not create user accounts.",
+            "entity_name": "Global Minors Protection Regulation Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In addition, there have been, and continue to be, various other litigation concerning, and state and federal legislative and executive efforts to remove or restrict, the scope of the protections available to online platforms under Section 230, and any such changes may increase our costs or require significant changes to our products, business practices, or operations, which could adversely affect our business and financial results.",
+            "entity_name": "Section 230 Liability Protection Limitation Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "For example, in September 2024, we announced that we continue to have pay equity for gender globally and ethnicity in the United States.",
+            "entity_name": "META Pay Equity Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta",
+              "Facebook"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "Meta Platforms, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "FoA",
+              "Family of Apps"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Family of Apps",
+              "ticker": "META"
+            },
+            "name": "META Family of Apps Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "RL",
+              "Reality Labs"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Reality Labs",
+              "ticker": "META"
+            },
+            "name": "META Reality Labs Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "RL operating loss guidance"
+            ],
+            "attributes": {
+              "metric": "reality_labs_segment_profitability",
+              "new_value": "operating_loss",
+              "period": "foreseeable_future",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "META Reality Labs Operating Loss Continuation Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "IDPC GDPR fine",
+              "Meta EUR 1.2 billion GDPR fine"
+            ],
+            "attributes": {
+              "counterparty": "Irish Data Protection Commission",
+              "decision_date": "2023-05-12",
+              "fine_amount_eur": 1200000000,
+              "jurisdiction": "Ireland / EU",
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "Meta IDPC GDPR Administrative Fine and Transfer Suspension Order (2023)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "FTC COPPA proceeding against Meta"
+            ],
+            "attributes": {
+              "allegations": "COPPA, COPPA Rule, FTC Act Section 5 violations",
+              "counterparty": "U.S. Federal Trade Commission",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "FTC Administrative Proceeding vs. Meta Platforms",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EC DMA subscription model investigation"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "proceedings_opened": "2024-03",
+              "status": "pending",
+              "subject": "subscription for no ads DMA compliance"
+            },
+            "identifiers": {},
+            "name": "European Commission DMA Investigation (Meta Subscription for No Ads)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "DPF invalidation risk",
+              "EU-U.S. DPF CJEU risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "European Union",
+              "potential_impact": "loss of Facebook and Instagram service in Europe"
+            },
+            "identifiers": {},
+            "name": "EU-U.S. Data Privacy Framework Invalidation Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Digital Markets Act compliance risk",
+              "EU platform regulation risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "European Union",
+              "regulation": "DMA, DSA"
+            },
+            "identifiers": {},
+            "name": "DMA and DSA Regulatory Compliance Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "minor user regulation risk",
+              "children online privacy regulation risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "Global Minors Protection Regulation Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Section 230 risk",
+              "platform liability shield risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "Section 230 Liability Protection Limitation Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Meta pay equity",
+              "Meta gender and ethnicity pay equity"
+            ],
+            "attributes": {
+              "commitment_type": "dei",
+              "scope": "gender pay equity globally, ethnicity pay equity in US"
+            },
+            "identifiers": {},
+            "name": "META Pay Equity Commitment",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "cost_usd": 75250000000,
+              "pct_of_total_costs": 0.79,
+              "period": "FY2024"
+            },
+            "source_name": "META 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "META Family of Apps Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "cost_usd": 19880000000,
+              "operating_loss_expected": true,
+              "pct_of_total_costs": 0.21,
+              "period": "FY2024"
+            },
+            "source_name": "META 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "META Reality Labs Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "META 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "META Reality Labs Operating Loss Continuation Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Meta IDPC GDPR Administrative Fine and Transfer Suspension Order (2023)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "FTC Administrative Proceeding vs. Meta Platforms",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "European Commission DMA Investigation (Meta Subscription for No Ads)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "EU-U.S. Data Privacy Framework Invalidation Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "DMA and DSA Regulatory Compliance Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Global Minors Protection Regulation Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Section 230 Liability Protection Limitation Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "META Pay Equity Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-25-000017.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "bb3bfa3cf0f1ef3c0c7b5565a1b266d12dc5c1079adea9bf93cf992a48b2238e"
+    }
+  ],
+  "prompt_version": "v3"
+}

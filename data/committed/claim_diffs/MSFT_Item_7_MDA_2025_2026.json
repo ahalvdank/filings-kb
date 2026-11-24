@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-11-23T08:16:45.004835+00:00",
+  "current_fy": 2026,
+  "input_sha256": "446838855a197166056bc772a91cb2054ae41e0e0511099da21c1f057a1d0f62",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "prior_fy": 2025,
+  "prompt_sha256": "71d2da8ab6cdab15e1608c2f958dd4ee476ccefb8769395dad274dfc53c246fc",
+  "result": {
+    "added": [
+      "MSFT $60B Share Repurchase Program",
+      "MSFT OpenAI Long-Term Partnership Extension FY2026",
+      "MSFT OpenAI Recapitalization Dilution Gain FY2026",
+      "MSFT XBOX Business Impairment FY2026"
+    ],
+    "changed": [
+      [
+        "MSFT Microsoft Cloud (name only, no qualifier)",
+        "MSFT Microsoft Cloud Revenue (renamed with 'Revenue' suffix)"
+      ],
+      [
+        "MSFT Microsoft 365 Commercial (no 'Cloud' qualifier)",
+        "MSFT Microsoft 365 Commercial Cloud"
+      ],
+      [
+        "MSFT Microsoft 365 Consumer (no 'Cloud' qualifier)",
+        "MSFT Microsoft 365 Consumer Cloud"
+      ],
+      [
+        "MSFT LinkedIn (no 'Revenue' suffix)",
+        "MSFT LinkedIn Revenue"
+      ],
+      [
+        "MSFT Dynamics 365 (no 'Revenue' suffix)",
+        "MSFT Dynamics 365 Revenue"
+      ],
+      [
+        "FY2025 Share Repurchases: amount_usd=13000000000; shares_repurchased=31000000; remaining_authorization_usd=57300000000",
+        "FY2026 Share Repurchase Activity: amount_usd=16700000000; shares_repurchased=36000000 (remaining authorization moved to separate $60B program claim)"
+      ],
+      [
+        "FY2025 Dividends Declared: amount_usd=24700000000",
+        "FY2026 Dividends Declared: amount_usd=27000000000"
+      ],
+      [
+        "MSFT IRS Transfer Pricing NOPAs (Tax Years 2004-2013): tax_years=2004-2013; claim_amount_usd=28900000000; two separate IRS proceedings (2004-2013 and 2014-2017)",
+        "MSFT IRS Transfer Pricing Dispute (Tax Years 2004-2017): tax_years=2004-2017; amount_claimed_usd=28900000000; consolidated into single proceeding covering 2004-2017"
+      ],
+      [
+        "MSFT AI Infrastructure Investment Margin Risk: category=financial; subcategory=operating_margin_compression",
+        "MSFT AI Infrastructure Investment Operating Margin Risk: category=operational (category changed from financial to operational, subcategory removed)"
+      ],
+      [
+        "MSFT Component Supply Concentration Risk: category=supply_chain; geography=global",
+        "MSFT Supply Chain Component Availability Risk: category=supply_chain (name reworded, geography removed)"
+      ]
+    ],
+    "removed": [
+      "MSFT Xbox Content and Services",
+      "MSFT Search and News Advertising",
+      "MSFT Activision Blizzard Acquisition",
+      "MSFT FY2025 Segment Composition Changes",
+      "MSFT One Big Beautiful Bill Act Tax Impact",
+      "MSFT IRS Audit (Tax Years 2014-2017)",
+      "MSFT GuidanceUpdate Dividend Continuation Guidance",
+      "MSFT CapEx and Cloud Infrastructure Investment Guidance"
+    ]
+  },
+  "ticker": "MSFT"
+}

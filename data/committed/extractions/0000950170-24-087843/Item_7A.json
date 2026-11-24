@@ -1,0 +1,211 @@
+{
+  "accession": "0000950170-24-087843",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T13:07:14Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Certain forecasted transactions, assets, and liabilities are exposed to foreign currency risk. We monitor our foreign currency exposures daily to maximize the economic effectiveness of our foreign currency positions, including hedges. Principal currency exposures include the Euro, Japanese yen, British pound, Canadian dollar, and Australian dollar.",
+            "entity_name": "MSFT Foreign Currency Revenue Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Certain forecasted transactions, assets, and liabilities are exposed to foreign currency risk. We monitor our foreign currency exposures daily to maximize the economic effectiveness of our foreign currency positions, including hedges. Principal currency exposures include the Euro, Japanese yen, British pound, Canadian dollar, and Australian dollar.",
+            "entity_name": "MSFT Foreign Currency Investment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Securities held in our fixed-income portfolio are subject to different interest rate risks based on their maturities. We manage the average maturity of the fixed-income portfolio to achieve economic returns that correlate to certain global fixed-income indices.",
+            "entity_name": "MSFT Interest Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our fixed-income portfolio is diversified and consists primarily of investment-grade securities. We manage credit exposures relative to broad-based indices to facilitate portfolio diversification.",
+            "entity_name": "MSFT Credit Spread Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Securities held in our equity investments portfolio are subject to price risk.",
+            "entity_name": "MSFT Equity Price Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "MSFT FX revenue exposure"
+            ],
+            "attributes": {
+              "category": "foreign_currency",
+              "impact_type": "earnings",
+              "principal_currencies": [
+                "Euro",
+                "Japanese yen",
+                "British pound",
+                "Canadian dollar",
+                "Australian dollar"
+              ],
+              "sensitivity_10pct_fx_decrease_impact_usd_millions": -9605,
+              "sensitivity_measurement_date": "2024-06-30",
+              "sub_category": "revenue"
+            },
+            "identifiers": {},
+            "name": "MSFT Foreign Currency Revenue Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "MSFT FX investments fair value exposure"
+            ],
+            "attributes": {
+              "category": "foreign_currency",
+              "impact_type": "fair_value",
+              "sensitivity_10pct_fx_decrease_impact_usd_millions": -38,
+              "sensitivity_measurement_date": "2024-06-30",
+              "sub_category": "investments"
+            },
+            "identifiers": {},
+            "name": "MSFT Foreign Currency Investment Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "MSFT fixed-income interest rate exposure"
+            ],
+            "attributes": {
+              "category": "interest_rate",
+              "impact_type": "fair_value",
+              "portfolio": "fixed_income",
+              "sensitivity_100bps_treasury_increase_impact_usd_millions": -1343,
+              "sensitivity_measurement_date": "2024-06-30"
+            },
+            "identifiers": {},
+            "name": "MSFT Interest Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "MSFT fixed-income credit exposure"
+            ],
+            "attributes": {
+              "category": "credit",
+              "impact_type": "fair_value",
+              "portfolio": "fixed_income",
+              "portfolio_quality": "investment_grade",
+              "sensitivity_100bps_spread_increase_impact_usd_millions": -318,
+              "sensitivity_measurement_date": "2024-06-30"
+            },
+            "identifiers": {},
+            "name": "MSFT Credit Spread Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "MSFT equity investments price risk"
+            ],
+            "attributes": {
+              "category": "equity_price",
+              "impact_type": "earnings",
+              "portfolio": "equity_investments",
+              "sensitivity_10pct_price_decrease_impact_usd_millions": -1078,
+              "sensitivity_measurement_date": "2024-06-30"
+            },
+            "identifiers": {},
+            "name": "MSFT Equity Price Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Foreign Currency Revenue Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Foreign Currency Investment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Interest Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Credit Spread Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Equity Price Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0000950170-24-087843.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "4a3ea65411f42360d9050cf1d1e01ba147602e864be7936885e5a644e6296aae"
+    }
+  ],
+  "prompt_version": "v3"
+}

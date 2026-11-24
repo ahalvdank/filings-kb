@@ -1,0 +1,128 @@
+{
+  "accession": "0000034088-23-000020",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T02:36:54Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "On January 30, 2023, the Corporation declared a $0.91 dividend per common share, payable March 10, 2023.",
+            "entity_name": "XOM Q1-2023 Quarterly Dividend ($0.91/share)",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In its 2022 Corporate Plan Update released December 8, 2022, the Corporation stated that the company expanded its share repurchase program to up to $50 billion through 2024, including $15 billion of repurchases in 2022.",
+            "entity_name": "XOM $50B Share Repurchase Authorization (through 2024)",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "October 2022: 14,693,713 shares purchased at $102.09 average, 14,693,705 shares under program, $37.9B remaining. November 2022: 15,273,566 shares purchased at $112.13 average, 12,755,411 shares under program, $36.5B remaining. December 2022: 13,674,403 shares purchased at $106.99 average, 13,674,403 shares under program, $35.0B remaining. Total: 43,641,682 shares at $107.14 average, 41,123,519 shares under program.",
+            "entity_name": "XOM Q4-2022 Equity Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "declaration_date": "2023-01-30",
+              "effective_date": "2023-03-10",
+              "per_share": 0.91,
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "XOM Q1-2023 Quarterly Dividend ($0.91/share)",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "XOM 2022 buyback expansion",
+              "XOM $50B repurchase program"
+            ],
+            "attributes": {
+              "amount_usd": 50000000000,
+              "effective_date": "2022-12-08",
+              "planned_2022_repurchases_usd": 15000000000,
+              "program_end_year": "2024",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "XOM $50B Share Repurchase Authorization (through 2024)",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "avg_price_per_share": 107.14,
+              "period": "Q4-2022",
+              "remaining_authorization_usd": 35000000000,
+              "return_type": "buyback",
+              "shares_purchased_total": 43641682,
+              "shares_purchased_under_program": 41123519
+            },
+            "identifiers": {},
+            "name": "XOM Q4-2022 Equity Repurchases",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Q1-2023 Quarterly Dividend ($0.91/share)",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "XOM $50B Share Repurchase Authorization (through 2024)",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Q4-2022 Equity Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-23-000020.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "f786dfb7cb7d9ed8a7c3c09e95c3871601f9000a483f094ea32c98cd97c34026"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,542 @@
+{
+  "accession": "0000019617-25-000270",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-19T10:26:06Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "Effective in the second quarter of 2024, JPMorganChase reorganized its reportable business segments by combining the former Corporate & Investment Bank and Commercial Banking business segments to form one reportable segment, the Commercial & Investment Bank. As a result of the reorganization, the Firm has three reportable business segments – Consumer & Community Banking (\"CCB\"), Commercial & Investment Bank (\"CIB\") and Asset & Wealth Management (\"AWM\") – with the remaining activities in Corporate.",
+            "entity_name": "JPM Q2 2024 Business Segment Reorganization",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "As a result of the reorganization, the Firm has three reportable business segments – Consumer & Community Banking (\"CCB\"), Commercial & Investment Bank (\"CIB\") and Asset & Wealth Management (\"AWM\") – with the remaining activities in Corporate. The Firm's consumer business segment is CCB, and the Firm's wholesale business segments are CIB and AWM.",
+            "entity_name": "JPM Consumer & Community Banking",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "Effective in the second quarter of 2024, JPMorganChase reorganized its reportable business segments by combining the former Corporate & Investment Bank and Commercial Banking business segments to form one reportable segment, the Commercial & Investment Bank. The Firm's consumer business segment is CCB, and the Firm's wholesale business segments are CIB and AWM.",
+            "entity_name": "JPM Commercial & Investment Bank",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "As a result of the reorganization, the Firm has three reportable business segments – Consumer & Community Banking (\"CCB\"), Commercial & Investment Bank (\"CIB\") and Asset & Wealth Management (\"AWM\") – with the remaining activities in Corporate. The Firm's consumer business segment is CCB, and the Firm's wholesale business segments are CIB and AWM.",
+            "entity_name": "JPM Asset & Wealth Management",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The Firm is subject to a five-year cooperation obligation under an order issued by the CFTC on September 29, 2020, relating to precious metals and U.S. Treasuries markets investigations.",
+            "entity_name": "JPM CFTC Precious Metals and Treasuries Cooperation Order (2020)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The Firm also remains subject to consent orders entered into in March 2024 with the OCC and the Board of Governors of the Federal Reserve System, and a resolution entered into in May 2024 with the CFTC, which relate to the Firm's processes to inventory trading venues and confirm the completeness of certain data fed to trade surveillance platforms.",
+            "entity_name": "JPM Trade Surveillance Regulatory Orders (2024)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In July 2023, U.S. banking regulators released a proposal to amend the U.S. risk-based capital framework to incorporate certain elements of the revised international Basel III capital framework. The proposal would significantly revise risk-based capital requirements for banks with assets of $100 billion or more, including the Firm and other U.S. global systemically important banks (\"GSIBs\"). Finalization of the proposal, including the required implementation date, is uncertain.",
+            "entity_name": "U.S. Basel III Capital Rule Finalization Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In March 2024, the CFPB released a final rule which significantly reduces the late payment fees that large credit card issuers, including the Firm, are permitted to charge to customers (the \"CFPB Late Fee Rule\"). The final rule is currently stayed pending resolution of an industry-led challenge in federal court.",
+            "entity_name": "CFPB Late Fee Rule Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Separately, in December 2024, the CFPB announced a final rule that would significantly restrict overdraft fees for certain insured depository institutions, including the Firm (the \"CFPB Overdraft Rule\"). The rule imposes certain requirements on overdraft protections that are similar to those that apply to credit cards, unless the institution prices the overdraft fee at $5 per transaction or the institution's cost as outlined by the CFPB.",
+            "entity_name": "CFPB Overdraft Rule Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In addition, in October 2024, the CFPB issued a final rule that requires data providers, including banks, to make certain consumer data available to consumers and authorized third parties in electronic form beginning in April 2026 (the \"CFPB Data Sharing Rule\").",
+            "entity_name": "CFPB Data Sharing Rule Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In April 2024, the Department of Labor (\"DOL\") finalized a new \"fiduciary\" rule that would significantly expand the scope for defining who can be deemed investment advice fiduciaries for purposes of retirement plans and individual retirement accounts (\"IRAs\") under the Employee Retirement Income Security Act of 1974, as amended (the \"Fiduciary Rule\"). Among the most significant impacts of the rule and related amendments to prohibited transaction exemptions would be the impact on the fee and compensation practices at financial institutions that offer investment recommendations to retirement clients, including in the context of rollovers from an employer plan to an IRA. The effective date of the Fiduciary Rule has been stayed by two federal courts.",
+            "entity_name": "DOL Fiduciary Rule Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In October 2023, the Federal Reserve Board proposed to lower the maximum interchange fee that large debit card issuers, including the Firm, would be permitted to receive for a debit card transaction. The proposal would also establish a process for automatically publishing an updated maximum fee amount every other year going forward.",
+            "entity_name": "Federal Reserve Debit Card Interchange Fee Proposal Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In December 2024, the Federal Reserve indicated in a press release that it intends to seek public comment on changes to its stress testing framework. Additionally, there is a pending legal challenge to the manner in which stress testing is administered.",
+            "entity_name": "Federal Reserve Stress Testing Framework Challenge Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "JPMorganChase",
+              "JPM",
+              "the Firm"
+            ],
+            "attributes": {
+              "countries_of_operation": 66,
+              "employee_count": 317233,
+              "entity_type": "financial_holding_company",
+              "fiscal_year_end": "2024-12-31",
+              "incorporation_state": "Delaware",
+              "stockholders_equity_usd": 344800000000,
+              "total_assets_usd": 4000000000000
+            },
+            "identifiers": {
+              "exchange": "NYSE",
+              "ticker": "JPM"
+            },
+            "name": "JPMorgan Chase & Co.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "CCB",
+              "Consumer & Community Banking"
+            ],
+            "attributes": {
+              "employees_2024": 144989,
+              "segment_type": "consumer"
+            },
+            "identifiers": {
+              "segment_name": "CCB",
+              "ticker": "JPM"
+            },
+            "name": "JPM Consumer & Community Banking",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "CIB",
+              "Commercial & Investment Bank"
+            ],
+            "attributes": {
+              "employees_2024": 93231,
+              "formed_period": "2024-Q2",
+              "segment_type": "wholesale"
+            },
+            "identifiers": {
+              "segment_name": "CIB",
+              "ticker": "JPM"
+            },
+            "name": "JPM Commercial & Investment Bank",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AWM",
+              "Asset & Wealth Management"
+            ],
+            "attributes": {
+              "employees_2024": 29403,
+              "segment_type": "wholesale"
+            },
+            "identifiers": {
+              "segment_name": "AWM",
+              "ticker": "JPM"
+            },
+            "name": "JPM Asset & Wealth Management",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "CIB segment formation 2024",
+              "segment reorganization 2024"
+            ],
+            "attributes": {
+              "combined_segments": [
+                "Corporate & Investment Bank",
+                "Commercial Banking"
+              ],
+              "effective_period": "2024-Q2",
+              "event_type": "business_combination",
+              "resulting_segment": "Commercial & Investment Bank"
+            },
+            "identifiers": {},
+            "name": "JPM Q2 2024 Business Segment Reorganization",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "CFTC 2020 cooperation obligation",
+              "CFTC precious metals Treasuries order"
+            ],
+            "attributes": {
+              "counterparty": "Commodity Futures Trading Commission",
+              "obligation_type": "five-year cooperation obligation",
+              "order_date": "2020-09-29",
+              "status": "pending",
+              "subject": "precious metals and U.S. Treasuries markets investigations"
+            },
+            "identifiers": {},
+            "name": "JPM CFTC Precious Metals and Treasuries Cooperation Order (2020)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "OCC Federal Reserve CFTC trade surveillance orders",
+              "trade surveillance consent orders 2024"
+            ],
+            "attributes": {
+              "counterparty": "OCC, Board of Governors of the Federal Reserve System, CFTC",
+              "order_dates": "March 2024 (OCC/Federal Reserve), May 2024 (CFTC)",
+              "status": "pending",
+              "subject": "processes to inventory trading venues and completeness of data fed to trade surveillance platforms"
+            },
+            "identifiers": {},
+            "name": "JPM Trade Surveillance Regulatory Orders (2024)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Basel III endgame risk",
+              "U.S. risk-based capital amendment uncertainty"
+            ],
+            "attributes": {
+              "applicability": "banks with $100B+ assets including U.S. GSIBs",
+              "category": "regulatory_capital",
+              "geography": "United States",
+              "proposal_date": "2023-07",
+              "regulator": "Federal Reserve, OCC, FDIC"
+            },
+            "identifiers": {},
+            "name": "U.S. Basel III Capital Rule Finalization Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "credit card late fee rule risk",
+              "CFPB Late Fee Rule"
+            ],
+            "attributes": {
+              "category": "regulatory_consumer",
+              "current_status": "stayed pending resolution of industry challenge in federal court",
+              "impact": "significantly reduces late payment fees permissible for large credit card issuers",
+              "regulator": "CFPB",
+              "rule_finalized": "2024-03"
+            },
+            "identifiers": {},
+            "name": "CFPB Late Fee Rule Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "overdraft fee rule risk",
+              "CFPB Overdraft Rule"
+            ],
+            "attributes": {
+              "category": "regulatory_consumer",
+              "current_status": "preliminary injunction pending court approval; CFPB consented to 90-day stay of effective date",
+              "impact": "would significantly restrict overdraft fees for large insured depository institutions",
+              "proposed_effective_date": "2025-10-01",
+              "regulator": "CFPB",
+              "rule_announced": "2024-12"
+            },
+            "identifiers": {},
+            "name": "CFPB Overdraft Rule Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "open banking data sharing rule risk",
+              "CFPB Data Sharing Rule"
+            ],
+            "attributes": {
+              "category": "regulatory_data",
+              "current_status": "challenged in federal court",
+              "effective_date": "2026-04",
+              "impact": "requires data providers including banks to make consumer data available to consumers and authorized third parties electronically",
+              "regulator": "CFPB",
+              "rule_issued": "2024-10"
+            },
+            "identifiers": {},
+            "name": "CFPB Data Sharing Rule Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Department of Labor fiduciary rule risk",
+              "retirement advice fiduciary rule risk",
+              "DOL Fiduciary Rule"
+            ],
+            "attributes": {
+              "category": "regulatory_investment_management",
+              "current_status": "stayed by two federal district courts",
+              "impact": "would expand investment advice fiduciary definition and affect fee and compensation practices for retirement clients including IRA rollovers",
+              "regulator": "Department of Labor",
+              "rule_finalized": "2024-04"
+            },
+            "identifiers": {},
+            "name": "DOL Fiduciary Rule Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "debit interchange fee cap proposal risk",
+              "Regulation II amendment risk"
+            ],
+            "attributes": {
+              "category": "regulatory_consumer",
+              "current_status": "proposed rule pending finalization",
+              "impact": "would lower maximum interchange fee for large debit card issuers and establish biennial automatic updates",
+              "proposal_date": "2023-10",
+              "regulator": "Federal Reserve Board"
+            },
+            "identifiers": {},
+            "name": "Federal Reserve Debit Card Interchange Fee Proposal Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "CCAR methodology uncertainty risk",
+              "stress test legal challenge risk"
+            ],
+            "attributes": {
+              "category": "regulatory_capital",
+              "challenge_date": "2024-12",
+              "court": "U.S. District Court, Southern District of Ohio",
+              "current_status": "legal challenge pending",
+              "impact": "uncertainty regarding annual stress testing process administration and Stress Capital Buffer requirements",
+              "plaintiffs": "Bank Policy Institute, U.S. Chamber of Commerce and other trade organizations",
+              "regulator": "Federal Reserve"
+            },
+            "identifiers": {},
+            "name": "Federal Reserve Stress Testing Framework Challenge Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "employees": 144989,
+              "period": "FY2024"
+            },
+            "source_name": "JPM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Consumer & Community Banking",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "employees": 93231,
+              "period": "FY2024"
+            },
+            "source_name": "JPM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Commercial & Investment Bank",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "employees": 29403,
+              "period": "FY2024"
+            },
+            "source_name": "JPM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Asset & Wealth Management",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Q2 2024 Business Segment Reorganization",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "JPM CFTC Precious Metals and Treasuries Cooperation Order (2020)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Trade Surveillance Regulatory Orders (2024)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "U.S. Basel III Capital Rule Finalization Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "CFPB Late Fee Rule Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "CFPB Overdraft Rule Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "CFPB Data Sharing Rule Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "DOL Fiduciary Rule Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Federal Reserve Debit Card Interchange Fee Proposal Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Federal Reserve Stress Testing Framework Challenge Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/JPM/0000019617-25-000270.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "4a1a90c69dc2a5974b49c29793d35ad9bf5b9017f1f402a12d94df5cb3e37668"
+    }
+  ],
+  "prompt_version": "v3"
+}

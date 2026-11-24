@@ -1,0 +1,243 @@
+{
+  "accession": "0000034088-24-000018",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T02:29:43Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "On February 1, 2024, the Corporation declared a $0.95 dividend per common share, payable March 11, 2024.",
+            "entity_name": "XOM February 2024 Quarterly Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Issuer Purchases of Equity Securities for Quarter Ended December 31, 2023; column order: total shares purchased, avg price, shares under program, approx remaining authorization",
+              "period": "Q4 2023",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "November 2023\n\n23,692,642$104.5521,626,648$19.7\n\nDecember 2023\n\n22,318,029$101.0621,319,070$17.5\n\nTotal46,010,671$102.8642,945,718",
+            "entity_name": "XOM Q4 2023 Share Repurchase Activity",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In its 2022 Corporate Plan Update released December 8, 2022, the Corporation stated that the company expanded its share repurchase program to up to $50 billion through 2024. This includes $15 billion of repurchases in 2022 and $17.5 billion in 2023.",
+            "entity_name": "XOM $50B Share Repurchase Program through 2024",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5",
+              "update_type": "revision_up"
+            },
+            "chunk_type": "guidance",
+            "content": "In its 2023 Corporate Plan Update released December 6, 2023, the Corporation stated that after the Pioneer transaction closes, the go-forward share repurchase program pace is expected to increase to $20 billion annually through 2025, assuming reasonable market conditions.",
+            "entity_name": "XOM Post-Pioneer Annual Buyback Pace Guidance ($20B through 2025)",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "As required by securities law restrictions, no repurchases will take place during proxy solicitation and voting periods for transactions involving the issuance of ExxonMobil shares. For the Pioneer transaction, this period occurred during the first quarter of 2024.",
+            "entity_name": "XOM Acquisition of Pioneer Natural Resources",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "As required by securities law restrictions, no repurchases will take place during proxy solicitation and voting periods for transactions involving the issuance of ExxonMobil shares. For the Denbury transaction, this period took place during October 2023.",
+            "entity_name": "XOM Acquisition of Denbury Resources",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "declared_date": "2024-02-01",
+              "payable_date": "2024-03-11",
+              "per_share": 0.95,
+              "return_type": "dividend"
+            },
+            "identifiers": {
+              "ticker": "XOM"
+            },
+            "name": "XOM February 2024 Quarterly Dividend",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "avg_price_per_share": 102.86,
+              "period": "Q4 2023",
+              "return_type": "buyback",
+              "shares_repurchased_under_program": 42945718,
+              "total_shares_purchased": 46010671
+            },
+            "identifiers": {
+              "ticker": "XOM"
+            },
+            "name": "XOM Q4 2023 Share Repurchase Activity",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "ExxonMobil $50 billion buyback program"
+            ],
+            "attributes": {
+              "amount_usd": 50000000000,
+              "announced_date": "2022-12-08",
+              "program_through": "2024",
+              "repurchased_2022_usd": 15000000000,
+              "repurchased_2023_usd": 17500000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {
+              "ticker": "XOM"
+            },
+            "name": "XOM $50B Share Repurchase Program through 2024",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "condition": "after Pioneer transaction closes",
+              "metric": "annual_share_repurchase_pace",
+              "new_value": 20000000000,
+              "period": "through 2025",
+              "unit": "USD_annual",
+              "update_type": "revision_up"
+            },
+            "identifiers": {},
+            "name": "XOM Post-Pioneer Annual Buyback Pace Guidance ($20B through 2025)",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Pioneer transaction"
+            ],
+            "attributes": {
+              "consideration": "ExxonMobil shares",
+              "event_type": "acquisition",
+              "proxy_voting_period": "Q1 2024",
+              "target_company": "Pioneer Natural Resources"
+            },
+            "identifiers": {},
+            "name": "XOM Acquisition of Pioneer Natural Resources",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Denbury transaction"
+            ],
+            "attributes": {
+              "consideration": "ExxonMobil shares",
+              "event_type": "acquisition",
+              "proxy_voting_period": "October 2023",
+              "target_company": "Denbury"
+            },
+            "identifiers": {},
+            "name": "XOM Acquisition of Denbury Resources",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "XOM February 2024 Quarterly Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Q4 2023 Share Repurchase Activity",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "XOM $50B Share Repurchase Program through 2024",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "revision_up"
+            },
+            "source_name": "XOM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Post-Pioneer Annual Buyback Pace Guidance ($20B through 2025)",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Acquisition of Pioneer Natural Resources",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Acquisition of Denbury Resources",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-24-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "2e6b16a33e219961f49dfbd13f8dd5de6d99612fef26cb8aaf9324f842305b1b"
+    }
+  ],
+  "prompt_version": "v3"
+}

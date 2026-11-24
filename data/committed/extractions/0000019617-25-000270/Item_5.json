@@ -1,0 +1,110 @@
+{
+  "accession": "0000019617-25-000270",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-19T10:44:54Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "On June 28, 2024, the Firm announced that its Board of Directors had authorized a new $30 billion common share repurchase program, effective July 1, 2024.",
+            "entity_name": "JPM June 2024 $30B Common Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Full-year row from repurchase table: shares=91,719,226; avg_price=$205.43; aggregate_usd_millions=18,841; remaining_authorization_usd_millions=19,326",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Shares repurchased pursuant to the common share repurchase programs during 2024 were as follows: Full year 91,719,226 $205.43 $18,841 $19,326",
+            "entity_name": "JPM FY2024 Common Stock Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "JPMorganChase",
+              "JPM"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "JPM"
+            },
+            "name": "JPMorgan Chase & Co.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "JPM 2024 buyback authorization",
+              "JPM $30B repurchase program"
+            ],
+            "attributes": {
+              "amount_usd": 30000000000,
+              "announcement_date": "2024-06-28",
+              "effective_date": "2024-07-01",
+              "remaining_as_of": "2024-12-31",
+              "remaining_authorization_usd": 19326000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "JPM June 2024 $30B Common Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "JPM 2024 share buybacks"
+            ],
+            "attributes": {
+              "amount_usd": 18841000000,
+              "avg_price_per_share": 205.43,
+              "period": "FY2024",
+              "return_type": "buyback",
+              "shares_repurchased": 91719226
+            },
+            "identifiers": {},
+            "name": "JPM FY2024 Common Stock Repurchases",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "JPM June 2024 $30B Common Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "JPM FY2024 Common Stock Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/JPM/0000019617-25-000270.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "ea9e63e51b703d7e8157aeca5c73befb90e58344f1c71c6068b2812e7222c2bd"
+    }
+  ],
+  "prompt_version": "v3"
+}

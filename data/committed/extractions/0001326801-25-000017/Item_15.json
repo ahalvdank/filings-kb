@@ -1,0 +1,212 @@
+{
+  "accession": "0001326801-25-000017",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T08:40:48Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Certification of Mark Zuckerberg, Chief Executive Officer, pursuant to Rule 13a-14(a)/15d-14(a), as adopted pursuant to Section 302 of the Sarbanes-Oxley Act of 2002.",
+            "entity_name": "Mark Zuckerberg",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Certification of Susan Li, Chief Financial Officer, pursuant to Rule 13a-14(a)/15d-14(a), as adopted pursuant to Section 302 of the Sarbanes-Oxley Act of 2002.",
+            "entity_name": "Susan Li",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Offer Letter, dated June 5, 2020, between Registrant and Christopher K. Cox.",
+            "entity_name": "Christopher K. Cox",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Offer Letter, dated December 22, 2022, between Registrant and Javier Olivan.",
+            "entity_name": "Javier Olivan",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Offer Letter, dated March 14, 2022, between Registrant and Andrew Bosworth.",
+            "entity_name": "Andrew Bosworth",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "Meta Platforms, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Mark Zuckerberg",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "CFO",
+              "tenure_start_date": "2022-11-01"
+            },
+            "identifiers": {},
+            "name": "Susan Li",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "tenure_start_date": "2020-06-05"
+            },
+            "identifiers": {},
+            "name": "Christopher K. Cox",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "tenure_start_date": "2022-12-22"
+            },
+            "identifiers": {},
+            "name": "Javier Olivan",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "tenure_start_date": "2022-03-14"
+            },
+            "identifiers": {},
+            "name": "Andrew Bosworth",
+            "type": "Person"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Mark Zuckerberg",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO",
+              "tenure_start_date": "2022-11-01"
+            },
+            "source_name": "Susan Li",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Other",
+              "tenure_start_date": "2020-06-05"
+            },
+            "source_name": "Christopher K. Cox",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2020-06-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Other",
+              "tenure_start_date": "2022-12-22"
+            },
+            "source_name": "Javier Olivan",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-12-22",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Other",
+              "tenure_start_date": "2022-03-14"
+            },
+            "source_name": "Andrew Bosworth",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-03-14",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-25-000017.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "387c542d1de6277c7ffac298497043135f696f9fd7b172da2e850fe53739943a"
+    }
+  ],
+  "prompt_version": "v3"
+}

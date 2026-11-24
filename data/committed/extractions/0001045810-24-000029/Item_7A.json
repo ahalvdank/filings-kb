@@ -1,0 +1,116 @@
+{
+  "accession": "0001045810-24-000029",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T17:12:41Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are exposed to interest rate risk related to our fixed-rate investment portfolio and outstanding debt. According to our analysis, parallel shifts in the yield curve of plus or minus 0.5% would result in a change in fair value for these investments of $93 million.",
+            "entity_name": "NVDA Interest Rate Risk on Investment Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Increases in the value of the United States' dollar relative to other currencies would make our products more expensive, which could negatively impact our ability to compete. Conversely, decreases in the value of the United States' dollar relative to other currencies could result in our suppliers raising their manufacturing costs.",
+            "entity_name": "NVDA Foreign Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If the U.S. dollar strengthened by 10% as of January 28, 2024 and January 29, 2023, the amount recorded in accumulated other comprehensive income (loss) related to our foreign exchange contracts before tax effect would have been $116 million and $112 million lower, respectively.",
+            "entity_name": "NVDA Foreign Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If an adverse 10% foreign exchange rate change was applied to our balance sheet hedging contracts, it would have resulted in an adverse impact on income before taxes of $60 million and $36 million as of January 28, 2024 and January 29, 2023, respectively.",
+            "entity_name": "NVDA Foreign Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "interest rate risk",
+              "yield curve sensitivity"
+            ],
+            "attributes": {
+              "category": "interest_rate",
+              "fair_value_impact_usd": 93000000,
+              "sensitivity_shift_bps": 50
+            },
+            "identifiers": {},
+            "name": "NVDA Interest Rate Risk on Investment Portfolio",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "FX rate risk",
+              "currency risk"
+            ],
+            "attributes": {
+              "adverse_10pct_fx_income_impact_usd": -60000000,
+              "category": "foreign_exchange",
+              "hedge_instrument": "forward_contracts",
+              "usd_strengthening_10pct_aoci_impact_usd": -116000000
+            },
+            "identifiers": {},
+            "name": "NVDA Foreign Exchange Rate Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Interest Rate Risk on Investment Portfolio",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Foreign Exchange Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-24-000029.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "c014a928679b0c4a09253180d1d62f0d3e7f617ddd91dcd7cc759edc8afddc5f"
+    }
+  ],
+  "prompt_version": "v3"
+}

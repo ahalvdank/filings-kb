@@ -1,0 +1,100 @@
+{
+  "accession": "0000012927-23-000007",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T09:01:52Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are subject to foreign currency exchange rate risk relating to receipts from customers and payments to suppliers in foreign currencies. We use foreign currency forward contracts to hedge the price risk associated with firmly committed and forecasted foreign denominated payments and receipts related to our ongoing business. At December 31, 2022, a 10% increase or decrease in the exchange rate in our portfolio of foreign currency contracts would have increased or decreased our unrealized losses by $232 million.",
+            "entity_name": "BA Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are subject to commodity price risk relating to commodity purchase contracts for items used in production that are subject to changes in the market price. We use commodity swaps and commodity purchase contracts to hedge against these potentially unfavorable price changes. At December 31, 2022, a 10% increase or decrease in the market price in our commodity derivatives would have increased or decreased our unrealized losses by $70 million.",
+            "entity_name": "BA Commodity Price Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing FX risk",
+              "Boeing foreign currency risk"
+            ],
+            "attributes": {
+              "as_of_date": "2022-12-31",
+              "category": "market_risk",
+              "hedge_instrument": "foreign_currency_forward_contracts",
+              "sensitivity_10pct_usd": 232000000,
+              "subcategory": "foreign_currency"
+            },
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "BA Foreign Currency Exchange Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing commodity risk"
+            ],
+            "attributes": {
+              "as_of_date": "2022-12-31",
+              "category": "market_risk",
+              "hedge_instrument": "commodity_swaps_and_purchase_contracts",
+              "sensitivity_10pct_usd": 70000000,
+              "subcategory": "commodity_price"
+            },
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "BA Commodity Price Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Foreign Currency Exchange Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Commodity Price Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-23-000007.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "7d66c89add5cc6ba6bb3d562443666177cd71ecb37947fdd865d20f3892df790"
+    }
+  ],
+  "prompt_version": "v3"
+}

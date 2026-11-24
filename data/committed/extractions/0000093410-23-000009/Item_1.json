@@ -1,0 +1,704 @@
+{
+  "accession": "0000093410-23-000009",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T14:02:58Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "The company estimates its average worldwide oil-equivalent production in 2023, assuming a Brent crude oil price of $80 per barrel, to be flat to up three percent compared to 2022.",
+            "entity_name": "CVX FY2023 Worldwide Oil-Equivalent Production Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "As one of the largest producers in the Permian Basin, Chevron continues to capitalize on its advantaged portfolio in west Texas and southeast New Mexico with an outlook of one million barrels of net oil equivalent production per day by 2025.",
+            "entity_name": "CVX Permian Basin 1 MBOPD Production Target by 2025",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "Chevron divested its assets in the Eagle Ford Shale in Texas in March 2022.",
+            "entity_name": "CVX Eagle Ford Shale Divestiture (March 2022)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In May 2022, Chevron acquired a 50 percent interest in the Bayou Bend Carbon Capture and Sequestration hub in the Gulf of Mexico, covering over 40,000 acres.",
+            "entity_name": "CVX Bayou Bend CCS Hub Acquisition (May 2022)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In addition to ongoing emission reduction and water handling initiatives, construction of a 50 percent joint venture solar power project in New Mexico to supply renewable energy for our oil and gas operations was completed and is expected to be operational in the first half of 2023.",
+            "entity_name": "CVX New Mexico Solar Power Joint Venture (2022)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2022, Chevron signed an agreement to sell the company's interest in all Myanmar assets and exit the country, with an expected closing date in the second half of 2023.",
+            "entity_name": "CVX Myanmar Asset Sale Agreement (2022)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In May 2022, Chevron divested its 40 percent operated interest in OML 86 and OML 88.",
+            "entity_name": "CVX Nigeria OML 86 and OML 88 Divestiture (May 2022)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In September 2022, Chevron acquired an 80 percent-owned and operated interest in PEL90 (Block 2813B) in the Orange Basin, offshore Namibia.",
+            "entity_name": "CVX Namibia PEL90 Acquisition (September 2022)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In November 2022, the Department of Treasury's Office of Foreign Assets Control issued a six-month self-renewing general license authorizing the company to lift production from its four nonoperated affiliate joint ventures in Venezuela for delivery to the United States.",
+            "entity_name": "CVX Venezuela OFAC General License (November 2022)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "Chevron's strategy is to leverage our strengths to safely deliver lower carbon energy to a growing world. Our primary objective is to deliver higher returns, lower carbon and superior shareholder value in any business environment. We are building on our capabilities, assets and customer relationships as we aim to lead in lower carbon intensity oil, products and natural gas, as well as advance new products and solutions that reduce the carbon emissions of major industries.",
+            "entity_name": "CVX Lower Carbon Intensity Strategy",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "Chevron believes human ingenuity has the power to solve difficult problems when diverse people, ideas and experiences come together in an inclusive environment. Chevron reinforces the values of diversity and inclusion through recruitment and talent development, equitable selection processes, community partnerships and supplier diversity.",
+            "entity_name": "CVX Diversity and Inclusion Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "CVX 2023 production outlook"
+            ],
+            "attributes": {
+              "metric": "worldwide_oil_equivalent_production",
+              "new_value": "flat_to_up_3_pct_vs_2022",
+              "period": "FY2023",
+              "price_assumption_usd_bbl": 80,
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "CVX FY2023 Worldwide Oil-Equivalent Production Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Permian Basin 1 million barrel per day target"
+            ],
+            "attributes": {
+              "metric": "permian_net_oil_equivalent_production",
+              "new_value": "1_million_barrels_per_day",
+              "period": "2025",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "CVX Permian Basin 1 MBOPD Production Target by 2025",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Eagle Ford divestiture"
+            ],
+            "attributes": {
+              "effective_date": "2022-03",
+              "event_type": "divestiture",
+              "location": "Texas"
+            },
+            "identifiers": {},
+            "name": "CVX Eagle Ford Shale Divestiture (March 2022)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Bayou Bend CCS acquisition"
+            ],
+            "attributes": {
+              "acreage": 40000,
+              "effective_date": "2022-05",
+              "event_type": "acquisition",
+              "location": "Gulf of Mexico",
+              "stake_pct": 50,
+              "target": "Bayou Bend Carbon Capture and Sequestration hub"
+            },
+            "identifiers": {},
+            "name": "CVX Bayou Bend CCS Hub Acquisition (May 2022)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "New Mexico renewable energy JV"
+            ],
+            "attributes": {
+              "event_type": "joint_venture",
+              "expected_operational": "H1_2023",
+              "location": "New Mexico",
+              "purpose": "renewable energy for oil and gas operations",
+              "stake_pct": 50
+            },
+            "identifiers": {},
+            "name": "CVX New Mexico Solar Power Joint Venture (2022)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Myanmar exit agreement"
+            ],
+            "attributes": {
+              "event_type": "divestiture",
+              "expected_close": "H2_2023",
+              "location": "Myanmar",
+              "status": "agreement_signed"
+            },
+            "identifiers": {},
+            "name": "CVX Myanmar Asset Sale Agreement (2022)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "OML 86 OML 88 Nigeria divestiture"
+            ],
+            "attributes": {
+              "assets": "OML 86 and OML 88",
+              "effective_date": "2022-05",
+              "event_type": "divestiture",
+              "location": "Nigeria",
+              "stake_divested_pct": 40
+            },
+            "identifiers": {},
+            "name": "CVX Nigeria OML 86 and OML 88 Divestiture (May 2022)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Namibia Orange Basin PEL90 acquisition"
+            ],
+            "attributes": {
+              "effective_date": "2022-09",
+              "event_type": "acquisition",
+              "location": "Orange Basin, offshore Namibia",
+              "stake_pct": 80,
+              "target": "PEL90 Block 2813B"
+            },
+            "identifiers": {},
+            "name": "CVX Namibia PEL90 Acquisition (September 2022)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Venezuela OFAC production license"
+            ],
+            "attributes": {
+              "description": "six-month self-renewing general license authorizing production lifting from Venezuela JVs for delivery to the United States",
+              "effective_date": "2022-11",
+              "event_type": "regulatory_action",
+              "regulator": "Department of Treasury Office of Foreign Assets Control"
+            },
+            "identifiers": {},
+            "name": "CVX Venezuela OFAC General License (November 2022)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Chevron lower carbon strategy",
+              "Chevron lower carbon energy"
+            ],
+            "attributes": {
+              "areas": [
+                "renewable fuels",
+                "hydrogen",
+                "carbon capture",
+                "offsets"
+              ],
+              "commitment_type": "ghg_reduction",
+              "scope": "operations_products_and_new_lower_carbon_businesses"
+            },
+            "identifiers": {},
+            "name": "CVX Lower Carbon Intensity Strategy",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Chevron DEI commitment",
+              "Chevron diversity and inclusion"
+            ],
+            "attributes": {
+              "commitment_type": "dei",
+              "programs": [
+                "MARC",
+                "Global Women's Leadership Development Program",
+                "Transformational Leadership for Multicultural Women",
+                "Executive Leadership Council",
+                "Asia Pacific Leadership Development Program",
+                "Asian American Leadership Development Program",
+                "Latino Leadership Development Program"
+              ]
+            },
+            "identifiers": {},
+            "name": "CVX Diversity and Inclusion Commitment",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "period": "FY2023",
+              "update_type": "initiation"
+            },
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX FY2023 Worldwide Oil-Equivalent Production Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "2025",
+              "update_type": "confirmation"
+            },
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Permian Basin 1 MBOPD Production Target by 2025",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Eagle Ford Shale Divestiture (March 2022)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Bayou Bend CCS Hub Acquisition (May 2022)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX New Mexico Solar Power Joint Venture (2022)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Myanmar Asset Sale Agreement (2022)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Nigeria OML 86 and OML 88 Divestiture (May 2022)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Namibia PEL90 Acquisition (September 2022)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Venezuela OFAC General License (November 2022)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Lower Carbon Intensity Strategy",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Diversity and Inclusion Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-23-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "16912858f142091f404028eb08f73c5581ec56baa034c73bb68e13025c4930ae"
+    },
+    {
+      "extracted_at": "2026-08-10T14:06:30Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In June 2022, Chevron completed the acquisition of the Renewable Energy Group, Inc. (REG), which has 11 biofuel refineries located in the U.S. and Germany, 10 biofuel refineries producing biodiesel and one producing renewable diesel.",
+            "entity_name": "CVX Acquisition of Renewable Energy Group Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In December 2022, Chevron acquired full ownership of Beyond6, LLC and its nationwide network of 55 compressed natural gas (CNG) stations to grow its renewable natural gas value chain.",
+            "entity_name": "CVX Acquisition of Beyond6 LLC",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In April 2022, Chevron completed the purchase of the NEXBASE brand, associated qualifications and approvals, and related sales and marketing business from Neste Oyj. As part of the acquisition, Chevron maintains all current supply sources utilizing long-term offtake agreements.",
+            "entity_name": "CVX Acquisition of NEXBASE Brand from Neste Oyj",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In May 2022, Chevron formed a joint venture, Bunge Chevron Ag Renewables LLC, in which it holds a 50 percent working interest. The venture produces soybean oil from processing facilities in Destrehan, Louisiana, and Cairo, Illinois. Soybean oil can be used as a renewable feedstock to make renewable diesel, biodiesel, and sustainable aviation fuel.",
+            "entity_name": "CVX Formation of Bunge Chevron Ag Renewables LLC",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "In April 2022, Chevron joined the Global Centre for Maritime Decarbonisation (GCMD) as a strategic partner to the organization. The Singapore-based nonprofit was launched in August 2021 to help the International Maritime Organization meet its greenhouse gas emissions reduction goals for 2030 and 2050 by supporting cross-industry collaboration.",
+            "entity_name": "CVX Global Centre for Maritime Decarbonisation Strategic Partnership",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "The new energies organization is designed to advance the company's strategy by bringing together dedicated resources focused on developing new lower carbon businesses that have the potential to scale. Its initial focus includes commercialization opportunities in hydrogen, carbon capture and storage, carbon offsets and emerging technologies such as geothermal.",
+            "entity_name": "CVX Chevron New Energies Lower Carbon Business Initiative",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Chevron",
+              "CVX"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "Chevron Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "REG"
+            ],
+            "attributes": {
+              "industry": "biofuels"
+            },
+            "identifiers": {},
+            "name": "Renewable Energy Group, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Beyond6"
+            ],
+            "attributes": {
+              "industry": "compressed_natural_gas"
+            },
+            "identifiers": {},
+            "name": "Beyond6, LLC",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "CPChem"
+            ],
+            "attributes": {
+              "cvx_ownership_pct": 0.5
+            },
+            "identifiers": {},
+            "name": "Chevron Phillips Chemical Company LLC",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "CVX REG acquisition",
+              "Chevron REG deal"
+            ],
+            "attributes": {
+              "assets_acquired": "11 biofuel refineries in U.S. and Germany",
+              "effective_date": "2022-06",
+              "event_type": "acquisition",
+              "target_company": "Renewable Energy Group, Inc."
+            },
+            "identifiers": {},
+            "name": "CVX Acquisition of Renewable Energy Group Inc.",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Chevron Beyond6 acquisition"
+            ],
+            "attributes": {
+              "assets_acquired": "55 compressed natural gas stations nationwide",
+              "effective_date": "2022-12",
+              "event_type": "acquisition",
+              "target_company": "Beyond6, LLC"
+            },
+            "identifiers": {},
+            "name": "CVX Acquisition of Beyond6 LLC",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NEXBASE brand acquisition"
+            ],
+            "attributes": {
+              "assets_acquired": "NEXBASE brand, associated qualifications and approvals, and related sales and marketing business",
+              "effective_date": "2022-04",
+              "event_type": "acquisition",
+              "target_company": "Neste Oyj"
+            },
+            "identifiers": {},
+            "name": "CVX Acquisition of NEXBASE Brand from Neste Oyj",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Bunge Chevron Ag Renewables JV",
+              "Bunge Chevron joint venture"
+            ],
+            "attributes": {
+              "cvx_ownership_pct": 0.5,
+              "effective_date": "2022-05",
+              "event_type": "joint_venture",
+              "partner": "Bunge",
+              "products": "soybean oil for renewable diesel, biodiesel, and sustainable aviation fuel"
+            },
+            "identifiers": {},
+            "name": "CVX Formation of Bunge Chevron Ag Renewables LLC",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "CVX GCMD partnership"
+            ],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "effective_date": "2022-04",
+              "organization": "Global Centre for Maritime Decarbonisation",
+              "target_description": "IMO greenhouse gas emissions reduction goals for 2030 and 2050"
+            },
+            "identifiers": {},
+            "name": "CVX Global Centre for Maritime Decarbonisation Strategic Partnership",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Chevron New Energies",
+              "CVX hydrogen and CCS strategy"
+            ],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "focus_areas": "hydrogen, carbon capture and storage, carbon offsets, geothermal"
+            },
+            "identifiers": {},
+            "name": "CVX Chevron New Energies Lower Carbon Business Initiative",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Acquisition of Renewable Energy Group Inc.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Acquisition of Beyond6 LLC",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Acquisition of NEXBASE Brand from Neste Oyj",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Formation of Bunge Chevron Ag Renewables LLC",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Global Centre for Maritime Decarbonisation Strategic Partnership",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Chevron New Energies Lower Carbon Business Initiative",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-23-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "22ef2cb7dee11d3f73d9b1ed04cddbcaf38f7c78c38b2959cee5e6541f91761d"
+    }
+  ],
+  "prompt_version": "v3"
+}

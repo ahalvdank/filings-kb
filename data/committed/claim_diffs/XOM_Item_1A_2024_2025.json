@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-11-23T08:23:27.419662+00:00",
+  "current_fy": 2025,
+  "input_sha256": "3eb841f9495f76f34def5dabb80a4969bbc998f119b0fd249f19928908524e9c",
+  "item": "Item_1A",
+  "model": "claude-sonnet-4-6",
+  "prior_fy": 2024,
+  "prompt_sha256": "71d2da8ab6cdab15e1608c2f958dd4ee476ccefb8769395dad274dfc53c246fc",
+  "result": {
+    "added": [
+      "XOM Lower-Emission Business Policy Development Risk",
+      "XOM Physical Security and Operational Disruption Risk"
+    ],
+    "changed": [
+      [
+        "XOM Economic Conditions and Energy Demand Risk: risk scoped to macroeconomic conditions and energy demand",
+        "XOM Global Economic Conditions Risk: energy demand component dropped; scope limited to global economic conditions"
+      ],
+      [
+        "XOM Energy Transition and Net-Zero Scenario Risk: risk framed around net-zero scenarios and energy transition",
+        "XOM Energy Transition Technology Uncertainty Risk: net-zero scenario framing replaced by technology uncertainty framing"
+      ],
+      [
+        "XOM Resource Access Limitations Risk: category=geopolitical_regulatory; covers resource access and regulatory constraints",
+        "XOM Geopolitical Access Limitations Risk: category=geopolitical only; regulatory component removed from scope"
+      ],
+      [
+        "XOM Cybersecurity Disruption Risk: threat_actors limited to state-sponsored actors",
+        "XOM Cybersecurity Disruption Risk: threat_actors expanded to state-sponsored actors and others"
+      ],
+      [
+        "XOM Competition Risk: broad competitive risk across geographies",
+        "XOM Competition from State-Owned Companies Risk: scope narrowed specifically to competition from state-owned companies; geography qualifier removed"
+      ]
+    ],
+    "removed": [
+      "XOM Pioneer Acquisition Integration Risk",
+      "XOM Sanctions and Business Restrictions Risk"
+    ]
+  },
+  "ticker": "XOM"
+}

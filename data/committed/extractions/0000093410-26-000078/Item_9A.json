@@ -1,0 +1,62 @@
+{
+  "accession": "0000093410-26-000078",
+  "item": "Item_9A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T13:40:40Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9A"
+            },
+            "chunk_type": "material_event",
+            "content": "The company excluded Hess from our assessment of internal control over financial reporting as of December 31, 2025, because it was acquired by the company in a business combination during 2025. Total assets and total revenues of Hess, a wholly-owned subsidiary of Chevron Corporation, represent 24 percent and 3 percent, respectively, of the related consolidated financial statement amounts as of and for the period ended December 31, 2025.",
+            "entity_name": "CVX Acquisition of Hess",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Chevron-Hess business combination",
+              "Hess acquisition 2025"
+            ],
+            "attributes": {
+              "consideration": "business_combination",
+              "effective_period": "2025",
+              "event_type": "acquisition",
+              "hess_total_assets_pct_of_consolidated": 0.24,
+              "hess_total_revenues_pct_of_consolidated": 0.03,
+              "post_acquisition_status": "wholly-owned subsidiary",
+              "target_company": "Hess Corporation"
+            },
+            "identifiers": {},
+            "name": "CVX Acquisition of Hess",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Acquisition of Hess",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-26-000078.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "10f1a62b83b266c81a6cb962a28bcd529301a5b7bd0900e284977956aba88789"
+    }
+  ],
+  "prompt_version": "v3"
+}

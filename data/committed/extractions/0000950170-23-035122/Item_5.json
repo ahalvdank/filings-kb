@@ -1,0 +1,115 @@
+{
+  "accession": "0000950170-23-035122",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T13:52:23Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "remaining_authorization_millions_usd": 22309,
+              "section_type": "Item_5",
+              "shares_repurchased_q4_fy2023": 14777254
+            },
+            "chunk_type": "capital_return",
+            "content": "All share repurchases were made using cash resources. Our share repurchases may occur through open market purchases or pursuant to a Rule 10b5-1 trading plan. The above table excludes shares repurchased to settle employee tax withholding related to the vesting of stock awards.",
+            "entity_name": "MSFT Q4 FY2023 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Our Board of Directors declared the following dividends during the fourth quarter of fiscal year 2023: Declaration Date June 13, 2023, Record Date August 17, 2023, Payment Date September 14, 2023, Dividend Per Share $0.68, Amount $5,054 million.",
+            "entity_name": "MSFT Q4 FY2023 Quarterly Dividend ($0.68/share)",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5",
+              "total_capital_returned_usd": 9700000000
+            },
+            "chunk_type": "capital_return",
+            "content": "We returned $9.7 billion to shareholders in the form of share repurchases and dividends in the fourth quarter of fiscal year 2023.",
+            "entity_name": "MSFT Q4 FY2023 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft Q4 2023 buyback",
+              "MSFT Q4 FY2023 buyback"
+            ],
+            "attributes": {
+              "method": "open_market_or_10b5-1_plan",
+              "period": "Q4_FY2023",
+              "remaining_authorization_usd": 22309000000,
+              "return_type": "buyback",
+              "shares_repurchased": 14777254
+            },
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Q4 FY2023 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Microsoft September 2023 quarterly dividend"
+            ],
+            "attributes": {
+              "amount_usd": 5054000000,
+              "declaration_date": "2023-06-13",
+              "effective_date": "2023-09-14",
+              "per_share": 0.68,
+              "record_date": "2023-08-17",
+              "return_type": "dividend"
+            },
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Q4 FY2023 Quarterly Dividend ($0.68/share)",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Q4 FY2023 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Q4 FY2023 Quarterly Dividend ($0.68/share)",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0000950170-23-035122.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "49c03deeca74d15226728dc9128bfbf521e285e677659b72f4deb24e9c00f5db"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,207 @@
+{
+  "accession": "0000731766-23-000008",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-21T02:55:20Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "schedule": "Schedule_I_Condensed_Statements_of_Cash_Flows",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_return",
+            "content": "Common stock repurchases(7,000)(5,000)(4,250)",
+            "entity_name": "UNH FY2022 Common Stock Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "schedule": "Schedule_I_Condensed_Statements_of_Cash_Flows",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_return",
+            "content": "Cash dividends paid(5,991)(5,280)(4,584)",
+            "entity_name": "UNH FY2022 Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "schedule": "Schedule_I_Condensed_Statements_of_Cash_Flows",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Proceeds from issuance of long-term debt14,819 6,933 4,864 Repayments of long-term debt(3,015)(3,150)(3,150)",
+            "entity_name": "UNH FY2022 Long-Term Debt Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "schedule": "Schedule_I_Note_3",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Maturities of short-term borrowings and long-term debt for the years ending December 31 are as follows: (in millions) 2023$2,925 20243,000 20253,050 20262,500 20272,925 Thereafter43,502",
+            "entity_name": "UNH FY2022 Long-Term Debt Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "schedule": "Schedule_I_Condensed_Statements_of_Cash_Flows",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Cash paid for acquisitions(20,728)(4,953)(7,706)",
+            "entity_name": "UNH FY2022 Acquisition Activity",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "schedule": "Schedule_I_Condensed_Statements_of_Cash_Flows",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Cash received from dispositions2,787 — 143",
+            "entity_name": "UNH FY2022 Disposition Activity",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 7000000000,
+              "period": "FY2022",
+              "return_type": "buyback",
+              "statement_source": "parent_company_condensed_cash_flows"
+            },
+            "identifiers": {},
+            "name": "UNH FY2022 Common Stock Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 5991000000,
+              "period": "FY2022",
+              "return_type": "dividend",
+              "statement_source": "parent_company_condensed_cash_flows"
+            },
+            "identifiers": {},
+            "name": "UNH FY2022 Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "notes",
+              "net_proceeds_usd": 11804000000,
+              "period": "FY2022",
+              "principal_usd": 14819000000,
+              "repayments_usd": 3015000000,
+              "statement_source": "parent_company_condensed_cash_flows"
+            },
+            "identifiers": {},
+            "name": "UNH FY2022 Long-Term Debt Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "cash_paid_usd": 20728000000,
+              "event_type": "acquisition",
+              "period": "FY2022",
+              "statement_source": "parent_company_condensed_cash_flows"
+            },
+            "identifiers": {},
+            "name": "UNH FY2022 Acquisition Activity",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "cash_received_usd": 2787000000,
+              "event_type": "divestiture",
+              "period": "FY2022",
+              "statement_source": "parent_company_condensed_cash_flows"
+            },
+            "identifiers": {},
+            "name": "UNH FY2022 Disposition Activity",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2022 Common Stock Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2022 Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2022 Long-Term Debt Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2022 Acquisition Activity",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2022 Disposition Activity",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-23-000008.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "b6028666402dfcd17e172a344079ed2003b40fa50dc42cf64f66e3ddf1f3ca48"
+    }
+  ],
+  "prompt_version": "v3"
+}

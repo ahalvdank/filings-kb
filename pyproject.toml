@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "filings-kb"
+version = "0.1.0"
+description = "Public rewrite of a private SEC-filings pipeline: 61 filings (12 companies × 5 fiscal years plus one 10-K/A)."
+requires-python = ">=3.11"
+dependencies = [
+    "edgartools==5.30.3",
+    "pyyaml>=6",
+    "chromadb==1.5.9",
+    "sentence-transformers==6.3.0",
+    "pydantic>=2",
+    "rapidfuzz>=3.14",
+    "python-dotenv>=1",
+    "jsonschema>=4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+anthropic = ["anthropic>=0.40"]
+
+[tool.setuptools]
+packages = ["filings_kb"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

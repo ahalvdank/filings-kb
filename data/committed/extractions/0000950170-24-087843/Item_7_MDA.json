@@ -1,0 +1,660 @@
+{
+  "accession": "0000950170-24-087843",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T13:04:06Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue increased $8.5 billion or 12%. Office Commercial products and cloud services revenue increased $5.8 billion or 14%. Office 365 Commercial revenue grew 16% with seat growth of 7%, driven by small and medium business and frontline worker offerings, as well as growth in revenue per user.",
+            "entity_name": "MSFT Productivity and Business Processes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue increased $17.5 billion or 20%. Server products and cloud services revenue increased $17.8 billion or 22% driven by Azure and other cloud services. Azure and other cloud services revenue grew 30% driven by growth in our consumption-based services.",
+            "entity_name": "MSFT Intelligent Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue increased $7.3 billion or 13%. Gaming revenue increased $6.0 billion or 39% driven by growth in Xbox content and services. Xbox content and services revenue increased 50% driven by 44 points of net impact from the Activision Blizzard acquisition. Xbox hardware revenue decreased 13% driven by lower volume of consoles sold.",
+            "entity_name": "MSFT More Personal Computing Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Microsoft Cloud revenue increased 23% to $137.4 billion. Microsoft Cloud gross margin percentage decreased slightly to 71%. Excluding the impact of the change in accounting estimate, Microsoft Cloud gross margin percentage increased slightly driven by improvements in Azure and Office 365 Commercial, inclusive of scaling our AI infrastructure, offset in part by sales mix shift to Azure.",
+            "entity_name": "MSFT Microsoft Cloud",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Azure and other cloud services revenue grew 30% driven by growth in our consumption-based services.",
+            "entity_name": "MSFT Azure",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "LinkedIn revenue increased $1.4 billion or 9% driven by growth across all lines of business – Talent Solutions, Premium Subscriptions, Marketing Solutions, and Sales Solutions.",
+            "entity_name": "MSFT LinkedIn",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Xbox content and services revenue increased 50% driven by 44 points of net impact from the Activision Blizzard acquisition. The net impact reflects the change of Activision Blizzard content from third-party to first-party.",
+            "entity_name": "MSFT Xbox Content and Services",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "On October 13, 2023, we completed our acquisition of Activision Blizzard for a total purchase price of $75.4 billion, consisting primarily of cash. The financial results of Activision Blizzard have been included in our consolidated financial statements since the date of the acquisition. Activision Blizzard is reported as part of our More Personal Computing segment.",
+            "entity_name": "MSFT Acquisition of Activision Blizzard",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "With respect to the audit for tax years 2004 to 2013, on September 26, 2023, we received Notices of Proposed Adjustment (\"NOPAs\") from the IRS. The primary issues in the NOPAs relate to intercompany transfer pricing. In the NOPAs, the IRS is seeking an additional tax payment of $28.9 billion plus penalties and interest. We disagree with the proposed adjustments and will vigorously contest the NOPAs through the IRS's administrative appeals office and, if necessary, judicial proceedings.",
+            "entity_name": "MSFT IRS NOPAs Tax Dispute 2004-2013",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal years 2024 and 2023, we repurchased 32 million shares and 69 million shares of our common stock for $12.0 billion and $18.4 billion, respectively, through our share repurchase program. All repurchases were made using cash resources.",
+            "entity_name": "MSFT FY2024 Common Stock Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "As of June 30, 2024, $10.3 billion remained of our $60 billion share repurchase program.",
+            "entity_name": "MSFT $60B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal years 2024 and 2023, our Board of Directors declared dividends totaling $22.3 billion and $20.2 billion, respectively. We intend to continue returning capital to shareholders in the form of dividends, subject to declaration by our Board of Directors.",
+            "entity_name": "MSFT FY2024 Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+            "entity_name": "MSFT Capital Expenditure Growth Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Cash used in financing decreased $6.2 billion to $37.8 billion for fiscal year 2024, primarily due to a $5.0 billion decrease in common stock repurchases and a $3.3 billion increase in proceeds from issuance of debt, net of repayments, offset in part by a $2.0 billion increase in dividends paid.",
+            "entity_name": "MSFT FY2024 Net Debt Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Satya Nadella\n\nChief Executive Officer",
+            "entity_name": "Satya Nadella",
+            "entity_type_entity": "Person",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Amy E. Hood\n\nExecutive Vice President and Chief Financial Officer",
+            "entity_name": "Amy E. Hood",
+            "entity_type_entity": "Person",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Alice L. Jolla\n\nCorporate Vice President and Chief Accounting Officer",
+            "entity_name": "Alice L. Jolla",
+            "entity_type_entity": "Person",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft",
+              "MSFT"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "Microsoft Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Productivity and Business Processes",
+              "PBP"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Productivity and Business Processes",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Productivity and Business Processes Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Intelligent Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Intelligent Cloud",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Intelligent Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "More Personal Computing",
+              "MPC"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "More Personal Computing",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT More Personal Computing Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Microsoft Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Microsoft Cloud",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Microsoft Cloud",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Azure",
+              "Azure and other cloud services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Azure",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Azure",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "LinkedIn"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "LinkedIn",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT LinkedIn",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Xbox content and services",
+              "Gaming"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Xbox Content and Services",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Xbox Content and Services",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Activision Blizzard acquisition",
+              "Activision deal"
+            ],
+            "attributes": {
+              "consideration": "primarily cash",
+              "effective_date": "2023-10-13",
+              "event_type": "acquisition",
+              "purchase_price_usd": 75400000000,
+              "target_company": "Activision Blizzard Inc."
+            },
+            "identifiers": {},
+            "name": "MSFT Acquisition of Activision Blizzard",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "IRS transfer pricing NOPAs",
+              "Microsoft IRS tax dispute"
+            ],
+            "attributes": {
+              "counterparty": "Internal Revenue Service",
+              "primary_issue": "intercompany transfer pricing",
+              "proposed_additional_tax_usd": 28900000000,
+              "status": "pending",
+              "tax_years": "2004-2013"
+            },
+            "identifiers": {},
+            "name": "MSFT IRS NOPAs Tax Dispute 2004-2013",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "MSFT FY2024 buyback",
+              "MSFT FY2024 share repurchases"
+            ],
+            "attributes": {
+              "amount_usd": 12000000000,
+              "period": "FY2024",
+              "return_type": "buyback",
+              "shares_repurchased": 32000000
+            },
+            "identifiers": {},
+            "name": "MSFT FY2024 Common Stock Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "MSFT $60 billion repurchase program"
+            ],
+            "attributes": {
+              "remaining_authorization_usd": 10300000000,
+              "return_type": "repurchase_authorization",
+              "total_program_usd": 60000000000
+            },
+            "identifiers": {},
+            "name": "MSFT $60B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "MSFT FY2024 dividend payments"
+            ],
+            "attributes": {
+              "amount_usd": 22300000000,
+              "period": "FY2024",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "MSFT FY2024 Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "MSFT capex growth outlook"
+            ],
+            "attributes": {
+              "direction": "increase",
+              "metric": "capital_expenditures",
+              "period": "coming years",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "MSFT Capital Expenditure Growth Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "MSFT FY2024 debt proceeds"
+            ],
+            "attributes": {
+              "instrument_type": "notes",
+              "net_proceeds_increase_usd": 3300000000,
+              "period": "FY2024",
+              "purpose": "general corporate purposes",
+              "total_long_term_debt_principal_usd": 51221000000
+            },
+            "identifiers": {},
+            "name": "MSFT FY2024 Net Debt Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "MSFT",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Satya Nadella",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "MSFT",
+              "insider_status": "officer",
+              "officer_role": "CFO"
+            },
+            "identifiers": {},
+            "name": "Amy E. Hood",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "MSFT",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "Alice L. Jolla",
+            "type": "Person"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.12,
+              "operating_income": 40540000000,
+              "period": "FY2024",
+              "revenue": 77728000000
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Productivity and Business Processes Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.2,
+              "operating_income": 49584000000,
+              "period": "FY2024",
+              "revenue": 105362000000
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Intelligent Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.13,
+              "operating_income": 19309000000,
+              "period": "FY2024",
+              "revenue": 62032000000
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT More Personal Computing Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.23,
+              "margin": 0.71,
+              "period": "FY2024",
+              "revenue": 137400000000
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Microsoft Cloud",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.3,
+              "period": "FY2024"
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Azure",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.09,
+              "period": "FY2024"
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT LinkedIn",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.5,
+              "period": "FY2024"
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Xbox Content and Services",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Acquisition of Activision Blizzard",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT IRS NOPAs Tax Dispute 2004-2013",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2024 Common Stock Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT $60B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2024 Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Capital Expenditure Growth Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2024 Net Debt Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Satya Nadella",
+            "source_type_entity": "Person",
+            "target_name": "Microsoft Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO"
+            },
+            "source_name": "Amy E. Hood",
+            "source_type_entity": "Person",
+            "target_name": "Microsoft Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Chief Accounting Officer"
+            },
+            "source_name": "Alice L. Jolla",
+            "source_type_entity": "Person",
+            "target_name": "Microsoft Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0000950170-24-087843.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "94c451a12f31f22730cb9ae93805106c1140604b45ebb4041b77f70ce5299c8a"
+    }
+  ],
+  "prompt_version": "v3"
+}

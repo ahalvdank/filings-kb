@@ -1,0 +1,309 @@
+{
+  "accession": "0001652044-25-000014",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T14:18:25Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "We continue this work under the leadership of Alphabet and Google CEO, Sundar Pichai.",
+            "entity_name": "Sundar Pichai",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "Google Services' core products and platforms include ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube, with broad and growing adoption by users around the world.",
+            "entity_name": "GOOGL Google Services",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "Through our Google Cloud Platform and Google Workspace offerings, Google Cloud generates revenues primarily from consumption-based fees and subscriptions for infrastructure, platform, applications, and other cloud services.",
+            "entity_name": "GOOGL Google Cloud",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues from Other Bets are generated primarily from the sale of healthcare-related services, and internet services.",
+            "entity_name": "GOOGL Other Bets",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "In 2021, we set an ambitious goal to reach net-zero emissions across all of our operations and value chain by 2030.",
+            "entity_name": "Alphabet Net-Zero Emissions by 2030",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "To make progress toward this effort, we aim to reduce 50% of our combined Scope 1, Scope 2 (market-based), and Scope 3 absolute emissions (compared to our 2019 base year) by 2030, and we plan to invest in nature-based and technology-based carbon removal solutions to neutralize our remaining emissions.",
+            "entity_name": "Alphabet 50% Absolute GHG Reduction by 2030",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "In 2020, we set a goal to run on 24/7 CFE every hour of every day on every grid where we operate by 2030.",
+            "entity_name": "Alphabet 24/7 Carbon-Free Energy by 2030",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "Through our products, we have an aspiration to help individuals, cities, and other partners collectively reduce one gigaton of their carbon equivalent emissions annually by 2030.",
+            "entity_name": "Alphabet 1 Gigaton Third-Party Emissions Reduction via Products by 2030",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Alphabet",
+              "Google"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "GOOGL",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Sundar Pichai",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Google Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Services",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Services",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Cloud",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Cloud",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Other Bets"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Other Bets",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Other Bets",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Alphabet 2030 net-zero commitment"
+            ],
+            "attributes": {
+              "announced_year": 2021,
+              "commitment_type": "carbon_neutral",
+              "scope": "all operations and value chain",
+              "target_year": 2030
+            },
+            "identifiers": {},
+            "name": "Alphabet Net-Zero Emissions by 2030",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Alphabet GHG 50% reduction target"
+            ],
+            "attributes": {
+              "baseline_year": 2019,
+              "commitment_type": "ghg_reduction",
+              "scope": "Scope 1, Scope 2 market-based, and Scope 3 absolute emissions",
+              "target_value": "50% reduction vs 2019 baseline",
+              "target_year": 2030
+            },
+            "identifiers": {},
+            "name": "Alphabet 50% Absolute GHG Reduction by 2030",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "24/7 CFE goal"
+            ],
+            "attributes": {
+              "announced_year": 2020,
+              "commitment_type": "ghg_reduction",
+              "note": "24/7 CFE on every grid where Alphabet operates",
+              "target_year": 2030
+            },
+            "identifiers": {},
+            "name": "Alphabet 24/7 Carbon-Free Energy by 2030",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "1 gigaton carbon reduction aspiration"
+            ],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "note": "reduction enabled through Alphabet products for individuals, cities, and partners",
+              "target_value": "1 gigaton CO2e annually",
+              "target_year": 2030
+            },
+            "identifiers": {},
+            "name": "Alphabet 1 Gigaton Third-Party Emissions Reduction via Products by 2030",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Sundar Pichai",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Services",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Cloud",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Other Bets",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Alphabet Net-Zero Emissions by 2030",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Alphabet 50% Absolute GHG Reduction by 2030",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Alphabet 24/7 Carbon-Free Energy by 2030",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Alphabet 1 Gigaton Third-Party Emissions Reduction via Products by 2030",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-25-000014.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "deb3b1d733e0ef42390bc1323719bd11e9cd73fe2f267da3ad515f5010cb9574"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,938 @@
+{
+  "accession": "0000950170-24-087843",
+  "item": "Item_1A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T12:51:29Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "risk_section_heading": "STRATEGIC AND COMPETITIVE RISKS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We face intense competition across all markets for our products and services, which may adversely affect our results of operations. Our competitors range in size from diversified global companies with significant research and development resources to small, specialized firms whose narrower product lines may let them be more effective in deploying technical, marketing, and financial resources. Barriers to entry in many of our businesses are low and many of the areas in which we compete evolve rapidly with changing and disruptive technologies, shifting user needs, and frequent introductions of new products and services. If we do not continue to innovate and provide products, devices, and services that appeal to businesses and consumers, we may not remain competitive, which may adversely affect our business, financial condition, and results of operations.",
+            "entity_name": "MSFT Technology Sector Competition Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_section_heading": "STRATEGIC AND COMPETITIVE RISKS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our focus on cloud-based and AI services presents execution and competitive risks. We are incurring significant costs to build and maintain infrastructure to support cloud computing and AI services. These costs will reduce the operating margins. Whether we succeed in cloud-based and AI services depends on our execution in several areas, including: Continuing to bring to market compelling cloud-based and AI experiences and products that generate increasing traffic and market share.",
+            "entity_name": "MSFT Cloud and AI Execution Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_section_heading": "STRATEGIC AND COMPETITIVE RISKS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our AI systems offer users powerful tools and capabilities. However, there may be instances where these systems are used in ways that are unintended or inappropriate. In addition, some users may also engage in fraudulent or abusive activities through our cloud-based services, such as unauthorized account access, payment fraud, or terms of service violations including cryptocurrency mining or launching cyberattacks.",
+            "entity_name": "MSFT AI Misuse and Platform Abuse Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_section_heading": "CYBERSECURITY, DATA PRIVACY, AND PLATFORM ABUSE RISKS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Individual and groups of hackers and sophisticated organizations, including state-sponsored organizations or nation-states, continuously undertake attacks that pose threats to our customers and our IT, and we have experienced cybersecurity incidents in which such actors have gained unauthorized access to our IT systems and data, including customer systems and data. Cyberthreats are constantly evolving and becoming increasingly sophisticated and complex, increasing the difficulty of detecting and successfully defending against them. Threat actors may also utilize emerging technologies, such as AI and machine learning.",
+            "entity_name": "MSFT IT Security and Cybersecurity Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_section_heading": "CYBERSECURITY, DATA PRIVACY, AND PLATFORM ABUSE RISKS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The growth of our Internet- and cloud-based services internationally relies increasingly on the movement of data across national boundaries. Legal requirements relating to the collection, storage, handling, and transfer of personal data continue to evolve. For example, while the EU-U.S. Data Privacy Framework (\"DPF\") has been recognized as adequate under EU law to allow transfers of personal data from the EU to certified companies in the U.S., the DPF is subject to further legal challenge which could cause the legal requirements for data transfers from the EU to be uncertain.",
+            "entity_name": "MSFT Personal Data Privacy and Regulatory Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_section_heading": "CYBERSECURITY, DATA PRIVACY, AND PLATFORM ABUSE RISKS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "AI algorithms or training methodologies may be flawed. Datasets may be overbroad, insufficient, or contain biased information. Content generated by AI systems may be offensive, illegal, inaccurate, or otherwise harmful. Ineffective or inadequate AI development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, cause harm to individuals, customers, or society, or result in our products and services not working as intended. Our implementation of AI systems could result in legal liability, regulatory action, brand, reputational, or competitive harm, or other adverse impacts.",
+            "entity_name": "MSFT AI Development and Deployment Liability Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_section_heading": "LEGAL, REGULATORY, AND LITIGATION RISKS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Government agencies closely scrutinize us under U.S. and foreign competition laws. Governments are actively enforcing competition laws and regulations and enacting new regulations to intervene in digital markets, and this includes markets such as the EU, the United Kingdom, the U.S., and China. the European Commission (\"the Commission\") has designated Windows and LinkedIn as core platform services subject to obligations under the EU Digital Markets Act, which prohibits certain self-preferencing behaviors and places limitations on certain data use among other obligations.",
+            "entity_name": "MSFT Competition Law and Market Regulation Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_section_heading": "LEGAL, REGULATORY, AND LITIGATION RISKS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are currently under Internal Revenue Service (\"IRS\") audit for prior tax years and have received Notices of Proposed Adjustment (\"NOPAs\") from the IRS for the tax years 2004 to 2013. The primary issues in the NOPAs relate to intercompany transfer pricing. In the NOPAs, the IRS is seeking an additional tax payment of $28.9 billion plus penalties and interest. The final resolution of the proposed adjustments, and other audits or litigation, may differ from the amounts recorded in our consolidated financial statements and adversely affect our results of operations in the period or periods in which that determination is made.",
+            "entity_name": "MSFT Additional Tax Liability Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_section_heading": "RISKS RELATING TO THE EVOLUTION OF OUR BUSINESS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If our goodwill or amortizable intangible assets become impaired, we may be required to record a significant charge to earnings. We acquire other companies and intangible assets and may not realize all the economic benefit from those acquisitions, which could cause an impairment of goodwill or intangibles. We review our amortizable intangible assets for impairment when events or changes in circumstances indicate the carrying value may not be recoverable. We test goodwill for impairment at least annually.",
+            "entity_name": "MSFT Goodwill and Intangible Asset Impairment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_section_heading": "OPERATIONAL RISKS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We may have excessive outages, data losses, and disruptions of our online services if we fail to maintain an adequate operations infrastructure. Our increasing user traffic, growth in services, and the complexity of our products and services demand more computing power. Inefficiencies or operational failures, including temporary or permanent loss of customer data, outages, insufficient Internet connectivity, insufficient or unavailable power or water supply, or inadequate storage and compute capacity could diminish the quality of our products, services, and user experience, resulting in contractual liability, claims by customers and other third parties, regulatory actions, damage to our reputation, and loss of current and potential users, subscribers, and advertisers.",
+            "entity_name": "MSFT Operations Infrastructure Outage Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_section_heading": "OPERATIONAL RISKS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "There are limited suppliers for certain device and datacenter components. If components are delayed or become unavailable, whether because of supplier capacity constraint, industry shortages, legal or regulatory changes that restrict supply sources, or other reasons, we may not obtain timely replacement supplies, resulting in reduced sales or inadequate datacenter capacity to support the delivery and continued development of our products and services. Component shortages, excess or obsolete inventory, or price reductions resulting in inventory adjustments may increase our cost of revenue.",
+            "entity_name": "MSFT Supply Chain and Component Shortage Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_section_heading": "LEGAL, REGULATORY, AND LITIGATION RISKS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Increasing trade laws, policies, sanctions, and other regulatory requirements also affect our operations in and outside the U.S. relating to trade and investment. Economic sanctions in the U.S., the EU, and other countries prohibit most business with restricted entities or countries. U.S. export controls restrict Microsoft from offering many of its products and services to, or making investments in, certain entities in specified countries.",
+            "entity_name": "MSFT Trade Sanctions and Anti-Corruption Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_section_heading": "LEGAL, REGULATORY, AND LITIGATION RISKS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are subject to evolving sustainability regulatory requirements and expectations, which exposes us to increased costs and legal and reputational risks. Laws, regulations, and policies relating to environmental, social, and governance matters are being developed and formalized in Europe, the U.S., and elsewhere, which may include specific, target-driven frameworks and disclosure requirements. Any failure or perceived failure to pursue or fulfill our sustainability goals and commitments or to satisfy various sustainability reporting standards or regulatory requirements within the timelines we announce, or at all, could result in claims and lawsuits, regulatory actions, or damage to our reputation, each of which may adversely affect our business, operations, financial condition, and results of operations.",
+            "entity_name": "MSFT ESG Regulatory Compliance Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_section_heading": "INTELLECTUAL PROPERTY RISKS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Protecting our intellectual property rights and combating unlicensed copying and use of our software, source code, and other intellectual property on a global basis is difficult. From time to time, others claim we infringe their intellectual property rights, including current copyright infringement and other claims arising from AI training and output. To resolve these claims, we may enter into royalty-bearing data access or licensing agreements on terms that are less favorable than currently available, stop selling or redesign affected products or services, or pay damages to satisfy indemnification commitments with our customers.",
+            "entity_name": "MSFT Intellectual Property Protection Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_section_heading": "GENERAL RISKS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "A disruption or failure of our systems, operations, or supply chain because of a major earthquake, weather event, cyberattack, terrorist attack, pandemic, or other catastrophic event could cause delays in completing sales, providing services, or performing other critical functions. Our corporate headquarters, a significant portion of our research and development activities, and certain other essential business operations are in the Seattle, Washington area, and we have other business operations in the Silicon Valley area of California, both of which are seismically active regions.",
+            "entity_name": "MSFT Geopolitical and Catastrophic Event Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_section_heading": "GENERAL RISKS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our business depends on our ability to attract and retain talented employees. Our business is based on successfully attracting, training, and retaining talented employees representing diverse backgrounds, experiences, and skill sets. The market for highly skilled workers and leaders in our industry is extremely competitive. Maintaining our brand and reputation, as well as a diverse and inclusive work environment that enables all our employees to thrive, are important to our ability to recruit and retain employees.",
+            "entity_name": "MSFT Talent Attraction and Retention Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_section_heading": "RISKS RELATING TO THE EVOLUTION OF OUR BUSINESS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Acquisitions and other transactions and arrangements involve significant challenges and risks, including that they do not advance our business strategy, that we get an unsatisfactory return on our investment, that they raise new compliance-related obligations and challenges, that we have difficulty integrating and retaining new employees, business systems, and technology, that they distract management from our other businesses, or that announced transactions may not be completed. If an arrangement fails to adequately anticipate changing circumstances and interests of a party, it may result in early termination or renegotiation of the arrangement.",
+            "entity_name": "MSFT Acquisition Integration and Strategic Alliance Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "risk_section_heading": "GENERAL RISKS",
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Worsening economic conditions, including inflation, recession, pandemic, or other changes in economic conditions, may cause lower IT spending and adversely affect our results of operations. If demand for PCs, servers, and other computing devices declines, or consumer or business spending for those products declines, our results of operations may be adversely affected.",
+            "entity_name": "MSFT Adverse Economic Conditions Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "material_event",
+            "content": "as previously disclosed in our Form 8-K filed with the Securities and Exchange Commission on January 19, 2024 and amended on March 8, 2024, beginning in late November 2023, a nation-state associated threat actor used a password spray attack to compromise a legacy test account and, in turn, gain access to Microsoft email accounts. The threat actor used and may continue to use information it obtained to gain, or attempt to gain, unauthorized access to some of our source code repositories and internal systems, and the threat actor may utilize this information to otherwise adversely affect our business and results of operations. This incident has and may continue to result in harm to our reputation and customer relationships.",
+            "entity_name": "MSFT 2023 Nation-State Email Account Breach",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "material_event",
+            "content": "For example, in March 2022 we completed our acquisition of Nuance Communications, Inc., and in October 2023 we completed our acquisition of Activision Blizzard, Inc. (\"Activision Blizzard\").",
+            "entity_name": "MSFT Acquisition of Activision Blizzard",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "material_event",
+            "content": "For example, in March 2022 we completed our acquisition of Nuance Communications, Inc., and in October 2023 we completed our acquisition of Activision Blizzard, Inc. (\"Activision Blizzard\").",
+            "entity_name": "MSFT Acquisition of Nuance Communications",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "material_event",
+            "content": "In January 2023 we announced the third phase of our OpenAI strategic partnership.",
+            "entity_name": "MSFT OpenAI Phase Three Strategic Partnership",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "the Federal Trade Commission continues to challenge our Activision Blizzard acquisition and could, if successful, alter or unwind the transaction. These events could adversely affect our business, operations, financial condition, and results of operations.",
+            "entity_name": "FTC Challenge to MSFT Activision Blizzard Acquisition",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "We are currently under Internal Revenue Service (\"IRS\") audit for prior tax years and have received Notices of Proposed Adjustment (\"NOPAs\") from the IRS for the tax years 2004 to 2013. The primary issues in the NOPAs relate to intercompany transfer pricing. In the NOPAs, the IRS is seeking an additional tax payment of $28.9 billion plus penalties and interest.",
+            "entity_name": "IRS NOPA Tax Dispute 2004-2013",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "we have established and publicly announced goals and commitments to become carbon negative, water positive, zero waste, and protect more land than we use.",
+            "entity_name": "MSFT Carbon Negative Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "we have established and publicly announced goals and commitments to become carbon negative, water positive, zero waste, and protect more land than we use.",
+            "entity_name": "MSFT Water Positive Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft competition risk",
+              "technology sector competition risk"
+            ],
+            "attributes": {
+              "category": "competitive",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "MSFT Technology Sector Competition Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft cloud AI execution risk",
+              "cloud AI competitive risk"
+            ],
+            "attributes": {
+              "category": "technology",
+              "sub_category": "cloud_and_ai_execution"
+            },
+            "identifiers": {},
+            "name": "MSFT Cloud and AI Execution Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft AI misuse risk",
+              "Microsoft platform abuse risk"
+            ],
+            "attributes": {
+              "category": "technology",
+              "sub_category": "ai_misuse"
+            },
+            "identifiers": {},
+            "name": "MSFT AI Misuse and Platform Abuse Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft cybersecurity risk",
+              "Microsoft nation-state attack risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "MSFT IT Security and Cybersecurity Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft data privacy risk",
+              "Microsoft GDPR risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "sub_category": "data_privacy"
+            },
+            "identifiers": {},
+            "name": "MSFT Personal Data Privacy and Regulatory Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft AI liability risk",
+              "Microsoft responsible AI risk"
+            ],
+            "attributes": {
+              "category": "technology",
+              "sub_category": "ai_liability"
+            },
+            "identifiers": {},
+            "name": "MSFT AI Development and Deployment Liability Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft antitrust risk",
+              "Microsoft EU Digital Markets Act risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "global",
+              "sub_category": "competition_law"
+            },
+            "identifiers": {},
+            "name": "MSFT Competition Law and Market Regulation Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft tax risk",
+              "Microsoft IRS audit risk",
+              "Microsoft transfer pricing risk"
+            ],
+            "attributes": {
+              "category": "tax",
+              "irs_proposed_adjustment_usd": 28900000000,
+              "irs_tax_years": "2004-2013"
+            },
+            "identifiers": {},
+            "name": "MSFT Additional Tax Liability Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft goodwill impairment risk"
+            ],
+            "attributes": {
+              "category": "financial",
+              "sub_category": "goodwill_impairment"
+            },
+            "identifiers": {},
+            "name": "MSFT Goodwill and Intangible Asset Impairment Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft datacenter outage risk",
+              "Microsoft cloud availability risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "sub_category": "infrastructure_reliability"
+            },
+            "identifiers": {},
+            "name": "MSFT Operations Infrastructure Outage Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft supply chain risk",
+              "Microsoft datacenter component risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "sub_category": "supply_chain"
+            },
+            "identifiers": {},
+            "name": "MSFT Supply Chain and Component Shortage Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft trade sanctions risk",
+              "Microsoft FCPA risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "sub_category": "trade_and_sanctions"
+            },
+            "identifiers": {},
+            "name": "MSFT Trade Sanctions and Anti-Corruption Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft sustainability regulatory risk",
+              "Microsoft ESG risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "sub_category": "esg"
+            },
+            "identifiers": {},
+            "name": "MSFT ESG Regulatory Compliance Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft IP risk",
+              "Microsoft IP infringement risk",
+              "Microsoft AI copyright risk"
+            ],
+            "attributes": {
+              "category": "legal",
+              "sub_category": "intellectual_property"
+            },
+            "identifiers": {},
+            "name": "MSFT Intellectual Property Protection Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft geopolitical risk",
+              "Microsoft catastrophic event risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "geography": "global",
+              "sub_category": "geopolitical_and_catastrophe"
+            },
+            "identifiers": {},
+            "name": "MSFT Geopolitical and Catastrophic Event Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft talent risk",
+              "Microsoft workforce risk"
+            ],
+            "attributes": {
+              "category": "human_capital"
+            },
+            "identifiers": {},
+            "name": "MSFT Talent Attraction and Retention Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft M&A integration risk",
+              "Microsoft acquisition risk"
+            ],
+            "attributes": {
+              "category": "strategic",
+              "sub_category": "acquisition_integration"
+            },
+            "identifiers": {},
+            "name": "MSFT Acquisition Integration and Strategic Alliance Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft macroeconomic risk",
+              "Microsoft IT spending demand risk"
+            ],
+            "attributes": {
+              "category": "macroeconomic"
+            },
+            "identifiers": {},
+            "name": "MSFT Adverse Economic Conditions Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Microsoft nation-state password spray attack 2023",
+              "Microsoft email compromise November 2023"
+            ],
+            "attributes": {
+              "attack_method": "password_spray",
+              "event_type": "cybersecurity_incident",
+              "form_8k_amendment_date": "2024-03-08",
+              "form_8k_filing_date": "2024-01-19",
+              "initial_compromise_date": "2023-11",
+              "threat_actor_type": "nation-state"
+            },
+            "identifiers": {},
+            "name": "MSFT 2023 Nation-State Email Account Breach",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Microsoft Activision Blizzard deal",
+              "Activision Blizzard acquisition October 2023"
+            ],
+            "attributes": {
+              "effective_date": "2023-10",
+              "event_type": "acquisition",
+              "target_company": "Activision Blizzard, Inc."
+            },
+            "identifiers": {},
+            "name": "MSFT Acquisition of Activision Blizzard",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Microsoft Nuance Communications deal",
+              "Nuance acquisition March 2022"
+            ],
+            "attributes": {
+              "effective_date": "2022-03",
+              "event_type": "acquisition",
+              "target_company": "Nuance Communications, Inc."
+            },
+            "identifiers": {},
+            "name": "MSFT Acquisition of Nuance Communications",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Microsoft OpenAI third phase",
+              "OpenAI partnership expansion January 2023"
+            ],
+            "attributes": {
+              "announced_date": "2023-01",
+              "event_type": "joint_venture",
+              "partner": "OpenAI"
+            },
+            "identifiers": {},
+            "name": "MSFT OpenAI Phase Three Strategic Partnership",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "FTC Activision challenge",
+              "Federal Trade Commission vs Microsoft Activision"
+            ],
+            "attributes": {
+              "counterparty": "Federal Trade Commission",
+              "relief_sought": "alter or unwind transaction",
+              "status": "pending",
+              "subject": "Activision Blizzard acquisition"
+            },
+            "identifiers": {},
+            "name": "FTC Challenge to MSFT Activision Blizzard Acquisition",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Microsoft IRS audit",
+              "Microsoft IRS transfer pricing dispute",
+              "IRS NOPA $28.9 billion"
+            ],
+            "attributes": {
+              "counterparty": "Internal Revenue Service",
+              "primary_issue": "intercompany transfer pricing",
+              "proposed_additional_tax_usd": 28900000000,
+              "status": "pending",
+              "tax_years": "2004-2013"
+            },
+            "identifiers": {},
+            "name": "IRS NOPA Tax Dispute 2004-2013",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Microsoft carbon negative goal"
+            ],
+            "attributes": {
+              "commitment_type": "carbon_neutral",
+              "target_description": "carbon negative"
+            },
+            "identifiers": {},
+            "name": "MSFT Carbon Negative Commitment",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Microsoft water positive goal"
+            ],
+            "attributes": {
+              "commitment_type": "water_use",
+              "target_description": "water positive"
+            },
+            "identifiers": {},
+            "name": "MSFT Water Positive Commitment",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Technology Sector Competition Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Cloud and AI Execution Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT AI Misuse and Platform Abuse Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT IT Security and Cybersecurity Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Personal Data Privacy and Regulatory Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT AI Development and Deployment Liability Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Competition Law and Market Regulation Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Additional Tax Liability Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Goodwill and Intangible Asset Impairment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Operations Infrastructure Outage Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Supply Chain and Component Shortage Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Trade Sanctions and Anti-Corruption Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT ESG Regulatory Compliance Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Intellectual Property Protection Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Geopolitical and Catastrophic Event Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Talent Attraction and Retention Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Acquisition Integration and Strategic Alliance Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Adverse Economic Conditions Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT 2023 Nation-State Email Account Breach",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Acquisition of Activision Blizzard",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Acquisition of Nuance Communications",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT OpenAI Phase Three Strategic Partnership",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "FTC Challenge to MSFT Activision Blizzard Acquisition",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "IRS NOPA Tax Dispute 2004-2013",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Carbon Negative Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Water Positive Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0000950170-24-087843.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "33a85c3ba13cf47cb50766224a23767db113c730b3f0714d6910d803bcbaf24b"
+    }
+  ],
+  "prompt_version": "v3"
+}

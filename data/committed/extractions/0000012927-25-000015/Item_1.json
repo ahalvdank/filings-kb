@@ -1,0 +1,213 @@
+{
+  "accession": "0000012927-25-000015",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T05:16:03Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "This segment develops, produces and markets commercial jet aircraft principally to the commercial airline industry worldwide. We are a leading producer of commercial aircraft and offer a family of commercial jetliners designed to meet a broad spectrum of global passenger and cargo requirements of airlines. This family of commercial jet aircraft in production includes the 737 narrow-body model and the 767, 777 and 787 wide-body models. Development continues on the 777X program and the 737-7 and 737-10 derivatives.",
+            "entity_name": "Boeing Commercial Airplanes",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "This segment engages in the research, development, production and modification of manned and unmanned military aircraft and weapons systems for strike, surveillance and mobility, including fighter and trainer aircraft; vertical lift, including rotorcraft and tilt-rotor aircraft; and commercial derivative aircraft, including anti-submarine and tanker aircraft. In addition, this segment engages in the research, development, production and modification of the following products and related services: strategic defense and intelligence systems, including strategic missile and defense systems, command, control, communications, computers, intelligence, surveillance and reconnaissance (C4ISR), cyber and information solutions, and intelligence systems, satellite systems, including government and commercial satellites and space exploration.",
+            "entity_name": "Boeing Defense, Space & Security",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "This segment provides services to our commercial and defense customers worldwide. Global Services sustains aerospace platforms and systems with a full spectrum of products and services, including supply chain and logistics management, engineering, maintenance and modifications, upgrades and conversions, spare parts, pilot and maintenance training systems and services, technical and maintenance documents, and data analytics and digital services.",
+            "entity_name": "Boeing Global Services",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "Our prior contract with the International Association of Machinists and Aerospace Workers District 751 (IAM 751) expired on September 12, 2024, and 96% of IAM 751 members voted to initiate a strike. The strike lasted until November 4, 2024, when IAM 751 members voted to ratify a new contract. As a result of the strike, we paused production of our commercial aircraft (other than the 787 production in Charleston) and certain of our BDS products, adversely impacting our business and financial position. During the strike, we implemented hiring freezes and announced plans to reduce our overall workforce.",
+            "entity_name": "BA IAM 751 Strike and Workforce Restructuring (2024)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "For example, as a result of the Alaska Airlines 737-9 accident in January 2024, the FAA investigated the 737 quality control system, including Spirit AeroSystems Holdings, Inc. (Spirit), and increased its oversight of our production and quality and safety management systems. In addition, the FAA communicated it will not approve production rate increases beyond 38 per month or additional production lines until Boeing has complied with required quality and safety standards.",
+            "entity_name": "FAA Production Rate Cap on Boeing 737 (2024)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing",
+              "BA"
+            ],
+            "attributes": {
+              "hq_address": "929 Long Bridge Drive, Arlington, Virginia 22202",
+              "incorporation_state": "Delaware"
+            },
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "The Boeing Company",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "BCA",
+              "Commercial Airplanes"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Commercial Airplanes",
+              "ticker": "BA"
+            },
+            "name": "Boeing Commercial Airplanes",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BDS",
+              "Defense Space Security"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Defense, Space & Security",
+              "ticker": "BA"
+            },
+            "name": "Boeing Defense, Space & Security",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BGS",
+              "Global Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Global Services",
+              "ticker": "BA"
+            },
+            "name": "Boeing Global Services",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Boeing machinists strike 2024",
+              "IAM 751 strike"
+            ],
+            "attributes": {
+              "event_type": "restructuring",
+              "outcome": "new contract ratified November 4 2024",
+              "strike_end_date": "2024-11-04",
+              "strike_start_date": "2024-09-12",
+              "union": "International Association of Machinists and Aerospace Workers District 751"
+            },
+            "identifiers": {},
+            "name": "BA IAM 751 Strike and Workforce Restructuring (2024)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "FAA 737 production cap",
+              "FAA increased oversight 2024"
+            ],
+            "attributes": {
+              "event_type": "regulatory_action",
+              "production_rate_cap_per_month": 38,
+              "regulator": "FAA",
+              "trigger": "Alaska Airlines 737-9 accident January 2024"
+            },
+            "identifiers": {},
+            "name": "FAA Production Rate Cap on Boeing 737 (2024)",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Commercial Airplanes",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Defense, Space & Security",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Global Services",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA IAM 751 Strike and Workforce Restructuring (2024)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "FAA Production Rate Cap on Boeing 737 (2024)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-25-000015.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "f77023e75e22c0c24c7b57bc3eae7a7a800ddb008f240d988b414d347276dc87"
+    }
+  ],
+  "prompt_version": "v3"
+}

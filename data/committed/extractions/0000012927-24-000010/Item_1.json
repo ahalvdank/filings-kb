@@ -1,0 +1,429 @@
+{
+  "accession": "0000012927-24-000010",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T06:15:43Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "This segment develops, produces and markets commercial jet aircraft principally to the commercial airline industry worldwide. We are a leading producer of commercial aircraft and offer a family of commercial jetliners designed to meet a broad spectrum of global passenger and cargo requirements of airlines. This family of commercial jet aircraft in production includes the 737 narrow-body model and the 767, 777 and 787 wide-body models. Development continues on the 777X program and the 737-7 and 737-10 derivatives.",
+            "entity_name": "Boeing Commercial Airplanes",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "This segment engages in the research, development, production and modification of manned and unmanned military aircraft and weapons systems for strike, surveillance and mobility, including fighter and trainer aircraft; vertical lift, including rotorcraft and tilt-rotor aircraft; and commercial derivative aircraft, including anti-submarine and tanker aircraft. In addition, this segment engages in the research, development, production and modification of the following products and related services: strategic defense and intelligence systems, including strategic missile and defense systems, command, control, communications, computers, intelligence, surveillance and reconnaissance (C4ISR), cyber and information solutions, and intelligence systems, satellite systems, including government and commercial satellites and space exploration.",
+            "entity_name": "Boeing Defense, Space & Security",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "This segment provides services to our commercial and defense customers worldwide. Global Services sustains aerospace platforms and systems with a full spectrum of products and services, including supply chain and logistics management, engineering, maintenance and modifications, upgrades and conversions, spare parts, pilot and maintenance training systems and services, technical and maintenance documents, and data analytics and digital services.",
+            "entity_name": "Boeing Global Services",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "On January 10, 2024, the FAA notified us that it has initiated an investigation into our quality control system. This was followed by the FAA announcing actions to increase its oversight of us, including conducting (1) an audit involving the 737-9 production line and suppliers to evaluate compliance with approved quality procedures, (2) increased monitoring of 737-9 in-service events, and (3) an assessment of safety risks around delegated authority and quality oversight, and examination of options to move these functions under independent third parties. On January 24, 2024, the FAA stated that it will not approve production rate increases or additional production lines for the 737 MAX until it is satisfied that we are in full compliance with required quality control procedures.",
+            "entity_name": "Boeing FAA Quality Control Investigation and 737 MAX Production Cap (2024)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1",
+              "segment": "BCA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The commercial jet aircraft market and the airline industry remain extremely competitive. We face aggressive international competitors who are intent on increasing their market share, such as Airbus and entrants from China.",
+            "entity_name": "Boeing International Competition Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1",
+              "segment": "BDS"
+            },
+            "chunk_type": "risk_factor",
+            "content": "BDS faces strong competition primarily from Lockheed Martin Corporation, Northrop Grumman Corporation, Raytheon Technologies Corporation, General Dynamics Corporation and SpaceX. Non-U.S. companies such as BAE Systems and Airbus Group continue to build a strategic presence in the U.S. market by strengthening their North American operations and partnering with U.S. defense companies. BDS expects the trend of strong competition to continue into 2024.",
+            "entity_name": "Boeing International Competition Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Many major components and product equipment items are procured or subcontracted on a sole-source basis. We continue to work with a small number of sole-source suppliers to ensure continuity of supply for certain items.",
+            "entity_name": "Boeing Sole-Source Supplier Dependency Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are dependent upon the ability of a large number of U.S. and non-U.S. suppliers and subcontractors to meet performance specifications, quality standards and delivery schedules at our anticipated costs. While we maintain an extensive qualification and performance surveillance system to control risk associated with such reliance on third parties, failure of suppliers or subcontractors to meet commitments has and could continue to adversely affect product quality, production schedules and program/contract profitability, thereby jeopardizing our ability to fulfill commitments to our customers.",
+            "entity_name": "Boeing Supplier and Subcontractor Performance Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "It is reasonably possible that costs incurred to ensure continued environmental compliance could have a material impact on our results of operations, financial condition or cash flows if additional work requirements or more stringent clean-up standards are imposed by regulators, new areas of soil, air and groundwater contamination are discovered and/or expansions of work scope are prompted by the results of investigations.",
+            "entity_name": "Boeing Environmental Compliance Cost Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The current conflict in Israel and the Gaza Strip has the potential to impact certain of our suppliers, and has impacted some operations for our airline and lessor customers. We are closely monitoring developments, supporting our employees and customers, and will take mitigating actions as appropriate.",
+            "entity_name": "Boeing Israel-Gaza Conflict Supply Chain Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The U.S. government, and other governments, may terminate any of our government contracts at their convenience, as well as for default based on our failure to meet specified performance requirements. If any of our government contracts were to be terminated for default, generally the U.S. government would pay only for the work that has been accepted and could require us to pay the difference between the original contract price and the cost to re-procure the contract items, net of the work accepted from the original contract. The U.S. government can also hold us liable for damages resulting from the default.",
+            "entity_name": "Boeing U.S. Government Contract Termination Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "We are committed to diverse representation across all levels of our workforce to reflect the vibrant and thriving diversity of the communities in which we live and work. In May 2023, we released our third Global Equity, Diversity and Inclusion report with our workforce composition.",
+            "entity_name": "Boeing Global Equity, Diversity and Inclusion Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "The Boeing Company",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "BCA",
+              "Commercial Airplanes"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Commercial Airplanes",
+              "ticker": "BA"
+            },
+            "name": "Boeing Commercial Airplanes",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BDS",
+              "Defense Space and Security"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Defense, Space & Security",
+              "ticker": "BA"
+            },
+            "name": "Boeing Defense, Space & Security",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BGS",
+              "Global Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Global Services",
+              "ticker": "BA"
+            },
+            "name": "Boeing Global Services",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "FAA 737 quality investigation",
+              "FAA 737 MAX production rate cap"
+            ],
+            "attributes": {
+              "event_type": "regulatory_action",
+              "investigation_initiated_date": "2024-01-10",
+              "production_cap_date": "2024-01-24",
+              "regulator": "FAA",
+              "scope": "737-9 production line and suppliers; 737 MAX production rate increases prohibited pending full quality compliance"
+            },
+            "identifiers": {},
+            "name": "Boeing FAA Quality Control Investigation and 737 MAX Production Cap (2024)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Airbus competition risk",
+              "China entrant competition risk"
+            ],
+            "attributes": {
+              "category": "competitive",
+              "named_competitors": [
+                "Airbus",
+                "Chinese entrants",
+                "Lockheed Martin Corporation",
+                "Northrop Grumman Corporation",
+                "Raytheon Technologies Corporation",
+                "General Dynamics Corporation",
+                "SpaceX",
+                "BAE Systems"
+              ]
+            },
+            "identifiers": {},
+            "name": "Boeing International Competition Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "sole-source supply concentration risk",
+              "Boeing supply chain concentration"
+            ],
+            "attributes": {
+              "category": "supply_chain"
+            },
+            "identifiers": {},
+            "name": "Boeing Sole-Source Supplier Dependency Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "supplier delivery risk",
+              "subcontractor quality risk"
+            ],
+            "attributes": {
+              "category": "supply_chain"
+            },
+            "identifiers": {},
+            "name": "Boeing Supplier and Subcontractor Performance Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "environmental regulatory cost risk"
+            ],
+            "attributes": {
+              "category": "regulatory"
+            },
+            "identifiers": {},
+            "name": "Boeing Environmental Compliance Cost Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Middle East conflict supplier risk"
+            ],
+            "attributes": {
+              "category": "supply_chain",
+              "geography": "Israel, Gaza Strip"
+            },
+            "identifiers": {},
+            "name": "Boeing Israel-Gaza Conflict Supply Chain Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "government contract termination for convenience risk",
+              "government contract default risk"
+            ],
+            "attributes": {
+              "category": "contract",
+              "geography": "U.S."
+            },
+            "identifiers": {},
+            "name": "Boeing U.S. Government Contract Termination Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing DEI commitment",
+              "Boeing GED&I"
+            ],
+            "attributes": {
+              "commitment_type": "dei",
+              "report_published_date": "2023-05",
+              "scope": "global workforce"
+            },
+            "identifiers": {},
+            "name": "Boeing Global Equity, Diversity and Inclusion Commitment",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Commercial Airplanes",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Defense, Space & Security",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Global Services",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing FAA Quality Control Investigation and 737 MAX Production Cap (2024)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing International Competition Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Sole-Source Supplier Dependency Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Supplier and Subcontractor Performance Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Environmental Compliance Cost Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Israel-Gaza Conflict Supply Chain Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing U.S. Government Contract Termination Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Global Equity, Diversity and Inclusion Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-24-000010.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "a731e6e5e0e08e94b9ea90ce0eed9e6fbd8a25054d058463b5d35a07c853cfbd"
+    }
+  ],
+  "prompt_version": "v3"
+}

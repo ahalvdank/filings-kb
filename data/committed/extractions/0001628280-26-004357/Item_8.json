@@ -1,0 +1,1912 @@
+{
+  "accession": "0001628280-26-004357",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T04:47:29Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note 2",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On December 8, 2025, we completed our acquisition of Spirit AeroSystems Holdings, Inc. (Spirit) pursuant to the Agreement and Plan of Merger dated June 30, 2024 (Merger Agreement). In connection with the closing of the transactions contemplated by the Merger Agreement (Spirit Acquisition), Boeing became the ultimate parent company of Spirit and its respective subsidiaries, including Spirit AeroSystems, Inc. (Spirit Sub). The Spirit Acquisition enables Boeing and Spirit to align our commercial production systems, including our Safety and Quality Management Systems, and our workforces to the same priorities, incentives and outcomes.",
+            "entity_name": "BA Acquisition of Spirit AeroSystems Holdings",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 2",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In accordance with the Merger Agreement, 117.5 million shares of Spirit common stock were exchanged for 22.98 million shares of Boeing common stock at an exchange ratio of 0.1955. The exchange ratio was calculated as $37.25 divided by the $190.493 volume weighted average price per share of Boeing common stock on the New York Stock Exchange for the 15-trading-day period ended on December 4, 2025.",
+            "entity_name": "BA Acquisition of Spirit AeroSystems Holdings",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 2",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Provisional goodwill of $9,997 associated with the Spirit Acquisition was provisionally assigned to our BCA segment as we expect the majority of synergies from the Spirit Acquisition to relate to the commercial airplane segment. The acquired intangible assets primarily relate to customer relationships and have a weighted-average useful life of five years.",
+            "entity_name": "BA Acquisition of Spirit AeroSystems Holdings",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 3",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On October 31, 2025, we closed on the sale of portions of our BGS segment's Digital Aviation Solutions business (Digital Aviation Solutions Divestiture) to Thoma Bravo for proceeds of $10,550. The sale included Jeppesen, ForeFlight, AerData and OzRunways assets and liabilities and resulted in a gain of $9,566 recorded in Gain on dispositions, net in the Consolidated Statements of Operations.",
+            "entity_name": "BA Divestiture of Digital Aviation Solutions",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Summary of Business Segment Data",
+              "period": "FY2025",
+              "section_type": "Item_8",
+              "years": "2025/2024/2023"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues:\nCommercial Airplanes$41,494 $22,861 $33,901 \nEarnings/(loss) from operations:\nCommercial Airplanes($7,079)($7,969)($1,635)",
+            "entity_name": "BA Commercial Airplanes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Summary of Business Segment Data",
+              "period": "FY2025",
+              "section_type": "Item_8",
+              "years": "2025/2024/2023"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues:\nDefense, Space & Security27,234 23,918 24,933 \nEarnings/(loss) from operations:\nDefense, Space & Security(128)(5,413)(1,764)",
+            "entity_name": "BA Defense Space Security Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Summary of Business Segment Data",
+              "period": "FY2025",
+              "section_type": "Item_8",
+              "years": "2025/2024/2023"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues:\nGlobal Services20,923 19,954 19,127 \nEarnings/(loss) from operations:\nGlobal Services13,474 3,618 3,329",
+            "entity_name": "BA Global Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Consolidated Statements of Operations",
+              "section_type": "Item_8",
+              "years": "2025/2024/2023"
+            },
+            "chunk_type": "capital_return",
+            "content": "Less: Mandatory convertible preferred stock dividends accumulated during the period345 58  ",
+            "entity_name": "BA 2025 Mandatory Convertible Preferred Stock Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "The Boeing Company",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Spirit",
+              "Spirit AeroSystems"
+            ],
+            "attributes": {},
+            "identifiers": {},
+            "name": "Spirit AeroSystems Holdings, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Spirit Acquisition"
+            ],
+            "attributes": {
+              "boeing_shares_issued_millions": 22.98,
+              "consideration_usd": 8371000000,
+              "effective_date": "2025-12-08",
+              "event_type": "acquisition",
+              "exchange_ratio": 0.1955,
+              "goodwill_segment": "Commercial Airplanes",
+              "provisional_goodwill_usd": 9997000000,
+              "spirit_shares_exchanged_millions": 117.5,
+              "target_company": "Spirit AeroSystems Holdings, Inc."
+            },
+            "identifiers": {},
+            "name": "BA Acquisition of Spirit AeroSystems Holdings",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Digital Aviation Solutions Divestiture",
+              "Jeppesen sale"
+            ],
+            "attributes": {
+              "assets": [
+                "Jeppesen",
+                "ForeFlight",
+                "AerData",
+                "OzRunways"
+              ],
+              "buyer": "Thoma Bravo",
+              "divesting_segment": "Global Services",
+              "effective_date": "2025-10-31",
+              "event_type": "divestiture",
+              "gain_usd": 9566000000,
+              "proceeds_usd": 10550000000
+            },
+            "identifiers": {},
+            "name": "BA Divestiture of Digital Aviation Solutions",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "BCA",
+              "Commercial Airplanes"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Commercial Airplanes",
+              "ticker": "BA"
+            },
+            "name": "BA Commercial Airplanes Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BDS",
+              "Defense, Space & Security"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Defense, Space & Security",
+              "ticker": "BA"
+            },
+            "name": "BA Defense Space Security Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BGS",
+              "Global Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Global Services",
+              "ticker": "BA"
+            },
+            "name": "BA Global Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Boeing 6.00% Series A preferred dividend 2025"
+            ],
+            "attributes": {
+              "amount_usd": 345000000,
+              "liquidation_preference_usd": 5750000000,
+              "return_type": "dividend",
+              "series": "6.00% Series A Mandatory Convertible Preferred Stock",
+              "shares_issued": 5750000
+            },
+            "identifiers": {},
+            "name": "BA 2025 Mandatory Convertible Preferred Stock Dividend",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Acquisition of Spirit AeroSystems Holdings",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Divestiture of Digital Aviation Solutions",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.815,
+              "margin": -0.171,
+              "period": "FY2025",
+              "revenue": 41494000000
+            },
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Commercial Airplanes Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.139,
+              "margin": -0.005,
+              "period": "FY2025",
+              "revenue": 27234000000
+            },
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Defense Space Security Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.049,
+              "margin": 0.644,
+              "note": "margin includes $9,566M gain on Digital Aviation Solutions Divestiture",
+              "period": "FY2025",
+              "revenue": 20923000000
+            },
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Global Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA 2025 Mandatory Convertible Preferred Stock Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0001628280-26-004357.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "92e39b3bff753ddb99afd19b7de552b86f7a9148ee6fe5836f027929b49866b9"
+    },
+    {
+      "extracted_at": "2026-07-01T04:56:57Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note 13",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "At December 31, 2025, Restricted cash & cash equivalents includes $689 placed in escrow pursuant to the May 2025 non-prosecution agreement with the U.S. Department of Justice. See Note 23 for additional discussion.",
+            "entity_name": "Boeing DOJ Non-Prosecution Agreement (May 2025)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 17",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In December 2025, as a result of the Spirit Acquisition, we assumed $3,608 of debt, $2,260 of which we immediately repaid. The remaining debt assumed primarily includes the following notes issued by Spirit Sub: $300 of 3.850% Senior Notes due 2026 (the Spirit 2026 Notes), $700 of 4.600% Senior Notes due 2028 (the Spirit 2028 Notes, and together with the Spirit 2026 Notes, the Spirit Senior Notes) and $230 of 3.250% Exchangeable Notes due 2028 (the Spirit Exchangeable Notes).",
+            "entity_name": "BA Spirit AeroSystems Acquisition (December 2025)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 6",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "We recorded a tax expense of $59 in the foreign jurisdictions related to the Digital Aviation Solutions Divestiture. The German Digital Aviation Solutions Divestiture rate benefit was due to the statutory rate difference of ($203) (7.7)% and a participation exemption of ($548) (20.8)%. The Swedish rate benefit was entirely due to a participation exemption.",
+            "entity_name": "BA Digital Aviation Solutions Divestiture (2025)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "During the fourth quarter of 2024, we announced plans to reduce our overall workforce. As a result, in 2024, we recorded $295 of severance benefits payable to employees expected to leave the Company through involuntary terminations by the first half of 2025.",
+            "entity_name": "BA 2024 Workforce Reduction",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "During 2024, we recorded an earnings charge of $443, net of insurance recoveries, in connection with estimated considerations to customers for disruption related to the January 2024 737-9 door plug accident and grounding. This charge is reflected in the financial statements as a reduction to Sales of products.",
+            "entity_name": "BA January 2024 737-9 Door Plug Accident Customer Concessions",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 6",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On July 4, 2025, the President signed into law the One Big Beautiful Bill Act (OBBBA). The OBBBA maintains the 21 percent corporate tax rate and makes permanent many of the beneficial expired and expiring tax provisions originally enacted in the Tax Cuts and Jobs Act of 2017, including the immediate expensing of domestic research and development expenditures, more favorable interest deductibility and 100 percent bonus depreciation with effective dates in 2025.",
+            "entity_name": "BA One Big Beautiful Bill Act Tax Impact (2025)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 17",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In August 2025, we entered into a $3,000, 364-day revolving credit agreement expiring in August 2026. This facility replaced the $3,000, three-year revolving credit agreement which was scheduled to terminate in August 2025. The 364-day credit facility has a one-year term out option which allows us to extend the maturity of any borrowings until August 2027.",
+            "entity_name": "BA August 2025 $3B 364-Day Revolving Credit Facility",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 17",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In connection with closing of the Spirit Acquisition, The Boeing Company guaranteed the obligations of Spirit Sub with respect to the Spirit Senior Notes, and as a result, each of The Boeing Company and Spirit fully and unconditionally guarantee the Spirit Senior Notes on a senior unsecured basis. The guarantees rank equally in right of payment with all of Boeing's existing and future senior unsecured indebtedness.",
+            "entity_name": "BA Spirit Senior Notes Assumption and Boeing Guarantee",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 17",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "The Spirit Exchangeable Notes mature on November 1, 2028, unless earlier exchanged, redeemed or repurchased, and are exchangeable at an initial rate of 6.7067 shares of Boeing common stock per $1,000 principal amount, in whole dollars, of the Spirit Exchangeable Notes. Prior to August 1, 2028, if certain conditions are met, holders of the Spirit Exchangeable Notes may elect to exchange the Spirit Exchangeable Notes. On or after August 1, 2028, the holders of the Spirit Exchangeable Notes may elect to exchange the Spirit Exchangeable Notes without restriction.",
+            "entity_name": "BA Spirit Exchangeable Notes Assumption ($230M 3.250% due 2028)",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 9",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The level of profitability on the 777X program will be subject to several factors. These factors include aircraft certification requirements and timing, flight test discoveries, design changes, change incorporation on completed aircraft, production disruption due to labor instability and supply chain disruption, customer considerations, delivery timing and negotiations, further production rate adjustments for the 777X or other commercial aircraft programs, and any change in the accounting quantity. One or more of these factors could result in additional reach-forward losses in future periods.",
+            "entity_name": "BA 777X Program Additional Losses Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "During 2025 and 2024, we increased the reach-forward loss on the KC-46A Tanker program by $714 and $2,002. The additional reach-forward loss during 2025 was primarily driven by higher estimated manufacturing and engineering costs for production support. As of December 31, 2025, we had approximately $64 of capitalized precontract costs and $72 of potential termination liabilities to suppliers related to future production lots. Risk remains that we may record additional losses in future periods.",
+            "entity_name": "BA KC-46A Tanker Program Additional Losses Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "During 2025 and 2024, we increased the reach-forward loss on the contract by $60 and $379. The increased reach-forward loss in 2024 was primarily driven by higher than anticipated costs due to engineering design changes related to wiring and other structural requirements. The increased reach-forward loss in 2025 was due to increases in supplier costs. We expect finalization of the contract terms to reset the schedule and adjust the requirements in early 2026. Risk remains that we may record additional losses in future periods.",
+            "entity_name": "BA VC-25B Presidential Aircraft Program Additional Losses Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The Crewed Flight Test launched on June 5, 2024, and docked with the ISS. Its return to Earth was delayed to allow time to perform further testing of propulsion system anomalies and returned to Earth uncrewed in September 2024. During 2024, we increased the reach-forward loss by $523 primarily to reflect schedule delays and higher testing and certification costs as well as higher costs for post certification missions. We recorded an immaterial reach-forward loss in 2025. We and the customer are planning to launch an uncrewed mission during the first half of 2026 and a crewed mission later in 2026.",
+            "entity_name": "BA Commercial Crew (Starliner) Program Additional Losses Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "During 2024, we increased the reach-forward loss on the T-7A Red Hawk program by $1,770 primarily reflecting higher estimated supplier costs related to future production lots. We recorded an immaterial reach-forward loss in 2025. At December 31, 2025, we had approximately $377 of capitalized precontract costs and $869 of potential termination liabilities to suppliers related to certain long-lead items for future production lots. Risk remains that we may record additional losses in future periods.",
+            "entity_name": "BA T-7A Red Hawk Program Additional Losses Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "During the first half of 2025, we initiated final assembly operations at our new facility at Mid-America St. Louis Airport in Mascoutah, Illinois, and began ground-based flight testing. Flight test and assembly of the remaining EMD units will continue in 2026. Risk remains that we may record additional losses in future periods.",
+            "entity_name": "BA MQ-25 Program Additional Losses Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 6",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Until the Company generates sustained levels of profitability, additional valuation allowances may have to be recorded with corresponding adverse impacts on earnings and/or OCI.",
+            "entity_name": "BA Deferred Tax Valuation Allowance and Profitability Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "It is reasonably possible that we may incur costs that exceed these recorded amounts because of regulatory agency orders and directives, changes in laws and/or regulations, higher than expected costs and/or the discovery of new or additional contamination. At December 31, 2025 and 2024, the high end of the estimated range of reasonably possible remediation costs exceeded our recorded liabilities by $1,171 and $1,002.",
+            "entity_name": "BA Environmental Remediation Cost Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The risk that actual performance, technical or contractual outcomes could be different than those previously assumed creates financial risk that could trigger additional material earnings charges, termination provisions, order cancellations, or other financially significant exposure.",
+            "entity_name": "BA Fixed-Price Development Contract Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2025, $11,904 of these financing commitments relate to customers we believe have less than investment-grade credit. We have concluded that no reserve for future potential losses is required for these financing commitments based upon the terms, such as collateralization and interest rates, under which funding would be provided.",
+            "entity_name": "BA Below-Investment-Grade Customer Financing Commitment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing NPA",
+              "Boeing DOJ NPA"
+            ],
+            "attributes": {
+              "counterparty": "U.S. Department of Justice",
+              "effective_date": "2025-05",
+              "escrow_amount_usd": 689000000,
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Boeing DOJ Non-Prosecution Agreement (May 2025)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Spirit Acquisition",
+              "Spirit AeroSystems acquisition"
+            ],
+            "attributes": {
+              "debt_assumed_usd": 3608000000,
+              "debt_repaid_at_close_usd": 2260000000,
+              "effective_date": "2025-12",
+              "event_type": "acquisition",
+              "target_company": "Spirit AeroSystems",
+              "valuation_allowance_from_acquisition_accounting_usd": 1833000000
+            },
+            "identifiers": {},
+            "name": "BA Spirit AeroSystems Acquisition (December 2025)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Digital Aviation Solutions sale",
+              "Digital Aviation Solutions divestiture"
+            ],
+            "attributes": {
+              "divested_unit": "Digital Aviation Solutions",
+              "event_type": "divestiture",
+              "geographies": [
+                "Germany",
+                "Sweden"
+              ]
+            },
+            "identifiers": {},
+            "name": "BA Digital Aviation Solutions Divestiture (2025)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing 2024 layoffs",
+              "Boeing Q4 2024 workforce reduction"
+            ],
+            "attributes": {
+              "announced_period": "Q4 2024",
+              "event_type": "restructuring",
+              "severance_charge_usd": 295000000
+            },
+            "identifiers": {},
+            "name": "BA 2024 Workforce Reduction",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "737 MAX door plug concessions",
+              "737-9 door plug accident concessions"
+            ],
+            "attributes": {
+              "charge_usd": 443000000,
+              "event_type": "regulatory_action",
+              "incident_date": "2024-01",
+              "remaining_liability_usd": 383000000
+            },
+            "identifiers": {},
+            "name": "BA January 2024 737-9 Door Plug Accident Customer Concessions",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "OBBBA tax impact",
+              "Boeing OBBBA accounting change"
+            ],
+            "attributes": {
+              "event_type": "accounting_change",
+              "key_provisions": "Immediate expensing of domestic R&D expenditures; 100% bonus depreciation; favorable interest deductibility effective 2025",
+              "legislation": "One Big Beautiful Bill Act (OBBBA)",
+              "signed_date": "2025-07-04"
+            },
+            "identifiers": {},
+            "name": "BA One Big Beautiful Bill Act Tax Impact (2025)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing 364-day revolver 2025",
+              "Boeing 2025 revolving credit"
+            ],
+            "attributes": {
+              "instrument_type": "revolver",
+              "maturity": "2026-08",
+              "principal_usd": 3000000000,
+              "term_out_option_maturity": "2027-08"
+            },
+            "identifiers": {},
+            "name": "BA August 2025 $3B 364-Day Revolving Credit Facility",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Spirit 2026 Notes",
+              "Spirit 2028 Notes",
+              "Spirit Senior Notes guarantee"
+            ],
+            "attributes": {
+              "effective_date": "2025-12",
+              "guarantee_type": "senior unsecured",
+              "guaranteed_by": "The Boeing Company",
+              "instrument_type": "notes",
+              "notes_detail": "$300M 3.850% due 2026 + $700M 4.600% due 2028",
+              "principal_usd": 1000000000
+            },
+            "identifiers": {},
+            "name": "BA Spirit Senior Notes Assumption and Boeing Guarantee",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Spirit Exchangeable Notes",
+              "Boeing assumed exchangeable notes 2028"
+            ],
+            "attributes": {
+              "coupon": 0.0325,
+              "exchange_rate_shares_per_1000": 6.7067,
+              "instrument_type": "notes",
+              "maturity": "2028-11-01",
+              "principal_usd": 230000000,
+              "settlement": "cash and/or Boeing common stock at Boeing election"
+            },
+            "identifiers": {},
+            "name": "BA Spirit Exchangeable Notes Assumption ($230M 3.250% due 2028)",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "777X profitability risk",
+              "777X reach-forward loss risk"
+            ],
+            "attributes": {
+              "category": "program_execution",
+              "program": "777X",
+              "reach_forward_loss_2024_usd": 3499000000,
+              "reach_forward_loss_2025_usd": 4899000000
+            },
+            "identifiers": {},
+            "name": "BA 777X Program Additional Losses Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "KC-46A reach-forward loss risk",
+              "KC-46A tanker financial risk"
+            ],
+            "attributes": {
+              "category": "program_execution",
+              "precontract_costs_2025_usd": 64000000,
+              "program": "KC-46A Tanker",
+              "reach_forward_loss_increase_2024_usd": 2002000000,
+              "reach_forward_loss_increase_2025_usd": 714000000,
+              "supplier_termination_liabilities_2025_usd": 72000000
+            },
+            "identifiers": {},
+            "name": "BA KC-46A Tanker Program Additional Losses Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Air Force One program risk",
+              "VC-25B reach-forward loss risk"
+            ],
+            "attributes": {
+              "category": "program_execution",
+              "contract_type": "firm fixed-price",
+              "contract_value_usd": 4000000000,
+              "program": "VC-25B Presidential Aircraft",
+              "reach_forward_loss_increase_2024_usd": 379000000,
+              "reach_forward_loss_increase_2025_usd": 60000000
+            },
+            "identifiers": {},
+            "name": "BA VC-25B Presidential Aircraft Program Additional Losses Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "CST-100 Starliner program risk",
+              "Starliner propulsion anomaly risk"
+            ],
+            "attributes": {
+              "category": "program_execution",
+              "precontract_costs_2025_usd": 544000000,
+              "program": "Commercial Crew / CST-100 Starliner",
+              "reach_forward_loss_increase_2024_usd": 523000000
+            },
+            "identifiers": {},
+            "name": "BA Commercial Crew (Starliner) Program Additional Losses Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "T-7A Red Hawk production risk",
+              "T-7A reach-forward loss risk"
+            ],
+            "attributes": {
+              "category": "program_execution",
+              "precontract_costs_2025_usd": 377000000,
+              "program": "T-7A Red Hawk",
+              "reach_forward_loss_increase_2024_usd": 1770000000,
+              "supplier_termination_liabilities_2025_usd": 869000000
+            },
+            "identifiers": {},
+            "name": "BA T-7A Red Hawk Program Additional Losses Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "MQ-25 program financial risk"
+            ],
+            "attributes": {
+              "category": "program_execution",
+              "program": "MQ-25",
+              "reach_forward_loss_increase_2024_usd": 339000000
+            },
+            "identifiers": {},
+            "name": "BA MQ-25 Program Additional Losses Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing valuation allowance risk",
+              "Boeing deferred tax asset realization risk"
+            ],
+            "attributes": {
+              "category": "financial",
+              "valuation_allowance_2024_usd": 7837000000,
+              "valuation_allowance_2025_usd": 9754000000
+            },
+            "identifiers": {},
+            "name": "BA Deferred Tax Valuation Allowance and Profitability Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing environmental liability risk",
+              "Boeing remediation cost uncertainty"
+            ],
+            "attributes": {
+              "category": "environmental",
+              "high_end_excess_over_recorded_2025_usd": 1171000000,
+              "recorded_liability_2025_usd": 877000000
+            },
+            "identifiers": {},
+            "name": "BA Environmental Remediation Cost Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing fixed-price contract execution risk"
+            ],
+            "attributes": {
+              "category": "contract_execution"
+            },
+            "identifiers": {},
+            "name": "BA Fixed-Price Development Contract Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing customer credit risk",
+              "Boeing below-IG financing commitment risk"
+            ],
+            "attributes": {
+              "below_ig_financing_commitments_usd": 11904000000,
+              "category": "credit_risk",
+              "total_financing_commitments_usd": 15229000000
+            },
+            "identifiers": {},
+            "name": "BA Below-Investment-Grade Customer Financing Commitment Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing DOJ Non-Prosecution Agreement (May 2025)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Spirit AeroSystems Acquisition (December 2025)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Digital Aviation Solutions Divestiture (2025)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA 2024 Workforce Reduction",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA January 2024 737-9 Door Plug Accident Customer Concessions",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA One Big Beautiful Bill Act Tax Impact (2025)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA August 2025 $3B 364-Day Revolving Credit Facility",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Spirit Senior Notes Assumption and Boeing Guarantee",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Spirit Exchangeable Notes Assumption ($230M 3.250% due 2028)",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA 777X Program Additional Losses Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA KC-46A Tanker Program Additional Losses Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA VC-25B Presidential Aircraft Program Additional Losses Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Commercial Crew (Starliner) Program Additional Losses Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA T-7A Red Hawk Program Additional Losses Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA MQ-25 Program Additional Losses Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Deferred Tax Valuation Allowance and Profitability Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Environmental Remediation Cost Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Fixed-Price Development Contract Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Below-Investment-Grade Customer Financing Commitment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0001628280-26-004357.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "f7b01340350d9dee3f562e29c366bedf19c6f74a4baac6709143ab8edcc657a7"
+    },
+    {
+      "extracted_at": "2026-07-01T05:06:56Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note_number": "Note 24",
+              "period": "FY2025",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "BCA develops, produces and markets commercial jet aircraft principally to the commercial airline industry worldwide. Revenue on commercial aircraft contracts is recognized at the point in time when an aircraft is completed and accepted by the customer.",
+            "entity_name": "BA BCA Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note 24",
+              "period": "FY2025",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "BDS engages in the research, development, production and modification of the following products and related services: manned and unmanned military aircraft and weapons systems, surveillance and engagement, strategic defense and intelligence systems, satellite systems and space exploration. BDS revenue is generally recognized over the contract term (over time) as costs are incurred.",
+            "entity_name": "BA BDS Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note 24",
+              "period": "FY2025",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "BGS provides parts, maintenance, modifications, logistics support, training, data analytics and information-based services to commercial and government customers worldwide. BGS segment revenue and costs include certain products and services provided to other segments.",
+            "entity_name": "BA BGS Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note 23",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On May 29, 2025, Boeing and the Department of Justice (the Department) entered into a non-prosecution agreement (the Agreement) to resolve the Department's determination that Boeing did not fulfill its obligations under the January 2021 deferred prosecution agreement relating to the October 2018 Lion Air flight 610 accident and the March 2019 Ethiopian Airlines flight 302 accident (the MAX accidents). The Agreement requires, among other things, Boeing to pay a fine of $244 and provide $445 of additional compensation for the family members of those who died in the MAX accidents.",
+            "entity_name": "Boeing DOJ Non-Prosecution Agreement (737 MAX Accidents)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note 23",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On November 6, 2025, the U.S. District Court for the Northern District of Texas (the Court) approved the Motion; however, representatives of family members appealed the Court's decision, which appeal is pending before the U.S. Court of Appeals for the Fifth Circuit.",
+            "entity_name": "Boeing DOJ Non-Prosecution Agreement (737 MAX Accidents)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note 23",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Certain legal actions and investigations arising out of the MAX accidents and subsequent grounding of the 737 MAX are still pending, including fewer than five civil lawsuits by family members of those who died in the MAX accidents. In addition, securities lawsuits are pending, including a motion for class certification on a federal securities class action before the U.S. District Court for the Northern District of Illinois.",
+            "entity_name": "Boeing 737 MAX Civil and Securities Lawsuits",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note 23",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Multiple investigations and legal actions, including securities lawsuits, were also initiated as a result of the January 2024 737-9 door plug accident.",
+            "entity_name": "Boeing 737-9 Door Plug Accident Investigations and Lawsuits",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note 20",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On December 8, 2025, we issued 22,977,008 shares of common stock, $5.00 par value per share, from shares held in Treasury Stock in exchange for Spirit common stock as a result of the Spirit Acquisition.",
+            "entity_name": "BA Acquisition of Spirit AeroSystems",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note 18",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On December 8, 2025, as part of the Spirit Acquisition, we acquired three defined benefit plans and two post-retirement medical plans. Eligibility for these plans is closed and the defined benefit plans' accruals are frozen for existing participants.",
+            "entity_name": "BA Acquisition of Spirit AeroSystems",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "footnote": "See Note 3 for additional discussion",
+              "note_number": "Note 24",
+              "reporting_segment": "BGS",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Gain on Digital Aviation Solutions Divestiture(2) (9,566)",
+            "entity_name": "BA Digital Aviation Solutions Divestiture",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note 19",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2025, we granted premium-priced stock options to our executive officers as part of our long-term incentive program. These stock options have an exercise price equal to 120% of the fair market value of our stock on the date of grant.",
+            "entity_name": "BA 2025 Share-Based Compensation Disclosure",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note 19",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In February 2025, 2024 and 2023, we granted to our executives 2,244,444, 2,008,499 and 327,523 restricted stock units (RSUs) as part of our long-term incentive program with grant date fair values of $184.53, $204.15 and $214.35 per unit, respectively.",
+            "entity_name": "BA 2025 Share-Based Compensation Disclosure",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note 20",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "On October 30, 2024, we issued 129,375,000 shares of common stock, $5.00 par value per share, from shares held in Treasury Stock. As a result of the transaction, we received cash proceeds of $18,181, net of underwriting fees and other issuance costs.",
+            "entity_name": "BA October 2024 Common Stock Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note 20",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "On October 31, 2024, we issued 115,000,000 depositary shares, representing 5,750,000 shares of our 6.00% Series A Mandatory Convertible Preferred Stock (Mandatory convertible preferred stock). The Mandatory convertible preferred stock has a $1,000.00 per share liquidation preference and $1.00 per share par value. As a result of the transaction, we received cash proceeds of $5,651, net of underwriting fees and other issuance costs.",
+            "entity_name": "BA October 2024 Mandatory Convertible Preferred Stock Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note 20",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Dividends paid on Mandatory convertible preferred stock in 2025 and 2024 were $331 and $0. In December 2025, dividends of $86 were declared to holders of record as of January 1, 2026, representing $15.00 per share, and were paid in cash on January 15, 2026.",
+            "entity_name": "BA 2025 Mandatory Convertible Preferred Stock Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note 18",
+              "section_type": "Item_8",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "Required pension contributions under the Employee Retirement Income Security Act (ERISA), as well as rules governing funding of our non-U.S. pension plans, are not expected to be significant in 2026. We do not expect to make discretionary contributions to our pension plans in 2026.",
+            "entity_name": "BA 2026 Pension Contribution Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing Commercial Airplanes",
+              "BCA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "BCA",
+              "ticker": "BA"
+            },
+            "name": "BA BCA Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Boeing Defense Space and Security",
+              "BDS"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "BDS",
+              "ticker": "BA"
+            },
+            "name": "BA BDS Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Boeing Global Services",
+              "BGS"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "BGS",
+              "ticker": "BA"
+            },
+            "name": "BA BGS Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Boeing MAX NPA 2025",
+              "Boeing DOJ NPA"
+            ],
+            "attributes": {
+              "agreement_date": "2025-05-29",
+              "compensation_fund_usd": 445000000,
+              "counterparty": "Department of Justice",
+              "court": "U.S. Court of Appeals for the Fifth Circuit",
+              "fine_usd": 244000000,
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "Boeing DOJ Non-Prosecution Agreement (737 MAX Accidents)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "MAX family member civil suits",
+              "MAX securities class action"
+            ],
+            "attributes": {
+              "court": "U.S. District Court for the Northern District of Illinois",
+              "related_to": "737 MAX accidents",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Boeing 737 MAX Civil and Securities Lawsuits",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Boeing door plug litigation",
+              "737-9 door plug investigations"
+            ],
+            "attributes": {
+              "incident_date": "2024-01",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Boeing 737-9 Door Plug Accident Investigations and Lawsuits",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Spirit Acquisition",
+              "Spirit AeroSystems acquisition December 2025"
+            ],
+            "attributes": {
+              "consideration": "stock",
+              "effective_date": "2025-12-08",
+              "event_type": "acquisition",
+              "shares_issued": 22977008,
+              "target_company": "Spirit AeroSystems"
+            },
+            "identifiers": {},
+            "name": "BA Acquisition of Spirit AeroSystems",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Digital Aviation Solutions sale"
+            ],
+            "attributes": {
+              "asset_divested": "Digital Aviation Solutions",
+              "event_type": "divestiture",
+              "gain_usd": 9566000000,
+              "reporting_segment": "BGS"
+            },
+            "identifiers": {},
+            "name": "BA Digital Aviation Solutions Divestiture",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing FY2025 equity incentive awards"
+            ],
+            "attributes": {
+              "event_type": "compensation_disclosure",
+              "option_exercise_price_premium": "120%_of_fmv",
+              "options_granted": 428975,
+              "period": "FY2025",
+              "rsu_and_other_awards_expense_usd": 427000000,
+              "rsus_granted_ltip": 2244444
+            },
+            "identifiers": {},
+            "name": "BA 2025 Share-Based Compensation Disclosure",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing October 2024 equity offering",
+              "Boeing 2024 common stock offering"
+            ],
+            "attributes": {
+              "effective_date": "2024-10-30",
+              "instrument_type": "equity_issuance",
+              "principal_usd": 18181000000,
+              "shares_issued": 129375000
+            },
+            "identifiers": {},
+            "name": "BA October 2024 Common Stock Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing 6.00% Series A MCPS",
+              "Boeing mandatory convertible preferred 2024"
+            ],
+            "attributes": {
+              "coupon": 0.06,
+              "depositary_shares_issued": 115000000,
+              "effective_date": "2024-10-31",
+              "instrument_type": "equity_issuance",
+              "liquidation_preference_per_share_usd": 1000,
+              "maturity": "2027-10-15",
+              "preferred_shares_issued": 5750000,
+              "principal_usd": 5651000000
+            },
+            "identifiers": {},
+            "name": "BA October 2024 Mandatory Convertible Preferred Stock Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing MCPS dividends FY2025"
+            ],
+            "attributes": {
+              "amount_usd": 331000000,
+              "annual_rate": 0.06,
+              "effective_date": "2025",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "BA 2025 Mandatory Convertible Preferred Stock Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Boeing 2026 pension funding outlook"
+            ],
+            "attributes": {
+              "metric": "pension_contributions",
+              "new_value": "not_expected_to_be_significant",
+              "period": "2026",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "BA 2026 Pension Contribution Guidance",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.815,
+              "margin": -0.171,
+              "operating_loss": -7079000000,
+              "period": "FY2025",
+              "revenue": 41494000000
+            },
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA BCA Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.139,
+              "margin": -0.005,
+              "operating_loss": -128000000,
+              "period": "FY2025",
+              "revenue": 27234000000
+            },
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA BDS Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.049,
+              "margin": 0.644,
+              "note": "margin elevated by $9.566B Digital Aviation Solutions Divestiture gain included in operating earnings",
+              "operating_earnings": 13474000000,
+              "period": "FY2025",
+              "revenue": 20923000000
+            },
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA BGS Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing DOJ Non-Prosecution Agreement (737 MAX Accidents)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing 737 MAX Civil and Securities Lawsuits",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing 737-9 Door Plug Accident Investigations and Lawsuits",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Acquisition of Spirit AeroSystems",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Digital Aviation Solutions Divestiture",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA 2025 Share-Based Compensation Disclosure",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA October 2024 Common Stock Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA October 2024 Mandatory Convertible Preferred Stock Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA 2025 Mandatory Convertible Preferred Stock Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA 2026 Pension Contribution Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0001628280-26-004357.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "75a2047ebdb95e1b020d1231dcd1c4d77e3a892cbfc7fdfe65087b0349dc216d"
+    },
+    {
+      "extracted_at": "2026-07-01T05:09:35Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "periods": "FY2025/FY2024/FY2023",
+              "section_type": "Item_8",
+              "unit": "millions_usd"
+            },
+            "chunk_type": "segment",
+            "content": "Total segment revenue from contracts with customers$27,234 $23,918 $24,933",
+            "entity_name": "BA Defense, Space & Security Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "periods": "FY2025/FY2024/FY2023",
+              "section_type": "Item_8",
+              "unit": "millions_usd"
+            },
+            "chunk_type": "segment",
+            "content": "Total segment revenues$20,923 $19,954 $19,127",
+            "entity_name": "BA Global Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Spirit AeroSystems Holdings, Inc., which was acquired on December 8, 2025, and whose financial statements constitute approximately 9 percent of Total assets and less than 1 percent of each Total revenues and Earnings from operations of the consolidated financial statement amounts for the year then ended.",
+            "entity_name": "BA Acquisition of Spirit AeroSystems",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Eliminations and other unallocated items expense during the years ended December 31, 2025 and 2024 included earnings charges of $445 and $244 related to agreements with the U.S. Department of Justice.",
+            "entity_name": "Boeing U.S. Department of Justice Agreements",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2026-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The 777X program is currently experiencing production challenges and certification delays, leading to significant uncertainty in the production schedule. These uncertainties could potentially result in production disruptions and delays to the timing of entry into service which further increases the complexity and subjectivity involved in management's cost and revenue estimates for the program.",
+            "entity_name": "BA 777X Program Certification and Production Delay Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "There is uncertainty in the 737 program's production rate schedule that could impact forecasted cost and revenue, with a corresponding impact to the 737 program's gross margin.",
+            "entity_name": "BA 737 Program Production Rate Schedule Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We may experience reductions to backlog and/or significant order cancellations due to various factors including delivery delays, production disruptions and delays to entry into service of the 777X, 737-7 and/or 737-10.",
+            "entity_name": "BA Backlog Reduction and Order Cancellation Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "total_backlog_millions_usd": 682207,
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect approximately 13% to be converted to revenue through 2026 and approximately 55% through 2029, with the remainder thereafter.",
+            "entity_name": "BA Backlog Revenue Conversion FY2026-FY2029 Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2026-01-30",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing",
+              "BA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "The Boeing Company",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "BDS",
+              "Boeing Defense Space Security"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Defense, Space & Security",
+              "ticker": "BA"
+            },
+            "name": "BA Defense, Space & Security Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BGS",
+              "Boeing Global Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Global Services",
+              "ticker": "BA"
+            },
+            "name": "BA Global Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Spirit AeroSystems acquisition",
+              "Spirit AeroSystems Holdings acquisition"
+            ],
+            "attributes": {
+              "effective_date": "2025-12-08",
+              "event_type": "acquisition",
+              "target_company": "Spirit AeroSystems Holdings, Inc."
+            },
+            "identifiers": {},
+            "name": "BA Acquisition of Spirit AeroSystems",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing DOJ agreements"
+            ],
+            "attributes": {
+              "counterparty": "U.S. Department of Justice",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Boeing U.S. Department of Justice Agreements",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "777X certification risk",
+              "777X production delay risk"
+            ],
+            "attributes": {
+              "category": "program_execution",
+              "program": "777X"
+            },
+            "identifiers": {},
+            "name": "BA 777X Program Certification and Production Delay Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "737 production rate risk",
+              "737 FAA oversight risk"
+            ],
+            "attributes": {
+              "category": "program_execution",
+              "program": "737"
+            },
+            "identifiers": {},
+            "name": "BA 737 Program Production Rate Schedule Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing backlog conversion risk",
+              "Boeing order cancellation risk"
+            ],
+            "attributes": {
+              "category": "revenue",
+              "programs_affected": [
+                "777X",
+                "737-7",
+                "737-10"
+              ]
+            },
+            "identifiers": {},
+            "name": "BA Backlog Reduction and Order Cancellation Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "backlog_conversion",
+              "new_value": "13% through 2026, approximately 55% through 2029",
+              "period": "FY2026-FY2029",
+              "total_backlog_millions_usd": 682207,
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "BA Backlog Revenue Conversion FY2026-FY2029 Outlook",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.139,
+              "period": "FY2025",
+              "revenue": 27234000000
+            },
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Defense, Space & Security Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.049,
+              "period": "FY2025",
+              "revenue": 20923000000
+            },
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Global Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Acquisition of Spirit AeroSystems",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing U.S. Department of Justice Agreements",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2026-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA 777X Program Certification and Production Delay Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA 737 Program Production Rate Schedule Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Backlog Reduction and Order Cancellation Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Backlog Revenue Conversion FY2026-FY2029 Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2026-01-30",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0001628280-26-004357.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "89ac726801809bddd61f99b12ba4e1add43bed46e5be2873926754691dec01ac"
+    }
+  ],
+  "prompt_version": "v3"
+}

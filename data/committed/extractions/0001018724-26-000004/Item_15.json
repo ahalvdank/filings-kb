@@ -1,0 +1,179 @@
+{
+  "accession": "0001018724-26-000004",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T05:21:54Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Certification of Andrew R. Jassy, President and Chief Executive Officer of Amazon.com, Inc., pursuant to Rule 13a-14(a) under the Securities Exchange Act of 1934.",
+            "entity_name": "Andrew R. Jassy",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Certification of Brian T. Olsavsky, Senior Vice President and Chief Financial Officer of Amazon.com, Inc., pursuant to Rule 13a-14(a) under the Securities Exchange Act of 1934.",
+            "entity_name": "Brian T. Olsavsky",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Officers' Certificate of Amazon.com, Inc., dated as of November 20, 2025, containing Form of 3.900% Note due 2028, Form of 4.100% Note due 2030, Form of 4.350% Note due 2033, Form of 4.650% Note due 2035, Form of 5.450% Note due 2055, and Form of 5.550% Note due 2065 (incorporated by reference to the Company's Current Report on Form 8-K, filed November 20, 2025).",
+            "entity_name": "AMZN November 2025 Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "364-Day Revolving Credit Agreement, dated as of October 29, 2025, among Amazon.com, Inc., Citibank N.A., as administrative agent, and the lenders party thereto (incorporated by reference to the Company's Quarterly Report on Form 10-Q for the Quarter ended September 30, 2025).",
+            "entity_name": "AMZN October 2025 364-Day Revolving Credit Agreement",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Andy Jassy"
+            ],
+            "attributes": {
+              "current_company_id": "AMZN",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Andrew R. Jassy",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMZN",
+              "insider_status": "officer",
+              "officer_role": "CFO"
+            },
+            "identifiers": {},
+            "name": "Brian T. Olsavsky",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Amazon"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMZN"
+            },
+            "name": "Amazon.com, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Amazon November 2025 Notes"
+            ],
+            "attributes": {
+              "effective_date": "2025-11-20",
+              "instrument_type": "notes",
+              "note_series": [
+                "3.900% due 2028",
+                "4.100% due 2030",
+                "4.350% due 2033",
+                "4.650% due 2035",
+                "5.450% due 2055",
+                "5.550% due 2065"
+              ]
+            },
+            "identifiers": {},
+            "name": "AMZN November 2025 Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Amazon 364-Day Revolver 2025"
+            ],
+            "attributes": {
+              "administrative_agent": "Citibank N.A.",
+              "effective_date": "2025-10-29",
+              "instrument_type": "revolver"
+            },
+            "identifiers": {},
+            "name": "AMZN October 2025 364-Day Revolving Credit Agreement",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Andrew R. Jassy",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO"
+            },
+            "source_name": "Brian T. Olsavsky",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN November 2025 Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN October 2025 364-Day Revolving Credit Agreement",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-26-000004.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "5afbdfb77c0c2a5a11f3f68fa7db188136197bade9c4d52628633d08e79571ff"
+    }
+  ],
+  "prompt_version": "v3"
+}

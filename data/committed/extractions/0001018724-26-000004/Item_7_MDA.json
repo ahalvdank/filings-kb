@@ -1,0 +1,324 @@
+{
+  "accession": "0001018724-26-000004",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T04:51:32Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "North America sales increased 10% in 2025, compared to the prior year. The sales growth primarily reflects increased unit sales, including sales by third-party sellers, advertising sales, and subscription services.",
+            "entity_name": "AMZN North America Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "International sales increased 13% in 2025, compared to the prior year. The sales growth primarily reflects increased unit sales, including sales by third-party sellers, advertising sales, and subscription services.",
+            "entity_name": "AMZN International Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "AWS sales increased 20% in 2025, compared to the prior year. The sales growth primarily reflects increased customer usage, partially offset by pricing changes primarily driven by long-term customer contracts.",
+            "entity_name": "AMZN AWS Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "Net sales are expected to be between $173.5 billion and $178.5 billion, or to grow between 11% and 15% compared with first quarter 2025. This guidance anticipates a favorable impact of approximately 180 basis points from foreign exchange rates.",
+            "entity_name": "AMZN Q1 2026 Net Sales Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "Operating income is expected to be between $16.5 billion and $21.5 billion, compared with $18.4 billion in first quarter 2025. This guidance includes approximately $1 billion of higher year-over-year Amazon Leo costs as we scale in 2026, as well as investment in quick commerce and even sharper prices in our international stores business.",
+            "entity_name": "AMZN Q1 2026 Operating Income Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Operating income for 2025 includes charges of $2.5 billion we recorded in Q3 2025 related to the settlement of a lawsuit with the FTC and $2.7 billion, of which $1.8 billion was recorded in Q3 2025, of estimated severance costs primarily related to planned role eliminations.",
+            "entity_name": "Amazon FTC Lawsuit Settlement",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "Operating income for 2025 includes charges of $2.5 billion we recorded in Q3 2025 related to the settlement of a lawsuit with the FTC and $2.7 billion, of which $1.8 billion was recorded in Q3 2025, of estimated severance costs primarily related to planned role eliminations.",
+            "entity_name": "AMZN 2025 Workforce Restructuring",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Cash inflows from financing activities resulted from proceeds from short-term debt, and other and long-term-debt of $5.1 billion and $25.0 billion in 2024 and 2025.",
+            "entity_name": "AMZN 2025 Debt Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "North America",
+              "Amazon North America"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "North America",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN North America Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "International",
+              "Amazon International"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "International",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN International Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AWS",
+              "Amazon Web Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "AWS",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN AWS Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "fx_tailwind_bps": 180,
+              "growth_pct_range": "11-15%",
+              "metric": "net_sales",
+              "new_value": "173.5B-178.5B",
+              "period": "Q1 2026",
+              "unit": "USD",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "AMZN Q1 2026 Net Sales Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "operating_income",
+              "new_value": "16.5B-21.5B",
+              "period": "Q1 2026",
+              "prior_value": "18.4B",
+              "unit": "USD",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "AMZN Q1 2026 Operating Income Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Federal Trade Commission lawsuit",
+              "FTC settlement Q3 2025"
+            ],
+            "attributes": {
+              "counterparty": "Federal Trade Commission",
+              "settlement_charge_usd": 2500000000,
+              "settlement_quarter": "Q3 2025",
+              "status": "settled"
+            },
+            "identifiers": {},
+            "name": "Amazon FTC Lawsuit Settlement",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Amazon 2025 role eliminations",
+              "Amazon 2025 severance charges"
+            ],
+            "attributes": {
+              "event_type": "restructuring",
+              "q3_2025_charge_usd": 1800000000,
+              "total_severance_charge_usd": 2700000000
+            },
+            "identifiers": {},
+            "name": "AMZN 2025 Workforce Restructuring",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "notes",
+              "period": "FY2025",
+              "principal_usd": 25000000000
+            },
+            "identifiers": {},
+            "name": "AMZN 2025 Debt Issuance",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.1,
+              "operating_income_usd": 29619000000,
+              "period": "FY2025",
+              "revenue": 426305000000
+            },
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN North America Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.13,
+              "operating_income_usd": 4750000000,
+              "period": "FY2025",
+              "revenue": 161894000000
+            },
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN International Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.2,
+              "operating_income_usd": 45606000000,
+              "period": "FY2025",
+              "revenue": 128725000000
+            },
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN AWS Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "metric": "net_sales",
+              "period": "Q1 2026",
+              "update_type": "initiation"
+            },
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Q1 2026 Net Sales Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "metric": "operating_income",
+              "period": "Q1 2026",
+              "update_type": "initiation"
+            },
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Q1 2026 Operating Income Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Amazon FTC Lawsuit Settlement",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN 2025 Workforce Restructuring",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN 2025 Debt Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-26-000004.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "d7599cf5620aa9c902ea768c9b5cc886b22c8d473f9f2597edb33256a00dde7a"
+    }
+  ],
+  "prompt_version": "v3"
+}

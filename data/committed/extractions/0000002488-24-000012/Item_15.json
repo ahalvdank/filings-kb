@@ -1,0 +1,153 @@
+{
+  "accession": "0000002488-24-000012",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T02:04:06Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Offer Letter between Advanced Micro Devices, Inc. and Jean Hu, dated as of January 6, 2023, filed as Exhibit 10.1 to AMD's Current Report on Form 8-K dated January 8, 2023, is hereby incorporated by reference.",
+            "entity_name": "AMD Hire of Jean Hu",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Retirement Transition Agreement and General Release between Advanced Micro Devices, Inc. and Devinder Kumar, dated as of February 15, 2023, filed as Exhibit 10.1 to AMD's Current Report on Form 8-K/A dated January 1, 2023, is hereby incorporated by reference.",
+            "entity_name": "Devinder Kumar Retirement from AMD",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "First Amendment to Credit Agreement, dated as of September 22, 2023, among Advanced Micro Devices, Inc. as borrower, the lenders referred to therein, as lenders, Wells Fargo Securities, LLC, as sustainability structuring agent, and Wells Fargo Bank, National Association, as administrative agent, filed as Exhibit 10.1 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended September 30, 2023, is hereby incorporated by reference.",
+            "entity_name": "AMD September 2023 First Amendment to Credit Agreement",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Compensation Recovery Policy adopted by the Board of Directors of Advanced Micro Devices, Inc., effective as of November 17, 2023.",
+            "entity_name": "AMD Compensation Recovery Policy",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2023-01",
+              "event_type": "management_change",
+              "person": "Jean Hu"
+            },
+            "identifiers": {},
+            "name": "AMD Hire of Jean Hu",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2023-02",
+              "event_type": "management_change",
+              "person": "Devinder Kumar"
+            },
+            "identifiers": {},
+            "name": "Devinder Kumar Retirement from AMD",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD Credit Facility Sustainability Amendment"
+            ],
+            "attributes": {
+              "amendment_date": "2023-09-22",
+              "instrument_type": "revolver"
+            },
+            "identifiers": {},
+            "name": "AMD September 2023 First Amendment to Credit Agreement",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "AMD Clawback Policy"
+            ],
+            "attributes": {
+              "effective_date": "2023-11-17",
+              "event_type": "compensation_disclosure"
+            },
+            "identifiers": {},
+            "name": "AMD Compensation Recovery Policy",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Hire of Jean Hu",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "Devinder Kumar Retirement from AMD",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD September 2023 First Amendment to Credit Agreement",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Compensation Recovery Policy",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-24-000012.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "0ddb2b42bf56057a1fcd646854ac867ae1d50333483615f48aad95072b2ba9b4"
+    }
+  ],
+  "prompt_version": "v3"
+}

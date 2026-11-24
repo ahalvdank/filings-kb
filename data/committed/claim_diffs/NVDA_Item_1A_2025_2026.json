@@ -1,0 +1,90 @@
+{
+  "created_at": "2026-11-23T08:20:04.233146+00:00",
+  "current_fy": 2026,
+  "input_sha256": "00396bdc5405efa712fac703fe55f75afb976222f93cf92659a42090881d1de1",
+  "item": "Item_1A",
+  "model": "claude-sonnet-4-6",
+  "prior_fy": 2025,
+  "prompt_sha256": "71d2da8ab6cdab15e1608c2f958dd4ee476ccefb8769395dad274dfc53c246fc",
+  "result": {
+    "added": [
+      "NVDA Groq IP License Risk",
+      "NVDA Gaming Segment Supply Constraint Risk FY2027",
+      "NVDA Macroeconomic and Tariff Risk",
+      "NVDA International Operations Risk",
+      "NVDA Acquisition and Investment Integration Risk",
+      "NVDA OpenAI Investment Uncertainty Risk",
+      "NVDA Counterparty and Commercial Arrangement Risk",
+      "NVDA Talent Retention Risk",
+      "NVDA ERP Implementation and Internal Controls Risk",
+      "China SAMR Mellanox Acquisition Compliance Investigation",
+      "French Competition Authority NVDA Graphics Card Inquiry",
+      "Multi-Jurisdiction GPU Competition Regulator Information Requests",
+      "NVDA H20 Export Control Inventory Charge Q1 FY2026",
+      "NVDA H20 USG License Grant August 2025",
+      "NVDA H200 USG License Grant February 2026"
+    ],
+    "changed": [
+      [
+        "Export controls and GPU trade restriction risk (global; GPU-specific framing)",
+        "Export controls and trade restriction risk (global; GPU specificity removed, scope broadened to all products)"
+      ],
+      [
+        "Specific AI Diffusion IFR (January 2025) worldwide licensing risk",
+        "Broader AI regulation risk globally (specific IFR regulation reference removed)"
+      ],
+      [
+        "Supply and demand mismatch risk",
+        "Supply-demand mismatch and manufacturing lead time risk (lead time explicitly added)"
+      ],
+      [
+        "Product defect and general quality risk",
+        "Product defect and AI-specific quality risk"
+      ],
+      [
+        "Competitive pressure risk including specific custom silicon threat from cloud customers",
+        "General competition risk (custom silicon specificity removed)"
+      ],
+      [
+        "Risk from transitions in accelerated computing architecture",
+        "Broader industry and market evolution risk"
+      ],
+      [
+        "Risk of regulatory investigations by Chinese authorities",
+        "Risk of China data center market being foreclosed to NVDA"
+      ],
+      [
+        "Geopolitical disruption and Taiwan manufacturing concentration risk (Asia-focused)",
+        "Broader global business disruption and geopolitical risk (Taiwan-specific framing removed)"
+      ],
+      [
+        "Climate change and California wildfire operational risk (category=environmental)",
+        "General climate change risk (category=esg; California wildfire specificity removed)"
+      ],
+      [
+        "USG export controls on AI and GPU products (China, Middle East, Tier 2 countries)",
+        "Export control and trade restriction risk (China, Middle East, Europe, Latin America, Southeast Asia; geography expanded)"
+      ],
+      [
+        "Responsible AI use liability and reputational risk (category=technology)",
+        "AI responsible use and regulatory compliance risk (category=technology_regulatory; EU and US geographies specified; regulatory compliance angle added)"
+      ],
+      [
+        "Data privacy and security compliance risk (geography=global)",
+        "Data privacy and security regulatory risk (geography=United States, European Union, China)"
+      ],
+      [
+        "Tax liability and effective tax rate risk",
+        "Tax liability and tax law change risk"
+      ],
+      [
+        "Intellectual property litigation risk",
+        "Intellectual property litigation and protection risk (scope broadened to include active IP protection)"
+      ]
+    ],
+    "removed": [
+      "NVDA Cryptocurrency Demand Volatility Risk"
+    ]
+  },
+  "ticker": "NVDA"
+}

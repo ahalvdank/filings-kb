@@ -1,0 +1,120 @@
+{
+  "accession": "0000019617-23-000231",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-19T12:59:14Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Effective May 1, 2022, the Firm is authorized to purchase up to $30 billion of common shares under its common share repurchase program, which superseded the previously approved repurchase program under which the Firm was authorized to purchase up to $30 billion of common shares.",
+            "entity_name": "JPM May 2022 $30B Common Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "On July 14, 2022, the Firm announced that it had temporarily suspended share repurchases in anticipation of the increase in the Firm's regulatory capital requirements. The Firm had set a target for achieving CET1 capital of 13.0% by the first quarter of 2023. The Firm met and exceeded that target in the fourth quarter of 2022, and resumed repurchasing shares under its common share repurchase program in the first quarter of 2023.",
+            "entity_name": "JPM 2022 Common Stock Buybacks",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Shares repurchased pursuant to the common share repurchase program during 2022 were as follows. Year-to-date23,088,038 $135.20 $3,122 $29,633 (c)",
+            "entity_name": "JPM 2022 Common Stock Buybacks",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-21",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "JPMorgan Chase",
+              "JPM",
+              "the Firm"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "JPM"
+            },
+            "name": "JPMorgan Chase & Co.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "JPM $30B share repurchase program"
+            ],
+            "attributes": {
+              "amount_usd": 30000000000,
+              "effective_date": "2022-05-01",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "JPM May 2022 $30B Common Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "JPM FY2022 share repurchases"
+            ],
+            "attributes": {
+              "amount_usd": 3122000000,
+              "avg_price_per_share": 135.2,
+              "note": "Repurchases suspended July 14, 2022 in anticipation of increased regulatory capital requirements; resumed after CET1 13.0% target met in Q4 2022",
+              "period": "FY2022",
+              "resumption": "Q1 2023",
+              "return_type": "buyback",
+              "shares": 23088038,
+              "suspension_date": "2022-07-14"
+            },
+            "identifiers": {},
+            "name": "JPM 2022 Common Stock Buybacks",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "JPM May 2022 $30B Common Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "JPM 2022 Common Stock Buybacks",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-21",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/JPM/0000019617-23-000231.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "87d7b7ba403a58bcc64a62c16c8b6e0764e0479b1ff75078a601269e7991b40c"
+    }
+  ],
+  "prompt_version": "v3"
+}

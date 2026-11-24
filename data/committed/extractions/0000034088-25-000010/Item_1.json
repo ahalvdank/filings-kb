@@ -1,0 +1,86 @@
+{
+  "accession": "0000034088-25-000010",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T01:36:49Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "On May 3, 2024, the Corporation acquired Pioneer Natural Resources Company (Pioneer), an independent oil and gas exploration and production company. With reference to the acquisition, we issued 545 million shares of ExxonMobil common stock having a fair value of $63 billion on the acquisition date, and assumed debt with a fair value of $5 billion. The acquisition transforms ExxonMobil's upstream portfolio, creating an industry-leading, high-quality U.S. unconventional inventory position.",
+            "entity_name": "ExxonMobil Acquisition of Pioneer Natural Resources Company",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "ExxonMobil",
+              "Exxon",
+              "Esso",
+              "Mobil",
+              "XTO"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "XOM"
+            },
+            "name": "Exxon Mobil Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Pioneer"
+            ],
+            "attributes": {},
+            "identifiers": {},
+            "name": "Pioneer Natural Resources Company",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Pioneer acquisition",
+              "Pioneer deal"
+            ],
+            "attributes": {
+              "assumed_debt_fair_value_usd": 5000000000,
+              "consideration_type": "stock_and_assumed_debt",
+              "effective_date": "2024-05-03",
+              "event_type": "acquisition",
+              "shares_issued": 545000000,
+              "stock_fair_value_usd": 63000000000,
+              "target_company": "Pioneer Natural Resources Company"
+            },
+            "identifiers": {},
+            "name": "ExxonMobil Acquisition of Pioneer Natural Resources Company",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "ExxonMobil Acquisition of Pioneer Natural Resources Company",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-25-000010.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "990365c45ebe5cd9acf904da5518160b173fe377adc117519f1f1c9f2312fd05"
+    }
+  ],
+  "prompt_version": "v3"
+}

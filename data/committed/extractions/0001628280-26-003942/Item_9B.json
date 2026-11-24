@@ -1,0 +1,214 @@
+{
+  "accession": "0001628280-26-003942",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T07:22:02Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "On November 17, 2025, Javier Olivan, our Chief Operating Officer, entered into a trading plan that provides for the sale of up to all of the net shares received during 2026 pursuant to Mr. Olivan's outstanding equity awards and any future equity award grants, as well as the sale of an aggregate of up to 43,333 shares of our Class A common stock held by Mr. Olivan and his affiliated entities.",
+            "entity_name": "Javier Olivan",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "On November 17, 2025, Javier Olivan, our Chief Operating Officer, entered into a trading plan that provides for the sale of up to all of the net shares received during 2026 pursuant to Mr. Olivan's outstanding equity awards and any future equity award grants, as well as the sale of an aggregate of up to 43,333 shares of our Class A common stock held by Mr. Olivan and his affiliated entities. The plan will terminate on February 20, 2027, subject to early termination for certain specified events set forth in the plan.",
+            "entity_name": "Javier Olivan 10b5-1 Plan (adopted 2025-11-17)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "On November 25, 2025, Peggy Alford, a member of our board of directors, entered into a trading plan that provides for the sale of an aggregate of up to $1 million worth of shares of our Class A common stock.",
+            "entity_name": "Peggy Alford",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "On November 25, 2025, Peggy Alford, a member of our board of directors, entered into a trading plan that provides for the sale of an aggregate of up to $1 million worth of shares of our Class A common stock. The plan will terminate on November 15, 2026, subject to early termination for certain specified events set forth in the plan.",
+            "entity_name": "Peggy Alford 10b5-1 Plan (adopted 2025-11-25)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "On November 25, 2025, Susan Li, our Chief Financial Officer, entered into a trading plan that provides for the sale of an aggregate of up to 112,273 shares of our Class A common stock and up to all of the net shares received during 2026 pursuant to Ms. Li and her spouse's outstanding equity awards and any future equity award grants.",
+            "entity_name": "Susan Li",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "On November 25, 2025, Susan Li, our Chief Financial Officer, entered into a trading plan that provides for the sale of an aggregate of up to 112,273 shares of our Class A common stock and up to all of the net shares received during 2026 pursuant to Ms. Li and her spouse's outstanding equity awards and any future equity award grants. The plan will terminate on November 24, 2026, subject to early termination for certain specified events set forth in the plan.",
+            "entity_name": "Susan Li 10b5-1 Plan (adopted 2025-11-25)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "COO"
+            },
+            "identifiers": {},
+            "name": "Javier Olivan",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Peggy Alford",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "CFO"
+            },
+            "identifiers": {},
+            "name": "Susan Li",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Meta",
+              "META"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "Meta Platforms, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "note": "Up to 43,333 shares of Class A common stock plus all net shares from 2026 equity awards; Rule 10b5-1(c) plan",
+              "plan_adoption_date": "2025-11-17",
+              "plan_termination_date": "2027-02-20",
+              "reporting_person": "Javier Olivan",
+              "shares": 43333,
+              "source": "10b5-1_trading_plan_Item_9B",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Javier Olivan 10b5-1 Plan (adopted 2025-11-17)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "note": "Up to $1 million worth of shares of Class A common stock; Rule 10b5-1(c) plan",
+              "plan_adoption_date": "2025-11-25",
+              "plan_termination_date": "2026-11-15",
+              "reporting_person": "Peggy Alford",
+              "source": "10b5-1_trading_plan_Item_9B",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Peggy Alford 10b5-1 Plan (adopted 2025-11-25)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "note": "Up to 112,273 shares of Class A common stock plus all net shares from 2026 equity awards for Ms. Li and her spouse; Rule 10b5-1(c) plan",
+              "plan_adoption_date": "2025-11-25",
+              "plan_termination_date": "2026-11-24",
+              "reporting_person": "Susan Li",
+              "shares": 112273,
+              "source": "10b5-1_trading_plan_Item_9B",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Susan Li 10b5-1 Plan (adopted 2025-11-25)",
+            "type": "InsiderTransaction"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "COO"
+            },
+            "source_name": "Javier Olivan",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Peggy Alford",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO"
+            },
+            "source_name": "Susan Li",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001628280-26-003942.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "9d49ee8eae3483a400a39548840036c5da4a1b437310e51e8b7ceb832232eb0d"
+    }
+  ],
+  "prompt_version": "v3"
+}

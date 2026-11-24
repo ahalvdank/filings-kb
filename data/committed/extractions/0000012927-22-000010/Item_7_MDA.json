@@ -1,0 +1,1409 @@
+{
+  "accession": "0000012927-22-000010",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T09:49:37Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_7_MDA",
+              "sub_section": "BCA_Revenues"
+            },
+            "chunk_type": "segment",
+            "content": "BCA revenues increased by $3,331 million in 2021 compared with 2020 primarily due to higher 737 MAX deliveries driven by recertification and return to service in most jurisdictions and the absence of charges for 737 MAX customer considerations which reduced revenues in 2020, partially offset by lower 787 deliveries in 2021.",
+            "entity_name": "BA Commercial Airplanes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_7_MDA",
+              "sub_section": "BCA_Loss_From_Operations"
+            },
+            "chunk_type": "segment",
+            "content": "BCA loss from operations was $6,475 million in 2021 compared with $13,847 million in 2020. The 2021 loss includes a reach-forward loss on the 787 program of $3,460 million, abnormal production costs related to 737 MAX of $1,887 million, and abnormal production costs related to the 787 program of $468 million resulting from continued production issues, inspections and rework, partially offset by higher 737 MAX deliveries.",
+            "entity_name": "BA Commercial Airplanes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_7_MDA",
+              "sub_section": "BDS_Revenues"
+            },
+            "chunk_type": "segment",
+            "content": "BDS revenues in 2021 increased by $283 million compared with 2020 primarily due to higher revenue on the KC-46A Tanker program due to new orders for 27 aircraft received during the first quarter of 2021 and lower charges in 2021. This was partially offset by lower revenues on rotorcraft programs, Commercial Crew and VC-25B.",
+            "entity_name": "BA Defense Space & Security Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_7_MDA",
+              "sub_section": "BDS_Earnings_From_Operations"
+            },
+            "chunk_type": "segment",
+            "content": "BDS earnings from operations in 2021 increased by $5 million compared with 2020 primarily due to less unfavorable impacts from cumulative contract catch-up adjustments, which improved $219 million from the prior year, largely due to lower KC-46A Tanker charges in 2021 compared to 2020 and other charges in development programs described below. The favorable change in cumulative contract catch-up adjustments was offset primarily by lower volume and mix on rotorcraft programs and lower equity earnings for United Launch Alliance (ULA).",
+            "entity_name": "BA Defense Space & Security Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_7_MDA",
+              "sub_section": "BGS_Revenues"
+            },
+            "chunk_type": "segment",
+            "content": "BGS revenues increased by $785 million primarily due to higher commercial and government services volume.",
+            "entity_name": "BA Global Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_7_MDA",
+              "sub_section": "BGS_Earnings_From_Operations"
+            },
+            "chunk_type": "segment",
+            "content": "BGS earnings from operations increased by $1,567 million in 2021 compared with 2020 primarily due to charges incurred in 2020 as a result of the COVID-19 pandemic, as well as higher commercial services volume.",
+            "entity_name": "BA Global Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We continue to anticipate that the first 777X delivery will occur in late 2023. The 777X program has near break-even gross margins at December 31, 2021.",
+            "entity_name": "BA 777X First Delivery Late 2023 Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "we expect to incur approximately $2 billion of abnormal production costs on a cumulative basis with most being incurred by the end of 2023.",
+            "entity_name": "BA 787 Cumulative Abnormal Production Costs Approximately $2 Billion Through End of 2023",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect 737 MAX deliveries to China to resume in 2022, subject to final regulatory approvals, although risk remains around the timing and rate of those deliveries.",
+            "entity_name": "BA 737 MAX China Delivery Resumption 2022 Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We continue to expect commercial air travel to return to 2019 levels in 2023 to 2024. We expect it will take a few years beyond that for the industry to return to long-term trend growth.",
+            "entity_name": "BA Commercial Air Travel Recovery to 2019 Levels by 2023 to 2024",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "The production rate for the combined 777/777X program is expected to increase from 2 per month to 3 per month in 2022.",
+            "entity_name": "BA 777-777X Combined Production Rate Increase to 3 Per Month in 2022",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Deliveries of the 787 are currently paused and the production rate has been reduced while we focus on rework of undelivered aircraft and continue to engage in detailed discussions with the FAA regarding required actions for resuming deliveries. Risk remains that these issues may continue to impact the timing of airplane deliveries in inventory and/or our ability to achieve planned production rates. Revenues, earnings and cash flows will continue to be impacted until we are able to resume timely deliveries.",
+            "entity_name": "BA 787 Delivery Pause and Production Rework Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We expect 737 MAX deliveries to China to resume in 2022, subject to final regulatory approvals, although risk remains around the timing and rate of those deliveries. Orders to suspend operations of 737 MAX aircraft from non-U.S. civil aviation authorities are still in effect in a small number of countries.",
+            "entity_name": "BA 737 MAX China Delivery Timing Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are working towards reaching Type Inspection Authorization (TIA) which will enable us to begin FAA certification flight testing. The timing of TIA and certification will ultimately be determined by the regulators, and further determinations with respect to anticipated certification requirements could result in additional delays in entry into service and/or additional cost increases. One or more of these factors could result in additional reach-forward losses on the 777X program in future periods.",
+            "entity_name": "BA 777X Certification Delay and Additional Reach-Forward Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "While recovery is accelerating, we continue to expect that it will remain uneven as travel restrictions and varying regional travel protocols continue to impact air travel. There is significant uncertainty with respect to when commercial air traffic levels will recover, and whether, and at what point, capacity will return to and/or exceed pre-COVID-19 levels.",
+            "entity_name": "BA COVID-19 Commercial Aviation Demand Recovery Uncertainty",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The current state of U.S.-China relations remains a significant watch item. China is a very significant market for commercial airplanes and represents a significant component of our commercial airplanes backlog. Since 2018, the U.S. and China imposed an escalating series of tariffs on each other's imports. Certain aircraft parts and components that Boeing procures are subject to these tariffs.",
+            "entity_name": "BA US-China Trade Relations and Commercial Market Access Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Congress and the President must enact either full-year FY22 appropriations bills or an additional CR to fund government departments and agencies beyond February 18, 2022 or a government shutdown could result, which may impact the Company's operations.",
+            "entity_name": "BA U.S. Government Budget Appropriations Uncertainty and Shutdown Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In addition, we are experiencing some supply chain shortages. Our suppliers are also experiencing liquidity pressures and disruptions to their operations as a result of COVID-19. We continue to monitor the health and stability of the supply chain as we ramp up production.",
+            "entity_name": "BA Aerospace Supply Chain Disruption and Supplier Liquidity Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If 787 aircraft deliveries continue to be paused, we remain unable to deliver 737 MAX aircraft in China for an extended period of time, and/or entry into service of the 777X, 737 MAX 7 and/or 737 MAX 10 is further delayed, we may experience additional reductions to backlog and/or significant order cancellations.",
+            "entity_name": "BA BCA Backlog Reduction and Order Cancellation Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Eliminations and other unallocated expense decreased by $1,131 million in 2021 and increased by $822 million in 2020 primarily due to earnings charges of $744 million in the fourth quarter of 2020 in anticipation of the agreement between Boeing and the U.S. Department of Justice that was finalized in January 2021 and higher income from operating investments in 2021.",
+            "entity_name": "Boeing U.S. Department of Justice Agreement January 2021",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "We are currently producing at a rate of 0.5 aircraft per month. We expect to complete production of the 747 in the second half of 2022. We believe that ending production of the 747 will not have a material impact on our financial position, results of operations or cash flows.",
+            "entity_name": "BA 747 Program Production End H2 2022",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "During the first quarter of 2021, we consolidated 787 production in South Carolina, in line with our previous assumptions, which did not have a significant financial impact on the program.",
+            "entity_name": "BA 787 Production Consolidation to South Carolina Q1 2021",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "During the fourth quarter of 2021, we recorded a loss of $3.5 billion on the program primarily due to the additional rework, as well as other actions required to resume 787 deliveries, taking longer than expected. These impacts have resulted in longer than expected delivery delays and associated customer considerations.",
+            "entity_name": "BA 787 Program Q4 2021 Reach-Forward Loss $3.5 Billion",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "During the fourth quarter of 2021, BDS increased the reach-forward loss on the KC-46A Tanker program by $402 million primarily due to continued disruption in the factory and in the supply chain, including impacts of COVID-19, and an increase in costs to complete the new Remote Vision System as the customer's requirements definition has evolved.",
+            "entity_name": "BA KC-46A Tanker Q4 2021 Reach-Forward Loss $402 Million",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "The Boeing Company",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "BCA",
+              "Commercial Airplanes"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Commercial Airplanes",
+              "ticker": "BA"
+            },
+            "name": "BA Commercial Airplanes Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BDS",
+              "Defense, Space & Security"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Defense, Space & Security",
+              "ticker": "BA"
+            },
+            "name": "BA Defense Space & Security Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BGS",
+              "Global Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Global Services",
+              "ticker": "BA"
+            },
+            "name": "BA Global Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Boeing 777X EIS guidance"
+            ],
+            "attributes": {
+              "metric": "777X_first_delivery_date",
+              "new_value": "late 2023",
+              "period": "CY2023",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "BA 777X First Delivery Late 2023 Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Boeing 787 abnormal production cost guidance"
+            ],
+            "attributes": {
+              "metric": "787_cumulative_abnormal_production_costs",
+              "new_value": "approximately $2 billion",
+              "period": "cumulative_through_2023",
+              "unit": "USD",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "BA 787 Cumulative Abnormal Production Costs Approximately $2 Billion Through End of 2023",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Boeing 737 MAX China return to service guidance"
+            ],
+            "attributes": {
+              "metric": "737_MAX_China_delivery_resumption",
+              "new_value": "2022",
+              "period": "CY2022",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "BA 737 MAX China Delivery Resumption 2022 Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Boeing air travel recovery 2023-2024 outlook"
+            ],
+            "attributes": {
+              "metric": "commercial_air_travel_recovery_to_2019_levels",
+              "new_value": "2023 to 2024",
+              "period": "CY2023-CY2024",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "BA Commercial Air Travel Recovery to 2019 Levels by 2023 to 2024",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Boeing 777 777X production rate guidance 2022"
+            ],
+            "attributes": {
+              "metric": "777_777X_combined_production_rate",
+              "new_value": "3 per month",
+              "period": "CY2022",
+              "prior_value": "2 per month",
+              "unit": "aircraft_per_month",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "BA 777-777X Combined Production Rate Increase to 3 Per Month in 2022",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Boeing 787 rework risk",
+              "Dreamliner delivery pause risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "program": "787"
+            },
+            "identifiers": {},
+            "name": "BA 787 Delivery Pause and Production Rework Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing 737 MAX China regulatory risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "China",
+              "program": "737 MAX"
+            },
+            "identifiers": {},
+            "name": "BA 737 MAX China Delivery Timing Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing 777X certification risk",
+              "777X EIS delay risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "program": "777X"
+            },
+            "identifiers": {},
+            "name": "BA 777X Certification Delay and Additional Reach-Forward Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing COVID air travel demand risk"
+            ],
+            "attributes": {
+              "category": "macro",
+              "geography": "Global"
+            },
+            "identifiers": {},
+            "name": "BA COVID-19 Commercial Aviation Demand Recovery Uncertainty",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing US-China trade risk",
+              "Boeing China geopolitical risk"
+            ],
+            "attributes": {
+              "category": "geopolitical",
+              "geography": "China"
+            },
+            "identifiers": {},
+            "name": "BA US-China Trade Relations and Commercial Market Access Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing government shutdown risk",
+              "Boeing FY22 CR risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "BA U.S. Government Budget Appropriations Uncertainty and Shutdown Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing supply chain risk"
+            ],
+            "attributes": {
+              "category": "supply_chain",
+              "geography": "Global"
+            },
+            "identifiers": {},
+            "name": "BA Aerospace Supply Chain Disruption and Supplier Liquidity Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing commercial backlog cancellation risk"
+            ],
+            "attributes": {
+              "category": "demand",
+              "program": "737 MAX, 787, 777X"
+            },
+            "identifiers": {},
+            "name": "BA BCA Backlog Reduction and Order Cancellation Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing DoJ agreement 2021",
+              "Boeing DoJ DPA 2021"
+            ],
+            "attributes": {
+              "charges_accrued_usd": 744000000,
+              "counterparty": "U.S. Department of Justice",
+              "finalized_date": "2021-01",
+              "status": "settled"
+            },
+            "identifiers": {},
+            "name": "Boeing U.S. Department of Justice Agreement January 2021",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Boeing 747 program end",
+              "747 final production 2022"
+            ],
+            "attributes": {
+              "event_type": "restructuring",
+              "expected_completion": "H2 2022",
+              "program": "747"
+            },
+            "identifiers": {},
+            "name": "BA 747 Program Production End H2 2022",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing 787 South Carolina production consolidation"
+            ],
+            "attributes": {
+              "effective_date": "Q1 2021",
+              "event_type": "restructuring",
+              "location": "South Carolina",
+              "program": "787"
+            },
+            "identifiers": {},
+            "name": "BA 787 Production Consolidation to South Carolina Q1 2021",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing 787 reach-forward loss Q4 2021",
+              "787 program write-down 2021"
+            ],
+            "attributes": {
+              "amount_usd": 3500000000,
+              "event_type": "goodwill_impairment",
+              "period": "Q4 2021",
+              "program": "787"
+            },
+            "identifiers": {},
+            "name": "BA 787 Program Q4 2021 Reach-Forward Loss $3.5 Billion",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing KC-46A Tanker reach-forward loss Q4 2021"
+            ],
+            "attributes": {
+              "amount_usd": 402000000,
+              "event_type": "goodwill_impairment",
+              "period": "Q4 2021",
+              "program": "KC-46A Tanker"
+            },
+            "identifiers": {},
+            "name": "BA KC-46A Tanker Q4 2021 Reach-Forward Loss $402 Million",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.206,
+              "margin": -0.332,
+              "period": "FY2021",
+              "revenue": 19493000000
+            },
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Commercial Airplanes Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.011,
+              "margin": 0.058,
+              "period": "FY2021",
+              "revenue": 26540000000
+            },
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Defense Space & Security Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.051,
+              "margin": 0.124,
+              "period": "FY2021",
+              "revenue": 16328000000
+            },
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Global Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA 777X First Delivery Late 2023 Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA 787 Cumulative Abnormal Production Costs Approximately $2 Billion Through End of 2023",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA 737 MAX China Delivery Resumption 2022 Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Commercial Air Travel Recovery to 2019 Levels by 2023 to 2024",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA 777-777X Combined Production Rate Increase to 3 Per Month in 2022",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA 787 Delivery Pause and Production Rework Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA 737 MAX China Delivery Timing Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA 777X Certification Delay and Additional Reach-Forward Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA COVID-19 Commercial Aviation Demand Recovery Uncertainty",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA US-China Trade Relations and Commercial Market Access Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA U.S. Government Budget Appropriations Uncertainty and Shutdown Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Aerospace Supply Chain Disruption and Supplier Liquidity Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA BCA Backlog Reduction and Order Cancellation Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing U.S. Department of Justice Agreement January 2021",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA 747 Program Production End H2 2022",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA 787 Production Consolidation to South Carolina Q1 2021",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA 787 Program Q4 2021 Reach-Forward Loss $3.5 Billion",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA KC-46A Tanker Q4 2021 Reach-Forward Loss $402 Million",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-22-000010.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "4d2571a2ca4937b0d9f4e9cd87e4782e69c0b66ec6a5f266cd18d2ed037d669c"
+    },
+    {
+      "extracted_at": "2026-07-01T10:00:36Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "operating_margin": 0.124,
+              "period": "FY2021",
+              "revenue_usd": 16328000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "BGS revenues in 2021 increased by $785 million compared with 2020 due to higher commercial and government services volume. While commercial services volume is recovering, it remains below pre-pandemic levels. The net favorable impact of cumulative contract catch-up adjustments in 2021 was $37 million lower than the comparable period in the prior year.",
+            "entity_name": "Boeing Global Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations_usd": 2017000000,
+              "period": "FY2021",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "BGS earnings from operations in 2021 increased by $1,567 million compared with 2020, primarily due to charges incurred in 2020 driven by impacts of the COVID-19 pandemic as well as higher commercial services volume in 2021, partially offset by an inventory write-down of $220 million recognized in the fourth quarter of 2021 driven by revised cost estimates on certain customer contracts.",
+            "entity_name": "Boeing Global Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "revenue_usd": 272000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "BCC segment revenues consist principally of lease income from equipment under operating lease, interest income from financing receivables and notes, and other income. BCC's revenues in 2021 increased by $11 million compared with 2020, and revenues in 2020 increased by $17 million compared with 2019 primarily due to gains on re-lease of assets, partially offset by portfolio run-off.",
+            "entity_name": "Boeing Capital Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations_usd": 106000000,
+              "operating_margin": 0.39,
+              "period": "FY2021",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Earnings from operations in 2021 increased by $43 million compared with 2020 primarily due to higher revenues, lower provision for losses, and lower interest and asset impairment expenses.",
+            "entity_name": "Boeing Capital Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "A number of our ongoing fixed-price development programs have reach-forward losses. New programs could also have risk for reach-forward loss upon contract award and during the period of contract performance. Many development programs have highly complex designs. As technical or quality issues arise during development, we may experience schedule delays and cost impacts, which could increase our estimated cost to perform the work or reduce our estimated price, either of which could result in a material charge or otherwise adversely affect our financial condition.",
+            "entity_name": "BA Fixed-Price Development Program Reach-Forward Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our program assumptions reflect our current best estimate. However, if the program experiences further delivery delays or other factors such as additional inspections or rework that result in lower revenue or higher cost estimates, we could record additional losses in future periods, which may be material.",
+            "entity_name": "BA 787 Program Delivery Pause and Additional Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The level of profitability on the 777X program will be subject to a number of factors. These factors include continued market uncertainty, the impacts of COVID-19 on our production system as well as impacts on our supply chain and customers, customer negotiations, further production rate adjustments for the 777X or other commercial aircraft programs, contraction of the accounting quantity and potential risks associated with the testing program and the timing of aircraft certification. One or more of these factors could result in additional reach-forward losses on the 777X program in future periods, which may be material.",
+            "entity_name": "BA 777X Program Certification Delay and Reach-Forward Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We expect the impacts of the COVID-19 pandemic to continue to have an adverse impact on BGS commercial revenues in future quarters until the commercial airline industry environment fully recovers.",
+            "entity_name": "BA COVID-19 Impact on Commercial Services Revenue",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "A number of factors could cause us to incur increased borrowing costs and to have greater difficulty accessing public and private markets for debt. These factors include disruptions or declines in the global capital markets and/or a decline in our financial performance, outlook or credit ratings, including impacts described above related to the COVID-19 pandemic and/or associated changes in demand for our products and services. These risks will be particularly acute if we are subject to further credit rating downgrades.",
+            "entity_name": "BA Credit Rating Downgrade and Capital Markets Access Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Changes in our forecasts, discount rates or decreases in the value of our common stock could cause book values to exceed their fair values which may result in goodwill impairment charges in future periods.",
+            "entity_name": "BA Goodwill Impairment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We continue to anticipate that the first 777X delivery will occur in late 2023.",
+            "entity_name": "BA 777X First Delivery Timing Guidance Late 2023",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect capital expenditures in 2022 to be higher than in 2021.",
+            "entity_name": "BA FY2022 Capital Expenditure Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "During the twelve months ended December 31, 2021, debt repayments net of new borrowings were $5.6 billion, primarily due to $13.8 billion of repayments of our two-year delayed draw term loan credit agreement, partially offset by $9.8 billion of fixed rate senior notes issued in the first quarter of 2021.",
+            "entity_name": "BA Q1 2021 $9.8B Fixed Rate Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In 2021, we repaid $13.8 billion that was outstanding under our two-year delayed draw term loan credit agreement that had a final maturity date of February 6, 2022.",
+            "entity_name": "BA 2021 $13.8B Delayed Draw Term Loan Repayment",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During the year ended December 31, 2021, we paid no dividends, compared with $1.2 billion and $4.6 billion in 2020 and 2019. In March 2020, the Company announced that our dividend will be suspended until further notice.",
+            "entity_name": "BA Dividend Suspension",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In the first quarter of 2021, we paid $0.7 billion consistent with the terms of the Deferred Prosecution Agreement between Boeing and the U.S. Department of Justice.",
+            "entity_name": "Boeing DOJ Deferred Prosecution Agreement",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "Non-cash items in 2021 include the $3.5 billion reach-forward loss on the 787 program which was recorded as a reduction to inventory, as well as $1.2 billion of treasury shares issued to fund Company contributions to the 401(k) plan and $0.8 billion of share-based plans expense reflecting a one-time stock grant to most employees in lieu of 2021 salary increases.",
+            "entity_name": "BA FY2021 One-Time Employee Stock Grant in Lieu of Salary Increases",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "BGS",
+              "Global Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "BGS",
+              "ticker": "BA"
+            },
+            "name": "Boeing Global Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BCC",
+              "Boeing Capital"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "BCC",
+              "ticker": "BA"
+            },
+            "name": "Boeing Capital Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "fixed-price program cost overrun risk"
+            ],
+            "attributes": {
+              "category": "program_execution",
+              "programs": [
+                "Commercial Crew",
+                "KC-46A Tanker",
+                "MQ-25",
+                "T-7A Red Hawk",
+                "VC-25B"
+              ]
+            },
+            "identifiers": {},
+            "name": "BA Fixed-Price Development Program Reach-Forward Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "787 Dreamliner production risk"
+            ],
+            "attributes": {
+              "category": "program_execution",
+              "program": "787"
+            },
+            "identifiers": {},
+            "name": "BA 787 Program Delivery Pause and Additional Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "777X certification risk"
+            ],
+            "attributes": {
+              "category": "program_execution",
+              "program": "777X"
+            },
+            "identifiers": {},
+            "name": "BA 777X Program Certification Delay and Reach-Forward Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "pandemic commercial aviation recovery risk"
+            ],
+            "attributes": {
+              "category": "market_demand",
+              "segment": "BGS"
+            },
+            "identifiers": {},
+            "name": "BA COVID-19 Impact on Commercial Services Revenue",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing credit risk",
+              "Boeing debt access risk"
+            ],
+            "attributes": {
+              "category": "financial"
+            },
+            "identifiers": {},
+            "name": "BA Credit Rating Downgrade and Capital Markets Access Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "category": "accounting"
+            },
+            "identifiers": {},
+            "name": "BA Goodwill Impairment Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "777X entry into service guidance"
+            ],
+            "attributes": {
+              "metric": "first_delivery_date",
+              "new_value": "late 2023",
+              "period": "2023",
+              "program": "777X",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "BA 777X First Delivery Timing Guidance Late 2023",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "capital_expenditures",
+              "new_value": "higher than 2021",
+              "period": "FY2022",
+              "unit": "qualitative",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "BA FY2022 Capital Expenditure Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "notes",
+              "issuance_period": "2021-Q1",
+              "note_type": "fixed_rate_senior",
+              "principal_usd": 9800000000
+            },
+            "identifiers": {},
+            "name": "BA Q1 2021 $9.8B Fixed Rate Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "term_loan",
+              "note": "Repayment of two-year delayed draw term loan originally entered Q1 2020",
+              "original_maturity_date": "2022-02-06",
+              "principal_usd": 13800000000,
+              "repayment_year": "2021"
+            },
+            "identifiers": {},
+            "name": "BA 2021 $13.8B Delayed Draw Term Loan Repayment",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing dividend suspension March 2020"
+            ],
+            "attributes": {
+              "effective_date": "2020-03",
+              "return_type": "dividend_suspension"
+            },
+            "identifiers": {},
+            "name": "BA Dividend Suspension",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Boeing DPA",
+              "Boeing 737 MAX DOJ DPA"
+            ],
+            "attributes": {
+              "counterparty": "U.S. Department of Justice",
+              "payment_made_usd": 700000000,
+              "payment_period": "2021-Q1",
+              "status": "pending",
+              "subject": "737 MAX"
+            },
+            "identifiers": {},
+            "name": "Boeing DOJ Deferred Prosecution Agreement",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Boeing 2021 employee stock grant"
+            ],
+            "attributes": {
+              "amount_usd": 800000000,
+              "effective_period": "FY2021",
+              "event_type": "compensation_disclosure"
+            },
+            "identifiers": {},
+            "name": "BA FY2021 One-Time Employee Stock Grant in Lieu of Salary Increases",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.0505,
+              "margin": 0.124,
+              "period": "FY2021",
+              "revenue": 16328000000
+            },
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Global Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.0421,
+              "margin": 0.39,
+              "period": "FY2021",
+              "revenue": 272000000
+            },
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Capital Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Fixed-Price Development Program Reach-Forward Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA 787 Program Delivery Pause and Additional Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA 777X Program Certification Delay and Reach-Forward Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA COVID-19 Impact on Commercial Services Revenue",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Credit Rating Downgrade and Capital Markets Access Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Goodwill Impairment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "2023",
+              "update_type": "confirmation"
+            },
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA 777X First Delivery Timing Guidance Late 2023",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2022",
+              "update_type": "initiation"
+            },
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA FY2022 Capital Expenditure Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Q1 2021 $9.8B Fixed Rate Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA 2021 $13.8B Delayed Draw Term Loan Repayment",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Dividend Suspension",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing DOJ Deferred Prosecution Agreement",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA FY2021 One-Time Employee Stock Grant in Lieu of Salary Increases",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-22-000010.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "43c873c289acc24bb51dad9b22dbb649cdadecce216add51c52e8dd82374aa38"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,188 @@
+{
+  "accession": "0001326801-23-000013",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T10:40:56Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have foreign currency risks related to our revenue and operating expenses denominated in currencies other than the U.S. dollar, primarily the Euro. Accordingly, changes in exchange rates, and in particular a strengthening of the U.S. dollar, have negatively affected, and may continue to negatively affect, our revenue and other operating results as expressed in U.S. dollars.",
+            "entity_name": "META Foreign Currency Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "At this time, we have not entered into, but in the future we may enter into, derivatives or other financial instruments in an attempt to hedge our foreign currency exchange risk. It is difficult to predict the effect hedging activities would have on our results of operations. Foreign currency exchange net losses of $81 million, $140 million, and $129 million were recognized in 2022, 2021, and 2020, respectively.",
+            "entity_name": "META Foreign Currency Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Changes in U.S. interest rates affect the interest earned on our cash, cash equivalents, and marketable securities, and the market value of those securities. A hypothetical 100 basis point increase in market interest rates would have resulted in a decrease of $558 million and $714 million in the market value of our available-for-sale debt securities and cash equivalents as of December 31, 2022 and 2021, respectively.",
+            "entity_name": "META Interest Rate Sensitivity Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "As of December 31, 2022, we also had $10.0 billion aggregate principal amount of fixed-rate senior notes (the \"Notes\") outstanding. Since our Notes bear interest at fixed rates and are carried at amortized cost, fluctuations in interest rates do not have any impact on our consolidated financial statements. However, the fair value of the Notes will fluctuate with movements in market interest rates, increasing in periods of declining interest rates and declining in periods of increasing interest rates.",
+            "entity_name": "META $10.0B Fixed-Rate Senior Notes Outstanding",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our equity investments are substantially all in non-marketable equity securities and are subject to equity price risks that could have a material impact on the carrying value of our holdings.",
+            "entity_name": "META Non-Marketable Equity Price Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Uncertainties in the global economic climate and financial markets could adversely impact the valuation of these companies we invest in and, therefore, result in a material impairment or downward adjustment in our investments. Our total non-marketable equity securities had a carrying value of $6.20 billion and $6.78 billion as of December 31, 2022 and 2021, respectively.",
+            "entity_name": "META Non-Marketable Equity Price Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta Euro currency risk",
+              "FX exchange rate risk"
+            ],
+            "attributes": {
+              "category": "foreign_currency",
+              "geography": "global",
+              "primary_currency": "EUR"
+            },
+            "identifiers": {},
+            "name": "META Foreign Currency Exchange Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "interest rate risk",
+              "META rate sensitivity"
+            ],
+            "attributes": {
+              "category": "interest_rate",
+              "instruments_affected": "cash_equivalents_marketable_debt_securities_long_term_debt",
+              "sensitivity_100bp_decrease_usd": 558000000,
+              "sensitivity_reference_date": "2022-12-31"
+            },
+            "identifiers": {},
+            "name": "META Interest Rate Sensitivity Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "equity price risk",
+              "private equity investment risk"
+            ],
+            "attributes": {
+              "carrying_value_date": "2022-12-31",
+              "carrying_value_usd": 6200000000,
+              "category": "equity_price",
+              "investment_type": "non_marketable_equity_securities"
+            },
+            "identifiers": {},
+            "name": "META Non-Marketable Equity Price Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Meta senior notes",
+              "Meta fixed-rate notes"
+            ],
+            "attributes": {
+              "instrument_type": "notes",
+              "outstanding_as_of": "2022-12-31",
+              "principal_usd": 10000000000,
+              "rate_type": "fixed"
+            },
+            "identifiers": {},
+            "name": "META $10.0B Fixed-Rate Senior Notes Outstanding",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META Foreign Currency Exchange Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META Interest Rate Sensitivity Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META Non-Marketable Equity Price Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META $10.0B Fixed-Rate Senior Notes Outstanding",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-23-000013.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "06101ff2dbe1afd0c9335c4257beec8b3dc6feeaee3f1963e3ef23259af0297d"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,758 @@
+{
+  "accession": "0001652044-25-000014",
+  "item": "Item_1A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T14:26:49Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We generated more than 75% of total revenues from online advertising in 2024. Many of our advertisers, companies that distribute our products and services, digital publishers, and content providers can terminate their contracts with us at any time. These partners may not continue to do business with us if we do not create more value (such as increased numbers of users or customers, new sales leads, increased brand awareness, or more effective monetization) than their available alternatives.",
+            "entity_name": "GOOGL Advertising Revenue Concentration Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "AI technology and services are highly competitive, rapidly evolving, and require significant investment, including technical infrastructure, development and operational costs, to meet the changing needs and expectations of our existing users and attract new users. Our ability to deploy certain AI technologies critical for our products and services and for our business strategy may depend on the availability and pricing of third-party equipment and other technical infrastructure operations costs, including network capacity, energy, and equipment costs. Additionally, other companies may develop AI products and technologies that are similar or superior to our technologies or more cost-effective to develop and/or deploy.",
+            "entity_name": "GOOGL Competitive Intensity and AI Competition Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our evolving AI-related efforts may give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infringement or misappropriation, violation of rights of publicity, defamation, data privacy, cybersecurity, and other issues. As a result of these and other challenges associated with innovative technologies, our implementation of AI systems could subject us to competitive harm, regulatory action, legal liability (including under new and proposed legislation and regulations), new applications of existing data protection, privacy, intellectual property, and other laws, and brand or reputational harm.",
+            "entity_name": "GOOGL AI Development Ethical and Legal Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "industry supply capacity for AI accelerators, including Graphics Processing Units, or GPUs, as well as our custom-built TPUs, is highly competitive and rapidly evolving. If we are unable to negotiate favorable contractual terms or our competitors claim the supply or capacity first, we may face supply constraints.",
+            "entity_name": "GOOGL Manufacturing and Supply Chain Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We experience cyber attacks and other attempts to gain unauthorized access to our systems on a regular basis. Cyber attacks continue to evolve in sophistication and volume, and inherently may be difficult to detect for long periods of time. For example, the development and implementation of AI technologies may further increase our exposure to or exacerbate the risks of cyber attacks or other security incidents, particularly where such technologies are exploited by third parties to breach our or other parties' systems, including when such technologies are used to target our employees or impersonate members of senior management in order to gain unauthorized access to our systems.",
+            "entity_name": "GOOGL IT Systems Interruption and Cybersecurity Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "International revenues accounted for approximately 51% of our consolidated revenues in 2024. In addition to risks described elsewhere in this section, our international operations expose us to other risks, including the following: restrictions on foreign ownership and investments, and stringent foreign exchange controls that might prevent us from repatriating cash earned in countries outside the U.S.; sanctions, import and export controls, other market access barriers, political unrest, geopolitical tensions, changes in regimes, or armed conflict (such as ongoing conflicts in the Middle East and Ukraine), any of which may affect our business continuity, increase our operating costs, limit demand for our products and services, limit our ability to source components or final products, or prevent or impede us from operating in certain jurisdictions, complying with local laws, or offering products or services.",
+            "entity_name": "GOOGL International Operations and Foreign Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Concerns about, including the adequacy of, our practices with regard to the collection, use, governance, disclosure, or security of personal data or other data-privacy-related matters, even if unfounded, could harm our business, reputation, financial condition, and operating results. Our policies and practices may change over time as expectations and regulations regarding privacy and data change.",
+            "entity_name": "GOOGL Data Privacy and Security Regulatory Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are subject to a variety of new, existing, and changing laws and regulations worldwide that could harm our business, and will likely be subject to an even broader scope of laws and regulations as we continue to expand our business. The U.S. Department of Justice (DOJ), various U.S. states, and other plaintiffs have filed, and may continue to file in the future, several antitrust lawsuits about various aspects of our business, including our advertising technologies and practices, the operation and distribution of Google Search, and the operation and distribution of the Android operating system and Play Store.",
+            "entity_name": "GOOGL Regulatory Compliance and Antitrust Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The Organization for Economic Cooperation and Development (OECD) is coordinating negotiations among more than 140 countries with the goal of achieving consensus around substantial changes to international tax policies, including the implementation of a minimum global effective tax rate of 15%, on which various jurisdictions around the world have either introduced draft legislation or adopted final legislation. Our effective tax rate and cash tax payments could increase as a result of these changes.",
+            "entity_name": "GOOGL Tax Rate and International Tax Legislation Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "For instance, Sundar Pichai is critical to the overall management of Alphabet and its subsidiaries and plays an important role in the development of our technology, maintaining our culture, and setting our strategic direction.",
+            "entity_name": "GOOGL Key Personnel Dependency Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We also face risks associated with our trademarks. For example, there is a risk that the word \"Google\" could become so commonly used that it becomes synonymous with the word \"search.\" Some courts have ruled that \"Google\" is a protectable trademark, but it is possible that other courts, particularly those outside of the U.S., may reach a different determination. If this happens, we could lose protection for this trademark, which could result in other people using the word \"Google\" to refer to their own products, thus diminishing our brand.",
+            "entity_name": "GOOGL Intellectual Property Protection Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our revenue growth rate could decline over time as a result of a number of factors, including changes in the devices and modalities used to access our products and services; changes in geographic mix; deceleration or declines in advertiser spending; competition; changes in customer usage and demand for our existing products and increasing demand for new technologies; decreases in the pricing of our products and services; ongoing product and policy changes; and shifts to lower priced products and services.",
+            "entity_name": "GOOGL Revenue Growth Deceleration and Margin Compression Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "the DOJ and a number of state Attorneys General filed a lawsuit alleging that Google violated antitrust laws relating to Search and Search advertising, and in August 2024, the U.S. District Court for the District of Columbia ruled that Google violated such antitrust laws. The Court is holding a separate proceeding to determine remedies, which could include alterations to our products and services and our business models and operations, including structural remedies, and/or our distribution arrangements, among other changes. While we plan to appeal, there can be no assurance that our appeal will succeed, or that we will be able to change or decrease the severity of any remedies that may be ordered, and any or all of these potential remedies could harm our business, reputation, financial condition, and operating results.",
+            "entity_name": "DOJ and State AGs v. Google - Search and Search Advertising Antitrust",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "in December 2023, a California jury delivered a verdict in Epic Games v. Google finding that Google violated antitrust laws relating to Google Play's business. The presiding judge issued a remedies decision in October 2024 that ordered a variety of alterations to our business models and operations and contractual agreements for Android and Google Play. We are appealing the verdict, but if we are unsuccessful, we could face significant expenses to implement the remedies, and such costs and alterations could harm our business, reputation, financial condition, and operating results.",
+            "entity_name": "Epic Games v. Google - Google Play Antitrust",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "in December 2020, several State Attorneys General, led by the Texas Attorney General, filed an antitrust lawsuit in the U.S. District Court for the Eastern District of Texas alleging that Google violated antitrust and other laws relating to its advertising technology. This case is set for trial in March 2025, and we could face significant civil penalties.",
+            "entity_name": "State AGs v. Google - Ad Tech Antitrust (E.D. Texas)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In January 2023, the DOJ and several Attorneys General sued in the Eastern District of Virginia alleging similar antitrust violations relating to Google's advertising technology. Trial in the DOJ matter concluded in September 2024 with a decision expected in early 2025. If we are unsuccessful, we could face an order on remedies that could harm our business, reputation, financial condition, and operating results.",
+            "entity_name": "DOJ v. Google - Ad Tech Antitrust (E.D. Virginia)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "executive_biography",
+            "content": "For instance, Sundar Pichai is critical to the overall management of Alphabet and its subsidiaries and plays an important role in the development of our technology, maintaining our culture, and setting our strategic direction.",
+            "entity_name": "Sundar Pichai",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "capital_return",
+            "content": "In April 2024, we announced the approval of our cash dividend program and began paying regular cash dividends to our Class A, Class B, and Class C stockholders. Any and all future cash dividends are subject to declaration by our Board of Directors in its sole discretion, and in accordance with the requirements of any applicable laws, rules, and regulations, including the Delaware General Corporation Law.",
+            "entity_name": "GOOGL April 2024 Cash Dividend Program",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "capital_return",
+            "content": "We engage in share repurchases of our Class A and Class C stock from time to time in accordance with authorizations from the Board of Directors of Alphabet. Our repurchase program does not have an expiration date and does not obligate Alphabet to repurchase any specific dollar amount or to acquire any specific number of shares.",
+            "entity_name": "GOOGL Share Repurchase Program",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "insider_holding",
+            "content": "As of December 31, 2024, Larry Page and Sergey Brin beneficially owned approximately 87.4% of our outstanding Class B stock, which represented approximately 52.1% of the voting power of our outstanding common stock.",
+            "entity_name": "Larry Page and Sergey Brin Combined Class B Holdings (2024-12-31 snapshot)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Google",
+              "GOOGL"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "ad revenue concentration",
+              "advertiser spending risk"
+            ],
+            "attributes": {
+              "advertising_pct_revenue_2024": 0.75,
+              "category": "revenue_concentration"
+            },
+            "identifiers": {},
+            "name": "GOOGL Advertising Revenue Concentration Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Google competition risk",
+              "AI competitive landscape risk"
+            ],
+            "attributes": {
+              "category": "competition"
+            },
+            "identifiers": {},
+            "name": "GOOGL Competitive Intensity and AI Competition Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "AI ethics risk",
+              "AI liability risk",
+              "generative AI risk"
+            ],
+            "attributes": {
+              "category": "technology",
+              "sub_category": "artificial_intelligence"
+            },
+            "identifiers": {},
+            "name": "GOOGL AI Development Ethical and Legal Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "supply chain risk",
+              "GPU TPU supply risk",
+              "AI accelerator supply risk"
+            ],
+            "attributes": {
+              "category": "supply_chain",
+              "key_concern": "AI accelerator supply including GPUs and custom-built TPUs"
+            },
+            "identifiers": {},
+            "name": "GOOGL Manufacturing and Supply Chain Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "cyber attack risk",
+              "system interruption risk",
+              "data center vulnerability"
+            ],
+            "attributes": {
+              "category": "cybersecurity"
+            },
+            "identifiers": {},
+            "name": "GOOGL IT Systems Interruption and Cybersecurity Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "international revenue risk",
+              "FX risk",
+              "geopolitical exposure"
+            ],
+            "attributes": {
+              "category": "international",
+              "international_revenue_pct_2024": 0.51
+            },
+            "identifiers": {},
+            "name": "GOOGL International Operations and Foreign Exchange Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "data privacy risk",
+              "GDPR risk",
+              "user data risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "sub_category": "data_privacy"
+            },
+            "identifiers": {},
+            "name": "GOOGL Data Privacy and Security Regulatory Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "antitrust risk",
+              "regulatory enforcement risk",
+              "DOJ litigation risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "sub_category": "antitrust_and_competition"
+            },
+            "identifiers": {},
+            "name": "GOOGL Regulatory Compliance and Antitrust Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "tax risk",
+              "OECD global minimum tax risk",
+              "digital services tax risk"
+            ],
+            "attributes": {
+              "category": "financial",
+              "oecd_minimum_rate": 0.15,
+              "sub_category": "tax"
+            },
+            "identifiers": {},
+            "name": "GOOGL Tax Rate and International Tax Legislation Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Sundar Pichai dependency",
+              "executive retention risk"
+            ],
+            "attributes": {
+              "category": "management",
+              "key_person": "Sundar Pichai"
+            },
+            "identifiers": {},
+            "name": "GOOGL Key Personnel Dependency Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "IP risk",
+              "Google trademark genericization risk",
+              "trade secret risk"
+            ],
+            "attributes": {
+              "category": "intellectual_property"
+            },
+            "identifiers": {},
+            "name": "GOOGL Intellectual Property Protection Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "revenue growth risk",
+              "margin compression risk"
+            ],
+            "attributes": {
+              "category": "financial",
+              "sub_category": "revenue_and_margins"
+            },
+            "identifiers": {},
+            "name": "GOOGL Revenue Growth Deceleration and Margin Compression Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "US v. Google Search antitrust",
+              "Google Search DOJ lawsuit"
+            ],
+            "attributes": {
+              "counterparty": "U.S. Department of Justice; state Attorneys General",
+              "court": "U.S. District Court for the District of Columbia",
+              "phase": "remedies proceeding",
+              "status": "pending",
+              "subject": "antitrust violations relating to Search and Search advertising",
+              "violation_ruling_date": "2024-08"
+            },
+            "identifiers": {},
+            "name": "DOJ and State AGs v. Google - Search and Search Advertising Antitrust",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Epic Google Play antitrust",
+              "Epic Games v. Google Play"
+            ],
+            "attributes": {
+              "counterparty": "Epic Games",
+              "remedies_decision_date": "2024-10",
+              "status": "appealed",
+              "subject": "antitrust violations relating to Google Play billing and distribution",
+              "verdict_date": "2023-12"
+            },
+            "identifiers": {},
+            "name": "Epic Games v. Google - Google Play Antitrust",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Texas AG ad tech antitrust",
+              "Eastern District of Texas ad tech"
+            ],
+            "attributes": {
+              "counterparty": "State Attorneys General led by Texas Attorney General",
+              "court": "U.S. District Court for the Eastern District of Texas",
+              "filed_date": "2020-12",
+              "status": "pending",
+              "subject": "antitrust and other law violations relating to advertising technology",
+              "trial_scheduled": "2025-03"
+            },
+            "identifiers": {},
+            "name": "State AGs v. Google - Ad Tech Antitrust (E.D. Texas)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "DOJ Google ad tech EDVA",
+              "Eastern District of Virginia ad tech"
+            ],
+            "attributes": {
+              "counterparty": "U.S. Department of Justice; state Attorneys General",
+              "court": "U.S. District Court for the Eastern District of Virginia",
+              "decision_expected": "early 2025",
+              "filed_date": "2023-01",
+              "status": "pending",
+              "subject": "antitrust violations relating to Google's advertising technology",
+              "trial_concluded": "2024-09"
+            },
+            "identifiers": {},
+            "name": "DOJ v. Google - Ad Tech Antitrust (E.D. Virginia)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "GOOGL",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Sundar Pichai",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "GOOGL",
+              "insider_status": "ten_percent_holder",
+              "officer_role": "none"
+            },
+            "identifiers": {},
+            "name": "Larry Page",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "GOOGL",
+              "insider_status": "ten_percent_holder",
+              "officer_role": "none"
+            },
+            "identifiers": {},
+            "name": "Sergey Brin",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Alphabet cash dividend program",
+              "Google dividend initiation 2024"
+            ],
+            "attributes": {
+              "effective_date": "2024-04",
+              "return_type": "dividend",
+              "share_classes": [
+                "Class A",
+                "Class B",
+                "Class C"
+              ]
+            },
+            "identifiers": {},
+            "name": "GOOGL April 2024 Cash Dividend Program",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Alphabet buyback program",
+              "Google stock repurchase"
+            ],
+            "attributes": {
+              "note": "No expiration date; no obligated dollar amount or share count",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "GOOGL Share Repurchase Program",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "class_b_ownership_pct_combined": 0.874,
+              "reporting_persons": [
+                "Larry Page",
+                "Sergey Brin"
+              ],
+              "share_class": "Class B",
+              "snapshot_date": "2024-12-31",
+              "source": "10-K_Item_1A_partial",
+              "voting_power_pct_combined": 0.521
+            },
+            "identifiers": {},
+            "name": "Larry Page and Sergey Brin Combined Class B Holdings (2024-12-31 snapshot)",
+            "type": "InsiderTransaction"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Advertising Revenue Concentration Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Competitive Intensity and AI Competition Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL AI Development Ethical and Legal Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Manufacturing and Supply Chain Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL IT Systems Interruption and Cybersecurity Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL International Operations and Foreign Exchange Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Data Privacy and Security Regulatory Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Regulatory Compliance and Antitrust Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Tax Rate and International Tax Legislation Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Key Personnel Dependency Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Intellectual Property Protection Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Revenue Growth Deceleration and Margin Compression Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "DOJ and State AGs v. Google - Search and Search Advertising Antitrust",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Epic Games v. Google - Google Play Antitrust",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "State AGs v. Google - Ad Tech Antitrust (E.D. Texas)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "DOJ v. Google - Ad Tech Antitrust (E.D. Virginia)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL April 2024 Cash Dividend Program",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Share Repurchase Program",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Sundar Pichai",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-25-000014.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "755f2b3d100bb1beebe0261c38d3490a83322c26007be7831167cef8b2011b7e"
+    }
+  ],
+  "prompt_version": "v3"
+}

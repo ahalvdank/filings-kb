@@ -1,0 +1,304 @@
+{
+  "accession": "0001326801-22-000018",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T11:04:23Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "We report financial results for two segments: Family of Apps (FoA) and Reality Labs (RL). For FoA, we generate substantially all of our revenue from selling advertising placements to marketers.",
+            "entity_name": "META Family of Apps Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "RL generates revenue from sales of consumer hardware products, software and content.",
+            "entity_name": "META Reality Labs Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "In recent years, we also announced our goals to have 50% of our workforce made up of underrepresented groups by 2024, and to increase the representation of people of color in leadership positions in the United States, including Black leadership, by 30% from 2020 to 2025.",
+            "entity_name": "META 50% Underrepresented Workforce Goal by 2024",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "In recent years, we also announced our goals to have 50% of our workforce made up of underrepresented groups by 2024, and to increase the representation of people of color in leadership positions in the United States, including Black leadership, by 30% from 2020 to 2025.",
+            "entity_name": "META 30% People of Color Leadership Increase by 2025",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In October 2021, we changed our corporate name from Facebook, Inc. to Meta Platforms, Inc. We expect our Class A common stock to cease trading under the symbol \"FB\" and begin trading under the new symbol, \"META,\" on the Nasdaq Global Select Market in the first half of 2022.",
+            "entity_name": "Meta Corporate Name Change from Facebook Inc to Meta Platforms Inc",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "We are also currently, and may in the future be, subject to regulatory orders or consent decrees, including the modified consent order we entered into with the U.S. Federal Trade Commission (FTC), which took effect in April 2020 and, among other matters, requires us to maintain a comprehensive privacy program.",
+            "entity_name": "Meta FTC Modified Consent Order (April 2020)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In August 2020, we received a preliminary draft decision from the Irish Data Protection Commission (IDPC) that preliminarily concluded that Meta Platforms Ireland's reliance on SCCs in respect of European user data does not achieve compliance with the General Data Protection Regulation (GDPR) and preliminarily proposed that such transfers of user data from the European Union to the United States should therefore be suspended. We believe a final decision in this inquiry may issue as early as the first half of 2022.",
+            "entity_name": "IDPC Investigation into Meta Platforms Ireland SCC Data Transfers",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Facebook, Inc.",
+              "Meta",
+              "Facebook"
+            ],
+            "attributes": {
+              "former_name": "Facebook, Inc.",
+              "former_ticker": "FB",
+              "headquarters": "Menlo Park, California",
+              "state_of_incorporation": "Delaware",
+              "stock_exchange": "Nasdaq Global Select Market"
+            },
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "Meta Platforms, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Family of Apps",
+              "FoA"
+            ],
+            "attributes": {
+              "primary_revenue_source": "advertising",
+              "products": [
+                "Facebook",
+                "Instagram",
+                "Messenger",
+                "WhatsApp"
+              ]
+            },
+            "identifiers": {
+              "segment_name": "Family of Apps",
+              "ticker": "META"
+            },
+            "name": "META Family of Apps Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Reality Labs",
+              "RL"
+            ],
+            "attributes": {
+              "primary_revenue_source": "consumer hardware, software, and content",
+              "products": [
+                "Meta Quest",
+                "Facebook Portal"
+              ]
+            },
+            "identifiers": {
+              "segment_name": "Reality Labs",
+              "ticker": "META"
+            },
+            "name": "META Reality Labs Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Meta DEI workforce diversity target 2024"
+            ],
+            "attributes": {
+              "commitment_type": "dei",
+              "target_value": "50% of workforce from underrepresented groups",
+              "target_year": 2024
+            },
+            "identifiers": {},
+            "name": "META 50% Underrepresented Workforce Goal by 2024",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Meta DEI leadership diversity goal 2025"
+            ],
+            "attributes": {
+              "commitment_type": "dei",
+              "target_value": "30% increase in representation of people of color in US leadership from 2020 baseline",
+              "target_year": 2025
+            },
+            "identifiers": {},
+            "name": "META 30% People of Color Leadership Increase by 2025",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Meta rebrand October 2021",
+              "Facebook to Meta name change",
+              "FB to META ticker change"
+            ],
+            "attributes": {
+              "effective_date": "2021-10",
+              "event_type": "business_combination",
+              "former_name": "Facebook, Inc.",
+              "former_ticker": "FB",
+              "new_name": "Meta Platforms, Inc.",
+              "new_ticker": "META",
+              "note": "Ticker change on Nasdaq expected first half of 2022"
+            },
+            "identifiers": {},
+            "name": "Meta Corporate Name Change from Facebook Inc to Meta Platforms Inc",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "FTC consent decree",
+              "Meta FTC privacy consent order"
+            ],
+            "attributes": {
+              "counterparty": "U.S. Federal Trade Commission",
+              "effective_date": "2020-04",
+              "status": "settled",
+              "subject": "comprehensive privacy program compliance"
+            },
+            "identifiers": {},
+            "name": "Meta FTC Modified Consent Order (April 2020)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "IDPC SCC inquiry",
+              "Meta EU-US data transfer GDPR investigation"
+            ],
+            "attributes": {
+              "counterparty": "Irish Data Protection Commission",
+              "preliminary_decision_date": "2020-08",
+              "status": "pending",
+              "subject": "Standard Contractual Clauses for EU-to-US user data transfers under GDPR"
+            },
+            "identifiers": {},
+            "name": "IDPC Investigation into Meta Platforms Ireland SCC Data Transfers",
+            "type": "LegalProceeding"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META Family of Apps Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META Reality Labs Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META 50% Underrepresented Workforce Goal by 2024",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META 30% People of Color Leadership Increase by 2025",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Meta Corporate Name Change from Facebook Inc to Meta Platforms Inc",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Meta FTC Modified Consent Order (April 2020)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "IDPC Investigation into Meta Platforms Ireland SCC Data Transfers",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-22-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "2dd604a26539c1dc05ba3ef553e7b8987be878c1847e080c0f3414e84472073b"
+    }
+  ],
+  "prompt_version": "v3"
+}

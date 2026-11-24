@@ -1,0 +1,140 @@
+{
+  "accession": "0001326801-23-000013",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T10:31:03Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "dec_avg_price": 117.87,
+              "dec_shares_thousands": 14808,
+              "nov_avg_price": 105.28,
+              "nov_shares_thousands": 24878,
+              "oct_avg_price": 126.03,
+              "oct_shares_thousands": 20180,
+              "remaining_authorization_millions_usd": 10868,
+              "section_type": "Item_5",
+              "total_shares_repurchased_thousands": 59866
+            },
+            "chunk_type": "capital_return",
+            "content": "The following table summarizes the share repurchase activity for the three months ended December 31, 2022:",
+            "entity_name": "META Q4 2022 Share Repurchase Activity",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In January 2023, an additional $40 billion of repurchases was authorized under this program. The timing and actual number of shares repurchased depend on a variety of factors, including price, general business and market conditions, and other investment opportunities, and shares may be repurchased through open market purchases or privately negotiated transactions, including through the use of trading plans intended to qualify under Rule 10b5-1 under the Exchange Act.",
+            "entity_name": "META January 2023 $40B Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We have never declared or paid any cash dividend on our common stock. We intend to retain any future earnings to finance the operation and expansion of our business and fund our share repurchase program, and we do not expect to pay cash dividends in the foreseeable future.",
+            "entity_name": "META No Cash Dividend Policy Confirmation",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta Q4 2022 buyback"
+            ],
+            "attributes": {
+              "period": "Q4_2022",
+              "remaining_authorization_millions_usd": 10868,
+              "return_type": "buyback",
+              "shares_repurchased_thousands": 59866
+            },
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "META Q4 2022 Share Repurchase Activity",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Meta 2023 buyback expansion",
+              "Meta $40B repurchase authorization"
+            ],
+            "attributes": {
+              "amount_usd": 40000000000,
+              "effective_date": "2023-01",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "META January 2023 $40B Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "dividend_policy",
+              "new_value": "no_cash_dividends_foreseeable_future",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "META No Cash Dividend Policy Confirmation",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META Q4 2022 Share Repurchase Activity",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META January 2023 $40B Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META No Cash Dividend Policy Confirmation",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-23-000013.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "8bee9b8e333f1ca87a241d6ba812853a91d31c264a5ed19e0b95ae586aa273f9"
+    }
+  ],
+  "prompt_version": "v3"
+}

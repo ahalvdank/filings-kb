@@ -1,0 +1,120 @@
+{
+  "created_at": "2026-11-23T08:09:49.246152+00:00",
+  "current_fy": 2025,
+  "input_sha256": "e16fb4e7d251bfd2c12f3975dd40d2e7cebbc7c2da1f07c0818ae7693f8d1ccd",
+  "item": "Item_1A",
+  "model": "claude-sonnet-4-6",
+  "prior_fy": 2024,
+  "prompt_sha256": "71d2da8ab6cdab15e1608c2f958dd4ee476ccefb8769395dad274dfc53c246fc",
+  "result": {
+    "added": [
+      "JPM Regulatory Competitive Disadvantage Risk",
+      "JPM Resolution Loss Absorption Risk",
+      "JPM Adverse Market and Economic Conditions Risk",
+      "JPM Wholesale Business Market Conditions Risk",
+      "JPM Financial Instrument Valuation Risk",
+      "JPM CCP Failure Risk"
+    ],
+    "changed": [
+      [
+        "Regulatory Investigation and Enforcement Risk; category=regulatory",
+        "Governmental Enforcement Action Risk; category=legal"
+      ],
+      [
+        "Less Predictable Legal Framework Risk; category=legal; example geography Russia",
+        "Unpredictable Legal and Judicial Framework Risk; category=regulatory; geography=certain jurisdictions"
+      ],
+      [
+        "Resolution Plan Security Holder Loss Risk focused on potential losses to security holders; category=regulatory",
+        "Resolution Plan Regulatory Change Risk focused on regulatory changes to resolution requirements; category=regulatory"
+      ],
+      [
+        "Political and Geopolitical Economic Uncertainty Risk; category=macro",
+        "Political and Geopolitical Risk; category=macro_political; explicitly cites Russia, Middle East, and China"
+      ],
+      [
+        "Interest Rate and Variable Rate Loan Risk; scope includes variable rate loan exposure; category=market",
+        "Interest Rate and Credit Spread Risk; scope shifted to credit spreads; category=market"
+      ],
+      [
+        "Counterparty and CCP Default Risk combined in one risk; category=credit",
+        "Counterparty and Client Credit Risk with CCP separated into its own standalone risk; category=credit"
+      ],
+      [
+        "Holding Company Subsidiary Cash Flow Dependency Risk; category=liquidity",
+        "Holding Company Subsidiary Dependency Risk; cash flow qualifier dropped; category=liquidity"
+      ],
+      [
+        "Capital Requirements and Basel III Reform Risk with explicit Basel III reform scope; category=regulatory",
+        "Regulatory Capital Requirements Risk; Basel III reform reference removed; category=capital"
+      ],
+      [
+        "Cyber Attack and Emerging Technology Threat Risk combined; category=operational",
+        "Cybersecurity Attack Risk only; emerging technology component split off to separate AI and Advanced Technology risk; category=operational"
+      ],
+      [
+        "Workforce and Human Capital Operational Risk; category=operational",
+        "Employee Staffing and Misconduct Risk; focus shifted to staffing and misconduct; category=operational"
+      ],
+      [
+        "Personal Information Privacy and Data Protection Risk; category=compliance",
+        "Personal Information Safeguarding Risk; category=operational"
+      ],
+      [
+        "AI-Enabled Identity Fraud Risk focused narrowly on AI-driven identity fraud; category=technology",
+        "AI and Advanced Technology Risk covering AI and advanced technology broadly; category=technology"
+      ],
+      [
+        "Extraordinary Events Business Continuity Risk tied to extraordinary events; category=operational",
+        "Operational Resiliency Risk with scope broadened to general operational resiliency; category=operational"
+      ],
+      [
+        "Data Quality and Management Risk; category=operational",
+        "Data Management Risk; quality qualifier removed; category=operational"
+      ],
+      [
+        "Risk Management Framework Adequacy Risk; category=risk_management",
+        "Risk Management Framework Inadequacy Risk; category=operational"
+      ],
+      [
+        "Model and Estimation Inadequacy Risk including estimation scope; category=model_risk",
+        "Model Risk; estimation scope removed; category=operational"
+      ],
+      [
+        "Disclosure and Financial Reporting Controls Risk including disclosure; category=financial_reporting",
+        "Financial Reporting Controls Risk; disclosure qualifier dropped; category=regulatory"
+      ],
+      [
+        "Financial Services Competition and Fintech Disruption Risk; category=competitive",
+        "Financial Services Competition Risk; fintech disruption dropped; category=competitive"
+      ],
+      [
+        "Climate Change Physical and Transition Risk with explicit physical and transition framing; category=climate",
+        "Climate Change Risk; physical and transition distinction removed; category=environmental"
+      ],
+      [
+        "Geopolitical and Armed Conflict Risk; category=geopolitical",
+        "Geopolitical Hostilities Risk; armed conflict replaced by hostilities; category=geopolitical"
+      ],
+      [
+        "Country and Emerging Market Political Risk with political qualifier; category=country_risk",
+        "Country and Emerging Markets Risk; political qualifier dropped broadening the scope; category=country_risk"
+      ],
+      [
+        "Talent Acquisition and Retention Risk; category=human_capital",
+        "Workforce Risk; scope broadened from talent acquisition and retention to all workforce matters; category=human_capital"
+      ],
+      [
+        "Legal and Regulatory Investigation Risk; category=legal",
+        "Civil and Governmental Legal Proceedings Risk; scope shifted from investigations to civil and governmental proceedings broadly; category=legal"
+      ]
+    ],
+    "removed": [
+      "JPM Commercial Real Estate Credit Risk",
+      "JPM Cyber Attack Investigation and Remediation Risk",
+      "JPM Operational Risk from New Products and Platform Changes",
+      "JPM Immigration and Travel Policy Risk"
+    ]
+  },
+  "ticker": "JPM"
+}

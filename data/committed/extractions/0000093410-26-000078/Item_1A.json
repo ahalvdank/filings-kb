@@ -1,0 +1,604 @@
+{
+  "accession": "0000093410-26-000078",
+  "item": "Item_1A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T13:33:39Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Extended periods of low prices or demand for crude oil, natural gas, and natural gas liquids have had, and in the future can have, a material adverse impact on the company's results of operations, financial condition and liquidity.",
+            "entity_name": "CVX Commodity Price Volatility Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The company is in an extractive business; therefore, if it is not successful in replacing the crude oil and natural gas it produces with good prospects for future organic opportunities or through acquisitions, exploration or technology, the company's business will decline.",
+            "entity_name": "CVX Resource Replacement and Business Decline Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The company's operations are therefore subject to disruption from natural or human causes beyond its control, including risks from hurricanes, severe storms, floods, heat waves, and other forms of severe weather; wildfires; ambient temperature increases; sea level rise; war or other military conflicts such as the conflict between Russia and Ukraine and in the Middle East; accidents; civil unrest; political events such as current geopolitical tensions in Venezuela; fires; earthquakes; system failures; cyber threats; terrorist acts; and epidemic or pandemic diseases, some of which may be impacted by climate change and any of which could result in suspension of operations or harm to people or the natural environment.",
+            "entity_name": "CVX Operational Disruption Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Cyber threat actors could compromise the company's operational technology networks or other critical systems and infrastructure, resulting in disruptions to its business operations, injury to people, harm to the environment or its assets, disruptions in access to its financial reporting systems, or loss, misuse or corruption of its critical data and proprietary information, including without limitation its intellectual property and business information and that of its employees, customers, partners and other third parties.",
+            "entity_name": "CVX Cybersecurity and Digital Infrastructure Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The use of AI technologies introduces certain risks to the company, including potential dependency on biased or incorrect AI outputs, new or enhanced regulatory requirements, litigation, privacy risks, cybersecurity risks, reputational harm, liability or other adverse consequences, any of which could adversely affect its business, financial condition and results of operations.",
+            "entity_name": "CVX Artificial Intelligence Technology Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "However, failure to manage these risks effectively could impair our ability to operate and result in unexpected incidents, including releases, explosions or mechanical failures resulting in personal injury, loss of life, environmental damage, loss of revenues, legal liability and/or disruption to operations.",
+            "entity_name": "CVX Operational Hazards Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The company does not have commercial insurance or third-party indemnities to fully cover all operational risks or potential liability in the event of a significant incident or series of incidents causing catastrophic loss. As a result, the company is, to a substantial extent, self-insured for such events.",
+            "entity_name": "CVX Self-Insurance Financial Exposure Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The success of the acquisition of Hess, which closed in July 2025, will depend, in part, on Chevron's ability to realize the anticipated benefits, including the anticipated run-rate cost synergies, estimated five-year production and free cash flow growth rates, and anticipated higher returns to shareholders over the long-term. Failure to realize anticipated synergies in the expected timeframe, operational challenges, the diversion of management's attention from ongoing business concerns, and unforeseen expenses associated with the acquisition may have an adverse impact on our financial results.",
+            "entity_name": "CVX Hess Acquisition Integration Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our control of the general partner of Hess Midstream may increase the possibility that we could be subject to claims of breach of duties owed to Hess Midstream, including claims of conflict of interest. Any liability resulting from such claims could have an adverse impact on our future business, financial condition, results of operations and cash flows.",
+            "entity_name": "CVX Hess Midstream General Partner Liability Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Chevron's operations also produce byproducts, which may be considered pollutants. Often these operations are conducted through joint ventures over which the company may have limited influence and control. Any of these activities could result in liability or significant delays in operations arising from private litigation or government action.",
+            "entity_name": "CVX Litigation and Government Action Liability Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As has occurred in the past, actions could be taken by governments to increase public ownership of the company's partially or wholly owned businesses, to force contract renegotiations, or to impose additional taxes, tariffs, royalties, fees, penalties or other costs.",
+            "entity_name": "CVX Political Instability and Regulatory Environment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Governments in various jurisdictions, including California and Australia, have announced, proposed, or implemented windfall profit taxes for companies operating in the energy and oil and gas sectors. Such taxes may be imposed on us or may be increased in the future in these or other jurisdictions.",
+            "entity_name": "CVX Tax Law Changes and Windfall Profit Tax Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Legislation, regulation, and other government actions related to GHG emissions and climate change could reduce demand for Chevron's hydrocarbon and other products and/or continue to increase Chevron's operational costs and reduce its return on investment.",
+            "entity_name": "CVX GHG Emissions and Climate Change Regulatory Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Attention to ESG matters, including those related to climate change and sustainability, evolving societal, investor and governmental pressure on companies to address ESG matters, and potential customer and consumer use of substitutes to Chevron's products have resulted and may continue to result in changes to the portfolio and company activities, increased costs, reduced demand for our products, reduced profits, increased investigations and litigation or threats thereof, negative impacts on our stock price and access to capital markets, impaired participation in public discourse and debate by the company relating to mandatory and voluntary standards and regulations, and damage to our reputation.",
+            "entity_name": "CVX ESG Stakeholder Pressure and Divestment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our failure or perceived failure to pursue or fulfill such ambitions within the timelines we announce, or at all, or to satisfy various reporting standards and regulations could have a negative impact on the company's reputation, investor sentiment, ratings outcomes for evaluating the company's approach to ESG matters, stock price, and cost of capital and expose us to government enforcement actions and private litigation, among other material adverse impacts.",
+            "entity_name": "CVX ESG Ambitions and Disclosure Achievement Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Changes in estimates or assumptions or the information underlying the assumptions, such as changes in the company's business plans, general market conditions, the pace of energy transition, or changes in the company's outlook on commodity prices, could affect reported amounts of assets, liabilities or expenses.",
+            "entity_name": "CVX Management Estimates and Assumptions Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "material_event",
+            "content": "The success of the acquisition of Hess, which closed in July 2025, will depend, in part, on Chevron's ability to realize the anticipated benefits, including the anticipated run-rate cost synergies, estimated five-year production and free cash flow growth rates, and anticipated higher returns to shareholders over the long-term.",
+            "entity_name": "CVX Acquisition of Hess Corporation",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Chevron commodity price exposure",
+              "crude oil and gas price risk"
+            ],
+            "attributes": {
+              "affected_commodities": [
+                "crude oil",
+                "natural gas",
+                "natural gas liquids"
+              ],
+              "category": "commodity_market",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "CVX Commodity Price Volatility Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Chevron reserve replacement risk"
+            ],
+            "attributes": {
+              "category": "strategic",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "CVX Resource Replacement and Business Decline Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Chevron natural disaster and geopolitical disruption risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "CVX Operational Disruption Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Chevron cyber risk",
+              "Chevron IT security risk"
+            ],
+            "attributes": {
+              "category": "technology_cybersecurity",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "CVX Cybersecurity and Digital Infrastructure Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Chevron AI risk"
+            ],
+            "attributes": {
+              "category": "technology",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "CVX Artificial Intelligence Technology Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Chevron operational safety risk"
+            ],
+            "attributes": {
+              "category": "operational_safety",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "CVX Operational Hazards Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Chevron insurance gap risk"
+            ],
+            "attributes": {
+              "category": "financial_insurance"
+            },
+            "identifiers": {},
+            "name": "CVX Self-Insurance Financial Exposure Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Chevron Hess deal integration risk"
+            ],
+            "attributes": {
+              "acquired_entity": "Hess Corporation",
+              "category": "acquisition_integration",
+              "close_date": "2025-07"
+            },
+            "identifiers": {},
+            "name": "CVX Hess Acquisition Integration Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Chevron Hess Midstream LP conflict of interest risk"
+            ],
+            "attributes": {
+              "category": "legal",
+              "related_entity": "Hess Midstream LP"
+            },
+            "identifiers": {},
+            "name": "CVX Hess Midstream General Partner Liability Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Chevron hazardous materials litigation risk"
+            ],
+            "attributes": {
+              "category": "legal_regulatory",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "CVX Litigation and Government Action Liability Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Chevron geopolitical and regulatory risk"
+            ],
+            "attributes": {
+              "category": "geopolitical_regulatory",
+              "geography": "global",
+              "specific_geographies": [
+                "Venezuela",
+                "Russia",
+                "European Union"
+              ]
+            },
+            "identifiers": {},
+            "name": "CVX Political Instability and Regulatory Environment Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Chevron windfall profit tax risk",
+              "Chevron tax liability risk"
+            ],
+            "attributes": {
+              "category": "tax_regulatory",
+              "geography": "global",
+              "specific_jurisdictions": [
+                "California",
+                "Australia"
+              ]
+            },
+            "identifiers": {},
+            "name": "CVX Tax Law Changes and Windfall Profit Tax Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Chevron climate legislation risk",
+              "Chevron carbon regulation risk"
+            ],
+            "attributes": {
+              "category": "regulatory_climate",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "CVX GHG Emissions and Climate Change Regulatory Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Chevron ESG pressure risk",
+              "Chevron fossil fuel divestment risk"
+            ],
+            "attributes": {
+              "category": "esg_reputational",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "CVX ESG Stakeholder Pressure and Divestment Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Chevron ESG target achievement risk",
+              "Chevron climate ambition risk"
+            ],
+            "attributes": {
+              "category": "esg_disclosure"
+            },
+            "identifiers": {},
+            "name": "CVX ESG Ambitions and Disclosure Achievement Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Chevron accounting estimates risk"
+            ],
+            "attributes": {
+              "category": "financial_accounting"
+            },
+            "identifiers": {},
+            "name": "CVX Management Estimates and Assumptions Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Chevron-Hess acquisition",
+              "Hess acquisition close"
+            ],
+            "attributes": {
+              "effective_date": "2025-07",
+              "event_type": "acquisition",
+              "target_company": "Hess Corporation"
+            },
+            "identifiers": {},
+            "name": "CVX Acquisition of Hess Corporation",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Commodity Price Volatility Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Resource Replacement and Business Decline Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Operational Disruption Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Cybersecurity and Digital Infrastructure Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Artificial Intelligence Technology Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Operational Hazards Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Self-Insurance Financial Exposure Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Hess Acquisition Integration Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Hess Midstream General Partner Liability Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Litigation and Government Action Liability Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Political Instability and Regulatory Environment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Tax Law Changes and Windfall Profit Tax Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX GHG Emissions and Climate Change Regulatory Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX ESG Stakeholder Pressure and Divestment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX ESG Ambitions and Disclosure Achievement Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Management Estimates and Assumptions Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Acquisition of Hess Corporation",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-26-000078.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "40ec903c1ec35045f766163996c5d7b27c7b5bbc2ee06b3c5f2e9482d95a76e6"
+    }
+  ],
+  "prompt_version": "v3"
+}

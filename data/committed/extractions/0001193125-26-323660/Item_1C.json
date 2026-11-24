@@ -1,0 +1,121 @@
+{
+  "accession": "0001193125-26-323660",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-11-02T03:51:21Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "the cybersecurity threat environment is increasingly challenging, and we, along with the entire digital ecosystem, are under constant and increasing threat.",
+            "entity_name": "MSFT Cybersecurity Threat Exposure",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of the date of this Form 10-K, we do not believe any risks from cybersecurity threats have materially affected or are reasonably likely to materially affect us, including our results of operations or financial condition.",
+            "entity_name": "MSFT Cybersecurity Threat Exposure",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "In response to the evolving cybersecurity threat landscape, we launched the Secure Future Initiative (\"SFI\") in November 2023 and expanded the scope of SFI in May 2024. The SFI focuses our business strategy and efforts on continual improvement in cybersecurity protection.",
+            "entity_name": "MSFT Secure Future Initiative",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C",
+              "sub_topic": "board_oversight"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "Our Board of Directors oversees cybersecurity risk. Cybersecurity reviews by the Board are scheduled to occur at least quarterly, or more frequently as determined to be necessary or advisable.",
+            "entity_name": "MSFT Secure Future Initiative",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft cybersecurity risk",
+              "cybersecurity threat landscape"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "geography": "global",
+              "management_response": "Secure Future Initiative"
+            },
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Cybersecurity Threat Exposure",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "SFI",
+              "Microsoft SFI"
+            ],
+            "attributes": {
+              "commitment_type": "governance_change",
+              "expansion_date": "2024-05",
+              "launch_date": "2023-11",
+              "scope": "cybersecurity protection across computing environments, products, and services"
+            },
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Secure Future Initiative",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Cybersecurity Threat Exposure",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Secure Future Initiative",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0001193125-26-323660.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "3403fa32b0f0c214c9e80b68352716327ccaaf2b0100b5403dce37f2ed16bdf2"
+    }
+  ],
+  "prompt_version": "v3"
+}

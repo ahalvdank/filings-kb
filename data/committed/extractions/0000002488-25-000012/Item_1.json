@@ -1,0 +1,310 @@
+{
+  "accession": "0000002488-25-000012",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T00:13:26Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "the Data Center segment, which primarily includes AI accelerators, server CPUs, GPUs, APUs, DPUs, FPGAs, SmartNICs, and Adaptive SoC products for data centers",
+            "entity_name": "AMD Data Center Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "the Client segment, which primarily includes CPUs, APUs, and chipsets for desktops and notebooks",
+            "entity_name": "AMD Client Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "the Gaming segment, which primarily includes discrete GPUs, semi-custom SoC products and development services",
+            "entity_name": "AMD Gaming Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "the Embedded segment, which primarily includes embedded CPUs, GPUs, APUs, FPGAs, SOMs, and Adaptive SoC products",
+            "entity_name": "AMD Embedded Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "During the year, we completed the acquisition of Silo AI Oy (Silo AI), an AI lab based in Finland. The acquisition of Silo AI expanded our capability to accelerate development and deployment of AI models on AMD hardware. Silo AI has also developed a software stack used to train multiple state-of-the-art large language models (LLMs) on AMD Instinct accelerators that can accelerate the development of highly-performant AMD training solutions.",
+            "entity_name": "AMD Acquisition of Silo AI Oy",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "We also focused on building our data center AI rack and data center-scale solutions capabilities by entering into an agreement to acquire ZT Group Int'l, Inc. (ZT Systems), a provider of AI and general purpose compute infrastructure for hyperscale computing companies in August 2024. We believe that with the acquisition of ZT Systems, we can deliver leadership training and inferencing solutions that can accelerate time to deployment for our AMD Instinct platforms. The acquisition is expected to close in the first half of fiscal year 2025, subject to certain regulatory approvals and other customary closing conditions. We intend to seek a strategic partner to acquire ZT Systems' manufacturing business.",
+            "entity_name": "AMD Pending Acquisition of ZT Group Int'l",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "We have been named as a responsible party on Superfund clean-up orders for three sites in Sunnyvale, California that are on the National Priorities List. Since 1981, we have discovered hazardous material releases to the groundwater from former underground tanks and proceeded to investigate and conduct remediation at these three sites.",
+            "entity_name": "AMD Sunnyvale Superfund Environmental Remediation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "To address anticipated future remediation costs under the orders, we have computed and recorded an estimated environmental liability of approximately $5.5 million and have not recorded any potential insurance recoveries in determining the estimated costs of the cleanup. The progress of future remediation efforts cannot be predicted with certainty and these costs may change.",
+            "entity_name": "AMD Sunnyvale Superfund Environmental Remediation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "In 2024, we continued to focus on developing our female engineering community through mentoring opportunities and expanding the program, \"Advancing Women in Technology,\" that aims to support the career development of women in technical careers at AMD.",
+            "entity_name": "AMD Advancing Women in Technology Program",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Data Center"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center",
+              "ticker": "AMD"
+            },
+            "name": "AMD Data Center Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Client"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Client",
+              "ticker": "AMD"
+            },
+            "name": "AMD Client Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Gaming"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Gaming",
+              "ticker": "AMD"
+            },
+            "name": "AMD Gaming Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Embedded"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Embedded",
+              "ticker": "AMD"
+            },
+            "name": "AMD Embedded Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Silo AI acquisition"
+            ],
+            "attributes": {
+              "event_type": "acquisition",
+              "fiscal_year_completed": "2024",
+              "status": "completed",
+              "target_company": "Silo AI Oy",
+              "target_country": "Finland"
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of Silo AI Oy",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "ZT Systems acquisition",
+              "AMD ZT Systems deal"
+            ],
+            "attributes": {
+              "agreement_date": "2024-08",
+              "event_type": "acquisition",
+              "expected_close": "first_half_FY2025",
+              "status": "pending",
+              "target_also_known_as": "ZT Systems",
+              "target_company": "ZT Group Int'l, Inc."
+            },
+            "identifiers": {},
+            "name": "AMD Pending Acquisition of ZT Group Int'l",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD Superfund sites",
+              "Sunnyvale groundwater remediation"
+            ],
+            "attributes": {
+              "estimated_liability_usd": 5500000,
+              "location": "Sunnyvale, California",
+              "regulatory_body": "California Regional Water Quality Control Board",
+              "sites_count": 3,
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "AMD Sunnyvale Superfund Environmental Remediation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "AMD women in technology initiative"
+            ],
+            "attributes": {
+              "commitment_type": "dei",
+              "focus": "career development of women in technical careers at AMD"
+            },
+            "identifiers": {},
+            "name": "AMD Advancing Women in Technology Program",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Data Center Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Client Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Gaming Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Embedded Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of Silo AI Oy",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Pending Acquisition of ZT Group Int'l",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Sunnyvale Superfund Environmental Remediation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Advancing Women in Technology Program",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-25-000012.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "7493c3486e16f23288bc49877fb152b7e09cebab8a171d415a868db8d01c7d16"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,144 @@
+{
+  "accession": "0000019617-22-000272",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-19T15:03:04Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Subsequently, the Firm announced that its Board of Directors authorized a new common share repurchase program for up to $30 billion.",
+            "entity_name": "JPM $30B Common Share Repurchase Program Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "column_order": "shares|avg_price|aggregate_usd_millions|remaining_authorization_usd_millions",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Shares repurchased pursuant to the common share repurchase program during 2021 were as follows. Year-to-date 119,736,303 $154.08 $18,448 $11,552",
+            "entity_name": "JPM FY2021 Common Stock Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "On June 24, 2021, the Federal Reserve announced that the temporary restrictions on capital distributions would expire on June 30, 2021 as a result of the Firm remaining above its minimum risk-based capital requirements under the 2021 CCAR stress test. Effective July 1, 2021, the Firm became subject to the normal capital distribution restrictions provided under the regulatory capital framework.",
+            "entity_name": "Federal Reserve Expiry of Temporary Capital Distribution Restrictions June 2021",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "JPMorgan Chase",
+              "JPM",
+              "the Firm"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "JPM"
+            },
+            "name": "JPMorgan Chase & Co.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "JPM $30 billion buyback authorization",
+              "JPM 2021 repurchase program"
+            ],
+            "attributes": {
+              "amount_usd": 30000000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "JPM $30B Common Share Repurchase Program Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "JPM 2021 share buybacks"
+            ],
+            "attributes": {
+              "amount_usd": 18448000000,
+              "average_price_per_share": 154.08,
+              "period": "FY2021",
+              "remaining_authorization_usd": 11552000000,
+              "return_type": "buyback",
+              "shares_repurchased": 119736303
+            },
+            "identifiers": {},
+            "name": "JPM FY2021 Common Stock Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Fed CCAR 2021 capital restriction lift",
+              "Federal Reserve capital distribution restriction expiry"
+            ],
+            "attributes": {
+              "context": "2021 CCAR stress test",
+              "effective_date": "2021-06-30",
+              "event_type": "regulatory_action",
+              "regulatory_body": "Federal Reserve"
+            },
+            "identifiers": {},
+            "name": "Federal Reserve Expiry of Temporary Capital Distribution Restrictions June 2021",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "JPM $30B Common Share Repurchase Program Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "JPM FY2021 Common Stock Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Federal Reserve Expiry of Temporary Capital Distribution Restrictions June 2021",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/JPM/0000019617-22-000272.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "dcd23d12d8c04faa440e67fab0bc6e071b6ef2361957d272fc3c0bd83f7b3187"
+    }
+  ],
+  "prompt_version": "v3"
+}

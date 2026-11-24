@@ -1,0 +1,1106 @@
+{
+  "accession": "0000050863-25-000009",
+  "item": "Item_1A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-28T10:52:21Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have limited experience in the highly competitive and capital-intensive third-party foundry business. As we pursue our strategy to establish Intel Foundry as a major provider of foundry capacity to manufacture semiconductors for others, we will face intense competition from well-established competitors such as TSMC, Samsung, Global Foundries (GF), United Microelectronics Corporation (UMC), and Semiconductor Manufacturing International Corporation (SMIC).",
+            "entity_name": "INTC Foundry Strategy Competitive Execution Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our data center business has been further negatively impacted by the shift of customer spend toward GPUs in the past few years. Additionally, to the extent we rely upon third party foundries for our products, our margins may be negatively impacted, as has been the case with the Intel Core Ultra 200V series processors launched in September 2024.",
+            "entity_name": "INTC AI GPU Data Center Market Shift Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "china_revenue_pct": 0.29,
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In particular, geopolitical and trade tensions between the US and China, one of our largest markets, have led to increased tariffs and trade restrictions, including tariffs applicable to some of our products, and have affected customer ordering patterns. Further, the US has imposed restrictions on the export of US-regulated products and technology to certain Chinese technology companies, including certain of our customers.",
+            "entity_name": "INTC US-China Trade Restrictions and Export Control Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "There has been a significant escalation in tensions and hostilities affecting or in close proximity to Israel, where we have a leading-edge fabrication facility and multiple product development centers. As a significant portion of our revenues are generated from products on Intel 7 manufactured at our fabrication facility in Israel and we are not insured for business interruptions, a disruption of that facility could have a significant adverse impact on our business.",
+            "entity_name": "INTC Israel Operations Geopolitical Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Tensions between mainland China and Taiwan have increased significantly in recent years, presenting an elevated risk of hostilities. Many of our products and all of our more advanced products depend on suppliers in Taiwan for critical components, including various compute die, that cannot be easily or quickly replaced. Other of our products, including some of our most recently introduced products, are made entirely in Taiwan.",
+            "entity_name": "INTC Taiwan-TSMC Supply Chain Concentration Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We face significant and persistent cybersecurity risks due to: the breadth of geographies, networks, and systems we must defend against cybersecurity attacks; the complexity, technical sophistication, value, and widespread use of our systems, products, and processes; the attractiveness of our systems, products, and processes to threat actors (including state-sponsored organizations) seeking to inflict harm on us or our customers; the substantial level of harm that could occur to us and our customers were we to suffer impacts of a material cybersecurity incident; and our use of third-party products, services, and components.",
+            "entity_name": "INTC State-Sponsored Cybersecurity and Manufacturing Sabotage Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We experienced significant delays in implementing our 10nm process technology, and in 2020, we encountered a defect mode in the development of our 7nm process technology that resulted in delays relative to our prior expectations. In 2022, Intel's 4th Gen Intel Xeon Scalable processor was delayed to allow for more platform and product validation time. These delays have allowed competitors using third-party foundries, such as TSMC, to benefit from advancements in manufacturing processes introduced ahead of us, including improvements in performance, energy efficiency, and other features, which have helped increase the competitiveness of their products.",
+            "entity_name": "INTC Process Technology Node Development and Delay Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Changes in our management team can also disrupt our business and adversely affect our results of operations, given the long development cycle for semiconductor process technologies and products and the large capital investments over a long time period required for semiconductor manufacturing operations. We have had a number of changes in our senior leadership team in recent years, including our CEO and other senior management positions.",
+            "entity_name": "INTC CEO Succession and Senior Leadership Transition Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "material_event",
+            "content": "For example, in December 2024, our most recent CEO retired after less than four years with the company and a search is currently underway for a new CEO.",
+            "entity_name": "INTC CEO Retirement December 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "material_event",
+            "content": "For example, in the third quarter of 2024 we recorded $3.1 billion of charges related to non-cash impairments and the accelerated depreciation for certain manufacturing assets, a substantial majority of which related to the Intel 7 process node.",
+            "entity_name": "INTC Intel 7 Manufacturing Asset Impairment Q3 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "material_event",
+            "content": "our failure to realize a satisfactory return on our investment, potentially resulting in an impairment of goodwill and other assets, such as the $2.9 billion charge we recorded in the third quarter of 2024 primarily related to Mobileye goodwill, and restructuring charges",
+            "entity_name": "INTC Mobileye Goodwill Impairment Q3 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "material_event",
+            "content": "For example, in the fourth quarter of 2024, we recognized a $755 million charge related to penalties we expect to pay in connection with Ireland SCIP for construction delays we decided to make as we reduced our near-term capacity requirements.",
+            "entity_name": "INTC Ireland Fab 34 SCIP JV Construction Penalty Q4 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "material_event",
+            "content": "On the product side, we have had limited market success with our accelerator offerings, and in 2024 we recognized $922 million in Gaudi AI accelerator inventory-related charges.",
+            "entity_name": "INTC Gaudi AI Accelerator Inventory Write-Down 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "For example, in February 2024, R2 Semiconductor, Inc., a non-practicing entity, was able to obtain an injunction and recall order against us and our customers in the Dusseldorf Regional Court in Germany that, if enforced, could have caused significant potential disruption to our and our customers' businesses in Europe.",
+            "entity_name": "R2 Semiconductor v. Intel (Dusseldorf Regional Court)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Intel Foundry execution risk",
+              "IFS competitive risk"
+            ],
+            "attributes": {
+              "category": "strategy_execution",
+              "segment": "Intel Foundry"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Foundry Strategy Competitive Execution Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel data center GPU shift risk",
+              "NVIDIA competition risk"
+            ],
+            "attributes": {
+              "category": "market_competition",
+              "segment": "data_center"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC AI GPU Data Center Market Shift Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel China revenue risk",
+              "US-China tariff and export control risk"
+            ],
+            "attributes": {
+              "category": "geopolitical",
+              "china_revenue_pct": 0.29,
+              "geography": "China"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC US-China Trade Restrictions and Export Control Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel Israel fab risk",
+              "Israel conflict manufacturing risk"
+            ],
+            "attributes": {
+              "category": "geopolitical",
+              "geography": "Israel"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Israel Operations Geopolitical Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "TSMC dependency risk",
+              "Taiwan geopolitical supply risk"
+            ],
+            "attributes": {
+              "category": "supply_chain",
+              "geography": "Taiwan"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Taiwan-TSMC Supply Chain Concentration Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel cybersecurity threat risk",
+              "state actor cyber risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC State-Sponsored Cybersecurity and Manufacturing Sabotage Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel node delay risk",
+              "process technology execution risk"
+            ],
+            "attributes": {
+              "category": "technology_development"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Process Technology Node Development and Delay Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel management transition risk",
+              "Intel CEO vacancy risk"
+            ],
+            "attributes": {
+              "category": "management"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC CEO Succession and Senior Leadership Transition Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel CEO departure 2024"
+            ],
+            "attributes": {
+              "effective_date": "2024-12",
+              "event_type": "management_change"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC CEO Retirement December 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel 7 process node write-down",
+              "Intel 7 impairment charge 2024"
+            ],
+            "attributes": {
+              "charge_usd": 3100000000,
+              "event_type": "restructuring",
+              "note": "non-cash impairments and accelerated depreciation for Intel 7 manufacturing assets",
+              "period": "Q3-2024"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Intel 7 Manufacturing Asset Impairment Q3 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Mobileye goodwill write-down Q3 2024"
+            ],
+            "attributes": {
+              "charge_usd": 2900000000,
+              "event_type": "goodwill_impairment",
+              "period": "Q3-2024",
+              "subsidiary": "Mobileye"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Mobileye Goodwill Impairment Q3 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Apollo Ireland SCIP penalty",
+              "Fab 34 JV delay charge"
+            ],
+            "attributes": {
+              "charge_usd": 755000000,
+              "event_type": "joint_venture",
+              "location": "Ireland",
+              "note": "penalty for construction delays under Ireland SCIP arrangement",
+              "partner": "Apollo",
+              "period": "Q4-2024"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Ireland Fab 34 SCIP JV Construction Penalty Q4 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Gaudi inventory charge 2024"
+            ],
+            "attributes": {
+              "charge_usd": 922000000,
+              "event_type": "restructuring",
+              "period": "FY2024",
+              "product": "Gaudi AI accelerator"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Gaudi AI Accelerator Inventory Write-Down 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "R2 Semiconductor injunction Germany",
+              "R2 v. Intel Dusseldorf"
+            ],
+            "attributes": {
+              "counterparty": "R2 Semiconductor, Inc.",
+              "court": "Dusseldorf Regional Court",
+              "description": "non-practicing entity patent suit; injunction and recall order obtained February 2024",
+              "status": "pending"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "R2 Semiconductor v. Intel (Dusseldorf Regional Court)",
+            "type": "LegalProceeding"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Foundry Strategy Competitive Execution Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "INTC AI GPU Data Center Market Shift Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "INTC US-China Trade Restrictions and Export Control Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Israel Operations Geopolitical Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Taiwan-TSMC Supply Chain Concentration Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "INTC State-Sponsored Cybersecurity and Manufacturing Sabotage Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Process Technology Node Development and Delay Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "INTC CEO Succession and Senior Leadership Transition Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "INTC CEO Retirement December 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Intel 7 Manufacturing Asset Impairment Q3 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Mobileye Goodwill Impairment Q3 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Ireland Fab 34 SCIP JV Construction Penalty Q4 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Gaudi AI Accelerator Inventory Write-Down 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "R2 Semiconductor v. Intel (Dusseldorf Regional Court)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/INTC/0000050863-25-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "4d3d28d8748c8d1a04432c9063e5431a7e66bdfa48b6f8cb568c5dad167c831a"
+    },
+    {
+      "extracted_at": "2026-07-28T11:00:55Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Gray market products can distort demand and pricing dynamics in our distribution channel and certain geographies, which at times adversely affects our revenue opportunities. Gray market activity is difficult to monitor and can make forecasting demand more challenging. Gray market products also sometimes include parts that have been altered or damaged, and our reputation may be harmed when these products fail or are found to be substandard.",
+            "entity_name": "INTC Gray Market Product Distribution Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Collectively, our three largest customers accounted for 45% of our net revenue in 2024, 40% of our net revenue in 2023 and 42% of our net revenue in 2022. We expect a small number of customers will continue to account for a significant portion of our revenue in the foreseeable future. The loss of key customers, a substantial reduction in sales to them, or changes in the timing of their orders can lead to a reduction in our revenue, increase the volatility of our results, and harm our results of operations and financial condition.",
+            "entity_name": "INTC Customer Concentration Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Industry trends, such as the increasing shift of data center workloads to the public cloud, have increased the significance and purchasing power of certain customers, particularly hyperscalers, in some of our data center-focused businesses. The further consolidation of computing workloads in the cloud, and consolidation among cloud service providers, can heighten the competitive importance of factors such as collaboration and customization with cloud service provider customers to optimize products for their environments; optimization for cloud services and applications; product performance; energy efficiency; feature differentiation; product quality, reliability, and factors affecting server uptime; and product security and security features. Our competitive position can be eroded to the extent we do not execute effectively across these factors.",
+            "entity_name": "INTC Hyperscaler Cloud Workload Shift Competitive Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Some cloud service provider customers have also internally developed, and may continue to develop, their own semiconductors, including designs customized for their specific computing workloads. In addition, cloud services can be marketed to end users based on service levels or features rather than hardware specifications, or they can abstract hardware under layers of software, which can make it more difficult to differentiate our products to customers and end users.",
+            "entity_name": "INTC CSP In-House Semiconductor Development Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Government contracts are subject to procurement laws and regulations relating to the award, administration, and performance of those contracts, as well as oversight and penalties for violations. For example, certain agreements with the US government are subject to special rules on accounting, IP rights, expenses, reviews, information handling, security, customers, and/or employees, and failure or inability to comply with these rules could result in civil and criminal penalties and sanctions, including termination of contracts, fines, and suspension or debarment from future business with the US government.",
+            "entity_name": "INTC Government Contract Compliance Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have incurred significant debt obligations that could adversely affect our business and financial condition, including our ability to fully implement our strategy. As of December 28, 2024, we had $51.0 billion in aggregate principal amount of senior unsecured notes and other borrowings outstanding. In addition, we have a commercial paper program of up to $10.0 billion and credit facilities to backstop these programs and otherwise provide access to committed capital of up to $15.0 billion.",
+            "entity_name": "INTC Debt Level and Credit Rating Downgrade Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are subject to complex and evolving laws and regulations worldwide that differ among jurisdictions and affect our operations in areas including, but not limited to: IP ownership and infringement; tax; import and export requirements; anti-corruption; foreign exchange controls and cash repatriation restrictions; data privacy and localization requirements; competition; advertising; employment and labor; product regulations; environment, health, and safety requirements; and consumer laws. Compliance with such requirements can be onerous and expensive and may otherwise impact our business operations negatively.",
+            "entity_name": "INTC Global Laws and Regulations Compliance Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are exposed to adverse as well as beneficial movements in currency exchange rates. Although most of our sales occur in US dollars, operating expenses and capital expenditures may be paid in local currencies. Our hedging programs may not be effective to offset any, or more than a portion, of the adverse impact of currency exchange rate movements; therefore, changes in exchange rates can harm our results of operations and financial condition.",
+            "entity_name": "INTC Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A",
+              "subsection": "quantitative_market_risk"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We considered the historical trends in currency exchange rates and determined that it was reasonably possible that a weighted average adverse change of 10% in currency exchange rates could be experienced in the near term. Such an adverse change, after taking into account balance sheet hedges only and offsetting recorded monetary asset and liability positions outstanding as of December 28, 2024 and December 30, 2023 would result in an adverse impact on income before taxes of less than $54 million and less than $53 million, respectively.",
+            "entity_name": "INTC Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "A number of factors can impact our future effective tax rate or cash payments, which could cause significant variability in our financial results, including: changes in the volume and mix of profits earned and location of assets across jurisdictions with varying tax rates; changes in our business or legal entity operating model; the resolution of issues arising from tax audits, including payment of interest and penalties; changes in the valuation of our deferred tax assets and liabilities, and in deferred tax valuation allowances.",
+            "entity_name": "INTC Effective Tax Rate Variability Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our operations and business, and those of our customers and suppliers, can be disrupted by: severe weather events and natural disasters; industrial accidents; public health issues and global pandemics such as COVID-19; cybersecurity incidents; interruptions of service from utilities, transportation restrictions or disruptions, telecommunications, or IT systems providers; manufacturing equipment failures; geopolitical conflict; terrorism; or other catastrophic events. Global climate change can result in certain natural disasters occurring more frequently or with greater intensity, such as drought, wildfires, storms, sea-level rise, and flooding, and could disrupt the availability of water necessary for the operation of our fabrication facilities, including our facilities located in water-sensitive regions such as Arizona and Israel.",
+            "entity_name": "INTC Catastrophic Events and Climate Change Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Regulations in response to human health concerns may also limit or prohibit the use of a class of chemicals known as per- and polyfluoroalkyl substances (PFAS), which are found in parts, components, process chemicals, and other materials used in semiconductor manufacturing. Such chemicals are critical to the manufacturing and functioning of many semiconductor products and there are limited technically and commercially feasible alternatives.",
+            "entity_name": "INTC Environmental Health Safety and PFAS Chemical Regulation Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In addition, we are or expect to become subject to various new or proposed climate-related and other sustainability laws and regulations, including, for example, the state of California's new climate change disclosure requirements, the EU's new Corporate Sustainability Reporting Directive, and the SEC's recently adopted climate-change disclosure requirements. Compliance with such laws and regulations, as well as the overall increased focus and scrutiny from regulators, investors, customers, vendors, employees, and other stakeholders concerning ESG and climate matters, could impose additional costs on us and expose us to new risks, including resulting in changes to our current ESG goals.",
+            "entity_name": "INTC ESG and Corporate Responsibility Scrutiny Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A",
+              "subsection": "quantitative_market_risk"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The substantial majority of our marketable equity securities portfolio as of December 28, 2024 was concentrated in securities traded on the Chinese Shanghai Stock Exchange Science and Technology Innovation Board. Assuming a decline of 55% in market prices, the aggregate value of our marketable equity securities could decrease by $466 million, based on the value as of December 28, 2024 (a decrease in value of $418 million, based on the value as of December 30, 2023 using an assumed decline of 35%).",
+            "entity_name": "INTC China STAR Market Equity Securities Concentration Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "capital_return",
+            "content": "In recent years, we have not made repurchases of our stock and reduced, and then suspended in the fourth quarter of 2024, our quarterly dividend. Further, we agreed under our commercial CHIPS Act agreement to forgo paying dividends for the next two years, and agreed to limitations on the payment of dividends for the three years thereafter. There can be no assurance that we will be able to pay dividends in the future.",
+            "entity_name": "INTC Q4 2024 Quarterly Dividend Suspension",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "During 2024 and in prior years, we suffered multiple credit rating downgrades that adversely impacted our borrowing costs and access to capital, and we may continue to suffer additional such downgrades if our business and financial results do not measurably improve.",
+            "entity_name": "INTC 2024 Multiple Credit Rating Downgrades",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "gray market risk",
+              "unauthorized reseller risk"
+            ],
+            "attributes": {
+              "category": "distribution"
+            },
+            "identifiers": {},
+            "name": "INTC Gray Market Product Distribution Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "key customer concentration risk",
+              "Intel top-3 customer revenue concentration"
+            ],
+            "attributes": {
+              "category": "customer_concentration",
+              "top3_revenue_pct_2022": 0.42,
+              "top3_revenue_pct_2023": 0.4,
+              "top3_revenue_pct_2024": 0.45
+            },
+            "identifiers": {},
+            "name": "INTC Customer Concentration Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "cloud migration risk",
+              "hyperscaler market power risk",
+              "data center cloud shift risk"
+            ],
+            "attributes": {
+              "category": "competitive",
+              "segment": "data_center"
+            },
+            "identifiers": {},
+            "name": "INTC Hyperscaler Cloud Workload Shift Competitive Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "cloud customer custom silicon risk",
+              "hyperscaler internal chip design risk"
+            ],
+            "attributes": {
+              "category": "competitive",
+              "segment": "data_center"
+            },
+            "identifiers": {},
+            "name": "INTC CSP In-House Semiconductor Development Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "government procurement risk",
+              "US government contract debarment risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "US and non-US"
+            },
+            "identifiers": {},
+            "name": "INTC Government Contract Compliance Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel debt obligation risk",
+              "credit downgrade risk",
+              "refinancing risk"
+            ],
+            "attributes": {
+              "category": "financial",
+              "commercial_paper_program_usd": 10000000000,
+              "credit_facilities_usd": 15000000000,
+              "outstanding_debt_usd": 51000000000
+            },
+            "identifiers": {},
+            "name": "INTC Debt Level and Credit Rating Downgrade Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "regulatory compliance risk",
+              "data privacy risk",
+              "IP compliance risk"
+            ],
+            "attributes": {
+              "category": "regulatory"
+            },
+            "identifiers": {},
+            "name": "INTC Global Laws and Regulations Compliance Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "FX risk",
+              "foreign exchange risk"
+            ],
+            "attributes": {
+              "adverse_10pct_fx_income_impact_usd_2023": 53000000,
+              "adverse_10pct_fx_income_impact_usd_2024": 54000000,
+              "category": "macroeconomic",
+              "primary_expense_currencies": [
+                "ILS",
+                "MYR",
+                "EUR",
+                "JPY",
+                "CNY"
+              ]
+            },
+            "identifiers": {},
+            "name": "INTC Currency Exchange Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "tax rate risk",
+              "Pillar Two BEPS tax risk",
+              "deferred tax asset risk"
+            ],
+            "attributes": {
+              "category": "tax"
+            },
+            "identifiers": {},
+            "name": "INTC Effective Tax Rate Variability Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "natural disaster risk",
+              "climate change operational risk",
+              "pandemic operational risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "key_geographies": [
+                "Oregon",
+                "California",
+                "Arizona",
+                "Israel"
+              ]
+            },
+            "identifiers": {},
+            "name": "INTC Catastrophic Events and Climate Change Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "EHS regulation risk",
+              "PFAS regulation risk",
+              "perfluorocarbon emissions risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "specific_chemicals": [
+                "perfluorocarbons",
+                "PFAS"
+              ]
+            },
+            "identifiers": {},
+            "name": "INTC Environmental Health Safety and PFAS Chemical Regulation Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "ESG disclosure risk",
+              "sustainability regulation risk",
+              "climate disclosure compliance risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "regulatory_frameworks": [
+                "California climate disclosure",
+                "EU CSRD",
+                "SEC climate disclosure rule"
+              ]
+            },
+            "identifiers": {},
+            "name": "INTC ESG and Corporate Responsibility Scrutiny Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Chinese STAR Market concentration risk",
+              "marketable equity concentration risk"
+            ],
+            "attributes": {
+              "category": "financial",
+              "fair_value_usd_2024": 800000000,
+              "geography": "China",
+              "stress_scenario_decline_pct_2024": 0.55,
+              "stress_scenario_loss_usd_2024": 466000000
+            },
+            "identifiers": {},
+            "name": "INTC China STAR Market Equity Securities Concentration Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel dividend suspension 2024",
+              "Intel Q4 2024 dividend halt"
+            ],
+            "attributes": {
+              "chips_act_limited_dividend_years": 3,
+              "chips_act_no_dividend_years": 2,
+              "effective_date": "2024-Q4",
+              "return_type": "dividend_suspension"
+            },
+            "identifiers": {},
+            "name": "INTC Q4 2024 Quarterly Dividend Suspension",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Intel 2024 credit rating downgrade",
+              "Intel credit deterioration 2024"
+            ],
+            "attributes": {
+              "instrument_type": "refinancing",
+              "note": "Multiple credit rating downgrades in 2024 and prior years adversely impacted borrowing costs and access to capital",
+              "outstanding_debt_usd": 51000000000
+            },
+            "identifiers": {},
+            "name": "INTC 2024 Multiple Credit Rating Downgrades",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Gray Market Product Distribution Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Customer Concentration Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Hyperscaler Cloud Workload Shift Competitive Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC CSP In-House Semiconductor Development Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Government Contract Compliance Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Debt Level and Credit Rating Downgrade Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Global Laws and Regulations Compliance Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Currency Exchange Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Effective Tax Rate Variability Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Catastrophic Events and Climate Change Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Environmental Health Safety and PFAS Chemical Regulation Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC ESG and Corporate Responsibility Scrutiny Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC China STAR Market Equity Securities Concentration Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Q4 2024 Quarterly Dividend Suspension",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2024 Multiple Credit Rating Downgrades",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2025-01-24",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/INTC/0000050863-25-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "44c4f5694b6129d6edbf124b623be111739590d4ba491f7c0d9d96c5b75d9d9a"
+    }
+  ],
+  "prompt_version": "v3"
+}

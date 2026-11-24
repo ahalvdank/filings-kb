@@ -1,0 +1,56 @@
+{
+  "accession": "0001628280-26-008131",
+  "item": "Item_9A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-19T10:41:48Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "because of its inherent limitations, internal control over financial reporting may not prevent or detect all misstatements. Deficiencies or lapses in internal controls may occur from time to time, and there can be no assurance that any such deficiencies will not result in significant deficiencies or material weaknesses in internal control in the future and collateral consequences therefrom.",
+            "entity_name": "JPM Internal Control Over Financial Reporting Limitation Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "ICFR limitation risk",
+              "internal controls inherent limitations"
+            ],
+            "attributes": {
+              "category": "internal_controls"
+            },
+            "identifiers": {},
+            "name": "JPM Internal Control Over Financial Reporting Limitation Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Internal Control Over Financial Reporting Limitation Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/JPM/0001628280-26-008131.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "3f6f91bd8beb5a194530659edd717803cd7157ae69fad7a556b3a4499c8ce39a"
+    }
+  ],
+  "prompt_version": "v3"
+}

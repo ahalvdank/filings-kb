@@ -1,0 +1,973 @@
+{
+  "accession": "0000002488-26-000018",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-21T23:56:02Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note 4",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "the Data Center segment, which primarily includes Artificial Intelligence (AI) accelerators, microprocessors (CPUs) for servers, graphics processing units (GPUs), accelerated processing units (APUs), data processing units (DPUs), AI Network Interface Cards (AI NICs), Field Programmable Gate Arrays (FPGAs) and adaptive System-on-Chip (SoC) products for data centers",
+            "entity_name": "AMD Data Center Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "currency": "USD_millions",
+              "note": "Note 4",
+              "period": "FY2025",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Net revenue:\nData Center$16,635 $12,579 $6,496 \nClient and Gaming\nClient10,640 7,054 4,651\nGaming3,910 2,595 6,212\nTotal Client and Gaming14,550 9,649 10,863\nEmbedded3,454 3,557 5,321\nTotal net revenue$34,639 $25,785 $22,680",
+            "entity_name": "AMD Data Center Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "currency": "USD_millions",
+              "note": "Note 4",
+              "period": "FY2025",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Operating income (loss):\nData Center$3,603 $3,482 $1,267 \nClient and Gaming\n2,855 1,187 925\nEmbedded1,243 1,421 2,628\nAll Other\n(4,007)(4,190)(4,419)\nTotal operating income \n$3,694 $1,900 $401",
+            "entity_name": "AMD Data Center Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 4",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "the Client and Gaming segment, which primarily includes CPUs, APUs, chipsets for desktops and notebooks, discrete GPUs, and semi-custom SoC products and development services",
+            "entity_name": "AMD Client and Gaming Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 4",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "the Embedded segment, which primarily includes embedded CPUs, APUs, FPGAs, System on Modules (SOMs), and adaptive SoC products",
+            "entity_name": "AMD Embedded Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "currency": "USD_millions",
+              "note": "Note 4",
+              "period": "FY2025",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Client10,640 7,054 4,651",
+            "entity_name": "AMD Client Sub-Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "currency": "USD_millions",
+              "note": "Note 4",
+              "period": "FY2025",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Gaming3,910 2,595 6,212",
+            "entity_name": "AMD Gaming Sub-Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 5",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On March 31, 2025 (the Acquisition Date), the Company completed the acquisition of all issued and outstanding shares of ZT Systems, a provider of AI and general-purpose compute infrastructure for hyperscale computing companies, for a total purchase consideration of $4.4 billion. The acquisition is expected to enable the Company to deliver end-to-end AI solutions and accelerate the design and deployment of AMD-powered AI infrastructure at scale optimized for the cloud.",
+            "entity_name": "AMD ZT Systems Acquisition",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 5",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On October 27, 2025, the Company completed the sale of the ZT Manufacturing Business to Sanmina Corporation (Sanmina) for $2.4 billion in cash, subject to certain purchase price adjustments and 1,151,052 shares of Sanmina common stock.",
+            "entity_name": "AMD ZT Manufacturing Business Divestiture",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 5",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On August 9, 2024, the Company completed the acquisition of Silo AI Oy (Silo AI), an AI lab based in Finland, for $665 million in cash. The recorded purchase consideration of $553 million, net of closing adjustments, transaction costs and deferred cash compensation, was allocated to $19 million of identifiable intangible assets, $43 million of net liabilities assumed, and $577 million to goodwill.",
+            "entity_name": "AMD Silo AI Acquisition",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 5",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2025, the Company completed other business acquisitions for a total consideration of $90 million that resulted in the recognition of $79 million of goodwill.",
+            "entity_name": "AMD FY2025 Other Business Acquisitions",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 3",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "During the year ended December 27, 2025, the Company recorded approximately $440 million of net inventory and related charges associated with the U.S. government export control on AMD Instinct™ MI308 Data Center GPU products in Cost of sales.",
+            "entity_name": "AMD Instinct MI308 Export Control Charges",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 4",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In the first quarter of fiscal year 2025, the Company changed its segment structure, combining the Client and Gaming segments into one reportable segment to align with how the Company manages its business. All prior period segment data were retrospectively adjusted.",
+            "entity_name": "AMD Q1 2025 Segment Structure Change",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 2",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In December 2023, the Financial Accounting Standards Board (FASB) issued Accounting Standard Update (ASU) Income Taxes - Improvement to Income Tax Disclosures (ASU 2023-09) that requires disclosure of disaggregated income taxes paid, prescribes standard categories for the components of the effective tax rate reconciliation, and modifies other income tax-related disclosures. The Company adopted ASU 2023-09 in the fourth quarter of 2025, with prospective application.",
+            "entity_name": "AMD ASU 2023-09 Income Tax Disclosures Adoption",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_8",
+              "statement": "Consolidated Statements of Cash Flows"
+            },
+            "chunk_type": "capital_return",
+            "content": "Repurchases of common stock(1,316)(862)(985)",
+            "entity_name": "AMD FY2025 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_8",
+              "statement": "Consolidated Statements of Cash Flows"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Proceeds from debt and commercial paper issuance, net of issuance costs2,441 — —",
+            "entity_name": "AMD FY2025 Debt and Commercial Paper Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Data Center"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center",
+              "ticker": "AMD"
+            },
+            "name": "AMD Data Center Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Client and Gaming"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Client and Gaming",
+              "ticker": "AMD"
+            },
+            "name": "AMD Client and Gaming Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Client"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Client",
+              "ticker": "AMD"
+            },
+            "name": "AMD Client Sub-Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Gaming"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Gaming",
+              "ticker": "AMD"
+            },
+            "name": "AMD Gaming Sub-Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Embedded"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Embedded",
+              "ticker": "AMD"
+            },
+            "name": "AMD Embedded Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "ZT Systems acquisition"
+            ],
+            "attributes": {
+              "consideration_type": "cash_and_stock",
+              "effective_date": "2025-03-31",
+              "event_type": "acquisition",
+              "target_company": "ZT Systems",
+              "total_consideration_usd": 4409000000
+            },
+            "identifiers": {},
+            "name": "AMD ZT Systems Acquisition",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "ZT Manufacturing sale to Sanmina"
+            ],
+            "attributes": {
+              "buyer": "Sanmina Corporation",
+              "cash_proceeds_usd": 2400000000,
+              "effective_date": "2025-10-27",
+              "event_type": "divestiture"
+            },
+            "identifiers": {},
+            "name": "AMD ZT Manufacturing Business Divestiture",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Silo AI Oy acquisition"
+            ],
+            "attributes": {
+              "consideration_type": "all_cash",
+              "effective_date": "2024-08-09",
+              "event_type": "acquisition",
+              "target_company": "Silo AI Oy",
+              "total_consideration_usd": 665000000
+            },
+            "identifiers": {},
+            "name": "AMD Silo AI Acquisition",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "event_type": "acquisition",
+              "goodwill_recognized_usd": 79000000,
+              "period": "FY2025",
+              "total_consideration_usd": 90000000
+            },
+            "identifiers": {},
+            "name": "AMD FY2025 Other Business Acquisitions",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "MI308 export control regulatory action"
+            ],
+            "attributes": {
+              "charge_usd": 440000000,
+              "event_type": "regulatory_action",
+              "period": "FY2025",
+              "product": "AMD Instinct MI308 Data Center GPU"
+            },
+            "identifiers": {},
+            "name": "AMD Instinct MI308 Export Control Charges",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD Client and Gaming segment consolidation"
+            ],
+            "attributes": {
+              "effective_period": "Q1 2025",
+              "event_type": "accounting_change"
+            },
+            "identifiers": {},
+            "name": "AMD Q1 2025 Segment Structure Change",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "ASU 2023-09 adoption"
+            ],
+            "attributes": {
+              "adoption_quarter": "Q4 2025",
+              "application_method": "prospective",
+              "event_type": "accounting_change",
+              "standard": "ASU 2023-09"
+            },
+            "identifiers": {},
+            "name": "AMD ASU 2023-09 Income Tax Disclosures Adoption",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 1316000000,
+              "period": "FY2025",
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "AMD FY2025 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "AMD 2025 senior notes issuance"
+            ],
+            "attributes": {
+              "instrument_type": "notes",
+              "note_4212_pct_due_2026_usd": 875000000,
+              "note_4319_pct_due_2028_usd": 625000000,
+              "period": "FY2025",
+              "principal_usd": 2441000000
+            },
+            "identifiers": {},
+            "name": "AMD FY2025 Debt and Commercial Paper Issuance",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.3224,
+              "margin": 0.2166,
+              "period": "FY2025",
+              "revenue": 16635000000
+            },
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Data Center Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.5079,
+              "margin": 0.1962,
+              "period": "FY2025",
+              "revenue": 14550000000
+            },
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Client and Gaming Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.5084,
+              "period": "FY2025",
+              "revenue": 10640000000
+            },
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Client Sub-Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.5068,
+              "period": "FY2025",
+              "revenue": 3910000000
+            },
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Gaming Sub-Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.029,
+              "margin": 0.3599,
+              "period": "FY2025",
+              "revenue": 3454000000
+            },
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Embedded Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD ZT Systems Acquisition",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD ZT Manufacturing Business Divestiture",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Silo AI Acquisition",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD FY2025 Other Business Acquisitions",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Instinct MI308 Export Control Charges",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Q1 2025 Segment Structure Change",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD ASU 2023-09 Income Tax Disclosures Adoption",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD FY2025 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD FY2025 Debt and Commercial Paper Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-26-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "1a7ef7b7a6278f0b8c0b26a538995c670103ce047d67cc2802c9afcb173837a1"
+    },
+    {
+      "extracted_at": "2026-06-21T23:59:47Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "On March 24, 2025, the Company issued 4.212% Notes and 4.319% Notes in aggregate principal amount of $1.5 billion, which are general unsecured senior obligations of the Company. The interest is payable semi-annually on March 24 and September 24 of each year, commencing on September 24, 2025.",
+            "entity_name": "AMD March 2025 $1.5B Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "On May 13, 2025, the Company's board of directors approved a new $6 billion share repurchase program. The authorization is in addition to the Company's existing share repurchase program (collectively, the Repurchase Program), increasing the total repurchase authority to $14 billion.",
+            "entity_name": "AMD May 2025 $6B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "During 2025, the Company repurchased 12 million shares of its common stock under the Repurchase Program for $1.3 billion. The repurchased amounts do not include the 1% excise tax on stock repurchases enacted by the Inflation Reduction Act of 2022. As of December 27, 2025, $9.4 billion remained available for future stock repurchases under the Repurchase Program.",
+            "entity_name": "AMD FY2025 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In October 2025, the Company issued to OpenAI OpCo, LLC (the Warrantholder) a warrant to purchase up to an aggregate of 160 million shares of the Company's common stock at an exercise price of $0.01 per share. The warrant shares will vest in tranches based on AMD Instinct GPU purchase milestones by the Warrantholder, or its affiliates, or indirectly through third parties, and achievement of specified Company stock price targets and stock performance. Each vested tranche is further subject to the fulfillment of certain other technical and commercial conditions prior to exercise. Subject to certain terms and conditions, the warrant is exercisable through October 5, 2030.",
+            "entity_name": "AMD October 2025 OpenAI Warrant",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In the fourth quarter of 2024, the Company implemented a restructuring plan (the 2024 Restructuring Plan) which reduced the global workforce by approximately 4% of headcount. Actions associated with the 2024 Restructuring Plan were substantially completed in the first quarter of fiscal year 2025. The 2024 Restructuring Plan charges to date were $186 million, of which $113 million was related to employee severance and benefits and $73 million was related to asset impairment.",
+            "entity_name": "AMD 2024 Restructuring Plan",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "from common stock activity table; shares in millions",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Common stock issued in the acquisition of ZT Systems 9",
+            "entity_name": "AMD Acquisition of ZT Systems",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Net income from discontinued operations for 2025 was $66 million, net of tax expense of $54 million. This includes the results of operations of the ZT Manufacturing Business and the change in fair value of contingent consideration liability of $121 million.",
+            "entity_name": "AMD ZT Manufacturing Business Divestiture",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "The decrease in income tax provision in 2025 was primarily driven by an $853 million benefit related to the release of uncertain tax positions pertaining to the reasonable cause relief for dual consolidated losses approved by the IRS in April 2025 whereas the income tax provision in 2024 included $373 million tax effect from an intercompany integration transaction.",
+            "entity_name": "AMD IRS Dual Consolidated Loss Relief (April 2025)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In July 2025, the OBBBA was enacted into law. For fiscal year 2025, the primary impact of the OBBBA to the Company's tax provision was the accelerated expensing of domestic R&D activities which decreased the Company's income eligible for FDII, reduced the Company's deferred tax assets, and reduced the Company's current income tax liability.",
+            "entity_name": "AMD OBBBA Tax Accounting Change (July 2025)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "The Company has $3 billion available under an unsecured revolving credit facility that expires on April 29, 2027. During 2025, the Company did not draw funds from the revolving credit facility. As of December 27, 2025, the Company was in compliance with the covenants under the revolving credit facility.",
+            "entity_name": "AMD $3B Unsecured Revolving Credit Facility",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "4.212% Notes due 2026",
+              "4.319% Notes due 2028"
+            ],
+            "attributes": {
+              "instrument_type": "notes",
+              "issuance_date": "2025-03-24",
+              "principal_usd": 1500000000,
+              "security_type": "general unsecured senior obligations",
+              "tranche_1_coupon": 0.04212,
+              "tranche_1_maturity": "2026",
+              "tranche_2_coupon": 0.04319,
+              "tranche_2_maturity": "2028"
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD March 2025 $1.5B Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "AMD 2025 buyback expansion"
+            ],
+            "attributes": {
+              "amount_usd": 6000000000,
+              "effective_date": "2025-05-13",
+              "return_type": "repurchase_authorization",
+              "total_program_authorization_usd": 14000000000
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD May 2025 $6B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 1300000000,
+              "remaining_authorization_usd": 9400000000,
+              "return_type": "buyback",
+              "shares": 12000000
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD FY2025 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "AMD OpenAI GPU warrant"
+            ],
+            "attributes": {
+              "counterparty": "OpenAI OpCo, LLC",
+              "exercise_price": 0.01,
+              "expiration": "2030-10-05",
+              "instrument_type": "equity_issuance",
+              "shares": 160000000,
+              "vesting_condition": "AMD Instinct GPU purchase milestones and specified stock price targets"
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD October 2025 OpenAI Warrant",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "AMD Q4 2024 headcount reduction"
+            ],
+            "attributes": {
+              "asset_impairment_usd": 73000000,
+              "event_type": "restructuring",
+              "headcount_reduction_pct": 0.04,
+              "severance_usd": 113000000,
+              "substantially_completed": "2025-Q1",
+              "total_charges_usd": 186000000
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD 2024 Restructuring Plan",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "ZT Systems deal"
+            ],
+            "attributes": {
+              "consideration": "stock",
+              "event_type": "acquisition",
+              "shares_issued_millions": 9,
+              "target_company": "ZT Systems"
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD Acquisition of ZT Systems",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "ZT Manufacturing discontinued operations"
+            ],
+            "attributes": {
+              "divested_unit": "ZT Manufacturing Business",
+              "event_type": "divestiture",
+              "net_income_discontinued_usd": 66000000,
+              "tax_expense_usd": 54000000
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD ZT Manufacturing Business Divestiture",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD DCL IRS relief"
+            ],
+            "attributes": {
+              "description": "reasonable cause relief for dual consolidated losses; resulted in release of uncertain tax positions",
+              "effective_date": "2025-04",
+              "event_type": "regulatory_action",
+              "regulator": "IRS",
+              "tax_benefit_usd": 853000000
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD IRS Dual Consolidated Loss Relief (April 2025)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "OBBBA AMD impact"
+            ],
+            "attributes": {
+              "effective_date": "2025-07",
+              "event_type": "accounting_change",
+              "primary_impacts": "accelerated domestic R&D expensing, reduced FDII eligibility, GILTI deferred tax remeasurement"
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD OBBBA Tax Accounting Change (July 2025)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD revolver"
+            ],
+            "attributes": {
+              "drawn_in_2025": false,
+              "instrument_type": "revolver",
+              "maturity": "2027-04-29",
+              "principal_usd": 3000000000
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD $3B Unsecured Revolving Credit Facility",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "AMD"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "Advanced Micro Devices, Inc.",
+            "type": "Company"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD March 2025 $1.5B Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD May 2025 $6B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD FY2025 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD October 2025 OpenAI Warrant",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD 2024 Restructuring Plan",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of ZT Systems",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD ZT Manufacturing Business Divestiture",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD IRS Dual Consolidated Loss Relief (April 2025)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD OBBBA Tax Accounting Change (July 2025)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD $3B Unsecured Revolving Credit Facility",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2026-02-03",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-26-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "824f6ba04de2c751183373dd9b48db6e3750bd738c4b200f1113f8d16a3d0a6a"
+    }
+  ],
+  "prompt_version": "v3"
+}

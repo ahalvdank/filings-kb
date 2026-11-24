@@ -1,0 +1,812 @@
+{
+  "accession": "0001564590-22-026876",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T14:47:57Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note_reference": "NOTE 8 — BUSINESS COMBINATIONS",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On March 4, 2022, we completed our acquisition of Nuance Communications, Inc. (\"Nuance\") for a total purchase price of $18.8 billion, consisting primarily of cash. Nuance is a cloud and artificial intelligence (\"AI\") software provider with healthcare and enterprise AI experience, and the acquisition will build on our industry-specific cloud offerings. The financial results of Nuance have been included in our consolidated financial statements since the date of the acquisition. Nuance is reported as part of our Intelligent Cloud segment.",
+            "entity_name": "MSFT Acquisition of Nuance Communications Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "detail": "goodwill_allocation",
+              "note_reference": "NOTE 8 — BUSINESS COMBINATIONS",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Goodwill was assigned to our Intelligent Cloud segment and was primarily attributed to increased synergies that are expected to be achieved from the integration of Nuance. None of the goodwill is expected to be deductible for income tax purposes.",
+            "entity_name": "MSFT Acquisition of Nuance Communications Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "NOTE 8 — BUSINESS COMBINATIONS",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On March 9, 2021, we completed our acquisition of ZeniMax Media Inc. (\"ZeniMax\"), the parent company of Bethesda Softworks LLC (\"Bethesda\"), for a total purchase price of $8.1 billion, consisting primarily of cash. The purchase price included $766 million of cash and cash equivalents acquired. Bethesda is one of the largest, privately held game developers and publishers in the world, and brings a broad portfolio of games, technology, and talent to Xbox. The financial results of ZeniMax have been included in our consolidated financial statements since the date of the acquisition. ZeniMax is reported as part of our More Personal Computing segment.",
+            "entity_name": "MSFT Acquisition of ZeniMax Media Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "NOTE 1 — ACCOUNTING POLICIES",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In July 2022, we completed an assessment of the useful lives of our server and network equipment. Due to investments in software that increased efficiencies in how we operate our server and network equipment, as well as advances in technology, we determined we should increase the estimated useful lives of both server and network equipment from four years to six years. This change in accounting estimate will be effective beginning fiscal year 2023.",
+            "entity_name": "MSFT Server and Network Equipment Useful Life Accounting Change",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "column_order": "FY2022 FY2021 FY2020",
+              "note_reference": "CASH FLOWS STATEMENTS",
+              "period": "FY2022",
+              "section_type": "Item_8",
+              "unit": "millions USD"
+            },
+            "chunk_type": "capital_return",
+            "content": "Common stock repurchased (32,696 ) (27,385 ) (22,968 )",
+            "entity_name": "MSFT FY2022 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "column_order": "FY2022 FY2021 FY2020",
+              "note_reference": "STOCKHOLDERS' EQUITY STATEMENTS",
+              "period": "FY2022",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Cash dividends declared per common share $ 2.48 $ 2.24 $ 2.04",
+            "entity_name": "MSFT FY2022 Common Stock Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft",
+              "MSFT"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "Microsoft Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Nuance acquisition",
+              "Nuance deal"
+            ],
+            "attributes": {
+              "assigned_segment": "Intelligent Cloud",
+              "consideration": "primarily cash",
+              "effective_date": "2022-03-04",
+              "event_type": "acquisition",
+              "goodwill_allocated_usd": 16308000000,
+              "intangibles_allocated_usd": 4365000000,
+              "target_company": "Nuance Communications, Inc.",
+              "total_purchase_price_usd": 18800000000
+            },
+            "identifiers": {},
+            "name": "MSFT Acquisition of Nuance Communications Inc.",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "ZeniMax acquisition",
+              "Bethesda acquisition"
+            ],
+            "attributes": {
+              "assigned_segment": "More Personal Computing",
+              "consideration": "primarily cash",
+              "effective_date": "2021-03-09",
+              "event_type": "acquisition",
+              "goodwill_allocated_usd": 5510000000,
+              "intangibles_allocated_usd": 1968000000,
+              "target_company": "ZeniMax Media Inc.",
+              "total_purchase_price_usd": 8100000000
+            },
+            "identifiers": {},
+            "name": "MSFT Acquisition of ZeniMax Media Inc.",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "MSFT depreciation policy change FY2023",
+              "server useful life change"
+            ],
+            "attributes": {
+              "assessment_date": "2022-07",
+              "description": "Estimated useful lives of server and network equipment increased from four years to six years",
+              "effective_fiscal_year": "FY2023",
+              "event_type": "accounting_change",
+              "new_useful_life_years": 6,
+              "prior_useful_life_years": 4
+            },
+            "identifiers": {},
+            "name": "MSFT Server and Network Equipment Useful Life Accounting Change",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Microsoft FY2022 stock buyback"
+            ],
+            "attributes": {
+              "amount_usd": 32696000000,
+              "period": "FY2022",
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "MSFT FY2022 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Microsoft FY2022 dividend"
+            ],
+            "attributes": {
+              "amount_usd": 18135000000,
+              "per_share": 2.48,
+              "period": "FY2022",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "MSFT FY2022 Common Stock Dividends",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Acquisition of Nuance Communications Inc.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Acquisition of ZeniMax Media Inc.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Server and Network Equipment Useful Life Accounting Change",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2022 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2022 Common Stock Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0001564590-22-026876.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "436b95d68628f629931023d53d2a951e182913b079058d03b447f2bd10e95921"
+    },
+    {
+      "extracted_at": "2026-07-20T14:59:59Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note_8_business_combination",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On January 18, 2022, we entered into a definitive agreement to acquire Activision Blizzard, Inc. (\"Activision Blizzard\") for $95.00 per share in an all-cash transaction valued at $68.7 billion, inclusive of Activision Blizzard's net cash. Activision Blizzard is a leader in game development and an interactive entertainment content publisher. The acquisition will accelerate the growth in our gaming business across mobile, PC, console, and cloud and will provide building blocks for the metaverse. The acquisition has been approved by Activision Blizzard's shareholders, and we expect it to close in fiscal year 2023, subject to the satisfaction of certain regulatory approvals and other customary closing conditions.",
+            "entity_name": "MSFT Acquisition Agreement for Activision Blizzard",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 19",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Our Productivity and Business Processes segment consists of products and services in our portfolio of productivity, communication, and information services, spanning a variety of devices and platforms. This segment primarily comprises: Office Commercial (Office 365 subscriptions, the Office 365 portion of Microsoft 365 Commercial subscriptions, and Office licensed on-premises), comprising Office, Exchange, SharePoint, Microsoft Teams, Office 365 Security and Compliance, and Microsoft Viva. Office Consumer, including Microsoft 365 Consumer subscriptions, Office licensed on-premises, and other Office services. LinkedIn, including Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. Dynamics business solutions, including Dynamics 365, comprising a set of intelligent, cloud-based applications across ERP, CRM, Customer Insights, Power Apps, and Power Automate; and on-premises ERP and CRM applications.",
+            "entity_name": "MSFT Productivity and Business Processes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 19",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Our Intelligent Cloud segment consists of our public, private, and hybrid server products and cloud services that can power modern business and developers. This segment primarily comprises: Server products and cloud services, including Azure and other cloud services; SQL Server, Windows Server, Visual Studio, System Center, and related Client Access Licenses (\"CALs\"); and Nuance and GitHub. Enterprise Services, including Enterprise Support Services, Microsoft Consulting Services, and Nuance professional services.",
+            "entity_name": "MSFT Intelligent Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "metric": "microsoft_cloud_revenue",
+              "note": "Note 19",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Our Microsoft Cloud (formerly commercial cloud) revenue, which includes Azure and other cloud services, Office 365 Commercial, the commercial portion of LinkedIn, Dynamics 365, and other commercial cloud properties, was $91.2 billion, $69.1 billion and $51.7 billion in fiscal years 2022, 2021, and 2020, respectively. These amounts are primarily included in Server products and cloud services, Office products and cloud services, and LinkedIn in the table above.",
+            "entity_name": "MSFT Intelligent Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 19",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Our More Personal Computing segment consists of products and services that put customers at the center of the experience with our technology. This segment primarily comprises: Windows, including Windows OEM licensing and other non-volume licensing of the Windows operating system; Windows Commercial, comprising volume licensing of the Windows operating system, Windows cloud services, and other Windows commercial offerings; patent licensing; and Windows Internet of Things. Devices, including Surface and PC accessories. Gaming, including Xbox hardware and Xbox content and services, comprising first- and third-party content (including games and in-game content), Xbox Game Pass and other subscriptions, Xbox Cloud Gaming, third-party disc royalties, advertising, and other cloud services. Search and news advertising.",
+            "entity_name": "MSFT More Personal Computing Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 16",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "On September 14, 2021, our Board of Directors approved a share repurchase program authorizing up to $60.0 billion in share repurchases. This share repurchase program commenced in November 2021, following completion of the program approved on September 18, 2019, has no expiration date, and may be terminated at any time. As of June 30, 2022, $40.7 billion remained of this $60.0 billion share repurchase program.",
+            "entity_name": "MSFT September 2021 $60B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 16",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "All repurchases were made using cash resources. Shares repurchased during the fourth and third quarters of fiscal year 2022 were under the share repurchase program approved on September 14, 2021. The above table excludes shares repurchased to settle employee tax withholding related to the vesting of stock awards of $4.7 billion, $4.4 billion, and $3.3 billion for fiscal years 2022, 2021, and 2020, respectively.",
+            "entity_name": "MSFT FY2022 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 16",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Our Board of Directors declared the following dividends: Declaration Date Record Date Payment Date Dividend Per Share Amount Fiscal Year 2022 (In millions) September 14, 2021 November 18, 2021 December 9, 2021 $ 0.62 $ 4,652 December 7, 2021 February 17, 2022 March 10, 2022 0.62 4,645 March 14, 2022 May 19, 2022 June 9, 2022 0.62 4,632 June 14, 2022 August 18, 2022 September 8, 2022 0.62 4,627 Total $ 2.48 $ 18,556 Fiscal Year 2021 September 15, 2020 November 19, 2020 December 10, 2020 $ 0.56 $ 4,230 December 2, 2020 February 18, 2021 March 11, 2021 0.56 4,221 March 16, 2021 May 20, 2021 June 10, 2021 0.56 4,214 June 16, 2021 August 19, 2021 September 9, 2021 0.56 4,206 Total $ 2.24 $ 16,871",
+            "entity_name": "MSFT September 2021 Quarterly Dividend Increase to $0.62 Per Share",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In 2014, Microsoft was informed that China's State Agency for Market Regulation (\"SAMR\") (formerly State Administration for Industry and Commerce) had begun a formal investigation relating to China's Anti-Monopoly Law, and the SAMR conducted onsite inspections of Microsoft offices in Beijing, Shanghai, Guangzhou, and Chengdu. In 2019, the SAMR presented preliminary views as to certain possible violations of China's Anti-Monopoly Law.",
+            "entity_name": "MSFT China SAMR Antitrust Investigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Microsoft Mobile Oy, a subsidiary of Microsoft, along with other handset manufacturers and network operators, is a defendant in 46 lawsuits, including 45 lawsuits filed in the Superior Court for the District of Columbia by individual plaintiffs who allege that radio emissions from cellular handsets caused their brain tumors and other adverse health effects. We assumed responsibility for these claims in our agreement to acquire Nokia's Devices and Services business and have been substituted for the Nokia defendants. Nine of these cases were filed in 2002 and are consolidated for certain pre-trial proceedings; the remaining cases are stayed.",
+            "entity_name": "MSFT U.S. Cell Phone Radio Emissions Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "As of June 30, 2022, the primary unresolved issues for the IRS audits relate to transfer pricing, which could have a material impact in our consolidated financial statements when the matters are resolved. We believe our allowances for income tax contingencies are adequate. We have not received a proposed assessment for the unresolved key transfer pricing issues and do not expect a final resolution of these issues in the next 12 months. Based on the information currently available, we do not anticipate a significant increase or decrease to our tax contingencies for these issues within the next 12 months.",
+            "entity_name": "MSFT IRS Transfer Pricing Audit Tax Years 2004-2017",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 13",
+              "section_type": "Item_8",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "Revenue allocated to remaining performance obligations, which includes unearned revenue and amounts that will be invoiced and recognized as revenue in future periods, was $193 billion as of June 30, 2022, of which $189 billion is related to the commercial portion of revenue. We expect to recognize approximately 45% of this revenue over the next 12 months and the remainder thereafter.",
+            "entity_name": "MSFT Remaining Performance Obligations Revenue Recognition Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 18",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "As of June 30, 2022, there was approximately $16.7 billion of total unrecognized compensation costs related to stock awards. These costs are expected to be recognized over a weighted average period of three years. The weighted average grant-date fair value of stock awards granted was $291.22, $221.13, and $140.49 for fiscal years 2022, 2021, and 2020, respectively. The fair value of stock awards vested was $14.1 billion, $13.4 billion, and $10.1 billion, for fiscal years 2022, 2021, and 2020, respectively.",
+            "entity_name": "MSFT FY2022 Stock-Based Compensation Disclosure",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 11",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In March 2021 and June 2020, we exchanged a portion of our existing debt at a premium for cash and new debt with longer maturities. The premiums are amortized over the terms of the new debt.",
+            "entity_name": "MSFT 2020-2021 Senior Debt Exchange and Refinancing",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft",
+              "MSFT"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "Microsoft Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Activision Blizzard",
+              "ATVI"
+            ],
+            "attributes": {},
+            "identifiers": {},
+            "name": "Activision Blizzard, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Activision Blizzard acquisition",
+              "MSFT-ATVI deal"
+            ],
+            "attributes": {
+              "announcement_date": "2022-01-18",
+              "consideration": "all_cash",
+              "deal_value_usd": 68700000000,
+              "event_type": "acquisition",
+              "expected_close": "FY2023",
+              "price_per_share_usd": 95.0,
+              "shareholder_approval": "obtained",
+              "target_company": "Activision Blizzard, Inc."
+            },
+            "identifiers": {},
+            "name": "MSFT Acquisition Agreement for Activision Blizzard",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Productivity and Business Processes",
+              "PBP"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Productivity and Business Processes",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Productivity and Business Processes Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Intelligent Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Intelligent Cloud",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Intelligent Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "More Personal Computing",
+              "MPC"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "More Personal Computing",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT More Personal Computing Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "MSFT $60B buyback program"
+            ],
+            "attributes": {
+              "amount_usd": 60000000000,
+              "approval_date": "2021-09-14",
+              "commencement_date": "2021-11",
+              "remaining_as_of": "2022-06-30",
+              "remaining_usd": 40700000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "MSFT September 2021 $60B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 28033000000,
+              "period": "FY2022",
+              "return_type": "buyback",
+              "shares": 95000000
+            },
+            "identifiers": {},
+            "name": "MSFT FY2022 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "MSFT FY2022 dividend increase"
+            ],
+            "attributes": {
+              "effective_date": "2021-09-14",
+              "per_share": 0.62,
+              "prior_per_share": 0.56,
+              "return_type": "dividend_increase",
+              "total_fy2022_dividends_usd": 18556000000,
+              "total_fy2022_per_share": 2.48
+            },
+            "identifiers": {},
+            "name": "MSFT September 2021 Quarterly Dividend Increase to $0.62 Per Share",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "China Anti-Monopoly Law investigation",
+              "SAMR investigation"
+            ],
+            "attributes": {
+              "counterparty": "China State Administration for Market Regulation",
+              "jurisdiction": "China",
+              "status": "pending",
+              "subject": "Anti-Monopoly Law"
+            },
+            "identifiers": {},
+            "name": "MSFT China SAMR Antitrust Investigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Microsoft Mobile Oy handset litigation",
+              "cell phone emissions lawsuits"
+            ],
+            "attributes": {
+              "case_count": 46,
+              "defendant": "Microsoft Mobile Oy",
+              "jurisdiction": "District of Columbia Superior Court",
+              "status": "pending",
+              "subject": "Radio emissions from cellular handsets alleged to cause brain tumors and adverse health effects"
+            },
+            "identifiers": {},
+            "name": "MSFT U.S. Cell Phone Radio Emissions Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "IRS transfer pricing audit",
+              "Microsoft IRS audit"
+            ],
+            "attributes": {
+              "accrued_interest_usd": 4300000000,
+              "counterparty": "Internal Revenue Service",
+              "gross_unrecognized_tax_benefits_usd": 15600000000,
+              "jurisdiction": "United States",
+              "status": "pending",
+              "subject": "Transfer pricing",
+              "tax_years": "2004-2017"
+            },
+            "identifiers": {},
+            "name": "MSFT IRS Transfer Pricing Audit Tax Years 2004-2017",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "MSFT RPO revenue outlook"
+            ],
+            "attributes": {
+              "as_of": "2022-06-30",
+              "commercial_rpo_usd": 189000000000,
+              "metric": "revenue_from_remaining_performance_obligations",
+              "pct_recognized_next_12_months": 0.45,
+              "total_rpo_usd": 193000000000,
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "MSFT Remaining Performance Obligations Revenue Recognition Outlook",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "MSFT SBC FY2022"
+            ],
+            "attributes": {
+              "event_type": "compensation_disclosure",
+              "income_tax_benefit_usd": 1293000000,
+              "period": "FY2022",
+              "recognition_period_years": 3,
+              "sbc_expense_usd": 7502000000,
+              "unrecognized_compensation_usd": 16700000000
+            },
+            "identifiers": {},
+            "name": "MSFT FY2022 Stock-Based Compensation Disclosure",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "MSFT debt exchange",
+              "MSFT debt refinancing"
+            ],
+            "attributes": {
+              "exchange_months": [
+                "2020-06",
+                "2021-03"
+              ],
+              "instrument_type": "refinancing",
+              "note": "Exchanged portion of existing debt at a premium for cash and new debt with longer maturities; premiums amortized over terms of new debt",
+              "total_face_value_usd_as_of_fy2022": 55511000000
+            },
+            "identifiers": {},
+            "name": "MSFT 2020-2021 Senior Debt Exchange and Refinancing",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Acquisition Agreement for Activision Blizzard",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.175,
+              "margin": 0.468,
+              "operating_income": 29687000000,
+              "period": "FY2022",
+              "revenue": 63364000000
+            },
+            "source_name": "MSFT 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Productivity and Business Processes Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.252,
+              "margin": 0.435,
+              "operating_income": 32721000000,
+              "period": "FY2022",
+              "revenue": 75251000000
+            },
+            "source_name": "MSFT 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Intelligent Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.103,
+              "margin": 0.352,
+              "operating_income": 20975000000,
+              "period": "FY2022",
+              "revenue": 59655000000
+            },
+            "source_name": "MSFT 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT More Personal Computing Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT September 2021 $60B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2022 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT September 2021 Quarterly Dividend Increase to $0.62 Per Share",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT China SAMR Antitrust Investigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT U.S. Cell Phone Radio Emissions Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT IRS Transfer Pricing Audit Tax Years 2004-2017",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "MSFT 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Remaining Performance Obligations Revenue Recognition Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2022 Stock-Based Compensation Disclosure",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT 2020-2021 Senior Debt Exchange and Refinancing",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2022-07-28",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0001564590-22-026876.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "a48995ce92e28696b89bb8275f49d2447bbb2c31cb9648a05d08e4403a672478"
+    },
+    {
+      "extracted_at": "2026-07-20T15:00:10Z",
+      "payload": {
+        "chunks": [],
+        "entities": [],
+        "relationships": [],
+        "source_file": "filings/MSFT/0001564590-22-026876.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "d53986ae51554b368744a5aa7b36bf5b227240f3a993d048a3d12c2e5f08af41"
+    }
+  ],
+  "prompt_version": "v3"
+}

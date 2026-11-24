@@ -1,0 +1,127 @@
+{
+  "accession": "0000002488-24-000012",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-10-14T01:15:54Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "We have an approved stock repurchase program authorizing repurchases of up to $12 billion of our common stock (Repurchase Program). We expect to fund repurchases through cash generated from operations. Our Repurchase Program does not obligate us to acquire any common stock, has no termination date and may be suspended or discontinued at any time.",
+            "entity_name": "AMD $12B Stock Repurchase Program",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Oct 29, 2023 - Nov 25, 2023781,106 $119.59 781,106 $5,694 \n\nNov 26, 2023 - Dec 30, 20231,164,316 $119.99 1,164,316 $5,555 \n\nTotal1,945,422 1,945,422",
+            "entity_name": "AMD Q4 FY2023 Open Market Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal year 2023, we withheld 4 million shares at an average price of $110.51 per share as payment of withholding taxes in connection with the vesting and exercise of equity awards.",
+            "entity_name": "AMD FY2023 Equity Award Tax Withholding",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "AMD Repurchase Program"
+            ],
+            "attributes": {
+              "amount_usd": 12000000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD $12B Stock Repurchase Program",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "period": "Q4 FY2023",
+              "remaining_program_authorization_usd": 5555000000,
+              "return_type": "buyback",
+              "shares": 1945422
+            },
+            "identifiers": {},
+            "name": "AMD Q4 FY2023 Open Market Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "AMD FY2023 share withholding for taxes"
+            ],
+            "attributes": {
+              "note": "Shares withheld as payment of withholding taxes on equity award vesting/exercise; not part of authorized repurchase program",
+              "per_share": 110.51,
+              "period": "FY2023",
+              "return_type": "buyback",
+              "shares": 4000000
+            },
+            "identifiers": {},
+            "name": "AMD FY2023 Equity Award Tax Withholding",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD $12B Stock Repurchase Program",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Q4 FY2023 Open Market Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD FY2023 Equity Award Tax Withholding",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-24-000012.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "7dd4d0a2b20c23b6e95fdfedc70417e04a622c4ccb05d205779fa8546c74b90c"
+    }
+  ],
+  "prompt_version": "v3"
+}

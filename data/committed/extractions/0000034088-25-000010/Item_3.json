@@ -1,0 +1,162 @@
+{
+  "accession": "0000034088-25-000010",
+  "item": "Item_3",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T02:16:25Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In October 2024, XTO entered into a consent decree with the Department of Justice (DOJ) and the Department of Environmental Protection of Pennsylvania to resolve these alleged violations upon payment of a $4.0 million penalty. On December 13, 2024, the United States District Court for the Western District of Pennsylvania entered the consent decree, and XTO paid the civil penalty of $4.0 million.",
+            "entity_name": "XTO Energy Butler County EPA NSPS Consent Decree",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The EPA alleged XTO breached its duty under the General Duty Clause of the Clean Air Act for the Schnegg well, and such breaches resulted in the 2018 well blowout. In December 2024, XTO signed a consent decree with the DOJ to resolve these alleged violations upon payment of an $8.0 million penalty, which XTO intends to pay in March 2025.",
+            "entity_name": "XTO Energy Schnegg Well Ohio Clean Air Act Consent Decree",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On December 11, 2024, the Fifth Circuit affirmed the Texas District Court's judgment assessing a $14.25 million penalty against ExxonMobil. ExxonMobil is continuing to evaluate its available options, including seeking review in the U.S. Supreme Court.",
+            "entity_name": "Environment Texas Citizen Lobby v. Exxon Mobil Corporation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Butler County Notice of Violation",
+              "XTO Pennsylvania NSPS Title V violation"
+            ],
+            "attributes": {
+              "counterparty": "EPA; DOJ; Department of Environmental Protection of Pennsylvania",
+              "court": "United States District Court for the Western District of Pennsylvania",
+              "location": "Butler County, Pennsylvania",
+              "penalty_usd": 4000000,
+              "settlement_date": "2024-12-13",
+              "status": "settled"
+            },
+            "identifiers": {},
+            "name": "XTO Energy Butler County EPA NSPS Consent Decree",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Schnegg well blowout litigation",
+              "XTO DOJ Ohio General Duty Clause action"
+            ],
+            "attributes": {
+              "counterparty": "EPA; DOJ",
+              "location": "Powhatan Point, Ohio",
+              "penalty_usd": 8000000,
+              "status": "settled",
+              "underlying_event": "2018 well blowout"
+            },
+            "identifiers": {},
+            "name": "XTO Energy Schnegg Well Ohio Clean Air Act Consent Decree",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Baytown Clean Air Act citizen suit",
+              "Environment Texas v. ExxonMobil Fifth Circuit"
+            ],
+            "attributes": {
+              "counterparty": "Environment Texas Citizen Lobby, Inc.",
+              "court": "U.S. Court of Appeals for the Fifth Circuit",
+              "location": "Baytown complex",
+              "next_step": "potential U.S. Supreme Court review",
+              "penalty_usd": 14250000,
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "Environment Texas Citizen Lobby v. Exxon Mobil Corporation",
+            "type": "LegalProceeding"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "XTO Energy Butler County EPA NSPS Consent Decree",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "XTO Energy Schnegg Well Ohio Clean Air Act Consent Decree",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Environment Texas Citizen Lobby v. Exxon Mobil Corporation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "new_status": "settled",
+              "prior_status": "pending"
+            },
+            "source_name": "XTO Energy Butler County EPA NSPS Consent Decree",
+            "source_type_entity": "LegalProceeding",
+            "target_name": "XOM 10-K 2024",
+            "target_type_entity": "Filing",
+            "type": "legal_proceeding_status_changed_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "new_status": "settled",
+              "prior_status": "pending"
+            },
+            "source_name": "XTO Energy Schnegg Well Ohio Clean Air Act Consent Decree",
+            "source_type_entity": "LegalProceeding",
+            "target_name": "XOM 10-K 2024",
+            "target_type_entity": "Filing",
+            "type": "legal_proceeding_status_changed_in",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-25-000010.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "59fdca70fcc1a9ab72f57560173f78cdfcb5b5fac76f2e199eefb8b0d077c24e"
+    }
+  ],
+  "prompt_version": "v3"
+}

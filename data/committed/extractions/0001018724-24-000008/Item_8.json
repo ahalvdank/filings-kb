@@ -1,0 +1,289 @@
+{
+  "accession": "0001018724-24-000008",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T06:52:54Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "For example, in Q4 2023 we completed a useful life study for our servers and are increasing the useful life from five years to six years in January 2024, which, based on servers that are included in \"Property and equipment, net\" as of December 31, 2023, will have an anticipated impact to our 2024 operating income of $3.1 billion. We had previously increased the useful life of our servers from four years to five years in January 2022.",
+            "entity_name": "AMZN Q4-2023 Server Useful Life Extension to Six Years",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "For example, in Q4 2023 we completed a useful life study for our servers and are increasing the useful life from five years to six years in January 2024, which, based on servers that are included in \"Property and equipment, net\" as of December 31, 2023, will have an anticipated impact to our 2024 operating income of $3.1 billion.",
+            "entity_name": "AMZN FY2024 Operating Income Impact from Server Useful Life Extension",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2024-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "For the year ended December 31, 2022, we recorded approximately $1.1 billion, of which $720 million was recorded in the fourth quarter, of impairments of property and equipment and operating leases primarily related to physical stores. These charges were recorded in \"Other operating expense (income), net\" on our consolidated statements of operations and primarily impacted our North America segment. For the year ended December 31, 2022, we also recorded expenses of approximately $480 million, primarily in \"Fulfillment\", on our consolidated statements of operations primarily relating to terminating contracts for certain leases not yet commenced as well as other purchase commitments, which primarily impacted our North America segment.",
+            "entity_name": "AMZN 2022 Physical Store Impairments and Lease Terminations",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "For the year ended December 31, 2022, we recorded approximately $720 million, of which $640 million was recorded in the fourth quarter, of estimated severance costs primarily related to planned role eliminations. These charges were recorded primarily in \"Technology and infrastructure,\" \"Fulfillment,\" and \"General and administrative\" on our consolidated statements of operations and primarily impacted our North America segment.",
+            "entity_name": "AMZN 2022 Severance Charges for Role Eliminations",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On May 27, 2022, we effected a 20-for-1 stock split of our common stock and proportionately increased the number of authorized shares of common stock. All share, restricted stock unit (\"RSU\"), and per share or per RSU information throughout this Annual Report on Form 10-K has been retroactively adjusted to reflect the stock split. The shares of common stock retain a par value of $0.01 per share.",
+            "entity_name": "AMZN May 2022 20-for-1 Stock Split",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "the Company is subject to income taxes in the U.S. and numerous foreign jurisdictions and during the ordinary course of business, there are many tax positions for which the ultimate tax determination is uncertain. As a result, significant judgment is required in evaluating the Company's tax positions and determining its provision for income taxes. The Company uses significant judgment in (1) determining whether a tax position's technical merits are more likely than not to be sustained and (2) measuring the amount of tax benefit that qualifies for recognition. As of December 31, 2023, the Company reported accrued liabilities of $5.2 billion for various tax contingencies.",
+            "entity_name": "AMZN Uncertain Tax Positions",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In Q3 2023, we invested in a $1.25 billion note from Anthropic, PBC, which is convertible to equity. The note is classified as available for sale and reported at fair value with unrealized gains and losses included in \"Accumulated other comprehensive income (loss).\" The note is classified as a Level 3 asset. We have an agreement that expires in Q1 2024 to invest up to an additional $2.75 billion in a second convertible note. We also have a commercial arrangement primarily for the provision of AWS cloud services, which includes the use of AWS chips.",
+            "entity_name": "AMZN Q3-2023 Anthropic Convertible Note Investment",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-02-01",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Amazon",
+              "AMZN"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMZN"
+            },
+            "name": "Amazon.com, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Amazon server depreciation useful life change January 2024"
+            ],
+            "attributes": {
+              "anticipated_operating_income_impact_usd": 3100000000,
+              "effective_date": "2024-01",
+              "event_type": "accounting_change",
+              "impact_period": "FY2024",
+              "new_useful_life_years": 6,
+              "prior_useful_life_years": 5
+            },
+            "identifiers": {},
+            "name": "AMZN Q4-2023 Server Useful Life Extension to Six Years",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "operating_income_impact_from_server_useful_life_change",
+              "new_value": 3100000000,
+              "period": "FY2024",
+              "unit": "USD",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "AMZN FY2024 Operating Income Impact from Server Useful Life Extension",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Amazon 2022 physical store charges"
+            ],
+            "attributes": {
+              "contract_termination_expenses_usd": 480000000,
+              "event_type": "restructuring",
+              "impairment_charges_usd": 1100000000,
+              "period": "FY2022",
+              "primary_segment": "North America"
+            },
+            "identifiers": {},
+            "name": "AMZN 2022 Physical Store Impairments and Lease Terminations",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Amazon 2022 layoff charges",
+              "Amazon 2022 headcount reduction"
+            ],
+            "attributes": {
+              "event_type": "restructuring",
+              "period": "FY2022",
+              "primary_segment": "North America",
+              "q4_portion_usd": 640000000,
+              "severance_costs_usd": 720000000
+            },
+            "identifiers": {},
+            "name": "AMZN 2022 Severance Charges for Role Eliminations",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Amazon 2022 stock split"
+            ],
+            "attributes": {
+              "effective_date": "2022-05-27",
+              "event_type": "stock_split",
+              "split_ratio": "20-for-1"
+            },
+            "identifiers": {},
+            "name": "AMZN May 2022 20-for-1 Stock Split",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Amazon tax contingencies",
+              "Amazon uncertain income tax positions"
+            ],
+            "attributes": {
+              "accrued_contingency_usd": 5200000000,
+              "as_of_date": "2023-12-31",
+              "category": "tax"
+            },
+            "identifiers": {},
+            "name": "AMZN Uncertain Tax Positions",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Amazon Anthropic investment 2023"
+            ],
+            "attributes": {
+              "additional_commitment_usd": 2750000000,
+              "commercial_arrangement": "AWS cloud services provision",
+              "commitment_expiry": "2024-Q1",
+              "counterparty": "Anthropic, PBC",
+              "event_type": "joint_venture",
+              "instrument": "convertible_note",
+              "investment_usd": 1250000000
+            },
+            "identifiers": {},
+            "name": "AMZN Q3-2023 Anthropic Convertible Note Investment",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Q4-2023 Server Useful Life Extension to Six Years",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "AMZN 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN FY2024 Operating Income Impact from Server Useful Life Extension",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2024-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN 2022 Physical Store Impairments and Lease Terminations",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN 2022 Severance Charges for Role Eliminations",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN May 2022 20-for-1 Stock Split",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Uncertain Tax Positions",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2024-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Q3-2023 Anthropic Convertible Note Investment",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-02-01",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-24-000008.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "75a490be0089032c2f0b2472954c578225c990a7743846430722acee6a966205"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,14 @@
+.superpowers/
+.env
+.venv/
+data/raw/
+data/chroma/
+*.sqlite
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.DS_Store
+data/rejected/
+data/audit_list.local.md
+data/local/
+data/run_log.json

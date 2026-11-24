@@ -1,0 +1,107 @@
+{
+  "accession": "0001193125-26-323660",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-11-02T03:52:46Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "We returned $10.2 billion to shareholders in the form of share repurchases and dividends in the fourth quarter of fiscal year 2026.",
+            "entity_name": "MSFT Q4 FY2026 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Q4 FY2026 total shares repurchased: 8,389,689; remaining authorization approximately $40.63 billion",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "All share repurchases were made using cash resources. Our share repurchases may occur through open market purchases or pursuant to a Rule 10b5-1 trading plan.",
+            "entity_name": "MSFT Q4 FY2026 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Our Board of Directors declared the following dividends during the fourth quarter of fiscal year 2026: Declaration Date June 10, 2026; Record Date August 20, 2026; Payment Date September 10, 2026; Dividend Per Share $0.91; Amount $6,759 million.",
+            "entity_name": "MSFT Q4 FY2026 Dividend Declaration",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-07-30",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft Q4 FY2026 buyback"
+            ],
+            "attributes": {
+              "period": "Q4 FY2026",
+              "remaining_authorization_usd": 40630000000,
+              "return_type": "buyback",
+              "shares": 8389689
+            },
+            "identifiers": {},
+            "name": "MSFT Q4 FY2026 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Microsoft $0.91 quarterly dividend"
+            ],
+            "attributes": {
+              "amount_usd": 6759000000,
+              "declaration_date": "2026-06-10",
+              "effective_date": "2026-09-10",
+              "per_share": 0.91,
+              "record_date": "2026-08-20",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "MSFT Q4 FY2026 Dividend Declaration",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Q4 FY2026 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Q4 FY2026 Dividend Declaration",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-07-30",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0001193125-26-323660.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "3218435555ae9bda2addddcd00c80c435906e577bac95a940d57c1e219c46abb"
+    }
+  ],
+  "prompt_version": "v3"
+}

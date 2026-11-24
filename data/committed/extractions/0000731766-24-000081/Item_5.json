@@ -1,0 +1,105 @@
+{
+  "accession": "0000731766-24-000081",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T23:16:12Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In June 2023, our Board of Directors increased the Company's quarterly cash dividend to shareholders to an annual rate of $7.52 compared to $6.60 per share, which the Company had paid since June 2022.",
+            "entity_name": "UNH June 2023 Quarterly Dividend Increase",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In June 2018, the Board of Directors renewed our share repurchase program with an authorization to repurchase up to 100 million shares of our common stock in open market purchases or other types of transactions (including prepaid or structured repurchase programs). There is no established expiration date for the program.",
+            "entity_name": "UNH Q4 2023 Open-Market Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UnitedHealth Group",
+              "UNH"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "UNH"
+            },
+            "name": "UnitedHealth Group Incorporated",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "annual_rate_new": 7.52,
+              "annual_rate_prior": 6.6,
+              "effective_date": "2023-06",
+              "per_share_quarterly_new": 1.88,
+              "return_type": "dividend_increase"
+            },
+            "identifiers": {},
+            "name": "UNH June 2023 Quarterly Dividend Increase",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "UNH Q4 2023 buybacks"
+            ],
+            "attributes": {
+              "average_price_usd": 535.34,
+              "period": "Q4 2023",
+              "remaining_authorization_shares": 14900000,
+              "return_type": "buyback",
+              "shares": 2800000
+            },
+            "identifiers": {},
+            "name": "UNH Q4 2023 Open-Market Share Repurchases",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH June 2023 Quarterly Dividend Increase",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Q4 2023 Open-Market Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-24-000081.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "393451e13cc8e1d56cc911abc9b647337c6375b2fa3802e19cfd8662fef3a609"
+    }
+  ],
+  "prompt_version": "v3"
+}

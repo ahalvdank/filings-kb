@@ -1,0 +1,195 @@
+{
+  "accession": "0000012927-23-000007",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T09:24:05Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "364-Day Credit Agreement, dated as of August 25, 2022, among The Boeing Company for itself and on behalf of its Subsidiaries, as a Borrower, the Lenders party hereto, Citibank, N.A., as administrative agent, JPMorgan Chase Bank, N.A. as syndication agent and Citibank, N.A. and JPMorgan Chase Bank N.A., as joint lead arrangers and joint book managers",
+            "entity_name": "BA 364-Day Credit Agreement (August 2022)",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Three-Year Credit Agreement, dated as of August 25, 2022, among The Boeing Company for itself and on behalf of its Subsidiaries, as a Borrower, the Lenders party hereto, Citibank, N.A., as administrative agent, JPMorgan Chase Bank, N.A., as syndication agent and Citibank, N.A. and JPMorgan Chase Bank, N.A., as joint lead arrangers and joint book managers",
+            "entity_name": "BA Three-Year Credit Agreement (August 2022)",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Five-Year Credit Agreement, dated as of October 30, 2019, among The Boeing Company, for itself and on behalf of its Subsidiaries, as a Borrower, the Lenders party hereto, Citibank, N.A., as administrative agent, JPMorgan Chase Bank, N.A., as syndication agent and Citibank N.A. and JPMorgan Chase Bank, N.A., as joint lead arrangers and joint book managers",
+            "entity_name": "BA Five-Year Credit Agreement (October 2019, Amended August 2022)",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Deferred Prosecution Agreement dated January 6, 2021",
+            "entity_name": "Boeing Deferred Prosecution Agreement (January 2021)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Joint Venture Master Agreement, dated as of May 2, 2005, by and among Lockheed Martin Corporation, The Boeing Company and United Launch Alliance, L.L.C.",
+            "entity_name": "United Launch Alliance Joint Venture",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "administrative_agent": "Citibank, N.A.",
+              "effective_date": "2022-08-25",
+              "instrument_type": "revolver",
+              "syndication_agent": "JPMorgan Chase Bank, N.A."
+            },
+            "identifiers": {},
+            "name": "BA 364-Day Credit Agreement (August 2022)",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "administrative_agent": "Citibank, N.A.",
+              "effective_date": "2022-08-25",
+              "instrument_type": "revolver",
+              "syndication_agent": "JPMorgan Chase Bank, N.A."
+            },
+            "identifiers": {},
+            "name": "BA Three-Year Credit Agreement (August 2022)",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "administrative_agent": "Citibank, N.A.",
+              "amendment_date": "2022-08-25",
+              "effective_date": "2019-10-30",
+              "instrument_type": "revolver",
+              "syndication_agent": "JPMorgan Chase Bank, N.A."
+            },
+            "identifiers": {},
+            "name": "BA Five-Year Credit Agreement (October 2019, Amended August 2022)",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing DPA"
+            ],
+            "attributes": {
+              "effective_date": "2021-01-06",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Boeing Deferred Prosecution Agreement (January 2021)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "ULA JV",
+              "Boeing Lockheed Martin ULA JV"
+            ],
+            "attributes": {
+              "effective_date": "2005-05-02",
+              "event_type": "joint_venture",
+              "parties": [
+                "Lockheed Martin Corporation",
+                "The Boeing Company",
+                "United Launch Alliance, L.L.C."
+              ]
+            },
+            "identifiers": {},
+            "name": "United Launch Alliance Joint Venture",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA 364-Day Credit Agreement (August 2022)",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Three-Year Credit Agreement (August 2022)",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Five-Year Credit Agreement (October 2019, Amended August 2022)",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Deferred Prosecution Agreement (January 2021)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "United Launch Alliance Joint Venture",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-23-000007.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "0a6205b15b20a46012fef44621532d1f185c8ec0c32662dd4e71d9ea139ac2e0"
+    }
+  ],
+  "prompt_version": "v3"
+}

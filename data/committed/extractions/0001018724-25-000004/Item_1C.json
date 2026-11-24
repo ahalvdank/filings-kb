@@ -1,0 +1,104 @@
+{
+  "accession": "0001018724-25-000004",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T05:44:53Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have processes in place for assessing, identifying, and managing material risks from potential unauthorized occurrences on or through our electronic information systems that could adversely affect the confidentiality, integrity, or availability of our information systems or the information residing on those systems.",
+            "entity_name": "AMZN Cybersecurity and Information Systems Security Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As part of our risk management process, we conduct application security assessments, vulnerability management, penetration testing, security audits, and ongoing risk assessments. We also maintain a variety of incident response plans that are utilized when incidents are detected.",
+            "entity_name": "AMZN Cybersecurity and Information Systems Security Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We also use systems and processes designed to reduce the impact of a security incident at a third-party vendor or customer. Additionally, we use processes to oversee and identify material risks from cybersecurity threats associated with our use of third-party technology and systems, including: technology and systems we use for encryption and authentication; employee email; content delivery to customers; back-office support; and other functions.",
+            "entity_name": "AMZN Third-Party Vendor Cybersecurity Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Amazon cybersecurity risk",
+              "Amazon data security risk",
+              "unauthorized access risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "description": "unauthorized occurrences on or through electronic information systems that could adversely affect confidentiality, integrity, or availability of information systems or information residing on those systems"
+            },
+            "identifiers": {},
+            "name": "AMZN Cybersecurity and Information Systems Security Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Amazon third-party technology security risk",
+              "third-party vendor security incident risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "description": "material risks from cybersecurity threats associated with use of third-party technology and systems",
+              "subcategory": "third_party_vendor"
+            },
+            "identifiers": {},
+            "name": "AMZN Third-Party Vendor Cybersecurity Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Cybersecurity and Information Systems Security Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Third-Party Vendor Cybersecurity Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-25-000004.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "f4caf5e445dc4b835988ab67dd5dd45cb3547fa0f0dce0e01ebb6ee9d14291a1"
+    }
+  ],
+  "prompt_version": "v3"
+}

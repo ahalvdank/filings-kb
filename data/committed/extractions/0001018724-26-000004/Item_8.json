@@ -1,0 +1,1283 @@
+{
+  "accession": "0001018724-26-000004",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T04:58:07Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "During Q3 2025, we recorded $2.5 billion of expense related to the settlement of a lawsuit with the FTC. This charge was recorded in \"Other operating expense (income), net\" and impacted our North America segment.",
+            "entity_name": "Amazon FTC Lawsuit Settlement (Q3 2025)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Of this total, $1.1 billion related to the resolution of tax disputes associated with our stores business in Italy, and the settlement of a lawsuit, recorded primarily in \"Other operating expense (income), net\" and \"Fulfillment,\" and primarily impacted our International segment.",
+            "entity_name": "Amazon Italy Stores Tax Disputes and Lawsuit Settlement (Q4 2025)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "For the year ended December 31, 2025, we recorded approximately $2.7 billion of estimated severance costs primarily related to planned role eliminations, of which $1.8 billion was recorded in Q3 2025 and $730 million was recorded in the fourth quarter. These charges increased our payroll and related expenses, were recorded primarily in \"Technology and infrastructure,\" \"Fulfillment,\" and \"Sales and marketing,\" and impacted all of our segments.",
+            "entity_name": "Amazon FY2025 Workforce Reduction",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Effective January 1, 2025 we changed our estimate of the useful lives of a subset of our servers and networking equipment from six years to five years. The shorter useful lives are due to the increased pace of technology development, particularly in the area of artificial intelligence and machine learning. The effect of this change in estimate for the year ended December 31, 2025, based on servers and networking equipment that were included in \"Property and equipment, net\" as of December 31, 2024 and those acquired during the year ended December 31, 2025, was an increase in depreciation and amortization expense of $1.4 billion and a reduction in net income of $1.0 billion, or $0.10 per basic share and $0.10 per diluted share, which primarily impacted our AWS segment.",
+            "entity_name": "Amazon FY2025 Server and Networking Equipment Useful Life Change",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "For the year ended December 31, 2025, we recorded approximately $1.3 billion of asset impairments, of which $610 million was recorded in the fourth quarter, primarily consisting of property and equipment and operating leases related to physical stores. These fourth quarter charges were recorded in \"Other operating expense (income), net\" and primarily impacted our North America segment.",
+            "entity_name": "Amazon FY2025 Physical Store Asset Impairments",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Proceeds from long-term debt— — 15,673",
+            "entity_name": "Amazon FY2025 Long-term Debt Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "FTC lawsuit settlement"
+            ],
+            "attributes": {
+              "counterparty": "Federal Trade Commission",
+              "quarter_settled": "Q3 2025",
+              "settlement_expense_usd": 2500000000,
+              "status": "settled"
+            },
+            "identifiers": {},
+            "name": "Amazon FTC Lawsuit Settlement (Q3 2025)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Italy tax disputes settlement",
+              "Italy stores lawsuit settlement"
+            ],
+            "attributes": {
+              "geography": "Italy",
+              "quarter_settled": "Q4 2025",
+              "settlement_expense_usd": 1100000000,
+              "status": "settled"
+            },
+            "identifiers": {},
+            "name": "Amazon Italy Stores Tax Disputes and Lawsuit Settlement (Q4 2025)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "2025 role eliminations",
+              "2025 planned headcount reduction"
+            ],
+            "attributes": {
+              "event_type": "restructuring",
+              "period": "FY2025",
+              "severance_expense_usd": 2700000000
+            },
+            "identifiers": {},
+            "name": "Amazon FY2025 Workforce Reduction",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "2025 server depreciation estimate change",
+              "server useful life reduction to five years"
+            ],
+            "attributes": {
+              "effective_date": "2025-01-01",
+              "event_type": "accounting_change",
+              "incremental_depreciation_usd": 1400000000,
+              "net_income_impact_usd": -1000000000,
+              "new_useful_life_years": 5,
+              "primary_segment_impacted": "AWS",
+              "prior_useful_life_years": 6
+            },
+            "identifiers": {},
+            "name": "Amazon FY2025 Server and Networking Equipment Useful Life Change",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "2025 physical store impairment charges"
+            ],
+            "attributes": {
+              "asset_description": "property_and_equipment_and_operating_leases_related_to_physical_stores",
+              "event_type": "restructuring",
+              "impairment_expense_usd": 1300000000,
+              "period": "FY2025"
+            },
+            "identifiers": {},
+            "name": "Amazon FY2025 Physical Store Asset Impairments",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "2025 long-term debt proceeds"
+            ],
+            "attributes": {
+              "instrument_type": "notes",
+              "issuance_period": "FY2025",
+              "principal_usd": 15673000000
+            },
+            "identifiers": {},
+            "name": "Amazon FY2025 Long-term Debt Issuance",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Amazon FTC Lawsuit Settlement (Q3 2025)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Amazon Italy Stores Tax Disputes and Lawsuit Settlement (Q4 2025)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Amazon FY2025 Workforce Reduction",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Amazon FY2025 Server and Networking Equipment Useful Life Change",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Amazon FY2025 Physical Store Asset Impairments",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Amazon FY2025 Long-term Debt Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2026-02-05",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-26-000004.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "cf9933252fa743f1030fcd618bc4e44c35d4fde290aee63894865c420aafa896"
+    },
+    {
+      "extracted_at": "2026-06-22T05:08:31Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "The North America segment primarily consists of amounts earned from retail sales of consumer products (including from sellers) and advertising and subscription services through North America-focused online and physical stores. This segment includes export sales from these online stores.",
+            "entity_name": "AMZN North America Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "The International segment primarily consists of amounts earned from retail sales of consumer products (including from sellers) and advertising and subscription services through internationally-focused online stores. This segment includes export sales from these internationally-focused online stores (including export sales from these online stores to customers in the U.S., Mexico, and Canada), but excludes export sales from our North America-focused online stores.",
+            "entity_name": "AMZN International Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "The AWS segment consists of amounts earned from global sales of compute, storage, database, and other services for start-ups, enterprises, government agencies, and academic institutions.",
+            "entity_name": "AMZN AWS Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In March 2024, the district court granted summary judgment ruling that the patent is invalid and dismissed the case. In April 2024, the plaintiffs filed a notice of appeal. We dispute the allegations of wrongdoing and will continue to defend ourselves vigorously in this matter.",
+            "entity_name": "Rensselaer Polytechnic Institute and CF Dynamic Advances LLC v. Amazon.com, Inc.",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In April 2024, a jury found that Amazon infringed the asserted patents and awarded Kove $525 million in damages. In August 2024, the court awarded Kove $148 million in pre-judgment interest. In September 2024, we filed a notice of appeal. We disagree with the jury's findings and will continue to defend ourselves vigorously in this matter.",
+            "entity_name": "Kove IO, Inc. v. Amazon Web Services, Inc.",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Beginning in June 2019 with Wilcosky v. Amazon.com, Inc., now pending in the United States District Court for the Northern District of Illinois (\"N.D. Ill.\"), private litigants have filed a number of cases in U.S. federal and state courts, including Hogan v. Amazon.com, Inc. (N.D. Ill.), alleging, among other things, that Amazon's collection, storage, use, retention, and protection of biometric identifiers violated the Illinois Biometric Information Privacy Act.",
+            "entity_name": "Amazon Biometric Privacy Class Actions (Wilcosky et al.)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Since March 2020, private litigants, state Attorneys General, and the Federal Trade Commission have filed cases in the U.S., Canada, and the United Kingdom alleging, among other things: price fixing arrangements between each of Amazon and its vendors and Amazon and its third-party sellers; abuse of dominance, monopolization, and attempted monopolization; and consumer protection and unjust enrichment claims, in violation of federal and state antitrust, state consumer protection, and Canadian and U.K. antitrust laws.",
+            "entity_name": "Amazon Antitrust Class Actions (Frame-Wilson et al.)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In July 2021, the Luxembourg National Commission for Data Protection (the \"CNPD\") issued a decision against Amazon Europe Core S.à r.l. claiming that Amazon's processing of personal data did not comply with the EU General Data Protection Regulation. The decision imposes a fine of €746 million and corresponding practice revisions. In March 2025, the Luxembourg Administrative Court dismissed our appeal of the CNPD's decision. In April 2025, we appealed the court's decision to the Luxembourg Administrative Court of Appeal.",
+            "entity_name": "CNPD v. Amazon Europe Core S.à r.l. (Luxembourg GDPR Fine)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In December 2021, the Italian Competition Authority (the \"ICA\") issued a decision against Amazon Services Europe S.à r.l., Amazon Europe Core S.à r.l., Amazon EU S.à r.l., Amazon Italia Services S.r.l., and Amazon Italia Logistica S.r.l. claiming that certain of our marketplace and logistics practices in Italy infringe EU competition rules. The decision imposes remedial actions and a fine of €1.13 billion, which we have paid and will seek to recover pending conclusion of all appeals. In September 2025, the Italian Administrative Tribunal (the \"TAR\") affirmed the ICA's decision but reduced the fine to €752 million. In December 2025, we appealed the TAR's ruling.",
+            "entity_name": "Italian Competition Authority (ICA) v. Amazon (Italian Competition Fine)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In June 2025, Xockets, Inc. filed two complaints against Amazon.com, Inc. and Amazon Web Services, Inc. in the United States District Court for the Western District of Texas. The complaints allege, among other things, that certain versions of the AWS Nitro System infringe U.S. Patent Nos. 11,080,209; 10,649,924; 11,082,350; 10,223,297; 9,378,161; 9,436,640; and 10,212,092. The complaints seek an unspecified amount of damages, enhanced damages, attorneys' fees, costs, interest, and injunctive relief.",
+            "entity_name": "Xockets, Inc. v. Amazon.com, Inc. and Amazon Web Services, Inc.",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Beginning in November 2025, InterDigital, Inc. and related entities filed complaints alleging infringement of patents on video-related technologies against Amazon.com, Inc. and related entities in multiple courts in the United States, Germany, and Brazil, the Unified Patent Court of the European Union, and the United States International Trade Commission. The complaints were filed after Amazon's August 2025 rate-setting complaint on video-related technologies was filed against InterDigital and related entities in the United Kingdom.",
+            "entity_name": "InterDigital, Inc. v. Amazon.com, Inc. (Video Patent Litigation)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In December 2025, Primos Storage Technology LLC filed a complaint against Amazon.com, Inc. and Amazon Web Services, Inc. in the United States District Court for the District of Delaware. The complaint alleges, among other things, that Amazon S3, Amazon EMR, Amazon EC2 instances using Amazon EBS, and Amazon FSx for Lustre infringe U.S. Patent Nos. 7,386,663; 7,937,528; and 10,599,344, and that Amazon S3 and Amazon EMR infringe U.S. Patent Nos. 8,078,944 and 8,312,356.",
+            "entity_name": "Primos Storage Technology LLC v. Amazon.com, Inc. and Amazon Web Services, Inc.",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 9",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In September 2022, the Luxembourg tax authority (\"LTA\") denied the tax basis of certain intangible assets that we distributed from Luxembourg to the U.S. in 2021. When we are assessed by the LTA, we will need to remit taxes related to this matter. We believe the LTA's position is without merit, we intend to defend ourselves vigorously in this matter, and we expect to recoup taxes paid.",
+            "entity_name": "Luxembourg Tax Authority (LTA) Amazon Intangibles Tax Dispute",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 9",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The Indian tax authority (\"ITA\") has asserted that tax applies to cloud services fees paid to Amazon in the U.S. We will need to remit taxes related to this matter until it is resolved, which payments could be significant in the aggregate. We believe the ITA's position is without merit, we are defending our position vigorously, and we expect to recoup taxes paid. If this matter is adversely resolved, we could recognize significant additional tax expense, including for taxes previously paid.",
+            "entity_name": "Indian Tax Authority (ITA) Amazon Cloud Services Tax Dispute",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 6",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "As of December 31, 2025, we had $68.0 billion of unsecured senior notes outstanding (the \"Notes\"), including $15.0 billion issued in November 2025 for general corporate purposes.",
+            "entity_name": "AMZN November 2025 $15.0B Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 6",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In April 2025, we increased the size of the Commercial Paper Programs from $20.0 billion to $30.0 billion. There were no borrowings outstanding under the Commercial Paper Programs as of December 31, 2024 and 2025. We use the net proceeds from the issuance of commercial paper for general corporate purposes.",
+            "entity_name": "AMZN April 2025 Commercial Paper Program Expansion to $30.0B",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 6",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In October 2025, we entered into a $5.0 billion unsecured 364-day revolving credit facility with a syndicate of lenders (the \"Short-Term Credit Agreement\"), which replaced the prior 364-day revolving credit agreement entered into in October 2024. The Short-Term Credit Agreement matures in October 2026 and may be extended for one additional period of 364 days subject to approval by the lenders.",
+            "entity_name": "AMZN October 2025 $5.0B Short-Term Revolving Credit Agreement",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 8",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "In March 2022, the Board of Directors authorized a program to repurchase up to $10.0 billion of our common stock, with no fixed expiration. There were no repurchases of our common stock in 2023, 2024, or 2025. As of December 31, 2025, we have $6.1 billion remaining under the repurchase program.",
+            "entity_name": "AMZN March 2022 $10.0B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 9",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "The 2025 Tax Act was signed into law on July 4, 2025. The 2025 Tax Act makes changes to the U.S. corporate income tax, including reinstating the option to claim 100% accelerated depreciation deductions on qualified property, with retroactive application beginning January 20, 2025, and immediate expensing of domestic research and development costs, with retroactive application beginning January 1, 2025. For 2025, the 2025 Tax Act increased our income tax provision, primarily due to a decrease in the foreign income deduction, and significantly decreased our cash taxes.",
+            "entity_name": "2025 Tax Act — U.S. Corporate Tax Law Changes",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 5",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On February 22, 2023, we acquired 1Life Healthcare, Inc. (One Medical), for cash consideration of approximately $3.5 billion, net of cash acquired, to provide healthcare options for customers. The acquired assets primarily consist of $1.3 billion of intangible assets and $2.5 billion of goodwill, which is allocated to our North America segment.",
+            "entity_name": "AMZN Acquisition of 1Life Healthcare, Inc. (One Medical)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "North America"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "North America",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN North America Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "International"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "International",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN International Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AWS",
+              "Amazon Web Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "AWS",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN AWS Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "RPI v. Amazon Alexa patent litigation"
+            ],
+            "attributes": {
+              "alleged_damages_range_usd": [
+                140000000,
+                267000000
+              ],
+              "counterparty": "Rensselaer Polytechnic Institute; CF Dynamic Advances LLC",
+              "court": "United States District Court for the Northern District of New York",
+              "patent_numbers": [
+                "7,177,798"
+              ],
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "Rensselaer Polytechnic Institute and CF Dynamic Advances LLC v. Amazon.com, Inc.",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Kove v. AWS S3 DynamoDB patent litigation"
+            ],
+            "attributes": {
+              "counterparty": "Kove IO, Inc.",
+              "court": "United States District Court for the Northern District of Illinois",
+              "jury_award_usd": 525000000,
+              "patent_numbers": [
+                "7,814,170",
+                "7,103,640",
+                "7,233,978"
+              ],
+              "prejudgment_interest_usd": 148000000,
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "Kove IO, Inc. v. Amazon Web Services, Inc.",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Wilcosky v. Amazon",
+              "Hogan v. Amazon",
+              "Amazon BIPA litigation"
+            ],
+            "attributes": {
+              "counterparty": "Private litigants",
+              "court": "United States District Court for the Northern District of Illinois and other federal and state courts",
+              "status": "pending",
+              "subject": "Illinois Biometric Information Privacy Act violations"
+            },
+            "identifiers": {},
+            "name": "Amazon Biometric Privacy Class Actions (Wilcosky et al.)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Frame-Wilson v. Amazon",
+              "Amazon antitrust litigation"
+            ],
+            "attributes": {
+              "counterparty": "Private litigants, state Attorneys General, Federal Trade Commission",
+              "court": "Multiple jurisdictions (U.S., Canada, United Kingdom)",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Amazon Antitrust Class Actions (Frame-Wilson et al.)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Amazon GDPR Luxembourg fine",
+              "CNPD Amazon GDPR decision"
+            ],
+            "attributes": {
+              "counterparty": "Luxembourg National Commission for Data Protection (CNPD)",
+              "court": "Luxembourg Administrative Court of Appeal",
+              "fine_eur": 746000000,
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "CNPD v. Amazon Europe Core S.à r.l. (Luxembourg GDPR Fine)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Amazon ICA Italy competition fine",
+              "Amazon Italian antitrust fine"
+            ],
+            "attributes": {
+              "counterparty": "Italian Competition Authority (ICA)",
+              "court": "Italian Administrative Tribunal; Amazon appealed December 2025",
+              "original_fine_eur": 1130000000,
+              "reduced_fine_eur": 752000000,
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "Italian Competition Authority (ICA) v. Amazon (Italian Competition Fine)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Xockets v. Amazon Nitro System patent litigation"
+            ],
+            "attributes": {
+              "counterparty": "Xockets, Inc.",
+              "court": "United States District Court for the Western District of Texas",
+              "patent_numbers": [
+                "11,080,209",
+                "10,649,924",
+                "11,082,350",
+                "10,223,297",
+                "9,378,161",
+                "9,436,640",
+                "10,212,092"
+              ],
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Xockets, Inc. v. Amazon.com, Inc. and Amazon Web Services, Inc.",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "InterDigital v. Amazon video patent",
+              "Amazon InterDigital Prime Video patents"
+            ],
+            "attributes": {
+              "counterparty": "InterDigital, Inc.",
+              "court": "Multiple courts (U.S., Germany, Brazil, Unified Patent Court of the European Union, United States International Trade Commission)",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "InterDigital, Inc. v. Amazon.com, Inc. (Video Patent Litigation)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Primos Storage v. Amazon S3 patent litigation"
+            ],
+            "attributes": {
+              "counterparty": "Primos Storage Technology LLC",
+              "court": "United States District Court for the District of Delaware",
+              "patent_numbers": [
+                "7,386,663",
+                "7,937,528",
+                "10,599,344",
+                "8,078,944",
+                "8,312,356"
+              ],
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Primos Storage Technology LLC v. Amazon.com, Inc. and Amazon Web Services, Inc.",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "LTA Luxembourg tax dispute",
+              "Amazon Luxembourg intangibles tax"
+            ],
+            "attributes": {
+              "counterparty": "Luxembourg tax authority (LTA)",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Luxembourg Tax Authority (LTA) Amazon Intangibles Tax Dispute",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "ITA India tax dispute",
+              "Amazon India cloud services withholding tax"
+            ],
+            "attributes": {
+              "counterparty": "Indian tax authority (ITA)",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Indian Tax Authority (ITA) Amazon Cloud Services Tax Dispute",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Amazon 2025 Notes issuance",
+              "AMZN 2025 debt issuance"
+            ],
+            "attributes": {
+              "coupon_range": "3.90%-5.55%",
+              "instrument_type": "notes",
+              "issuance_date": "2025-11",
+              "maturity_range": "2028-2065",
+              "principal_usd": 15000000000,
+              "purpose": "general_corporate_purposes"
+            },
+            "identifiers": {},
+            "name": "AMZN November 2025 $15.0B Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Amazon CP program expansion 2025"
+            ],
+            "attributes": {
+              "effective_date": "2025-04",
+              "instrument_type": "notes",
+              "new_capacity_usd": 30000000000,
+              "prior_capacity_usd": 20000000000
+            },
+            "identifiers": {},
+            "name": "AMZN April 2025 Commercial Paper Program Expansion to $30.0B",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Amazon Short-Term Credit Agreement 2025"
+            ],
+            "attributes": {
+              "effective_date": "2025-10",
+              "instrument_type": "revolver",
+              "maturity": "2026-10",
+              "principal_usd": 5000000000
+            },
+            "identifiers": {},
+            "name": "AMZN October 2025 $5.0B Short-Term Revolving Credit Agreement",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Amazon share buyback program",
+              "AMZN repurchase authorization"
+            ],
+            "attributes": {
+              "amount_usd": 10000000000,
+              "effective_date": "2022-03",
+              "remaining_usd": 6100000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "AMZN March 2022 $10.0B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "2025 Tax Act"
+            ],
+            "attributes": {
+              "effective_date": "2025-07-04",
+              "event_type": "accounting_change"
+            },
+            "identifiers": {},
+            "name": "2025 Tax Act — U.S. Corporate Tax Law Changes",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "One Medical acquisition",
+              "Amazon One Medical",
+              "1Life Healthcare acquisition"
+            ],
+            "attributes": {
+              "close_date": "2023-02-22",
+              "consideration": "cash",
+              "consideration_usd": 3500000000,
+              "event_type": "acquisition",
+              "target_company": "1Life Healthcare, Inc. (One Medical)"
+            },
+            "identifiers": {},
+            "name": "AMZN Acquisition of 1Life Healthcare, Inc. (One Medical)",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.1001,
+              "margin": 0.0695,
+              "operating_income": 29619000000,
+              "period": "FY2025",
+              "revenue": 426305000000
+            },
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN North America Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.1329,
+              "margin": 0.0293,
+              "operating_income": 4750000000,
+              "period": "FY2025",
+              "revenue": 161894000000
+            },
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN International Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.1969,
+              "margin": 0.3543,
+              "operating_income": 45606000000,
+              "period": "FY2025",
+              "revenue": 128725000000
+            },
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN AWS Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Rensselaer Polytechnic Institute and CF Dynamic Advances LLC v. Amazon.com, Inc.",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Kove IO, Inc. v. Amazon Web Services, Inc.",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Amazon Biometric Privacy Class Actions (Wilcosky et al.)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Amazon Antitrust Class Actions (Frame-Wilson et al.)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "CNPD v. Amazon Europe Core S.à r.l. (Luxembourg GDPR Fine)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Italian Competition Authority (ICA) v. Amazon (Italian Competition Fine)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Xockets, Inc. v. Amazon.com, Inc. and Amazon Web Services, Inc.",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "InterDigital, Inc. v. Amazon.com, Inc. (Video Patent Litigation)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Primos Storage Technology LLC v. Amazon.com, Inc. and Amazon Web Services, Inc.",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Luxembourg Tax Authority (LTA) Amazon Intangibles Tax Dispute",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Indian Tax Authority (ITA) Amazon Cloud Services Tax Dispute",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN November 2025 $15.0B Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN April 2025 Commercial Paper Program Expansion to $30.0B",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN October 2025 $5.0B Short-Term Revolving Credit Agreement",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN March 2022 $10.0B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "2025 Tax Act — U.S. Corporate Tax Law Changes",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Acquisition of 1Life Healthcare, Inc. (One Medical)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-26-000004.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "7e4684bc6f68d7e58a0bb6873167f78c60057c876cea17db2ceb6c8e2284b8a0"
+    },
+    {
+      "extracted_at": "2026-06-22T05:12:23Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "years": "2023, 2024, 2025"
+            },
+            "chunk_type": "segment",
+            "content": "Net sales attributed to countries that represent a significant portion of consolidated net sales are as follows (in millions): United States $395,637 $438,015 $489,657 Germany 37,588 40,856 45,900 United Kingdom 33,591 37,855 43,212 Japan 26,002 27,401 30,688 Rest of world 81,967 93,832 107,467 Consolidated $574,785 $637,959 $716,924",
+            "entity_name": "AMZN United States Net Sales",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "years": "2023, 2024, 2025"
+            },
+            "chunk_type": "segment",
+            "content": "Total segment assets reconciled to consolidated amounts are as follows (in millions): North America (1) $196,029 $210,120 $235,652 International (1) 69,718 69,487 81,984 AWS (2) 108,533 155,953 252,588 Corporate 153,574 189,334 247,818 Consolidated $527,854 $624,894 $818,042",
+            "entity_name": "AMZN AWS Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "years": "2023, 2024, 2025"
+            },
+            "chunk_type": "segment",
+            "content": "Property and equipment, net by segment is as follows (in millions): North America $93,632 $103,041 $122,043 International 24,357 25,618 30,632 AWS 72,701 110,683 190,055 Corporate 13,487 13,323 14,295 Consolidated $204,177 $252,665 $357,025",
+            "entity_name": "AMZN AWS Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "years": "2023, 2024, 2025"
+            },
+            "chunk_type": "segment",
+            "content": "Total net additions to property and equipment are as follows (in millions): North America (1) $17,529 $24,348 $35,919 International (1) 4,144 6,643 7,617 AWS (2) 24,843 53,267 96,496 Corporate 1,828 1,494 2,320 Consolidated $48,344 $85,752 $142,352",
+            "entity_name": "AMZN AWS Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "years": "2023, 2024, 2025"
+            },
+            "chunk_type": "segment",
+            "content": "Total depreciation and amortization expense, by segment, is as follows (in millions): North America $13,678 $14,285 $15,503 International 4,016 4,462 4,907 AWS 12,531 13,320 21,450 Consolidated $30,225 $32,067 $41,860",
+            "entity_name": "AMZN AWS Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Amazon North America",
+              "North America"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "North America",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN North America Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Amazon International",
+              "International"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "International",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN International Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AWS",
+              "Amazon Web Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "AWS",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN AWS Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Amazon US revenue",
+              "United States"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "geography": "United States",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN United States Net Sales",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Amazon Germany revenue",
+              "Amazon DE"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "geography": "Germany",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN Germany Net Sales",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Amazon UK revenue",
+              "Amazon United Kingdom"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "geography": "United Kingdom",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN United Kingdom Net Sales",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Amazon Japan revenue",
+              "Amazon JP"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "geography": "Japan",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN Japan Net Sales",
+            "type": "RevenueSegment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "da_expense_usd": 15503000000,
+              "net_pp_additions_usd": 35919000000,
+              "period": "FY2025",
+              "ppe_net_usd": 122043000000,
+              "segment_assets_usd": 235652000000
+            },
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN North America Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "da_expense_usd": 4907000000,
+              "net_pp_additions_usd": 7617000000,
+              "period": "FY2025",
+              "ppe_net_usd": 30632000000,
+              "segment_assets_usd": 81984000000
+            },
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN International Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "da_expense_usd": 21450000000,
+              "net_pp_additions_usd": 96496000000,
+              "period": "FY2025",
+              "ppe_net_usd": 190055000000,
+              "segment_assets_usd": 252588000000
+            },
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN AWS Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "revenue": 489657000000
+            },
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN United States Net Sales",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "revenue": 45900000000
+            },
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Germany Net Sales",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "revenue": 43212000000
+            },
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN United Kingdom Net Sales",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "revenue": 30688000000
+            },
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Japan Net Sales",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-26-000004.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "d6c10f120dff71854cf567f811a1f6ee3219d8bc0e32f6aad99e9ae6dbec3691"
+    }
+  ],
+  "prompt_version": "v3"
+}

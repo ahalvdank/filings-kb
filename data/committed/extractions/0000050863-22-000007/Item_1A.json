@@ -1,0 +1,940 @@
+{
+  "accession": "0000050863-22-000007",
+  "item": "Item_1A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-28T18:24:15Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Changes in the demand for our products, particularly our CCG and DCG platform products, can reduce our revenue, lower our gross margin, or require us to write down the value of our assets.",
+            "entity_name": "INTC CCG DCG Product Demand Variability",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our IDM 2.0 investments in capacity and our process technology roadmap will require capital expenditures above our historical levels, and if demand for our IFS business grows rapidly, we anticipate that we would need to accelerate our planned investments to meet that demand. To the extent we do not generate expected cash flows, we may be required to increase our use of external funding sources to fund our investments and operations, which may not be available on favorable terms or at all.",
+            "entity_name": "INTC IDM 2.0 Capital Expenditure and Manufacturing Underutilization Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We face intense competition across our product portfolio from companies offering platform products, such as AMD and Qualcomm; accelerator products such as GPUs, including those offered by NVIDIA; other accelerator products such as ASICs, application-specific standard products, and FPGAs; memory and storage products; connectivity and networking products; and other semiconductor products. Some of these competitors have developed or utilize competing computing architectures and platforms, such as the ARM architecture, and these architectures and platforms can produce beneficial network effects for competitors when an ecosystem of customers and application developers for such architectures and platforms grows at scale.",
+            "entity_name": "INTC Competitive Pressure from AMD Qualcomm NVIDIA and ARM Ecosystem",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We experienced significant delays in implementing our 10nm process technology, and in 2020, we encountered a defect mode in the development of our Intel 4 process technology (formerly 7nm) that resulted in delays relative to our prior expectations. These delays have allowed competitors using third-party foundries such as TSMC to benefit from advancements in manufacturing processes introduced ahead of us by foundries, including improvements in performance, energy efficiency, and other features, which have helped increase the competitiveness of their products.",
+            "entity_name": "INTC Manufacturing Process Technology Delay Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "During 2021, the semiconductor industry experienced widespread shortages of substrates and other components and available foundry manufacturing capacity, and we anticipate that such shortages will continue in 2022. These shortages have limited our ability to supply customer demand in certain of our businesses, such as for our PSG products, and have adversely affected customer demand for our products, including in our CCG and DCG businesses, as some customers have been unable to procure sufficient quantities of third-party components used together with our products to produce finished systems.",
+            "entity_name": "INTC Semiconductor Substrate and Supply Chain Disruption Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The security vulnerabilities identified in our processors include a category known as side-channel vulnerabilities, such as the variants referred to as \"Spectre\" and \"Meltdown.\" Additional categories and variants have been identified and are expected to continue to be identified. Publicity about these and other security vulnerabilities has resulted in, and is expected to continue to result in, increased attempts by third parties to identify additional vulnerabilities.",
+            "entity_name": "INTC Processor Security Vulnerabilities Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The COVID-19 pandemic has previously adversely affected significant portions of our business and could have a material adverse effect on our financial condition and results of operations. Authorities have imposed, and businesses and individuals have implemented, numerous measures to try to contain the virus or treat its impact, such as travel bans and restrictions, quarantines, shelter-in-place/stay-at-home and social distancing orders, shutdowns, and vaccine requirements. These measures have impacted and may further impact our workforce and operations, the operations of our customers, and those of our respective suppliers and partners.",
+            "entity_name": "INTC COVID-19 Pandemic Operational and Financial Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "china_revenue_pct_fy2021": 0.27,
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The US has imposed restrictions on the export of US-regulated products and technology to certain Chinese technology companies, including certain of our customers. These restrictions have reduced our sales, and continuing or future restrictions could adversely affect our financial performance, result in reputational harm to us, or lead such companies to develop or adopt technologies that compete with our products. It is difficult to predict what further trade-related actions governments may take, which may include trade restrictions and additional or increased tariffs and export controls imposed on short notice, and we may be unable to quickly and effectively react to or mitigate such actions.",
+            "entity_name": "INTC US-China Trade Restriction and Export Control Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We regularly face attempts by others to gain unauthorized access through the Internet, or to introduce malicious software, to our IT systems. Individuals or organizations, including malicious hackers, state-sponsored organizations, insider threats including employees and third-party service providers, or intruders into our physical facilities, at times attempt to gain unauthorized access and/or corrupt the processes used to design and manufacture our hardware products and our associated software and services. Due to the widespread use of our products, we are a frequent target of computer hackers and organizations that intend to sabotage, compromise, take control of, or otherwise corrupt our manufacturing or other processes, products, and services.",
+            "entity_name": "INTC Cybersecurity Threat and Incident Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have seen an increase in patent assertions and lawsuits initiated by well-funded non-practicing entities, including entities funded by investment firms and other third parties. In some instances, these entities have filed multi-jurisdiction litigation seeking large monetary damages and/or injunctions against us. These lawsuits can increase our cost of doing business and could disrupt our operations if they succeed in blocking the trade of our products.",
+            "entity_name": "INTC IP Patent Litigation Risk from Non-Practicing Entities",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Hiring and retaining qualified executives, scientists, engineers, technical staff, and sales representatives are critical to our business. The competition for highly skilled employees in our industry is increasingly intense. Competitors for technical talent increasingly seek to hire our employees, and the increased availability of work-from-home arrangements, accelerated by the COVID-19 pandemic, has both intensified and expanded competition.",
+            "entity_name": "INTC Employee Talent Acquisition and Retention Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Strategic transactions are an important component of our financial capital allocation strategy. We routinely evaluate opportunities and enter into agreements for possible acquisitions, divestitures, and other strategic transactions. These transactions involve numerous risks, including our inability to identify opportunities in a timely manner or on terms acceptable to us; failure of the transaction to advance our business strategy and failure of its anticipated benefits to materialize; disruption of our ongoing operations and diversion of our management's attention.",
+            "entity_name": "INTC Strategic Transaction Execution Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The IPO may not be completed in our expected timeframe, or at all, due to factors that include adverse changes in economic or market conditions or in our business; delays in regulatory, stock exchange, or other approvals; loss of Mobileye key employees, and changes in our business strategy. If we do not complete the IPO, our ability to retain and attract Mobileye employees could be adversely affected, and we will have incurred expenses that we will be unable to recover, and for which we will not receive any benefit.",
+            "entity_name": "INTC Mobileye IPO Completion Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "For example, in the multi-jurisdiction litigation brought against us by VLSI, a jury in one of the pending US federal court cases returned a verdict in February 2021 awarding approximately $2.2 billion in damages to VLSI, as discussed in Note 19: Commitments and Contingencies within the Consolidated Financial Statements. The patent litigation environment has also become more challenging due to the emergence of venues adopting procedural and substantive rules that make them more favorable for patent asserters.",
+            "entity_name": "VLSI Technology LLC v. Intel Multi-Jurisdiction Patent Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "material_event",
+            "content": "For example, in the fourth quarter of 2020, our Habana Labs subsidiary's network was breached, resulting in unauthorized third-party access of certain confidential information, in connection with a suspected unsuccessful ransomware attack. The breach was confined to our subsidiary's network and has not had a material impact on Habana Labs' business.",
+            "entity_name": "Intel Habana Labs Network Breach Q4 2020",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "material_event",
+            "content": "For example, we appointed a new CEO effective in February 2021 and a new CFO in January 2022 and made several other changes to our senior leadership during the past year. The failure to successfully transition and assimilate key employees could adversely affect our results of operations.",
+            "entity_name": "Intel CEO Appointment February 2021",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "material_event",
+            "content": "For example, we appointed a new CEO effective in February 2021 and a new CFO in January 2022 and made several other changes to our senior leadership during the past year.",
+            "entity_name": "Intel CFO Appointment January 2022",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "material_event",
+            "content": "We announced that we intend to take Mobileye public in the US via an IPO of newly issued Mobileye stock, and that we expect to retain majority ownership of Mobileye following the completion of the IPO.",
+            "entity_name": "Intel Mobileye Planned US IPO",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Intel product demand risk",
+              "CCG DCG demand variability"
+            ],
+            "attributes": {
+              "category": "demand",
+              "segments_affected": [
+                "CCG",
+                "DCG"
+              ]
+            },
+            "identifiers": {},
+            "name": "INTC CCG DCG Product Demand Variability",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel IDM 2.0 capex risk",
+              "Intel IFS demand risk"
+            ],
+            "attributes": {
+              "category": "capital_expenditure",
+              "strategy": "IDM 2.0"
+            },
+            "identifiers": {},
+            "name": "INTC IDM 2.0 Capital Expenditure and Manufacturing Underutilization Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel competitive risk",
+              "ARM architecture competition risk"
+            ],
+            "attributes": {
+              "category": "competitive",
+              "named_competitors": [
+                "AMD",
+                "Qualcomm",
+                "NVIDIA",
+                "Apple"
+              ]
+            },
+            "identifiers": {},
+            "name": "INTC Competitive Pressure from AMD Qualcomm NVIDIA and ARM Ecosystem",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel 10nm 7nm delay risk",
+              "Intel 4 process node delay"
+            ],
+            "attributes": {
+              "category": "technology",
+              "prior_delay_examples": [
+                "10nm",
+                "Intel 4 (formerly 7nm)"
+              ]
+            },
+            "identifiers": {},
+            "name": "INTC Manufacturing Process Technology Delay Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel substrate shortage risk",
+              "Intel supply chain risk"
+            ],
+            "attributes": {
+              "category": "supply_chain",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "INTC Semiconductor Substrate and Supply Chain Disruption Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel Spectre Meltdown risk",
+              "Intel side-channel vulnerability risk"
+            ],
+            "attributes": {
+              "category": "product_security",
+              "named_vulnerabilities": [
+                "Spectre",
+                "Meltdown"
+              ]
+            },
+            "identifiers": {},
+            "name": "INTC Processor Security Vulnerabilities Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel pandemic risk",
+              "COVID-19 manufacturing disruption risk"
+            ],
+            "attributes": {
+              "category": "macro",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "INTC COVID-19 Pandemic Operational and Financial Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel China export control risk",
+              "Intel China revenue risk"
+            ],
+            "attributes": {
+              "category": "geopolitical",
+              "china_revenue_pct_fy2021": 0.27,
+              "geography": "China"
+            },
+            "identifiers": {},
+            "name": "INTC US-China Trade Restriction and Export Control Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel cyberattack risk",
+              "Intel ransomware risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity"
+            },
+            "identifiers": {},
+            "name": "INTC Cybersecurity Threat and Incident Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel NPE patent litigation risk",
+              "Intel patent assertion risk"
+            ],
+            "attributes": {
+              "category": "legal",
+              "specific_concern": "non_practicing_entities"
+            },
+            "identifiers": {},
+            "name": "INTC IP Patent Litigation Risk from Non-Practicing Entities",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel talent risk",
+              "Intel workforce retention risk"
+            ],
+            "attributes": {
+              "category": "human_capital"
+            },
+            "identifiers": {},
+            "name": "INTC Employee Talent Acquisition and Retention Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel M&A integration risk",
+              "Intel acquisition divestiture risk"
+            ],
+            "attributes": {
+              "category": "strategic"
+            },
+            "identifiers": {},
+            "name": "INTC Strategic Transaction Execution Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel Mobileye public offering risk"
+            ],
+            "attributes": {
+              "category": "strategic",
+              "related_entity": "Mobileye"
+            },
+            "identifiers": {},
+            "name": "INTC Mobileye IPO Completion Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "VLSI v. Intel",
+              "VLSI patent lawsuit"
+            ],
+            "attributes": {
+              "counterparty": "VLSI Technology LLC",
+              "court": "US Federal Court (multi-jurisdiction)",
+              "status": "pending",
+              "verdict_amount_usd": 2200000000,
+              "verdict_date": "2021-02"
+            },
+            "identifiers": {},
+            "name": "VLSI Technology LLC v. Intel Multi-Jurisdiction Patent Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Habana Labs cybersecurity incident",
+              "Intel subsidiary ransomware attack 2020"
+            ],
+            "attributes": {
+              "affected_subsidiary": "Habana Labs",
+              "event_type": "cybersecurity_incident",
+              "incident_period": "2020-Q4",
+              "materiality": "not_material_to_subsidiary"
+            },
+            "identifiers": {},
+            "name": "Intel Habana Labs Network Breach Q4 2020",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel new CEO 2021",
+              "Intel CEO succession 2021"
+            ],
+            "attributes": {
+              "effective_date": "2021-02",
+              "event_type": "management_change",
+              "role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Intel CEO Appointment February 2021",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel new CFO 2022"
+            ],
+            "attributes": {
+              "effective_date": "2022-01",
+              "event_type": "management_change",
+              "role": "CFO"
+            },
+            "identifiers": {},
+            "name": "Intel CFO Appointment January 2022",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Mobileye IPO",
+              "Intel Mobileye public offering"
+            ],
+            "attributes": {
+              "event_type": "business_combination",
+              "intel_expected_post_ipo_ownership": "majority",
+              "status": "announced",
+              "subsidiary": "Mobileye"
+            },
+            "identifiers": {},
+            "name": "Intel Mobileye Planned US IPO",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC CCG DCG Product Demand Variability",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC IDM 2.0 Capital Expenditure and Manufacturing Underutilization Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Competitive Pressure from AMD Qualcomm NVIDIA and ARM Ecosystem",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Manufacturing Process Technology Delay Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Semiconductor Substrate and Supply Chain Disruption Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Processor Security Vulnerabilities Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC COVID-19 Pandemic Operational and Financial Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC US-China Trade Restriction and Export Control Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Cybersecurity Threat and Incident Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC IP Patent Litigation Risk from Non-Practicing Entities",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Employee Talent Acquisition and Retention Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Strategic Transaction Execution Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Mobileye IPO Completion Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "VLSI Technology LLC v. Intel Multi-Jurisdiction Patent Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Intel Habana Labs Network Breach Q4 2020",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Intel CEO Appointment February 2021",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Intel CFO Appointment January 2022",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Intel Mobileye Planned US IPO",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/INTC/0000050863-22-000007.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "1f324b1f46ad1ea737c1242f9caec8822bed743700f87bb9c3f9e1d7471308fc"
+    },
+    {
+      "extracted_at": "2026-07-28T18:36:13Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Using third parties for distribution exposes us to many risks, including competitive pressure and concentration, credit, and compliance risks. Distributors and other third parties sell products that compete with our products, and we sometimes need to provide financial and other incentives to focus them on the sale of our products. From time to time, they face financial difficulties, including bankruptcy, which could harm our collection of accounts receivable and financial results.",
+            "entity_name": "INTC Distributor and Third-Party Channel Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "From time to time, our products are resold by third parties in an unauthorized \"gray market.\" Gray market products can distort demand and pricing dynamics in our distribution channel and certain geographies, which at times adversely affects our revenue opportunities. Gray market activity is difficult to monitor and can make forecasting demand more challenging.",
+            "entity_name": "INTC Gray Market Products Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Collectively, our three largest customers accounted for 43% of our net revenue in 2021 and 39% of our net revenue in 2020. We expect a small number of customers will continue to account for a significant portion of our revenue in the foreseeable future.",
+            "entity_name": "INTC Customer Concentration Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are operating in an increasingly competitive environment, including in serving cloud service provider customers, and the competitive environment adversely affected our results in DCG in 2021. Some cloud service provider customers have also internally developed, and may continue to develop, their own semiconductors, including designs customized for their specific computing workloads.",
+            "entity_name": "INTC Cloud Shift and Data Center Competitive Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Government contracts are subject to procurement laws and regulations relating to the award, administration, and performance of those contracts, as well as oversight and penalties for violations. For example, certain agreements with the US government are subject to special rules on accounting, IP rights, expenses, reviews, information handling, security, and/or employees, and failure to comply with these rules could result in civil and criminal penalties and sanctions, including termination of contracts, fines, and suspension or debarment from future business with the US government.",
+            "entity_name": "INTC Government Contract Compliance Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "A number of factors can increase our effective tax rate, which could reduce our net income, including: changes in the volume and mix of profits earned and location of assets across jurisdictions with varying tax rates; the resolution of issues arising from tax audits, including payment of interest and penalties; changes in the valuation of our deferred tax assets and liabilities, and in deferred tax valuation allowances; adjustments to income taxes upon finalization of tax returns.",
+            "entity_name": "INTC Effective Tax Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are not obligated to make repurchases under our stock repurchase program. The amount, timing, and execution of our repurchases fluctuate based on factors that include prioritizing cash for other purposes, such as investing in our business, including operational spending, capital spending, and acquisitions, and returning cash to our stockholders as dividend payments. Our stock repurchase program may be suspended or terminated at any time.",
+            "entity_name": "INTC Stock Repurchase Program Uncertainty",
+            "entity_type_entity": "Risk",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A",
+              "update_type": "revision_down"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect our future stock repurchases to be significantly below our levels from the last few years.",
+            "entity_name": "INTC Future Stock Repurchase Level Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "distribution channel risk",
+              "third-party intermediary risk"
+            ],
+            "attributes": {
+              "category": "channel_distribution"
+            },
+            "identifiers": {},
+            "name": "INTC Distributor and Third-Party Channel Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "gray market resale risk",
+              "unauthorized resale risk"
+            ],
+            "attributes": {
+              "category": "channel_distribution"
+            },
+            "identifiers": {},
+            "name": "INTC Gray Market Products Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "key customer concentration risk",
+              "top customer revenue dependency"
+            ],
+            "attributes": {
+              "category": "customer_concentration",
+              "top_3_customer_revenue_pct_2020": 0.39,
+              "top_3_customer_revenue_pct_2021": 0.43
+            },
+            "identifiers": {},
+            "name": "INTC Customer Concentration Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "DCG competitive risk",
+              "cloud CSP competition risk",
+              "cloud workload shift risk"
+            ],
+            "attributes": {
+              "category": "competitive_market",
+              "segment": "DCG"
+            },
+            "identifiers": {},
+            "name": "INTC Cloud Shift and Data Center Competitive Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "government entity transaction risk",
+              "public sector procurement risk"
+            ],
+            "attributes": {
+              "category": "regulatory_compliance"
+            },
+            "identifiers": {},
+            "name": "INTC Government Contract Compliance Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "tax rate volatility risk",
+              "effective tax rate increase risk"
+            ],
+            "attributes": {
+              "category": "tax"
+            },
+            "identifiers": {},
+            "name": "INTC Effective Tax Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "buyback program suspension risk",
+              "share repurchase variability risk"
+            ],
+            "attributes": {
+              "category": "capital_allocation"
+            },
+            "identifiers": {},
+            "name": "INTC Stock Repurchase Program Uncertainty",
+            "type": "Risk"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "stock_repurchases",
+              "note": "Expects future repurchases to be significantly below levels from the last few years",
+              "period": "forward_looking",
+              "update_type": "revision_down"
+            },
+            "identifiers": {},
+            "name": "INTC Future Stock Repurchase Level Guidance",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Distributor and Third-Party Channel Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Gray Market Products Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Customer Concentration Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Cloud Shift and Data Center Competitive Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Government Contract Compliance Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Effective Tax Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Stock Repurchase Program Uncertainty",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "revision_down"
+            },
+            "source_name": "INTC 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Future Stock Repurchase Level Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/INTC/0000050863-22-000007.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "f4536cafdb49e2153fa61d94bda1ac5969c4abbeec65728235c4dd2f27bb6674"
+    }
+  ],
+  "prompt_version": "v3"
+}

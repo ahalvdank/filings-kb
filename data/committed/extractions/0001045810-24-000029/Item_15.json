@@ -1,0 +1,792 @@
+{
+  "accession": "0001045810-24-000029",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T17:23:22Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note_2",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "In February 2022, NVIDIA and SoftBank Group Corp, or SoftBank, announced the termination of the Share Purchase Agreement whereby NVIDIA would have acquired Arm from SoftBank. The parties agreed to terminate it due to significant regulatory challenges preventing the completion of the transaction. We recorded an acquisition termination cost of $1.4 billion in fiscal year 2023 reflecting the write-off of the prepayment provided at signing.",
+            "entity_name": "NVDA Arm Acquisition Termination",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note_1",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "In February 2023, we assessed the useful lives of our property, plant, and equipment. Based on advances in technology and usage rate, we increased the estimated useful life of most of our server, storage, and network equipment from three to four or five years, and our assembly and test equipment from five to seven years. The effect of this change for the fiscal year ended January 28, 2024 was a benefit of $33 million and $102 million for cost of revenue and operating expenses, respectively, which resulted in an increase in operating income of $135 million and net income of $114 million after tax, or $0.05 per both basic and diluted share.",
+            "entity_name": "NVDA FY2023 PP&E Useful Life Accounting Change",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note_6",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Goodwill increased by $59 million in fiscal year 2024 from an immaterial acquisition and was allocated to our Compute & Networking reporting unit.",
+            "entity_name": "NVDA FY2024 Immaterial Acquisition",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_15",
+              "statement": "Consolidated_Statements_of_Cash_Flows"
+            },
+            "chunk_type": "capital_return",
+            "content": "Payments related to repurchases of common stock(9,533)(10,039)— ",
+            "entity_name": "NVDA FY2024 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_15",
+              "statement": "Consolidated_Statements_of_Cash_Flows"
+            },
+            "chunk_type": "capital_return",
+            "content": "Dividends paid(395)(398)(399)",
+            "entity_name": "NVDA FY2024 Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_15",
+              "statement": "Consolidated_Statements_of_Cash_Flows"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Repayment of debt(1,250)— — ",
+            "entity_name": "NVDA FY2024 Debt Repayment",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVIDIA-Arm deal termination",
+              "Arm SoftBank acquisition termination"
+            ],
+            "attributes": {
+              "event_type": "business_combination",
+              "reason": "regulatory_challenges",
+              "seller": "SoftBank Group Corp",
+              "target_company": "Arm",
+              "termination_date": "2022-02",
+              "write_off_usd": 1400000000
+            },
+            "identifiers": {},
+            "name": "NVDA Arm Acquisition Termination",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NVIDIA useful life change",
+              "NVIDIA PP&E depreciation policy change"
+            ],
+            "attributes": {
+              "decision_date": "2023-02",
+              "eps_benefit": 0.05,
+              "event_type": "accounting_change",
+              "first_effect_period": "FY2024",
+              "net_income_benefit_usd": 114000000,
+              "operating_income_benefit_usd": 135000000
+            },
+            "identifiers": {},
+            "name": "NVDA FY2023 PP&E Useful Life Accounting Change",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "acquiring_segment": "Compute & Networking",
+              "event_type": "acquisition",
+              "fiscal_year": "FY2024",
+              "goodwill_allocated_usd": 59000000,
+              "materiality": "immaterial"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2024 Immaterial Acquisition",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NVIDIA FY2024 buyback"
+            ],
+            "attributes": {
+              "amount_usd": 9533000000,
+              "fiscal_year_ended": "2024-01-28",
+              "period": "FY2024",
+              "return_type": "buyback",
+              "shares_millions": 21
+            },
+            "identifiers": {},
+            "name": "NVDA FY2024 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "NVIDIA FY2024 dividend"
+            ],
+            "attributes": {
+              "amount_usd": 395000000,
+              "fiscal_year_ended": "2024-01-28",
+              "per_share": 0.16,
+              "period": "FY2024",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2024 Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "NVIDIA FY2024 debt maturity"
+            ],
+            "attributes": {
+              "fiscal_year_ended": "2024-01-28",
+              "instrument_type": "notes",
+              "period": "FY2024",
+              "principal_usd": 1250000000
+            },
+            "identifiers": {},
+            "name": "NVDA FY2024 Debt Repayment",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Arm Acquisition Termination",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2023 PP&E Useful Life Accounting Change",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2024 Immaterial Acquisition",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2024 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2024 Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2024 Debt Repayment",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2024-02-21",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-24-000029.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "82b88f95f303fe7f0872525bc97bba7b006cb98e249fdb1c1ec3a3671e135eaf"
+    },
+    {
+      "extracted_at": "2026-06-17T17:28:43Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The amended complaint asserted that NVIDIA and certain NVIDIA executives violated Section 10(b) of the Securities Exchange Act of 1934, as amended, or the Exchange Act, and SEC Rule 10b-5, by making materially false or misleading statements related to channel inventory and the impact of cryptocurrency mining on GPU demand between May 10, 2017 and November 14, 2018. Plaintiffs also alleged that the NVIDIA executives who they named as defendants violated Section 20(a) of the Exchange Act.",
+            "entity_name": "In Re NVIDIA Corporation Securities Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On August 25, 2023, a majority of a three-judge Ninth Circuit panel affirmed in part and reversed in part the district court's dismissal of the case, with a third judge dissenting on the basis that the district court did not err in dismissing the case. On November 15, 2023, the Ninth Circuit denied NVIDIA's petition for rehearing en banc of the Ninth Circuit panel's majority decision to reverse in part the dismissal of the case, which NVIDIA had filed on October 10, 2023. On December 5, 2023, the Ninth Circuit granted NVIDIA's motion to stay the mandate. NVIDIA's deadline to file a petition for a writ of certiorari is March 4, 2024.",
+            "entity_name": "In Re NVIDIA Corporation Securities Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The putative derivative lawsuit pending in the United States District Court for the Northern District of California, captioned 4:19-cv-00341-HSG, initially filed January 18, 2019 and titled In re NVIDIA Corporation Consolidated Derivative Litigation, was stayed pending resolution of the plaintiffs' appeal in the In Re NVIDIA Corporation Securities Litigation action. On February 22, 2022, the court administratively closed the case, but stated that it would reopen the case once the appeal in the In Re NVIDIA Corporation Securities Litigation action is resolved. Following the Ninth Circuit's denial of NVIDIA's petition for rehearing on November 15, 2023, the parties are conferring regarding the next steps in this derivative matter.",
+            "entity_name": "In re NVIDIA Corporation Consolidated Derivative Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The putative derivative actions initially filed September 24, 2019 and pending in the United States District Court for the District of Delaware, Lipchitz v. Huang, et al. (Case No. 1:19-cv-01795-UNA) and Nelson v. Huang, et. al. (Case No. 1:19-cv-01798- UNA), remain stayed pending resolution of the plaintiffs' appeal in the In Re NVIDIA Corporation Securities Litigation action. Following the Ninth Circuit's denial of NVIDIA's petition for rehearing on November 15, 2023, the parties are conferring regarding the next steps in these derivative matters.",
+            "entity_name": "Lipchitz v. Huang et al.",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The putative derivative actions initially filed September 24, 2019 and pending in the United States District Court for the District of Delaware, Lipchitz v. Huang, et al. (Case No. 1:19-cv-01795-UNA) and Nelson v. Huang, et. al. (Case No. 1:19-cv-01798- UNA), remain stayed pending resolution of the plaintiffs' appeal in the In Re NVIDIA Corporation Securities Litigation action. Following the Ninth Circuit's denial of NVIDIA's petition for rehearing on November 15, 2023, the parties are conferring regarding the next steps in these derivative matters.",
+            "entity_name": "Nelson v. Huang et al.",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Another putative derivative action was filed on October 30, 2023 in the Court of Chancery of the State of Delaware, captioned Horanic v. Huang, et al. (Case No. 2023-1096-KSJM). This lawsuit asserts claims, purportedly on behalf of us, against certain officers and directors of the Company for breach of fiduciary duty and insider trading based on the dissemination of allegedly false and misleading statements related to channel inventory and the impact of cryptocurrency mining on GPU demand. The plaintiffs seek unspecified damages and other relief, including disgorgement of profits from the sale of NVIDIA stock and reform of unspecified corporate governance measures. This derivative matter is stayed pending the final resolution of In Re NVIDIA Corporation Securities Litigation action.",
+            "entity_name": "Horanic v. Huang et al.",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_return",
+            "content": "In August 2023, our Board of Directors approved an increase to our share repurchase program of an additional $25.0 billion, without expiration.",
+            "entity_name": "NVDA August 2023 $25B Buyback Authorization Increase",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal year 2024, we repurchased 21 million shares of our common stock for $9.7 billion. As of January 28, 2024, we were authorized, subject to certain specifications, to repurchase additional shares of our common stock up to $22.5 billion.",
+            "entity_name": "NVDA FY2024 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_return",
+            "content": "From January 29, 2024 through February 16, 2024, we repurchased 2.8 million shares for $1.9 billion pursuant to a Rule 10b5-1 trading plan.",
+            "entity_name": "NVDA Post-FY2024 Share Repurchases Jan-Feb 2024",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal years 2024, 2023, and 2022, we paid $395 million, $398 million, and $399 million in cash dividends to our shareholders, respectively.",
+            "entity_name": "NVDA FY2024 Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "operating_income_usd": 32016000000,
+              "period": "FY2024",
+              "revenue_usd": 47405000000,
+              "section_type": "Item_15"
+            },
+            "chunk_type": "segment",
+            "content": "The Compute & Networking segment includes our Data Center accelerated computing platform; networking; automotive artificial intelligence, or AI, Cockpit, autonomous driving development agreements, and autonomous vehicle solutions; electric vehicle computing platforms; Jetson for robotics and other embedded platforms; NVIDIA AI Enterprise and other software; and DGX Cloud.",
+            "entity_name": "NVDA Compute & Networking Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "operating_income_usd": 5846000000,
+              "period": "FY2024",
+              "revenue_usd": 13517000000,
+              "section_type": "Item_15"
+            },
+            "chunk_type": "segment",
+            "content": "The Graphics segment includes GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming platforms; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics; virtual GPU software for cloud-based visual and virtual computing; automotive platforms for infotainment systems; and Omniverse Enterprise software for building and operating 3D internet applications.",
+            "entity_name": "NVDA Graphics Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "revenue_usd": 47525000000,
+              "section_type": "Item_15"
+            },
+            "chunk_type": "segment",
+            "content": "Sales to one customer represented 13% of total revenue for fiscal year 2024, which was attributable to the Compute & Networking segment. No customer represented 10% or more of total revenue for fiscal years 2023 and 2022.",
+            "entity_name": "NVDA Data Center",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "revenue_usd": 10447000000,
+              "section_type": "Item_15"
+            },
+            "chunk_type": "segment",
+            "content": "The increase in revenue to the United States for fiscal year 2024 was primarily due to higher U.S.-based Compute & Networking segment demand.",
+            "entity_name": "NVDA Gaming",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In fiscal year 2024, we repaid the 0.309% Notes Due 2023.",
+            "entity_name": "NVDA 0.309% Notes Due 2023 Repayment",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVDA Securities Class Action",
+              "4:18-cv-07669-HSG"
+            ],
+            "attributes": {
+              "counterparty": "putative class of securities holders",
+              "court": "United States District Court, Northern District of California; Ninth Circuit",
+              "initial_filing_date": "2018-12-21",
+              "status": "pending",
+              "subject_matter": "materially false or misleading statements related to channel inventory and cryptocurrency mining GPU demand"
+            },
+            "identifiers": {
+              "case_number": "4:18-cv-07669-HSG"
+            },
+            "name": "In Re NVIDIA Corporation Securities Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "4:19-cv-00341-HSG"
+            ],
+            "attributes": {
+              "counterparty": "certain officers and directors of NVIDIA Corporation",
+              "court": "United States District Court, Northern District of California",
+              "initial_filing_date": "2019-01-18",
+              "status": "pending",
+              "subject_matter": "breach of fiduciary duty, channel inventory and cryptocurrency mining GPU demand disclosures"
+            },
+            "identifiers": {
+              "case_number": "4:19-cv-00341-HSG"
+            },
+            "name": "In re NVIDIA Corporation Consolidated Derivative Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "1:19-cv-01795-UNA"
+            ],
+            "attributes": {
+              "counterparty": "certain officers and directors of NVIDIA Corporation",
+              "court": "United States District Court, District of Delaware",
+              "initial_filing_date": "2019-09-24",
+              "status": "pending",
+              "subject_matter": "breach of fiduciary duty, insider trading, channel inventory and cryptocurrency mining GPU demand disclosures"
+            },
+            "identifiers": {
+              "case_number": "1:19-cv-01795-UNA"
+            },
+            "name": "Lipchitz v. Huang et al.",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "1:19-cv-01798-UNA"
+            ],
+            "attributes": {
+              "counterparty": "certain officers and directors of NVIDIA Corporation",
+              "court": "United States District Court, District of Delaware",
+              "initial_filing_date": "2019-09-24",
+              "status": "pending",
+              "subject_matter": "breach of fiduciary duty, insider trading, channel inventory and cryptocurrency mining GPU demand disclosures"
+            },
+            "identifiers": {
+              "case_number": "1:19-cv-01798-UNA"
+            },
+            "name": "Nelson v. Huang et al.",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "2023-1096-KSJM"
+            ],
+            "attributes": {
+              "counterparty": "certain officers and directors of NVIDIA Corporation",
+              "court": "Court of Chancery, State of Delaware",
+              "initial_filing_date": "2023-10-30",
+              "status": "pending",
+              "subject_matter": "breach of fiduciary duty and insider trading, channel inventory and cryptocurrency mining GPU demand disclosures"
+            },
+            "identifiers": {
+              "case_number": "2023-1096-KSJM"
+            },
+            "name": "Horanic v. Huang et al.",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "NVDA FY2024 repurchase authorization expansion"
+            ],
+            "attributes": {
+              "amount_usd": 25000000000,
+              "effective_date": "2023-08",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "NVDA August 2023 $25B Buyback Authorization Increase",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 9700000000,
+              "period": "FY2024",
+              "return_type": "buyback",
+              "shares": 21000000
+            },
+            "identifiers": {},
+            "name": "NVDA FY2024 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 1900000000,
+              "period": "2024-01-29 to 2024-02-16",
+              "return_type": "buyback",
+              "shares": 2800000
+            },
+            "identifiers": {},
+            "name": "NVDA Post-FY2024 Share Repurchases Jan-Feb 2024",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 395000000,
+              "period": "FY2024",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2024 Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Compute & Networking",
+              "C&N"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Compute & Networking",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Compute & Networking Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Graphics"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Graphics",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Graphics Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Data Center"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Data Center",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Gaming",
+              "GeForce"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Gaming",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Gaming",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "coupon": 0.00309,
+              "instrument_type": "notes",
+              "maturity_year": "2023",
+              "principal_usd": 1250000000
+            },
+            "identifiers": {},
+            "name": "NVDA 0.309% Notes Due 2023 Repayment",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "In Re NVIDIA Corporation Securities Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "In re NVIDIA Corporation Consolidated Derivative Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "Lipchitz v. Huang et al.",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "Nelson v. Huang et al.",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "Horanic v. Huang et al.",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA August 2023 $25B Buyback Authorization Increase",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2024 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Post-FY2024 Share Repurchases Jan-Feb 2024",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2024 Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 2.146,
+              "margin": 0.675,
+              "period": "FY2024",
+              "revenue": 47405000000
+            },
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Compute & Networking Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.135,
+              "margin": 0.433,
+              "period": "FY2024",
+              "revenue": 13517000000
+            },
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Graphics Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 2.167,
+              "period": "FY2024",
+              "revenue": 47525000000
+            },
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Data Center",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.152,
+              "period": "FY2024",
+              "revenue": 10447000000
+            },
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Gaming",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA 0.309% Notes Due 2023 Repayment",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-24-000029.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "ae13663e1004e5fd911d5e7e6bd8b3e13367e9d7bb29cecdfb41039be318d5f2"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,1279 @@
+{
+  "accession": "0000012927-25-000015",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T05:38:13Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "BCA revenues decreased by $11,040 million in 2024 compared with 2023 primarily due to lower deliveries across all programs and 737-9 customer considerations related to the January 2024 grounding.",
+            "entity_name": "BA Commercial Airplanes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "BCA loss from operations was $7,969 million in 2024 compared with $1,635 million in 2023 reflecting reach-forward losses of $4,079 million on the 777X and 767 programs in the third and fourth quarter of 2024, $443 million of 737-9 customer considerations related to the January 2024 grounding, lower deliveries, lower margins driven by production disruption including the IAM 751 work stoppage and new agreement, and higher research and development expense, partially offset by $1,271 million of lower abnormal production costs.",
+            "entity_name": "BA Commercial Airplanes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "BDS loss from operations in 2024 was $5,413 million compared with $1,764 million in 2023. The increase is primarily due to higher net unfavorable cumulative contract catch-up adjustments of $3,428 million on BDS' five major fixed-price development programs compared to 2023. During 2024, losses incurred on the five major fixed-price development programs totaled $5,013 million, including KC-46A Tanker ($2,002 million), T-7A Red Hawk ($1,770 million), Commercial Crew ($523 million), VC-25B ($379 million), and MQ-25 ($339 million).",
+            "entity_name": "BA Defense, Space & Security Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "BGS revenues in 2024 increased by $827 million compared with 2023 primarily due to higher commercial services revenue. BGS earnings from operations in 2024 increased by $289 million compared with 2023, primarily due to higher commercial services revenue.",
+            "entity_name": "BA Global Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "On January 5, 2024, an Alaska Airlines 737-9 flight made an emergency landing after a mid-exit door plug detached in flight. Following the accident, the Federal Aviation Administration (FAA) grounded and required inspections of all 737-9 aircraft with a mid-exit door plug, which constituted the large majority of the approximately 220 737-9 aircraft in the in-service fleet.",
+            "entity_name": "Alaska Airlines 737-9 Door Plug Detachment Incident",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "On November 4, 2024, the International Association of Machinists and Aerospace Workers District 751 (IAM 751) voted to ratify a new contract, thereby ending the work stoppage initiated on September 13, 2024, which paused production of certain commercial aircraft models (737, 767, 777 and 777X aircraft) as well as production of commercial derivative aircraft for our Defense, Space & Security business (KC-46A Tanker and P-8A Poseidon). Production for all programs resumed in December 2024.",
+            "entity_name": "IAM 751 Work Stoppage 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "On June 30, 2024, we entered into an agreement to acquire Spirit.",
+            "entity_name": "BA Acquisition of Spirit AeroSystems",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "During the third quarter of 2024, we decided to end production of the 767 freighter program in 2027 and, as a result of this decision, we reduced the accounting quantity for the 767 program by 9 units. Impacts of this decision, as well as the IAM 751 work stoppage and contract negotiations, and higher costs driven by ongoing factory disruption resulted in a reach-forward loss of $398 million during the third quarter of 2024.",
+            "entity_name": "BA 767 Freighter Program Production End Decision",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Eliminations and other unallocated items expense increased by $411 million in 2024 primarily due to a second quarter earnings charge of $244 million that reflects a fine that would be paid if an agreement with the U.S. Department of Justice is approved by the federal district court.",
+            "entity_name": "Boeing DOJ Agreement",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Cash provided by financing activities during 2024 was primarily driven by the issuance of common stock and Mandatory convertible preferred stock in the fourth quarter of 2024, which resulted in cash proceeds of $18.2 billion and $5.7 billion, net of issuance costs, as well as the issuance of $10.0 billion of fixed-rate senior notes in the second quarter of 2024.",
+            "entity_name": "BA Q4 2024 Common Stock Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Cash provided by financing activities during 2024 was primarily driven by the issuance of common stock and Mandatory convertible preferred stock in the fourth quarter of 2024, which resulted in cash proceeds of $18.2 billion and $5.7 billion, net of issuance costs, as well as the issuance of $10.0 billion of fixed-rate senior notes in the second quarter of 2024.",
+            "entity_name": "BA Q4 2024 Mandatory Convertible Preferred Stock Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Cash provided by financing activities during 2024 was primarily driven by the issuance of common stock and Mandatory convertible preferred stock in the fourth quarter of 2024, which resulted in cash proceeds of $18.2 billion and $5.7 billion, net of issuance costs, as well as the issuance of $10.0 billion of fixed-rate senior notes in the second quarter of 2024.",
+            "entity_name": "BA Q2 2024 $10B Fixed-Rate Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "revision_down"
+            },
+            "chunk_type": "guidance",
+            "content": "During the third quarter of 2024, based on flight test delays and our revised assessment of certification timelines, the anticipated first delivery of the 777-9 was delayed to 2026 and the 777-8 Freighter moved to 2028.",
+            "entity_name": "BA 777-9 First Delivery 2026 Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "revision_down"
+            },
+            "chunk_type": "guidance",
+            "content": "During the third quarter of 2024, based on flight test delays and our revised assessment of certification timelines, the anticipated first delivery of the 777-9 was delayed to 2026 and the 777-8 Freighter moved to 2028.",
+            "entity_name": "BA 777-8 Freighter First Delivery 2028 Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "revision_down"
+            },
+            "chunk_type": "guidance",
+            "content": "First delivery of the 777-8 passenger aircraft is not expected to occur before 2030.",
+            "entity_name": "BA 777-8 Passenger First Delivery Not Before 2030",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect BGS commercial revenues to remain strong in future quarters as the commercial airline industry has largely recovered and transitions to growth.",
+            "entity_name": "BA BGS Commercial Revenue Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect capital expenditures to grow in 2025 compared with 2024.",
+            "entity_name": "BA 2025 Capital Expenditure Growth Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "revision_down"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect that revenues will continue to be significantly impacted until deliveries ramp up, the global supply chain stabilizes, and labor instability diminishes.",
+            "entity_name": "BA Revenue Impact Pending Delivery Ramp Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We and our suppliers are experiencing supply chain disruptions as a result of production quality issues, global supply chain constraints, and labor instability. We and our suppliers are also experiencing inflationary pressures. We continue to monitor the health and stability of the supply chain. These factors have reduced overall productivity and adversely impacted our financial position, results of operations and cash flows.",
+            "entity_name": "BA Supply Chain Disruptions and Labor Instability Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Considerable uncertainty exists regarding how future U.S. government budget and program decisions will unfold, including the spending priorities of the new Administration and Congress. The Continuing Resolution (CR) enacted on December 21, 2024, continues federal funding at fiscal year 2024 appropriated levels through March 14, 2025. Congress and the President must enact either full-year fiscal year 2025 (FY25) appropriations bills or an additional CR to fund government departments and agencies after March 14, 2025, or a government shutdown could result.",
+            "entity_name": "BA U.S. Government Budget and Funding Uncertainty Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The global trade landscape is growing more volatile, and the likelihood of new or reciprocal tariffs, export restrictions, sanctions or other restrictions is increasing. We continually monitor the global trade environment and any changes in tariffs, trade agreements, restrictions or sanctions that may impact the Company or our suppliers or customers, and work to mitigate potential impacts.",
+            "entity_name": "BA Global Trade Tariffs and Export Restrictions Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The level of profitability on the 777X program will be subject to several factors. These factors include aircraft certification requirements and timing, change incorporation on completed aircraft, production disruption due to labor instability and supply chain disruption, customer considerations, delivery timing and negotiations, further production rate adjustments for the 777X or other commercial aircraft programs, and contraction of the accounting quantity. One or more of these factors could result in additional reach-forward losses in future periods.",
+            "entity_name": "BA 777X Certification and Delivery Delay Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The current state of U.S.-China relations remains an ongoing watch item. China is a significant market for commercial aircraft and we have long-standing relationships with our Chinese customers, who represent a key component of our commercial aircraft backlog. Overall, the U.S.-China trade relationship remains stalled as economic and national security concerns continue to be a challenge.",
+            "entity_name": "BA China Market Access Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Some of our development programs are contracted on a fixed-price basis. Examples of significant fixed-price development programs include Commercial Crew, KC-46A Tanker, MQ-25, T-7A Red Hawk, VC-25B, and commercial and military satellites. A number of our ongoing fixed-price development programs have reach-forward losses. Risk remains that we may be required to record additional reach-forward losses in future periods.",
+            "entity_name": "BA BDS Fixed-Price Development Program Losses Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "BCA",
+              "Commercial Airplanes"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Commercial Airplanes",
+              "ticker": "BA"
+            },
+            "name": "BA Commercial Airplanes Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BDS",
+              "Defense, Space & Security"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Defense, Space & Security",
+              "ticker": "BA"
+            },
+            "name": "BA Defense, Space & Security Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BGS",
+              "Global Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Global Services",
+              "ticker": "BA"
+            },
+            "name": "BA Global Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "737-9 door plug accident",
+              "Alaska Airlines accident January 2024"
+            ],
+            "attributes": {
+              "date": "2024-01-05",
+              "event_type": "regulatory_action",
+              "program": "737-9",
+              "regulator": "FAA"
+            },
+            "identifiers": {},
+            "name": "Alaska Airlines 737-9 Door Plug Detachment Incident",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing machinists strike 2024",
+              "IAM 751 strike"
+            ],
+            "attributes": {
+              "affected_programs": "737, 767, 777, 777X, KC-46A Tanker, P-8A Poseidon",
+              "event_type": "restructuring",
+              "ratification_date": "2024-11-04",
+              "start_date": "2024-09-13"
+            },
+            "identifiers": {},
+            "name": "IAM 751 Work Stoppage 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Spirit AeroSystems acquisition",
+              "Spirit deal"
+            ],
+            "attributes": {
+              "agreement_date": "2024-06-30",
+              "event_type": "acquisition",
+              "target_company": "Spirit AeroSystems Holdings, Inc."
+            },
+            "identifiers": {},
+            "name": "BA Acquisition of Spirit AeroSystems",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "767 freighter wind-down",
+              "767 production end"
+            ],
+            "attributes": {
+              "event_type": "restructuring",
+              "expected_end": "late 2026 or early 2027",
+              "program": "767 freighter",
+              "total_reach_forward_loss_usd": 580000000
+            },
+            "identifiers": {},
+            "name": "BA 767 Freighter Program Production End Decision",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing Department of Justice agreement",
+              "DOJ fine agreement"
+            ],
+            "attributes": {
+              "counterparty": "U.S. Department of Justice",
+              "potential_fine_usd": 244000000,
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Boeing DOJ Agreement",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Boeing Q4 2024 equity offering",
+              "Boeing common stock offering 2024"
+            ],
+            "attributes": {
+              "instrument_type": "equity_issuance",
+              "issuance_period": "Q4 2024",
+              "proceeds_net_usd": 18200000000
+            },
+            "identifiers": {},
+            "name": "BA Q4 2024 Common Stock Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing mandatory convertible preferred 2024"
+            ],
+            "attributes": {
+              "instrument_type": "equity_issuance",
+              "issuance_period": "Q4 2024",
+              "note": "Mandatory convertible preferred stock",
+              "proceeds_net_usd": 5700000000
+            },
+            "identifiers": {},
+            "name": "BA Q4 2024 Mandatory Convertible Preferred Stock Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing Q2 2024 senior notes",
+              "Boeing 2024 debt issuance"
+            ],
+            "attributes": {
+              "instrument_type": "notes",
+              "issuance_period": "Q2 2024",
+              "note_type": "fixed-rate senior notes",
+              "principal_usd": 10000000000
+            },
+            "identifiers": {},
+            "name": "BA Q2 2024 $10B Fixed-Rate Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "777-9 delivery timeline 2026"
+            ],
+            "attributes": {
+              "metric": "777-9_first_delivery_year",
+              "new_value": "2026",
+              "period": "FY2026",
+              "update_type": "revision_down"
+            },
+            "identifiers": {},
+            "name": "BA 777-9 First Delivery 2026 Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "777-8 Freighter delivery timeline 2028"
+            ],
+            "attributes": {
+              "metric": "777-8_freighter_first_delivery_year",
+              "new_value": "2028",
+              "period": "FY2028",
+              "update_type": "revision_down"
+            },
+            "identifiers": {},
+            "name": "BA 777-8 Freighter First Delivery 2028 Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "777-8 passenger delivery timeline"
+            ],
+            "attributes": {
+              "metric": "777-8_passenger_first_delivery_year",
+              "new_value": "not before 2030",
+              "period": "FY2030+",
+              "update_type": "revision_down"
+            },
+            "identifiers": {},
+            "name": "BA 777-8 Passenger First Delivery Not Before 2030",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Boeing Global Services commercial revenue outlook"
+            ],
+            "attributes": {
+              "metric": "BGS_commercial_revenue",
+              "qualitative_outlook": "strong",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "BA BGS Commercial Revenue Outlook",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Boeing 2025 capex growth"
+            ],
+            "attributes": {
+              "direction": "higher",
+              "metric": "capital_expenditures",
+              "period": "FY2025",
+              "prior_value_usd": 2200000000,
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "BA 2025 Capital Expenditure Growth Outlook",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Boeing near-term revenue outlook"
+            ],
+            "attributes": {
+              "metric": "revenues",
+              "qualitative_outlook": "significantly impacted until deliveries ramp up",
+              "update_type": "revision_down"
+            },
+            "identifiers": {},
+            "name": "BA Revenue Impact Pending Delivery Ramp Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Boeing supply chain risk",
+              "Boeing labor instability risk"
+            ],
+            "attributes": {
+              "category": "operational"
+            },
+            "identifiers": {},
+            "name": "BA Supply Chain Disruptions and Labor Instability Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing government shutdown risk",
+              "Boeing continuing resolution risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "BA U.S. Government Budget and Funding Uncertainty Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing tariff risk",
+              "Boeing trade restriction risk"
+            ],
+            "attributes": {
+              "category": "geopolitical"
+            },
+            "identifiers": {},
+            "name": "BA Global Trade Tariffs and Export Restrictions Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing 777X program risk",
+              "777X certification risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "program": "777X"
+            },
+            "identifiers": {},
+            "name": "BA 777X Certification and Delivery Delay Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing China commercial aircraft risk",
+              "US-China trade relations risk"
+            ],
+            "attributes": {
+              "category": "geopolitical",
+              "geography": "China"
+            },
+            "identifiers": {},
+            "name": "BA China Market Access Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing defense fixed-price contract risk",
+              "BDS development program risk"
+            ],
+            "attributes": {
+              "affected_programs": "KC-46A Tanker, T-7A Red Hawk, Commercial Crew, VC-25B, MQ-25",
+              "category": "financial"
+            },
+            "identifiers": {},
+            "name": "BA BDS Fixed-Price Development Program Losses Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": -0.326,
+              "margin": -0.349,
+              "period": "FY2024",
+              "revenue": 22861000000
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Commercial Airplanes Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.041,
+              "margin": -0.226,
+              "period": "FY2024",
+              "revenue": 23918000000
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Defense, Space & Security Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.043,
+              "margin": 0.181,
+              "period": "FY2024",
+              "revenue": 19954000000
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Global Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Alaska Airlines 737-9 Door Plug Detachment Incident",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "IAM 751 Work Stoppage 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Acquisition of Spirit AeroSystems",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA 767 Freighter Program Production End Decision",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing DOJ Agreement",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Q4 2024 Common Stock Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Q4 2024 Mandatory Convertible Preferred Stock Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Q2 2024 $10B Fixed-Rate Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "revision_down"
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA 777-9 First Delivery 2026 Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "revision_down"
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA 777-8 Freighter First Delivery 2028 Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "revision_down"
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA 777-8 Passenger First Delivery Not Before 2030",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA BGS Commercial Revenue Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA 2025 Capital Expenditure Growth Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "revision_down"
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Revenue Impact Pending Delivery Ramp Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Supply Chain Disruptions and Labor Instability Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA U.S. Government Budget and Funding Uncertainty Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Global Trade Tariffs and Export Restrictions Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA 777X Certification and Delivery Delay Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA China Market Access Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA BDS Fixed-Price Development Program Losses Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-25-000015.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "c74afe198c8bd1cb94b0e6f62f988d4aa26e69e850154ba342b54d535ab674e4"
+    },
+    {
+      "extracted_at": "2026-07-01T05:41:41Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In 2020, we announced the suspension of our dividend to common shareholders until further notice. As a result, we did not pay any dividends to common shareholders in 2024, 2023 and 2022.",
+            "entity_name": "BA Common Dividend Suspension",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "On June 30, 2024, we entered into an agreement to acquire Spirit in an all-stock transaction at an equity value of approximately $4.7 billion, or $37.25 per share of Spirit Class A Common Stock. The transaction will include the assumption of Spirit's net debt at closing.",
+            "entity_name": "BA Agreement to Acquire Spirit AeroSystems",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In the second quarter of 2024, we entered into a $4.0 billion five-year revolving credit agreement expiring in May 2029. In the second quarter of 2024, we terminated the $0.8 billion 364-day revolving credit agreement that was scheduled to expire in August 2024, and the $3.2 billion five-year revolving credit agreement, as amended, that was scheduled to expire in October 2024.",
+            "entity_name": "BA Q2 2024 $4.0B Five-Year Revolving Credit Agreement",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "We currently maintain investment grade credit ratings; however, Moody's downgraded our short term and long term credit ratings to Baa3/P-3 in April 2024. Moody's and S&P placed our ratings on review for downgrade in September 2024 and October 2024, respectively. In January 2025, Moody's affirmed the Baa3/P-3 investment grade credit rating with negative outlook.",
+            "entity_name": "BA Moody's Downgrade to Baa3/P-3 April 2024",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "during 2024, the FAA communicated it will not approve production rate increases for the 737 program beyond 38 per month or additional production lines until Boeing has complied with required quality and safety standards.",
+            "entity_name": "BA FAA 737 Production Rate Cap Regulatory Action",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We expect to be able to access capital markets when we require additional funding to support our operations, pay off existing debt, address impacts to our business related to market developments, fund outstanding financing commitments or meet other business requirements; however, a number of factors could increase the cost of borrowing, jeopardize our ability to incur debt on terms acceptable to us, and negatively impact our access to the capital and financial markets and our ability to fund our operations and commitments. These factors include further downgrades in our credit ratings, disruptions or declines in the global capital markets, a decline in our financial performance or, outlook, a delay in our ability to ramp up production and deliveries, and changes in demand for our products and services.",
+            "entity_name": "BA Capital Market Access and Credit Rating Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If we are unable to increase production rates consistent with our assumptions, our financial position, results of operations and cash flows could be materially impacted.",
+            "entity_name": "BA 737 FAA Production Rate Cap Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The introduction of new aircraft and derivatives, such as the 777X, 737-7 and 737-10, involves increased risks associated with meeting development, certification, and production schedules. These challenges include significant global regulatory scrutiny of all development aircraft. We have experienced significant certification delays with the 777X, 737-7 and 737-10 aircraft. As a result, our ability to deliver aircraft on time, satisfy performance and reliability standards and achieve or maintain, as applicable, program profitability is subject to significant risks. We are following the lead of the FAA as we work through the certification processes for the 777X, 737-7 and 737-10 models and the ultimate timing will be determined by the regulators.",
+            "entity_name": "BA 777X 737-7 737-10 Certification Delay Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Net cumulative catch-up adjustments for changes in estimated revenues and costs at completion across all long-term contracts, including the impact of estimated losses on unexercised options, increased Loss from operations by $6,562 million, $2,943 million and $5,253 million in 2024, 2023 and 2022, respectively, and were primarily due to losses recognized on the KC-46A Tanker, T-7A Red Hawk, Commercial Crew, VC-25B, and MQ-25 programs. These are all fixed-price development programs, and there is ongoing risk that similar losses may have to be recognized in future periods on these and/or other programs.",
+            "entity_name": "BA Fixed-Price Development Program Ongoing Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "At December 31, 2024 and 2023, our pension plans were $4.8 billion and $5.4 billion underfunded as measured under U.S. generally accepted accounting principles (GAAP). On an ERISA basis, our plans are more than 90% funded at December 31, 2024. We do not expect to make significant contributions to our pension plans in 2025. We may be required to make higher contributions to our pension plans in future years.",
+            "entity_name": "BA Pension Higher Contribution Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "During 2024, the Company increased the valuation allowance by $3,287 million primarily due to tax credits and other carryforwards generated in 2024 that cannot be realized in 2024. Until the Company generates sustained levels of profitability, additional valuation allowances may have to be recorded with corresponding adverse impacts on earnings and/or other comprehensive income.",
+            "entity_name": "BA Deferred Tax Valuation Allowance Expansion Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing dividend suspension"
+            ],
+            "attributes": {
+              "effective_date": "2020",
+              "note": "Suspended until further notice; no dividends paid in 2024, 2023, or 2022",
+              "return_type": "dividend_suspension"
+            },
+            "identifiers": {},
+            "name": "BA Common Dividend Suspension",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Boeing Spirit acquisition",
+              "Spirit AeroSystems deal"
+            ],
+            "attributes": {
+              "agreement_date": "2024-06-30",
+              "consideration": "all_stock",
+              "equity_value_usd": 4700000000,
+              "event_type": "acquisition",
+              "note": "Transaction includes assumption of Spirit net debt at closing",
+              "per_share": 37.25,
+              "target_company": "Spirit AeroSystems"
+            },
+            "identifiers": {},
+            "name": "BA Agreement to Acquire Spirit AeroSystems",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing 2024 revolver",
+              "Boeing May 2029 revolver"
+            ],
+            "attributes": {
+              "effective_period": "Q2 2024",
+              "instrument_type": "revolver",
+              "maturity": "2029-05",
+              "note": "Concurrent with termination of $0.8B 364-day facility and $3.2B five-year facility",
+              "principal_usd": 4000000000
+            },
+            "identifiers": {},
+            "name": "BA Q2 2024 $4.0B Five-Year Revolving Credit Agreement",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing Moody's credit rating downgrade 2024"
+            ],
+            "attributes": {
+              "instrument_type": "refinancing",
+              "note": "Moody's downgraded Boeing short-term and long-term credit ratings to Baa3/P-3 in April 2024; placed on review for further downgrade in September 2024; S&P placed on review for downgrade in October 2024; Moody's affirmed Baa3/P-3 with negative outlook in January 2025"
+            },
+            "identifiers": {},
+            "name": "BA Moody's Downgrade to Baa3/P-3 April 2024",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing FAA 737 rate restriction",
+              "Boeing 737 38/month cap"
+            ],
+            "attributes": {
+              "effective_period": "2024",
+              "event_type": "regulatory_action",
+              "max_rate_per_month": 38,
+              "program": "737",
+              "regulator": "FAA"
+            },
+            "identifiers": {},
+            "name": "BA FAA 737 Production Rate Cap Regulatory Action",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing financing risk",
+              "Boeing liquidity risk"
+            ],
+            "attributes": {
+              "category": "financial",
+              "note": "Further credit rating downgrades, capital market disruptions, or operational underperformance could increase borrowing costs or impair funding access"
+            },
+            "identifiers": {},
+            "name": "BA Capital Market Access and Credit Rating Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing 737 production ramp risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "note": "FAA has capped 737 production at 38/month pending quality and safety compliance; failure to ramp could materially impact financials",
+              "program": "737"
+            },
+            "identifiers": {},
+            "name": "BA 737 FAA Production Rate Cap Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing new aircraft certification risk",
+              "777X certification delay risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "note": "Significant certification delays already experienced; ultimate timing determined by regulators",
+              "programs": [
+                "777X",
+                "737-7",
+                "737-10"
+              ]
+            },
+            "identifiers": {},
+            "name": "BA 777X 737-7 737-10 Certification Delay Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing fixed-price program loss risk"
+            ],
+            "attributes": {
+              "catch_up_loss_usd_2024": 6562000000,
+              "category": "operational",
+              "programs": [
+                "KC-46A Tanker",
+                "T-7A Red Hawk",
+                "Commercial Crew",
+                "VC-25B",
+                "MQ-25"
+              ]
+            },
+            "identifiers": {},
+            "name": "BA Fixed-Price Development Program Ongoing Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing pension funding risk"
+            ],
+            "attributes": {
+              "as_of_date": "2024-12-31",
+              "category": "financial",
+              "gaap_underfunded_usd_2024": 4800000000
+            },
+            "identifiers": {},
+            "name": "BA Pension Higher Contribution Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing deferred tax risk",
+              "Boeing valuation allowance risk"
+            ],
+            "attributes": {
+              "allowance_increase_2024_usd": 3287000000,
+              "as_of_date": "2024-12-31",
+              "category": "financial",
+              "valuation_allowance_usd": 7837000000
+            },
+            "identifiers": {},
+            "name": "BA Deferred Tax Valuation Allowance Expansion Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Common Dividend Suspension",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Agreement to Acquire Spirit AeroSystems",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Q2 2024 $4.0B Five-Year Revolving Credit Agreement",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Moody's Downgrade to Baa3/P-3 April 2024",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA FAA 737 Production Rate Cap Regulatory Action",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Capital Market Access and Credit Rating Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA 737 FAA Production Rate Cap Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA 777X 737-7 737-10 Certification Delay Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Fixed-Price Development Program Ongoing Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Pension Higher Contribution Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Deferred Tax Valuation Allowance Expansion Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-25-000015.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "bde6e33dfdc265d800ba0905b61058ab4a32996931f53133cb9db245da52f203"
+    }
+  ],
+  "prompt_version": "v3"
+}

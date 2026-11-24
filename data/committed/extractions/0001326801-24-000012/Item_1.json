@@ -1,0 +1,452 @@
+{
+  "accession": "0001326801-24-000012",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T08:49:05Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "Currently, we generate substantially all of our revenue from selling advertising placements on our family of apps to marketers, which is reflected in FoA. Ads on our platform enable marketers to reach people across a range of marketing objectives, such as generating leads or driving awareness. Marketers purchase ads that can appear in multiple places including on Facebook, Instagram, Messenger, and third-party applications and websites.",
+            "entity_name": "META Family of Apps",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "In 2023, 80% of our total costs and expenses were recognized in FoA and 20% were recognized in RL. Our FoA investments were $70.13 billion in 2023 and include expenses relating to headcount, data centers and technical infrastructure as part of our efforts to develop our apps and our advertising services.",
+            "entity_name": "META Family of Apps",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "RL generates revenue from sales of consumer hardware products, software, and content. Our total RL investments were $18.02 billion in 2023 and include expenses relating to headcount and technology development across these efforts.",
+            "entity_name": "META Reality Labs",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "we expect our RL segment to continue to operate at a loss for the foreseeable future, and our ability to support our metaverse efforts is dependent on generating sufficient profits from other areas of our business.",
+            "entity_name": "META Reality Labs Continued Operating Loss Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "in 2024, we expect to spend approximately 50% of our Reality Labs operating expenses on our AR initiatives, approximately 40% on our VR (including MR) initiatives, and approximately 10% on social platforms and other initiatives.",
+            "entity_name": "META Reality Labs 2024 Expense Allocation Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "on May 12, 2023, the Irish Data Protection Committee (IDPC) issued a Final Decision concluding that Meta Platforms Ireland's reliance on SCCs in respect of certain transfers of European Economic Area (EEA) Facebook user data was not in compliance with the European General Data Protection Regulation (GDPR). The IDPC issued an administrative fine of EUR €1.2 billion as well as corrective orders requiring Meta Platforms Ireland to suspend the relevant transfers and to bring its processing operations into compliance with Chapter V GDPR by ceasing the unlawful processing, including storage, of such data in the United States. We are appealing this decision and the corrective orders are currently subject to an interim stay from the Irish High Court.",
+            "entity_name": "IDPC GDPR Enforcement Action Against Meta Platforms Ireland",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The FTC also continues to monitor us and our compliance with the modified consent order and initiated an administrative proceeding against us, which we are challenging, that alleges deficient compliance and violations of the Children's Online Privacy Protection Act (COPPA), the COPPA Rule, and Section 5 of the Federal Trade Commission Act and seeks changes to our business. If we are unsuccessful in our challenge to the FTC's action and the agency imposes its proposed order in its current form, we would be subject to significant limitations, including on our ability to launch new and modified products or use data of users under 18 years old.",
+            "entity_name": "FTC Administrative Proceeding Against Meta re COPPA",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "A further invalidation of the EU-U.S. DPF by the CJEU could create considerable uncertainty and lead to us being unable to offer a number of our most significant products and services, including Facebook and Instagram, in Europe, which would materially and adversely affect our business, financial condition, and results of operations.",
+            "entity_name": "META EU-US Data Privacy Framework Invalidation Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If we are unable to transfer data between and among countries and regions in which we operate, or if we are restricted from sharing data among our products and services, it could affect our ability to provide our services, the manner in which we provide our services or our ability to target ads, which could adversely affect our financial results.",
+            "entity_name": "META Cross-Border Data Transfer Restriction Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "regulatory or legislative actions or litigation concerning the manner in which we display content to our users, moderate content, provide our services to younger users, or are able to use data in various ways, including for advertising, or otherwise relating to content that is made available on our products, could adversely affect our financial results, including by imposing significant fines that increasingly may be calculated based on global revenue.",
+            "entity_name": "META Regulatory Content Liability and Global Revenue Fines Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "Beginning in November 2022, we took a number of steps to reduce our expense base. For example, our cost reduction efforts have included scaling back budgets, reducing company perks, shrinking our real estate footprint, and employee layoffs and restructurings.",
+            "entity_name": "META 2022-2023 Cost Reduction and Restructuring",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "We work to build a diverse and inclusive workplace where we can leverage our collective cognitive diversity to build the best products and make the best decisions for the global community we serve.",
+            "entity_name": "META Workforce Diversity and Inclusion Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta",
+              "META"
+            ],
+            "attributes": {
+              "exchange": "Nasdaq Global Select Market",
+              "headquarters": "1 Meta Way, Menlo Park, California 94025",
+              "incorporation_date": "2004-07",
+              "incorporation_state": "Delaware",
+              "ipo_date": "2012-05"
+            },
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "Meta Platforms, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Family of Apps",
+              "FoA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Family of Apps",
+              "ticker": "META"
+            },
+            "name": "META Family of Apps",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Reality Labs",
+              "RL"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Reality Labs",
+              "ticker": "META"
+            },
+            "name": "META Reality Labs",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "RL loss guidance"
+            ],
+            "attributes": {
+              "metric": "segment_operating_loss",
+              "period": "foreseeable_future",
+              "segment": "Reality Labs",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "META Reality Labs Continued Operating Loss Outlook",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "RL 2024 opex split"
+            ],
+            "attributes": {
+              "ar_pct": 0.5,
+              "metric": "rl_opex_allocation_by_initiative",
+              "period": "FY2024",
+              "social_platforms_other_pct": 0.1,
+              "update_type": "confirmation",
+              "vr_mr_pct": 0.4
+            },
+            "identifiers": {},
+            "name": "META Reality Labs 2024 Expense Allocation Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "IDPC SCC decision",
+              "Irish DPC EUR 1.2B GDPR fine"
+            ],
+            "attributes": {
+              "counterparty": "Irish Data Protection Committee",
+              "court": "Irish High Court",
+              "decision_date": "2023-05-12",
+              "fine_amount_eur": 1200000000,
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "IDPC GDPR Enforcement Action Against Meta Platforms Ireland",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "FTC COPPA proceeding",
+              "FTC Meta consent order challenge"
+            ],
+            "attributes": {
+              "allegations": "deficient compliance with modified consent order, COPPA violations, Section 5 FTC Act violations",
+              "counterparty": "U.S. Federal Trade Commission",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "FTC Administrative Proceeding Against Meta re COPPA",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EU-US DPF CJEU challenge risk",
+              "Meta Europe service availability risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "European Union",
+              "potential_impact": "inability to offer Facebook and Instagram in Europe"
+            },
+            "identifiers": {},
+            "name": "META EU-US Data Privacy Framework Invalidation Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Meta data localization risk",
+              "cross-border data flow restriction risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "META Cross-Border Data Transfer Restriction Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Meta content moderation regulatory risk",
+              "Meta global revenue-based fines risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "global",
+              "potential_impact": "significant fines calculated based on global revenue"
+            },
+            "identifiers": {},
+            "name": "META Regulatory Content Liability and Global Revenue Fines Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Meta layoffs 2022-2023",
+              "Meta Year of Efficiency restructuring"
+            ],
+            "attributes": {
+              "event_type": "restructuring",
+              "start_date": "2022-11"
+            },
+            "identifiers": {},
+            "name": "META 2022-2023 Cost Reduction and Restructuring",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Meta DEI commitment",
+              "Meta diverse and inclusive workplace"
+            ],
+            "attributes": {
+              "commitment_type": "dei"
+            },
+            "identifiers": {},
+            "name": "META Workforce Diversity and Inclusion Commitment",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "cost_pct_of_total": 0.8,
+              "period": "FY2023",
+              "primary_revenue_source": "advertising",
+              "total_investment_usd": 70130000000
+            },
+            "source_name": "META 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "META Family of Apps",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "cost_pct_of_total": 0.2,
+              "operating_status": "loss",
+              "period": "FY2023",
+              "primary_revenue_source": "consumer_hardware_software_content",
+              "total_investment_usd": 18020000000
+            },
+            "source_name": "META 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "META Reality Labs",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "META 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "META Reality Labs Continued Operating Loss Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "META 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "META Reality Labs 2024 Expense Allocation Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "IDPC GDPR Enforcement Action Against Meta Platforms Ireland",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "FTC Administrative Proceeding Against Meta re COPPA",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "META EU-US Data Privacy Framework Invalidation Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "META Cross-Border Data Transfer Restriction Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "META Regulatory Content Liability and Global Revenue Fines Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "META 2022-2023 Cost Reduction and Restructuring",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "META Workforce Diversity and Inclusion Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-24-000012.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "ae39f9756e3c945ecdd967511ee23ebd6e17d1092a53d7196193c470cfc91bc4"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,614 @@
+{
+  "accession": "0000950170-23-035122",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T13:58:43Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "fiscal_year": "FY2023",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue increased $5.9 billion or 9%. Office Commercial products and cloud services revenue increased $3.7 billion or 10%. Office 365 Commercial revenue grew 13% with seat growth of 11%, driven by small and medium business and frontline worker offerings, as well as growth in revenue per user. Office Commercial products revenue declined 21% driven by continued customer shift to cloud offerings.",
+            "entity_name": "MSFT Productivity and Business Processes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "fiscal_year": "FY2023",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue increased $12.9 billion or 17%. Server products and cloud services revenue increased $12.6 billion or 19% driven by Azure and other cloud services. Azure and other cloud services revenue grew 29% driven by growth in our consumption-based services. Server products revenue decreased 1%.",
+            "entity_name": "MSFT Intelligent Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "fiscal_year": "FY2023",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue decreased $5.2 billion or 9%. Windows revenue decreased $3.2 billion or 13% driven by a decrease in Windows OEM. Windows OEM revenue decreased 25% as elevated channel inventory levels continued to drive additional weakness beyond declining PC demand. Devices revenue decreased $1.8 billion or 24% as elevated channel inventory levels continued to drive additional weakness beyond declining PC demand.",
+            "entity_name": "MSFT More Personal Computing Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "fiscal_year": "FY2023",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Microsoft Cloud revenue increased 22% to $111.6 billion. Microsoft Cloud gross margin percentage increased 2 points to 72%. Excluding the impact of the change in accounting estimate, Microsoft Cloud gross margin percentage decreased slightly driven by a decline in Azure and other cloud services and sales mix shift to Azure and other cloud services, offset in part by improvement in Office 365 Commercial.",
+            "entity_name": "MSFT Microsoft Cloud",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "On January 18, 2023, we announced decisions we made to align our cost structure with our revenue and customer demand, prioritize our investments in strategic areas, and consolidate office space. As a result, we recorded a $1.2 billion charge in the second quarter of fiscal year 2023 (\"Q2 charge\"), which included employee severance expenses of $800 million, impairment charges resulting from changes to our hardware portfolio, and costs related to lease consolidation activities. First, we reduced our overall workforce by approximately 10,000 jobs through the third quarter of fiscal year 2023 related to the Q2 charge, which represents less than 5% of our total employee base.",
+            "entity_name": "MSFT FY2023 Q2 Restructuring Charge",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "On January 18, 2022, we entered into a definitive agreement to acquire Activision Blizzard, Inc. (\"Activision Blizzard\") for $95.00 per share in an all-cash transaction valued at $68.7 billion, inclusive of Activision Blizzard's net cash. The acquisition has been approved by Activision Blizzard's shareholders. We continue to work toward closing the transaction subject to obtaining required regulatory approvals and satisfaction of other customary closing conditions. Microsoft and Activision Blizzard have jointly agreed to extend the merger agreement through October 18, 2023 to allow for additional time to resolve remaining regulatory concerns.",
+            "entity_name": "MSFT Pending Acquisition of Activision Blizzard",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In July 2022, we completed an assessment of the useful lives of our server and network equipment. Due to investments in software that increased efficiencies in how we operate our server and network equipment, as well as advances in technology, we determined we should increase the estimated useful lives of both server and network equipment from four years to six years. This change in accounting estimate was effective beginning fiscal year 2023. Based on the carrying amount of server and network equipment included in property and equipment, net as of June 30, 2022, the effect of this change in estimate for fiscal year 2023 was an increase in operating income of $3.7 billion and net income of $3.0 billion, or $0.40 per both basic and diluted share.",
+            "entity_name": "MSFT Accounting Change - Server and Network Equipment Useful Lives FY2023",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal years 2023 and 2022, we repurchased 69 million shares and 95 million shares of our common stock for $18.4 billion and $28.0 billion, respectively, through our share repurchase programs. All repurchases were made using cash resources. As of June 30, 2023, $22.3 billion remained of our $60 billion share repurchase program.",
+            "entity_name": "MSFT FY2023 Share Repurchase Activity",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal year 2023 and 2022, our Board of Directors declared quarterly dividends of $0.68 per share and $0.62 per share, totaling $20.2 billion and $18.6 billion, respectively. We intend to continue returning capital to shareholders in the form of dividends, subject to declaration by our Board of Directors.",
+            "entity_name": "MSFT FY2023 Quarterly Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure.",
+            "entity_name": "MSFT Capital Expenditure Increase Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "We remain under audit for tax years 2004 to 2017. As of June 30, 2023, the primary unresolved issues for the IRS audits relate to transfer pricing, which could have a material impact in our consolidated financial statements when the matters are resolved. We believe our allowances for income tax contingencies are adequate. We have not received a proposed assessment for the unresolved key transfer pricing issues. We do not expect a final resolution of these issues in the next 12 months.",
+            "entity_name": "MSFT IRS Transfer Pricing Audit Tax Years 2004-2017",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "General and administrative expenses increased $1.7 billion or 28% driven by employee severance expenses and a charge related to a non-public preliminary draft decision provided by the Irish Data Protection Commission.",
+            "entity_name": "MSFT Irish Data Protection Commission Preliminary Decision",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Satya Nadella\nChief Executive Officer",
+            "entity_name": "Satya Nadella",
+            "entity_type_entity": "Person",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Amy E. Hood\nExecutive Vice President and Chief Financial Officer",
+            "entity_name": "Amy E. Hood",
+            "entity_type_entity": "Person",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Alice L. Jolla\nCorporate Vice President and Chief Accounting Officer",
+            "entity_name": "Alice L. Jolla",
+            "entity_type_entity": "Person",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft",
+              "MSFT"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "Microsoft Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Activision Blizzard",
+              "ATVI"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "ATVI"
+            },
+            "name": "Activision Blizzard, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Productivity and Business Processes",
+              "PBP"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Productivity and Business Processes",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Productivity and Business Processes Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Intelligent Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Intelligent Cloud",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Intelligent Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "More Personal Computing",
+              "MPC"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "More Personal Computing",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT More Personal Computing Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Microsoft Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Microsoft Cloud",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Microsoft Cloud",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Q2 charge",
+              "January 2023 restructuring",
+              "MSFT Q2 FY2023 workforce reduction"
+            ],
+            "attributes": {
+              "announcement_date": "2023-01-18",
+              "charge_usd": 1200000000,
+              "event_type": "restructuring",
+              "headcount_reduction": 10000,
+              "severance_usd": 800000000
+            },
+            "identifiers": {},
+            "name": "MSFT FY2023 Q2 Restructuring Charge",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Activision Blizzard acquisition",
+              "MSFT-ATVI deal"
+            ],
+            "attributes": {
+              "agreement_date": "2022-01-18",
+              "consideration": "all_cash",
+              "event_type": "acquisition",
+              "extended_merger_deadline": "2023-10-18",
+              "price_per_share_usd": 95.0,
+              "status": "pending_regulatory_approval",
+              "target_company": "Activision Blizzard, Inc.",
+              "total_value_usd": 68700000000
+            },
+            "identifiers": {},
+            "name": "MSFT Pending Acquisition of Activision Blizzard",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "server useful life accounting change",
+              "network equipment useful life change FY2023"
+            ],
+            "attributes": {
+              "diluted_eps_impact": 0.4,
+              "effective_fiscal_year": "FY2023",
+              "event_type": "accounting_change",
+              "net_income_impact_usd": 3000000000,
+              "new_useful_life_years": 6,
+              "operating_income_impact_usd": 3700000000,
+              "prior_useful_life_years": 4
+            },
+            "identifiers": {},
+            "name": "MSFT Accounting Change - Server and Network Equipment Useful Lives FY2023",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "FY2023 buyback",
+              "MSFT FY2023 share repurchase"
+            ],
+            "attributes": {
+              "amount_usd": 18400000000,
+              "period": "FY2023",
+              "remaining_authorization_usd": 22300000000,
+              "return_type": "buyback",
+              "shares_repurchased": 69000000,
+              "total_program_usd": 60000000000
+            },
+            "identifiers": {},
+            "name": "MSFT FY2023 Share Repurchase Activity",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "MSFT quarterly dividend $0.68 per share",
+              "MSFT FY2023 dividend"
+            ],
+            "attributes": {
+              "per_share": 0.68,
+              "period": "FY2023",
+              "prior_year_per_share": 0.62,
+              "return_type": "dividend",
+              "total_usd": 20200000000
+            },
+            "identifiers": {},
+            "name": "MSFT FY2023 Quarterly Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "MSFT capex guidance",
+              "MSFT AI infrastructure investment outlook"
+            ],
+            "attributes": {
+              "direction": "increasing",
+              "metric": "capital_expenditures",
+              "rationale": "cloud_and_AI_infrastructure_growth",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "MSFT Capital Expenditure Increase Outlook",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "IRS transfer pricing audit",
+              "MSFT IRS audit"
+            ],
+            "attributes": {
+              "counterparty": "Internal Revenue Service",
+              "issue": "transfer_pricing",
+              "potential_material_impact": true,
+              "status": "pending",
+              "tax_years_range": "2004-2017"
+            },
+            "identifiers": {},
+            "name": "MSFT IRS Transfer Pricing Audit Tax Years 2004-2017",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Irish DPC preliminary draft decision",
+              "Ireland DPC action"
+            ],
+            "attributes": {
+              "counterparty": "Irish Data Protection Commission",
+              "jurisdiction": "Ireland",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "MSFT Irish Data Protection Commission Preliminary Decision",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "MSFT",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Satya Nadella",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Amy Hood"
+            ],
+            "attributes": {
+              "current_company_id": "MSFT",
+              "insider_status": "officer",
+              "officer_role": "CFO"
+            },
+            "identifiers": {},
+            "name": "Amy E. Hood",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Alice Jolla"
+            ],
+            "attributes": {
+              "current_company_id": "MSFT",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "Alice L. Jolla",
+            "type": "Person"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.09,
+              "operating_income_usd": 34189000000,
+              "period": "FY2023",
+              "revenue": 69274000000
+            },
+            "source_name": "MSFT 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Productivity and Business Processes Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.17,
+              "operating_income_usd": 37884000000,
+              "period": "FY2023",
+              "revenue": 87907000000
+            },
+            "source_name": "MSFT 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Intelligent Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.09,
+              "operating_income_usd": 16450000000,
+              "period": "FY2023",
+              "revenue": 54734000000
+            },
+            "source_name": "MSFT 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT More Personal Computing Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.22,
+              "margin": 0.72,
+              "period": "FY2023",
+              "revenue": 111600000000
+            },
+            "source_name": "MSFT 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Microsoft Cloud",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2023 Q2 Restructuring Charge",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Pending Acquisition of Activision Blizzard",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Accounting Change - Server and Network Equipment Useful Lives FY2023",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2023 Share Repurchase Activity",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2023 Quarterly Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "MSFT 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Capital Expenditure Increase Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT IRS Transfer Pricing Audit Tax Years 2004-2017",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Irish Data Protection Commission Preliminary Decision",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Satya Nadella",
+            "source_type_entity": "Person",
+            "target_name": "Microsoft Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO"
+            },
+            "source_name": "Amy E. Hood",
+            "source_type_entity": "Person",
+            "target_name": "Microsoft Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Corporate Vice President and Chief Accounting Officer"
+            },
+            "source_name": "Alice L. Jolla",
+            "source_type_entity": "Person",
+            "target_name": "Microsoft Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2023-07-27",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0000950170-23-035122.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "02282d9b749425eb1b7cd5a8b32a8f4ac833f7c0b9b593201f4e80abadae6f96"
+    }
+  ],
+  "prompt_version": "v3"
+}

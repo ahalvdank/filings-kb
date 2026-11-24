@@ -1,0 +1,135 @@
+{
+  "accession": "0000731766-25-000063",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T22:36:05Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In June 2024, our Board of Directors increased the Company's quarterly cash dividend to shareholders to an annual rate of $8.40 compared to $7.52 per share, which the Company had paid since June 2023.",
+            "entity_name": "UNH June 2024 Dividend Increase",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "October 31, 2024 2.6 $568.70 2.6 39.6\nNovember 30, 2024 0.9 593.39 0.9 38.7\nDecember 31, 2024 5.6 513.93 5.6 33.1\nTotal 9.1 $537.14 9.1",
+            "entity_name": "UNH Q4 2024 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In June 2024, the Board of Directors amended our share repurchase program to authorize the repurchase of up to 35 million shares of our common stock in open market purchases or other types of transactions (including prepaid or structured repurchase programs), in addition to all remaining shares authorized to be repurchased under the Board's 2018 renewal of the program. There is no established expiration date for the program.",
+            "entity_name": "UNH June 2024 Repurchase Authorization Amendment",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UnitedHealth Group 2024 annual dividend increase"
+            ],
+            "attributes": {
+              "effective_date": "2024-06",
+              "per_share": 8.4,
+              "prior_per_share": 7.52,
+              "rate_basis": "annual",
+              "return_type": "dividend_increase"
+            },
+            "identifiers": {
+              "ticker": "UNH"
+            },
+            "name": "UNH June 2024 Dividend Increase",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "UnitedHealth Q4 2024 buyback"
+            ],
+            "attributes": {
+              "avg_price_per_share": 537.14,
+              "period": "Q4 2024",
+              "return_type": "buyback",
+              "shares": 9100000
+            },
+            "identifiers": {
+              "ticker": "UNH"
+            },
+            "name": "UNH Q4 2024 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "UnitedHealth 2024 share repurchase program amendment"
+            ],
+            "attributes": {
+              "effective_date": "2024-06",
+              "no_expiration": true,
+              "return_type": "repurchase_authorization",
+              "shares_authorized_additional": 35000000
+            },
+            "identifiers": {
+              "ticker": "UNH"
+            },
+            "name": "UNH June 2024 Repurchase Authorization Amendment",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "UNH June 2024 Dividend Increase",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Q4 2024 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "UNH June 2024 Repurchase Authorization Amendment",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-25-000063.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "9f95e2f565634df82555fd219ab3efa63063ba4f27e8dfdccf5a62fa7c427fc3"
+    }
+  ],
+  "prompt_version": "v3"
+}

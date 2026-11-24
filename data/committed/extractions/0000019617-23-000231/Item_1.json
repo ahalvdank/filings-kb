@@ -1,0 +1,295 @@
+{
+  "accession": "0000019617-23-000231",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-19T12:41:33Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "JPMorgan Chase & Co. (\"JPMorgan Chase\" or the \"Firm\", NYSE: JPM), a financial holding company incorporated under Delaware law in 1968, is a leading financial services firm based in the United States of America (\"U.S.\"), with operations worldwide. JPMorgan Chase had $3.7 trillion in assets and $292.3 billion in stockholders' equity as of December 31, 2022.",
+            "entity_name": "JPMorgan Chase & Co.",
+            "entity_type_entity": "Company",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "For management reporting purposes, JPMorgan Chase's activities are organized into four major reportable business segments, as well as a Corporate segment. The Firm's consumer business is the Consumer & Community Banking (\"CCB\") segment. The Firm's wholesale business segments are the Corporate & Investment Bank (\"CIB\"), Commercial Banking (\"CB\"), and Asset & Wealth Management (\"AWM\").",
+            "entity_name": "JPM Consumer & Community Banking Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "firmwide employee headcount context for segment workforce table",
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "As of December 31, 2022, JPMorgan Chase had 293,723 employees globally, an increase of 22,698 employees from the prior year. The increase was primarily attributable to additional employees in technology and operations, as well as front office.",
+            "entity_name": "JPM Consumer & Community Banking Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The Firm is subject to obligations under the terms of a Deferred Prosecution Agreement entered into with the Department of Justice on September 29, 2020 relating to precious metals and U.S. Treasuries markets investigations as well as under a related order issued by the CFTC.",
+            "entity_name": "JPMorgan Chase DOJ Deferred Prosecution Agreement 2020",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "The Firm has global Diversity, Equity & Inclusion centers of excellence that lead the Firm's strategy in supporting its commitments to create more equity and lasting impact in communities, and strengthen its inclusive culture.",
+            "entity_name": "JPMorgan Chase Diversity, Equity and Inclusion Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "The Firm's commitment to diversity, equity and inclusion for all employees includes compensation review processes that seek to ensure that the Firm's employees are paid equitably and competitively for the work they do.",
+            "entity_name": "JPMorgan Chase Diversity, Equity and Inclusion Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "JPMorgan Chase",
+              "JPM",
+              "the Firm"
+            ],
+            "attributes": {
+              "employees": 293723,
+              "employees_as_of_date": "2022-12-31",
+              "holding_company_types": [
+                "bank_holding_company",
+                "financial_holding_company"
+              ],
+              "incorporation_state": "Delaware",
+              "stockholders_equity_usd": 292300000000,
+              "total_assets_usd": 3700000000000
+            },
+            "identifiers": {
+              "ticker": "JPM"
+            },
+            "name": "JPMorgan Chase & Co.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "JPMorgan Chase Bank, N.A."
+            ],
+            "attributes": {
+              "entity_type": "national_banking_association",
+              "parent": "JPMorgan Chase & Co.",
+              "primary_regulator": "OCC"
+            },
+            "identifiers": {},
+            "name": "JPMorgan Chase Bank, National Association",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "J.P. Morgan Securities"
+            ],
+            "attributes": {
+              "entity_type": "us_broker_dealer",
+              "parent": "JPMorgan Chase & Co.",
+              "primary_regulators": [
+                "SEC",
+                "FINRA"
+              ]
+            },
+            "identifiers": {},
+            "name": "J.P. Morgan Securities LLC",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "CCB",
+              "Consumer & Community Banking"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Consumer & Community Banking",
+              "ticker": "JPM"
+            },
+            "name": "JPM Consumer & Community Banking Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "CIB",
+              "Corporate & Investment Bank"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Corporate & Investment Bank",
+              "ticker": "JPM"
+            },
+            "name": "JPM Corporate & Investment Bank Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "CB",
+              "Commercial Banking"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Commercial Banking",
+              "ticker": "JPM"
+            },
+            "name": "JPM Commercial Banking Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AWM",
+              "Asset & Wealth Management"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Asset & Wealth Management",
+              "ticker": "JPM"
+            },
+            "name": "JPM Asset & Wealth Management Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "JPM DPA 2020",
+              "Precious Metals and Treasuries DPA"
+            ],
+            "attributes": {
+              "counterparty": "U.S. Department of Justice",
+              "date_entered": "2020-09-29",
+              "related_regulator": "CFTC",
+              "status": "pending",
+              "subject": "precious metals and U.S. Treasuries markets investigations"
+            },
+            "identifiers": {},
+            "name": "JPMorgan Chase DOJ Deferred Prosecution Agreement 2020",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "JPM DEI commitment",
+              "JPM diversity initiative"
+            ],
+            "attributes": {
+              "commitment_type": "dei",
+              "scope": "global_workforce_and_communities"
+            },
+            "identifiers": {},
+            "name": "JPMorgan Chase Diversity, Equity and Inclusion Commitment",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "employees": 135347,
+              "period": "FY2022"
+            },
+            "source_name": "JPM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Consumer & Community Banking Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "employees": 73452,
+              "period": "FY2022"
+            },
+            "source_name": "JPM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Corporate & Investment Bank Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "employees": 14687,
+              "period": "FY2022"
+            },
+            "source_name": "JPM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Commercial Banking Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "employees": 26041,
+              "period": "FY2022"
+            },
+            "source_name": "JPM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Asset & Wealth Management Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "JPMorgan Chase DOJ Deferred Prosecution Agreement 2020",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "JPMorgan Chase Diversity, Equity and Inclusion Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/JPM/0000019617-23-000231.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "ad9370ce65378df97c85740237ce09c52dcff4c4cb419b6618da40c4d6498316"
+    }
+  ],
+  "prompt_version": "v3"
+}

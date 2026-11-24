@@ -1,0 +1,57 @@
+{
+  "accession": "0000950170-23-035122",
+  "item": "Item_2",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T13:51:07Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In fiscal year 2023, we made decisions to consolidate our office leases to create higher density across our workspaces, and we may make similar decisions in future periods as we continue to evaluate our real estate needs.",
+            "entity_name": "MSFT FY2023 Office Lease Consolidation",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft office lease consolidation FY2023"
+            ],
+            "attributes": {
+              "description": "Consolidation of office leases to create higher density across workspaces",
+              "event_type": "restructuring",
+              "fiscal_year": "2023"
+            },
+            "identifiers": {},
+            "name": "MSFT FY2023 Office Lease Consolidation",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2023 Office Lease Consolidation",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0000950170-23-035122.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "3c9bdd745f1ae85cd8cc5e58588d021b0deb8f374cceb2acb26674954488d131"
+    }
+  ],
+  "prompt_version": "v3"
+}

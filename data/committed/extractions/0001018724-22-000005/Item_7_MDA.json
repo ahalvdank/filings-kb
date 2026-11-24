@@ -1,0 +1,363 @@
+{
+  "accession": "0001018724-22-000005",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T17:09:16Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "North America sales increased 18% in 2021, compared to the prior year. The sales growth primarily reflects increased unit sales, including sales by third-party sellers, and advertising sales. Increased unit sales were driven largely by our continued efforts to reduce prices for our customers, including from our shipping offers, and increased demand, partially offset by fulfillment network inefficiencies and supply chain constraints.",
+            "entity_name": "AMZN North America Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "The decrease in North America operating income in absolute dollars in 2021, compared to the prior year, is primarily due to increased shipping and fulfillment costs, due in part to increased investments in our fulfillment network, increased wage rates and incentives, increased carrier rates, and fulfillment network inefficiencies, and growth in certain operating expenses, including marketing, partially offset by increased unit sales, including sales by third-party sellers, and advertising sales.",
+            "entity_name": "AMZN North America Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "International sales increased 22% in 2021, compared to the prior year. The sales growth primarily reflects increased unit sales, including sales by third-party sellers, and advertising sales. Increased unit sales were driven largely by our continued efforts to reduce prices for our customers, including from our shipping offers, and increased demand, partially offset by fulfillment network inefficiencies and supply chain constraints.",
+            "entity_name": "AMZN International Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "The International operating loss in 2021, as compared to the operating income in the prior year, is primarily due to increased shipping and fulfillment costs, due in part to increased investments in our fulfillment network, increased wage rates and incentives, and increased carrier rates, and growth in certain operating expenses, including marketing, partially offset by increased unit sales, including sales by third-party sellers, and advertising sales.",
+            "entity_name": "AMZN International Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "AWS sales increased 37% in 2021, compared to the prior year. The sales growth primarily reflects increased customer usage, partially offset by pricing changes. Pricing changes were driven largely by our continued efforts to reduce prices for our customers.",
+            "entity_name": "AMZN AWS Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "The increase in AWS operating income in absolute dollars in 2021, compared to the prior year, is primarily due to increased customer usage and cost structure productivity, partially offset by increased spending on technology infrastructure and payroll and related expenses, all of which were primarily driven by additional investments to support the business growth, and reduced prices for our customers.",
+            "entity_name": "AMZN AWS Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "Net sales are expected to be between $112.0 billion and $117.0 billion, or to grow between 3% and 8% compared with first quarter 2021. This guidance anticipates an unfavorable impact of approximately 150 basis points from foreign exchange rates.",
+            "entity_name": "AMZN Q1 2022 Net Sales Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "Operating income is expected to be between $3.0 billion and $6.0 billion, compared with $8.9 billion in first quarter 2021. This guidance includes approximately $1.0 billion lower depreciation expense due to increases in the estimated useful lives of our servers and networking equipment beginning on January 1, 2022.",
+            "entity_name": "AMZN Q1 2022 Operating Income Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "We expect to fund the acquisition of MGM Holdings Inc. with cash on hand.",
+            "entity_name": "AMZN MGM Holdings Acquisition",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "We expect technology and content costs to grow at a slower rate in 2022 due to increases in the estimated useful lives of our servers and networking equipment, which will primarily impact our AWS segment.",
+            "entity_name": "AMZN Server and Networking Equipment Useful Life Change",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "Effective January 1, 2022, research and development expenses are required to be capitalized and amortized for U.S. tax purposes, which will delay the deductibility of these expenses and potentially increase the amount of cash taxes we pay.",
+            "entity_name": "AMZN R&D Capitalization Tax Rule Change",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Amazon",
+              "AMZN"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMZN"
+            },
+            "name": "Amazon.com, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "North America"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "North America",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN North America Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "International"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "International",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN International Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AWS",
+              "Amazon Web Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "AWS",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN AWS Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "growth_pct_high": 0.08,
+              "growth_pct_low": 0.03,
+              "metric": "net_sales",
+              "new_value_high_usd": 117000000000,
+              "new_value_low_usd": 112000000000,
+              "note": "Anticipates approximately 150 basis points unfavorable foreign exchange impact",
+              "period": "Q1_2022",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "AMZN Q1 2022 Net Sales Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "operating_income",
+              "new_value_high_usd": 6000000000,
+              "new_value_low_usd": 3000000000,
+              "note": "Includes approximately $1.0B lower depreciation due to server useful life change; compares to $8.9B in Q1 2021",
+              "period": "Q1_2022",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "AMZN Q1 2022 Operating Income Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "MGM deal"
+            ],
+            "attributes": {
+              "consideration": "cash",
+              "event_type": "acquisition",
+              "status": "pending",
+              "target_company": "MGM Holdings Inc."
+            },
+            "identifiers": {},
+            "name": "AMZN MGM Holdings Acquisition",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2022-01-01",
+              "event_type": "accounting_change",
+              "note": "Increases in estimated useful lives of servers and networking equipment; reduces depreciation expense approximately $1.0B in Q1 2022; primarily impacts AWS segment"
+            },
+            "identifiers": {},
+            "name": "AMZN Server and Networking Equipment Useful Life Change",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2022-01-01",
+              "event_type": "accounting_change",
+              "note": "R&D expenses required to be capitalized and amortized for U.S. tax purposes starting January 1, 2022"
+            },
+            "identifiers": {},
+            "name": "AMZN R&D Capitalization Tax Rule Change",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.18,
+              "margin": 0.026,
+              "operating_income": 7271000000,
+              "period": "FY2021",
+              "revenue": 279833000000
+            },
+            "source_name": "AMZN 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN North America Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.22,
+              "margin": -0.0072,
+              "operating_income": -924000000,
+              "period": "FY2021",
+              "revenue": 127787000000
+            },
+            "source_name": "AMZN 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN International Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.37,
+              "margin": 0.298,
+              "operating_income": 18532000000,
+              "period": "FY2021",
+              "revenue": 62202000000
+            },
+            "source_name": "AMZN 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN AWS Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "AMZN 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Q1 2022 Net Sales Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "AMZN 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Q1 2022 Operating Income Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN MGM Holdings Acquisition",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Server and Networking Equipment Useful Life Change",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN R&D Capitalization Tax Rule Change",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-02-03",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-22-000005.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "6d1aed8f01dcbaf8f715f7a4bd90dc2ec961696405b945b2c7dabc2206f244f3"
+    }
+  ],
+  "prompt_version": "v3"
+}

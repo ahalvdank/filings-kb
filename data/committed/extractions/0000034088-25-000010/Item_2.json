@@ -1,0 +1,235 @@
+{
+  "accession": "0000034088-25-000010",
+  "item": "Item_2",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T02:15:04Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In addition, ExxonMobil completed the acquisition of Pioneer, increasing the Permian Basin acreage and production capacity.",
+            "entity_name": "XOM Acquisition of Pioneer Natural Resources",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In December 2024, the Corporation completed a transfer of 100 percent of the shares in its Nigeria affiliate, Mobil Producing Nigeria Unlimited, following the receipt of and compliance with conditions precedent specified in government approvals.",
+            "entity_name": "XOM Divestiture of Mobil Producing Nigeria Unlimited",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "ExxonMobil relinquished 2.6 million net offshore acres and sold a portion of its interests in onshore production facilities. The sale of the remaining onshore assets is expected to be completed in early 2025 resulting in a full Upstream operations exit from the country.",
+            "entity_name": "XOM Argentina Upstream Operations Exit",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "The Corporation announced a sales agreement relating to ExxonMobil's ownership interest in this asset and expects the transaction to close in 2025.",
+            "entity_name": "XOM Karlsruhe Refinery Interest Sale",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2024, the Company shut down a portion of its Gravenchon chemical operations including the steamcracker and related derivatives units.",
+            "entity_name": "XOM Gravenchon Chemical Operations Shutdown 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "Groningen field permanent closure was codified in the Dutch mining law on April 19, 2024.",
+            "entity_name": "XOM Groningen Field Permanent Closure",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Pioneer acquisition",
+              "XOM Pioneer deal"
+            ],
+            "attributes": {
+              "event_type": "acquisition",
+              "geography": "Permian Basin, United States",
+              "target_company": "Pioneer Natural Resources"
+            },
+            "identifiers": {},
+            "name": "XOM Acquisition of Pioneer Natural Resources",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "MPNU transfer",
+              "Nigeria affiliate divestiture"
+            ],
+            "attributes": {
+              "divested_entity": "Mobil Producing Nigeria Unlimited",
+              "effective_date": "2024-12",
+              "event_type": "divestiture",
+              "geography": "Nigeria"
+            },
+            "identifiers": {},
+            "name": "XOM Divestiture of Mobil Producing Nigeria Unlimited",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Argentina exit",
+              "XOM Argentina divestiture"
+            ],
+            "attributes": {
+              "event_type": "divestiture",
+              "geography": "Argentina",
+              "note": "Partial onshore sale completed in 2024; remaining onshore assets expected to close early 2025 resulting in full Upstream exit"
+            },
+            "identifiers": {},
+            "name": "XOM Argentina Upstream Operations Exit",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Karlsruhe asset sale"
+            ],
+            "attributes": {
+              "event_type": "divestiture",
+              "geography": "Karlsruhe, Germany",
+              "note": "Sales agreement announced; transaction expected to close in 2025",
+              "ownership_pct": 25
+            },
+            "identifiers": {},
+            "name": "XOM Karlsruhe Refinery Interest Sale",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Gravenchon steamcracker shutdown"
+            ],
+            "attributes": {
+              "affected_assets": "steamcracker and related derivatives units",
+              "event_type": "restructuring",
+              "geography": "Gravenchon, France",
+              "year": 2024
+            },
+            "identifiers": {},
+            "name": "XOM Gravenchon Chemical Operations Shutdown 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Groningen closure",
+              "Netherlands Groningen shutdown"
+            ],
+            "attributes": {
+              "effective_date": "2024-04-19",
+              "event_type": "regulatory_action",
+              "field": "Groningen",
+              "geography": "Netherlands"
+            },
+            "identifiers": {},
+            "name": "XOM Groningen Field Permanent Closure",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Acquisition of Pioneer Natural Resources",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Divestiture of Mobil Producing Nigeria Unlimited",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Argentina Upstream Operations Exit",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Karlsruhe Refinery Interest Sale",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Gravenchon Chemical Operations Shutdown 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Groningen Field Permanent Closure",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-25-000010.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "b9528f846df5afc4b34479d1dacfdb3bfe1c19643240d73a0d30b4ffc2df65ff"
+    }
+  ],
+  "prompt_version": "v3"
+}

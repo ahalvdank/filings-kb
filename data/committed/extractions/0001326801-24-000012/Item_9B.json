@@ -1,0 +1,122 @@
+{
+  "accession": "0001326801-24-000012",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T09:53:51Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Jennifer Newstead, our Chief Legal Officer, entered into a trading plan intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) under the Securities Exchange Act of 1934, as amended.",
+            "entity_name": "Jennifer Newstead",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "The trading plan provides for the sale of an aggregate of 10,968 shares of our Class A common stock and all shares received during the duration of the plan pursuant to Ms. Newstead's outstanding equity awards and any future equity award grants, excluding any shares withheld by the company to satisfy its income tax withholding and remittance obligations in connection with the net settlement of the equity awards. The plan will terminate on May 13, 2025, subject to early termination for certain specified events set forth in the plan.",
+            "entity_name": "Jennifer Newstead 10b5-1 Plan Adoption 2023-11-30",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "GeneralCounsel"
+            },
+            "identifiers": {},
+            "name": "Jennifer Newstead",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Meta"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "Meta Platforms, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "security_type": "common_stock",
+              "share_class": "A"
+            },
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "META Class A Common Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "note": "Aggregate shares include equity award vesting during plan duration; excludes shares withheld for tax withholding on net settlement",
+              "plan_expiration_date": "2025-05-13",
+              "reporting_person": "Jennifer Newstead",
+              "shares": 10968,
+              "source": "10-K_Item_9B_10b5-1_plan",
+              "transaction_code": "S",
+              "transaction_date": "2023-11-30"
+            },
+            "identifiers": {},
+            "name": "Jennifer Newstead 10b5-1 Plan Adoption 2023-11-30",
+            "type": "InsiderTransaction"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "GeneralCounsel"
+            },
+            "source_name": "Jennifer Newstead",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_expiration": "2025-05-13",
+              "plan_type": "10b5-1(c)",
+              "shares": 10968,
+              "transaction_code": "S",
+              "transaction_date": "2023-11-30"
+            },
+            "source_name": "Jennifer Newstead",
+            "source_type_entity": "Person",
+            "target_name": "META Class A Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-24-000012.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "45c5af56e33bae63d34e833c20c2cf9219c774aea65f5cb66fbcc045483d5067"
+    }
+  ],
+  "prompt_version": "v3"
+}

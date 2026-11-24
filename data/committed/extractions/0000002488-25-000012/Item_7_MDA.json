@@ -1,0 +1,375 @@
+{
+  "accession": "0000002488-25-000012",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T00:48:50Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Data Center net revenue of $12.6 billion in 2024 increased by 94%, compared to net revenue of $6.5 billion in 2023. The increase was primarily driven by higher sales of AMD Instinct GPUs and AMD EPYC CPUs.",
+            "entity_name": "AMD Data Center Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Data Center operating income was $3.5 billion in 2024, compared to operating income of $1.3 billion in 2023. The increase in operating income was primarily due to higher revenue, partially offset by higher R&D investment.",
+            "entity_name": "AMD Data Center Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Client net revenue of $7.1 billion in 2024 increased by 52%, compared to net revenue of $4.7 billion in 2023, primarily due to a 34% increase in unit shipments and a 13% increase in average selling price driven by strong demand for AMD mobile and desktop Ryzen processors.",
+            "entity_name": "AMD Client Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Gaming net revenue of $2.6 billion in 2024 decreased by 58%, compared to net revenue of $6.2 billion in 2023. The decrease in net revenue was primarily due to lower semi-custom product revenue.",
+            "entity_name": "AMD Gaming Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Embedded net revenue of $3.6 billion in 2024 decreased by 33%, compared to net revenue of $5.3 billion in 2023. The decrease in net revenue was primarily due to lower demand as customers continued to normalize their inventory levels.",
+            "entity_name": "AMD Embedded Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "We made strategic investments to further expand our AI software capabilities with the acquisition of Silo AI Oy (Silo AI), an AI lab based in Finland. The acquisition of Silo AI enables customers to accelerate development and deployment of AI models on AMD hardware.",
+            "entity_name": "AMD Acquisition of Silo AI Oy",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "On August 17, 2024, we agreed to acquire ZT Systems. Upon closing of the acquisition, we will pay approximately $3.4 billion in cash and 8,335,852 shares of AMD common stock and to the extent certain conditions are met, we will pay an additional $300 million of cash and up to 740,964 shares of AMD common stock. The acquisition is expected to close in the first half of fiscal year 2025, subject to certain regulatory approvals and other customary closing conditions.",
+            "entity_name": "AMD Agreement to Acquire ZT Systems",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "We recognized $186 million of restructuring charges in 2024 due to the implementation of a restructuring plan (the 2024 Restructuring Plan). The 2024 Restructuring Plan was focused on driving efficiencies across the business and aligning resources with our largest growth opportunities in the AI and enterprise markets.",
+            "entity_name": "AMD 2024 Restructuring Plan",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During the twelve months ended December 28, 2024, we returned a total of $862 million to shareholders through the repurchase of 5.9 million shares of common stock under our stock repurchase program. As of December 28, 2024, $4.7 billion remained available for future stock repurchases under this program. The stock repurchase program does not obligate us to acquire any common stock, has no termination date and may be suspended or discontinued at any time.",
+            "entity_name": "AMD FY2024 Share Repurchase Program Activity",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Our aggregate principal amount of total debt as of December 28, 2024 was $1.8 billion, compared to $2.5 billion as of December 30, 2023. We repaid our 2.95% Senior Notes due 2024 with a principal amount of $750 million in June 2024.",
+            "entity_name": "AMD June 2024 2.95% Senior Notes Repayment",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Data Center"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center",
+              "ticker": "AMD"
+            },
+            "name": "AMD Data Center Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Client"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Client",
+              "ticker": "AMD"
+            },
+            "name": "AMD Client Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Gaming"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Gaming",
+              "ticker": "AMD"
+            },
+            "name": "AMD Gaming Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Embedded"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Embedded",
+              "ticker": "AMD"
+            },
+            "name": "AMD Embedded Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Silo AI acquisition"
+            ],
+            "attributes": {
+              "event_type": "acquisition",
+              "status": "completed",
+              "target_company": "Silo AI Oy",
+              "target_geography": "Finland"
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of Silo AI Oy",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "ZT Systems acquisition",
+              "ZT Group acquisition"
+            ],
+            "attributes": {
+              "additional_cash_contingent_usd": 300000000,
+              "additional_shares_contingent": 740964,
+              "announcement_date": "2024-08-17",
+              "cash_consideration_usd": 3400000000,
+              "event_type": "acquisition",
+              "status": "pending",
+              "stock_consideration_shares": 8335852,
+              "target_company": "ZT Group Int'l, Inc."
+            },
+            "identifiers": {},
+            "name": "AMD Agreement to Acquire ZT Systems",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD restructuring 2024"
+            ],
+            "attributes": {
+              "charge_usd": 186000000,
+              "event_type": "restructuring",
+              "focus": "AI and enterprise markets resource alignment"
+            },
+            "identifiers": {},
+            "name": "AMD 2024 Restructuring Plan",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD FY2024 buyback"
+            ],
+            "attributes": {
+              "amount_usd": 862000000,
+              "period": "FY2024",
+              "remaining_authorization_usd": 4700000000,
+              "return_type": "buyback",
+              "shares_repurchased": 5900000
+            },
+            "identifiers": {},
+            "name": "AMD FY2024 Share Repurchase Program Activity",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "AMD 2.95% Notes repayment"
+            ],
+            "attributes": {
+              "coupon": 0.0295,
+              "instrument_type": "notes",
+              "principal_usd": 750000000,
+              "repayment_date": "2024-06",
+              "transaction": "repayment"
+            },
+            "identifiers": {},
+            "name": "AMD June 2024 2.95% Senior Notes Repayment",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.94,
+              "margin": 0.277,
+              "margin_type": "operating",
+              "operating_income_usd": 3482000000,
+              "period": "FY2024",
+              "revenue": 12579000000
+            },
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Data Center Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.52,
+              "margin": 0.127,
+              "margin_type": "operating",
+              "operating_income_usd": 897000000,
+              "period": "FY2024",
+              "revenue": 7054000000
+            },
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Client Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.58,
+              "margin": 0.112,
+              "margin_type": "operating",
+              "operating_income_usd": 290000000,
+              "period": "FY2024",
+              "revenue": 2595000000
+            },
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Gaming Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.33,
+              "margin": 0.399,
+              "margin_type": "operating",
+              "operating_income_usd": 1421000000,
+              "period": "FY2024",
+              "revenue": 3557000000
+            },
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Embedded Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of Silo AI Oy",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Agreement to Acquire ZT Systems",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD 2024 Restructuring Plan",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD FY2024 Share Repurchase Program Activity",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD June 2024 2.95% Senior Notes Repayment",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-25-000012.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "7d24f10ea9ce7ef86f1b37a58574a194345d2e8bb37992b1d5ec4aaeba72fb10"
+    }
+  ],
+  "prompt_version": "v3"
+}

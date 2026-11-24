@@ -1,0 +1,270 @@
+{
+  "accession": "0001326801-23-000013",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T10:57:57Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Certification of Mark Zuckerberg, Chief Executive Officer, pursuant to Rule 13a-14(a)/15d-14(a), as adopted pursuant to Section 302 of the Sarbanes-Oxley Act of 2002.",
+            "entity_name": "Mark Zuckerberg",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Certification of Susan Li, Chief Financial Officer, pursuant to Rule 13a-14(a)/15d-14(a), as adopted pursuant to Section 302 of the Sarbanes-Oxley Act of 2002.",
+            "entity_name": "Susan Li",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Offer Letter, dated November 15, 2022, between Registrant and David M. Wehner.",
+            "entity_name": "David M. Wehner",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Offer Letter, dated June 5, 2020, between Registrant and Christopher K. Cox.",
+            "entity_name": "Christopher K. Cox",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Amended and Restated Offer Letter, dated September 14, 2021, between Registrant and Marne L. Levine.",
+            "entity_name": "Marne L. Levine",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Offer Letter, dated December 22, 2022, between Registrant and Javier Olivan.",
+            "entity_name": "Javier Olivan",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Indenture, dated as of August 9, 2022, between Meta Platforms, Inc. and U.S. Bank Trust Company, National Association, as trustee.",
+            "entity_name": "Meta August 2022 Indenture",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "Meta Platforms, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Mark Zuckerberg",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "CFO"
+            },
+            "identifiers": {},
+            "name": "Susan Li",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "David M. Wehner",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "Christopher K. Cox",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "Marne L. Levine",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "Javier Olivan",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "notes",
+              "issuance_date": "2022-08-09",
+              "trustee": "U.S. Bank Trust Company, National Association"
+            },
+            "identifiers": {},
+            "name": "Meta August 2022 Indenture",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Mark Zuckerberg",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO"
+            },
+            "source_name": "Susan Li",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Other"
+            },
+            "source_name": "David M. Wehner",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Other"
+            },
+            "source_name": "Christopher K. Cox",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Other"
+            },
+            "source_name": "Marne L. Levine",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Other"
+            },
+            "source_name": "Javier Olivan",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "Meta August 2022 Indenture",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-23-000013.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "959322437ce2f999ab699d463768505a772943877b7f2a25c6d307f92864d529"
+    }
+  ],
+  "prompt_version": "v3"
+}

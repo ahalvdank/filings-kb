@@ -1,0 +1,175 @@
+{
+  "accession": "0000012927-25-000015",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T05:42:35Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have financial instruments that are subject to interest rate risk, principally fixed-rate debt obligations. The investors in our fixed-rate debt obligations do not generally have the right to demand we pay off these obligations prior to maturity. Therefore, exposure to interest rate risk is not believed to be material for our fixed-rate debt.",
+            "entity_name": "BA Interest Rate Risk on Fixed-Rate Debt",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are subject to foreign currency exchange rate risk relating to receipts from customers and payments to suppliers in foreign currencies. We use foreign currency forward contracts to hedge the price risk associated with firmly committed and forecasted foreign denominated payments and receipts related to our ongoing business. Foreign currency forward contracts are sensitive to changes in foreign currency exchange rates. At December 31, 2024, a 10% increase or decrease in the exchange rate in our portfolio of foreign currency contracts would have increased or decreased our unrealized losses by $428 million.",
+            "entity_name": "BA Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are subject to commodity price risk relating to commodity purchase contracts for items used in production that are subject to changes in the market price. We use commodity swaps and commodity purchase contracts to hedge against these potentially unfavorable price changes. At December 31, 2024, a 10% increase or decrease in the market price in our commodity derivatives would have increased or decreased our unrealized losses by $28 million.",
+            "entity_name": "BA Commodity Price Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Participants in deferred compensation plans can diversify the deferred amounts among investment funds which are subject to potential changes in fair value. As of December 31, 2024, the deferred compensation liability, which is being marked to market, was $1.7 billion. A 10% change in the fair value of these investment funds would increase or decrease the liability by $168 million. Changes in the liability are recorded in operating earnings.",
+            "entity_name": "BA Deferred Compensation Liability Market Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing interest rate risk"
+            ],
+            "attributes": {
+              "category": "market_risk",
+              "instrument": "fixed_rate_debt",
+              "materiality": "not_material",
+              "subcategory": "interest_rate"
+            },
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "BA Interest Rate Risk on Fixed-Rate Debt",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing FX risk",
+              "Boeing foreign currency risk"
+            ],
+            "attributes": {
+              "as_of_date": "2024-12-31",
+              "category": "market_risk",
+              "hedge_instrument": "foreign_currency_forward_contracts",
+              "sensitivity_10pct_change_usd": 428000000,
+              "subcategory": "foreign_currency"
+            },
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "BA Foreign Currency Exchange Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing commodity risk"
+            ],
+            "attributes": {
+              "as_of_date": "2024-12-31",
+              "category": "market_risk",
+              "hedge_instrument": "commodity_swaps",
+              "sensitivity_10pct_change_usd": 28000000,
+              "subcategory": "commodity_price"
+            },
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "BA Commodity Price Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing deferred compensation fair value risk"
+            ],
+            "attributes": {
+              "as_of_date": "2024-12-31",
+              "category": "market_risk",
+              "liability_usd": 1700000000,
+              "sensitivity_10pct_change_usd": 168000000,
+              "subcategory": "deferred_compensation"
+            },
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "BA Deferred Compensation Liability Market Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Interest Rate Risk on Fixed-Rate Debt",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Foreign Currency Exchange Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Commodity Price Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Deferred Compensation Liability Market Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-25-000015.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "4f541f482ce19706474b95f4d33cfeec13a3f5a2c2b3bf9e44da2dada5043191"
+    }
+  ],
+  "prompt_version": "v3"
+}

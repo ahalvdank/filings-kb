@@ -1,0 +1,26 @@
+# Every trace records all four in meta.models.
+extraction: claude-sonnet-4-6   # the private KB's model, kept for parity
+synthesis: claude-sonnet-4-6
+embedding: Qwen/Qwen3-Embedding-0.6B
+sentiment: ProsusAI/finbert
+
+# Entity linking (rapidfuzz WRatio, 0-100). At or above link_auto a name match
+# links to the existing entity; from link_review up to link_auto a new entity is
+# created and queued for manual review (never merged); below link_review a new
+# entity is created.
+link_auto: 90
+link_review: 75
+
+# USD per million tokens, as Decimal strings (never floats). Source: Anthropic
+# pricing page, base input/output rates for Claude Sonnet 4.6, checked 2026-11-22.
+# The claude CLI backend runs on a subscription: its tokens are reported but the
+# cost is still computed from this table as a list-price estimate.
+prices:
+  claude-sonnet-4-6:
+    input_per_mtok: "3"
+    output_per_mtok: "15"
+
+# Size of the full private corpus the sample is drawn from (fact PJ1); shown in the trace manifest.
+full_corpus:
+  companies: 186
+  filings: 973

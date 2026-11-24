@@ -1,0 +1,712 @@
+{
+  "accession": "0001652044-23-000016",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T20:38:45Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues were $282.8 billion, an increase of 10% year over year, primarily driven by an increase in Google Services revenues of $16.0 billion, or 7%, and an increase in Google Cloud revenues of $7.1 billion, or 37%.",
+            "entity_name": "GOOGL Google Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Google Cloud revenues increased $7.1 billion from 2021 to 2022. The growth was primarily driven by Google Cloud Platform followed by Google Workspace offerings. Google Cloud's infrastructure and platform services were the largest drivers of growth in Google Cloud Platform.",
+            "entity_name": "GOOGL Google Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Other Bets operating loss increased $802 million from 2021 to 2022. The increase in operating loss was primarily driven by increases in compensation expenses, partially offset by growth in revenues.",
+            "entity_name": "GOOGL Other Bets Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Google Search & other revenues increased $13.5 billion from 2021 to 2022. The growth was driven by interrelated factors including increases in search queries resulting from growth in user adoption and usage, primarily on mobile devices; growth in advertiser spending; and improvements we have made in ad formats and delivery. Growth was adversely affected by the unfavorable effect of foreign currency exchange rates.",
+            "entity_name": "GOOGL Google Search & Other",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "YouTube ads revenues increased $398 million from 2021 to 2022. The growth was driven by our brand advertising products followed by direct response products, both of which benefited from increased spending by our advertisers as well as improvements to ad formats and delivery. Growth was adversely affected by the unfavorable effect of foreign currency exchange rates.",
+            "entity_name": "GOOGL YouTube Ads",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Google Network revenues increased $1.1 billion from 2021 to 2022. The growth was primarily driven by strength in AdSense and AdMob. Growth was adversely affected by the unfavorable effect of foreign currency exchange rates.",
+            "entity_name": "GOOGL Google Network",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "On September 12, 2022, we closed the acquisition of Mandiant for a total purchase price of $6.1 billion and added more than 2,600 employees. Mandiant's financial results are reported within Google Cloud as of the acquisition date.",
+            "entity_name": "GOOGL Acquisition of Mandiant September 2022",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "On July 15, 2022, the company executed a 20-for-one stock split with a record date of July 1, 2022, effected in the form of a one-time special stock dividend on each share of the company's Class A, Class B, and Class C stock.",
+            "entity_name": "GOOGL July 2022 20-for-1 Stock Split",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In January 2023, we announced a reduction of our workforce of approximately 12,000 roles. We expect to incur employee severance and related charges of $1.9 billion to $2.3 billion, the majority of which will be recognized in the first quarter of 2023.",
+            "entity_name": "GOOGL January 2023 Workforce Reduction",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In January 2023, we completed an assessment of the useful lives of our servers and network equipment, resulting in a change in the estimated useful life of our servers and certain network equipment to six years, which we expect to result in a reduction of depreciation of approximately $3.4 billion for the full fiscal year 2023 for assets in service as of December 31, 2022, recorded primarily in cost of revenues and R&D expenses.",
+            "entity_name": "GOOGL 2023 Server and Network Equipment Useful Life Change",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "As AI is critical to delivering our mission of bringing our breakthrough innovations into the real world, beginning in January 2023, we will update our segment reporting relating to certain of Alphabet's AI activities. DeepMind, previously reported within Other Bets, will be reported as part of Alphabet's corporate costs, reflecting its increasing collaboration with Google Services, Google Cloud, and Other Bets.",
+            "entity_name": "GOOGL DeepMind Segment Reclassification 2023",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In April 2022, the Board of Directors of Alphabet authorized the company to repurchase up to $70.0 billion of its Class A and Class C shares. As of December 31, 2022, $28.1 billion remains available for Class A and Class C share repurchases. In accordance with the authorization of the Board of Directors of Alphabet, during 2022 we repurchased and subsequently retired 530 million shares for $59.3 billion.",
+            "entity_name": "GOOGL April 2022 $70B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In 2017, 2018 and 2019, the EC announced decisions that certain actions taken by Google infringed European competition law and imposed fines of €2.4 billion ($2.7 billion as of June 27, 2017), €4.3 billion ($5.1 billion as of June 30, 2018), and €1.5 billion ($1.7 billion as of March 20, 2019), respectively. On September 14, 2022, the General Court reduced the 2018 fine from €4.3 billion to €4.1 billion. We subsequently filed an appeal to the European Court of Justice.",
+            "entity_name": "European Commission Competition Fines Against Google",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect to incur employee severance and related charges of $1.9 billion to $2.3 billion, the majority of which will be recognized in the first quarter of 2023. In addition, we are taking actions to optimize our global office space. As a result we expect to incur exit costs relating to office space reductions of approximately $0.5 billion in the first quarter of 2023.",
+            "entity_name": "GOOGL FY2023 Workforce Severance and Office Exit Charges Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "In January 2023, we completed an assessment of the useful lives of our servers and network equipment, resulting in a change in the estimated useful life of our servers and certain network equipment to six years, which we expect to result in a reduction of depreciation of approximately $3.4 billion for the full fiscal year 2023 for assets in service as of December 31, 2022, recorded primarily in cost of revenues and R&D expenses.",
+            "entity_name": "GOOGL FY2023 Depreciation Reduction Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Changes in social, political, economic, tax, and regulatory conditions or in laws and policies governing a wide range of topics and related legal matters have resulted in fines and caused us to change our business practices. As these global trends continue, our cost of doing business may increase, our ability to pursue certain business models or offer certain products or services may be limited, and we may need to change our business practices.",
+            "entity_name": "GOOGL Regulatory and Policy Compliance Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Beginning in the first quarter of 2022, we suspended the vast majority of our commercial activities in Russia and effectively ceased business activities of our Russian entity. The ongoing effect of these direct actions on our financial results was not material. The broader economic effects resulting from the war in Ukraine on our future financial results may be unpredictable.",
+            "entity_name": "GOOGL Russia-Ukraine Geopolitical Economic Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We also may develop new products incorporating AI innovations that could affect our monetization trends. Additionally, when developing new products and services we generally focus first on user experience before prioritizing monetization.",
+            "entity_name": "GOOGL AI Innovation Monetization Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Alphabet",
+              "Google"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Google Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Services",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Cloud",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Other Bets"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Other Bets",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Other Bets Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Search & other",
+              "Google Search"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Search & other",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Search & Other",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "YouTube ads"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "YouTube ads",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL YouTube Ads",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Network"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Network",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Network",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Mandiant acquisition",
+              "Google Mandiant deal"
+            ],
+            "attributes": {
+              "effective_date": "2022-09-12",
+              "employees_added": 2600,
+              "event_type": "acquisition",
+              "purchase_price_usd": 6100000000,
+              "reporting_segment": "Google Cloud",
+              "target_company": "Mandiant"
+            },
+            "identifiers": {},
+            "name": "GOOGL Acquisition of Mandiant September 2022",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet 2022 stock split",
+              "GOOGL 20-for-1 split"
+            ],
+            "attributes": {
+              "effective_date": "2022-07-15",
+              "event_type": "stock_split",
+              "mechanism": "special_stock_dividend",
+              "record_date": "2022-07-01",
+              "split_ratio": "20-for-1"
+            },
+            "identifiers": {},
+            "name": "GOOGL July 2022 20-for-1 Stock Split",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet 2023 layoffs",
+              "GOOGL 12000 role reduction"
+            ],
+            "attributes": {
+              "announcement_date": "2023-01",
+              "estimated_office_exit_costs_usd": 500000000,
+              "estimated_severance_high_usd": 2300000000,
+              "estimated_severance_low_usd": 1900000000,
+              "event_type": "restructuring",
+              "roles_reduced_approx": 12000
+            },
+            "identifiers": {},
+            "name": "GOOGL January 2023 Workforce Reduction",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet server depreciation change 2023",
+              "GOOGL server useful life accounting change"
+            ],
+            "attributes": {
+              "description": "Change in estimated useful life of servers and certain network equipment to six years",
+              "effective_date": "2023-01",
+              "event_type": "accounting_change",
+              "expected_depreciation_reduction_fy2023_usd": 3400000000
+            },
+            "identifiers": {},
+            "name": "GOOGL 2023 Server and Network Equipment Useful Life Change",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "DeepMind reporting change",
+              "DeepMind corporate cost reclassification"
+            ],
+            "attributes": {
+              "effective_date": "2023-01",
+              "event_type": "accounting_change",
+              "from_segment": "Other Bets",
+              "to_segment": "Alphabet corporate costs"
+            },
+            "identifiers": {},
+            "name": "GOOGL DeepMind Segment Reclassification 2023",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet 2022 buyback authorization",
+              "GOOGL $70B repurchase program"
+            ],
+            "attributes": {
+              "amount_repurchased_in_2022_usd": 59300000000,
+              "amount_usd": 70000000000,
+              "effective_date": "2022-04",
+              "remaining_authorization_usd": 28100000000,
+              "return_type": "repurchase_authorization",
+              "shares_repurchased_in_2022": 530000000
+            },
+            "identifiers": {},
+            "name": "GOOGL April 2022 $70B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "EC antitrust fines against Google",
+              "EU competition law Google fines"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "court": "European Court of Justice",
+              "original_2017_fine_eur": 2400000000,
+              "original_2018_fine_eur": 4300000000,
+              "original_2019_fine_eur": 1500000000,
+              "revised_2018_fine_eur": 4100000000,
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "European Commission Competition Fines Against Google",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Alphabet 2023 restructuring charges guidance"
+            ],
+            "attributes": {
+              "metric": "restructuring_charges",
+              "office_exit_costs_usd": 500000000,
+              "period": "FY2023-Q1",
+              "severance_high_usd": 2300000000,
+              "severance_low_usd": 1900000000,
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "GOOGL FY2023 Workforce Severance and Office Exit Charges Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Alphabet FY2023 depreciation impact guidance"
+            ],
+            "attributes": {
+              "metric": "depreciation_reduction",
+              "new_value": 3400000000,
+              "period": "FY2023",
+              "unit": "USD",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "GOOGL FY2023 Depreciation Reduction Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Alphabet regulatory risk",
+              "Google antitrust and policy risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "GOOGL Regulatory and Policy Compliance Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Alphabet Ukraine war risk",
+              "Google Russia operations risk"
+            ],
+            "attributes": {
+              "category": "geopolitical",
+              "geography": "Russia/Ukraine"
+            },
+            "identifiers": {},
+            "name": "GOOGL Russia-Ukraine Geopolitical Economic Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Alphabet AI product monetization risk"
+            ],
+            "attributes": {
+              "category": "product_strategy",
+              "description": "New AI-driven products may affect monetization trends"
+            },
+            "identifiers": {},
+            "name": "GOOGL AI Innovation Monetization Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.067,
+              "margin": 0.341,
+              "operating_income": 86572000000,
+              "period": "FY2022",
+              "revenue": 253528000000
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.369,
+              "margin": -0.113,
+              "operating_income": -2968000000,
+              "period": "FY2022",
+              "revenue": 26280000000
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.418,
+              "margin": -5.696,
+              "operating_income": -6083000000,
+              "period": "FY2022",
+              "revenue": 1068000000
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Other Bets Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.091,
+              "period": "FY2022",
+              "revenue": 162450000000
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Search & Other",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.014,
+              "period": "FY2022",
+              "revenue": 29243000000
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL YouTube Ads",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.034,
+              "period": "FY2022",
+              "revenue": 32780000000
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Network",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Acquisition of Mandiant September 2022",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL July 2022 20-for-1 Stock Split",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL January 2023 Workforce Reduction",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL 2023 Server and Network Equipment Useful Life Change",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL DeepMind Segment Reclassification 2023",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL April 2022 $70B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "European Commission Competition Fines Against Google",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL FY2023 Workforce Severance and Office Exit Charges Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL FY2023 Depreciation Reduction Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Regulatory and Policy Compliance Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Russia-Ukraine Geopolitical Economic Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL AI Innovation Monetization Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-23-000016.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "c039c07cc854870c03acd728c004894279bea1c5010d5d07f852e84ecb874401"
+    }
+  ],
+  "prompt_version": "v3"
+}

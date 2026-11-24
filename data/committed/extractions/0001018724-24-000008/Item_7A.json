@@ -1,0 +1,204 @@
+{
+  "accession": "0001018724-24-000008",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T06:47:46Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Marketable debt securities with fixed interest rates may have their fair market value adversely affected due to a rise in interest rates, and we may suffer losses in principal if forced to sell securities that have declined in market value due to changes in interest rates.",
+            "entity_name": "AMZN Interest Rate Risk on Fixed Income Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2023, we had long-term debt with a face value of $67.2 billion, including the current portion, primarily consisting of fixed rate unsecured senior notes.",
+            "entity_name": "AMZN Interest Rate Risk on Fixed Income Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The results of operations of, and certain of our intercompany balances associated with, our internationally-focused stores and AWS are exposed to foreign exchange rate fluctuations. Upon consolidation, as foreign exchange rates vary, net sales and other operating results may differ materially from expectations, and we may record significant gains or losses on the remeasurement of intercompany balances.",
+            "entity_name": "AMZN Foreign Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "quantitative_sensitivity_analysis",
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Based on the balance of foreign funds as of December 31, 2023, of $23.5 billion, an assumed 5%, 10%, and 20% adverse change to foreign exchange would result in declines of $1.2 billion, $2.3 billion, and $4.7 billion.",
+            "entity_name": "AMZN Foreign Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our equity and equity warrant investments in publicly traded companies, which include our equity investment in Rivian, represent $5.7 billion of our investments as of December 31, 2023, and are recorded at fair value, which is subject to market price volatility.",
+            "entity_name": "AMZN Equity Investment Market Value Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Valuations of private companies are inherently more complex due to the lack of readily available market data. The current global economic conditions provide additional uncertainty.",
+            "entity_name": "AMZN Equity Investment Market Value Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "segment",
+            "content": "During 2023, net sales from our International segment accounted for 23% of our consolidated revenues.",
+            "entity_name": "AMZN International Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Amazon interest rate risk",
+              "fixed income market risk"
+            ],
+            "attributes": {
+              "category": "market_risk",
+              "investment_portfolio_usd": 70919000000,
+              "long_term_debt_face_value_usd": 67200000000,
+              "subcategory": "interest_rate"
+            },
+            "identifiers": {},
+            "name": "AMZN Interest Rate Risk on Fixed Income Portfolio",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Amazon FX risk",
+              "Amazon currency exposure"
+            ],
+            "attributes": {
+              "category": "market_risk",
+              "foreign_funds_loss_5pct_adverse_usd": 1200000000,
+              "foreign_funds_usd": 23500000000,
+              "geography": "International",
+              "intercompany_loss_5pct_adverse_usd": 320000000,
+              "subcategory": "foreign_exchange"
+            },
+            "identifiers": {},
+            "name": "AMZN Foreign Exchange Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Amazon equity investment risk",
+              "Amazon public equity fair value risk"
+            ],
+            "attributes": {
+              "category": "market_risk",
+              "public_equity_investments_usd": 5700000000,
+              "subcategory": "equity_price",
+              "total_equity_investments_usd": 9600000000
+            },
+            "identifiers": {},
+            "name": "AMZN Equity Investment Market Value Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Amazon International",
+              "International"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "International",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN International Segment",
+            "type": "RevenueSegment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Interest Rate Risk on Fixed Income Portfolio",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Foreign Exchange Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Equity Investment Market Value Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2023",
+              "revenue_pct_of_consolidated": 0.23
+            },
+            "source_name": "AMZN 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN International Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-24-000008.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "548b8ff18f8e8fdf129f85d6658133d9bcbfd00b203a3c07c0b62d93e91ec9ab"
+    }
+  ],
+  "prompt_version": "v3"
+}

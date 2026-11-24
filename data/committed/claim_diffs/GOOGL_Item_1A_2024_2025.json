@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-11-23T08:01:04.127869+00:00",
+  "current_fy": 2025,
+  "input_sha256": "95d394af2e606a8ea4b2aecd8210b5fc2fdae2ff9f56b76549edc6afcd9838bf",
+  "item": "Item_1A",
+  "model": "claude-sonnet-4-6",
+  "prior_fy": 2024,
+  "prompt_sha256": "71d2da8ab6cdab15e1608c2f958dd4ee476ccefb8769395dad274dfc53c246fc",
+  "result": {
+    "added": [
+      "GOOGL AI Disruption of Advertising Industry Risk",
+      "GOOGL AI Infrastructure Capital Commitment Risk",
+      "GOOGL Power and Energy Infrastructure Constraint Risk",
+      "GOOGL Cyber Attack and Nation-State Threat Risk",
+      "GOOGL Foreign Currency Exchange Rate Risk",
+      "GOOGL Stock Ownership Concentration and Governance Risk",
+      "Alphabet AI Talent Competition and Retention Risk",
+      "Alphabet Immigration Policy Workforce Risk",
+      "Alphabet Corporate Culture Adaptation Risk"
+    ],
+    "changed": [
+      [
+        "Advertising revenue approximately 75% of total revenue (2024)",
+        "Advertising revenue approximately 70% of total revenue in Google Services segment (2025)"
+      ],
+      [
+        "Risk framed as broad competitive intensity combined with AI competition",
+        "Risk narrowed to AI competition specifically"
+      ],
+      [
+        "AI development risk centered on ethical concerns and legal exposure",
+        "AI development risk reframed around liability and regulatory exposure; ethical framing removed"
+      ],
+      [
+        "IT systems interruption and cybersecurity bundled as a single risk",
+        "IT systems interruption risk stands alone; cybersecurity split into separate standalone risks"
+      ],
+      [
+        "International operations risk combined with foreign exchange risk; international revenue 51% (2024)",
+        "International operations risk reframed around geopolitical concerns; FX split into a separate risk; international revenue 52% (2025)"
+      ],
+      [
+        "Data privacy risk framed as security and regulatory compliance",
+        "Data privacy risk reframed to explicitly include cybersecurity; regulatory framing de-emphasized"
+      ],
+      [
+        "Regulatory compliance risk named with antitrust as a key sub-topic",
+        "Regulatory compliance risk reframed around changing laws broadly; antitrust label removed from risk name"
+      ],
+      [
+        "DOJ/State AGs Search antitrust case in remedies proceeding phase, status pending",
+        "DOJ/State AGs Search antitrust case status changed to appealed"
+      ],
+      [
+        "State AGs Ad Tech antitrust (E.D. Tex.) pending with trial scheduled for 2025-03",
+        "State AGs Ad Tech antitrust (E.D. Tex.) pending; no trial date noted"
+      ],
+      [
+        "DOJ Ad Tech antitrust (E.D. Va.) pending with trial concluded 2024-09 and decision expected early 2025",
+        "DOJ Ad Tech antitrust (E.D. Va.) still pending; no decision timeline noted"
+      ]
+    ],
+    "removed": [
+      "Epic Games v. Google - Google Play Antitrust",
+      "GOOGL April 2024 Cash Dividend Program",
+      "GOOGL Share Repurchase Program",
+      "Larry Page and Sergey Brin Combined Class B Holdings (2024-12-31 snapshot)"
+    ]
+  },
+  "ticker": "GOOGL"
+}

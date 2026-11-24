@@ -1,0 +1,130 @@
+{
+  "accession": "0000034088-25-000010",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T02:19:17Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "On January 31, 2025, the Corporation declared a $0.99 dividend per common share, payable March 10, 2025.",
+            "entity_name": "XOM Q1 2025 Quarterly Dividend Declaration",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "The Corporation continued its share repurchase program, originally initiated in 2022. This includes $15 billion of repurchases in 2022, $17.5 billion in 2023, and $19.1 billion in 2024.",
+            "entity_name": "XOM FY2024 Share Repurchase Program Activity",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "In its 2024 Corporate Plan Update released December 11, 2024, the Corporation stated that it expects to continue its share repurchase program with a $20 billion repurchase pace per year through 2026, assuming reasonable market conditions.",
+            "entity_name": "XOM $20B Annual Share Repurchase Pace Guidance Through 2026",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "declaration_date": "2025-01-31",
+              "payment_date": "2025-03-10",
+              "per_share": 0.99,
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "XOM Q1 2025 Quarterly Dividend Declaration",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "XOM 2024 buyback"
+            ],
+            "attributes": {
+              "amount_usd": 19100000000,
+              "period": "FY2024",
+              "q4_avg_price_usd": 116.96,
+              "q4_program_shares": 47189232,
+              "remaining_authorization_usd": 40000000000,
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "XOM FY2024 Share Repurchase Program Activity",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "share_repurchase_pace",
+              "new_value": "20000000000",
+              "period": "through 2026",
+              "unit": "USD_per_year",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "XOM $20B Annual Share Repurchase Pace Guidance Through 2026",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Q1 2025 Quarterly Dividend Declaration",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "XOM FY2024 Share Repurchase Program Activity",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "XOM 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "XOM $20B Annual Share Repurchase Pace Guidance Through 2026",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-25-000010.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "d81d15cd0101028fb2654be1267414e3aba2aca6484bfbe916241cc348e50c84"
+    }
+  ],
+  "prompt_version": "v3"
+}

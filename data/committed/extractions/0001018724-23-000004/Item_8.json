@@ -1,0 +1,1454 @@
+{
+  "accession": "0001018724-23-000004",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T16:34:43Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On May 27, 2022, we effected a 20-for-1 stock split of our common stock and proportionately increased the number of authorized shares of common stock.",
+            "entity_name": "AMZN May 2022 20-for-1 Common Stock Split",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "effective January 1, 2022 we changed our estimate of the useful lives for our servers from four years to five years and for our networking equipment from five years to six years. The longer useful lives are due to continuous improvements in our hardware, software, and data center designs. The effect of this change in estimate for the year ended December 31, 2022, based on servers and networking equipment that were included in \"Property and equipment, net\" as of December 31, 2021 and those acquired during the year ended December 31, 2022, was a reduction in depreciation and amortization expense of $3.6 billion and a benefit to net loss of $2.8 billion, or $0.28 per basic share and $0.28 per diluted share.",
+            "entity_name": "AMZN FY2022 Server and Networking Useful Life Extension",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "For the year ended December 31, 2022, we recorded approximately $1.1 billion, of which $720 million was recorded in the fourth quarter, of impairments of property and equipment and operating leases primarily related to physical stores.",
+            "entity_name": "AMZN FY2022 Physical Store Property and Lease Impairments",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "For the year ended December 31, 2022, we recorded approximately $720 million, of which $640 million was recorded in the fourth quarter, of estimated severance costs primarily related to planned role eliminations.",
+            "entity_name": "AMZN FY2022 Planned Role Elimination Severance Charges",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "statement": "Consolidated Statements of Stockholders' Equity"
+            },
+            "chunk_type": "capital_return",
+            "content": "Common stock repurchased(46)— (6,000)— — — (6,000)",
+            "entity_name": "AMZN FY2022 $6B Common Stock Repurchase",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "guidance",
+            "content": "We anticipate the changes in viewing patterns will positively impact 2023 operating income by approximately $1.0 billion, generally ratably throughout the year.",
+            "entity_name": "AMZN FY2023 Operating Income Video Content Viewing Pattern Impact Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Amazon",
+              "AMZN"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMZN"
+            },
+            "name": "Amazon.com, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Amazon 20-for-1 stock split"
+            ],
+            "attributes": {
+              "effective_date": "2022-05-27",
+              "event_type": "stock_split",
+              "split_ratio": "20-for-1"
+            },
+            "identifiers": {},
+            "name": "AMZN May 2022 20-for-1 Common Stock Split",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Amazon 2022 depreciation life extension"
+            ],
+            "attributes": {
+              "depreciation_reduction_usd": 3600000000,
+              "effective_date": "2022-01-01",
+              "event_type": "accounting_change",
+              "net_income_benefit_usd": 2800000000,
+              "period": "FY2022"
+            },
+            "identifiers": {},
+            "name": "AMZN FY2022 Server and Networking Useful Life Extension",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Amazon 2022 store impairments"
+            ],
+            "attributes": {
+              "amount_usd": 1100000000,
+              "event_type": "restructuring",
+              "period": "FY2022",
+              "q4_amount_usd": 720000000,
+              "segment_impacted": "North America (primarily)"
+            },
+            "identifiers": {},
+            "name": "AMZN FY2022 Physical Store Property and Lease Impairments",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Amazon 2022 layoff charges",
+              "Amazon 2022 severance"
+            ],
+            "attributes": {
+              "amount_usd": 720000000,
+              "event_type": "restructuring",
+              "period": "FY2022",
+              "q4_amount_usd": 640000000,
+              "segment_impacted": "North America (primarily)"
+            },
+            "identifiers": {},
+            "name": "AMZN FY2022 Planned Role Elimination Severance Charges",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Amazon 2022 share buyback"
+            ],
+            "attributes": {
+              "amount_usd": 6000000000,
+              "period": "FY2022",
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "AMZN FY2022 $6B Common Stock Repurchase",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "operating_income",
+              "new_value": "approximately_1_billion_positive_impact",
+              "period": "FY2023",
+              "unit": "USD",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "AMZN FY2023 Operating Income Video Content Viewing Pattern Impact Guidance",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN May 2022 20-for-1 Common Stock Split",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN FY2022 Server and Networking Useful Life Extension",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN FY2022 Physical Store Property and Lease Impairments",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN FY2022 Planned Role Elimination Severance Charges",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN FY2022 $6B Common Stock Repurchase",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN FY2023 Operating Income Video Content Viewing Pattern Impact Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2023-02-02",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-23-000004.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "7ed68acf98ccd2c5d5b9c8c9ecd6952ad15c143074efccc3c81a743376fff750"
+    },
+    {
+      "extracted_at": "2026-06-22T16:44:40Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note 10 Segment Information",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "North America\n\nNet sales$236,282 $279,833 $315,880 \n\nOperating expenses227,631 272,562 318,727 \n\nOperating income (loss)$8,651 $7,271 $(2,847)",
+            "entity_name": "AMZN North America Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 10 Segment Information",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "International\n\nNet sales$104,412 $127,787 $118,007 \n\nOperating expenses103,695 128,711 125,753 \n\nOperating income (loss)$717 $(924)$(7,746)",
+            "entity_name": "AMZN International Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 10 Segment Information",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "AWS\n\nNet sales$45,370 $62,202 $80,096 \n\nOperating expenses31,839 43,670 57,255 \n\nOperating income$13,531 $18,532 $22,841",
+            "entity_name": "AMZN AWS Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 5 Acquisitions",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On March 17, 2022, we acquired MGM Holdings Inc., for cash consideration of approximately $6.1 billion, net of cash acquired, to provide more digital media content options for customers. We also assumed $2.5 billion of debt, which we repaid immediately after closing. The acquired assets primarily consist of $3.4 billion of video content and $4.9 billion of goodwill.",
+            "entity_name": "AMZN Acquisition of MGM Holdings Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7 Commitments and Contingencies",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In July 2022, we entered into an agreement to acquire 1Life Healthcare, Inc. (One Medical) for approximately $3.9 billion, including its debt, subject to customary closing conditions.",
+            "entity_name": "AMZN Pending Acquisition of 1Life Healthcare (One Medical)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7 Commitments and Contingencies",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In August 2022, we entered into an agreement to acquire iRobot Corporation for approximately $1.7 billion, including its debt, subject to customary closing conditions. We expect to fund these acquisitions with cash on hand.",
+            "entity_name": "AMZN Pending Acquisition of iRobot Corporation",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 8 Stockholders Equity",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "In March 2022, the Board of Directors authorized a program to repurchase up to $10.0 billion of our common stock, with no fixed expiration, which replaced the previous $5.0 billion stock repurchase authorization, approved by the Board of Directors in February 2016.",
+            "entity_name": "AMZN March 2022 $10B Stock Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 8 Stockholders Equity",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "We repurchased 46.2 million shares of our common stock for $6.0 billion in 2022 under these programs. There were no repurchases of common stock in 2020 or 2021. As of December 31, 2022, we have $6.1 billion remaining under the repurchase program.",
+            "entity_name": "AMZN 2022 Stock Repurchase Activity",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 6 Debt",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "As of December 31, 2022, we had $69.5 billion of unsecured senior notes outstanding (the \"Notes\"), including $12.8 billion issued in April 2022 and $8.3 billion issued in December 2022 for general corporate purposes, and $1.0 billion of borrowings under our secured revolving credit facility.",
+            "entity_name": "AMZN April 2022 $12.8B Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 6 Debt",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "As of December 31, 2022, we had $69.5 billion of unsecured senior notes outstanding (the \"Notes\"), including $12.8 billion issued in April 2022 and $8.3 billion issued in December 2022 for general corporate purposes, and $1.0 billion of borrowings under our secured revolving credit facility.",
+            "entity_name": "AMZN December 2022 $8.3B Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 6 Debt",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In January 2023, we entered into an $8.0 billion unsecured 364-day term loan with a syndicate of lenders (the \"Term Loan\"), which matures in January 2024 and bears interest at the Secured Overnight Financing Rate specified in the Term Loan plus 0.75%. If we exercise our option to extend the Term Loan's maturity to January 2025, the interest rate spread will increase from 0.75% to 1.05%. As of the date of this filing, the entire Term Loan is outstanding.",
+            "entity_name": "AMZN January 2023 $8.0B Unsecured Term Loan",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 6 Debt",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "We have a $10.0 billion unsecured revolving credit facility with a syndicate of lenders (the \"Credit Agreement\"), which was amended and restated in March 2022 to increase the borrowing capacity from $7.0 billion to $10.0 billion and to extend the term to March 2025.",
+            "entity_name": "AMZN March 2022 Unsecured Revolving Credit Agreement Increase to $10B",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 6 Debt",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In November 2022, we entered into a $10.0 billion unsecured 364-day revolving credit facility with a syndicate of lenders (the \"Short-Term Credit Agreement\"), which matures in November 2023 and may be extended for one additional period of 364 days if approved by the lenders.",
+            "entity_name": "AMZN November 2022 $10.0B Short-Term Revolving Credit Facility",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7 Legal Proceedings",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In May 2022, the district court granted summary judgment holding that the patent is invalid. In June 2022, Eolas filed a notice of appeal. We dispute the allegations of wrongdoing and intend to defend ourselves vigorously in this matter.",
+            "entity_name": "Eolas Technologies v. Amazon.com",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7 Legal Proceedings",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In May 2018, Rensselaer Polytechnic Institute and CF Dynamic Advances LLC filed a complaint against Amazon.com, Inc. in the United States District Court for the Northern District of New York. The complaint alleges, among other things, that \"Alexa Voice Software and Alexa enabled devices\" infringe U.S. Patent No. 7,177,798, entitled \"Natural Language Interface Using Constrained Intermediate Dictionary of Results.\" The complaint seeks an injunction, an unspecified amount of damages, enhanced damages, an ongoing royalty, interest, attorneys' fees, and costs.",
+            "entity_name": "Rensselaer Polytechnic Institute and CF Dynamic Advances v. Amazon.com",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7 Legal Proceedings",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In December 2018, Kove IO, Inc. filed a complaint against Amazon Web Services, Inc. in the United States District Court for the Northern District of Illinois. The complaint alleges, among other things, that Amazon S3 and DynamoDB infringe U.S. Patent Nos. 7,814,170 and 7,103,640, both entitled \"Network Distributed Tracking Wire Transfer Protocol\"; and 7,233,978, entitled \"Method and Apparatus for Managing Location Information in a Network Separate from the Data to Which the Location Information Pertains.\" In March 2022, the case was stayed pending resolution of review petitions we filed with the United States Patent and Trademark Office. In November 2022, the stay was lifted.",
+            "entity_name": "Kove IO v. Amazon Web Services",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7 Legal Proceedings",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Beginning in March 2020, with Frame-Wilson v. Amazon.com, Inc. filed in the United States District Court for the Western District of Washington, private litigants have filed a number of cases in the U.S. and Canada alleging, among other things, price fixing arrangements between Amazon.com, Inc. and vendors and third-party sellers in Amazon's stores, monopolization and attempted monopolization, and consumer protection and unjust enrichment claims. Attorneys General for the District of Columbia and California brought similar suits in May 2021 and September 2022 in the Superior Court of the District of Columbia and the California Superior Court for the County of San Francisco, respectively. The complaints seek billions of dollars of alleged actual damages, treble damages, punitive damages, injunctive relief, civil penalties, attorneys' fees, and costs.",
+            "entity_name": "Frame-Wilson and Related Price-Fixing Litigation v. Amazon",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7 Legal Proceedings",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In April 2022, BroadbandiTV alleged in its damages report that, in the event of a finding of liability, Amazon could be subject to $166 to $986 million in damages. In September 2022, the court granted summary judgment, holding that the patents are invalid. In October 2022, BroadbandiTV filed a notice of appeal.",
+            "entity_name": "BroadbandiTV v. Amazon - Prime Video VOD Patents",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7 Legal Proceedings",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In November 2020, the European Commission issued a Statement of Objections alleging that Amazon uses data relating to our marketplace sellers in a manner that infringes EU competition rules. The Statement of Objections sought to impose unspecified fines and remedial actions. In December 2022, the European Commission adopted formal commitments without fines, fully resolving the investigation.",
+            "entity_name": "European Commission Marketplace Data Investigation v. Amazon",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7 Legal Proceedings",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In July 2021, the Luxembourg National Commission for Data Protection (the \"CNPD\") issued a decision against Amazon Europe Core S.à r.l. claiming that Amazon's processing of personal data did not comply with the EU General Data Protection Regulation. The decision imposes a fine of €746 million and corresponding practice revisions. We believe the CNPD's decision to be without merit and intend to defend ourselves vigorously in this matter.",
+            "entity_name": "Luxembourg CNPD GDPR Decision v. Amazon Europe Core",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7 Legal Proceedings",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In December 2021, the Italian Competition Authority (the \"ICA\") issued a decision against Amazon Services Europe S.à r.l., Amazon Europe Core S.à r.l., Amazon EU S.à r.l., Amazon Italia Services S.r.l., and Amazon Italia Logistica S.r.l. claiming that certain of our marketplace and logistics practices in Italy infringe EU competition rules. The decision imposes remedial actions and a fine of €1.13 billion, which we are paying and will seek to recover pending conclusion of all appeals. We believe the ICA's decision to be without merit and intend to defend ourselves vigorously in this matter.",
+            "entity_name": "Italian Competition Authority Decision v. Amazon",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7 Legal Proceedings",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In November 2021, Jawbone Innovations, LLC filed a complaint against Amazon.com, Inc. and Amazon.com Services, Inc. in the United States District Court for the Eastern District of Texas. The complaint alleges, among other things, that Amazon Echo smart speakers and displays, Fire TV Cube, and Echo Buds infringe U.S. Patent Nos. 7,246,058, entitled \"Detecting Voiced and Unvoiced Speech Using Both Acoustic and Nonacoustic Sensors\"; 8,019,091, entitled \"Voice Activity Detector (VAD)-Based Multiple-Microphone Acoustic Noise Suppression\"; 8,280,072, entitled \"Microphone Array with Rear Venting\"; 8,321,213 and 8,326,611, both entitled \"Acoustic Voice Activity Detection (AVAD) for Electronic Systems\"; 8,467,543, entitled \"Microphone and Voice Activity Detection (VAD) Configurations for Use with Communications Systems\"; 8,503,691, entitled \"Virtual Microphone Arrays Using Dual Omnidirectional Microphone Array (DOMA)\"; 10,779,080, entitled \"Dual Omnidirectional Microphone Array (DOMA)\"; and 11,122,357, entitled \"Forming Virtual Microphone Arrays Using Dual Omnidirectional Microphone Array (DOMA).\" In November 2022, the case was transferred to the United States District Court for the Northern District of California.",
+            "entity_name": "Jawbone Innovations v. Amazon - Echo Device Patents",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7 Legal Proceedings",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In July 2022, Acceleration Bay, LLC filed a complaint against Amazon Web Services, Inc. in the United States District Court for the District of Delaware. The complaint alleges, among other things, that Amazon EC2, Amazon CloudFront, AWS Lambda, Amazon Lumberyard, Luna, Amazon Prime Video, Twitch, Amazon GameLift, GridMate, Amazon EKS, AWS App Mesh, and Amazon VPC infringe U.S. Patent Nos. 6,701,344, entitled \"Distributed Game Environment\"; 6,714,966, entitled \"Information Delivery Service\"; 6,732,147, entitled \"Leaving a Broadcast Channel\"; 6,829,634, entitled \"Broadcasting Network\"; and 6,910,069, entitled \"Joining a Broadcast Channel.\" The complaint seeks injunctive relief, an unspecified amount of damages, enhanced damages, interest, attorneys' fees, and costs.",
+            "entity_name": "Acceleration Bay v. Amazon Web Services",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 7 Legal Proceedings",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In November 2022, LightGuide, Inc. filed a complaint against Amazon.com, Inc. and Amazon.com Services LLC in the United States District Court for the Eastern District of Texas. The complaint alleges, among other things, that Amazon's Nike Intent Detection System used in certain fulfillment centers infringes U.S. Patent Nos. 7,515,981, entitled \"Light Guided Assembly System\"; and 9,658,614 and 10,528,036, each entitled \"Light Guided Assembly System and Method.\" The complaint seeks an unspecified amount of damages, enhanced damages, attorneys' fees, costs, interest, and injunctive relief.",
+            "entity_name": "LightGuide v. Amazon - Fulfillment Center Patents",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 9 Income Taxes Tax Contingencies",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In September 2022, the Luxembourg Tax Authority (\"LTA\") denied the tax basis of certain intangible assets that we distributed from Luxembourg to the U.S. in 2021. We believe the LTA's position is without merit and intend to defend ourselves vigorously in this matter.",
+            "entity_name": "Luxembourg Tax Authority Intangible Asset Tax Basis Dispute",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 9 Income Taxes Tax Contingencies",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In February 2023, we received a decision by the Indian Tax Authority (\"ITA\") that tax applies to cloud services fees paid to the U.S. We will need to remit taxes on the services in question, including for a portion of prior years, until this matter is resolved, which payments could be significant in the aggregate. We believe the ITA's decision is without merit, we intend to defend our position vigorously, and we expect to recoup taxes paid.",
+            "entity_name": "Indian Tax Authority Cloud Services Fee Decision",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 9 Income Taxes Tax Contingencies",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On October 4, 2017, the European Commission announced its decision that determinations by the tax authorities in Luxembourg did not comply with European Union rules on state aid. Based on that decision the European Commission announced an estimated recovery amount of approximately €250 million, plus interest, for the period May 2006 through June 2014, and ordered Luxembourg tax authorities to calculate the actual amount of additional taxes subject to recovery. On May 12, 2021, the European Union General Court annulled the European Commission's state aid decision. In July 2021, the European Commission appealed the decision to the European Court of Justice.",
+            "entity_name": "European Commission State Aid Investigation - Amazon Luxembourg Tax Rulings",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "North America"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "North America",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN North America Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "International"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "International",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN International Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AWS",
+              "Amazon Web Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "AWS",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN AWS Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "MGM acquisition",
+              "MGM deal"
+            ],
+            "attributes": {
+              "assumed_debt_usd": 2500000000,
+              "consideration": "cash",
+              "consideration_usd": 6100000000,
+              "effective_date": "2022-03-17",
+              "event_type": "acquisition",
+              "target_company": "MGM Holdings Inc."
+            },
+            "identifiers": {},
+            "name": "AMZN Acquisition of MGM Holdings Inc.",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "One Medical acquisition",
+              "1Life Healthcare deal"
+            ],
+            "attributes": {
+              "agreement_date": "2022-07",
+              "consideration_usd": 3900000000,
+              "event_type": "acquisition",
+              "status": "pending_close",
+              "target_company": "1Life Healthcare, Inc."
+            },
+            "identifiers": {},
+            "name": "AMZN Pending Acquisition of 1Life Healthcare (One Medical)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "iRobot acquisition"
+            ],
+            "attributes": {
+              "agreement_date": "2022-08",
+              "consideration_usd": 1700000000,
+              "event_type": "acquisition",
+              "status": "pending_close",
+              "target_company": "iRobot Corporation"
+            },
+            "identifiers": {},
+            "name": "AMZN Pending Acquisition of iRobot Corporation",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "2022 AMZN buyback authorization"
+            ],
+            "attributes": {
+              "amount_usd": 10000000000,
+              "effective_date": "2022-03",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "AMZN March 2022 $10B Stock Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 6000000000,
+              "period": "FY2022",
+              "return_type": "buyback",
+              "shares": 46200000
+            },
+            "identifiers": {},
+            "name": "AMZN 2022 Stock Repurchase Activity",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "April 2022 AMZN notes"
+            ],
+            "attributes": {
+              "coupon_range": "2.73%-4.10%",
+              "effective_rate_range": "2.83%-4.15%",
+              "instrument_type": "notes",
+              "issuance_date": "2022-04",
+              "maturity_range": "2024-2062",
+              "principal_usd": 12800000000,
+              "purpose": "general_corporate_purposes"
+            },
+            "identifiers": {},
+            "name": "AMZN April 2022 $12.8B Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "December 2022 AMZN notes"
+            ],
+            "attributes": {
+              "coupon_range": "4.55%-4.70%",
+              "effective_rate_range": "4.61%-4.83%",
+              "instrument_type": "notes",
+              "issuance_date": "2022-12",
+              "maturity_range": "2024-2032",
+              "principal_usd": 8300000000,
+              "purpose": "general_corporate_purposes"
+            },
+            "identifiers": {},
+            "name": "AMZN December 2022 $8.3B Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "AMZN 2023 364-day term loan"
+            ],
+            "attributes": {
+              "coupon": "SOFR+0.75%",
+              "instrument_type": "term_loan",
+              "issuance_date": "2023-01",
+              "maturity": "2024-01",
+              "principal_usd": 8000000000
+            },
+            "identifiers": {},
+            "name": "AMZN January 2023 $8.0B Unsecured Term Loan",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "AMZN Credit Agreement 2022 amendment"
+            ],
+            "attributes": {
+              "effective_date": "2022-03",
+              "instrument_type": "revolver",
+              "maturity": "2025-03",
+              "note": "Amended and restated; increased from $7.0B to $10.0B; term extended to March 2025",
+              "principal_usd": 10000000000
+            },
+            "identifiers": {},
+            "name": "AMZN March 2022 Unsecured Revolving Credit Agreement Increase to $10B",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Short-Term Credit Agreement",
+              "AMZN 364-day revolver 2022"
+            ],
+            "attributes": {
+              "coupon": "SOFR+0.45%",
+              "effective_date": "2022-11",
+              "instrument_type": "revolver",
+              "maturity": "2023-11",
+              "principal_usd": 10000000000
+            },
+            "identifiers": {},
+            "name": "AMZN November 2022 $10.0B Short-Term Revolving Credit Facility",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Eolas patent case",
+              "Eolas interactive features case"
+            ],
+            "attributes": {
+              "counterparty": "Eolas Technologies, Inc.",
+              "court": "Ninth Circuit",
+              "filed_date": "2015-11",
+              "status": "appealed",
+              "subject": "Patent No. 9,195,507 - interactive website features including search suggestions"
+            },
+            "identifiers": {},
+            "name": "Eolas Technologies v. Amazon.com",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "RPI Alexa patent case",
+              "RPI natural language interface case"
+            ],
+            "attributes": {
+              "counterparty": "Rensselaer Polytechnic Institute and CF Dynamic Advances LLC",
+              "court": "United States District Court for the Northern District of New York",
+              "filed_date": "2018-05",
+              "status": "pending",
+              "subject": "Patent No. 7,177,798 - Natural Language Interface, Alexa Voice Software"
+            },
+            "identifiers": {},
+            "name": "Rensselaer Polytechnic Institute and CF Dynamic Advances v. Amazon.com",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Kove S3 DynamoDB patent case"
+            ],
+            "attributes": {
+              "counterparty": "Kove IO, Inc.",
+              "court": "United States District Court for the Northern District of Illinois",
+              "filed_date": "2018-12",
+              "status": "pending",
+              "subject": "Amazon S3 and DynamoDB - network tracking patents"
+            },
+            "identifiers": {},
+            "name": "Kove IO v. Amazon Web Services",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Amazon price-fixing antitrust litigation",
+              "Frame-Wilson v. Amazon"
+            ],
+            "attributes": {
+              "counterparty": "Private litigants; District of Columbia and California attorneys general",
+              "court": "Multiple U.S. and Canadian courts",
+              "filed_date": "2020-03",
+              "status": "pending",
+              "subject": "Alleged price-fixing, monopolization, consumer protection and unjust enrichment"
+            },
+            "identifiers": {},
+            "name": "Frame-Wilson and Related Price-Fixing Litigation v. Amazon",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "BroadbandiTV patent case"
+            ],
+            "attributes": {
+              "counterparty": "BroadbandiTV, Inc.",
+              "court": "Court of Appeals (appeal of Western District of Texas summary judgment)",
+              "filed_date": "2020-10",
+              "potential_damages_usd_high": 986000000,
+              "potential_damages_usd_low": 166000000,
+              "status": "appealed",
+              "subject": "Amazon Prime Video features - video-on-demand patents"
+            },
+            "identifiers": {},
+            "name": "BroadbandiTV v. Amazon - Prime Video VOD Patents",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EC marketplace investigation",
+              "Amazon EU competition marketplace case"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "court": "European Commission",
+              "resolution_date": "2022-12",
+              "status": "settled",
+              "subject": "Use of marketplace seller data allegedly infringing EU competition rules"
+            },
+            "identifiers": {},
+            "name": "European Commission Marketplace Data Investigation v. Amazon",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "CNPD GDPR fine",
+              "Amazon GDPR Luxembourg fine"
+            ],
+            "attributes": {
+              "counterparty": "Luxembourg National Commission for Data Protection (CNPD)",
+              "court": "Luxembourg National Commission for Data Protection",
+              "fine_eur": 746000000,
+              "issued_date": "2021-07",
+              "status": "pending",
+              "subject": "GDPR non-compliance - processing of personal data"
+            },
+            "identifiers": {},
+            "name": "Luxembourg CNPD GDPR Decision v. Amazon Europe Core",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "ICA fine",
+              "Amazon Italy antitrust ruling"
+            ],
+            "attributes": {
+              "counterparty": "Italian Competition Authority (ICA)",
+              "court": "Italian Competition Authority - under appeal",
+              "fine_eur": 1130000000,
+              "issued_date": "2021-12",
+              "status": "appealed",
+              "subject": "EU competition rules - marketplace and logistics practices in Italy"
+            },
+            "identifiers": {},
+            "name": "Italian Competition Authority Decision v. Amazon",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Jawbone microphone patent case",
+              "Jawbone Echo patent case"
+            ],
+            "attributes": {
+              "counterparty": "Jawbone Innovations, LLC",
+              "court": "United States District Court for the Northern District of California",
+              "filed_date": "2021-11",
+              "status": "pending",
+              "subject": "Amazon Echo, Fire TV Cube, Echo Buds - microphone array and voice activity detection patents"
+            },
+            "identifiers": {},
+            "name": "Jawbone Innovations v. Amazon - Echo Device Patents",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Acceleration Bay AWS patent case"
+            ],
+            "attributes": {
+              "counterparty": "Acceleration Bay, LLC",
+              "court": "United States District Court for the District of Delaware",
+              "filed_date": "2022-07",
+              "status": "pending",
+              "subject": "EC2, CloudFront, Lambda, Prime Video, Twitch - distributed network patents"
+            },
+            "identifiers": {},
+            "name": "Acceleration Bay v. Amazon Web Services",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "LightGuide Nike Intent Detection case"
+            ],
+            "attributes": {
+              "counterparty": "LightGuide, Inc.",
+              "court": "United States District Court for the Eastern District of Texas",
+              "filed_date": "2022-11",
+              "status": "pending",
+              "subject": "Amazon Nike Intent Detection System - light guided assembly patents"
+            },
+            "identifiers": {},
+            "name": "LightGuide v. Amazon - Fulfillment Center Patents",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "LTA tax basis dispute"
+            ],
+            "attributes": {
+              "counterparty": "Luxembourg Tax Authority (LTA)",
+              "court": "Luxembourg Tax Authority",
+              "issued_date": "2022-09",
+              "status": "pending",
+              "subject": "Denial of tax basis of intangible assets distributed from Luxembourg to U.S. in 2021"
+            },
+            "identifiers": {},
+            "name": "Luxembourg Tax Authority Intangible Asset Tax Basis Dispute",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "ITA cloud services tax dispute",
+              "Amazon India cloud tax"
+            ],
+            "attributes": {
+              "counterparty": "Indian Tax Authority (ITA)",
+              "court": "Indian Tax Authority",
+              "issued_date": "2023-02",
+              "status": "pending",
+              "subject": "Tax on cloud services fees paid to U.S."
+            },
+            "identifiers": {},
+            "name": "Indian Tax Authority Cloud Services Fee Decision",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EC state aid Luxembourg",
+              "Amazon Luxembourg state aid case"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "court": "European Court of Justice",
+              "investigation_opened": "2014-10",
+              "recovery_amount_eur": 250000000,
+              "status": "appealed",
+              "subject": "Luxembourg tax authority determinations - EU state aid rules"
+            },
+            "identifiers": {},
+            "name": "European Commission State Aid Investigation - Amazon Luxembourg Tax Rulings",
+            "type": "LegalProceeding"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.129,
+              "margin": -0.009,
+              "period": "FY2022",
+              "revenue": 315880000000
+            },
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN North America Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.077,
+              "margin": -0.066,
+              "period": "FY2022",
+              "revenue": 118007000000
+            },
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN International Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.288,
+              "margin": 0.285,
+              "period": "FY2022",
+              "revenue": 80096000000
+            },
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN AWS Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Acquisition of MGM Holdings Inc.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Pending Acquisition of 1Life Healthcare (One Medical)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Pending Acquisition of iRobot Corporation",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN March 2022 $10B Stock Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN 2022 Stock Repurchase Activity",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN April 2022 $12.8B Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN December 2022 $8.3B Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN January 2023 $8.0B Unsecured Term Loan",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN March 2022 Unsecured Revolving Credit Agreement Increase to $10B",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN November 2022 $10.0B Short-Term Revolving Credit Facility",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Eolas Technologies v. Amazon.com",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "new_status": "appealed",
+              "note": "District court granted summary judgment holding patent invalid May 2022; Eolas filed notice of appeal June 2022"
+            },
+            "source_name": "Eolas Technologies v. Amazon.com",
+            "source_type_entity": "LegalProceeding",
+            "target_name": "AMZN 10-K 2022",
+            "target_type_entity": "Filing",
+            "type": "legal_proceeding_status_changed_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Rensselaer Polytechnic Institute and CF Dynamic Advances v. Amazon.com",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Kove IO v. Amazon Web Services",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Frame-Wilson and Related Price-Fixing Litigation v. Amazon",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BroadbandiTV v. Amazon - Prime Video VOD Patents",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "new_status": "appealed",
+              "note": "Court granted summary judgment holding patents invalid September 2022; BroadbandiTV filed notice of appeal October 2022"
+            },
+            "source_name": "BroadbandiTV v. Amazon - Prime Video VOD Patents",
+            "source_type_entity": "LegalProceeding",
+            "target_name": "AMZN 10-K 2022",
+            "target_type_entity": "Filing",
+            "type": "legal_proceeding_status_changed_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "European Commission Marketplace Data Investigation v. Amazon",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "new_status": "settled",
+              "note": "European Commission adopted formal commitments without fines in December 2022, fully resolving the investigation"
+            },
+            "source_name": "European Commission Marketplace Data Investigation v. Amazon",
+            "source_type_entity": "LegalProceeding",
+            "target_name": "AMZN 10-K 2022",
+            "target_type_entity": "Filing",
+            "type": "legal_proceeding_status_changed_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Luxembourg CNPD GDPR Decision v. Amazon Europe Core",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Italian Competition Authority Decision v. Amazon",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Jawbone Innovations v. Amazon - Echo Device Patents",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Acceleration Bay v. Amazon Web Services",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "LightGuide v. Amazon - Fulfillment Center Patents",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Luxembourg Tax Authority Intangible Asset Tax Basis Dispute",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Indian Tax Authority Cloud Services Fee Decision",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "European Commission State Aid Investigation - Amazon Luxembourg Tax Rulings",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-23-000004.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "87f1f7b90dd0a09116e57dfaa5eb0124649abbc12bf5f2ff026f66cc5577a4b3"
+    },
+    {
+      "extracted_at": "2026-06-22T16:46:52Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "metric": "depreciation_and_amortization",
+              "section_type": "Item_8",
+              "years": "2020,2021,2022"
+            },
+            "chunk_type": "segment",
+            "content": "Depreciation and amortization expense on property and equipment, including corporate property and equipment, are allocated to all segments based on usage. Total depreciation and amortization expense, by segment, is as follows (in millions): North America$6,421 $9,234 $11,565 International2,215 3,022 3,483 AWS7,603 10,653 9,876 Consolidated$16,239 $22,909 $24,924",
+            "entity_name": "AMZN North America Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "metric": "depreciation_and_amortization",
+              "section_type": "Item_8",
+              "years": "2020,2021,2022"
+            },
+            "chunk_type": "segment",
+            "content": "Depreciation and amortization expense on property and equipment, including corporate property and equipment, are allocated to all segments based on usage. Total depreciation and amortization expense, by segment, is as follows (in millions): North America$6,421 $9,234 $11,565 International2,215 3,022 3,483 AWS7,603 10,653 9,876 Consolidated$16,239 $22,909 $24,924",
+            "entity_name": "AMZN International Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "metric": "depreciation_and_amortization",
+              "section_type": "Item_8",
+              "years": "2020,2021,2022"
+            },
+            "chunk_type": "segment",
+            "content": "Depreciation and amortization expense on property and equipment, including corporate property and equipment, are allocated to all segments based on usage. Total depreciation and amortization expense, by segment, is as follows (in millions): North America$6,421 $9,234 $11,565 International2,215 3,022 3,483 AWS7,603 10,653 9,876 Consolidated$16,239 $22,909 $24,924",
+            "entity_name": "AMZN AWS Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "North America"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "North America",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN North America Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "International"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "International",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN International Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AWS",
+              "Amazon Web Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "AWS",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN AWS Segment",
+            "type": "RevenueSegment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "depreciation_and_amortization_usd_millions": 11565,
+              "period": "FY2022"
+            },
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN North America Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "depreciation_and_amortization_usd_millions": 3483,
+              "period": "FY2022"
+            },
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN International Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "depreciation_and_amortization_usd_millions": 9876,
+              "period": "FY2022"
+            },
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN AWS Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-23-000004.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "317f7f3263c112581fc6ba3a0744ec96c871f9bf95e3d27344c7af9e3d3223f5"
+    }
+  ],
+  "prompt_version": "v3"
+}

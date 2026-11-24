@@ -1,0 +1,133 @@
+{
+  "accession": "0000002488-25-000012",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-10-14T01:02:18Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "We have an approved stock repurchase program authorizing repurchases of up to $12 billion of our common stock (Repurchase Program). We expect to fund repurchases through cash generated from operations. Our Repurchase Program does not obligate us to acquire any common stock, has no termination date and may be suspended or discontinued at any time.",
+            "entity_name": "AMD $12B Stock Repurchase Program Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Oct. 27, 2024 - Nov. 23, 2024 1,801,675 $138.63 1,801,675 $4,699 \nNov. 24, 2024 - Dec. 28, 2024 47,984 $134.04 47,984 $4,693 \nTotal 1,849,659 1,849,659",
+            "entity_name": "AMD Q4 FY2024 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "During fiscal year 2024, we withheld approximately 4.6 million shares at an average price of $154.53 per share as payment of withholding taxes in connection with the vesting and exercise of equity awards.",
+            "entity_name": "AMD FY2024 Equity Award Tax Withholding",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "AMD"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "Advanced Micro Devices, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "AMD Repurchase Program"
+            ],
+            "attributes": {
+              "amount_usd": 12000000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "AMD $12B Stock Repurchase Program Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "period": "Q4 FY2024",
+              "remaining_authorization_usd": 4693000000,
+              "return_type": "buyback",
+              "shares": 1849659
+            },
+            "identifiers": {},
+            "name": "AMD Q4 FY2024 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "avg_price_per_share": 154.53,
+              "event_type": "compensation_disclosure",
+              "period": "FY2024",
+              "shares_withheld_approx": 4600000
+            },
+            "identifiers": {},
+            "name": "AMD FY2024 Equity Award Tax Withholding",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD $12B Stock Repurchase Program Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Q4 FY2024 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD FY2024 Equity Award Tax Withholding",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-25-000012.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "116aa193534c6f5cc31277d588719a5da8fc8c5a508b3bb1cba390d1666e470f"
+    }
+  ],
+  "prompt_version": "v3"
+}

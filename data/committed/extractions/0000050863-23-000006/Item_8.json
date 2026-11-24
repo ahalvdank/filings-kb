@@ -1,0 +1,1336 @@
+{
+  "accession": "0000050863-23-000006",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-28T17:37:55Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note 3 — revenue rows from operating segment revenue sub-table; operating income row from operating income (loss) sub-table",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Client Computing\nDesktop$10,661 $12,437 $11,179 \nNotebook18,783 25,443 24,897 \nOther2,264 3,187 4,459 \n31,708 41,067 40,535\nClient Computing$6,266 $15,704 $15,800",
+            "entity_name": "INTC Client Computing Group",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 3 — revenue row and operating income row from segment performance table",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Data Center and AI19,196 22,691 23,413\nData Center and AI2,288 8,439 11,076",
+            "entity_name": "INTC Data Center and AI",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 3 — revenue row and operating income row from segment performance table",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Network and Edge8,873 7,976 7,132\nNetwork and Edge740 1,711 846",
+            "entity_name": "INTC Network and Edge",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 3 — revenue row and operating income row from segment performance table",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Mobileye1,869 1,386 967\nMobileye690 554 323",
+            "entity_name": "INTC Mobileye Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 3 — revenue row and operating loss row from segment performance table; revenue includes intersegment graphics royalties of $520M eliminated at consolidated level",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Accelerated Computing Systems and Graphics837 774 651\nAccelerated Computing Systems and Graphics(1,716)(1,207)(403)",
+            "entity_name": "INTC Accelerated Computing Systems and Graphics",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 3 — revenue row and operating income (loss) row from segment performance table",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Intel Foundry Services895 786 715\nIntel Foundry Services(320)(23)45",
+            "entity_name": "INTC Intel Foundry Services",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 3 Operating Segments",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2022, we initiated the wind-down of our Intel Optane memory business, which is part of our DCAI operating segment. While Intel Optane is a leading technology, it was not aligned to our strategic priorities. Separately, we continue to embrace the CXL standard. As a result, we recognized an inventory impairment of $723 million in cost of sales on the Consolidated Statements of Income in 2022. The impairment charge is recognized as a Corporate charge in the \"all other\" category presented above.",
+            "entity_name": "Intel Optane Memory Business Wind-Down 2022",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 4 Non-Controlling Interests — Semiconductor Co-Investment Program",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In the fourth quarter of 2022, we closed a transaction with Brookfield Asset Management (Brookfield) resulting in the formation of Arizona Fab LLC (Arizona Fab), a VIE for which we and Brookfield own 51% and 49%, respectively. Because we are the primary beneficiary of the VIE, we fully consolidate the results of Arizona Fab into our consolidated financial statements. Generally, contributions will be made to, and distributions will be received from, Arizona Fab based on both parties' proportional ownership. We will be the sole operator and majority owner of two new chip factories that will be constructed by Arizona Fab, and we will have the right to purchase 100% of the related factory output.",
+            "entity_name": "Arizona Fab LLC Joint Venture Formation Q4 2022",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "First line from Consolidated Statements of Cash Flows financing activities; second line from Consolidated Statements of Stockholders' Equity FY2022 section",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Proceeds from Mobileye IPO1,032 — —\nNet proceeds received from IPO and partner contributions— 75 —— 1,831 1,906",
+            "entity_name": "Mobileye IPO 2022",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 2 Accounting Policies — Long-Lived Assets, Property Plant and Equipment",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Based on our latest evaluation, effective January 2023, the estimated useful life of certain machinery and equipment in our wafer fabrication facilities will increase from 5 to 8 years. This change in estimate will be applied prospectively beginning in the first quarter of 2023.",
+            "entity_name": "INTC Wafer Fab Machinery Useful Life Change Effective January 2023",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Consolidated Statements of Stockholders' Equity, FY2022 section",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Cash dividends declared ($1.46 per share of common stock)— ——(5,997)— (5,997)",
+            "entity_name": "INTC FY2022 Annual Cash Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Consolidated Statements of Cash Flows — financing activities",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Issuance of term debt, net of issuance costs6,548 4,974 10,247 \nRepayment of term debt and debt conversions(4,984)(2,500)(4,525)",
+            "entity_name": "INTC FY2022 Term Debt Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Consolidated Statements of Cash Flows — financing activities; zero in FY2021 and FY2020",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Issuance of commercial paper, net of issuance costs3,945 — —",
+            "entity_name": "INTC FY2022 Commercial Paper Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "CCG",
+              "Client Computing"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Client Computing Group",
+              "ticker": "INTC"
+            },
+            "name": "INTC Client Computing Group",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "DCAI",
+              "Intel Data Center and AI"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center and AI",
+              "ticker": "INTC"
+            },
+            "name": "INTC Data Center and AI",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "NEX",
+              "Intel Network and Edge"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Network and Edge",
+              "ticker": "INTC"
+            },
+            "name": "INTC Network and Edge",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Mobileye"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Mobileye",
+              "ticker": "INTC"
+            },
+            "name": "INTC Mobileye Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AXG",
+              "Intel AXG"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Accelerated Computing Systems and Graphics",
+              "ticker": "INTC"
+            },
+            "name": "INTC Accelerated Computing Systems and Graphics",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "IFS",
+              "Intel Foundry Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Intel Foundry Services",
+              "ticker": "INTC"
+            },
+            "name": "INTC Intel Foundry Services",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Intel Optane wind-down",
+              "Optane business exit"
+            ],
+            "attributes": {
+              "business_unit": "Intel Optane",
+              "event_type": "restructuring",
+              "fiscal_year": "2022",
+              "inventory_impairment_usd": 723000000,
+              "parent_segment": "DCAI"
+            },
+            "identifiers": {},
+            "name": "Intel Optane Memory Business Wind-Down 2022",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Arizona Fab LLC",
+              "Intel Brookfield semiconductor co-investment",
+              "Arizona Fab"
+            ],
+            "attributes": {
+              "counterparty": "Brookfield Asset Management",
+              "effective_period": "Q4 2022",
+              "event_type": "joint_venture",
+              "intel_ownership_pct": 0.51,
+              "partner_ownership_pct": 0.49,
+              "total_construction_commitment_usd": 29000000000
+            },
+            "identifiers": {},
+            "name": "Arizona Fab LLC Joint Venture Formation Q4 2022",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Mobileye initial public offering"
+            ],
+            "attributes": {
+              "event_type": "divestiture",
+              "fiscal_year": "2022",
+              "proceeds_usd": 1032000000,
+              "subsidiary": "Mobileye"
+            },
+            "identifiers": {},
+            "name": "Mobileye IPO 2022",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel machinery useful life extension",
+              "wafer fab useful life accounting change"
+            ],
+            "attributes": {
+              "asset_category": "certain machinery and equipment in wafer fabrication facilities",
+              "effective_date": "2023-01",
+              "event_type": "accounting_change",
+              "new_useful_life_years": 8,
+              "prior_useful_life_years": 5
+            },
+            "identifiers": {},
+            "name": "INTC Wafer Fab Machinery Useful Life Change Effective January 2023",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel fiscal 2022 dividend"
+            ],
+            "attributes": {
+              "amount_usd": 5997000000,
+              "per_share": 1.46,
+              "period": "FY2022",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "INTC FY2022 Annual Cash Dividend",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Intel FY2022 term debt"
+            ],
+            "attributes": {
+              "instrument_type": "notes",
+              "note": "net of issuance costs; $4,984M term debt repaid in same period",
+              "period": "FY2022",
+              "principal_usd": 6548000000
+            },
+            "identifiers": {},
+            "name": "INTC FY2022 Term Debt Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Intel 2022 commercial paper"
+            ],
+            "attributes": {
+              "instrument_type": "notes",
+              "note": "short-term commercial paper, net of issuance costs; not present in FY2021 or FY2020",
+              "period": "FY2022",
+              "principal_usd": 3945000000
+            },
+            "identifiers": {},
+            "name": "INTC FY2022 Commercial Paper Issuance",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": -0.228,
+              "margin": 0.198,
+              "operating_income_usd": 6266000000,
+              "period": "FY2022",
+              "revenue": 31708000000
+            },
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Client Computing Group",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.154,
+              "margin": 0.119,
+              "operating_income_usd": 2288000000,
+              "period": "FY2022",
+              "revenue": 19196000000
+            },
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Data Center and AI",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.112,
+              "margin": 0.083,
+              "operating_income_usd": 740000000,
+              "period": "FY2022",
+              "revenue": 8873000000
+            },
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Network and Edge",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.348,
+              "margin": 0.369,
+              "operating_income_usd": 690000000,
+              "period": "FY2022",
+              "revenue": 1869000000
+            },
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Mobileye Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.081,
+              "margin": -2.05,
+              "operating_income_usd": -1716000000,
+              "period": "FY2022",
+              "revenue": 837000000
+            },
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Accelerated Computing Systems and Graphics",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.139,
+              "margin": -0.358,
+              "operating_income_usd": -320000000,
+              "period": "FY2022",
+              "revenue": 895000000
+            },
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Intel Foundry Services",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Intel Optane Memory Business Wind-Down 2022",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Arizona Fab LLC Joint Venture Formation Q4 2022",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Mobileye IPO 2022",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Wafer Fab Machinery Useful Life Change Effective January 2023",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC FY2022 Annual Cash Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC FY2022 Term Debt Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC FY2022 Commercial Paper Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2023-01-26",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/INTC/0000050863-23-000006.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "7e9731c8696cf827fb52a76f23b9e4257c95625033105ef7873f671c1bcfb7cd"
+    },
+    {
+      "extracted_at": "2026-07-28T17:43:44Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note_number": "Mobileye NCI disclosure",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In the fourth quarter of 2022, Mobileye completed its IPO and certain other equity financing transactions that resulted in net proceeds of $1.0 billion. As of December 31, 2022, Intel held approximately 94% of the outstanding equity interest in Mobileye. Non-controlling interest in Mobileye was $989 million as of December 31, 2022.",
+            "entity_name": "Mobileye Global Inc. IPO (Q4 2022)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "During the first quarter of 2022, we entered into a definitive agreement to acquire Tower Semiconductor Ltd. (Tower) in a cash-for-stock transaction. Tower is a leading foundry for analog semiconductor solutions. The acquisition is expected to advance our IDM 2.0 strategy by accelerating our global end-to-end systems foundry business. Upon completion of the acquisition, each issued and outstanding ordinary share of Tower will be converted into the right to receive $53 per share in cash, representing a total enterprise value of approximately $5.4 billion as of the agreement date. While we continue to work to close within the first quarter of 2023, the transaction may close in the first half of 2023, subject to certain regulatory approvals and customary closing conditions.",
+            "entity_name": "INTC Acquisition of Tower Semiconductor Ltd.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If the agreement is terminated under certain circumstances involving the failure to obtain required regulatory approvals, we will be obligated to pay Tower a termination fee of $353 million.",
+            "entity_name": "INTC Tower Acquisition Regulatory Termination Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "7",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "The 2022 Restructuring Program was approved to rebalance our workforce and operations to create efficiencies and improve our product execution in alignment with our strategy. Restructuring charges are primarily comprised of employee severance and benefit arrangements and are recorded as corporate charges in the \"all other\" category presented in \"Note 3: Operating Segments\" within the Notes to Consolidated Financial Statements. As of December 31, 2022, we have accrued $873 million as a current liability within Accrued compensation and benefits on our Consolidated Balance Sheets; $165 million in payments or other adjustments were made during the period. We expect these actions to be substantially completed by the end of 2023, but this is subject to change.",
+            "entity_name": "INTC 2022 Restructuring Program",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In October 2020, we signed an agreement with SK hynix Inc. (SK hynix) to divest our NAND memory business for $9.0 billion in cash. The NAND memory business includes our NAND memory fabrication facility in Dalian, China and certain related equipment and tangible assets (the Fab Assets), our NAND SSD business (the NAND SSD Business), and our NAND memory technology and manufacturing business (the NAND OpCo Business). The transaction will be completed in two closings.",
+            "entity_name": "INTC NAND Memory Business Divestiture to SK hynix",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "10",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The wafer manufacturing and sale agreement includes incentives and penalties that are contingent on the cost of operation and output of the NAND OpCo Business. These incentives and penalties present a maximum exposure of up to $500 million annually, and $1.5 billion in the aggregate. We are currently in negotiations with SK hynix to update the operating plan of the NAND OpCo Business in light of the current business environment and projections, which may impact the metrics associated with the incentives and penalties and our expectations of the performance of the NAND OpCo Business against those metrics.",
+            "entity_name": "INTC NAND OpCo Wafer Agreement Incentive/Penalty Exposure",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "9",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "During 2022, the sale of McAfee's consumer business was completed and we received $4.6 billion in cash for the sale of our remaining share of McAfee, recognizing a $4.6 billion gain in sale of equity investments and other.",
+            "entity_name": "INTC McAfee Consumer Business Sale (2022)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "7",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Litigation charges and other includes a $1.2 billion benefit in 2022 from the annulled penalty related to an EC fine that was recorded and paid in 2009, and a charge of $2.2 billion in 2021 related to the VLSI litigation. These were recorded as a corporate benefit and charge in the \"all other\" category presented in \"Note 3: Operating Segments\" within the Notes to Consolidated Financial Statements. Refer to \"Note 19: Commitments and Contingencies\" within the Notes to Consolidated Financial Statements for further information on legal proceedings related to the EC fine and the VLSI litigation.",
+            "entity_name": "Intel European Commission Antitrust Fine",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "7",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Litigation charges and other includes a $1.2 billion benefit in 2022 from the annulled penalty related to an EC fine that was recorded and paid in 2009, and a charge of $2.2 billion in 2021 related to the VLSI litigation. These were recorded as a corporate benefit and charge in the \"all other\" category presented in \"Note 3: Operating Segments\" within the Notes to Consolidated Financial Statements. Refer to \"Note 19: Commitments and Contingencies\" within the Notes to Consolidated Financial Statements for further information on legal proceedings related to the EC fine and the VLSI litigation.",
+            "entity_name": "Intel VLSI Technology LLC Patent Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "13",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In 2022, we issued a total of $6.0 billion aggregate principal amount of senior notes, including our inaugural green bond issuance of $1.3 billion principal amount, and settled in cash $1.6 billion of our senior notes that matured in May 2022, $1.0 billion of our senior notes that matured in July 2022, and $1.9 billion of our senior notes that matured in December 2022. We also early cash settled $400 million of our senior notes due November 2023.",
+            "entity_name": "INTC 2022 $6.0B Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "13",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In 2022, we entered into a $5.0 billion 364-day variable-rate unsecured revolving credit facility that, if drawn, is expected to be used for general corporate purposes. The revolving credit facility matures in November 2023. The revolving credit facilities had no borrowings outstanding as of December 31, 2022.",
+            "entity_name": "INTC 2022 $5.0B 364-Day Revolving Credit Facility",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "13",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "We also amended our $5.0 billion variable-rate revolving credit facility agreement that we entered into in 2021, extending the maturity date by one year to March 2027 and transitioning from LIBOR to term SOFR.",
+            "entity_name": "INTC $5.0B Revolving Credit Facility Amendment (March 2027)",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "13",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In 2022, we received proceeds of $600 million in the aggregate for the sale of bonds issued by the Industrial Development Authority of the City of Chandler, Arizona (CIDA). The bonds are our unsecured general obligations in accordance with the loan with the CIDA. The bonds mature in 2042 and 2052 and carry an interest rate of 5.0%. The bonds are subject to mandatory tender in September 2027, at which time we can re-market the bonds as either fixed-rate bonds for a specified period or as variable-rate bonds until another fixed-rate period is selected or until their final maturity date.",
+            "entity_name": "INTC 2022 $600M Arizona CIDA Bonds",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Mobileye IPO 2022"
+            ],
+            "attributes": {
+              "effective_period": "2022-Q4",
+              "event_type": "business_combination",
+              "intel_ownership_pct_post": 0.94,
+              "net_proceeds_usd": 1000000000,
+              "non_controlling_interest_usd": 989000000
+            },
+            "identifiers": {},
+            "name": "Mobileye Global Inc. IPO (Q4 2022)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Tower acquisition",
+              "Tower deal"
+            ],
+            "attributes": {
+              "consideration_per_share_usd": 53,
+              "consideration_type": "cash-for-stock",
+              "event_type": "acquisition",
+              "status": "pending_regulatory",
+              "target_company": "Tower Semiconductor Ltd.",
+              "target_segment": "IFS",
+              "termination_fee_usd": 353000000,
+              "total_enterprise_value_usd": 5400000000
+            },
+            "identifiers": {},
+            "name": "INTC Acquisition of Tower Semiconductor Ltd.",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Tower deal termination fee risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "condition": "failure to obtain required regulatory approvals",
+              "termination_fee_usd": 353000000
+            },
+            "identifiers": {},
+            "name": "INTC Tower Acquisition Regulatory Termination Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel 2022 workforce rebalancing"
+            ],
+            "attributes": {
+              "accrued_liability_usd": 873000000,
+              "employee_severance_charge_usd": 1038000000,
+              "event_type": "restructuring",
+              "expected_completion": "end of 2023"
+            },
+            "identifiers": {},
+            "name": "INTC 2022 Restructuring Program",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NAND divestiture",
+              "SK hynix NAND deal"
+            ],
+            "attributes": {
+              "counterparty": "SK hynix Inc.",
+              "event_type": "divestiture",
+              "first_closing_date": "2021-12-29",
+              "first_closing_proceeds_usd": 7000000000,
+              "remaining_proceeds_usd": 2000000000,
+              "second_closing_expected": "no earlier than 2025-03",
+              "total_consideration_usd": 9000000000
+            },
+            "identifiers": {},
+            "name": "INTC NAND Memory Business Divestiture to SK hynix",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NAND wafer agreement penalty risk",
+              "SK hynix NAND OpCo incentive risk"
+            ],
+            "attributes": {
+              "category": "contractual_liability",
+              "counterparty": "SK hynix Inc.",
+              "max_aggregate_exposure_usd": 1500000000,
+              "max_annual_exposure_usd": 500000000
+            },
+            "identifiers": {},
+            "name": "INTC NAND OpCo Wafer Agreement Incentive/Penalty Exposure",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "McAfee sale 2022",
+              "McAfee divestiture"
+            ],
+            "attributes": {
+              "cash_received_usd": 4600000000,
+              "event_type": "divestiture",
+              "gain_recognized_usd": 4600000000,
+              "target_company": "McAfee Corp."
+            },
+            "identifiers": {},
+            "name": "INTC McAfee Consumer Business Sale (2022)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "EC fine",
+              "Intel EU antitrust penalty"
+            ],
+            "attributes": {
+              "benefit_recognized_2022_usd": 1200000000,
+              "note": "EC penalty annulled; $1.2B benefit recognized in 2022; original fine recorded and paid in 2009",
+              "status": "dismissed"
+            },
+            "identifiers": {},
+            "name": "Intel European Commission Antitrust Fine",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "VLSI litigation"
+            ],
+            "attributes": {
+              "charge_2021_usd": 2200000000,
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Intel VLSI Technology LLC Patent Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Intel 2022 senior notes",
+              "Intel 2022 inaugural green bond"
+            ],
+            "attributes": {
+              "green_bond_principal_usd": 1300000000,
+              "instrument_type": "notes",
+              "issuance_year": 2022,
+              "note": "Includes inaugural green bond of $1.3B; also settled $4.5B of maturing notes and early settled $400M due November 2023",
+              "principal_usd": 6000000000
+            },
+            "identifiers": {},
+            "name": "INTC 2022 $6.0B Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Intel 364-day revolver 2022"
+            ],
+            "attributes": {
+              "instrument_type": "revolver",
+              "maturity": "2023-11",
+              "principal_usd": 5000000000,
+              "rate_type": "variable",
+              "secured": false
+            },
+            "identifiers": {},
+            "name": "INTC 2022 $5.0B 364-Day Revolving Credit Facility",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Intel revolver SOFR amendment 2022"
+            ],
+            "attributes": {
+              "instrument_type": "refinancing",
+              "maturity": "2027-03",
+              "note": "Extended maturity by one year; transitioned from LIBOR to term SOFR",
+              "principal_usd": 5000000000
+            },
+            "identifiers": {},
+            "name": "INTC $5.0B Revolving Credit Facility Amendment (March 2027)",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Intel Arizona CIDA bonds 2022",
+              "Chandler Arizona bonds"
+            ],
+            "attributes": {
+              "coupon": 0.05,
+              "instrument_type": "bonds",
+              "issuer": "Industrial Development Authority of the City of Chandler, Arizona",
+              "mandatory_tender": "2027-09",
+              "maturity_range": "2042-2052",
+              "principal_usd": 600000000,
+              "secured": false
+            },
+            "identifiers": {},
+            "name": "INTC 2022 $600M Arizona CIDA Bonds",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Mobileye Global Inc. IPO (Q4 2022)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Acquisition of Tower Semiconductor Ltd.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Tower Acquisition Regulatory Termination Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2022 Restructuring Program",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC NAND Memory Business Divestiture to SK hynix",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC NAND OpCo Wafer Agreement Incentive/Penalty Exposure",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC McAfee Consumer Business Sale (2022)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Intel European Commission Antitrust Fine",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "new_status": "dismissed",
+              "note": "EC penalty annulled; $1.2B benefit recognized in 2022",
+              "prior_status": "appealed"
+            },
+            "source_name": "Intel European Commission Antitrust Fine",
+            "source_type_entity": "LegalProceeding",
+            "target_name": "INTC 10-K 2022",
+            "target_type_entity": "Filing",
+            "type": "legal_proceeding_status_changed_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Intel VLSI Technology LLC Patent Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2022 $6.0B Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2022 $5.0B 364-Day Revolving Credit Facility",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC $5.0B Revolving Credit Facility Amendment (March 2027)",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2022 $600M Arizona CIDA Bonds",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/INTC/0000050863-23-000006.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "2e98b0cf073f9602868c07750f7052e9f38342769117c79086ad29586758c737"
+    },
+    {
+      "extracted_at": "2026-07-28T17:48:37Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In January 2022, the General Court annulled the EC's 2009 findings against us regarding rebates, as well as the fine imposed on Intel, which was returned to us in February 2022. In April 2022, the EC appealed the General Court's decision to the Court of Justice. A hearing date on the appeal has not been scheduled. The General Court's January 2022 decision did not annul the EC's 2009 finding that Intel made payments to prevent sales of specific rival products, and in January 2023 the EC reopened its administrative procedure to determine a fine against Intel based on that alleged conduct.",
+            "entity_name": "Intel European Commission Antitrust Matter",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Numerous lawsuits have been filed against Intel relating to Spectre, Meltdown, and other variants of the security vulnerabilities that have been identified since 2018. As of January 25, 2023, consumer class action lawsuits against Intel were pending in the United States, Canada, and Argentina. In the United States, class action suits filed in various jurisdictions were consolidated for all pretrial proceedings in the United States District Court for the District of Oregon, which entered final judgment in favor of Intel in July 2022 based on plaintiffs' failure to plead a viable claim. Plaintiffs have appealed that decision to the Ninth Circuit Court of Appeals.",
+            "entity_name": "Intel Spectre and Meltdown Security Vulnerability Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Starting in July 2020, five securities class action lawsuits were filed in the U. S. District Court for the Northern District of California against Intel and certain current and former officers based on Intel's July 2020 announcement of 7nm product delays. The plaintiffs, who purport to represent classes of acquirers of Intel stock between October 2019 and July 2020, generally allege that the defendants violated securities laws by making false or misleading statements about the timeline for 7nm products in light of subsequently announced delays.",
+            "entity_name": "Intel 7nm Product Delay Securities Class Action",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In April 2022, the court entered final judgment, awarding VLSI $2.2 billion in damages and approximately $162.3 million in pre-judgment and post-judgment interest. Intel has appealed the judgment to the Federal Circuit Court of Appeals, including its claim to have a license from Fortress Investment Group's acquisition of Finjan. Intel has accrued a charge of approximately $2.2 billion related to the VLSI litigation. While we dispute VLSI's claims and intend to vigorously defend against them, we are unable to make a reasonable estimate of losses in excess of recorded amounts given recent developments and future proceedings.",
+            "entity_name": "VLSI Technology LLC v. Intel Corporation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In November 2019, Intel, along with Apple Inc., filed a complaint against Fortress Investment Group LLC, Fortress Credit Co. LLC, Uniloc 2017 LLC, Uniloc USA, Inc., Uniloc Luxembourg S.A.R.L., VLSI, INVT SPE LLC, Inventergy Global, Inc., DSS Technology Management, Inc., IXI IP, LLC, and Seven Networks, LLC. In September 2021, the district court dismissed the claims with prejudice, entering judgment in favor of defendants. In November 2022 the Ninth Circuit affirmed the district court's decision.",
+            "entity_name": "Intel v. Fortress Investment Group Sherman Act Complaint",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Other commitments include a $5.4 billion commitment associated with our pending acquisition of Tower and our unrecognized commitment to fund our respective share of the total construction costs of $29.0 billion of Arizona Fab in connection with the definitive agreement entered into with Brookfield.",
+            "entity_name": "Intel Pending Acquisition of Tower Semiconductor",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "our unrecognized commitment to fund our respective share of the total construction costs of $29.0 billion of Arizona Fab in connection with the definitive agreement entered into with Brookfield. Our remaining unfunded contribution was $13.5 billion as of December 31, 2022.",
+            "entity_name": "Intel Arizona Fab Brookfield Co-Investment Agreement",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Share-based compensation recognized in 2022 was $3.1 billion ($2.0 billion in 2021 and $1.9 billion in 2020). During 2022, the tax benefit that we realized for the tax deduction from share-based awards totaled $478 million ($377 million in 2021 and $380 million in 2020).",
+            "entity_name": "Intel FY2022 Share-Based Compensation Disclosure",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "EC Competition Matter",
+              "Intel Article 102 rebate case"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "court": "Court of Justice of the EU / General Court",
+              "original_finding_year": 2009,
+              "original_fine_eur": 1100000000,
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Intel European Commission Antitrust Matter",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Spectre Meltdown consumer class actions"
+            ],
+            "attributes": {
+              "counterparty": "Consumer class action plaintiffs",
+              "jurisdictions": [
+                "United States",
+                "Canada",
+                "Argentina"
+              ],
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Intel Spectre and Meltdown Security Vulnerability Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Intel 7nm securities litigation"
+            ],
+            "attributes": {
+              "counterparty": "Securities class action plaintiffs",
+              "court": "U.S. District Court for the Northern District of California",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Intel 7nm Product Delay Securities Class Action",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "VLSI patent litigation",
+              "VLSI v. Intel"
+            ],
+            "attributes": {
+              "accrued_charge_usd": 2200000000,
+              "counterparty": "VLSI Technology LLC",
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "VLSI Technology LLC v. Intel Corporation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Intel Fortress antitrust complaint"
+            ],
+            "attributes": {
+              "counterparty": "Fortress Investment Group LLC and others",
+              "court": "Ninth Circuit Court of Appeals",
+              "status": "dismissed"
+            },
+            "identifiers": {},
+            "name": "Intel v. Fortress Investment Group Sherman Act Complaint",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Tower acquisition",
+              "Intel Tower deal"
+            ],
+            "attributes": {
+              "commitment_usd": 5400000000,
+              "event_type": "acquisition",
+              "target_company": "Tower Semiconductor"
+            },
+            "identifiers": {},
+            "name": "Intel Pending Acquisition of Tower Semiconductor",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Arizona Fab Brookfield SCIP deal"
+            ],
+            "attributes": {
+              "counterparty": "Brookfield",
+              "event_type": "joint_venture",
+              "intel_remaining_unfunded_usd": 13500000000,
+              "total_construction_cost_usd": 29000000000
+            },
+            "identifiers": {},
+            "name": "Intel Arizona Fab Brookfield Co-Investment Agreement",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "INTC 2022 equity compensation"
+            ],
+            "attributes": {
+              "amount_usd": 3100000000,
+              "event_type": "compensation_disclosure",
+              "fiscal_year": 2022
+            },
+            "identifiers": {},
+            "name": "Intel FY2022 Share-Based Compensation Disclosure",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Intel European Commission Antitrust Matter",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Intel Spectre and Meltdown Security Vulnerability Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Intel 7nm Product Delay Securities Class Action",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "VLSI Technology LLC v. Intel Corporation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Intel v. Fortress Investment Group Sherman Act Complaint",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Intel Pending Acquisition of Tower Semiconductor",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Intel Arizona Fab Brookfield Co-Investment Agreement",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Intel FY2022 Share-Based Compensation Disclosure",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/INTC/0000050863-23-000006.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "0a1d2842afe4660d7d19f22e85fe9baeb633fc13b51e85e15cbb9da17dba2dd6"
+    }
+  ],
+  "prompt_version": "v3"
+}

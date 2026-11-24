@@ -1,0 +1,59 @@
+{
+  "accession": "0000093410-24-000013",
+  "item": "Item_9A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T14:18:39Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9A"
+            },
+            "chunk_type": "material_event",
+            "content": "The company excluded PDC Energy, Inc. (PDC) from our assessment of internal control over financial reporting as of December 31, 2023 because it was acquired by the company in a business combination during 2023. Total assets and total revenues of PDC, a wholly-owned subsidiary, represent five percent and one percent, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2023.",
+            "entity_name": "CVX Acquisition of PDC Energy",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "PDC Energy acquisition",
+              "PDC business combination 2023"
+            ],
+            "attributes": {
+              "effective_date": "2023",
+              "event_type": "acquisition",
+              "post_acquisition_status": "wholly-owned subsidiary",
+              "target_company": "PDC Energy, Inc."
+            },
+            "identifiers": {},
+            "name": "CVX Acquisition of PDC Energy",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Acquisition of PDC Energy",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-24-000013.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "c327d1ee7eb8155fa777470ef9c890633cd45f133f0481c093aff2b7ecd1ef12"
+    }
+  ],
+  "prompt_version": "v3"
+}

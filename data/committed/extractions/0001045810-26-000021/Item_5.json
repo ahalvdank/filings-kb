@@ -1,0 +1,211 @@
+{
+  "accession": "0001045810-26-000021",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T11:48:03Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "In May 2024, we announced a ten-for-one stock split, or the Stock Split, of our issued common stock, which was effected through the filing of an amendment to the Company's Restated Certificate of Incorporation, or the Amendment, with the Secretary of the State of Delaware. In June 2024, the Company filed the Amendment to effect the Stock Split and proportionately increased the number of shares of the Company's authorized common stock from 8.0 billion to 80.0 billion. Shareholders of record at the close of market on June 6, 2024 received nine additional shares of common stock, distributed after the close of market on June 7, 2024.",
+            "entity_name": "NVDA June 2024 Ten-for-One Stock Split",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "On August 26, 2025, our Board of Directors approved an additional $60.0 billion in share repurchase authorization, without expiration.",
+            "entity_name": "NVDA August 2025 $60B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In fiscal year 2026, we repurchased 282 million shares of our common stock for $40.4 billion. As of January 25, 2026, we were authorized, subject to certain specifications, to repurchase up to $58.5 billion of our common stock.",
+            "entity_name": "NVDA FY2026 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In fiscal year 2026, we paid cash dividends to our shareholders of $974 million. The payment of future cash dividends is subject to our Board of Directors' continuing determination that the declaration of dividends is in the best interests of our shareholders.",
+            "entity_name": "NVDA FY2026 Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "On December 15, 2025, we acquired a company and issued to a key employee a total of 174,676 shares of our common stock, valued at approximately $31 million based on our closing stock price on the issuance date.",
+            "entity_name": "NVDA December 2025 Undisclosed Acquisition",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVDA 10-for-1 stock split",
+              "NVDA 2024 stock split"
+            ],
+            "attributes": {
+              "authorized_shares_post": 80000000000,
+              "authorized_shares_pre": 8000000000,
+              "distribution_date": "2024-06-07",
+              "event_type": "stock_split",
+              "ratio": "10-for-1",
+              "record_date": "2024-06-06"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA June 2024 Ten-for-One Stock Split",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NVDA $60B buyback authorization",
+              "NVDA August 2025 repurchase program expansion"
+            ],
+            "attributes": {
+              "amount_usd": 60000000000,
+              "effective_date": "2025-08-26",
+              "expiration": "none",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA August 2025 $60B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "NVDA fiscal 2026 buybacks"
+            ],
+            "attributes": {
+              "amount_usd": 40400000000,
+              "period": "FY2026",
+              "return_type": "buyback",
+              "shares": 282000000
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA FY2026 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 974000000,
+              "period": "FY2026",
+              "return_type": "dividend"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA FY2026 Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "NVDA December 15 2025 acquisition"
+            ],
+            "attributes": {
+              "consideration_type": "equity",
+              "consideration_value_usd": 31000000,
+              "effective_date": "2025-12-15",
+              "event_type": "acquisition",
+              "shares_issued": 174676,
+              "target_company": "undisclosed"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA December 2025 Undisclosed Acquisition",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA June 2024 Ten-for-One Stock Split",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA August 2025 $60B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2026 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2026 Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA December 2025 Undisclosed Acquisition",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-26-000021.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "02053b21280e229e6c7f9dd879ceaaf03a8632e588bf3e441a64614a2d3458fb"
+    }
+  ],
+  "prompt_version": "v3"
+}

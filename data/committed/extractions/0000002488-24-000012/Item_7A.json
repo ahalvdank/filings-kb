@@ -1,0 +1,156 @@
+{
+  "accession": "0000002488-24-000012",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T01:50:08Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our exposure to market risk for changes in interest rates relates primarily to our investment portfolio and long-term debt. These securities are subject to interest rate risk and will decrease in value if market interest rates increase. A hypothetical 50 basis-point (half percentage point) increase or decrease in interest rates compared to rates at December 30, 2023 would have affected the fair value of our cash equivalent and investment portfolio by approximately $7 million.",
+            "entity_name": "AMD Interest Rate Risk on Investment Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "mitigant: fixed-rate long-term debt limits interest expense exposure",
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 30, 2023, all of our outstanding long-term debt had fixed interest rates. Consequently, our exposure to market risk for changes in interest rates on reported interest expense and corresponding cash flows is minimal.",
+            "entity_name": "AMD Interest Rate Risk on Investment Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We mitigate default risk in our investment portfolio by investing in only high credit quality securities and by constantly positioning our portfolio to respond to a significant reduction in a credit rating of any investment issuer or guarantor. While we believe we take prudent measures to mitigate investment-related risks, such risks cannot be fully eliminated as there are circumstances outside of our control. As of December 30, 2023, all of our investments in debt securities were A-rated by at least one of the rating agencies.",
+            "entity_name": "AMD Default Risk on Investment Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As a result of our foreign operations, we incur costs and we carry assets and liabilities that are denominated in foreign currencies, while sales of products are primarily denominated in U.S. dollars. We maintain a foreign currency hedging strategy which uses derivative financial instruments to mitigate the risks associated with changes in foreign currency exchange rates. We do not use derivative financial instruments for trading or speculative purposes.",
+            "entity_name": "AMD Foreign Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "quantitative FX hedge position summary from forward contracts table",
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "All of our foreign currency forward contracts mature within 24 months. As of December 30, 2023, total notional amount of foreign currency forward contracts was $2,950 million with an estimated fair value gain of $8 million, compared to $2,421 million notional and $(28) million estimated fair value loss as of December 31, 2022. Currencies hedged include Chinese Renminbi, Canadian Dollar, Indian Rupee, Taiwan Dollar, Singapore Dollar, Euro, and Pound Sterling.",
+            "entity_name": "AMD Foreign Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "AMD investment portfolio rate risk",
+              "interest rate sensitivity"
+            ],
+            "attributes": {
+              "category": "market_risk",
+              "quantitative_sensitivity_usd": 7000000,
+              "scope": "investment_portfolio",
+              "sensitivity_basis_points": 50,
+              "subcategory": "interest_rate"
+            },
+            "identifiers": {},
+            "name": "AMD Interest Rate Risk on Investment Portfolio",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "AMD credit default risk",
+              "AMD counterparty credit risk"
+            ],
+            "attributes": {
+              "category": "credit_risk",
+              "minimum_credit_rating": "A",
+              "scope": "investment_portfolio"
+            },
+            "identifiers": {},
+            "name": "AMD Default Risk on Investment Portfolio",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "AMD FX risk",
+              "AMD currency risk"
+            ],
+            "attributes": {
+              "category": "market_risk",
+              "geography": "global",
+              "hedging_strategy": "derivative financial instruments",
+              "subcategory": "foreign_exchange",
+              "total_notional_usd": 2950000000
+            },
+            "identifiers": {},
+            "name": "AMD Foreign Exchange Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Interest Rate Risk on Investment Portfolio",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Default Risk on Investment Portfolio",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Foreign Exchange Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2024-01-31",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-24-000012.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "738bee42549481aa60f8045eb8810bf47ee3a28de432da2e8633c37d6217840c"
+    }
+  ],
+  "prompt_version": "v3"
+}

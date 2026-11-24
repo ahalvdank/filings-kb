@@ -1,0 +1,395 @@
+{
+  "accession": "0000002488-24-000012",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-10-14T01:18:22Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Data Center net revenue of $6.5 billion in 2023 increased by 7%, compared to net revenue of $6.0 billion in 2022. The increase was primarily driven by higher sales of AMD Instinct GPUs and 4th Gen AMD EPYC CPUs.",
+            "entity_name": "AMD Data Center Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Data Center operating income was $1.3 billion in 2023, compared to operating income of $1.8 billion in 2022. The decrease in operating income was primarily due to product mix and higher research and development (R&D) investment.",
+            "entity_name": "AMD Data Center Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Client net revenue of $4.7 billion in 2023 decreased by 25%, compared to net revenue of $6.2 billion in 2022, primarily due to lower sales of Ryzen mobile and desktop processors, resulting from a 16% decrease in average selling price and a 12% decrease in unit shipments. Lower Ryzen processor sales were due to weak PC market conditions and inventory correction across the PC supply chain that impacted the first half of 2023.",
+            "entity_name": "AMD Client Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Gaming net revenue of $6.2 billion in 2023 decreased by 9%, compared to net revenue of $6.8 billion in 2022. The decrease in net revenue was primarily due to lower semi-custom product revenue.",
+            "entity_name": "AMD Gaming Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Embedded net revenue of $5.3 billion in 2023 increased by 17%, compared to net revenue of $4.6 billion in 2022. The increase in net revenue was primarily driven by the inclusion of embedded product revenue from Xilinx, Inc. (Xilinx) for the full twelve months period in 2023, as compared to a partial period from February 14, 2022 (the Xilinx Acquisition Date) in the prior year period.",
+            "entity_name": "AMD Embedded Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Embedded operating income was $2.6 billion in 2023, compared to operating income of $2.3 billion in 2022. The increase in operating income was primarily driven by the inclusion of Xilinx for the full twelve months period as compared to a partial period from the Xilinx Acquisition Date in the prior year period.",
+            "entity_name": "AMD Embedded Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During the twelve months ended December 30, 2023, we returned a total of $985 million to shareholders through the repurchase of 9.7 million shares of common stock under our stock repurchase program. As of December 30, 2023, $5.6 billion remained available for future stock repurchases under this program. The repurchase program does not obligate us to acquire any common stock, has no termination date and may be suspended or discontinued at any time.",
+            "entity_name": "AMD FY2023 Stock Repurchase",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In August 2023, we acquired Mipsology SAS, an AI software company to help develop the full AMD AI software stack and expand the open ecosystem of software tools, libraries and models.",
+            "entity_name": "AMD Acquisition of Mipsology SAS",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "We further expanded our open AI software capabilities with the acquisition of Nod, Inc., an open AI software company, in October 2023. Nod, Inc.'s software technology helps accelerate the deployment of AI solutions optimized for AMD Instinct data center accelerators, Ryzen AI processors, EPYC processors, Versal SoCs and Radeon GPUs.",
+            "entity_name": "AMD Acquisition of Nod Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "We have $3.0 billion available under an unsecured revolving credit agreement (Revolving Credit Agreement) that expires on April 29, 2027. No funds were drawn from this credit facility during the year ended December 30, 2023.",
+            "entity_name": "AMD $3.0B Unsecured Revolving Credit Agreement",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Our 2.95% Notes with a principal amount of $750 million are due in June 2024.",
+            "entity_name": "AMD 2.95% Senior Notes Due June 2024",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "AMD"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "Advanced Micro Devices, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Data Center"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center",
+              "ticker": "AMD"
+            },
+            "name": "AMD Data Center Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Client"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Client",
+              "ticker": "AMD"
+            },
+            "name": "AMD Client Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Gaming"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Gaming",
+              "ticker": "AMD"
+            },
+            "name": "AMD Gaming Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Embedded"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Embedded",
+              "ticker": "AMD"
+            },
+            "name": "AMD Embedded Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AMD 2023 buyback"
+            ],
+            "attributes": {
+              "amount_usd": 985000000,
+              "period": "FY2023",
+              "remaining_authorization_usd": 5600000000,
+              "return_type": "buyback",
+              "shares_repurchased": 9700000
+            },
+            "identifiers": {},
+            "name": "AMD FY2023 Stock Repurchase",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Mipsology acquisition"
+            ],
+            "attributes": {
+              "consideration": "cash",
+              "description": "AI software company acquired to develop AMD AI software stack",
+              "effective_date": "2023-08",
+              "event_type": "acquisition",
+              "target_company": "Mipsology SAS"
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of Mipsology SAS",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Nod acquisition"
+            ],
+            "attributes": {
+              "consideration": "cash",
+              "description": "Open AI software company to accelerate AMD Instinct and Ryzen AI deployment",
+              "effective_date": "2023-10",
+              "event_type": "acquisition",
+              "target_company": "Nod, Inc."
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of Nod Inc.",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD Revolving Credit Facility"
+            ],
+            "attributes": {
+              "drawn_usd": 0,
+              "instrument_type": "revolver",
+              "maturity": "2027-04-29",
+              "principal_usd": 3000000000,
+              "secured": false
+            },
+            "identifiers": {},
+            "name": "AMD $3.0B Unsecured Revolving Credit Agreement",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "AMD 2.95% Notes"
+            ],
+            "attributes": {
+              "coupon": 0.0295,
+              "instrument_type": "notes",
+              "maturity": "2024-06",
+              "principal_usd": 750000000
+            },
+            "identifiers": {},
+            "name": "AMD 2.95% Senior Notes Due June 2024",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.07,
+              "margin": 0.195,
+              "margin_type": "operating",
+              "operating_income": 1267000000,
+              "period": "FY2023",
+              "revenue": 6496000000
+            },
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Data Center Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.25,
+              "margin": -0.01,
+              "margin_type": "operating",
+              "operating_income": -46000000,
+              "period": "FY2023",
+              "revenue": 4651000000
+            },
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Client Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.09,
+              "margin": 0.156,
+              "margin_type": "operating",
+              "operating_income": 971000000,
+              "period": "FY2023",
+              "revenue": 6212000000
+            },
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Gaming Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.17,
+              "margin": 0.494,
+              "margin_type": "operating",
+              "operating_income": 2628000000,
+              "period": "FY2023",
+              "revenue": 5321000000
+            },
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Embedded Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD FY2023 Stock Repurchase",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of Mipsology SAS",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of Nod Inc.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD $3.0B Unsecured Revolving Credit Agreement",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD 2.95% Senior Notes Due June 2024",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2024-01-30",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-24-000012.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "41d66ad0721ceb9eb251e682dae17b3b8a84fa98504d2d95073eee09fb12cd4c"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,128 @@
+{
+  "accession": "0000731766-23-000008",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-21T02:31:01Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In June 2022, the Company's Board of Directors increased the Company's quarterly cash dividend to shareholders to an annual rate of $6.60 compared to $5.80 per share, which the Company had paid since June 2021.",
+            "entity_name": "UNH June 2022 Quarterly Dividend Increase",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5",
+              "units": "shares_in_millions"
+            },
+            "chunk_type": "capital_return",
+            "content": "October 31, 2022 0.7 $519.51 0.7 32.3 November 30, 2022 0.6 533.81 0.6 31.7 December 31, 2022 0.6 533.56 0.6 31.1 Total 1.9 $528.87 1.9",
+            "entity_name": "UNH Q4 2022 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In June 2018, the Board of Directors renewed our share repurchase program with an authorization to repurchase up to 100 million shares of our common stock in open market purchases or other types of transactions (including prepaid or structured repurchase programs). There is no established expiration date for the program.",
+            "entity_name": "UNH June 2018 100M Share Repurchase Program Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2022-06",
+              "per_share": 6.6,
+              "prior_per_share": 5.8,
+              "rate_basis": "annual",
+              "return_type": "dividend_increase"
+            },
+            "identifiers": {},
+            "name": "UNH June 2022 Quarterly Dividend Increase",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "avg_price_per_share": 528.87,
+              "period": "Q4 2022",
+              "return_type": "buyback",
+              "shares": 1900000
+            },
+            "identifiers": {},
+            "name": "UNH Q4 2022 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "UNH share repurchase program"
+            ],
+            "attributes": {
+              "effective_date": "2018-06",
+              "expiration": "none",
+              "original_adoption_date": "1997-11",
+              "renewal_date": "2018-06",
+              "return_type": "repurchase_authorization",
+              "shares_authorized": 100000000
+            },
+            "identifiers": {},
+            "name": "UNH June 2018 100M Share Repurchase Program Authorization",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH June 2022 Quarterly Dividend Increase",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Q4 2022 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "UNH June 2018 100M Share Repurchase Program Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-23-000008.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "916cd79bb568ae6c7a22dab18ae379c6a49923eab59f2e01b7536f7cadb7149c"
+    }
+  ],
+  "prompt_version": "v3"
+}

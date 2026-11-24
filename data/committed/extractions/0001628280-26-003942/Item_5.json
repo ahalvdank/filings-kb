@@ -1,0 +1,100 @@
+{
+  "accession": "0001628280-26-003942",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T06:49:07Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "During the year ended December 31, 2025, total dividend and dividend equivalent payments were $4.60 billion and $720 million for Class A and Class B common stock, respectively.",
+            "entity_name": "META FY2025 Quarterly Cash Dividend Payments",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "Subject to legally available funds and future declaration by our board of directors, we currently intend to continue to pay a quarterly cash dividend on our outstanding common stock.",
+            "entity_name": "META Quarterly Dividend Continuation Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta 2025 dividend payments"
+            ],
+            "attributes": {
+              "cadence": "quarterly",
+              "class_a_amount_usd": 4600000000,
+              "class_b_amount_usd": 720000000,
+              "note": "No share repurchase activity during Q4 2025 (three months ended December 31, 2025)",
+              "period": "FY2025",
+              "return_type": "dividend",
+              "total_amount_usd": 5320000000
+            },
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "META FY2025 Quarterly Cash Dividend Payments",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "quarterly_cash_dividend",
+              "period": "ongoing",
+              "update_type": "confirmation"
+            },
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "META Quarterly Dividend Continuation Guidance",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "META FY2025 Quarterly Cash Dividend Payments",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "META 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "META Quarterly Dividend Continuation Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001628280-26-003942.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "6eb2b36b6ffd8033c93227f0f56dd92fb6ccf99006b94f541163bbc794b85dbc"
+    }
+  ],
+  "prompt_version": "v3"
+}

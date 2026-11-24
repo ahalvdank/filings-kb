@@ -1,0 +1,100 @@
+{
+  "accession": "0000093410-23-000009",
+  "item": "Item_3",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T14:11:56Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "the California Department of Fish and Game, Office of Spill Prevention and Response issued a Complaint - Notice of Violation (NOV) to Chevron for alleged violations related to oil spills and impacted habitat and species occurring between January 2018 and May 2022 at different Chevron fields within Kern County, California. Resolution of the alleged violations may result in the payment of a civil penalty of $1.0 million or more.",
+            "entity_name": "California DFG NOV - Kern County Oil Spills",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "CalGEM issued NOVs and two orders to Chevron related to seeps that occurred in the Cymric Oil Field in Kern County, California. An October 2, 2019 CalGEM order seeks a civil penalty of approximately $2.7 million. Chevron has filed an appeal of this order. Chevron is currently in discussions with CalGEM to explore a global settlement to resolve the order and all past and present seeps in the Cymric Field, which would increase the amount of penalty paid.",
+            "entity_name": "CalGEM Cymric Oil Field Seeps Enforcement",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "CA DFG Kern County Notice of Violation",
+              "California Department of Fish and Game Kern County NOV"
+            ],
+            "attributes": {
+              "allegation": "oil spills and impacted habitat and species",
+              "civil_penalty_minimum_usd": 1000000,
+              "counterparty": "California Department of Fish and Game, Office of Spill Prevention and Response",
+              "geography": "Kern County, California",
+              "period_of_alleged_violations": "January 2018 - May 2022",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "California DFG NOV - Kern County Oil Spills",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "CalGEM Cymric Field NOV",
+              "California Geologic Energy Management Division Cymric seeps enforcement",
+              "DOGGR Cymric Field enforcement"
+            ],
+            "attributes": {
+              "civil_penalty_usd": 2700000,
+              "counterparty": "California Geologic Energy Management Division",
+              "geography": "Cymric Oil Field, Kern County, California",
+              "note": "Chevron in discussions with CalGEM for global settlement covering all past and present seeps in Cymric Field; settlement would increase penalty amount",
+              "order_date": "2019-10-02",
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "CalGEM Cymric Oil Field Seeps Enforcement",
+            "type": "LegalProceeding"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "California DFG NOV - Kern County Oil Spills",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "CalGEM Cymric Oil Field Seeps Enforcement",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-23-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "b8e79468ddf5b72c1df749920bb2caf8f819fde3a4bae7f9ccd838fa62467f97"
+    }
+  ],
+  "prompt_version": "v3"
+}

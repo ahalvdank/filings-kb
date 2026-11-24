@@ -1,0 +1,127 @@
+{
+  "accession": "0000950170-24-087843",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T12:54:32Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "April 1, 2024 – April 30, 2024 2,444,905 $ 413.75 2,444,905 $ 12,138 May 1, 2024 – May 31, 2024 2,233,450 416.85 2,233,450 11,207 June 1, 2024 – June 30, 2024 1,963,873 436.58 1,963,873 10,349 6,642,228 6,642,228 All share repurchases were made using cash resources. Our share repurchases may occur through open market purchases or pursuant to a Rule 10b5-1 trading plan. The above table excludes shares repurchased to settle employee tax withholding related to the vesting of stock awards.",
+            "entity_name": "MSFT Q4 FY2024 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Our Board of Directors declared the following dividends during the fourth quarter of fiscal year 2024: Declaration Date June 12, 2024 Record Date August 15, 2024 Payment Date September 12, 2024 Dividend Per Share $ 0.75 Amount $ 5,575 (In millions)",
+            "entity_name": "MSFT Q4 FY2024 Quarterly Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "We returned $8.4 billion to shareholders in the form of share repurchases and dividends in the fourth quarter of fiscal year 2024.",
+            "entity_name": "MSFT Q4 FY2024 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft",
+              "MSFT"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "Microsoft Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Microsoft Q4 FY2024 buyback"
+            ],
+            "attributes": {
+              "april_avg_price_usd": 413.75,
+              "april_remaining_authorization_usd_millions": 12138,
+              "april_shares": 2444905,
+              "june_avg_price_usd": 436.58,
+              "june_remaining_authorization_usd_millions": 10349,
+              "june_shares": 1963873,
+              "may_avg_price_usd": 416.85,
+              "may_remaining_authorization_usd_millions": 11207,
+              "may_shares": 2233450,
+              "method": "open_market_or_10b5-1",
+              "period": "Q4 FY2024",
+              "remaining_authorization_usd_millions": 10349,
+              "return_type": "buyback",
+              "shares_repurchased": 6642228
+            },
+            "identifiers": {},
+            "name": "MSFT Q4 FY2024 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 5575000000,
+              "declaration_date": "2024-06-12",
+              "payment_date": "2024-09-12",
+              "per_share": 0.75,
+              "period": "Q4 FY2024",
+              "record_date": "2024-08-15",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "MSFT Q4 FY2024 Quarterly Dividend",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Q4 FY2024 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Q4 FY2024 Quarterly Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0000950170-24-087843.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "02fd9950f430656c8bc7f2b7f7629fac9700dbbef8989c6137afa4c6a4888263"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,88 @@
+{
+  "accession": "0000034088-24-000018",
+  "item": "Item_3",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T02:26:50Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The State of Texas filed suit against ExxonMobil Oil Corporation (EMOC) on August 19, 2020, seeking penalties and injunctive relief in connection with alleged unauthorized emissions events at EMOC's Beaumont Refinery in Texas from 2017 to 2020.",
+            "entity_name": "State of Texas v. ExxonMobil Oil Corporation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_3"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In September 2023, the State of Texas and EMOC agreed to settle the alleged violations upon payment of $1.6 million to the State of Texas (the \"Settlement\") pending approval by the 98th Judicial District Court. In November 2023, the 98th Judicial District Court approved the Settlement, and EMOC paid the amounts required under the Settlement in December 2023.",
+            "entity_name": "State of Texas v. ExxonMobil Oil Corporation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Texas v. EMOC",
+              "Beaumont Refinery emissions litigation"
+            ],
+            "attributes": {
+              "counterparty": "State of Texas",
+              "court": "98th Judicial District Court of Travis County, Texas",
+              "defendant": "ExxonMobil Oil Corporation",
+              "period_of_alleged_violations": "2017-2020",
+              "settlement_amount_usd": 1600000,
+              "settlement_approved_date": "2023-11",
+              "settlement_paid_date": "2023-12",
+              "status": "settled",
+              "subject": "unauthorized emissions events at Beaumont Refinery"
+            },
+            "identifiers": {},
+            "name": "State of Texas v. ExxonMobil Oil Corporation",
+            "type": "LegalProceeding"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "State of Texas v. ExxonMobil Oil Corporation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "new_status": "settled",
+              "prior_status": "pending"
+            },
+            "source_name": "State of Texas v. ExxonMobil Oil Corporation",
+            "source_type_entity": "LegalProceeding",
+            "target_name": "XOM 10-K 2023",
+            "target_type_entity": "Filing",
+            "type": "legal_proceeding_status_changed_in",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-24-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "b1d9427aff2339081937f00f83f6970999808449b62668a7b3d777db5d4980df"
+    }
+  ],
+  "prompt_version": "v3"
+}

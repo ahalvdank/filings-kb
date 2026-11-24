@@ -1,0 +1,619 @@
+{
+  "accession": "0000002488-25-000012",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T01:09:58Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "NOTE 12",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "The Company has an approved stock repurchase program authorizing repurchases of up to $12 billion of the Company's common stock (Repurchase Program). This Repurchase Program does not obligate the Company to acquire any common stock, has no termination date and may be suspended or discontinued at any time.",
+            "entity_name": "AMD $12B Stock Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2025-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "NOTE 12",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "During the year ended December 28, 2024, the Company repurchased 5.9 million shares of its common stock under the Repurchase Program for $862 million. As of December 28, 2024, $4.7 billion remained available for future stock repurchases under this program.",
+            "entity_name": "AMD FY2024 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2025-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "NOTE 14",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In the fourth quarter of 2024, the Company implemented a restructuring plan (the 2024 Restructuring Plan) focused on driving efficiencies and aligning resources with the Company's largest growth opportunities in the AI and enterprise markets. The 2024 Restructuring Plan will primarily reduce global workforce by approximately 4% of headcount.",
+            "entity_name": "AMD 2024 Restructuring Plan",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "NOTE 14",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "The Company expects actions associated with the 2024 Restructuring Plan to be substantially completed by the end of the first quarter of fiscal year 2025. As of December 28, 2024, $89 million of accrued restructuring charges are recorded within Accrued liabilities of the Company's Consolidated Balance Sheets.",
+            "entity_name": "AMD 2024 Restructuring Plan",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-02-05",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "AMD Repurchase Program"
+            ],
+            "attributes": {
+              "amount_usd": 12000000000,
+              "remaining_usd": 4700000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD $12B Stock Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 862000000,
+              "period": "FY2024",
+              "return_type": "buyback",
+              "shares": 5900000
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD FY2024 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "AMD Q4 2024 Restructuring"
+            ],
+            "attributes": {
+              "accrued_liability_usd": 89000000,
+              "asset_impairment_usd": 73000000,
+              "effective_date": "2024-Q4",
+              "employee_severance_usd": 113000000,
+              "event_type": "restructuring",
+              "expected_completion": "Q1 FY2025",
+              "headcount_reduction_pct": 0.04,
+              "total_charge_usd": 186000000
+            },
+            "identifiers": {},
+            "name": "AMD 2024 Restructuring Plan",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD $12B Stock Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2025-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD FY2024 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2025-02-05",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD 2024 Restructuring Plan",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-02-05",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-25-000012.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "631cad26fd8994d21dde03b48ff11d2f487b19b1b79d2a1b3fad3cc7d31bd144"
+    },
+    {
+      "extracted_at": "2026-10-14T01:10:04Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note_ref": "NOTE 4",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "the Data Center segment, which primarily includes Artificial Intelligence (AI) accelerators, server microprocessors (CPUs), graphics processing units (GPUs), accelerated processing units (APUs), data processing units (DPUs), Field Programmable Gate Arrays (FPGAs), Smart Network Interface Cards (SmartNICs) and Adaptive System-on-Chip (SoC) products for data centers;",
+            "entity_name": "AMD Data Center Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_ref": "NOTE 4",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "the Client segment, which primarily includes CPUs, APUs, and chipsets for desktops and notebooks;",
+            "entity_name": "AMD Client Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_ref": "NOTE 4",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "the Gaming segment, which primarily includes discrete GPUs, and semi-custom SoC products and development services;",
+            "entity_name": "AMD Gaming Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_ref": "NOTE 4",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "the Embedded segment, which primarily includes embedded CPUs, GPUs, APUs, FPGAs, System on Modules (SOMs), and Adaptive SoC products.",
+            "entity_name": "AMD Embedded Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_ref": "NOTE 5",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On August 9, 2024, the Company completed the acquisition of Silo AI Oy (Silo AI), an AI lab based in Finland in an all-cash transaction of $665 million. Net of closing adjustments, transaction costs and deferred cash compensation, the purchase consideration of $553 million was allocated to $19 million of identifiable intangible assets, $43 million of net liabilities assumed, and $577 million to goodwill.",
+            "entity_name": "AMD Acquisition of Silo AI Oy",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_ref": "NOTE 5",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On August 17, 2024, the Company entered into an agreement (the Agreement) to acquire ZT Group Int'l, Inc. (ZT Systems), a provider of AI and general purpose compute infrastructure for hyperscale computing companies, in a cash and stock transaction valued at approximately $4.9 billion (the Acquisition). The aggregate closing consideration payable by the Company consists of 8,335,852 shares of the Company's common stock and $3.4 billion in cash. The Acquisition is expected to close in the first half of 2025, subject to certain regulatory approvals and other customary closing conditions.",
+            "entity_name": "AMD Pending Acquisition of ZT Systems",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_ref": "Consolidated Statements of Operations",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Restructuring charges\n\n186 — — ",
+            "entity_name": "AMD 2024 Restructuring Plan",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_ref": "NOTE 6",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "During the fourth quarter of fiscal year 2024, the Company determined that the fair value of certain IPR&D recorded within the Data Center segment was not recoverable resulting from actions related to the 2024 Restructuring Plan, and recorded an impairment charge of $58 million within Restructuring charges in the Company's Consolidated Statement of Operations.",
+            "entity_name": "AMD Data Center IPR&D Impairment Q4 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_ref": "NOTE 2",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In November 2023, the Financial Accounting Standards Board (FASB) issued Accounting Standard Update (ASU) 2023-07 Segment Reporting (Topic 280) Improvements to Reportable Segment Disclosures to enhance disclosures about significant segment expenses. This ASU is effective for the Company's fiscal year 2024 and interim periods in fiscal year 2025. The Company adopted this standard in the fourth quarter of 2024.",
+            "entity_name": "AMD Adoption of ASU 2023-07 Segment Reporting",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_ref": "Consolidated Statements of Cash Flows",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Repurchases of common stock(862)(985)(3,702)",
+            "entity_name": "AMD FY2024 Common Stock Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_ref": "NOTE 8",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "The 2.95% Notes with a principal amount of $750 million were repaid in June 2024.",
+            "entity_name": "AMD Repayment of 2.950% Senior Notes Due 2024",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_ref": "NOTE 8",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "The Revolving Credit Agreement also contains a sustainability-linked pricing component which provides for interest rate and facility fee reductions or increases based on the Company meeting or missing targets related to environmental sustainability, specifically greenhouse gas emissions.",
+            "entity_name": "AMD Sustainability-Linked Revolving Credit GHG Pricing",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "AMD"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "Advanced Micro Devices, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Data Center"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center",
+              "ticker": "AMD"
+            },
+            "name": "AMD Data Center Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Client"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Client",
+              "ticker": "AMD"
+            },
+            "name": "AMD Client Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Gaming"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Gaming",
+              "ticker": "AMD"
+            },
+            "name": "AMD Gaming Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Embedded"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Embedded",
+              "ticker": "AMD"
+            },
+            "name": "AMD Embedded Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Silo AI acquisition"
+            ],
+            "attributes": {
+              "consideration": "all-cash",
+              "effective_date": "2024-08-09",
+              "event_type": "acquisition",
+              "goodwill_recognized_usd": 577000000,
+              "purchase_consideration_usd": 553000000,
+              "target_company": "Silo AI Oy",
+              "transaction_value_usd": 665000000
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of Silo AI Oy",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "ZT Systems acquisition"
+            ],
+            "attributes": {
+              "cash_component_usd": 3400000000,
+              "consideration": "cash_and_stock",
+              "event_type": "acquisition",
+              "expected_close": "H1_2025",
+              "shares_component": 8335852,
+              "target_company": "ZT Group Int'l, Inc.",
+              "termination_fee_usd": 300000000,
+              "transaction_value_usd": 4900000000
+            },
+            "identifiers": {},
+            "name": "AMD Pending Acquisition of ZT Systems",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD restructuring 2024"
+            ],
+            "attributes": {
+              "charge_usd": 186000000,
+              "event_type": "restructuring",
+              "period": "FY2024"
+            },
+            "identifiers": {},
+            "name": "AMD 2024 Restructuring Plan",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD IPR&D impairment 2024"
+            ],
+            "attributes": {
+              "asset_type": "in-process_R&D",
+              "event_type": "goodwill_impairment",
+              "impairment_charge_usd": 58000000,
+              "segment": "Data Center"
+            },
+            "identifiers": {},
+            "name": "AMD Data Center IPR&D Impairment Q4 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "ASU 2023-07 adoption"
+            ],
+            "attributes": {
+              "effective_period": "Q4_FY2024",
+              "event_type": "accounting_change",
+              "standard": "ASU 2023-07",
+              "topic": "Segment Reporting (Topic 280)"
+            },
+            "identifiers": {},
+            "name": "AMD Adoption of ASU 2023-07 Segment Reporting",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD 2024 buybacks"
+            ],
+            "attributes": {
+              "amount_usd": 862000000,
+              "period": "FY2024",
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "AMD FY2024 Common Stock Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "AMD 2.950% Notes repayment"
+            ],
+            "attributes": {
+              "coupon": 0.0295,
+              "effective_date": "2024-06",
+              "instrument_type": "notes",
+              "note": "Assumed Xilinx Notes; repaid at maturity",
+              "principal_usd": 750000000
+            },
+            "identifiers": {},
+            "name": "AMD Repayment of 2.950% Senior Notes Due 2024",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "mechanism": "sustainability-linked pricing component in revolving credit agreement with interest rate adjustments tied to greenhouse gas emissions targets"
+            },
+            "identifiers": {},
+            "name": "AMD Sustainability-Linked Revolving Credit GHG Pricing",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.936,
+              "margin": 0.277,
+              "period": "FY2024",
+              "revenue": 12579000000
+            },
+            "source_name": "AMD 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Data Center Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.517,
+              "margin": 0.127,
+              "period": "FY2024",
+              "revenue": 7054000000
+            },
+            "source_name": "AMD 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Client Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.582,
+              "margin": 0.112,
+              "period": "FY2024",
+              "revenue": 2595000000
+            },
+            "source_name": "AMD 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Gaming Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.332,
+              "margin": 0.4,
+              "period": "FY2024",
+              "revenue": 3557000000
+            },
+            "source_name": "AMD 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Embedded Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of Silo AI Oy",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Pending Acquisition of ZT Systems",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD 2024 Restructuring Plan",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Data Center IPR&D Impairment Q4 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Adoption of ASU 2023-07 Segment Reporting",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD FY2024 Common Stock Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Repayment of 2.950% Senior Notes Due 2024",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Sustainability-Linked Revolving Credit GHG Pricing",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": "2025-01-28",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-25-000012.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "5fa137866b5f85a4858f117d2e6ad3f59c019ceeca16fee348c51500f577066c"
+    }
+  ],
+  "prompt_version": "v3"
+}

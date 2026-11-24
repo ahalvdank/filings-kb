@@ -1,0 +1,187 @@
+{
+  "accession": "0001045810-23-000017",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T16:58:22Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "On May 23, 2022, our Board of Directors increased and extended our share repurchase program to repurchase additional common stock up to a total of $15 billion through December 2023.",
+            "entity_name": "NVDA May 2022 $15B Share Repurchase Program Extension",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Since the inception of our share repurchase program, we have repurchased an aggregate of 1.10 billion shares for a total cost of $17.12 billion through January 29, 2023. As of January 29, 2023, we are authorized, subject to certain specifications, to repurchase shares of our common stock up to $7.23 billion through December 2023.",
+            "entity_name": "NVDA May 2022 $15B Share Repurchase Program Extension",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal year 2023, we repurchased 63 million shares for $10.04 billion.",
+            "entity_name": "NVDA FY2023 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In fiscal year 2023, we paid $398 million in quarterly cash dividends. Our cash dividend program and the payment of future cash dividends under that program are subject to our Board of Directors' continuing determination that the dividend program and the declaration of dividends thereunder are in the best interests of our shareholders.",
+            "entity_name": "NVDA FY2023 Quarterly Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "During fiscal year 2023, we withheld approximately 8 million shares for a total value of $1.48 billion through net share settlements.",
+            "entity_name": "NVDA FY2023 RSU Net Share Settlement Withholding",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVIDIA $15B repurchase authorization",
+              "NVDA buyback program extension"
+            ],
+            "attributes": {
+              "amount_usd": 15000000000,
+              "cumulative_cost_inception_usd": 17120000000,
+              "cumulative_shares_repurchased_inception": 1100000000,
+              "effective_date": "2022-05-23",
+              "expiry": "2023-12",
+              "remaining_authorization_usd_as_of_2023_01_29": 7230000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA May 2022 $15B Share Repurchase Program Extension",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "NVIDIA FY2023 buyback activity"
+            ],
+            "attributes": {
+              "amount_usd": 10040000000,
+              "period": "FY2023",
+              "return_type": "buyback",
+              "shares": 63000000
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA FY2023 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "NVIDIA FY2023 dividends"
+            ],
+            "attributes": {
+              "amount_usd": 398000000,
+              "period": "FY2023",
+              "return_type": "dividend"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA FY2023 Quarterly Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "NVIDIA FY2023 stock withholding",
+              "NVDA RSU tax withholding FY2023"
+            ],
+            "attributes": {
+              "amount_usd": 1480000000,
+              "event_type": "compensation_disclosure",
+              "method": "net_share_settlement",
+              "period": "FY2023",
+              "shares_withheld": 8000000
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA FY2023 RSU Net Share Settlement Withholding",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA May 2022 $15B Share Repurchase Program Extension",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2023 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2023 Quarterly Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2023 RSU Net Share Settlement Withholding",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-23-000017.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "dfeb71a794455ced37fe4dc062224b9c1cea2bce3c560c5ebd902ae3defa0a89"
+    }
+  ],
+  "prompt_version": "v3"
+}

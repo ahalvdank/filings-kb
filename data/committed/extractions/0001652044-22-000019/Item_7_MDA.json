@@ -1,0 +1,635 @@
+{
+  "accession": "0001652044-22-000019",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T21:31:01Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "operating_income_fy2021_usd": 91855000000,
+              "revenue_fy2021_usd": 237529000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Google services operating income increased $37.2 billion from 2020 to 2021. The increase was due to growth in revenues partially offset by increases in TAC, content acquisition costs, compensation expenses, advertising and promotional expenses, and charges related to certain legal matters. The increase in expenses was partially offset by a reduction in costs driven by the change in the estimated useful life of our servers and certain network equipment. The effect of COVID-19 on 2020 results affected the year-over-year increase in operating income.",
+            "entity_name": "GOOGL Google Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "operating_loss_fy2021_usd": 3099000000,
+              "revenue_fy2021_usd": 19206000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Google Cloud revenues increased $6.1 billion from 2020 to 2021. The growth was primarily driven by GCP followed by Google Workspace offerings. Google Cloud's infrastructure and platform services were the largest drivers of growth in GCP.",
+            "entity_name": "GOOGL Google Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "operating_loss_fy2021_usd": 5281000000,
+              "revenue_fy2021_usd": 753000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Other Bets operating loss increased $805 million from 2020 to 2021. The increase in operating loss was primarily driven by increases in compensation expenses, including an increase in valuation-based compensation charges during the second quarter of 2021.",
+            "entity_name": "GOOGL Other Bets Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "revenue_fy2021_usd": 148951000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Google Search & other revenues increased $44.9 billion from 2020 to 2021. The overall growth was driven by interrelated factors including increases in search queries resulting from growth in user adoption and usage, primarily on mobile devices, growth in advertiser spending, and improvements we have made in ad formats and delivery. The adverse effect of COVID-19 on 2020 revenues also contributed to the year-over-year increase.",
+            "entity_name": "GOOGL Google Search & Other",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "revenue_fy2021_usd": 28845000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "YouTube ads revenues increased $9.1 billion from 2020 to 2021. Growth was driven by our direct response and brand advertising products. Growth for our direct response advertising products was primarily driven by increased advertiser spending as well as improvements to ad formats and delivery. Growth for our brand advertising products was primarily driven by increased spending by our advertisers and the adverse effect of COVID-19 on 2020 revenues.",
+            "entity_name": "GOOGL YouTube Ads Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "revenue_fy2021_usd": 31701000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Google Network revenues increased $8.6 billion from 2020 to 2021. The growth was primarily driven by strength in AdMob, Google Ad Manager, and AdSense. The adverse effect of COVID-19 on 2020 revenues also contributed to the year-over-year increase.",
+            "entity_name": "GOOGL Google Network Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In accordance with the authorizations of the Board of Directors of Alphabet, during 2021 we repurchased and subsequently retired 20.3 million aggregate shares for $50.3 billion. Of the aggregate amount repurchased and subsequently retired, 1.2 million shares were Class A stock repurchased for $3.4 billion. As of December 31, 2021, $17.4 billion remains available for Class A and Class C share repurchases under the amended authorization.",
+            "entity_name": "GOOGL FY2021 Share Repurchases ($50.3B)",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In April 2021, the Board of Directors of Alphabet authorized the company to repurchase up to $50.0 billion of its Class C stock. In July 2021, the Alphabet board approved an amendment to the April 2021 authorization, permitting the company to repurchase both Class A and Class C shares in a manner deemed in the best interest of the company and its stockholders, taking into account the economic cost and prevailing market conditions, including the relative trading prices and volumes of the Class A and Class C shares.",
+            "entity_name": "GOOGL April 2021 $50B Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "For example, in January 2021 we closed the acquisition of Fitbit, Inc. for $2.1 billion, which is expected to help spur innovation in wearable devices.",
+            "entity_name": "GOOGL Acquisition of Fitbit Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "On February 1, 2022, the Company announced that the Board of Directors had approved and declared a 20-for-one stock split in the form of a one-time special stock dividend on each share of the Company's Class A, Class B, and Class C stock.",
+            "entity_name": "GOOGL 20-for-one Stock Split (February 2022)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In January 2021, we updated the useful lives of certain of our servers and network equipment, resulting in a reduction in depreciation expense of $2.6 billion recorded primarily in cost of revenues and R&D.",
+            "entity_name": "GOOGL Server Useful Life Accounting Estimate Change (January 2021)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In 2017, 2018 and 2019, the EC announced decisions that certain actions taken by Google infringed European competition law and imposed fines of €2.4 billion ($2.7 billion as of June 27, 2017), €4.3 billion ($5.1 billion as of June 30, 2018), and €1.5 billion ($1.7 billion as of March 20, 2019), respectively. While each EC decision is under appeal, we included the fines in accrued expenses and other current liabilities on our Consolidated Balance Sheets as we provided bank guarantees (in lieu of a cash payment) for the fines.",
+            "entity_name": "EC v. Google 2017 Antitrust Decision (EUR 2.4B)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In 2017, 2018 and 2019, the EC announced decisions that certain actions taken by Google infringed European competition law and imposed fines of €2.4 billion ($2.7 billion as of June 27, 2017), €4.3 billion ($5.1 billion as of June 30, 2018), and €1.5 billion ($1.7 billion as of March 20, 2019), respectively. While each EC decision is under appeal, we included the fines in accrued expenses and other current liabilities on our Consolidated Balance Sheets as we provided bank guarantees (in lieu of a cash payment) for the fines.",
+            "entity_name": "EC v. Google 2018 Antitrust Decision (EUR 4.3B)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In 2017, 2018 and 2019, the EC announced decisions that certain actions taken by Google infringed European competition law and imposed fines of €2.4 billion ($2.7 billion as of June 27, 2017), €4.3 billion ($5.1 billion as of June 30, 2018), and €1.5 billion ($1.7 billion as of March 20, 2019), respectively. While each EC decision is under appeal, we included the fines in accrued expenses and other current liabilities on our Consolidated Balance Sheets as we provided bank guarantees (in lieu of a cash payment) for the fines.",
+            "entity_name": "EC v. Google 2019 Antitrust Decision (EUR 1.5B)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In April 2021, we terminated the existing revolving credit facilities, which were scheduled to expire in July 2023, and entered into two new revolving credit facilities in the amounts of $4.0 billion and $6.0 billion, which will expire in April 2022 and April 2026, respectively. The interest rates for the new credit facilities are determined based on a formula using certain market rates, as well as our progress toward the achievement of certain sustainability goals. No amounts have been borrowed under the new credit facilities.",
+            "entity_name": "GOOGL April 2021 Revolving Credit Facilities ($10B)",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "We have a short-term debt financing program of up to $10.0 billion through the issuance of commercial paper, which increased from $5.0 billion in September 2021. Net proceeds from this program are used for general corporate purposes. As of December 31, 2021, we had no commercial paper outstanding.",
+            "entity_name": "GOOGL September 2021 Commercial Paper Program Expansion ($10B)",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Alphabet",
+              "Google"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Google Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Services",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Cloud",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Other Bets"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Other Bets",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Other Bets Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Search & other",
+              "Google Search"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Search & other",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Search & Other",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "YouTube ads"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "YouTube ads",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL YouTube Ads Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Network"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Network",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Network Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Alphabet 2021 buyback execution"
+            ],
+            "attributes": {
+              "amount_usd": 50300000000,
+              "period": "FY2021",
+              "return_type": "buyback",
+              "shares_retired": 20300000
+            },
+            "identifiers": {},
+            "name": "GOOGL FY2021 Share Repurchases ($50.3B)",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Alphabet April 2021 buyback authorization"
+            ],
+            "attributes": {
+              "amount_usd": 50000000000,
+              "effective_date": "2021-04",
+              "remaining_usd": 17400000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "GOOGL April 2021 $50B Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Fitbit acquisition",
+              "Fitbit deal"
+            ],
+            "attributes": {
+              "amount_usd": 2100000000,
+              "consideration": "all-cash",
+              "effective_date": "2021-01",
+              "event_type": "acquisition",
+              "target_company": "Fitbit, Inc."
+            },
+            "identifiers": {},
+            "name": "GOOGL Acquisition of Fitbit Inc.",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet 20-for-1 stock split"
+            ],
+            "attributes": {
+              "announcement_date": "2022-02-01",
+              "event_type": "stock_split",
+              "form": "special stock dividend",
+              "share_classes_affected": [
+                "Class A",
+                "Class B",
+                "Class C"
+              ],
+              "split_ratio": "20-for-1"
+            },
+            "identifiers": {},
+            "name": "GOOGL 20-for-one Stock Split (February 2022)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet 2021 depreciation useful life change"
+            ],
+            "attributes": {
+              "assets_affected": "servers and certain network equipment",
+              "depreciation_reduction_usd": 2600000000,
+              "effective_date": "2021-01",
+              "event_type": "accounting_change"
+            },
+            "identifiers": {},
+            "name": "GOOGL Server Useful Life Accounting Estimate Change (January 2021)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "European Commission 2017 Google antitrust fine"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "decision_year": 2017,
+              "fine_eur": 2400000000,
+              "fine_usd_at_decision": 2700000000,
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "EC v. Google 2017 Antitrust Decision (EUR 2.4B)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "European Commission 2018 Google antitrust fine"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "decision_year": 2018,
+              "fine_eur": 4300000000,
+              "fine_usd_at_decision": 5100000000,
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "EC v. Google 2018 Antitrust Decision (EUR 4.3B)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "European Commission 2019 Google antitrust fine"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "decision_year": 2019,
+              "fine_eur": 1500000000,
+              "fine_usd_at_decision": 1700000000,
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "EC v. Google 2019 Antitrust Decision (EUR 1.5B)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Alphabet 2021 revolving credit facility"
+            ],
+            "attributes": {
+              "effective_date": "2021-04",
+              "instrument_type": "revolver",
+              "principal_usd": 10000000000,
+              "sustainability_linked": true,
+              "tranche_1_maturity": "2022-04",
+              "tranche_1_usd": 4000000000,
+              "tranche_2_maturity": "2026-04",
+              "tranche_2_usd": 6000000000
+            },
+            "identifiers": {},
+            "name": "GOOGL April 2021 Revolving Credit Facilities ($10B)",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet commercial paper program expansion 2021"
+            ],
+            "attributes": {
+              "effective_date": "2021-09",
+              "instrument_subtype": "commercial_paper",
+              "instrument_type": "notes",
+              "principal_usd": 10000000000,
+              "prior_capacity_usd": 5000000000,
+              "purpose": "general corporate purposes"
+            },
+            "identifiers": {},
+            "name": "GOOGL September 2021 Commercial Paper Program Expansion ($10B)",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.41,
+              "margin": 0.387,
+              "period": "FY2021",
+              "revenue": 237529000000
+            },
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.47,
+              "margin": -0.161,
+              "period": "FY2021",
+              "revenue": 19206000000
+            },
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.146,
+              "period": "FY2021",
+              "revenue": 753000000
+            },
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Other Bets Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.431,
+              "period": "FY2021",
+              "revenue": 148951000000
+            },
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Search & Other",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.459,
+              "period": "FY2021",
+              "revenue": 28845000000
+            },
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL YouTube Ads Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.373,
+              "period": "FY2021",
+              "revenue": 31701000000
+            },
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Network Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL FY2021 Share Repurchases ($50.3B)",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL April 2021 $50B Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Acquisition of Fitbit Inc.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL 20-for-one Stock Split (February 2022)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Server Useful Life Accounting Estimate Change (January 2021)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "EC v. Google 2017 Antitrust Decision (EUR 2.4B)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "EC v. Google 2018 Antitrust Decision (EUR 4.3B)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "EC v. Google 2019 Antitrust Decision (EUR 1.5B)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL April 2021 Revolving Credit Facilities ($10B)",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL September 2021 Commercial Paper Program Expansion ($10B)",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-22-000019.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "b7744ac667f6aee4a9866071c3f39016e5dc9145841704516e1f5df317904dd7"
+    }
+  ],
+  "prompt_version": "v3"
+}

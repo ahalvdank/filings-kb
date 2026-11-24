@@ -1,0 +1,258 @@
+{
+  "accession": "0000019617-24-000225",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-19T13:02:49Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Lori Beer Chief Information Officer November 13, 2023 November 13, 2023 - May 17, 2024 7,840",
+            "entity_name": "Lori Beer",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "James Dimon(a) Chairman and CEO October 26, 2023 October 26, 2023 - August 23, 2024 1,000,000",
+            "entity_name": "James Dimon",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Stacey Friedman General Counsel November 7, 2023 November 7, 2023 - May 17, 2024 6,030",
+            "entity_name": "Stacey Friedman",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_type": "Rule_10b5-1",
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Lori Beer Chief Information Officer November 13, 2023 November 13, 2023 - May 17, 2024 7,840",
+            "entity_name": "Lori Beer 10b5-1 Plan Q4-2023 (7,840 shares)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Transaction by trusts of which Mr. Dimon has either a direct or indirect pecuniary interest.",
+              "plan_type": "Rule_10b5-1",
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "James Dimon(a) Chairman and CEO October 26, 2023 October 26, 2023 - August 23, 2024 1,000,000",
+            "entity_name": "James Dimon 10b5-1 Plan Q4-2023 (1,000,000 shares)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_type": "Rule_10b5-1",
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Stacey Friedman General Counsel November 7, 2023 November 7, 2023 - May 17, 2024 6,030",
+            "entity_name": "Stacey Friedman 10b5-1 Plan Q4-2023 (6,030 shares)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "material_event",
+            "content": "A client of a fund distributor, who had invested the equivalent of approximately USD 1,400 in a fund managed by a non-US subsidiary of the Firm in September 2023, was subsequently designated by the Office of Foreign Assets Control as a Specially Designated National under 31 C.F.R. Part 544. Following the identification of this designation, the client of the fund distributor fully redeemed their investment in October 2023 for the equivalent of approximately USD 1,400. The Firm did not receive a transaction fee and calculates the management fee attributable to this investment to be less than USD 0.01.",
+            "entity_name": "JPM OFAC SDN Client Designation Q4-2023",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "JPM",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "Lori Beer",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "JPM",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "James Dimon",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "JPM",
+              "insider_status": "officer",
+              "officer_role": "GeneralCounsel"
+            },
+            "identifiers": {},
+            "name": "Stacey Friedman",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "JPMorgan",
+              "JPM",
+              "the Firm"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "JPM"
+            },
+            "name": "JPMorgan Chase & Co.",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_adoption_date": "2023-11-13",
+              "plan_duration_end": "2024-05-17",
+              "plan_duration_start": "2023-11-13",
+              "reporting_person": "Lori Beer",
+              "shares": 7840,
+              "source": "10-K_Item_9B_10b5-1_plan",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Lori Beer 10b5-1 Plan Q4-2023 (7,840 shares)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "note": "Transaction by trusts of which Mr. Dimon has either a direct or indirect pecuniary interest.",
+              "plan_adoption_date": "2023-10-26",
+              "plan_duration_end": "2024-08-23",
+              "plan_duration_start": "2023-10-26",
+              "reporting_person": "James Dimon",
+              "shares": 1000000,
+              "source": "10-K_Item_9B_10b5-1_plan",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "James Dimon 10b5-1 Plan Q4-2023 (1,000,000 shares)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_adoption_date": "2023-11-07",
+              "plan_duration_end": "2024-05-17",
+              "plan_duration_start": "2023-11-07",
+              "reporting_person": "Stacey Friedman",
+              "shares": 6030,
+              "source": "10-K_Item_9B_10b5-1_plan",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Stacey Friedman 10b5-1 Plan Q4-2023 (6,030 shares)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [
+              "Iran threat reduction disclosure Q4-2023"
+            ],
+            "attributes": {
+              "agency": "Office of Foreign Assets Control",
+              "approximate_investment_usd": 1400,
+              "designation_type": "Specially Designated National",
+              "event_type": "regulatory_action",
+              "period": "Q4-2023",
+              "regulation": "31 C.F.R. Part 544"
+            },
+            "identifiers": {},
+            "name": "JPM OFAC SDN Client Designation Q4-2023",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "Chief Information Officer"
+            },
+            "source_name": "Lori Beer",
+            "source_type_entity": "Person",
+            "target_name": "JPMorgan Chase & Co.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Chairman and CEO"
+            },
+            "source_name": "James Dimon",
+            "source_type_entity": "Person",
+            "target_name": "JPMorgan Chase & Co.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "General Counsel"
+            },
+            "source_name": "Stacey Friedman",
+            "source_type_entity": "Person",
+            "target_name": "JPMorgan Chase & Co.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "JPM OFAC SDN Client Designation Q4-2023",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/JPM/0000019617-24-000225.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "033fb5cc36c9638a2d1ec1ec79b40e20f4be168e5f1ed054f8880ec7a4b4a66d"
+    }
+  ],
+  "prompt_version": "v3"
+}

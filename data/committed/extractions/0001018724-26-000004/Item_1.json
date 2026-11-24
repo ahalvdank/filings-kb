@@ -1,0 +1,581 @@
+{
+  "accession": "0001018724-26-000004",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T04:35:19Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "We have organized our operations into three segments: North America, International, and Amazon Web Services (\"AWS\"). These segments reflect the way the Company evaluates its business performance and manages its operations.",
+            "entity_name": "AMZN North America Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "We have organized our operations into three segments: North America, International, and Amazon Web Services (\"AWS\"). These segments reflect the way the Company evaluates its business performance and manages its operations.",
+            "entity_name": "AMZN International Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "We serve developers and enterprises of all sizes, including start-ups, government agencies, and academic institutions, through AWS, which offers a broad set of on-demand technology services, including compute, storage, database, analytics, artificial intelligence and machine learning, and other services.",
+            "entity_name": "AMZN AWS Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Jeffrey P. Bezos. Mr. Bezos founded Amazon.com in 1994 and has served as Executive Chair since July 2021. He has served as Chair of the Board since 1994 and served as Chief Executive Officer from May 1996 until July 2021, and as President from 1994 until June 1999 and again from October 2000 to July 2021.",
+            "entity_name": "Jeffrey P. Bezos",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Andrew R. Jassy. Mr. Jassy has served as President and Chief Executive Officer since July 2021, CEO Amazon Web Services from April 2016 until July 2021, and Senior Vice President, Amazon Web Services, from April 2006 until April 2016.",
+            "entity_name": "Andrew R. Jassy",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Matthew S. Garman. Mr. Garman has served as CEO Amazon Web Services since June 2024, Senior Vice President, Amazon Web Services from February 2021 until June 2024, Vice President, Marketing, Sales and Support of Amazon Web Services from January 2020 to February 2021, Vice President, AWS Compute Services from September 2018 to January 2020, and Vice President, EC2 from December 2012 to September 2018.",
+            "entity_name": "Matthew S. Garman",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Douglas J. Herrington. Mr. Herrington has served as CEO Worldwide Amazon Stores since July 2022, Senior Vice President, North America Consumer from January 2015 to July 2022, Senior Vice President, Consumables from May 2014 to December 2014, and Vice President, Consumables from May 2005 to April 2014.",
+            "entity_name": "Douglas J. Herrington",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Brian T. Olsavsky. Mr. Olsavsky has served as Senior Vice President and Chief Financial Officer since June 2015, Vice President, Finance for the Global Consumer Business from December 2011 to June 2015, and numerous financial leadership roles across Amazon with global responsibility since April 2002.",
+            "entity_name": "Brian T. Olsavsky",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Shelley L. Reynolds. Ms. Reynolds has served as Vice President, Worldwide Controller, and Principal Accounting Officer since April 2007.",
+            "entity_name": "Shelley L. Reynolds",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "David A. Zapolsky. Mr. Zapolsky has served as Senior Vice President, Chief Global Affairs & Legal Officer since February 2025. He served as our Senior Vice President, Global Public Policy and General Counsel from May 2023 to February 2025, Secretary from September 2012 to January 2024, Senior Vice President and General Counsel from May 2014 to May 2023, Vice President and General Counsel from September 2012 to May 2014, and as Vice President and Associate General Counsel for Litigation and Regulatory matters from April 2002 until September 2012.",
+            "entity_name": "David A. Zapolsky",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Amazon",
+              "Amazon.com"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMZN"
+            },
+            "name": "Amazon.com, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "North America"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "North America",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN North America Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "International"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "International",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN International Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Amazon Web Services",
+              "AWS"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "AWS",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN AWS Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Jeff Bezos"
+            ],
+            "attributes": {
+              "current_company_id": "AMZN",
+              "insider_status": "officer",
+              "officer_role": "ChairOfBoard",
+              "tenure_start_date": "2021-07"
+            },
+            "identifiers": {},
+            "name": "Jeffrey P. Bezos",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Andy Jassy"
+            ],
+            "attributes": {
+              "current_company_id": "AMZN",
+              "insider_status": "officer",
+              "officer_role": "CEO",
+              "tenure_start_date": "2021-07"
+            },
+            "identifiers": {},
+            "name": "Andrew R. Jassy",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMZN",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "tenure_start_date": "2024-06"
+            },
+            "identifiers": {},
+            "name": "Matthew S. Garman",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMZN",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "tenure_start_date": "2022-07"
+            },
+            "identifiers": {},
+            "name": "Douglas J. Herrington",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMZN",
+              "insider_status": "officer",
+              "officer_role": "CFO",
+              "tenure_start_date": "2015-06"
+            },
+            "identifiers": {},
+            "name": "Brian T. Olsavsky",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMZN",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "tenure_start_date": "2007-04"
+            },
+            "identifiers": {},
+            "name": "Shelley L. Reynolds",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMZN",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "tenure_start_date": "2025-02"
+            },
+            "identifiers": {},
+            "name": "David A. Zapolsky",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Keith B. Alexander",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Edith W. Cooper",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Jamie S. Gorelick",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Daniel P. Huttenlocher",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Andrew Y. Ng",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Indra K. Nooyi",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Jonathan J. Rubinstein",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Brad D. Smith",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Patricia Q. Stonesifer",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Wendell P. Weeks",
+            "type": "Person"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "Executive Chair",
+              "tenure_start_date": "2021-07"
+            },
+            "source_name": "Jeffrey P. Bezos",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2021-07-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "President and Chief Executive Officer",
+              "tenure_start_date": "2021-07"
+            },
+            "source_name": "Andrew R. Jassy",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2021-07-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CEO Amazon Web Services",
+              "tenure_start_date": "2024-06"
+            },
+            "source_name": "Matthew S. Garman",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-06-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CEO Worldwide Amazon Stores",
+              "tenure_start_date": "2022-07"
+            },
+            "source_name": "Douglas J. Herrington",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-07-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Senior Vice President and Chief Financial Officer",
+              "tenure_start_date": "2015-06"
+            },
+            "source_name": "Brian T. Olsavsky",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2015-06-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Vice President, Worldwide Controller, and Principal Accounting Officer",
+              "tenure_start_date": "2007-04"
+            },
+            "source_name": "Shelley L. Reynolds",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2007-04-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Senior Vice President, Chief Global Affairs & Legal Officer",
+              "tenure_start_date": "2025-02"
+            },
+            "source_name": "David A. Zapolsky",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2025-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Keith B. Alexander",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Edith W. Cooper",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Jamie S. Gorelick",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Daniel P. Huttenlocher",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Andrew Y. Ng",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Indra K. Nooyi",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Jonathan J. Rubinstein",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Brad D. Smith",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Patricia Q. Stonesifer",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Wendell P. Weeks",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-26-000004.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "a0f6fb1152fb3aeccc9026701d1139daff30fb313fc218785cdbaf64bf38b402"
+    }
+  ],
+  "prompt_version": "v3"
+}

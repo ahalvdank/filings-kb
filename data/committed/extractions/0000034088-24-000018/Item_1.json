@@ -1,0 +1,85 @@
+{
+  "accession": "0000034088-24-000018",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T02:17:03Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In October 2023 the Corporation entered into a merger agreement with Pioneer Natural Resources Company (Pioneer), an independent oil and gas exploration and production company, in exchange for ExxonMobil common stock. The transaction is currently expected to close in the second quarter of 2024, subject to regulatory approvals.",
+            "entity_name": "ExxonMobil Acquisition of Pioneer Natural Resources Company",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "ExxonMobil",
+              "Exxon",
+              "Esso",
+              "Mobil",
+              "XTO"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "XOM"
+            },
+            "name": "Exxon Mobil Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Pioneer"
+            ],
+            "attributes": {},
+            "identifiers": {},
+            "name": "Pioneer Natural Resources Company",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Pioneer merger",
+              "XOM-Pioneer deal"
+            ],
+            "attributes": {
+              "agreement_date": "2023-10",
+              "consideration": "ExxonMobil common stock",
+              "event_type": "acquisition",
+              "expected_close": "Q2 2024",
+              "subject_to": "regulatory approvals",
+              "target_company": "Pioneer Natural Resources Company"
+            },
+            "identifiers": {},
+            "name": "ExxonMobil Acquisition of Pioneer Natural Resources Company",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "ExxonMobil Acquisition of Pioneer Natural Resources Company",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-24-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "9a0a5122b32dfc56467dae4ae2a59fb82ce422353a7792b1e15c65150ab5aeb0"
+    }
+  ],
+  "prompt_version": "v3"
+}

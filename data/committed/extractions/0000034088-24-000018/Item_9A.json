@@ -1,0 +1,61 @@
+{
+  "accession": "0000034088-24-000018",
+  "item": "Item_9A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T02:30:56Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9A"
+            },
+            "chunk_type": "material_event",
+            "content": "The Corporation excluded Denbury Inc. from our assessment of internal control over financial reporting as of December 31, 2023, because it was acquired by the Corporation in a business combination during 2023. Total assets and total revenues of Denbury Inc., a wholly owned subsidiary, represent two percent and less than one percent, respectively, of the related consolidated financial statement amounts as of and for the year ended December 31, 2023.",
+            "entity_name": "ExxonMobil Acquisition of Denbury Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Denbury acquisition",
+              "Denbury business combination"
+            ],
+            "attributes": {
+              "effective_period": "2023",
+              "event_type": "acquisition",
+              "result": "wholly_owned_subsidiary",
+              "target_assets_pct_consolidated": "2%",
+              "target_company": "Denbury Inc.",
+              "target_revenues_pct_consolidated": "<1%"
+            },
+            "identifiers": {},
+            "name": "ExxonMobil Acquisition of Denbury Inc.",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "ExxonMobil Acquisition of Denbury Inc.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-24-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "dc433be5df1b7dbcf97a7f67d9260657543b5de12081118dce6b726c3913b224"
+    }
+  ],
+  "prompt_version": "v3"
+}

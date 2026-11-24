@@ -1,0 +1,400 @@
+{
+  "accession": "0000731766-22-000008",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-21T03:17:53Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "growth_pct": 0.11,
+              "operating_margin": 0.054,
+              "period": "FY2021",
+              "revenue_usd_millions": 222899,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "UnitedHealthcare's revenues increased due to growth in the number of individuals served through Medicare Advantage and Medicaid, including a greater mix of people with higher acuity needs, and an increase in the number of individuals served through commercial benefits, partially offset by the permanent repeal of the Health Insurance Tax and the impacts of COVID-19 on risk adjusted business. Earnings from operations decreased due to increased COVID-19 related care costs and the impacts of COVID-19 on risk adjusted business, partially offset by higher temporary deferral of care and growth in people served across our domestic businesses.",
+            "entity_name": "UNH UnitedHealthcare Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.36,
+              "operating_margin": 0.083,
+              "period": "FY2021",
+              "revenue_usd_millions": 54065,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues at Optum Health increased primarily due to organic growth in value-based arrangements, acquisitions in care delivery and the impact of COVID-19 at our fee-based businesses as consumers resumed elective care. Earnings from operations increased due to the factors impacting revenues as well as cost management initiatives and increased investment income. COVID-19 related care costs and temporary care deferrals affected earnings from operations at our value-based and fee-based businesses in offsetting manners. Optum Health served approximately 100 million people as of December 31, 2021 compared to 98 million people as of December 31, 2020.",
+            "entity_name": "UNH Optum Health Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.13,
+              "operating_margin": 0.279,
+              "period": "FY2021",
+              "revenue_usd_millions": 12199,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues and earnings from operations at Optum Insight increased due to growth in technology and managed services, including expanding relationships serving health systems. Earnings from operations also increased due to productivity gains and cost management initiatives.",
+            "entity_name": "UNH Optum Insight Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.04,
+              "operating_margin": 0.045,
+              "period": "FY2021",
+              "revenue_usd_millions": 91314,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues and earnings from operations at Optum Rx increased due to higher script volumes from growth in people served, increased utilization and organic growth in pharmacy care services. Earnings from operations also increased as a result of continued supply chain and cost management initiatives. Optum Rx fulfilled 1.4 billion and 1.3 billion adjusted scripts in 2021 and 2020, respectively.",
+            "entity_name": "UNH Optum Rx Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In June 2021, the Company's Board of Directors increased the Company's quarterly cash dividend to shareholders to an annual rate of $5.80 compared to $5.00 per share, which the Company had paid since June 2020.",
+            "entity_name": "UNH June 2021 Annual Dividend Increase to $5.80",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "As of December 31, 2021, we had Board authorization to purchase up to 45 million shares of our common stock.",
+            "entity_name": "UNH Share Repurchase Board Authorization 45M Shares (Dec 2021)",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2021, we entered into agreements to acquire multiple companies in the health care sector, most notably, Change Healthcare (NASDAQ: CHNG), subject to regulatory approval and other customary closing conditions. Additionally, in January 2022, we entered into agreements to acquire multiple companies in the health care sector, subject to regulatory approval and other customary closing conditions. The total anticipated capital required for these acquisitions, excluding the payoff of acquired indebtedness, is approximately $12 billion.",
+            "entity_name": "UNH Pending Acquisition of Change Healthcare",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Final 2022 Medicare Advantage rates resulted in an increase in industry base rates of approximately 4.1%, short of the industry forward medical cost trend, creating continued pressure in the Medicare Advantage program.",
+            "entity_name": "UNH Medicare Advantage Funding Pressure",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The COVID-19 pandemic continues to evolve and the ultimate impact on our business, results of operations, financial condition and cash flows remains uncertain. In 2021, overall care activity continued to increase, including a mix of temporary deferral of care activity and COVID-19 related care costs. The temporary deferral of care was more than offset by COVID-19 related care and testing costs, rebate requirements and other revenue impacts and general economic impacts.",
+            "entity_name": "UNH COVID-19 Medical Cost and Reserve Uncertainty",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We expect Medicaid revenue growth due to anticipated changes in mix and pricing trends; we also believe the payment rate environment creates the risk of continued downward pressure on Medicaid margin percentages.",
+            "entity_name": "UNH Medicaid Margin Pressure",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UnitedHealthcare"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "UnitedHealthcare",
+              "ticker": "UNH"
+            },
+            "name": "UNH UnitedHealthcare Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Health"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Health",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Health Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Insight"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Insight",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Insight Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Rx"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Rx",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Rx Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "UNH 2021 dividend increase"
+            ],
+            "attributes": {
+              "effective_date": "2021-06",
+              "per_share": 5.8,
+              "prior_per_share": 5.0,
+              "return_type": "dividend_increase"
+            },
+            "identifiers": {},
+            "name": "UNH June 2021 Annual Dividend Increase to $5.80",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "UNH buyback authorization"
+            ],
+            "attributes": {
+              "as_of_date": "2021-12-31",
+              "return_type": "repurchase_authorization",
+              "shares_remaining": 45000000
+            },
+            "identifiers": {},
+            "name": "UNH Share Repurchase Board Authorization 45M Shares (Dec 2021)",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Change Healthcare acquisition",
+              "CHNG deal"
+            ],
+            "attributes": {
+              "event_type": "acquisition",
+              "status": "pending_regulatory_approval",
+              "target_company": "Change Healthcare",
+              "total_pending_acquisitions_capital_usd": 12000000000
+            },
+            "identifiers": {
+              "counterparty_ticker": "CHNG"
+            },
+            "name": "UNH Pending Acquisition of Change Healthcare",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Medicare Advantage rate pressure",
+              "MA funding gap"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "UNH Medicare Advantage Funding Pressure",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "COVID-19 care cost uncertainty",
+              "pandemic medical cost volatility"
+            ],
+            "attributes": {
+              "category": "operational",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "UNH COVID-19 Medical Cost and Reserve Uncertainty",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Medicaid payment rate risk",
+              "Medicaid margin downside"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "UNH Medicaid Margin Pressure",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.11,
+              "margin": 0.054,
+              "period": "FY2021",
+              "revenue": 222899000000
+            },
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH UnitedHealthcare Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.36,
+              "margin": 0.083,
+              "period": "FY2021",
+              "revenue": 54065000000
+            },
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Health Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.13,
+              "margin": 0.279,
+              "period": "FY2021",
+              "revenue": 12199000000
+            },
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Insight Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.04,
+              "margin": 0.045,
+              "period": "FY2021",
+              "revenue": 91314000000
+            },
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Rx Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH June 2021 Annual Dividend Increase to $5.80",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Share Repurchase Board Authorization 45M Shares (Dec 2021)",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Pending Acquisition of Change Healthcare",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Medicare Advantage Funding Pressure",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH COVID-19 Medical Cost and Reserve Uncertainty",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Medicaid Margin Pressure",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-22-000008.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "4e86ef43e3fbfb34007dbaf2e9133b4e87452cec33c088a9df2b374a54ecfc79"
+    }
+  ],
+  "prompt_version": "v3"
+}

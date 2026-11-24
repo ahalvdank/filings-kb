@@ -1,0 +1,110 @@
+{
+  "accession": "0000019617-24-000225",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-19T12:58:39Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Effective May 1, 2022, the Firm is authorized to purchase up to $30 billion under its common share repurchase program previously approved by the Board of Directors, which was announced on April 13, 2022.",
+            "entity_name": "JPM $30B Common Share Repurchase Authorization (2022)",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Full-year 2023: 69,549,259 shares repurchased at avg $142.31/share for aggregate $9,898M; $19,735M remaining under $30B authorization. Figures exclude excise tax and commissions.",
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Shares repurchased pursuant to the common share repurchase program during 2023 were as follows. Full year\n\n69,549,259 $142.31 $9,898 $19,735",
+            "entity_name": "JPM FY2023 Common Stock Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "JPMorgan Chase",
+              "JPM",
+              "the Firm"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "JPM"
+            },
+            "name": "JPMorgan Chase & Co.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "JPM 2022 buyback authorization",
+              "JPM April 2022 repurchase program"
+            ],
+            "attributes": {
+              "amount_usd": 30000000000,
+              "board_announcement_date": "2022-04-13",
+              "effective_date": "2022-05-01",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "JPM $30B Common Share Repurchase Authorization (2022)",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "JPM 2023 share buybacks"
+            ],
+            "attributes": {
+              "amount_usd": 9898000000,
+              "avg_price_per_share": 142.31,
+              "period": "FY2023",
+              "remaining_authorization_usd": 19735000000,
+              "return_type": "buyback",
+              "shares_repurchased": 69549259
+            },
+            "identifiers": {},
+            "name": "JPM FY2023 Common Stock Repurchases",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "JPM $30B Common Share Repurchase Authorization (2022)",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "JPM FY2023 Common Stock Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/JPM/0000019617-24-000225.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "28cd96fe2141c106c684641c83879ff6f118b87885298520cdd278431a5df8f1"
+    }
+  ],
+  "prompt_version": "v3"
+}

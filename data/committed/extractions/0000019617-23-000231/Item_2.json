@@ -1,0 +1,70 @@
+{
+  "accession": "0000019617-23-000231",
+  "item": "Item_2",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-19T12:57:01Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "There is no assurance that the Firm will be able to dispose of any such excess properties, premises or facilities, or that it will not incur costs in connection with such dispositions. Such disposition costs may be material to the Firm's results of operations in a given period.",
+            "entity_name": "JPM Excess Property Disposal Cost Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "JPMorgan Chase",
+              "JPM"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "JPM"
+            },
+            "name": "JPMorgan Chase & Co.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "property disposal risk",
+              "excess facilities disposition risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "description": "Risk that the Firm cannot dispose of excess properties or incurs material costs in connection with such dispositions",
+              "subcategory": "real_estate"
+            },
+            "identifiers": {},
+            "name": "JPM Excess Property Disposal Cost Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Excess Property Disposal Cost Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/JPM/0000019617-23-000231.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "5a0889e45ee2314593f81dd2170729624e16a0067839351fbd20e92f9c8bc113"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,176 @@
+{
+  "accession": "0000034088-22-000011",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T02:53:23Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "The Corporation took steps to strengthen its liquidity in 2020, including issuing $23.2 billion of long-term debt and implementing significant capital and operating cost reductions. The Corporation ended 2020 with $67.6 billion in total debt.",
+            "entity_name": "XOM 2020 $23.2B Long-Term Debt Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Stronger prices and margins improved the Corporation's financial results in 2021. The Corporation reduced debt by $19.9 billion and ended the year with $47.7 billion in total debt.",
+            "entity_name": "XOM 2021 $19.9B Debt Reduction",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "A variety of claims have been made against ExxonMobil and certain of its consolidated subsidiaries in a number of pending lawsuits. Based on a consideration of all relevant facts and circumstances, the Corporation does not believe the ultimate outcome of any currently pending lawsuit against ExxonMobil will have a material adverse effect upon the Corporation's operations, financial condition, or financial statements taken as a whole.",
+            "entity_name": "ExxonMobil General Pending Lawsuits (FY2021)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The Corporation and certain of its consolidated subsidiaries were contingently liable at December 31, 2021 for guarantees relating to notes, loans and performance under contracts. Where guarantees for environmental remediation and other similar matters do not include a stated cap, the amounts reflect management's estimate of the maximum potential exposure. These guarantees are not reasonably likely to have a material effect on the Corporation's financial condition, changes in financial condition, revenues or expenses, results of operations, liquidity, capital expenditures or capital resources.",
+            "entity_name": "ExxonMobil Environmental Remediation and Guarantee Contingency",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "ExxonMobil",
+              "XOM"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "XOM"
+            },
+            "name": "Exxon Mobil Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "ExxonMobil 2020 long-term debt raise"
+            ],
+            "attributes": {
+              "instrument_type": "bonds",
+              "issuance_year": "2020",
+              "principal_usd": 23200000000,
+              "purpose": "liquidity_strengthening"
+            },
+            "identifiers": {},
+            "name": "XOM 2020 $23.2B Long-Term Debt Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "ExxonMobil 2021 debt paydown"
+            ],
+            "attributes": {
+              "ending_total_debt_usd": 47700000000,
+              "instrument_type": "refinancing",
+              "note": "Debt reduced from approximately $67.6B (end-2020) to $47.7B (end-2021)",
+              "principal_usd": 19900000000,
+              "reduction_year": "2021"
+            },
+            "identifiers": {},
+            "name": "XOM 2021 $19.9B Debt Reduction",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "ExxonMobil pending claims",
+              "ExxonMobil litigation contingencies 2021"
+            ],
+            "attributes": {
+              "counterparty": "Various",
+              "materiality_assessment": "not expected to have material adverse effect",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "ExxonMobil General Pending Lawsuits (FY2021)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "ExxonMobil guarantee exposure",
+              "ExxonMobil environmental remediation guarantees"
+            ],
+            "attributes": {
+              "category": "legal_contingency",
+              "geography": "Global",
+              "materiality_assessment": "not reasonably likely to have material effect"
+            },
+            "identifiers": {},
+            "name": "ExxonMobil Environmental Remediation and Guarantee Contingency",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "XOM 2020 $23.2B Long-Term Debt Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "XOM 2021 $19.9B Debt Reduction",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "ExxonMobil General Pending Lawsuits (FY2021)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "ExxonMobil Environmental Remediation and Guarantee Contingency",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-22-000011.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "e5298e007a99973463d2dc22a6c362788e30b82e12a07f151ebc7f1c094ac5c1"
+    }
+  ],
+  "prompt_version": "v3"
+}

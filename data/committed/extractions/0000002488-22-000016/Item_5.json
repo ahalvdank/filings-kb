@@ -1,0 +1,126 @@
+{
+  "accession": "0000002488-22-000016",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T04:10:00Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In May 2021, we announced that our Board of Directors approved a new stock repurchase program to purchase up to $4 billion of our outstanding common stock in the open market. We expect to fund repurchases through cash generated from operations which have been strengthened by our strong operational results. Our stock repurchase program does not obligate us to acquire any common stock, has no termination date and may be suspended or discontinued at any time.",
+            "entity_name": "AMD May 2021 $4B Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "On December 14, 2021, we issued 109,807 shares of AMD's common stock pursuant to an exercise in full by a commercial partner of a warrant to purchase up to 127,435 shares of AMD's common stock at an exercise price of $20.0423 per share (the Warrant). As a result, the Warrant is no longer outstanding. The commercial partner acquired the Warrant on December 26, 2018 pursuant to a strategic arrangement with such partner. The shares of common stock were issued pursuant to Section 3(a)(9) of the Securities Act of 1933.",
+            "entity_name": "AMD December 14 2021 Warrant Exercise by Commercial Partner",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "On December 27, 2021, we issued warrants to purchase 63,226 shares of our common stock to a commercial partner pursuant to a strategic arrangement executed in 2018 with such partner. The warrants have an exercise price of $25.4994 per share and expire on December 27, 2024. The warrants were issued pursuant to Section 4(a)(2) of the Securities Act of 1933.",
+            "entity_name": "AMD December 27 2021 Warrant Issuance to Commercial Partner",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "AMD $4 billion stock repurchase program"
+            ],
+            "attributes": {
+              "amount_usd": 4000000000,
+              "effective_date": "2021-05",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "AMD May 2021 $4B Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "exercise_price_usd": 20.0423,
+              "instrument_type": "equity_issuance",
+              "issuance_date": "2021-12-14",
+              "note": "Warrant originally acquired by commercial partner on December 26, 2018; issued under Section 3(a)(9) Securities Act 1933; warrant is no longer outstanding",
+              "shares_issued": 109807
+            },
+            "identifiers": {},
+            "name": "AMD December 14 2021 Warrant Exercise by Commercial Partner",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "exercise_price_usd": 25.4994,
+              "instrument_type": "equity_issuance",
+              "issuance_date": "2021-12-27",
+              "maturity": "2024-12-27",
+              "note": "Issued under Section 4(a)(2) Securities Act 1933 pursuant to 2018 strategic arrangement",
+              "shares_underlying": 63226
+            },
+            "identifiers": {},
+            "name": "AMD December 27 2021 Warrant Issuance to Commercial Partner",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD May 2021 $4B Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD December 14 2021 Warrant Exercise by Commercial Partner",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD December 27 2021 Warrant Issuance to Commercial Partner",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2022-01-28",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-22-000016.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "80e87c785ea5ae99a66de2f25a2e5c97391679beb9c714c07837f201bb1025b5"
+    }
+  ],
+  "prompt_version": "v3"
+}

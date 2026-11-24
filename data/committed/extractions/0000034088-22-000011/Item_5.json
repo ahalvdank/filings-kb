@@ -1,0 +1,97 @@
+{
+  "accession": "0000034088-22-000011",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T02:51:34Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "On January 26, 2022, the Corporation declared an $0.88 dividend per common share, payable March 10, 2022.",
+            "entity_name": "XOM Q1 2022 Quarterly Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In January 2022, the Corporation initiated a share repurchase program of up to $10 billion over 12 to 24 months.",
+            "entity_name": "XOM January 2022 $10B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "ExxonMobil Q1 2022 dividend"
+            ],
+            "attributes": {
+              "declaration_date": "2022-01-26",
+              "effective_date": "2022-03-10",
+              "per_share": 0.88,
+              "return_type": "dividend"
+            },
+            "identifiers": {
+              "ticker": "XOM"
+            },
+            "name": "XOM Q1 2022 Quarterly Dividend",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "ExxonMobil 2022 share repurchase program"
+            ],
+            "attributes": {
+              "amount_usd": 10000000000,
+              "duration": "12-24 months",
+              "effective_date": "2022-01",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {
+              "ticker": "XOM"
+            },
+            "name": "XOM January 2022 $10B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Q1 2022 Quarterly Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "XOM January 2022 $10B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-22-000011.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "bea73b8f8f4c8c15628e574ac84dac2c0f67df098f2b693ed6be8225e9dfe40a"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,193 @@
+{
+  "accession": "0001652044-25-000014",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T14:29:22Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "For example, some risks include our software supply chain and other third-party dependencies, vulnerabilities in our products and services, theft of our intellectual property, and attempts to compromise our infrastructure.",
+            "entity_name": "GOOGL Software Supply Chain and Third-Party Dependency Cybersecurity Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "For example, some risks include our software supply chain and other third-party dependencies, vulnerabilities in our products and services, theft of our intellectual property, and attempts to compromise our infrastructure.",
+            "entity_name": "GOOGL Product and Service Cybersecurity Vulnerability Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "For example, some risks include our software supply chain and other third-party dependencies, vulnerabilities in our products and services, theft of our intellectual property, and attempts to compromise our infrastructure.",
+            "entity_name": "GOOGL Intellectual Property Theft Cybersecurity Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "For example, some risks include our software supply chain and other third-party dependencies, vulnerabilities in our products and services, theft of our intellectual property, and attempts to compromise our infrastructure.",
+            "entity_name": "GOOGL Infrastructure Compromise Cybersecurity Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our business strategy, results of operations and financial condition have not been materially affected by risks from cybersecurity threats, including as a result of previously identified cybersecurity incidents, but we cannot provide assurance that they will not be materially affected in the future by such risks or any future material incidents.",
+            "entity_name": "GOOGL Future Material Cybersecurity Incident Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "software supply chain cybersecurity risk",
+              "third-party dependency risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "subcategory": "supply_chain_and_third_party"
+            },
+            "identifiers": {},
+            "name": "GOOGL Software Supply Chain and Third-Party Dependency Cybersecurity Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "product vulnerability cybersecurity risk",
+              "service vulnerability risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "subcategory": "product_and_service_vulnerability"
+            },
+            "identifiers": {},
+            "name": "GOOGL Product and Service Cybersecurity Vulnerability Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "IP theft risk",
+              "intellectual property theft risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "subcategory": "intellectual_property_theft"
+            },
+            "identifiers": {},
+            "name": "GOOGL Intellectual Property Theft Cybersecurity Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "infrastructure compromise risk",
+              "infrastructure cybersecurity risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "subcategory": "infrastructure_compromise"
+            },
+            "identifiers": {},
+            "name": "GOOGL Infrastructure Compromise Cybersecurity Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "future cybersecurity incident risk",
+              "cybersecurity incident materiality risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "subcategory": "future_material_incident"
+            },
+            "identifiers": {},
+            "name": "GOOGL Future Material Cybersecurity Incident Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Software Supply Chain and Third-Party Dependency Cybersecurity Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Product and Service Cybersecurity Vulnerability Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Intellectual Property Theft Cybersecurity Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Infrastructure Compromise Cybersecurity Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Future Material Cybersecurity Incident Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-25-000014.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "d13f02903e73a8fbe4e0296a64552c9e7d8c163634a6145e6ed4806dcb2478aa"
+    }
+  ],
+  "prompt_version": "v3"
+}

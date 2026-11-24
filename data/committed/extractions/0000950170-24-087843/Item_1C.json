@@ -1,0 +1,94 @@
+{
+  "accession": "0000950170-24-087843",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T12:52:57Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of the date of this Form 10-K, we do not believe any risks from cybersecurity threats have materially affected or are reasonably likely to materially affect us, including our results of operations or financial condition. However, the cybersecurity threat environment is increasingly challenging, and we, along with the entire digital ecosystem, are under constant and increasing threat.",
+            "entity_name": "MSFT Cybersecurity Threats to Computing Environments and Operations",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We track over 300 unique threat actors, including 160 nation-state actors and 50 ransomware groups. To support our efforts, we operate a Cyber Defense Operations Center connected to over 10,000 security and threat intelligence experts, including engineers, researchers, data scientists, cybersecurity experts, threat hunters, geopolitical analysts, investigators, and frontline responders across the globe.",
+            "entity_name": "MSFT Nation-State and Ransomware Actor Threats",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft cybersecurity threat exposure",
+              "constant and increasing threat to digital ecosystem"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "geography": "global",
+              "materiality_assessment": "no material impact believed as of filing date"
+            },
+            "identifiers": {},
+            "name": "MSFT Cybersecurity Threats to Computing Environments and Operations",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "nation-state actor threat",
+              "ransomware group threat"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "nation_state_actors": 160,
+              "ransomware_groups": 50,
+              "threat_actor_count": 300
+            },
+            "identifiers": {},
+            "name": "MSFT Nation-State and Ransomware Actor Threats",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Cybersecurity Threats to Computing Environments and Operations",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Nation-State and Ransomware Actor Threats",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0000950170-24-087843.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "857a294dc0ede2e3a9b106e09706fb0ab0aca1214cc23e30d0c506c260f9c930"
+    }
+  ],
+  "prompt_version": "v3"
+}

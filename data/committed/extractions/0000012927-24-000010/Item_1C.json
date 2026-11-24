@@ -1,0 +1,105 @@
+{
+  "accession": "0000012927-24-000010",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T06:22:27Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have experienced, and may in the future experience, whether directly or through our supply chain or other channels, cybersecurity incidents. While prior incidents have not materially affected our business strategy, results of operations or financial condition, and although our processes are designed to help prevent, detect, respond to, and mitigate the impact of such incidents, there is no guarantee that a future cyber incident would not materially affect our business strategy, results of operations or financial condition.",
+            "entity_name": "Boeing Cybersecurity Incident Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Richard Puckett, as our CSO, serves as the chair of the Council. He is responsible for overseeing a unified security program that provides cybersecurity, fire and protection operations, physical security, insider threat, and classified security. Mr. Puckett has nearly 30 years of experience in the cybersecurity industry, including, prior to joining Boeing in 2022, as Chief Information Security Officer of SAP SE and Thomson Reuters Corporation, Vice President, Product and Commercial Security of General Electric, Inc., and Senior Security Architect at Cisco Systems, Inc.",
+            "entity_name": "Richard Puckett",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "cyber incident risk",
+              "cybersecurity supply chain risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "geography": "global",
+              "supply_chain_exposure": true
+            },
+            "identifiers": {},
+            "name": "Boeing Cybersecurity Incident Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "BA",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "tenure_start_date": "2022"
+            },
+            "identifiers": {},
+            "name": "Richard Puckett",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Boeing"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "The Boeing Company",
+            "type": "Company"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Cybersecurity Incident Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Chief Security Officer",
+              "tenure_start_date": "2022"
+            },
+            "source_name": "Richard Puckett",
+            "source_type_entity": "Person",
+            "target_name": "The Boeing Company",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-24-000010.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "0161cb24af613dbc7baf79a0b77e4fdd8925977ed340bc7427b2b1a9a832caba"
+    }
+  ],
+  "prompt_version": "v3"
+}

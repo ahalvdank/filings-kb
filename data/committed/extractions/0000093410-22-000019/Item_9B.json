@@ -1,0 +1,331 @@
+{
+  "accession": "0000093410-22-000019",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T14:44:58Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Michael K. Wirth, Chairman of the Board, entered into a pre-arranged stock trading plan in November 2021. Mr. Wirth's plan provides for the potential exercise of vested stock options and the associated sale of up to 93,000 shares of Chevron common stock between February 2022 and March 2023.",
+            "entity_name": "Michael K. Wirth",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Pierre R. Breber, Vice President and Chief Financial Officer, entered into a pre-arranged stock trading plan in November 2021. Mr. Breber's plan provides for the potential exercise of vested stock options and the associated sale of up to 18,500 shares of Chevron common stock between February 2022 and January 2023.",
+            "entity_name": "Pierre R. Breber",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Rhonda J. Morris, Vice President and Chief Human Resources Officer, and her spouse each entered into pre-arranged stock trading plans in November 2021. The plans for Ms. Morris and her spouse provide for the potential exercise of vested stock options and the associated sale of up to 17,300 and 11,300 shares of Chevron common stock, respectively, between February 2022 and January 2023.",
+            "entity_name": "Rhonda J. Morris",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Colin E. Parfitt, Vice President, Midstream, entered into a pre-arranged stock trading plan in November 2021. Mr. Parfitt's plan provides for the potential exercise of vested stock options and the associated sale of up to 55,500 shares of Chevron common stock between February 2022 and January 2023.",
+            "entity_name": "Colin E. Parfitt",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Chevron"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "Chevron Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Chevron common stock"
+            ],
+            "attributes": {
+              "security_type": "common_stock"
+            },
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "CVX Common Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "director",
+              "officer_role": "ChairOfBoard"
+            },
+            "identifiers": {},
+            "name": "Michael K. Wirth",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "officer",
+              "officer_role": "CFO"
+            },
+            "identifiers": {},
+            "name": "Pierre R. Breber",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "Rhonda J. Morris",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "Colin E. Parfitt",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_entered": "2021-11",
+              "plan_period_end": "2023-03",
+              "plan_period_start": "2022-02",
+              "plan_type": "10b5-1",
+              "reporting_person": "Michael K. Wirth",
+              "shares": 93000,
+              "source": "10-K_Item_9B",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Michael K. Wirth 10b5-1 Plan (Nov 2021)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_entered": "2021-11",
+              "plan_period_end": "2023-01",
+              "plan_period_start": "2022-02",
+              "plan_type": "10b5-1",
+              "reporting_person": "Pierre R. Breber",
+              "shares": 18500,
+              "source": "10-K_Item_9B",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Pierre R. Breber 10b5-1 Plan (Nov 2021)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_entered": "2021-11",
+              "plan_period_end": "2023-01",
+              "plan_period_start": "2022-02",
+              "plan_type": "10b5-1",
+              "reporting_person": "Rhonda J. Morris",
+              "shares": 17300,
+              "source": "10-K_Item_9B",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Rhonda J. Morris 10b5-1 Plan (Nov 2021)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_entered": "2021-11",
+              "plan_period_end": "2023-01",
+              "plan_period_start": "2022-02",
+              "plan_type": "10b5-1",
+              "reporting_person": "Rhonda J. Morris (spouse)",
+              "shares": 11300,
+              "source": "10-K_Item_9B",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Rhonda J. Morris Spouse 10b5-1 Plan (Nov 2021)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_entered": "2021-11",
+              "plan_period_end": "2023-01",
+              "plan_period_start": "2022-02",
+              "plan_type": "10b5-1",
+              "reporting_person": "Colin E. Parfitt",
+              "shares": 55500,
+              "source": "10-K_Item_9B",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Colin E. Parfitt 10b5-1 Plan (Nov 2021)",
+            "type": "InsiderTransaction"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "ChairOfBoard",
+              "title": "Chairman of the Board"
+            },
+            "source_name": "Michael K. Wirth",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO",
+              "title": "Vice President and Chief Financial Officer"
+            },
+            "source_name": "Pierre R. Breber",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Other",
+              "title": "Vice President and Chief Human Resources Officer"
+            },
+            "source_name": "Rhonda J. Morris",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Other",
+              "title": "Vice President, Midstream"
+            },
+            "source_name": "Colin E. Parfitt",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_period_end": "2023-03",
+              "plan_period_start": "2022-02",
+              "plan_type": "10b5-1",
+              "shares": 93000,
+              "transaction_code": "S"
+            },
+            "source_name": "Michael K. Wirth",
+            "source_type_entity": "Person",
+            "target_name": "CVX Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_period_end": "2023-01",
+              "plan_period_start": "2022-02",
+              "plan_type": "10b5-1",
+              "shares": 18500,
+              "transaction_code": "S"
+            },
+            "source_name": "Pierre R. Breber",
+            "source_type_entity": "Person",
+            "target_name": "CVX Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_period_end": "2023-01",
+              "plan_period_start": "2022-02",
+              "plan_type": "10b5-1",
+              "shares": 17300,
+              "transaction_code": "S"
+            },
+            "source_name": "Rhonda J. Morris",
+            "source_type_entity": "Person",
+            "target_name": "CVX Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_period_end": "2023-01",
+              "plan_period_start": "2022-02",
+              "plan_type": "10b5-1",
+              "shares": 55500,
+              "transaction_code": "S"
+            },
+            "source_name": "Colin E. Parfitt",
+            "source_type_entity": "Person",
+            "target_name": "CVX Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-22-000019.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "17f53d896f88514fe6186277551d94ec9282d3e5b17f6ff9a4ff47566f458272"
+    }
+  ],
+  "prompt_version": "v3"
+}

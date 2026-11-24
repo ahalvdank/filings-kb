@@ -1,0 +1,116 @@
+{
+  "accession": "0000093410-23-000009",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T14:15:13Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "R. Hewitt Pate, Vice President and General Counsel, entered into a pre-arranged stock trading plan on November 17, 2022. Mr. Pate's plan provides for the potential exercise of vested stock options and the associated sale of up to 250,742 shares of Chevron common stock between February 20, 2023 and February 8, 2024.",
+            "entity_name": "R. Hewitt Pate",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Hewitt Pate"
+            ],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "officer",
+              "officer_role": "GeneralCounsel"
+            },
+            "identifiers": {},
+            "name": "R. Hewitt Pate",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Chevron"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "Chevron Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "CVX common stock"
+            ],
+            "attributes": {
+              "security_type": "common_stock"
+            },
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "Chevron Common Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "note": "Pre-arranged plan for potential exercise of vested stock options and associated sale of up to 250,742 shares of Chevron common stock",
+              "plan_adoption_date": "2022-11-17",
+              "plan_window_end": "2024-02-08",
+              "plan_window_start": "2023-02-20",
+              "reporting_person": "R. Hewitt Pate",
+              "shares": 250742,
+              "source": "10b5-1_plan_adoption",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "R. Hewitt Pate 10b5-1 Plan (November 2022)",
+            "type": "InsiderTransaction"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "GeneralCounsel"
+            },
+            "source_name": "R. Hewitt Pate",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_adoption_date": "2022-11-17",
+              "plan_type": "10b5-1",
+              "plan_window_end": "2024-02-08",
+              "plan_window_start": "2023-02-20",
+              "shares": 250742,
+              "transaction_code": "S"
+            },
+            "source_name": "R. Hewitt Pate",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-23-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "b3a17c9b354d12cd3b203416a6d680211b4ea0ffa3fa7ebebaadd920926841d5"
+    }
+  ],
+  "prompt_version": "v3"
+}

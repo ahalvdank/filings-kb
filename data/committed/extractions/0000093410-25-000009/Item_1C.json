@@ -1,0 +1,58 @@
+{
+  "accession": "0000093410-25-000009",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T13:44:15Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Despite the cybersecurity measures that the company is taking to mitigate such risks, there can be no guarantee that such measures will be sufficient to protect the company's systems, information, intellectual property and other assets from significant harm and that future cybersecurity incidents will not have a material adverse effect on the company or its results of operations or financial condition or cause reputational or other harm to the company.",
+            "entity_name": "CVX Cybersecurity Incident Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Chevron cyber threat risk",
+              "Chevron cybersecurity material adverse risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "geography": "global",
+              "third_party_exposure": true
+            },
+            "identifiers": {},
+            "name": "CVX Cybersecurity Incident Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Cybersecurity Incident Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-25-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "e90f4fc6a57fb107fafa31a2f33b84da52fb0324a952dc6ec79f59f465df8889"
+    }
+  ],
+  "prompt_version": "v3"
+}

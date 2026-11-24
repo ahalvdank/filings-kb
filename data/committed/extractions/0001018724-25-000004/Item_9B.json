@@ -1,0 +1,378 @@
+{
+  "accession": "0001018724-25-000004",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T06:13:09Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "On November 7, 2024, Douglas Herrington, CEO Worldwide Amazon Stores, adopted a trading plan intended to satisfy Rule 10b5-1(c) to sell up to 158,970 shares of Amazon.com, Inc. common stock over a period ending on December 31, 2025, subject to certain conditions.",
+            "entity_name": "Douglas Herrington",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "On November 7, 2024, Shelley Reynolds, Vice President, Worldwide Controller, adopted a trading plan intended to satisfy Rule 10b5-1(c) to sell up to 16,938 shares of Amazon.com, Inc. common stock over a period ending on November 29, 2025, subject to certain conditions.",
+            "entity_name": "Shelley Reynolds",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "On November 11, 2024, Brian Olsavsky, Senior Vice President and Chief Financial Officer, adopted a trading plan intended to satisfy Rule 10b5-1(c) to sell up to 32,370 shares of Amazon.com, Inc. common stock over a period ending on May 30, 2025, subject to certain conditions.",
+            "entity_name": "Brian Olsavsky",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "On November 12, 2024, David Zapolsky, Senior Vice President, Global Public Policy and General Counsel, adopted a trading plan intended to satisfy Rule 10b5-1(c) to sell up to 87,070 shares of Amazon.com, Inc. common stock over a period ending on December 31, 2025, subject to certain conditions.",
+            "entity_name": "David Zapolsky",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "On November 18, 2024, Andrew Jassy, President and Chief Executive Officer, adopted a trading plan intended to satisfy Rule 10b5-1(c) to sell up to 80,400 shares of Amazon.com, Inc. common stock over a period ending on December 31, 2025, subject to certain conditions.",
+            "entity_name": "Andrew Jassy",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Amazon",
+              "AMZN"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMZN"
+            },
+            "name": "Amazon.com, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "AMZN common stock"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMZN"
+            },
+            "name": "Amazon.com, Inc. Common Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMZN",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "title": "CEO Worldwide Amazon Stores"
+            },
+            "identifiers": {},
+            "name": "Douglas Herrington",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMZN",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "title": "Vice President, Worldwide Controller"
+            },
+            "identifiers": {},
+            "name": "Shelley Reynolds",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMZN",
+              "insider_status": "officer",
+              "officer_role": "CFO"
+            },
+            "identifiers": {},
+            "name": "Brian Olsavsky",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMZN",
+              "insider_status": "officer",
+              "officer_role": "GeneralCounsel"
+            },
+            "identifiers": {},
+            "name": "David Zapolsky",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMZN",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Andrew Jassy",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_end_date": "2025-12-31",
+              "plan_type": "10b5-1",
+              "reporting_person": "Douglas Herrington",
+              "shares": 158970,
+              "source": "Item_9B_plan_adoption",
+              "transaction_code": "S",
+              "transaction_date": "2024-11-07"
+            },
+            "identifiers": {},
+            "name": "Douglas Herrington 10b5-1 Sale Plan (2024-11-07)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_end_date": "2025-11-29",
+              "plan_type": "10b5-1",
+              "reporting_person": "Shelley Reynolds",
+              "shares": 16938,
+              "source": "Item_9B_plan_adoption",
+              "transaction_code": "S",
+              "transaction_date": "2024-11-07"
+            },
+            "identifiers": {},
+            "name": "Shelley Reynolds 10b5-1 Sale Plan (2024-11-07)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_end_date": "2025-05-30",
+              "plan_type": "10b5-1",
+              "reporting_person": "Brian Olsavsky",
+              "shares": 32370,
+              "source": "Item_9B_plan_adoption",
+              "transaction_code": "S",
+              "transaction_date": "2024-11-11"
+            },
+            "identifiers": {},
+            "name": "Brian Olsavsky 10b5-1 Sale Plan (2024-11-11)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_end_date": "2025-12-31",
+              "plan_type": "10b5-1",
+              "reporting_person": "David Zapolsky",
+              "shares": 87070,
+              "source": "Item_9B_plan_adoption",
+              "transaction_code": "S",
+              "transaction_date": "2024-11-12"
+            },
+            "identifiers": {},
+            "name": "David Zapolsky 10b5-1 Sale Plan (2024-11-12)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_end_date": "2025-12-31",
+              "plan_type": "10b5-1",
+              "reporting_person": "Andrew Jassy",
+              "shares": 80400,
+              "source": "Item_9B_plan_adoption",
+              "transaction_code": "S",
+              "transaction_date": "2024-11-18"
+            },
+            "identifiers": {},
+            "name": "Andrew Jassy 10b5-1 Sale Plan (2024-11-18)",
+            "type": "InsiderTransaction"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "CEO Worldwide Amazon Stores"
+            },
+            "source_name": "Douglas Herrington",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Vice President, Worldwide Controller"
+            },
+            "source_name": "Shelley Reynolds",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO"
+            },
+            "source_name": "Brian Olsavsky",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "GeneralCounsel"
+            },
+            "source_name": "David Zapolsky",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Andrew Jassy",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "10b5-1 plan adoption; shares represent maximum authorized for sale under the plan",
+              "plan_end_date": "2025-12-31",
+              "plan_type": "10b5-1",
+              "shares": 158970,
+              "transaction_code": "S",
+              "transaction_date": "2024-11-07"
+            },
+            "source_name": "Douglas Herrington",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc. Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "10b5-1 plan adoption; shares represent maximum authorized for sale under the plan",
+              "plan_end_date": "2025-11-29",
+              "plan_type": "10b5-1",
+              "shares": 16938,
+              "transaction_code": "S",
+              "transaction_date": "2024-11-07"
+            },
+            "source_name": "Shelley Reynolds",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc. Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "10b5-1 plan adoption; shares represent maximum authorized for sale under the plan",
+              "plan_end_date": "2025-05-30",
+              "plan_type": "10b5-1",
+              "shares": 32370,
+              "transaction_code": "S",
+              "transaction_date": "2024-11-11"
+            },
+            "source_name": "Brian Olsavsky",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc. Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "10b5-1 plan adoption; shares represent maximum authorized for sale under the plan",
+              "plan_end_date": "2025-12-31",
+              "plan_type": "10b5-1",
+              "shares": 87070,
+              "transaction_code": "S",
+              "transaction_date": "2024-11-12"
+            },
+            "source_name": "David Zapolsky",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc. Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "10b5-1 plan adoption; shares represent maximum authorized for sale under the plan",
+              "plan_end_date": "2025-12-31",
+              "plan_type": "10b5-1",
+              "shares": 80400,
+              "transaction_code": "S",
+              "transaction_date": "2024-11-18"
+            },
+            "source_name": "Andrew Jassy",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc. Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-25-000004.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "df3fd5ad71abe900746bcb222cf736557f83072e692439bbe2e2ee60a7b8ea49"
+    }
+  ],
+  "prompt_version": "v3"
+}

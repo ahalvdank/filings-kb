@@ -1,0 +1,91 @@
+{
+  "accession": "0000012927-22-000010",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T09:37:23Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "A total of 87,954 shares were transferred to us from employees in satisfaction of minimum tax withholding obligations associated with the vesting of restricted stock units during the period. We did not purchase any shares of our common stock in the open market pursuant to a repurchase program.",
+            "entity_name": "BA Q4 2021 RSU Tax Withholding Share Acquisitions",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "On March 21, 2020, the Board of Directors terminated its prior authorization to repurchase shares of the Company's outstanding common stock. Share repurchases under this plan had been suspended since April 2019.",
+            "entity_name": "BA Share Repurchase Authorization Termination (March 2020)",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "avg_price_per_share": 207.48,
+              "method": "tax_withholding_on_RSU_vesting",
+              "open_market_repurchases": false,
+              "period": "Q4_2021",
+              "return_type": "buyback",
+              "shares": 87954
+            },
+            "identifiers": {},
+            "name": "BA Q4 2021 RSU Tax Withholding Share Acquisitions",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "return_type": "repurchase_authorization",
+              "status": "terminated",
+              "suspended_since": "2019-04",
+              "termination_date": "2020-03-21"
+            },
+            "identifiers": {},
+            "name": "BA Share Repurchase Authorization Termination (March 2020)",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Q4 2021 RSU Tax Withholding Share Acquisitions",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "BA Share Repurchase Authorization Termination (March 2020)",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-22-000010.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "af7ad2f2866815a072be9d8cc587e689cd21479e639cf5bb68c3f6f55e9837d3"
+    }
+  ],
+  "prompt_version": "v3"
+}

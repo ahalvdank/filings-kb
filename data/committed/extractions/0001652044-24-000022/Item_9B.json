@@ -1,0 +1,322 @@
+{
+  "accession": "0001652044-24-000022",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T20:09:07Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "John Hennessy, Chair of the Board of Directors, through the John L. Hennessy & Andrea J. Hennessy Revocable Trust, adopted a new trading plan on November 1, 2023 (with the first trade under the new plan scheduled for February 12, 2024). The trading plan will be effective until March 12, 2025 to sell 6,664 shares of Class C Capital Stock and 11,336 shares of Class A Common Stock.",
+            "entity_name": "John Hennessy",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Ann Mather, former member of the Board of Directors, terminated her trading plan on October 30, 2023, effective with her resignation from the Board of Directors. The trading plan previously permitted the sale of 12,580 shares of Class C Capital Stock and would have been effective until June 2, 2024.",
+            "entity_name": "Ann Mather",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "material_event",
+            "content": "Ann Mather, former member of the Board of Directors, terminated her trading plan on October 30, 2023, effective with her resignation from the Board of Directors.",
+            "entity_name": "Ann Mather Board Resignation (2023-10-30)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Ruth M. Porat, President and Chief Investment Officer; Chief Financial Officer, adopted a new trading plan on November 30, 2023 (with the first trade under the new plan scheduled for March 8, 2024). The trading plan will be effective until March 8, 2025 to sell all of the (net) shares of up to 82,900 (gross) Class C Capital Stock issued upon the vesting of her Alphabet 2021 Performance Stock Units, as adjusted based on performance (net shares are net of tax withholding).",
+            "entity_name": "Ruth M. Porat",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "material_event",
+            "content": "Google LLC, a subsidiary of Alphabet, filed notifications with the Russian Federal Security Service pursuant to Russian encryption control requirements, which must be complied with prior to the import of covered items.",
+            "entity_name": "Google LLC Russia Encryption Regulatory Notification",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "John L. Hennessy"
+            ],
+            "attributes": {
+              "current_company_id": "GOOGL",
+              "insider_status": "director",
+              "officer_role": "ChairOfBoard"
+            },
+            "identifiers": {},
+            "name": "John Hennessy",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "insider_status": "director",
+              "officer_role": "BoardMember",
+              "tenure_end_date": "2023-10-30"
+            },
+            "identifiers": {},
+            "name": "Ann Mather",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "GOOGL",
+              "insider_status": "officer",
+              "officer_role": "CFO"
+            },
+            "identifiers": {},
+            "name": "Ruth M. Porat",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Alphabet",
+              "Google"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "GOOGL Class C",
+              "GOOG"
+            ],
+            "attributes": {
+              "issuer_ticker": "GOOGL",
+              "share_class": "C"
+            },
+            "identifiers": {
+              "ticker": "GOOG"
+            },
+            "name": "Alphabet Class C Capital Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [
+              "GOOGL Class A"
+            ],
+            "attributes": {
+              "issuer_ticker": "GOOGL",
+              "share_class": "A"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Class A Common Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "first_trade_date": "2024-02-12",
+              "plan_action": "adopted",
+              "plan_expiry": "2025-03-12",
+              "plan_type": "10b5-1",
+              "reporting_person": "John Hennessy",
+              "shares_class_a": 11336,
+              "shares_class_c": 6664,
+              "source": "10-K_Item_9B_plan_disclosure",
+              "transaction_code": "S",
+              "transaction_date": "2023-11-01"
+            },
+            "identifiers": {},
+            "name": "John Hennessy 10b5-1 Plan Adoption (2023-11-01)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_action": "terminated",
+              "plan_type": "10b5-1",
+              "plan_would_have_expired": "2024-06-02",
+              "planned_shares_class_c": 12580,
+              "reporting_person": "Ann Mather",
+              "source": "10-K_Item_9B_plan_disclosure",
+              "transaction_code": "S",
+              "transaction_date": "2023-10-30"
+            },
+            "identifiers": {},
+            "name": "Ann Mather 10b5-1 Plan Termination (2023-10-30)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "first_trade_date": "2024-03-08",
+              "note": "Net shares (net of tax withholding) from vesting of Alphabet 2021 Performance Stock Units",
+              "plan_action": "adopted",
+              "plan_expiry": "2025-03-08",
+              "plan_type": "10b5-1",
+              "reporting_person": "Ruth M. Porat",
+              "shares_gross_class_c": 82900,
+              "source": "10-K_Item_9B_plan_disclosure",
+              "transaction_code": "S",
+              "transaction_date": "2023-11-30"
+            },
+            "identifiers": {},
+            "name": "Ruth M. Porat 10b5-1 Plan Adoption (2023-11-30)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2023-10-30",
+              "event_type": "management_change",
+              "person": "Ann Mather",
+              "role_departed": "Board of Directors"
+            },
+            "identifiers": {},
+            "name": "Ann Mather Board Resignation (2023-10-30)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "agency": "Russian Federal Security Service",
+              "description": "Notifications filed pursuant to Russian encryption control requirements prior to import of covered items",
+              "event_type": "regulatory_action",
+              "jurisdiction": "Russia"
+            },
+            "identifiers": {},
+            "name": "Google LLC Russia Encryption Regulatory Notification",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "ChairOfBoard"
+            },
+            "source_name": "John Hennessy",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO"
+            },
+            "source_name": "Ruth M. Porat",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_action": "adopted",
+              "plan_type": "10b5-1",
+              "shares": 6664,
+              "transaction_code": "S",
+              "transaction_date": "2023-11-01"
+            },
+            "source_name": "John Hennessy",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Class C Capital Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_action": "adopted",
+              "plan_type": "10b5-1",
+              "shares": 11336,
+              "transaction_code": "S",
+              "transaction_date": "2023-11-01"
+            },
+            "source_name": "John Hennessy",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Class A Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_action": "adopted",
+              "plan_type": "10b5-1",
+              "shares": 82900,
+              "transaction_code": "S",
+              "transaction_date": "2023-11-30"
+            },
+            "source_name": "Ruth M. Porat",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Class C Capital Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "Ann Mather Board Resignation (2023-10-30)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "Google LLC Russia Encryption Regulatory Notification",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-24-000022.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "bb21f2d4f3cc239f8c2798b3e69a033a1b07c914ab409f58b6820e485c3f64d1"
+    }
+  ],
+  "prompt_version": "v3"
+}

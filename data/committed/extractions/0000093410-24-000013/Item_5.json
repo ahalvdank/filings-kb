@@ -1,0 +1,71 @@
+{
+  "accession": "0000093410-24-000013",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T14:17:30Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "October 1 – October 31, 2023 9,396,099 $162.01 9,396,099 $65.7\nNovember 1 – November 30, 2023 6,818,060 $144.50 6,818,060 $64.7\nDecember 1 – December 31, 2023 6,180,512 $147.74 6,180,512 $63.8\nTotal October 1 – December 31, 2023 22,394,671 $152.74 22,394,671",
+            "entity_name": "CVX Q4 2023 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-02-15",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Chevron",
+              "CVX"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "Chevron Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Chevron Q4 2023 buyback"
+            ],
+            "attributes": {
+              "average_price_usd": 152.74,
+              "period": "Q4 2023",
+              "remaining_authorization_usd": 63800000000,
+              "return_type": "buyback",
+              "shares": 22394671
+            },
+            "identifiers": {},
+            "name": "CVX Q4 2023 Share Repurchases",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Q4 2023 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-02-15",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-24-000013.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "a20b0f787a63f3723c855728440ba0466d6dd46b56adb64b66ba2859abe763dd"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,575 @@
+{
+  "accession": "0000002488-26-000021",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-21T23:10:26Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Data Center net revenue of $16.6 billion in 2025 increased by 32%, compared to net revenue of $12.6 billion in 2024. The increase was primarily driven by strong demand for our AMD EPYC™ processors and AMD Instinct™ GPU accelerators.",
+            "entity_name": "AMD Data Center Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "metric": "operating_income",
+              "period": "FY2025",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Data Center operating income was $3.6 billion in 2025, compared to operating income of $3.5 billion in 2024. The increase in operating income was primarily due to higher revenue, partially offset by higher cost of sales, approximately $440 million of net inventory and related charges associated with the U.S. government export control on AMD Instinct™ MI308 Data Center GPU products and higher operating expenses.",
+            "entity_name": "AMD Data Center Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Client and Gaming net revenue of $14.6 billion in 2025 increased by 51%, compared to net revenue of $9.6 billion in 2024. Client net revenue of $10.6 billion in 2025 increased by 51%, compared to net revenue of $7.1 billion in 2024, primarily driven by a 15% increase in unit shipments of processors and a 31% increase in average selling price of processors, reflecting strong demand for AMD desktop and mobile Ryzen processors.",
+            "entity_name": "AMD Client and Gaming Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_7_MDA",
+              "sub_segment": "Gaming"
+            },
+            "chunk_type": "segment",
+            "content": "Gaming net revenue of $3.9 billion in 2025 increased by 51%, compared to net revenue of $2.6 billion in 2024. The increase was primarily driven by higher semi-custom revenue and strong demand of our Radeon™ gaming GPUs.",
+            "entity_name": "AMD Client and Gaming Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Embedded net revenue of $3.5 billion in 2025 decreased by 3%, compared to net revenue of $3.6 billion in 2024. Net revenue decreased as certain end market demand remained mixed.",
+            "entity_name": "AMD Embedded Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In March 2025, we completed the acquisition of ZT Systems for $3.2 billion in cash and 8.3 million shares of our common stock. We retained select intellectual property and employees associated with the design operations (ZT Design Business), and in October 2025, we sold the ZT data center infrastructure manufacturing business (ZT Manufacturing Business) to Sanmina Corporation (Sanmina) for $2.4 billion in cash, subject to certain purchase price adjustments, and 1.2 million shares of Sanmina common stock.",
+            "entity_name": "AMD Acquisition of ZT Systems",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In October 2025, upon completion of the sale of the ZT Manufacturing Business to Sanmina Corporation (Sanmina), we received a total of $1.4 billion in cash, net of cash divested, and 1.2 million shares of Sanmina common stock valued at $154 million. We are eligible to receive additional cash consideration of up to $450 million to the extent certain conditions are met following the close of the sale through 2028 (Sanmina Earn-out).",
+            "entity_name": "AMD Divestiture of ZT Manufacturing Business",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In October 2025, we entered into a product purchase agreement with OpenAI OpCo, LLC, (OpenAI) to deploy 6 gigawatts of AMD GPUs, with the deployment of the first gigawatt of capacity powered by our AMD Instinct MI450 series products.",
+            "entity_name": "AMD OpenAI GPU Deployment Agreement",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Concurrent with the agreement, we issued to OpenAI a warrant to purchase up to an aggregate of 160 million shares of AMD's common stock at an exercise price of $0.01 per share. The warrant shares will vest in tranches based on certain AMD Instinct GPU purchase milestones by OpenAI, or its affiliates, or indirectly through third parties, and achievement of specified AMD stock price targets and stock performance. Each vested tranche is further subject to the fulfillment of certain other technical and commercial conditions prior to exercise. Subject to certain conditions, the warrant is exercisable through October 5, 2030.",
+            "entity_name": "AMD OpenAI Warrant Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "During the second quarter of fiscal year 2025, the Company recorded approximately $800 million of inventory and related charges on AMD Instinct MI308 Data Center GPU products due to new U.S. export restrictions on certain semiconductors to China. We applied for and were granted some licenses by the U.S. government that allow us to ship MI308 products to certain China-based customers. During the fourth quarter of fiscal year 2025, we began shipping products and reversed approximately $360 million of the inventory and related charges recorded earlier in the year.",
+            "entity_name": "AMD MI308 U.S. Export Control Restriction",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "U.S. government officials have expressed an expectation that the U.S. government will receive 15% of the revenue generated from licensed MI308 sales to China; however, to date, the U.S. government has not published a regulation establishing such requirement.",
+            "entity_name": "AMD MI308 U.S. Government Revenue Share Requirement",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In 2025, we returned a total of $1.3 billion to shareholders through the repurchase of 12.4 million shares of common stock under our stock repurchase program. As of December 27, 2025, $9.4 billion remained available for future stock repurchases under this program. The stock repurchase program does not obligate us to acquire any common stock, has no termination date and may be suspended or discontinued at any time.",
+            "entity_name": "AMD 2025 Share Repurchase Activity",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Interest expense of $131 million in 2025 increased by $39 million compared to $92 million in 2024, primarily due to the issuance of $1.5 billion in aggregate principal amount of 4.212% Notes and 4.319% Notes in March 2025.",
+            "entity_name": "AMD March 2025 $1.5B Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "The decrease in income tax provision in 2025 was primarily driven by an $853 million benefit related to the release of uncertain tax positions pertaining to the reasonable cause relief for dual consolidated losses approved by the Internal Revenue Service (IRS) in April 2025, whereas the income tax provision in 2024 included $373 million tax effect from an intercompany integration transaction.",
+            "entity_name": "AMD IRS Dual Consolidated Loss Relief",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In July 2025, the One Big Beautiful Bill Act (OBBBA) was enacted into law. For fiscal year 2025, the primary impact of the OBBBA to our tax provision was the accelerated expensing of domestic R&D activities which decreased our income eligible for FDII, reduced our deferred tax assets, and reduced our current income tax liability.",
+            "entity_name": "One Big Beautiful Bill Act Impact on AMD",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In January 2026, the OECD released a \"side-by-side\" package introducing new safe harbors and providing an exemption for U.S.-based multinational companies from parts of the global minimum tax framework. We continue to evaluate the impact of proposed and enacted legislative changes to our effective tax rate and cash flows as new guidance becomes available in each country.",
+            "entity_name": "AMD OECD Pillar Two Global Minimum Tax Exposure",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Data Center",
+              "AMD Data Center"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center",
+              "ticker": "AMD"
+            },
+            "name": "AMD Data Center Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Client and Gaming",
+              "AMD Client and Gaming"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Client and Gaming",
+              "ticker": "AMD"
+            },
+            "name": "AMD Client and Gaming Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Embedded",
+              "AMD Embedded"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Embedded",
+              "ticker": "AMD"
+            },
+            "name": "AMD Embedded Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "ZT Systems acquisition"
+            ],
+            "attributes": {
+              "effective_date": "2025-03",
+              "event_type": "acquisition",
+              "net_cash_paid_usd": 2000000000,
+              "stated_consideration_cash_usd": 3200000000,
+              "stated_consideration_shares": 8300000,
+              "target_company": "ZT Systems",
+              "total_shares_issued": 9100000
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of ZT Systems",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "ZT Manufacturing Business sale",
+              "Sanmina divestiture"
+            ],
+            "attributes": {
+              "buyer": "Sanmina Corporation",
+              "contingent_consideration_max_usd": 450000000,
+              "effective_date": "2025-10",
+              "event_type": "divestiture",
+              "gross_proceeds_cash_usd": 2400000000,
+              "net_proceeds_cash_usd": 1400000000,
+              "sanmina_shares_received": 1200000
+            },
+            "identifiers": {},
+            "name": "AMD Divestiture of ZT Manufacturing Business",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD OpenAI product purchase agreement"
+            ],
+            "attributes": {
+              "counterparty": "OpenAI OpCo, LLC",
+              "effective_date": "2025-10",
+              "event_type": "joint_venture",
+              "lead_product": "AMD Instinct MI450 series",
+              "scope_gigawatts": 6
+            },
+            "identifiers": {},
+            "name": "AMD OpenAI GPU Deployment Agreement",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "MI308 export restriction",
+              "AMD Instinct MI308 China export ban"
+            ],
+            "attributes": {
+              "affected_geography": "China",
+              "event_type": "regulatory_action",
+              "gross_charge_usd": 800000000,
+              "net_charge_usd": 440000000,
+              "product": "AMD Instinct MI308 Data Center GPU",
+              "reversal_usd": 360000000
+            },
+            "identifiers": {},
+            "name": "AMD MI308 U.S. Export Control Restriction",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD IRS uncertain tax position release 2025"
+            ],
+            "attributes": {
+              "effective_date": "2025-04",
+              "event_type": "regulatory_action",
+              "tax_benefit_usd": 853000000
+            },
+            "identifiers": {},
+            "name": "AMD IRS Dual Consolidated Loss Relief",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "OBBBA AMD tax impact"
+            ],
+            "attributes": {
+              "effective_date": "2025-07",
+              "event_type": "regulatory_action",
+              "primary_impact": "accelerated expensing of domestic R&D activities"
+            },
+            "identifiers": {},
+            "name": "One Big Beautiful Bill Act Impact on AMD",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD 2025 buyback"
+            ],
+            "attributes": {
+              "amount_usd": 1300000000,
+              "period": "FY2025",
+              "remaining_authorization_usd": 9400000000,
+              "return_type": "buyback",
+              "shares_repurchased": 12400000
+            },
+            "identifiers": {},
+            "name": "AMD 2025 Share Repurchase Activity",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "AMD 4.212% Notes",
+              "AMD 4.319% Notes"
+            ],
+            "attributes": {
+              "coupon_rates": [
+                "4.212%",
+                "4.319%"
+              ],
+              "instrument_type": "notes",
+              "issuance_date": "2025-03",
+              "principal_usd": 1500000000
+            },
+            "identifiers": {},
+            "name": "AMD March 2025 $1.5B Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "AMD 160M share warrant to OpenAI"
+            ],
+            "attributes": {
+              "counterparty": "OpenAI OpCo, LLC",
+              "exercise_price_usd": 0.01,
+              "expiration_date": "2030-10-05",
+              "fy2025_financial_impact": "none",
+              "instrument_type": "equity_issuance",
+              "shares_authorized": 160000000,
+              "vesting_conditions": "GPU purchase milestones and AMD stock price targets"
+            },
+            "identifiers": {},
+            "name": "AMD OpenAI Warrant Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "MI308 China revenue 15% sharing risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "China",
+              "product": "AMD Instinct MI308"
+            },
+            "identifiers": {},
+            "name": "AMD MI308 U.S. Government Revenue Share Requirement",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "AMD Pillar Two risk",
+              "AMD global minimum tax risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "AMD OECD Pillar Two Global Minimum Tax Exposure",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.32,
+              "margin": 0.2166,
+              "margin_type": "operating",
+              "operating_income": 3603000000,
+              "period": "FY2025",
+              "revenue": 16635000000
+            },
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Data Center Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.51,
+              "margin": 0.1962,
+              "margin_type": "operating",
+              "operating_income": 2855000000,
+              "period": "FY2025",
+              "revenue": 14550000000
+            },
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Client and Gaming Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.03,
+              "margin": 0.3598,
+              "margin_type": "operating",
+              "operating_income": 1243000000,
+              "period": "FY2025",
+              "revenue": 3454000000
+            },
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Embedded Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of ZT Systems",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Divestiture of ZT Manufacturing Business",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD OpenAI GPU Deployment Agreement",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD MI308 U.S. Export Control Restriction",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD IRS Dual Consolidated Loss Relief",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "One Big Beautiful Bill Act Impact on AMD",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD 2025 Share Repurchase Activity",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD March 2025 $1.5B Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD OpenAI Warrant Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD MI308 U.S. Government Revenue Share Requirement",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD OECD Pillar Two Global Minimum Tax Exposure",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-26-000021.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "df22818f8c4266a3e74f4427052841b11598498116793582453dd75dee3c3160"
+    }
+  ],
+  "prompt_version": "v3"
+}

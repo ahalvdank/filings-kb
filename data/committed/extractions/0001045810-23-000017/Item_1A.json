@@ -1,0 +1,675 @@
+{
+  "accession": "0001045810-23-000017",
+  "item": "Item_1A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T16:53:13Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "During the third quarter of fiscal year 2023, the U.S. government, or USG, announced new export restrictions and export licensing requirements targeting China's semiconductor and supercomputing industries. These restrictions impact exports of certain chips, as well as software, hardware, equipment, and technology used to develop, produce, and manufacture certain chips, to China (including Hong Kong and Macau) and Russia, and specifically impact our A100 and H100 integrated circuits, DGX or any other systems or boards which incorporate A100 or H100 integrated circuits and our A100X.",
+            "entity_name": "NVDA AI Chip China Export Control Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We use third parties to manufacture and assemble our products, and we have had and may in the future have long manufacturing lead times. We are not provided guaranteed wafer, component and capacity supply, and our supply deliveries and production may be non-linear within a quarter or year. If our estimates of customer demand are ultimately inaccurate, as we have experienced from time to time, there could be a significant mismatch between supply and demand. This mismatch has resulted in both product shortages and excess inventory, has varied across our market platforms, and has significantly harmed our financial results.",
+            "entity_name": "NVDA Supply-Demand Forecasting Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Cyber-attacks, including ransomware attacks by organized criminal threat actors, nation-states, and nation-state-supported actors, may become more prevalent and severe. Our ability to recover from ransomware attacks may be limited if our backups have been affected by the attack, or if restoring from backups is delayed or not feasible.",
+            "entity_name": "NVDA Cybersecurity and Data Breach Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We depend on foundries to manufacture our semiconductor wafers using their fabrication equipment and techniques. We do not assemble, test or package our products, but instead contract with independent subcontractors. We also rely on third-party software development tools to assist us in the design, simulation and verification of new products or product enhancements.",
+            "entity_name": "NVDA Third-Party Manufacturing Concentration Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We receive a significant amount of our revenue from a limited number of customers within our distribution and partner network. With several of these distributors and partners, we are selling multiple target market platforms through their channels. Our operating results depend on sales within our partner network, as well as the ability of these partners to sell products that incorporate our processors.",
+            "entity_name": "NVDA Customer Concentration Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We conduct our business and have offices worldwide. Our semiconductor wafers are manufactured, assembled, tested and packaged by third parties located outside of the United States, and we generated 69% of our revenue during fiscal year 2023 from sales outside of the United States.",
+            "entity_name": "NVDA International Operations and Geopolitical Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We may process sensitive, confidential or personal data or information that is subject to privacy and security laws, regulations, industry standards, external and internal policies, contracts and other obligations that govern the processing of such data by us and on our behalf. Concerns about our practices or the ultimate use of our products and services with regard to the collection, use, retention, security or disclosure of personal information or other privacy-related matters, including for use in AI, even if unfounded, could damage our reputation and adversely affect our operating results.",
+            "entity_name": "NVDA Data Privacy Regulatory Compliance Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Concerns relating to the responsible use of new and evolving technologies, such as AI, in our products and services may result in reputational and financial harm and liability, and may cause us to incur costs to resolve such issues. We are increasingly building AI capabilities into many of our products and services. AI poses emerging ethical issues and presents risks and challenges that could affect its adoption, and therefore our business.",
+            "entity_name": "NVDA Responsible AI and Reputational Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Climate change may have an increasingly adverse impact on our business and those of our customers, partners and vendors. Water and energy availability and reliability in the communities where we conduct business is critical, and certain of our facilities may be vulnerable to the impacts of extreme weather events.",
+            "entity_name": "NVDA Climate Change Operational Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our target markets remain competitive, and competition may intensify with expanding and changing product and service offerings, industry standards, customer needs, new entrants and consolidations. Our competitors' products, services and technologies, including those mentioned above in this Annual Report on Form 10-K, may be cheaper or provide better functionality or features than ours, which has resulted and may in the future result in lower than expected selling prices for our products.",
+            "entity_name": "NVDA Competition and Market Share Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "material_event",
+            "content": "For example, in February 2022, NVIDIA and SoftBank announced the termination of the Share Purchase Agreement whereby NVIDIA would have acquired Arm from SoftBank due to significant regulatory challenges preventing the completion of the transaction. We recorded in operating expenses a $1.35 billion charge in fiscal year 2023 reflecting the write-off of the prepayment provided at signing.",
+            "entity_name": "NVDA Arm Holdings Acquisition Termination",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "For example, we are currently under examination by the Internal Revenue Service for our fiscal years 2018 and 2019 and undergoing tax audits in Germany, Israel and India. Although we believe our tax estimates are reasonable, any adverse outcome could increase our worldwide effective tax rate, increase the amount of non-income taxes imposed on our business, and harm our financial position, results of operations, net income, and cash flows.",
+            "entity_name": "NVIDIA IRS Examination FY2018-2019",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "For example, we are currently under examination by the Internal Revenue Service for our fiscal years 2018 and 2019 and undergoing tax audits in Germany, Israel and India. Although we believe our tax estimates are reasonable, any adverse outcome could increase our worldwide effective tax rate, increase the amount of non-income taxes imposed on our business, and harm our financial position, results of operations, net income, and cash flows.",
+            "entity_name": "NVIDIA International Tax Audits",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "We may not achieve our stated goal to source 100% of our global electricity use from renewable energy by the end of fiscal year 2025, which could harm our reputation, or we may incur additional, unexpected costs to achieve such a goal.",
+            "entity_name": "NVDA FY2025 100% Renewable Electricity Goal",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "A100 H100 China export restrictions",
+              "USG China semiconductor export controls"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "China",
+              "products_affected": "A100, H100, DGX, A100X"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA AI Chip China Export Control Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "demand estimation mismatch risk",
+              "inventory mismatch risk"
+            ],
+            "attributes": {
+              "category": "operations"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Supply-Demand Forecasting Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "ransomware risk",
+              "nation-state cyber attack risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Cybersecurity and Data Breach Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "foundry dependency risk",
+              "semiconductor wafer supply risk"
+            ],
+            "attributes": {
+              "category": "supply_chain"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Third-Party Manufacturing Concentration Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "limited customer base risk",
+              "distribution partner concentration risk"
+            ],
+            "attributes": {
+              "category": "revenue_concentration"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Customer Concentration Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "China Taiwan geopolitical risk",
+              "international supply chain risk"
+            ],
+            "attributes": {
+              "category": "geopolitical",
+              "international_revenue_pct_fy2023": 0.69
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA International Operations and Geopolitical Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "GDPR CCPA data privacy risk",
+              "data protection compliance risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "regulations": "GDPR, CCPA, CPRA"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Data Privacy Regulatory Compliance Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "AI ethics risk",
+              "AI regulatory compliance risk"
+            ],
+            "attributes": {
+              "category": "technology_ethics"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Responsible AI and Reputational Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "climate change business impact risk",
+              "extreme weather operational risk"
+            ],
+            "attributes": {
+              "category": "esg"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Climate Change Operational Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "competitive market intensity risk",
+              "customer in-house AI chip development risk"
+            ],
+            "attributes": {
+              "category": "competition"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Competition and Market Share Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Arm deal write-off",
+              "SoftBank Arm acquisition cancellation"
+            ],
+            "attributes": {
+              "announcement_date": "2022-02",
+              "event_type": "acquisition",
+              "seller": "SoftBank",
+              "target_company": "Arm Holdings",
+              "write_off_charge_usd": 1350000000
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Arm Holdings Acquisition Termination",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "IRS audit fiscal 2018 2019",
+              "Internal Revenue Service examination"
+            ],
+            "attributes": {
+              "counterparty": "Internal Revenue Service",
+              "fiscal_years_under_review": "FY2018, FY2019",
+              "status": "pending"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVIDIA IRS Examination FY2018-2019",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Germany Israel India tax audits",
+              "multi-jurisdiction tax examinations"
+            ],
+            "attributes": {
+              "jurisdictions": "Germany, Israel, India",
+              "status": "pending"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVIDIA International Tax Audits",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "100% renewable energy by 2025",
+              "clean electricity commitment"
+            ],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "target_value": "100% renewable electricity globally",
+              "target_year": 2025
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA FY2025 100% Renewable Electricity Goal",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA AI Chip China Export Control Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Supply-Demand Forecasting Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Cybersecurity and Data Breach Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Third-Party Manufacturing Concentration Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Customer Concentration Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA International Operations and Geopolitical Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Data Privacy Regulatory Compliance Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Responsible AI and Reputational Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Climate Change Operational Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Competition and Market Share Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Arm Holdings Acquisition Termination",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVIDIA IRS Examination FY2018-2019",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVIDIA International Tax Audits",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2025 100% Renewable Electricity Goal",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": "2023-02-24",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-23-000017.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "b2726fe3c2ae308efdb3487ffbf4523feff8695570697aebb1a2fa7b70e2a4cb"
+    },
+    {
+      "extracted_at": "2026-06-17T16:54:36Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "we are defending on appeal the dismissal of a securities class action lawsuit from multiple shareholders asserting claims that we and certain of our officers made false and/or misleading statements related to channel inventory and the impact of cryptocurrency mining on GPU demand in 2017 and 2018.",
+            "entity_name": "NVDA Securities Class Action (Channel Inventory / Crypto Mining 2017-2018)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Litigation and regulatory proceedings are inherently uncertain, and adverse rulings could occur, including monetary damages or fines, or an injunction stopping us from manufacturing or selling certain products, engaging in certain business practices, or requiring other remedies, such as compulsory licensing of patents. An unfavorable outcome or settlement may result in a material adverse impact.",
+            "entity_name": "NVDA Litigation and Regulatory Proceedings Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our indebtedness could adversely affect our financial position and cash flows from operations, and prevent us from implementing our strategy or fulfilling our contractual obligations. As of January 29, 2023, we had outstanding a total of $11 billion in notes due by 2060. As each series of senior notes matures, unless redeemed or repurchased, we must repay or refinance the notes. If we decide to refinance, we may receive less favorable terms, or we may be unable to refinance at all, which may adversely affect our financial condition.",
+            "entity_name": "NVDA Indebtedness and Refinancing Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The anti-takeover provisions of the Delaware General Corporation Law may discourage, delay, or prevent a change in control. Provisions in our certificate of incorporation and bylaws could make it more difficult for a third party to acquire a majority of our outstanding stock.",
+            "entity_name": "NVDA Anti-takeover Provisions Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVDA securities fraud class action"
+            ],
+            "attributes": {
+              "allegations": "false and/or misleading statements related to channel inventory and the impact of cryptocurrency mining on GPU demand",
+              "counterparty": "multiple shareholders",
+              "period": "2017-2018",
+              "status": "appealed"
+            },
+            "identifiers": {},
+            "name": "NVDA Securities Class Action (Channel Inventory / Crypto Mining 2017-2018)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "litigation risk",
+              "regulatory proceedings risk"
+            ],
+            "attributes": {
+              "category": "legal"
+            },
+            "identifiers": {},
+            "name": "NVDA Litigation and Regulatory Proceedings Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "debt risk",
+              "refinancing risk",
+              "covenant compliance risk"
+            ],
+            "attributes": {
+              "category": "financial"
+            },
+            "identifiers": {},
+            "name": "NVDA Indebtedness and Refinancing Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "change in control risk",
+              "takeover defense risk"
+            ],
+            "attributes": {
+              "category": "governance"
+            },
+            "identifiers": {},
+            "name": "NVDA Anti-takeover Provisions Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Securities Class Action (Channel Inventory / Crypto Mining 2017-2018)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Litigation and Regulatory Proceedings Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Indebtedness and Refinancing Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Anti-takeover Provisions Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-23-000017.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "cf6b03e36bc86049f518628b986ac3c7d8fa2039491bed5fceb24486a87f3591"
+    }
+  ],
+  "prompt_version": "v3"
+}

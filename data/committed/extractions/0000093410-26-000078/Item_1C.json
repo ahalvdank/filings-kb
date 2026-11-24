@@ -1,0 +1,72 @@
+{
+  "accession": "0000093410-26-000078",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T13:34:51Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "To date, the company has not experienced a cybersecurity threat or incident that has materially affected or is reasonably likely to materially affect the company, including its business strategy, results of operations or financial condition; however, the company has experienced and will continue to experience cyber incidents of varying degrees.",
+            "entity_name": "CVX Cybersecurity Incident Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Despite the cybersecurity measures that the company is taking to mitigate such risks, there can be no guarantee that such measures will be sufficient to protect the company's systems, information, intellectual property and other assets from significant harm and that future cybersecurity incidents will not have a material adverse effect on the company or its results of operations or financial condition or cause reputational or other harm to the company.",
+            "entity_name": "CVX Cybersecurity Incident Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Chevron cyber incident risk",
+              "cybersecurity threat risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "geography": "global",
+              "no_material_incident_to_date": true,
+              "scope": "IT_and_OT_networks"
+            },
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "CVX Cybersecurity Incident Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Cybersecurity Incident Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-26-000078.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "4cfc88929b77e092df0b0f819240667c39de987165958238d9a731ba16265499"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,163 @@
+{
+  "accession": "0000950170-25-100235",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T12:06:53Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "On September 16, 2024, our Board of Directors approved a share repurchase program authorizing up to $60.0 billion in share repurchases. This share repurchase program commenced in April 2025, following completion of the program approved on September 14, 2021, has no expiration date, and may be terminated at any time.",
+            "entity_name": "MSFT September 2024 $60B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "Q4_FY2025",
+              "section_type": "Item_5",
+              "total_shares_repurchased": 7520493
+            },
+            "chunk_type": "capital_return",
+            "content": "All share repurchases were made using cash resources. Our share repurchases may occur through open market purchases or pursuant to a Rule 10b5-1 trading plan. The above table excludes shares repurchased to settle employee tax withholding related to the vesting of stock awards.",
+            "entity_name": "MSFT Q4 FY2025 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "We returned $9.4 billion to shareholders in the form of share repurchases and dividends in the fourth quarter of fiscal year 2025.",
+            "entity_name": "MSFT Q4 FY2025 Quarterly Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "In May 2025, as consideration for the acquisition of a business, we issued 117,623 shares of common stock to the seller in connection with the closing in reliance on exemption from the registration requirements of the Securities Act of 1933 pursuant to Section 4(a)(2) thereof because the issuance of securities did not involve a public offering.",
+            "entity_name": "MSFT May 2025 Acquisition with Equity Consideration",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "MSFT $60B buyback program"
+            ],
+            "attributes": {
+              "amount_usd": 60000000000,
+              "authorization_date": "2024-09-16",
+              "commencement_date": "2025-04",
+              "expiration_date": null,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "MSFT September 2024 $60B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "period": "Q4_FY2025",
+              "remaining_authorization_usd": 57349000000,
+              "return_type": "buyback",
+              "shares": 7520493
+            },
+            "identifiers": {},
+            "name": "MSFT Q4 FY2025 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 6170000000,
+              "declaration_date": "2025-06-10",
+              "payment_date": "2025-09-11",
+              "per_share": 0.83,
+              "record_date": "2025-08-21",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "MSFT Q4 FY2025 Quarterly Dividend",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "consideration_type": "equity",
+              "effective_date": "2025-05",
+              "event_type": "acquisition",
+              "registration_exemption": "Section 4(a)(2)",
+              "shares_issued": 117623
+            },
+            "identifiers": {},
+            "name": "MSFT May 2025 Acquisition with Equity Consideration",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT September 2024 $60B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Q4 FY2025 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Q4 FY2025 Quarterly Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT May 2025 Acquisition with Equity Consideration",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0000950170-25-100235.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "4cd06a112f8e3dc7ec17cad15438f82510cad0f1801d696a6d8d6f1ccd83b12c"
+    }
+  ],
+  "prompt_version": "v3"
+}

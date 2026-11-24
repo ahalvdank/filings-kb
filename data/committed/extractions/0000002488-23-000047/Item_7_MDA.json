@@ -1,0 +1,379 @@
+{
+  "accession": "0000002488-23-000047",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T02:27:28Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Data Center net revenue of $6 billion in 2022 increased by 64%, compared to net revenue of $3.7 billion in 2021. The increase was primarily driven by higher sales of our EPYC server processors.",
+            "entity_name": "AMD Data Center Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Client net revenue of $6.2 billion in 2022 decreased by 10%, compared to net revenue of $6.9 billion in 2021, primarily driven by a 24% decrease in unit shipment, partially offset by a 19% increase in average selling price. The decrease in unit shipments was due to challenging PC market conditions and significant inventory correction across the PC supply chain experienced during the second half of 2022.",
+            "entity_name": "AMD Client Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Gaming net revenue of $6.8 billion in 2022 increased by 21%, compared to net revenue of $5.6 billion in 2021. The increase in net revenue was driven by higher semi-custom product sales due to higher demand for gaming console SoCs, partially offset by lower gaming graphics sales due to a decrease in unit shipments driven by soft consumer demand given weakened macroeconomic conditions experienced in the second half of 2022.",
+            "entity_name": "AMD Gaming Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Embedded net revenue of $4.6 billion in 2022 increased significantly, compared to net revenue of $246 million in 2021. The significant increase in net revenue was primarily driven by the inclusion of Xilinx embedded product revenue as a result of the acquisition of Xilinx in February 2022.",
+            "entity_name": "AMD Embedded Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In February 2022, we completed our strategic acquisition of Xilinx, Inc. (Xilinx) which expanded our technology and product portfolio to include adaptable hardware platforms that enable hardware acceleration and rapid innovation across a variety of technologies and established AMD in multiple embedded markets where we have traditionally not had a significant presence.",
+            "entity_name": "AMD Acquisition of Xilinx, Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In May 2022, we expanded our data center solutions capabilities with the acquisition of Pensando Systems, Inc. (Pensando). We now offer high-performance data processing units (DPUs) and a software stack that complements our existing products.",
+            "entity_name": "AMD Acquisition of Pensando Systems, Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During the twelve months ended December 31, 2022, we returned a total of $3.7 billion to shareholders through the repurchase of 36.3 million shares of common stock under our stock repurchase program. As of December 31, 2022, $6.5 billion remained available for future stock repurchases under this program.",
+            "entity_name": "AMD FY2022 Stock Repurchase",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In June 2022, we issued $1.0 billion in aggregate principal amount of senior notes, consisting of $500 million in aggregate principal amount of 3.924% Senior Notes due 2032 (3.924% Notes) and $500 million in aggregate principal amount of 4.393% Senior Notes due 2052 (4.393% Notes). The 3.924% Notes will mature on June 1, 2032 and bear interest at a rate of 3.924% per annum, and the 4.393% Notes will mature on June 1, 2052 and bear interest at a rate of 4.393% per annum.",
+            "entity_name": "AMD June 2022 $1B Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "We also entered into a revolving credit agreement in June 2022. The agreement provides for a five-year unsecured revolving credit facility in the aggregate principal amount of $3.0 billion. There were no funds drawn from this facility during the year ended December 31, 2022.",
+            "entity_name": "AMD June 2022 $3B Revolving Credit Facility",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In November 2022, we established a new commercial paper program, under which we may issue unsecured commercial paper notes up to a maximum principal amount outstanding at any time of $3.0 billion with a maturity of up to 397 days from the date of issue.",
+            "entity_name": "AMD November 2022 $3B Commercial Paper Program",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Data Center"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center",
+              "ticker": "AMD"
+            },
+            "name": "AMD Data Center Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Client"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Client",
+              "ticker": "AMD"
+            },
+            "name": "AMD Client Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Gaming"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Gaming",
+              "ticker": "AMD"
+            },
+            "name": "AMD Gaming Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Embedded"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Embedded",
+              "ticker": "AMD"
+            },
+            "name": "AMD Embedded Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Xilinx acquisition"
+            ],
+            "attributes": {
+              "effective_date": "2022-02",
+              "event_type": "acquisition",
+              "target_company": "Xilinx, Inc."
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of Xilinx, Inc.",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Pensando acquisition"
+            ],
+            "attributes": {
+              "effective_date": "2022-05",
+              "event_type": "acquisition",
+              "target_company": "Pensando Systems, Inc."
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of Pensando Systems, Inc.",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 3700000000,
+              "return_type": "buyback",
+              "shares_repurchased": 36300000
+            },
+            "identifiers": {},
+            "name": "AMD FY2022 Stock Repurchase",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "3.924% Notes",
+              "4.393% Notes"
+            ],
+            "attributes": {
+              "instrument_type": "notes",
+              "issuance_date": "2022-06",
+              "note_3924_coupon": 0.03924,
+              "note_3924_maturity": "2032-06-01",
+              "note_3924_principal_usd": 500000000,
+              "note_4393_coupon": 0.04393,
+              "note_4393_maturity": "2052-06-01",
+              "note_4393_principal_usd": 500000000,
+              "principal_usd": 1000000000
+            },
+            "identifiers": {},
+            "name": "AMD June 2022 $1B Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Revolving Credit Agreement"
+            ],
+            "attributes": {
+              "instrument_type": "revolver",
+              "issuance_date": "2022-06",
+              "principal_usd": 3000000000,
+              "term_years": 5
+            },
+            "identifiers": {},
+            "name": "AMD June 2022 $3B Revolving Credit Facility",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "established_date": "2022-11",
+              "instrument_type": "notes",
+              "maturity_days_max": 397,
+              "principal_usd": 3000000000
+            },
+            "identifiers": {},
+            "name": "AMD November 2022 $3B Commercial Paper Program",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.64,
+              "period": "FY2022",
+              "revenue": 6043000000
+            },
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Data Center Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.1,
+              "period": "FY2022",
+              "revenue": 6201000000
+            },
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Client Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.21,
+              "period": "FY2022",
+              "revenue": 6805000000
+            },
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Gaming Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2022",
+              "revenue": 4552000000
+            },
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Embedded Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of Xilinx, Inc.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of Pensando Systems, Inc.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD FY2022 Stock Repurchase",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD June 2022 $1B Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD June 2022 $3B Revolving Credit Facility",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD November 2022 $3B Commercial Paper Program",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-23-000047.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "880b849bf3ef91a61010e9bbb1be2a91ad761fdc5ef9af88112e61b35228b688"
+    }
+  ],
+  "prompt_version": "v3"
+}

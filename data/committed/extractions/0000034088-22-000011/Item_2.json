@@ -1,0 +1,413 @@
+{
+  "accession": "0000034088-22-000011",
+  "item": "Item_2",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T02:44:40Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2021, ExxonMobil entered into an agreement to divest its assets in Chad. The transaction is expected to close in 2022.",
+            "entity_name": "XOM Chad Asset Divestiture Agreement 2021",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "Effective January 1, 2022, ExxonMobil no longer participates in the Qatar Liquefied Gas Company Limited (QG1) venture, representing 3.6 thousand net acres and 9.9 million tonnes per year gross liquefied natural gas capacity.",
+            "entity_name": "XOM Qatar QG1 Venture Exit 2022",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2021, the Dutch Government further reduced Groningen gas extraction. The expectation is that Groningen will cease regular production in 2022.",
+            "entity_name": "Netherlands Groningen Gas Field Regulatory Extraction Reduction",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_2"
+            },
+            "chunk_type": "segment",
+            "content": "At year-end 2021, approximately 6.3 billion oil-equivalent barrels (GOEB) of ExxonMobil's proved reserves were classified as proved undeveloped. This represents 34 percent of the 18.5 GOEB reported in proved reserves.",
+            "entity_name": "XOM Worldwide Upstream",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_2"
+            },
+            "chunk_type": "segment",
+            "content": "ExxonMobil's year-end 2021 acreage holdings totaled 10.5 million net acres, of which 0.3 million net acres were offshore. ExxonMobil was active in areas onshore and offshore in the lower 48 states and in Alaska. Development activities continued on the Golden Pass liquefied natural gas export project.",
+            "entity_name": "XOM United States Upstream Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_2"
+            },
+            "chunk_type": "segment",
+            "content": "During 2021, average net production at Kearl was about 251 thousand barrels per day. During 2021, approximately 2.4 billion barrels of bitumen at Kearl were added to proved reserves primarily as a result of an improved SEC price basis versus 2020.",
+            "entity_name": "XOM Canada Other Americas Upstream Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In addition, proved reserves could be affected by an extended period of low prices which could reduce the level of the Corporation's capital spending and also impact our partners' capacity to fund their share of joint projects.",
+            "entity_name": "ExxonMobil Proved Reserves Low-Price and Capital Spending Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "ExxonMobil",
+              "XOM"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "XOM"
+            },
+            "name": "Exxon Mobil Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "ExxonMobil Chad divestiture"
+            ],
+            "attributes": {
+              "event_type": "divestiture",
+              "expected_close_year": "2022",
+              "geography": "Chad"
+            },
+            "identifiers": {},
+            "name": "XOM Chad Asset Divestiture Agreement 2021",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Qatar Liquefied Gas Company Limited QG1 exit",
+              "QG1 venture exit"
+            ],
+            "attributes": {
+              "effective_date": "2022-01-01",
+              "event_type": "divestiture",
+              "geography": "Qatar",
+              "gross_lng_capacity_relinquished_mtpa": 9.9,
+              "net_acres_relinquished": 3600
+            },
+            "identifiers": {},
+            "name": "XOM Qatar QG1 Venture Exit 2022",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Groningen field regulatory action",
+              "Groningen production cessation"
+            ],
+            "attributes": {
+              "event_type": "regulatory_action",
+              "expected_cessation_year": "2022",
+              "geography": "Netherlands",
+              "regulator": "Dutch Government"
+            },
+            "identifiers": {},
+            "name": "Netherlands Groningen Gas Field Regulatory Extraction Reduction",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "ExxonMobil Upstream production",
+              "XOM total upstream"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Worldwide Upstream",
+              "ticker": "XOM"
+            },
+            "name": "XOM Worldwide Upstream",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "ExxonMobil US Upstream",
+              "XOM US Permian operations"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "United States Upstream",
+              "ticker": "XOM"
+            },
+            "name": "XOM United States Upstream Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "ExxonMobil Canada Upstream",
+              "XOM Kearl operations",
+              "XOM Cold Lake",
+              "XOM Syncrude"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Canada/Other Americas Upstream",
+              "ticker": "XOM"
+            },
+            "name": "XOM Canada Other Americas Upstream Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "XOM proved reserves price risk",
+              "ExxonMobil reserves estimation uncertainty"
+            ],
+            "attributes": {
+              "category": "commodity_price",
+              "geography": "Worldwide"
+            },
+            "identifiers": {},
+            "name": "ExxonMobil Proved Reserves Low-Price and Capital Spending Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Chad Asset Divestiture Agreement 2021",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Qatar QG1 Venture Exit 2022",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Netherlands Groningen Gas Field Regulatory Extraction Reduction",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "oil_equivalent_production_kbbl_d": 3712,
+              "period": "FY2021",
+              "proved_undeveloped_reserves_mmboe": 6300,
+              "total_proved_reserves_mmboe": 18536
+            },
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Worldwide Upstream",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "avg_crude_price_per_bbl_usd": 65.03,
+              "avg_production_cost_per_boe_usd": 8.33,
+              "crude_oil_production_kbbl_d_consolidated": 482,
+              "natural_gas_production_mmcfd_consolidated": 2724,
+              "net_acreage_million_acres": 10.5,
+              "period": "FY2021"
+            },
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "XOM United States Upstream Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "avg_bitumen_price_per_bbl_usd": 44.26,
+              "avg_crude_price_per_bbl_usd": 68.56,
+              "avg_production_cost_per_boe_usd": 22.47,
+              "bitumen_production_kbbl_d": 365,
+              "kearl_avg_net_production_kbbl_d": 251,
+              "period": "FY2021",
+              "synthetic_oil_production_kbbl_d": 62
+            },
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Canada Other Americas Upstream Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "ExxonMobil Proved Reserves Low-Price and Capital Spending Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-22-000011.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "87d000db22589fb75f57a91f2cfb230822fb0f859df6ec5c8c4a5bfbf716255e"
+    },
+    {
+      "extracted_at": "2026-09-01T02:46:27Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_2",
+              "total_refining_capacity_kbd": 4567,
+              "total_retail_sites_worldwide": 22545
+            },
+            "chunk_type": "segment",
+            "content": "ExxonMobil's Downstream segment manufactures, trades and sells petroleum products. The refining and supply operations encompass a global network of manufacturing plants, transportation systems, and distribution centers that provide a range of fuels, lubricants and other products and feedstocks to our customers around the world.",
+            "entity_name": "ExxonMobil Downstream Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "section_type": "Item_2",
+              "total_ethylene_capacity_mmtpy": 11.9,
+              "total_paraxylene_capacity_mmtpy": 4.1,
+              "total_polyethylene_capacity_mmtpy": 11.2,
+              "total_polypropylene_capacity_mmtpy": 2.8
+            },
+            "chunk_type": "segment",
+            "content": "ExxonMobil's Chemical segment manufactures and sells petrochemicals. The Chemical business supplies olefins, polyolefins, aromatics, and a wide variety of other petrochemicals.",
+            "entity_name": "ExxonMobil Chemical Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "ExxonMobil",
+              "Exxon Mobil"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "XOM"
+            },
+            "name": "ExxonMobil Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Downstream"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Downstream",
+              "ticker": "XOM"
+            },
+            "name": "ExxonMobil Downstream Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Chemical"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Chemical",
+              "ticker": "XOM"
+            },
+            "name": "ExxonMobil Chemical Segment",
+            "type": "RevenueSegment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "period": "FY2021",
+              "total_refining_capacity_kbd": 4567,
+              "total_retail_sites_worldwide": 22545
+            },
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "ExxonMobil Downstream Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2021",
+              "total_ethylene_capacity_mmtpy": 11.9,
+              "total_paraxylene_capacity_mmtpy": 4.1,
+              "total_polyethylene_capacity_mmtpy": 11.2,
+              "total_polypropylene_capacity_mmtpy": 2.8
+            },
+            "source_name": "XOM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "ExxonMobil Chemical Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-22-000011.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "940df98ac9d179e3e3d608dfe3833f24fdb3cd14eb34637b88e572e118a1a482"
+    }
+  ],
+  "prompt_version": "v3"
+}

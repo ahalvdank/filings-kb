@@ -1,0 +1,102 @@
+{
+  "accession": "0001018724-25-000004",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T06:15:33Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Certification of Andrew R. Jassy, President and Chief Executive Officer of Amazon.com, Inc., pursuant to Rule 13a-14(a) under the Securities Exchange Act of 1934.",
+            "entity_name": "Andrew R. Jassy",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Certification of Brian T. Olsavsky, Senior Vice President and Chief Financial Officer of Amazon.com, Inc., pursuant to Rule 13a-14(a) under the Securities Exchange Act of 1934.",
+            "entity_name": "Brian T. Olsavsky",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMZN",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Andrew R. Jassy",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "AMZN",
+              "insider_status": "officer",
+              "officer_role": "CFO"
+            },
+            "identifiers": {},
+            "name": "Brian T. Olsavsky",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Amazon"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMZN"
+            },
+            "name": "Amazon.com, Inc.",
+            "type": "Company"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Andrew R. Jassy",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO"
+            },
+            "source_name": "Brian T. Olsavsky",
+            "source_type_entity": "Person",
+            "target_name": "Amazon.com, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-25-000004.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "a7e4a0ccaf31f33df9dd960b8ab1cd3e837f24715e402bb1661cef8de454f1e4"
+    }
+  ],
+  "prompt_version": "v3"
+}

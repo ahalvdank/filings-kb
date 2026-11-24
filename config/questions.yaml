@@ -1,0 +1,180 @@
+# Candidate query traces (D8, rewritten for the pinned 12-company sample).
+# Retrieval runs per (filing, item): top_k passages each; every (filing, item) group gets
+# max_passages // groups of the max_passages slots, leftovers go to the best remaining scores.
+# display_cutoff: passages scoring below it are not shown to the model and are exported as
+# rejected candidates (included: false). It is applied before the per-filing quota and
+# max_passages. The best max_rejected rejected candidates per trace are exported.
+# fiscal_year is the company's own (NVDA and MSFT FY2026 end in Jan/Jun 2026).
+# Avoid Item_7_MDA for CVX, JPM and XOM (one-chunk stubs incorporated by reference) and for
+# INTC (not detected; its MD&A is folded into other items).
+top_k: 20
+max_passages: 40
+max_rejected: 10
+# 0.35: the score distribution has no clean valley (one hump, 0.40-0.55, with a thin left
+# tail); 0.35 is where it rises steeply, and it sits below the lowest passage any answer
+# cites (0.375), so no cited evidence is cut. See exports/score_distribution.txt.
+display_cutoff: 0.35
+
+questions:
+  - slug: nvda-export-control-risk-fy22-fy26
+    title: NVIDIA export-control and customer-concentration risk, FY2022 to FY2026
+    question: How did NVIDIA's risk-factor disclosures on export controls and customer concentration change between its FY2022 and FY2026 10-Ks?
+    category: risk_shift
+    filings:
+      - {ticker: NVDA, fiscal_year: 2022}
+      - {ticker: NVDA, fiscal_year: 2023}
+      - {ticker: NVDA, fiscal_year: 2024}
+      - {ticker: NVDA, fiscal_year: 2025}
+      - {ticker: NVDA, fiscal_year: 2026}
+    items: [Item_1A]
+    featured: true
+    audit: pass
+    audit_note: "Audited by Andrew 2026-11-23: pass."
+
+  - slug: intc-foundry-execution-risk-fy24-fy25
+    title: Intel foundry execution and capital-intensity risk, FY2024 to FY2025
+    question: What manufacturing, foundry-customer and impairment risks does Intel emphasize in its FY2025 10-K compared with FY2024?
+    category: risk_shift
+    filings:
+      - {ticker: INTC, fiscal_year: 2024}
+      - {ticker: INTC, fiscal_year: 2025}
+    items: [Item_1A]
+    featured: false
+    audit: pass
+    audit_note: "Audited by Andrew 2026-11-23: pass."
+
+  - slug: unh-cyber-regulatory-risk-fy23-fy25
+    title: UnitedHealth cybersecurity and regulatory-scrutiny risk, FY2023 to FY2025
+    question: How did UnitedHealth Group's cybersecurity, operational-disruption and regulatory risk language, and its legal-proceedings disclosure, change between FY2023 and FY2025?
+    category: risk_shift
+    filings:
+      - {ticker: UNH, fiscal_year: 2023}
+      - {ticker: UNH, fiscal_year: 2024}
+      - {ticker: UNH, fiscal_year: 2025}
+    items: [Item_1A, Item_1C, Item_3]
+    featured: false
+    audit: fail
+    audit_note: "three weak sentences: FY2023 'no external advisor' absence claim contradicted by the passage's 'periodically partner with industry-leading cybersecurity firms'; FY2023/FY2024 AI claim cites only FY2025; causal 'in the wake of the Change Healthcare incident' not in filing."
+
+  - slug: amd-fy2025-10ka-amendment
+    title: What AMD changed in its amended FY2025 10-K
+    question: What did AMD change in its amended FY2025 10-K?
+    category: risk_shift
+    filings:
+      - {ticker: AMD, fiscal_year: 2025}
+    items: [Item_7_MDA]
+    amendment: true
+    featured: true
+    audit: pass
+    audit_note: "Audited by Andrew 2026-11-23: pass."
+
+  - slug: meta-ai-capex-vs-monetization-risk-fy25
+    title: Meta AI investment ambition against monetization risk, FY2025
+    question: Where do Meta's FY2025 MD&A statements on AI infrastructure investment sit in tension with its risk-factor caveats on monetization and return on that investment?
+    category: contradiction
+    filings:
+      - {ticker: META, fiscal_year: 2025}
+    items: [Item_7_MDA, Item_1A]
+    featured: true
+    audit: pass
+    audit_note: "Audited by Andrew 2026-11-23: pass."
+
+  - slug: ba-delivery-outlook-vs-constraints-fy25
+    title: Boeing delivery recovery against regulatory and supply constraints, FY2025
+    question: What tensions exist in Boeing's FY2025 10-K between its commentary on commercial delivery recovery and the regulatory, legal and supply-chain constraints it discloses?
+    category: contradiction
+    filings:
+      - {ticker: BA, fiscal_year: 2025}
+    items: [Item_7_MDA, Item_1A, Item_3]
+    featured: false
+    audit: pass
+    audit_note: "Audited by Andrew 2026-11-23: pass."
+
+  - slug: cvx-lower-carbon-vs-upstream-investment-fy25
+    title: Chevron lower-carbon commitments against hydrocarbon investment, FY2025
+    question: How do Chevron's stated lower-carbon commitments compare with the hydrocarbon investment priorities and climate-regulation risks in its FY2025 10-K?
+    category: contradiction
+    filings:
+      - {ticker: CVX, fiscal_year: 2025}
+    items: [Item_1, Item_1A]
+    featured: false
+    audit: pass
+    audit_note: "Audited by Andrew 2026-11-23: pass."
+
+  - slug: ba-liquidity-and-debt-fy24-fy25
+    title: Boeing liquidity, debt and equity actions, FY2024 to FY2025
+    question: What debt issuances, credit-facility changes and equity-raising actions did Boeing disclose across its FY2024 and FY2025 10-Ks to manage liquidity?
+    category: capital_structure
+    filings:
+      - {ticker: BA, fiscal_year: 2024}
+      - {ticker: BA, fiscal_year: 2025}
+    items: [Item_7_MDA, Item_8]
+    featured: true
+    audit: pass
+    audit_note: "Audited by Andrew 2026-11-23: pass."
+
+  - slug: jpm-capital-return-and-regulatory-capital-fy24-fy25
+    title: JPMorgan capital returns and regulatory-capital posture, FY2024 to FY2025
+    question: How did JPMorgan Chase's disclosures on buybacks, dividends and regulatory-capital requirements evolve between its FY2024 and FY2025 10-Ks?
+    category: capital_structure
+    filings:
+      - {ticker: JPM, fiscal_year: 2024}
+      - {ticker: JPM, fiscal_year: 2025}
+    items: [Item_1, Item_1A, Item_5]
+    featured: true
+    audit: pass
+    audit_note: "Audited by Andrew 2026-11-23: pass."
+
+  - slug: intc-capital-return-and-external-funding-fy24-fy25
+    title: Intel capital returns and external funding, FY2024 to FY2025
+    question: How did Intel's capital-return posture and external funding sources, including government grants and partner investments, shift between its FY2024 and FY2025 10-Ks?
+    category: capital_structure
+    filings:
+      - {ticker: INTC, fiscal_year: 2024}
+      - {ticker: INTC, fiscal_year: 2025}
+    items: [Item_1A, Item_8]
+    featured: false
+    audit: pass
+    audit_note: "Audited by Andrew 2026-11-23: pass."
+
+  - slug: nvda-amd-intc-foundry-dependency-fy25
+    title: NVIDIA, AMD and Intel on foundry and packaging dependency
+    question: How do NVIDIA, AMD and Intel differ in how they describe third-party foundry and advanced-packaging concentration risk in their latest 10-Ks?
+    category: cross_company
+    filings:
+      - {ticker: NVDA, fiscal_year: 2026}
+      - {ticker: AMD, fiscal_year: 2025}
+      - {ticker: INTC, fiscal_year: 2025}
+    items: [Item_1A]
+    featured: true
+    audit: pass
+    audit_note: "Audited by Andrew 2026-11-23: pass."
+
+  - slug: ai-value-chain-suppliers-vs-buyers
+    title: The AI value chain, chip suppliers against hyperscale buyers
+    question: How do the AI chip suppliers (NVIDIA, AMD, Intel) and the hyperscale buyers (Microsoft, Alphabet, Amazon, Meta) describe the risks of AI infrastructure demand, supply and spending in their latest 10-Ks?
+    category: cross_company
+    filings:
+      - {ticker: NVDA, fiscal_year: 2026}
+      - {ticker: AMD, fiscal_year: 2025}
+      - {ticker: INTC, fiscal_year: 2025}
+      - {ticker: MSFT, fiscal_year: 2026}
+      - {ticker: GOOGL, fiscal_year: 2025}
+      - {ticker: AMZN, fiscal_year: 2025}
+      - {ticker: META, fiscal_year: 2025}
+    items: [Item_1A]
+    featured: true
+    audit: pass
+    audit_note: "Audited by Andrew 2026-11-23: pass."
+
+  - slug: xom-vs-cvx-energy-transition-risk-fy25
+    title: ExxonMobil against Chevron on energy-transition risk
+    question: How do ExxonMobil and Chevron differ in how their FY2025 10-Ks describe climate-policy and energy-transition risk?
+    category: cross_company
+    filings:
+      - {ticker: XOM, fiscal_year: 2025}
+      - {ticker: CVX, fiscal_year: 2025}
+    items: [Item_1A]
+    featured: true
+    audit: pass
+    audit_note: "Audited by Andrew 2026-11-23: pass."

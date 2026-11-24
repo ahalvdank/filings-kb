@@ -1,0 +1,93 @@
+{
+  "accession": "0000019617-24-000225",
+  "item": "Item_9A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-19T12:59:56Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9A"
+            },
+            "chunk_type": "material_event",
+            "content": "On May 1, 2023, the Firm acquired certain assets and assumed certain liabilities of First Republic Bank from the FDIC. The Firm has included internal controls over these acquired assets and assumed liabilities in its evaluation of the effectiveness of disclosure controls and procedures.",
+            "entity_name": "JPM Acquisition of First Republic Bank Assets from FDIC",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Nevertheless, because of its inherent limitations, internal control over financial reporting may not prevent or detect all misstatements. Deficiencies or lapses in internal controls may occur from time to time, and there can be no assurance that any such deficiencies will not result in significant deficiencies or material weaknesses in internal control in the future and collateral consequences therefrom.",
+            "entity_name": "JPM Internal Control Limitations Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "First Republic Bank acquisition",
+              "First Republic deal"
+            ],
+            "attributes": {
+              "counterparty": "FDIC",
+              "effective_date": "2023-05-01",
+              "event_type": "acquisition",
+              "target_company": "First Republic Bank"
+            },
+            "identifiers": {},
+            "name": "JPM Acquisition of First Republic Bank Assets from FDIC",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "internal control material weakness risk",
+              "disclosure controls deficiency risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "subcategory": "internal_controls"
+            },
+            "identifiers": {},
+            "name": "JPM Internal Control Limitations Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Acquisition of First Republic Bank Assets from FDIC",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Internal Control Limitations Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/JPM/0000019617-24-000225.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "bf1b446586f09865ea29e563caef4b589cc71088f0a9d98f3da2c5bd78bd46fc"
+    }
+  ],
+  "prompt_version": "v3"
+}

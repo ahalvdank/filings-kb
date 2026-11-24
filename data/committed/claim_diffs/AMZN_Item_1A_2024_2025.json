@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-11-23T07:52:30.116516+00:00",
+  "current_fy": 2025,
+  "input_sha256": "83f2ef4e8c56b94ba320e4abc737330478b6e3f7f32b6695c2c7de3b5045ab28",
+  "item": "Item_1A",
+  "model": "claude-sonnet-4-6",
+  "prior_fy": 2024,
+  "prompt_sha256": "71d2da8ab6cdab15e1608c2f958dd4ee476ccefb8769395dad274dfc53c246fc",
+  "result": {
+    "added": [
+      "AMZN AI and New Technology Investment Risk",
+      "AMZN Climate Change Operational Risk"
+    ],
+    "changed": [
+      [
+        "China-based seller and supplier concentration categorized as supply chain risk",
+        "China seller concentration reframed as geopolitical risk; supplier supply-chain angle dropped"
+      ],
+      [
+        "IP infringement risk explicitly names AI copyright as a component",
+        "AI copyright no longer separately named; risk scoped to IP infringement only"
+      ],
+      [
+        "System interruption risk focused on website availability",
+        "System interruption risk focused on infrastructure redundancy"
+      ],
+      [
+        "Inventory risk centered on demand forecasting failures",
+        "Inventory risk centered on write-offs"
+      ],
+      [
+        "Tax risk names global minimum tax as a specific concern",
+        "Tax risk reframed around collection obligations; global minimum tax no longer named"
+      ]
+    ],
+    "removed": [
+      "AMZN New Product Service and Geographic Expansion Risk",
+      "AMZN International Operations Risk",
+      "AMZN Retail Demand Variability and Seasonality Risk",
+      "AMZN Operational Expansion and Management Strain Risk",
+      "AMZN Operating Results Fluctuation and Revenue Growth Sustainability Risk",
+      "AMZN Fulfillment Network and Data Center Optimization Risk",
+      "AMZN Commercial Agreement and Strategic Alliance Risk",
+      "AMZN Acquisition and Investment Integration Risk",
+      "AMZN Payment Processing Fraud and Regulatory Compliance Risk",
+      "AMZN Stock Price Volatility Risk",
+      "AMZN Claims Litigation and Government Investigation Risk",
+      "AMZN Government Contracts Procurement and Audit Risk"
+    ]
+  },
+  "ticker": "AMZN"
+}

@@ -1,0 +1,226 @@
+{
+  "accession": "0000731766-24-000081",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T23:47:13Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "amounts_in_millions": true,
+              "schedule": "Schedule_I_Condensed_Statements_of_Cash_Flows",
+              "section_type": "Item_15",
+              "years": "2023, 2022, 2021"
+            },
+            "chunk_type": "capital_return",
+            "content": "Common stock repurchases(8,000)(7,000)(5,000)",
+            "entity_name": "UNH FY2023 Common Stock Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "amounts_in_millions": true,
+              "schedule": "Schedule_I_Condensed_Statements_of_Cash_Flows",
+              "section_type": "Item_15",
+              "years": "2023, 2022, 2021"
+            },
+            "chunk_type": "capital_return",
+            "content": "Cash dividends paid(6,761)(5,991)(5,280)",
+            "entity_name": "UNH FY2023 Cash Dividends Paid",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "amounts_in_millions": true,
+              "schedule": "Schedule_I_Condensed_Statements_of_Cash_Flows",
+              "section_type": "Item_15",
+              "years": "2023, 2022, 2021"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Proceeds from issuance of long-term debt6,394 14,819 6,933 Repayments of long-term debt(2,125)(3,015)(3,150)",
+            "entity_name": "UNH FY2023 Long-Term Debt Issuances",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2024-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "schedule": "Schedule_I_Note_3",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Maturities of short-term borrowings and long-term debt for the years ending December 31 are as follows: (in millions) 2024$4,088 20253,050 20262,500 20272,925 20283,000 Thereafter47,002",
+            "entity_name": "UNH FY2023 Long-Term Debt Issuances",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2024-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit_number": "4.3",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Supplemental Indenture, dated as of April 18, 2023, between UnitedHealth Group Incorporated and U.S. Bank Trust Company, National Association, as trustee, relating to the 6.875% Senior Notes due 2038 (incorporated by reference to Exhibit 4.1 to UnitedHealth Group Incorporated's Current Report on Form 8-K filed on April 24, 2023)",
+            "entity_name": "UNH April 2023 6.875% Senior Notes due 2038",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2024-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit_number": "97.1",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "UnitedHealth Group Dodd-Frank Clawback Policy, effective December 1, 2023",
+            "entity_name": "UNH Dodd-Frank Clawback Policy Adoption",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-02-28",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UnitedHealth Group",
+              "UNH"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "UNH"
+            },
+            "name": "UnitedHealth Group Incorporated",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "UNH 2023 share buybacks"
+            ],
+            "attributes": {
+              "amount_usd": 8000000000,
+              "fiscal_year": 2023,
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "UNH FY2023 Common Stock Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 6761000000,
+              "fiscal_year": 2023,
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "UNH FY2023 Cash Dividends Paid",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "fiscal_year": 2023,
+              "instrument_type": "notes",
+              "principal_usd": 6394000000,
+              "repayments_usd": 2125000000
+            },
+            "identifiers": {},
+            "name": "UNH FY2023 Long-Term Debt Issuances",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "UNH 6.875% 2038 Notes"
+            ],
+            "attributes": {
+              "coupon": 0.06875,
+              "effective_date": "2023-04-18",
+              "instrument_type": "notes",
+              "maturity": "2038",
+              "trustee": "U.S. Bank Trust Company, National Association"
+            },
+            "identifiers": {},
+            "name": "UNH April 2023 6.875% Senior Notes due 2038",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "UNH Clawback Policy"
+            ],
+            "attributes": {
+              "effective_date": "2023-12-01",
+              "event_type": "compensation_disclosure"
+            },
+            "identifiers": {},
+            "name": "UNH Dodd-Frank Clawback Policy Adoption",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2023 Common Stock Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2023 Cash Dividends Paid",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2023 Long-Term Debt Issuances",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2024-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH April 2023 6.875% Senior Notes due 2038",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2024-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Dodd-Frank Clawback Policy Adoption",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-02-28",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-24-000081.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "1c7694ebfe0c1842faee9922cfb201a62453654caf361be886b4e2eb9eb8d734"
+    }
+  ],
+  "prompt_version": "v3"
+}

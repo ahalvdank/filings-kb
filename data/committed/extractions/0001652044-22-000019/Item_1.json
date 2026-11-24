@@ -1,0 +1,342 @@
+{
+  "accession": "0001652044-22-000019",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T21:03:32Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "We continue this work under the leadership of Sundar Pichai, who has served as CEO of Google since 2015 and as CEO of Alphabet since 2019.",
+            "entity_name": "Sundar Pichai",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "Google Services' core products and platforms include ads, Android, Chrome, hardware, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube, each with broad and growing adoption by users around the world.",
+            "entity_name": "GOOGL Google Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "We see significant opportunity in helping businesses utilize these strengths with features like data migration, modern development environments, and machine learning tools to provide enterprise-ready cloud services, including Google Cloud Platform and Google Workspace.",
+            "entity_name": "GOOGL Google Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "Alphabet's investment in the portfolio of Other Bets includes emerging businesses at various stages of development, ranging from those in the R&D phase to those that are in the beginning stages of commercialization, and our goal is for them to become thriving, successful businesses in the medium to long term.",
+            "entity_name": "GOOGL Other Bets Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "By 2030, we aim to: achieve net-zero emissions across all of our operations and value chain; become the first major company to run on carbon-free energy 24 hours a day, seven days a week, 365 days a year; enable 5 gigawatts of new carbon-free energy through investments in our key manufacturing regions; and help more than 500 cities and local governments reduce an aggregate of 1 gigaton of carbon emissions annually.",
+            "entity_name": "GOOGL 2030 Net-Zero Emissions Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "become the first major company to run on carbon-free energy 24 hours a day, seven days a week, 365 days a year",
+            "entity_name": "GOOGL 2030 24/7 Carbon-Free Energy Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "we have set goals to replenish more water than we consume by 2030 and to support water security in communities where we operate.",
+            "entity_name": "GOOGL 2030 Water Replenishment Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "At Alphabet, we are committed to making diversity, equity, and inclusion part of everything we do and to growing a workforce that is representative of the users we serve.",
+            "entity_name": "GOOGL Diversity Equity and Inclusion Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In 2020, we issued $5.75 billion in sustainability bonds—the largest sustainability or green bond issuance by any company in history at the time. The net proceeds from the issuance are used to fund environmentally and socially responsible projects in the following eight areas: energy efficiency, clean energy, green buildings, clean transportation, circular economy and design, affordable housing, commitment to racial equity, and support for small businesses and COVID-19 crisis response.",
+            "entity_name": "GOOGL $5.75B Sustainability Bonds 2020",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Alphabet",
+              "Google"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "GOOGL",
+              "insider_status": "officer",
+              "officer_role": "CEO",
+              "tenure_start_date": "2019"
+            },
+            "identifiers": {},
+            "name": "Sundar Pichai",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Google Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Services",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Cloud",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Other Bets"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Other Bets",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Other Bets Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Alphabet 2030 net zero",
+              "Google net-zero 2030"
+            ],
+            "attributes": {
+              "commitment_type": "carbon_neutral",
+              "scope": "all operations and value chain",
+              "target_year": 2030
+            },
+            "identifiers": {},
+            "name": "GOOGL 2030 Net-Zero Emissions Commitment",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Google 24/7 carbon-free energy 2030"
+            ],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "target_value": "carbon-free energy 24 hours a day, seven days a week, 365 days a year",
+              "target_year": 2030
+            },
+            "identifiers": {},
+            "name": "GOOGL 2030 24/7 Carbon-Free Energy Commitment",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Google water replenishment 2030"
+            ],
+            "attributes": {
+              "commitment_type": "water_use",
+              "target_value": "replenish more water than consumed",
+              "target_year": 2030
+            },
+            "identifiers": {},
+            "name": "GOOGL 2030 Water Replenishment Commitment",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Alphabet DEI commitment",
+              "Google DEI"
+            ],
+            "attributes": {
+              "commitment_type": "dei"
+            },
+            "identifiers": {},
+            "name": "GOOGL Diversity Equity and Inclusion Commitment",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Google 2020 green bond",
+              "Google sustainability bond issuance"
+            ],
+            "attributes": {
+              "instrument_type": "bonds",
+              "issuance_date": "2020",
+              "principal_usd": 5750000000,
+              "purpose": "fund environmentally and socially responsible projects"
+            },
+            "identifiers": {},
+            "name": "GOOGL $5.75B Sustainability Bonds 2020",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "CEO",
+              "tenure_start_date": "2019"
+            },
+            "source_name": "Sundar Pichai",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Other Bets Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL 2030 Net-Zero Emissions Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL 2030 24/7 Carbon-Free Energy Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL 2030 Water Replenishment Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Diversity Equity and Inclusion Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL $5.75B Sustainability Bonds 2020",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-22-000019.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "99e11d0304aa53aff86bf236614285ebf8bce8fabe80dbcaf305f53f1f36f583"
+    }
+  ],
+  "prompt_version": "v3"
+}

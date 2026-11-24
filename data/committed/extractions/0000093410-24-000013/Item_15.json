@@ -1,0 +1,483 @@
+{
+  "accession": "0000093410-24-000013",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T14:27:18Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "capacity": "Principal Executive Officer and Director",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Michael K. Wirth, Chairman of the Board and Chief Executive Officer",
+            "entity_name": "Michael K. Wirth",
+            "entity_type_entity": "Person",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "capacity": "Principal Financial Officer",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Pierre R. Breber, Vice President and Chief Financial Officer",
+            "entity_name": "Pierre R. Breber",
+            "entity_type_entity": "Person",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "capacity": "Principal Accounting Officer",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Alana K. Knowles, Vice President and Controller",
+            "entity_name": "Alana K. Knowles",
+            "entity_type_entity": "Person",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Collective director signature block; all names taken verbatim from signatures section.",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Pursuant to the requirements of the Securities Exchange Act of 1934, this report has been signed below by the following persons on behalf of the Registrant and in the capacities indicated on the 26th day of February, 2024. Directors: Wanda M. Austin, John B. Frank, Alice P. Gast, Enrique Hernandez, Jr., Marillyn A. Hewson, Jon M. Huntsman Jr., Charles W. Moorman, Dambisa F. Moyo, Debra Reed-Klages, D. James Umpleby III, Cynthia J. Warner.",
+            "entity_name": "Wanda M. Austin",
+            "entity_type_entity": "Person",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit_number": "2.1",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Agreement and Plan of Merger, dated as of October 22, 2023 among Chevron Corporation, Yankee Merger Sub Inc., and Hess Corporation, filed as Exhibit 2.1 to Chevron Corporation's Current Report on Form 8-K filed October 23, 2023, and incorporated herein by reference.",
+            "entity_name": "CVX Acquisition of Hess Corporation",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit_number": "10.38",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "General Release and Separation Agreement, dated February 15, 2023, by and between Chevron Corporation and James W. Johnson, filed as Exhibit 10.38 to Chevron Corporation's Annual Report on Form 10-K for the year ended December 31, 2022 and incorporated herein by reference.",
+            "entity_name": "James W. Johnson Separation from Chevron",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Chevron",
+              "CVX"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "Chevron Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Hess"
+            ],
+            "attributes": {},
+            "identifiers": {},
+            "name": "Hess Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Michael K. Wirth",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "officer",
+              "officer_role": "CFO"
+            },
+            "identifiers": {},
+            "name": "Pierre R. Breber",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "title": "Vice President and Controller"
+            },
+            "identifiers": {},
+            "name": "Alana K. Knowles",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "director",
+              "officer_role": "none"
+            },
+            "identifiers": {},
+            "name": "Wanda M. Austin",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "director",
+              "officer_role": "none"
+            },
+            "identifiers": {},
+            "name": "John B. Frank",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "director",
+              "officer_role": "none"
+            },
+            "identifiers": {},
+            "name": "Alice P. Gast",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "director",
+              "officer_role": "none"
+            },
+            "identifiers": {},
+            "name": "Enrique Hernandez, Jr.",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "director",
+              "officer_role": "none"
+            },
+            "identifiers": {},
+            "name": "Marillyn A. Hewson",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "director",
+              "officer_role": "none"
+            },
+            "identifiers": {},
+            "name": "Jon M. Huntsman Jr.",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "director",
+              "officer_role": "none"
+            },
+            "identifiers": {},
+            "name": "Charles W. Moorman",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "director",
+              "officer_role": "none"
+            },
+            "identifiers": {},
+            "name": "Dambisa F. Moyo",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "director",
+              "officer_role": "none"
+            },
+            "identifiers": {},
+            "name": "Debra Reed-Klages",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "director",
+              "officer_role": "none"
+            },
+            "identifiers": {},
+            "name": "D. James Umpleby III",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "CVX",
+              "insider_status": "director",
+              "officer_role": "none"
+            },
+            "identifiers": {},
+            "name": "Cynthia J. Warner",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Chevron-Hess Merger"
+            ],
+            "attributes": {
+              "agreement_date": "2023-10-22",
+              "event_type": "acquisition",
+              "target_company": "Hess Corporation"
+            },
+            "identifiers": {},
+            "name": "CVX Acquisition of Hess Corporation",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "agreement_date": "2023-02-15",
+              "departure_person": "James W. Johnson",
+              "event_type": "management_change"
+            },
+            "identifiers": {},
+            "name": "James W. Johnson Separation from Chevron",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Michael K. Wirth",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO"
+            },
+            "source_name": "Pierre R. Breber",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Vice President and Controller"
+            },
+            "source_name": "Alana K. Knowles",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Wanda M. Austin",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "John B. Frank",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Alice P. Gast",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Enrique Hernandez, Jr.",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Marillyn A. Hewson",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Jon M. Huntsman Jr.",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Charles W. Moorman",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Dambisa F. Moyo",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Debra Reed-Klages",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "D. James Umpleby III",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Cynthia J. Warner",
+            "source_type_entity": "Person",
+            "target_name": "Chevron Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Acquisition of Hess Corporation",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "James W. Johnson Separation from Chevron",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-02-26",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-24-000013.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "83403b4b9a4f3e4814d1cf0e86e24f7ec6dd539f35f2e50f0cb87fe13f904de3"
+    }
+  ],
+  "prompt_version": "v3"
+}

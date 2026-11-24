@@ -1,0 +1,266 @@
+{
+  "accession": "0001652044-23-000016",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T20:40:43Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "International revenues, as well as costs and expenses denominated in foreign currencies, expose us to the risk of fluctuations in foreign currency exchange rates against the U.S. dollar. Principal currencies hedged included the Australian dollar, British pound, Canadian dollar, Euro, and Japanese yen. For the purpose of analyzing foreign currency exchange risk, we considered the historical trends in foreign currency exchange rates and determined that it was reasonably possible that adverse changes in exchange rates of 10% could be experienced.",
+            "entity_name": "GOOGL Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A",
+              "sensitivity_metric": "adverse_10pct_fx_change"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If an adverse 10% foreign currency exchange rate change was applied to total monetary assets, liabilities, and commitments denominated in currencies other than the functional currencies at the balance sheet date, it would have resulted in an adverse effect on income before income taxes of approximately $285 million and $136 million as of December 31, 2021 and 2022, respectively, after consideration of the effect of foreign exchange contracts in place for the years ended December 31, 2021 and 2022.",
+            "entity_name": "GOOGL Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A",
+              "sensitivity_metric": "cash_flow_hedge_aoci_10pct_usd_weakening"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If the U.S. dollar weakened by 10% as of December 31, 2021 and 2022, the amount recorded in AOCI related to our cash flow hedges before tax effect would have been approximately $1.3 billion lower for both December 31, 2021 and 2022. The change in the value recorded in AOCI would be expected to offset a corresponding foreign currency change in forecasted hedged revenues when recognized.",
+            "entity_name": "GOOGL Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A",
+              "sensitivity_metric": "net_investment_hedge_cta_10pct_usd_weakening"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If the U.S. dollar weakened by 10%, the amount recorded in cumulative translation adjustment (CTA) within AOCI related to our net investment hedges before tax effect would have been approximately $975 million and $903 million lower as of December 31, 2021 and 2022, respectively. The change in value recorded in CTA would be expected to offset a corresponding foreign currency translation gain or loss from our investment in foreign subsidiaries.",
+            "entity_name": "GOOGL Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our investments in both fixed rate and floating rate interest earning securities carry a degree of interest rate risk. Fixed rate securities may have their fair market value adversely affected due to a rise in interest rates, while floating rate securities may produce less income than predicted if interest rates fall.",
+            "entity_name": "GOOGL Interest Rate Risk on Debt Securities Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A",
+              "sensitivity_metric": "var_95pct_one_day",
+              "var_2021_usd_millions": 139,
+              "var_2022_usd_millions": 256
+            },
+            "chunk_type": "risk_factor",
+            "content": "We use value-at-risk (VaR) analysis to determine the potential effect of fluctuations in interest rates on the value of our marketable debt security portfolio. The VaR is the expected loss in fair value, for a given confidence interval, for our investment portfolio due to adverse movements in interest rates. We use a variance/covariance VaR model with 95% confidence interval. The estimated one-day loss in fair value of marketable debt securities as of December 31, 2021 and 2022 are shown below (in millions): Risk category - interest rate$139 $256 $148 $198",
+            "entity_name": "GOOGL Interest Rate Risk on Debt Securities Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our marketable and non-marketable equity securities are subject to a wide variety of market-related risks that could substantially reduce or increase the fair value of our holdings.",
+            "entity_name": "GOOGL Marketable Equity Securities Price Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A",
+              "sensitivity_metric": "hypothetical_10pct_adverse_price_change"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We record marketable equity securities not accounted for under the equity method at fair value based on readily determinable market values, of which publicly traded stocks and mutual funds are subject to market price volatility, and represent $7.8 billion and $5.2 billion of our investments as of December 31, 2021 and 2022, respectively. A hypothetical adverse price change of 10% on our December 31, 2022 balance would decrease the fair value of marketable equity securities by $516 million.",
+            "entity_name": "GOOGL Marketable Equity Securities Price Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "These investments, especially those that are in the early stages, are inherently risky because the technologies or products these companies have under development are typically in the early phases and may never materialize, and they may experience a decline in financial condition, which could result in a loss of a substantial part of our investment in these companies. Valuations of our equity investments in private companies are inherently more complex due to the lack of readily available market data and observable transactions at lower valuations could result in significant losses.",
+            "entity_name": "GOOGL Non-Marketable Equity Securities Valuation Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2021 and 2022, the carrying value of our non-marketable equity securities, which were accounted for under the measurement alternative, was $27.6 billion and $28.5 billion, respectively.",
+            "entity_name": "GOOGL Non-Marketable Equity Securities Valuation Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "FX rate risk",
+              "foreign currency risk",
+              "currency exchange risk"
+            ],
+            "attributes": {
+              "adverse_10pct_income_impact_usd_2021": 285000000,
+              "adverse_10pct_income_impact_usd_2022": 136000000,
+              "category": "currency",
+              "geography": "international",
+              "hedging_instruments": [
+                "forward contracts",
+                "option contracts",
+                "collars",
+                "net investment hedges"
+              ],
+              "principal_currencies_hedged": [
+                "AUD",
+                "GBP",
+                "CAD",
+                "EUR",
+                "JPY"
+              ]
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Foreign Currency Exchange Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "interest rate risk",
+              "marketable debt securities interest rate risk"
+            ],
+            "attributes": {
+              "category": "interest_rate",
+              "var_12mo_avg_usd_2021": 148000000,
+              "var_12mo_avg_usd_2022": 198000000,
+              "var_method": "variance_covariance_95pct_one_day",
+              "var_one_day_usd_2021": 139000000,
+              "var_one_day_usd_2022": 256000000
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Interest Rate Risk on Debt Securities Portfolio",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "equity market price risk",
+              "marketable equity securities risk"
+            ],
+            "attributes": {
+              "category": "equity_market",
+              "fair_value_usd_2021": 7800000000,
+              "fair_value_usd_2022": 5200000000,
+              "hypothetical_10pct_adverse_impact_usd_2022": 516000000
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Marketable Equity Securities Price Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "private equity investment risk",
+              "non-marketable equity risk",
+              "private company investment risk"
+            ],
+            "attributes": {
+              "carrying_value_usd_2021": 27600000000,
+              "carrying_value_usd_2022": 28500000000,
+              "category": "equity_private",
+              "note": "Investments in privately held companies including early-stage startups; lack of readily available market data increases valuation complexity",
+              "valuation_method": "measurement_alternative"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Non-Marketable Equity Securities Valuation Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Foreign Currency Exchange Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Interest Rate Risk on Debt Securities Portfolio",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Marketable Equity Securities Price Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Non-Marketable Equity Securities Valuation Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-23-000016.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "1709464013fcd456e73b96f0cb5c1e52f0c7c804f29990efcbc125f15efd6bb4"
+    }
+  ],
+  "prompt_version": "v3"
+}

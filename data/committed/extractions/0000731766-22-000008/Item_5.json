@@ -1,0 +1,136 @@
+{
+  "accession": "0000731766-22-000008",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-21T03:12:40Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In June 2021, the Company's Board of Directors increased the Company's quarterly cash dividend to shareholders to an annual rate of $5.80 compared to $5.00 per share, which the Company had paid since June 2020.",
+            "entity_name": "UNH June 2021 Dividend Increase to $5.80 Annual Rate",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "During the fourth quarter of 2021, we repurchased 2.3 million shares at an average price of $447.99 per share.",
+            "entity_name": "UNH Q4 2021 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "As of December 31, 2021, we had Board authorization to purchase up to 45 million shares of our common stock.",
+            "entity_name": "UNH Share Repurchase Authorization 45M Shares (Dec 2021)",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UnitedHealth Group",
+              "UNH"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "exchange": "NYSE",
+              "ticker": "UNH"
+            },
+            "name": "UnitedHealth Group Incorporated",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2021-06",
+              "frequency": "annual_rate",
+              "per_share": 5.8,
+              "prior_per_share": 5.0,
+              "return_type": "dividend_increase"
+            },
+            "identifiers": {},
+            "name": "UNH June 2021 Dividend Increase to $5.80 Annual Rate",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "avg_price_per_share": 447.99,
+              "period": "Q4 2021",
+              "return_type": "buyback",
+              "shares": 2300000
+            },
+            "identifiers": {},
+            "name": "UNH Q4 2021 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "as_of_date": "2021-12-31",
+              "program_inception": "1997-11",
+              "return_type": "repurchase_authorization",
+              "shares_authorized": 45000000
+            },
+            "identifiers": {},
+            "name": "UNH Share Repurchase Authorization 45M Shares (Dec 2021)",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH June 2021 Dividend Increase to $5.80 Annual Rate",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Q4 2021 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Share Repurchase Authorization 45M Shares (Dec 2021)",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-22-000008.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "2ce1f64e8c16bf76d7e581d6e9740c3444e2297693918e64ba46ef84be09663e"
+    }
+  ],
+  "prompt_version": "v3"
+}

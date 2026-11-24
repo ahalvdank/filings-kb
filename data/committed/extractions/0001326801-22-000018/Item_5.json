@@ -1,0 +1,134 @@
+{
+  "accession": "0001326801-22-000018",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T11:23:57Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "We expect our Class A common stock to cease trading under the symbol “FB” and begin trading under the new symbol, “META,” on the Nasdaq Global Select Market in the first half of 2022.",
+            "entity_name": "Meta Platforms Ticker Symbol Change FB to META",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Our board of directors has authorized a share repurchase program of our Class A common stock, which commenced in January 2017 and does not have an expiration date. The timing and actual number of shares repurchased depend on a variety of factors, including price, general business and market conditions, and other investment opportunities, and shares may be repurchased through open market purchases or privately negotiated transactions, including through the use of trading plans intended to qualify under Rule 10b5-1 under the Exchange Act.",
+            "entity_name": "META Q4 2021 Share Repurchase Activity",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We have never declared or paid any cash dividend on our common stock. We intend to retain any future earnings to finance the operation and expansion of our business and fund our share repurchase program, and we do not expect to pay cash dividends in the foreseeable future.",
+            "entity_name": "META No Cash Dividend Forward Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "FB to META ticker change"
+            ],
+            "attributes": {
+              "event_type": "business_combination",
+              "exchange": "Nasdaq Global Select Market",
+              "expected_timing": "first half of 2022",
+              "new_symbol": "META",
+              "old_symbol": "FB"
+            },
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "Meta Platforms Ticker Symbol Change FB to META",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "META Q4 2021 buyback"
+            ],
+            "attributes": {
+              "period": "Q4_2021",
+              "program_expiration": "none",
+              "program_inception": "2017-01",
+              "remaining_authorization_usd": 38793000000,
+              "return_type": "buyback",
+              "shares_repurchased_thousands": 58037
+            },
+            "identifiers": {},
+            "name": "META Q4 2021 Share Repurchase Activity",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "cash_dividend",
+              "new_value": "none_expected",
+              "period": "foreseeable_future",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "META No Cash Dividend Forward Guidance",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "Meta Platforms Ticker Symbol Change FB to META",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META Q4 2021 Share Repurchase Activity",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META No Cash Dividend Forward Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-22-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "5ab8c9d6b68ecff743748654f9f2feb9a1c17bbb7dbdd5e85a3f494d6dbc6080"
+    }
+  ],
+  "prompt_version": "v3"
+}

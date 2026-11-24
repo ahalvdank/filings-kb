@@ -1,0 +1,109 @@
+# Pinned sample: 12 companies x 5 fiscal years (60 filings) plus one 10-K/A (61 rows). Each row is an explicit
+# (ticker, fiscal_year, accession); never "the five most recent".
+# fiscal_year is the company's own fiscal year (NVDA FY2025 ended Jan 2025).
+# Accessions come from the private KB so parity compares identical documents.
+rows:
+  - {ticker: NVDA, fiscal_year: 2026, accession: "0001045810-26-000021"}
+  - {ticker: NVDA, fiscal_year: 2025, accession: "0001045810-25-000023"}
+  - {ticker: NVDA, fiscal_year: 2024, accession: "0001045810-24-000029"}
+  - {ticker: NVDA, fiscal_year: 2023, accession: "0001045810-23-000017"}
+  - {ticker: NVDA, fiscal_year: 2022, accession: "0001045810-22-000036"}
+  - {ticker: AMD, fiscal_year: 2025, accession: "0000002488-26-000018"}
+  - {ticker: AMD, fiscal_year: 2024, accession: "0000002488-25-000012"}
+  - {ticker: AMD, fiscal_year: 2023, accession: "0000002488-24-000012"}
+  - {ticker: AMD, fiscal_year: 2022, accession: "0000002488-23-000047"}
+  - {ticker: AMD, fiscal_year: 2021, accession: "0000002488-22-000016"}
+  - {ticker: INTC, fiscal_year: 2025, accession: "0000050863-26-000011"}
+  - {ticker: INTC, fiscal_year: 2024, accession: "0000050863-25-000009"}
+  - {ticker: INTC, fiscal_year: 2023, accession: "0000050863-24-000010"}
+  - {ticker: INTC, fiscal_year: 2022, accession: "0000050863-23-000006"}
+  - {ticker: INTC, fiscal_year: 2021, accession: "0000050863-22-000007"}
+  - {ticker: BA, fiscal_year: 2025, accession: "0001628280-26-004357"}
+  - {ticker: BA, fiscal_year: 2024, accession: "0000012927-25-000015"}
+  - {ticker: BA, fiscal_year: 2023, accession: "0000012927-24-000010"}
+  - {ticker: BA, fiscal_year: 2022, accession: "0000012927-23-000007"}
+  - {ticker: BA, fiscal_year: 2021, accession: "0000012927-22-000010"}
+  - {ticker: UNH, fiscal_year: 2025, accession: "0000731766-26-000062"}
+  - {ticker: UNH, fiscal_year: 2024, accession: "0000731766-25-000063"}
+  - {ticker: UNH, fiscal_year: 2023, accession: "0000731766-24-000081"}
+  - {ticker: UNH, fiscal_year: 2022, accession: "0000731766-23-000008"}
+  - {ticker: UNH, fiscal_year: 2021, accession: "0000731766-22-000008"}
+  - {ticker: META, fiscal_year: 2025, accession: "0001628280-26-003942"}
+  - {ticker: META, fiscal_year: 2024, accession: "0001326801-25-000017"}
+  - {ticker: META, fiscal_year: 2023, accession: "0001326801-24-000012"}
+  - {ticker: META, fiscal_year: 2022, accession: "0001326801-23-000013"}
+  - {ticker: META, fiscal_year: 2021, accession: "0001326801-22-000018"}
+  - {ticker: JPM, fiscal_year: 2025, accession: "0001628280-26-008131"}
+  - {ticker: JPM, fiscal_year: 2024, accession: "0000019617-25-000270"}
+  - {ticker: JPM, fiscal_year: 2023, accession: "0000019617-24-000225"}
+  - {ticker: JPM, fiscal_year: 2022, accession: "0000019617-23-000231"}
+  - {ticker: JPM, fiscal_year: 2021, accession: "0000019617-22-000272"}
+  - {ticker: XOM, fiscal_year: 2025, accession: "0000034088-26-000045"}
+  - {ticker: XOM, fiscal_year: 2024, accession: "0000034088-25-000010"}
+  - {ticker: XOM, fiscal_year: 2023, accession: "0000034088-24-000018"}
+  - {ticker: XOM, fiscal_year: 2022, accession: "0000034088-23-000020"}
+  - {ticker: XOM, fiscal_year: 2021, accession: "0000034088-22-000011"}
+  - {ticker: MSFT, fiscal_year: 2026, accession: "0001193125-26-323660"}
+  - {ticker: MSFT, fiscal_year: 2025, accession: "0000950170-25-100235"}
+  - {ticker: MSFT, fiscal_year: 2024, accession: "0000950170-24-087843"}
+  - {ticker: MSFT, fiscal_year: 2023, accession: "0000950170-23-035122"}
+  - {ticker: MSFT, fiscal_year: 2022, accession: "0001564590-22-026876"}
+  - {ticker: GOOGL, fiscal_year: 2025, accession: "0001652044-26-000018"}
+  - {ticker: GOOGL, fiscal_year: 2024, accession: "0001652044-25-000014"}
+  - {ticker: GOOGL, fiscal_year: 2023, accession: "0001652044-24-000022"}
+  - {ticker: GOOGL, fiscal_year: 2022, accession: "0001652044-23-000016"}
+  - {ticker: GOOGL, fiscal_year: 2021, accession: "0001652044-22-000019"}
+  - {ticker: AMZN, fiscal_year: 2025, accession: "0001018724-26-000004"}
+  - {ticker: AMZN, fiscal_year: 2024, accession: "0001018724-25-000004"}
+  - {ticker: AMZN, fiscal_year: 2023, accession: "0001018724-24-000008"}
+  - {ticker: AMZN, fiscal_year: 2022, accession: "0001018724-23-000004"}
+  - {ticker: AMZN, fiscal_year: 2021, accession: "0001018724-22-000005"}
+  - {ticker: CVX, fiscal_year: 2025, accession: "0000093410-26-000078"}
+  - {ticker: CVX, fiscal_year: 2024, accession: "0000093410-25-000009"}
+  - {ticker: CVX, fiscal_year: 2023, accession: "0000093410-24-000013"}
+  - {ticker: CVX, fiscal_year: 2022, accession: "0000093410-23-000009"}
+  - {ticker: CVX, fiscal_year: 2021, accession: "0000093410-22-000019"}
+  # 10-K/A: its Item_7_MDA and Item_15 supersede the original's (bitemporal close-out).
+  - {ticker: AMD, fiscal_year: 2025, accession: "0000002488-26-000021", form: 10-K/A, amends: "0000002488-26-000018"}
+
+# Sections the private pipeline sent to extraction: the distinct
+# input.section_type values in its v3 / claude-sonnet-4-6 cache for the 16
+# accessions above (private token names). Used by extraction and parity.
+# Detection may still find more items (e.g. 1C) for retrieval only.
+extract_items:
+  - Item_1
+  - Item_1A
+  - Item_1B
+  - Item_1C
+  - Item_2
+  - Item_3
+  - Item_4
+  - Item_5
+  - Item_6
+  - Item_7_MDA
+  - Item_7A
+  - Item_8
+  - Item_9
+  - Item_9A
+  - Item_9B
+  - Item_9C
+  - Item_10
+  - Item_11
+  - Item_12
+  - Item_13
+  - Item_14
+  - Item_15
+
+# Items the private pipeline deliberately does not extract (boilerplate or
+# incorporated by reference). Without a cached envelope they are recorded as
+# skipped in the ingest report instead of failing; a cached envelope is still
+# ingested. Any other detected extract_items section with no envelope fails.
+skip_items:
+  - Item_1B
+  - Item_4
+  - Item_6
+  - Item_9C
+  - Item_10
+  - Item_11
+  - Item_12
+  - Item_14

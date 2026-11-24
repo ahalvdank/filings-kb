@@ -1,0 +1,59 @@
+{
+  "accession": "0001326801-24-000012",
+  "item": "Item_2",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T09:18:04Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "As of December 31, 2023, we owned and leased approximately 10 million square feet of office and building space for our corporate headquarters and in the surrounding areas, which included approximately three million square feet of unoccupied office and building space that we plan to either sublease, early terminate, or abandon related to our facilities consolidation restructuring efforts.",
+            "entity_name": "Meta Facilities Consolidation Restructuring",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "META facilities consolidation",
+              "Meta office space restructuring"
+            ],
+            "attributes": {
+              "description": "Facilities consolidation involving approximately three million square feet of unoccupied office and building space to be subleased, early terminated, or abandoned",
+              "event_type": "restructuring",
+              "total_owned_leased_sqft": 10000000,
+              "unoccupied_sqft": 3000000
+            },
+            "identifiers": {},
+            "name": "Meta Facilities Consolidation Restructuring",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "Meta Facilities Consolidation Restructuring",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-24-000012.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "8d472c5c4d5e31d8f5ca5ca90dc621a442987e2d4b9f00c6b8362a1bd4f1dc48"
+    }
+  ],
+  "prompt_version": "v3"
+}

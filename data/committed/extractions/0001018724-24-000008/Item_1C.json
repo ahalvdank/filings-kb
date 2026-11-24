@@ -1,0 +1,117 @@
+{
+  "accession": "0001018724-24-000008",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T06:34:51Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have processes in place for assessing, identifying, and managing material risks from potential unauthorized occurrences on or through our electronic information systems that could adversely affect the confidentiality, integrity, or availability of our information systems or the information residing on those systems.",
+            "entity_name": "Amazon Cybersecurity Data Loss and Security Breach Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our cybersecurity risks and associated mitigations are evaluated by senior leadership, including as part of our enterprise risk assessments that are reviewed by the Audit Committee and our Board of Directors. Such risks and mitigations are also subject to oversight by the Security Committee of our Board of Directors.",
+            "entity_name": "Amazon Cybersecurity Data Loss and Security Breach Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We also use processes to oversee and identify material risks from cybersecurity threats associated with our use of third-party technology and systems, including: technology and systems we use for encryption and authentication; employee email; content delivery to customers; back-office support; and other functions.",
+            "entity_name": "Amazon Third-Party Vendor Cybersecurity Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We also use systems and processes designed to reduce the impact of a security incident at a third-party vendor or customer.",
+            "entity_name": "Amazon Third-Party Vendor Cybersecurity Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "We Could Be Harmed by Data Loss or Other Security Breaches",
+              "Amazon cybersecurity incident risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "impact_areas": [
+                "confidentiality",
+                "integrity",
+                "availability"
+              ]
+            },
+            "identifiers": {},
+            "name": "Amazon Cybersecurity Data Loss and Security Breach Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "third-party technology cybersecurity risk",
+              "supply-chain cybersecurity risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "subcategory": "third_party_vendor"
+            },
+            "identifiers": {},
+            "name": "Amazon Third-Party Vendor Cybersecurity Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "Amazon Cybersecurity Data Loss and Security Breach Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "Amazon Third-Party Vendor Cybersecurity Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-24-000008.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "84ed418790a780d498276ba94b6033f29583989d6e4a7236168cd6efae3bc997"
+    }
+  ],
+  "prompt_version": "v3"
+}

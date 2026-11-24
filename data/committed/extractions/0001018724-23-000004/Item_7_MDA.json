@@ -1,0 +1,325 @@
+{
+  "accession": "0001018724-23-000004",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T16:30:10Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "operating_income_usd": -2847000000,
+              "revenue_usd": 315880000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "North America sales increased 13% in 2022, compared to the prior year. The sales growth primarily reflects increased unit sales, including sales by third-party sellers, advertising sales, and subscription services. Increased unit sales were driven largely by our continued focus on price, selection, and convenience for our customers, including from our shipping offers.",
+            "entity_name": "AMZN North America Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "operating_income_usd": -7746000000,
+              "revenue_usd": 118007000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "International sales decreased 8% in 2022, compared to the prior year, primarily due to the impact of changes in foreign currency exchange rates, partially offset by increased unit sales, including sales by third-party sellers, advertising sales, and subscription services.",
+            "entity_name": "AMZN International Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "operating_income_usd": 22841000000,
+              "revenue_usd": 80096000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "AWS sales increased 29% in 2022, compared to the prior year. The sales growth primarily reflects increased customer usage, partially offset by pricing changes, primarily driven by long-term customer contracts.",
+            "entity_name": "AMZN AWS Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "guidance_as_of": "2023-02-02",
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "Net sales are expected to be between $121.0 billion and $126.0 billion, or to grow between 4% and 8% compared with first quarter 2022. This guidance anticipates an unfavorable impact of approximately 210 basis points from foreign exchange rates.",
+            "entity_name": "AMZN Q1 2023 Net Sales Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "guidance_as_of": "2023-02-02",
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "Operating income is expected to be between $0 and $4.0 billion, compared with $3.7 billion in first quarter 2022.",
+            "entity_name": "AMZN Q1 2023 Operating Income Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "We funded the acquisition of MGM Holdings Inc. with cash on hand. We expect to fund the acquisitions of 1Life Healthcare, Inc. (One Medical) and iRobot Corporation with cash on hand.",
+            "entity_name": "AMZN Acquisition of MGM Holdings Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We also expect the current macroeconomic environment and enterprise customer cost optimization efforts to impact our AWS revenue growth rates. We expect some or all of these factors to continue to impact our operations into Q1 2023.",
+            "entity_name": "AMZN Macroeconomic and AWS Enterprise Demand Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Currency volatilities may continue, which may significantly impact (either positively or negatively) our reported results and consolidated trends and comparisons.",
+            "entity_name": "AMZN Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "North America"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "North America",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN North America Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "International"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "International",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN International Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AWS",
+              "Amazon Web Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "AWS",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN AWS Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "net_sales",
+              "new_value": "121000000000-126000000000",
+              "period": "Q1 2023",
+              "unit": "USD",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "AMZN Q1 2023 Net Sales Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "operating_income",
+              "new_value": "0-4000000000",
+              "period": "Q1 2023",
+              "unit": "USD",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "AMZN Q1 2023 Operating Income Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "MGM acquisition",
+              "Amazon MGM deal"
+            ],
+            "attributes": {
+              "consideration": "cash",
+              "event_type": "acquisition",
+              "target_company": "MGM Holdings Inc."
+            },
+            "identifiers": {},
+            "name": "AMZN Acquisition of MGM Holdings Inc.",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AWS growth slowdown risk",
+              "enterprise cost optimization risk"
+            ],
+            "attributes": {
+              "affected_segment": "AWS",
+              "category": "macroeconomic"
+            },
+            "identifiers": {},
+            "name": "AMZN Macroeconomic and AWS Enterprise Demand Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "FX risk",
+              "currency volatility risk"
+            ],
+            "attributes": {
+              "category": "market",
+              "subcategory": "foreign_exchange"
+            },
+            "identifiers": {},
+            "name": "AMZN Foreign Currency Exchange Rate Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.13,
+              "margin": -0.009,
+              "period": "FY2022",
+              "revenue": 315880000000
+            },
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN North America Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.08,
+              "margin": -0.066,
+              "period": "FY2022",
+              "revenue": 118007000000
+            },
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN International Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.29,
+              "margin": 0.285,
+              "period": "FY2022",
+              "revenue": 80096000000
+            },
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN AWS Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "Q1 2023",
+              "update_type": "initiation"
+            },
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Q1 2023 Net Sales Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "Q1 2023",
+              "update_type": "initiation"
+            },
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Q1 2023 Operating Income Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Acquisition of MGM Holdings Inc.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Macroeconomic and AWS Enterprise Demand Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Foreign Currency Exchange Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-23-000004.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "ce0257cafeb3fa40d74179b75fd61fa3a5f3ecaf997a5490fc5ea24bcc569dc7"
+    }
+  ],
+  "prompt_version": "v3"
+}

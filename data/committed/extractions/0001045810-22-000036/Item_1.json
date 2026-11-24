@@ -1,0 +1,329 @@
+{
+  "accession": "0001045810-22-000036",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T17:37:14Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Jen-Hsun Huang co-founded NVIDIA in 1993 and has served as our President, Chief Executive Officer and a member of the Board of Directors since our inception. From 1985 to 1993, Mr. Huang was employed at LSI Logic Corporation, a computer chip manufacturer, where he held a variety of positions including as Director of Coreware, the business unit responsible for LSI's SOC. From 1983 to 1985, Mr. Huang was a microprocessor designer for Advanced Micro Devices, Inc., a semiconductor company. Mr. Huang holds a B.S.E.E. degree from Oregon State University and an M.S.E.E. degree from Stanford University.",
+            "entity_name": "Jen-Hsun Huang",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-03-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Colette M. Kress joined NVIDIA in 2013 as Executive Vice President and Chief Financial Officer. Prior to NVIDIA, Ms. Kress most recently served as Senior Vice President and Chief Financial Officer of the Business Technology and Operations Finance organization at Cisco Systems, Inc., a networking equipment company, since 2010. At Cisco, Ms. Kress was responsible for financial strategy, planning, reporting and business development for all business segments, engineering and operations. From 1997 to 2010 Ms. Kress held a variety of positions at Microsoft Corporation, a software company, including, beginning in 2006, Chief Financial Officer of the Server and Tools division, where Ms. Kress was responsible for financial strategy, planning, reporting and business development for the division.",
+            "entity_name": "Colette M. Kress",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-03-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Ajay K. Puri joined NVIDIA in 2005 as Senior Vice President, Worldwide Sales and became Executive Vice President, Worldwide Field Operations in 2009. Prior to NVIDIA, he held positions in sales, marketing, and general management over a 22-year career at Sun Microsystems, Inc., a computing systems company. Mr. Puri previously held marketing, management consulting, and product development positions at Hewlett-Packard Company, an information technology company, Booz Allen Hamilton Inc., a management and technology consulting company, and Texas Instruments Incorporated.",
+            "entity_name": "Ajay K. Puri",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-03-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Debora Shoquist joined NVIDIA in 2007 as Senior Vice President of Operations and in 2009 became Executive Vice President of Operations. Prior to NVIDIA, Ms. Shoquist served from 2004 to 2007 as Executive Vice President of Operations at JDS Uniphase Corp., a provider of communications test and measurement solutions and optical products for the telecommunications industry. She served from 2002 to 2004 as Senior Vice President and General Manager of the Electro-Optics business at Coherent, Inc., a manufacturer of commercial and scientific laser equipment.",
+            "entity_name": "Debora Shoquist",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-03-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Timothy S. Teter joined NVIDIA in 2017 as Senior Vice President, General Counsel and Secretary and became Executive Vice President, General Counsel and Secretary in February 2018. Prior to NVIDIA, Mr. Teter spent more than two decades at the law firm of Cooley LLP, where he focused on litigating patent and technology related matters. Prior to attending law school, he worked as an engineer at Lockheed Missiles and Space Company. Mr. Teter holds a B.S. degree in Mechanical Engineering from the University of California at Davis and a J.D. degree from Stanford Law School.",
+            "entity_name": "Timothy S. Teter",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-03-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "On February 8, 2022, NVIDIA and SoftBank Group Corp., or SoftBank, announced the termination of the Share Purchase Agreement whereby NVIDIA would have acquired Arm Limited, or Arm, from SoftBank. The parties agreed to terminate because of significant regulatory challenges preventing the completion of the transaction. We intend to record in operating expenses a $1.36 billion charge in the first quarter of fiscal year 2023 reflecting the write-off of the prepayment provided at signing in September 2020.",
+            "entity_name": "NVDA Termination of Arm Limited Acquisition",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-03-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "By the end of fiscal year 2025, our goal is to purchase or generate enough renewable energy to match 100% of our global electricity usage for our offices and data centers.",
+            "entity_name": "NVDA FY2025 100% Renewable Energy Matching Goal",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": "2022-03-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "We believe that diverse teams fuel innovation, and we are committed to creating an inclusive culture that supports all employees, regardless of gender, gender identity or expression, veteran status, race, ethnicity, or ability.",
+            "entity_name": "NVDA Diversity and Inclusion Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": "2022-03-25",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVIDIA",
+              "NVDA"
+            ],
+            "attributes": {
+              "headquarters": "Santa Clara, California",
+              "state_of_incorporation": "Delaware"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVIDIA Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Jensen Huang"
+            ],
+            "attributes": {
+              "current_company_id": "NVDA",
+              "insider_status": "officer",
+              "officer_role": "CEO",
+              "tenure_start_date": "1993-04"
+            },
+            "identifiers": {},
+            "name": "Jen-Hsun Huang",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "NVDA",
+              "insider_status": "officer",
+              "officer_role": "CFO",
+              "tenure_start_date": "2013"
+            },
+            "identifiers": {},
+            "name": "Colette M. Kress",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "NVDA",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "tenure_start_date": "2005",
+              "title": "Executive Vice President, Worldwide Field Operations"
+            },
+            "identifiers": {},
+            "name": "Ajay K. Puri",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "NVDA",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "tenure_start_date": "2007",
+              "title": "Executive Vice President, Operations"
+            },
+            "identifiers": {},
+            "name": "Debora Shoquist",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "NVDA",
+              "insider_status": "officer",
+              "officer_role": "GeneralCounsel",
+              "tenure_start_date": "2017"
+            },
+            "identifiers": {},
+            "name": "Timothy S. Teter",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Arm deal termination",
+              "NVIDIA-Arm SPA termination"
+            ],
+            "attributes": {
+              "charge_period": "Q1 FY2023",
+              "charge_usd": 1360000000,
+              "counterparty": "SoftBank Group Corp.",
+              "event_type": "acquisition",
+              "outcome": "terminated",
+              "target_company": "Arm Limited",
+              "termination_date": "2022-02-08"
+            },
+            "identifiers": {},
+            "name": "NVDA Termination of Arm Limited Acquisition",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NVIDIA renewable energy 2025"
+            ],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "scope": "global offices and data centers",
+              "target_value": "100%",
+              "target_year": 2025
+            },
+            "identifiers": {},
+            "name": "NVDA FY2025 100% Renewable Energy Matching Goal",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "NVIDIA DEI commitment"
+            ],
+            "attributes": {
+              "commitment_type": "dei"
+            },
+            "identifiers": {},
+            "name": "NVDA Diversity and Inclusion Commitment",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "also_board_member": true,
+              "role": "CEO",
+              "tenure_start_date": "1993-04"
+            },
+            "source_name": "Jen-Hsun Huang",
+            "source_type_entity": "Person",
+            "target_name": "NVIDIA Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "1993-04-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO",
+              "tenure_start_date": "2013"
+            },
+            "source_name": "Colette M. Kress",
+            "source_type_entity": "Person",
+            "target_name": "NVIDIA Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2013-01-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Executive Vice President, Worldwide Field Operations",
+              "tenure_start_date": "2005"
+            },
+            "source_name": "Ajay K. Puri",
+            "source_type_entity": "Person",
+            "target_name": "NVIDIA Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2005-01-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Executive Vice President, Operations",
+              "tenure_start_date": "2007"
+            },
+            "source_name": "Debora Shoquist",
+            "source_type_entity": "Person",
+            "target_name": "NVIDIA Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2007-01-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "General Counsel",
+              "tenure_start_date": "2017"
+            },
+            "source_name": "Timothy S. Teter",
+            "source_type_entity": "Person",
+            "target_name": "NVIDIA Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2017-01-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Termination of Arm Limited Acquisition",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-03-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2025 100% Renewable Energy Matching Goal",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": "2022-03-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Diversity and Inclusion Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": "2022-03-25",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-22-000036.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "aa187360f103a6b94fd3840d9495eedf8af56d9722eb6c9aaa1ff07fdc13258a"
+    }
+  ],
+  "prompt_version": "v3"
+}

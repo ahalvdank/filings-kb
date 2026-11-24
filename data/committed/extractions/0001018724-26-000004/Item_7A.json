@@ -1,0 +1,219 @@
+{
+  "accession": "0001018724-26-000004",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T04:53:30Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Marketable debt securities with fixed interest rates may have their fair market value adversely affected due to a rise in interest rates, and we may suffer losses in principal if forced to sell securities that have declined in market value due to changes in interest rates.",
+            "entity_name": "AMZN Interest Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2025, we had long-term debt with a face value of $68.8 billion, including the current portion, primarily consisting of fixed rate unsecured senior notes.",
+            "entity_name": "AMZN Interest Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Based on the balance of foreign funds as of December 31, 2025, of $29.7 billion, an assumed 5%, 10%, and 20% adverse change to foreign exchange would result in declines of $1.5 billion, $3.0 billion, and $5.9 billion.",
+            "entity_name": "AMZN Foreign Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Based on the intercompany balances as of December 31, 2025, an assumed 5%, 10%, and 20% adverse change to foreign exchange rates would result in losses of $600 million, $1.2 billion, and $2.4 billion, recorded to \"Other income (expense), net.\"",
+            "entity_name": "AMZN Foreign Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2025, our recorded value in equity, equity warrant, and convertible debt investments in public and private companies was $69.1 billion. Our equity and equity warrant investments in publicly traded companies, which include our equity investment in Rivian, represent $5.0 billion of our investments as of December 31, 2025, and are recorded at fair value, which is subject to market price volatility.",
+            "entity_name": "AMZN Equity Investment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Valuations of private companies are inherently more complex due to the lack of readily available market data. The current global economic conditions provide additional uncertainty. As such, we believe that market sensitivities are not practicable.",
+            "entity_name": "AMZN Equity Investment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "segment",
+            "content": "During 2025, net sales from our International segment accounted for 23% of our consolidated revenues.",
+            "entity_name": "AMZN International Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "segment",
+            "content": "For example, as a result of fluctuations in foreign exchange rates throughout the year compared to rates in effect the prior year, International segment net sales increased by $4.9 billion in comparison with the prior year.",
+            "entity_name": "AMZN International Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "interest rate market risk",
+              "fixed-rate securities fair value risk"
+            ],
+            "attributes": {
+              "category": "interest_rate",
+              "investment_portfolio_total_usd": 106493000000,
+              "long_term_debt_face_value_usd": 68800000000
+            },
+            "identifiers": {},
+            "name": "AMZN Interest Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "FX risk",
+              "currency risk",
+              "foreign exchange market risk"
+            ],
+            "attributes": {
+              "adverse_10pct_foreign_funds_impact_usd": -3000000000,
+              "adverse_20pct_foreign_funds_impact_usd": -5900000000,
+              "adverse_5pct_foreign_funds_impact_usd": -1500000000,
+              "category": "currency",
+              "foreign_funds_usd": 29700000000,
+              "intercompany_adverse_10pct_loss_usd": -1200000000,
+              "intercompany_adverse_20pct_loss_usd": -2400000000,
+              "intercompany_adverse_5pct_loss_usd": -600000000
+            },
+            "identifiers": {},
+            "name": "AMZN Foreign Exchange Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "equity investment market risk",
+              "private and public equity investment risk"
+            ],
+            "attributes": {
+              "category": "equity_investment",
+              "key_holdings": [
+                "Rivian",
+                "Anthropic"
+              ],
+              "public_equity_investments_usd": 5000000000,
+              "total_equity_investments_usd": 69100000000
+            },
+            "identifiers": {},
+            "name": "AMZN Equity Investment Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "International"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "International",
+              "ticker": "AMZN"
+            },
+            "name": "AMZN International Segment",
+            "type": "RevenueSegment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Interest Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Foreign Exchange Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Equity Investment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "fx_driven_revenue_increase_usd": 4900000000,
+              "period": "FY2025",
+              "revenue_pct_of_consolidated": 0.23
+            },
+            "source_name": "AMZN 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN International Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-26-000004.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "18845a056cac1c7524ca394818b5336d6fe84fb28e8a1f79edba1436b3189bd8"
+    }
+  ],
+  "prompt_version": "v3"
+}

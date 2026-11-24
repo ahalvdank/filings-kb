@@ -1,0 +1,198 @@
+{
+  "accession": "0000002488-26-000018",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-21T23:46:06Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "A hypothetical 50 basis-point (half percentage point) increase or decrease in interest rates compared to rates on December 27, 2025 would have affected the fair value of our cash equivalent and investment portfolio by approximately $25 million.",
+            "entity_name": "AMD Interest Rate Risk on Investment Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "These securities are subject to interest rate risk and will decrease in value if market interest rates increase.",
+            "entity_name": "AMD Interest Rate Risk on Investment Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We mitigate default risk in our investment portfolio by investing in only high credit quality securities and by constantly positioning our portfolio to respond to a significant reduction in a credit rating of any investment issuer or guarantor. While we believe we take prudent measures to mitigate investment-related risks, such risks cannot be fully eliminated as there are circumstances outside of our control.",
+            "entity_name": "AMD Default Risk on Investment Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Non-marketable equity securities and other instruments include investments in privately held companies, which are often in a start-up or early development stage and are inherently risky. The technologies of these privately held companies are under research or development, typically in the early stages and may never materialize, and may result in a loss of our investment in these companies.",
+            "entity_name": "AMD Long-Term Investment Risk (Non-Marketable Equity)",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As a result of our foreign operations, we incur costs and we carry assets and liabilities that are denominated in foreign currencies, while sales of products are primarily denominated in U.S. dollars. We maintain a foreign currency hedging strategy which uses derivative financial instruments to mitigate the risks associated with changes in foreign currency exchange rates.",
+            "entity_name": "AMD Foreign Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 27, 2025 and December 28, 2024, our portfolio of foreign currency forward contracts had an aggregate notional amount of $3.4 billion and $2.8 billion, respectively. All forward contracts mature within 24 months. Our foreign currency forward contracts cover a range of currencies tied to our global operations, including but not limited to the Indian Rupee, Canadian Dollar and Chinese Renminbi.",
+            "entity_name": "AMD Foreign Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "interest rate risk",
+              "AMD investment portfolio rate risk"
+            ],
+            "attributes": {
+              "as_of_date": "2025-12-27",
+              "category": "market_risk",
+              "exposure_type": "investment_portfolio",
+              "sensitivity_50bps_usd": 25000000,
+              "subcategory": "interest_rate_risk"
+            },
+            "identifiers": {},
+            "name": "AMD Interest Rate Risk on Investment Portfolio",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "AMD credit risk",
+              "AMD issuer default risk"
+            ],
+            "attributes": {
+              "category": "credit_risk",
+              "minimum_rating": "A",
+              "mitigation": "high_credit_quality_only",
+              "subcategory": "default_risk"
+            },
+            "identifiers": {},
+            "name": "AMD Default Risk on Investment Portfolio",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "AMD private investment risk",
+              "AMD startup investment risk"
+            ],
+            "attributes": {
+              "as_of_date": "2025-12-27",
+              "carrying_value_usd": 1300000000,
+              "category": "investment_risk",
+              "prior_period_carrying_value_usd": 468000000,
+              "subcategory": "non_marketable_equity"
+            },
+            "identifiers": {},
+            "name": "AMD Long-Term Investment Risk (Non-Marketable Equity)",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "AMD FX risk",
+              "AMD currency risk"
+            ],
+            "attributes": {
+              "as_of_date": "2025-12-27",
+              "category": "market_risk",
+              "currencies": [
+                "INR",
+                "CAD",
+                "CNY"
+              ],
+              "hedge_notional_usd": 3400000000,
+              "net_fair_value_position_usd": 12000000,
+              "prior_period_hedge_notional_usd": 2800000000,
+              "subcategory": "foreign_exchange_risk"
+            },
+            "identifiers": {},
+            "name": "AMD Foreign Exchange Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Interest Rate Risk on Investment Portfolio",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Default Risk on Investment Portfolio",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Long-Term Investment Risk (Non-Marketable Equity)",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Foreign Exchange Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-26-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "a2f3e6cf2644dd8c16d4b5a2c8548ac8f2e62116970570e2aff44d02161eee30"
+    }
+  ],
+  "prompt_version": "v3"
+}

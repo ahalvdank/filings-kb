@@ -1,0 +1,97 @@
+{
+  "accession": "0001652044-26-000018",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T13:30:16Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We maintain a comprehensive process for identifying, assessing, and managing material risks from cybersecurity threats as part of our broader risk management system and processes. For example, some risks include our software supply chain and other third-party dependencies, vulnerabilities in our products and services, theft of our intellectual property, and attempts to compromise our infrastructure.",
+            "entity_name": "GOOGL Cybersecurity Threats Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our business strategy, results of operations and financial condition have not been materially affected by risks from cybersecurity threats, including as a result of previously identified cybersecurity incidents, but we cannot provide assurance that they will not be materially affected in the future by such risks or any future material incidents.",
+            "entity_name": "GOOGL Material Future Cybersecurity Incident Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Alphabet cybersecurity risk",
+              "supply chain and third-party cybersecurity risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "risk_areas": [
+                "software_supply_chain",
+                "third_party_dependencies",
+                "product_and_service_vulnerabilities",
+                "ip_theft",
+                "infrastructure_compromise"
+              ]
+            },
+            "identifiers": {},
+            "name": "GOOGL Cybersecurity Threats Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Alphabet future cyber incident risk",
+              "cybersecurity material impact risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "note": "Business strategy, results of operations and financial condition not materially affected to date but no assurance provided against future material impact"
+            },
+            "identifiers": {},
+            "name": "GOOGL Material Future Cybersecurity Incident Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K (0001652044-26-000018)",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Cybersecurity Threats Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "Alphabet Inc. 10-K (0001652044-26-000018)",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Material Future Cybersecurity Incident Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-26-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "68e3e24cee1d5a53ba6d985c3ca2ed99297436566ae629b0e1ae0e5eb74d7645"
+    }
+  ],
+  "prompt_version": "v3"
+}

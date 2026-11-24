@@ -1,0 +1,82 @@
+{
+  "accession": "0000093410-24-000013",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T14:14:06Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Despite the cybersecurity measures that the company is taking to mitigate such risks, there can be no guarantee that such measures will be sufficient to protect the company's systems, information, intellectual property and other assets from significant harm and that future cybersecurity incidents will not have a material adverse effect on the company or its results of operations or financial condition or cause reputational or other harm to the company.",
+            "entity_name": "CVX Cybersecurity Incident Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "To date, the company has not experienced a cybersecurity threat or incident that has materially affected or is reasonably likely to materially affect the company, including its business strategy, results of operations or financial condition; however, the company has experienced and will continue to experience cyber incidents of varying degrees.",
+            "entity_name": "CVX Cybersecurity Incident Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Chevron",
+              "CVX"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "Chevron Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Chevron cyber threat risk",
+              "Chevron IT/OT cybersecurity risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "geography": "global",
+              "mitigating_note": "To date no material cybersecurity incident has occurred; company operates four Cyber Intelligence Centers and aligns to NIST Cybersecurity Framework",
+              "scope": "IT and OT networks, third-party suppliers"
+            },
+            "identifiers": {},
+            "name": "CVX Cybersecurity Incident Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Cybersecurity Incident Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-24-000013.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "3b98c3aadccae4171f8d5454cbc0aba607f0fe2da244cabd0063677524e0b2fe"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,805 @@
+{
+  "accession": "0001652044-26-000018",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T13:42:38Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues were $402.8 billion, an increase of 15% year over year, primarily driven by an increase in Google Services revenues of $37.8 billion, or 12%, and an increase in Google Cloud revenues of $15.5 billion, or 36%.",
+            "entity_name": "GOOGL Google Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Google Services operating income increased $18.1 billion from 2024 to 2025. The increase in operating income was primarily driven by an increase in revenues, partially offset by an increase in expenses related to legal and other matters, TAC, and content acquisition costs.",
+            "entity_name": "GOOGL Google Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Google Cloud revenues increased $15.5 billion from 2024 to 2025, primarily driven by growth in Google Cloud Platform largely from infrastructure and platform services.",
+            "entity_name": "GOOGL Google Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Google Cloud operating income increased $7.8 billion from 2024 to 2025. The increase in operating income was primarily driven by an increase in revenues, partially offset by increases in usage costs for technical infrastructure and employee compensation expenses.",
+            "entity_name": "GOOGL Google Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Google Search & other revenues increased $26.4 billion from 2024 to 2025. The overall growth was driven by interrelated factors including increases in search queries resulting from growth in user adoption and usage on mobile devices; growth in advertiser spending; and improvements we have made in ad formats and delivery.",
+            "entity_name": "GOOGL Google Search and Other",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "YouTube ads revenues increased $4.2 billion from 2024 to 2025. The growth was driven by our direct response advertising products followed by our brand advertising products, both of which benefited from increased spending by our advertisers.",
+            "entity_name": "GOOGL YouTube Ads",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Google Network revenues decreased $567 million from 2024 to 2025, primarily due to a decrease in AdSense revenues, partially offset by an increase in AdMob revenues.",
+            "entity_name": "GOOGL Google Network",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Google subscriptions, platforms, and devices revenues increased $7.7 billion from 2024 to 2025. The growth was primarily driven by an increase in subscriptions revenues. This increase was primarily due to the contribution from growth in paid subscriptions across both YouTube services and Google One.",
+            "entity_name": "GOOGL Google Subscriptions Platforms and Devices",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Other Bets operating loss increased $3.1 billion from 2024 to 2025. The increase in operating loss was primarily driven by an increase in employee compensation expenses largely due to an increase in a valuation-based compensation charge related to Waymo.",
+            "entity_name": "GOOGL Other Bets",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "In 2026, we expect to significantly increase, relative to 2025, our investment in our technical infrastructure, including servers and network equipment, and data centers.",
+            "entity_name": "GOOGL FY2026 Technical Infrastructure Capex Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In March 2025, we entered into a definitive agreement to acquire Wiz, Inc. (\"Wiz\"), a leading cloud security platform, for $32.0 billion, subject to closing adjustments, in an all-cash transaction. The acquisition of Wiz is expected to close in 2026, subject to customary closing conditions, including the receipt of regulatory approvals.",
+            "entity_name": "GOOGL Pending Acquisition of Wiz Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In December 2025, we entered into a definitive agreement to acquire Intersect, which provides data center and energy infrastructure solutions, for $4.8 billion in cash, plus the assumption of debt. The acquisition of Intersect is expected to close in the first half of 2026, subject to customary closing conditions.",
+            "entity_name": "GOOGL Pending Acquisition of Intersect",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "General and administrative expenses increased $7.3 billion from 2024 to 2025, primarily driven by an increase in expenses related to legal and other matters of $6.2 billion, largely the result of the $3.5 billion EC fine accrued in the third quarter of 2025 and a $1.4 billion legal accrual made in the second quarter of 2025.",
+            "entity_name": "GOOGL EC Fine Accrual Q3 2025",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "Changes to US tax law enacted on July 4, 2025, allow for immediate expensing of domestic research and experimentation costs, accelerated depreciation on eligible capital expenditures, and other tax law changes impacting 2025 with certain changes effective in 2026. These changes are reflected in our results for the year ended December 31, 2025.",
+            "entity_name": "GOOGL US Tax Law Changes July 2025",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "Other Bets operating loss of $7.5 billion for the year ended December 31, 2025 included a $2.1 billion employee compensation charge recognized in the fourth quarter for Waymo, primarily reflected in research and development expenses, based on estimated stock valuation.",
+            "entity_name": "GOOGL Waymo Q4 2025 Valuation-Based Compensation Charge",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During 2025, we repurchased and subsequently retired 240 million shares for $45.4 billion.",
+            "entity_name": "GOOGL FY2025 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In April 2025, the company's Board of Directors authorized an additional $70.0 billion share repurchase program for its Class A and Class C shares. As of December 31, 2025, $69.5 billion remained available for Class A and Class C share repurchases.",
+            "entity_name": "GOOGL April 2025 $70B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In April 2025, the company's Board of Directors increased the quarterly cash dividend by 5% to $0.21 per share of outstanding Class A, Class B, and Class C shares.",
+            "entity_name": "GOOGL April 2025 Quarterly Dividend Increase",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "May 2025: We issued $5.0 billion of US dollar-denominated fixed-rate senior unsecured notes with a weighted-average coupon rate of 4.89%, and a weighted-average maturity of approximately 24 years. We also issued €6.75 billion of euro-denominated fixed-rate senior unsecured notes with a weighted-average coupon rate of 3.31%, and a weighted-average maturity of approximately 14 years.",
+            "entity_name": "GOOGL May 2025 Senior Unsecured Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "November 2025: We issued $500 million of US dollar-denominated floating-rate senior unsecured notes and $17.0 billion of US dollar-denominated fixed-rate senior unsecured notes with a weighted-average coupon rate of 4.92% and a weighted-average maturity of approximately 20 years. We also issued €6.5 billion of euro-denominated fixed-rate senior unsecured notes with a weighted-average coupon rate of 3.44% and a weighted-average maturity of approximately 16 years.",
+            "entity_name": "GOOGL November 2025 Senior Unsecured Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are monitoring ongoing developments surrounding international trade and the macroeconomic environment. As a result of volatility in international trade and financial markets, we may experience direct and indirect effects on our business, operations, and financial results.",
+            "entity_name": "GOOGL International Trade and Macroeconomic Volatility Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As more countries enact these global minimum tax rules, our effective tax rate and cash tax payments could increase.",
+            "entity_name": "GOOGL OECD Global Minimum Tax Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Alphabet",
+              "Google"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Google Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Services",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Cloud",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Search & other"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Search & other",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Search and Other",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "YouTube ads"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "YouTube ads",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL YouTube Ads",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Network"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Network",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Network",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google subscriptions, platforms, and devices"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google subscriptions, platforms, and devices",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Subscriptions Platforms and Devices",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Other Bets"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Other Bets",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Other Bets",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Alphabet 2026 capex outlook"
+            ],
+            "attributes": {
+              "direction": "significant_increase",
+              "metric": "capital_expenditures_technical_infrastructure",
+              "period": "FY2026",
+              "prior_value_note": "FY2025 capex $91.4B",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "GOOGL FY2026 Technical Infrastructure Capex Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Wiz acquisition",
+              "Google-Wiz deal"
+            ],
+            "attributes": {
+              "amount_usd": 32000000000,
+              "consideration": "all_cash",
+              "event_type": "acquisition",
+              "expected_close": "2026",
+              "signed_date": "2025-03",
+              "target_company": "Wiz, Inc."
+            },
+            "identifiers": {},
+            "name": "GOOGL Pending Acquisition of Wiz Inc.",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intersect acquisition"
+            ],
+            "attributes": {
+              "cash_consideration_usd": 4800000000,
+              "event_type": "acquisition",
+              "expected_close": "2026 H1",
+              "plus_assumed_debt": true,
+              "signed_date": "2025-12",
+              "target_company": "Intersect"
+            },
+            "identifiers": {},
+            "name": "GOOGL Pending Acquisition of Intersect",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet European Commission fine 2025"
+            ],
+            "attributes": {
+              "accrual_amount_usd": 3500000000,
+              "accrual_period": "Q3 2025",
+              "authority": "European Commission",
+              "event_type": "regulatory_action"
+            },
+            "identifiers": {},
+            "name": "GOOGL EC Fine Accrual Q3 2025",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "US tax reform July 4 2025",
+              "Alphabet tax accounting change 2025"
+            ],
+            "attributes": {
+              "changes": "immediate_expensing_domestic_RE_and_accelerated_depreciation_on_eligible_capex",
+              "effective_date": "2025-07-04",
+              "event_type": "accounting_change"
+            },
+            "identifiers": {},
+            "name": "GOOGL US Tax Law Changes July 2025",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Waymo stock valuation compensation charge 2025"
+            ],
+            "attributes": {
+              "amount_usd": 2100000000,
+              "entity": "Waymo",
+              "event_type": "compensation_disclosure",
+              "period": "Q4 2025"
+            },
+            "identifiers": {},
+            "name": "GOOGL Waymo Q4 2025 Valuation-Based Compensation Charge",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet 2025 buyback"
+            ],
+            "attributes": {
+              "amount_usd": 45400000000,
+              "period": "FY2025",
+              "return_type": "buyback",
+              "shares_repurchased": 240000000
+            },
+            "identifiers": {},
+            "name": "GOOGL FY2025 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Alphabet April 2025 repurchase authorization"
+            ],
+            "attributes": {
+              "amount_usd": 70000000000,
+              "effective_date": "2025-04",
+              "remaining_usd": 69500000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "GOOGL April 2025 $70B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Alphabet 5% dividend increase 2025"
+            ],
+            "attributes": {
+              "effective_date": "2025-04",
+              "increase_pct": 0.05,
+              "per_share": 0.21,
+              "return_type": "dividend_increase"
+            },
+            "identifiers": {},
+            "name": "GOOGL April 2025 Quarterly Dividend Increase",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Alphabet May 2025 bond offering"
+            ],
+            "attributes": {
+              "eur_tranche_coupon": 0.0331,
+              "eur_tranche_principal_eur": 6750000000,
+              "eur_tranche_weighted_avg_maturity_years": 14,
+              "instrument_type": "notes",
+              "issuance_date": "2025-05",
+              "purpose": "general corporate purposes",
+              "usd_tranche_coupon": 0.0489,
+              "usd_tranche_principal_usd": 5000000000,
+              "usd_tranche_weighted_avg_maturity_years": 24
+            },
+            "identifiers": {},
+            "name": "GOOGL May 2025 Senior Unsecured Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet November 2025 bond offering"
+            ],
+            "attributes": {
+              "eur_tranche_coupon": 0.0344,
+              "eur_tranche_principal_eur": 6500000000,
+              "eur_tranche_weighted_avg_maturity_years": 16,
+              "instrument_type": "notes",
+              "issuance_date": "2025-11",
+              "purpose": "general corporate purposes",
+              "usd_fixed_tranche_coupon": 0.0492,
+              "usd_fixed_tranche_principal_usd": 17000000000,
+              "usd_fixed_tranche_weighted_avg_maturity_years": 20,
+              "usd_floating_tranche_principal_usd": 500000000
+            },
+            "identifiers": {},
+            "name": "GOOGL November 2025 Senior Unsecured Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Alphabet trade volatility risk",
+              "macro and tariff risk"
+            ],
+            "attributes": {
+              "category": "macroeconomic",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "GOOGL International Trade and Macroeconomic Volatility Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Alphabet Pillar Two minimum tax risk",
+              "global minimum tax rate risk"
+            ],
+            "attributes": {
+              "category": "tax_regulatory",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "GOOGL OECD Global Minimum Tax Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.12,
+              "margin": 0.407,
+              "operating_income_usd": 139404000000,
+              "period": "FY2025",
+              "revenue": 342721000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.36,
+              "margin": 0.237,
+              "operating_income_usd": 13910000000,
+              "period": "FY2025",
+              "revenue": 58705000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.134,
+              "period": "FY2025",
+              "revenue": 224532000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Search and Other",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.117,
+              "period": "FY2025",
+              "revenue": 40367000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL YouTube Ads",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.019,
+              "period": "FY2025",
+              "revenue": 29792000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Network",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.191,
+              "period": "FY2025",
+              "revenue": 48030000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Subscriptions Platforms and Devices",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.067,
+              "operating_loss_usd": 7515000000,
+              "period": "FY2025",
+              "revenue": 1537000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Other Bets",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2026",
+              "update_type": "confirmation"
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL FY2026 Technical Infrastructure Capex Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Pending Acquisition of Wiz Inc.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Pending Acquisition of Intersect",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL EC Fine Accrual Q3 2025",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL US Tax Law Changes July 2025",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Waymo Q4 2025 Valuation-Based Compensation Charge",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL FY2025 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL April 2025 $70B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL April 2025 Quarterly Dividend Increase",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL May 2025 Senior Unsecured Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL November 2025 Senior Unsecured Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL International Trade and Macroeconomic Volatility Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL OECD Global Minimum Tax Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-26-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "fed0532533bafdbf4fac89462401d423648e151eacbff85696646741cdde2e2c"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,355 @@
+{
+  "accession": "0000002488-24-000012",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-10-14T00:56:53Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "The Data Center segment primarily includes server-class CPUs, GPUs, AI accelerators, DPUs, FPGAs, SmartNICs, and Adaptive SoC products. We leverage our technology to address the computational, visual data processing and AI workload acceleration needs in the data center market.",
+            "entity_name": "AMD Data Center Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "the Client segment, which primarily includes CPUs, APUs, and chipsets for desktop, notebook and handheld personal computers",
+            "entity_name": "AMD Client Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "the Gaming segment, which primarily includes discrete GPUs, semi-custom SoC products and development services",
+            "entity_name": "AMD Gaming Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "the Embedded segment, which primarily includes embedded CPUs, GPUs, APUs, FPGAs, SOMs, and Adaptive SoC products",
+            "entity_name": "AMD Embedded Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "We have been named as a responsible party on Superfund clean-up orders for three sites in Sunnyvale, California that are on the National Priorities List. Since 1981, we have discovered hazardous material releases to the groundwater from former underground tanks and proceeded to investigate and conduct remediation at these three sites.",
+            "entity_name": "AMD Sunnyvale Superfund Sites Remediation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "To address anticipated future remediation costs under the orders, we have computed and recorded an estimated environmental liability of approximately $4.8 million and have not recorded any potential insurance recoveries in determining the estimated costs of the cleanup. The progress of future remediation efforts cannot be predicted with certainty and these costs may change. We believe that any amount in addition to what has already been accrued would not be material.",
+            "entity_name": "AMD Sunnyvale Superfund Sites Remediation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "With the acquisitions of Mipsology SAS and Nod, Inc. in 2023, we expanded our AI software capabilities to accelerate our AI growth strategy centered on an open software ecosystem to help lower the barriers of entry for customers through developer tools, libraries and models.",
+            "entity_name": "AMD Acquisition of Mipsology SAS (2023)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "With the acquisitions of Mipsology SAS and Nod, Inc. in 2023, we expanded our AI software capabilities to accelerate our AI growth strategy centered on an open software ecosystem to help lower the barriers of entry for customers through developer tools, libraries and models.",
+            "entity_name": "AMD Acquisition of Nod, Inc. (2023)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "We are proud to be led by Dr. Lisa Su, a highly regarded CEO who has won many esteemed awards for her business and leadership prowess.",
+            "entity_name": "Lisa Su",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "One customer accounted for 18% of our consolidated net revenue for the year ended December 30, 2023. Sales to this customer consisted of sales of products from our Gaming segment. A loss of this customer would have a material adverse effect on our business.",
+            "entity_name": "AMD Gaming Segment Customer Concentration",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "AMD"
+            ],
+            "attributes": {
+              "exchange": "NASDAQ",
+              "headquarters": "Santa Clara, California",
+              "incorporation_state": "Delaware"
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "Advanced Micro Devices, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Data Center"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center",
+              "ticker": "AMD"
+            },
+            "name": "AMD Data Center Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Client"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Client",
+              "ticker": "AMD"
+            },
+            "name": "AMD Client Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Gaming"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Gaming",
+              "ticker": "AMD"
+            },
+            "name": "AMD Gaming Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Embedded"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Embedded",
+              "ticker": "AMD"
+            },
+            "name": "AMD Embedded Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Superfund cleanup orders Sunnyvale"
+            ],
+            "attributes": {
+              "accrued_liability_usd": 4800000,
+              "location": "Sunnyvale, California",
+              "num_sites": 3,
+              "regulatory_body": "California Regional Water Quality Control Board",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "AMD Sunnyvale Superfund Sites Remediation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Mipsology acquisition"
+            ],
+            "attributes": {
+              "effective_date": "2023",
+              "event_type": "acquisition",
+              "target_company": "Mipsology SAS"
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of Mipsology SAS (2023)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Nod Inc. acquisition"
+            ],
+            "attributes": {
+              "effective_date": "2023",
+              "event_type": "acquisition",
+              "target_company": "Nod, Inc."
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of Nod, Inc. (2023)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Dr. Lisa Su"
+            ],
+            "attributes": {
+              "current_company_id": "AMD",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Lisa Su",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Gaming customer concentration risk"
+            ],
+            "attributes": {
+              "category": "customer_concentration",
+              "concentration_pct": 0.18,
+              "segment": "Gaming"
+            },
+            "identifiers": {},
+            "name": "AMD Gaming Segment Customer Concentration",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Data Center Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Client Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Gaming Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Embedded Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Sunnyvale Superfund Sites Remediation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of Mipsology SAS (2023)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of Nod, Inc. (2023)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Lisa Su",
+            "source_type_entity": "Person",
+            "target_name": "Advanced Micro Devices, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Gaming Segment Customer Concentration",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-24-000012.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "d2ff0b68bbf888ff90e4151e5c91eb2011072873152398657b3360ba316857d5"
+    }
+  ],
+  "prompt_version": "v3"
+}

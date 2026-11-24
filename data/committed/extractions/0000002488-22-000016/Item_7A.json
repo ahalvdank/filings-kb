@@ -1,0 +1,168 @@
+{
+  "accession": "0000002488-22-000016",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T04:16:13Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our exposure to market risk for changes in interest rates relates primarily to our investment portfolio and long-term debt. We usually invest our cash in investments with short maturities or with frequent interest reset terms. Accordingly, our interest income fluctuates with short-term market conditions.",
+            "entity_name": "AMD Interest Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 25, 2021, all of our outstanding long-term debt had fixed interest rates. Consequently, our exposure to market risk for changes in interest rates on reported interest expense and corresponding cash flows is minimal.",
+            "entity_name": "AMD Interest Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We mitigate default risk in our investment portfolio by investing in only high credit quality securities and by constantly positioning our portfolio to respond to a significant reduction in a credit rating of any investment issuer or guarantor. Our portfolio includes investments in marketable debt securities with active secondary or resale markets to ensure portfolio liquidity.",
+            "entity_name": "AMD Investment Portfolio Default Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "While we believe we take prudent measures to mitigate investment-related risks, such risks cannot be fully eliminated as there are circumstances outside of our control.",
+            "entity_name": "AMD Investment Portfolio Default Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As a result of our foreign operations, we incur costs and we carry assets and liabilities that are denominated in foreign currencies, while sales of products are primarily denominated in U.S. dollars.",
+            "entity_name": "AMD Foreign Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We maintain a foreign currency hedging strategy which uses derivative financial instruments to mitigate the risks associated with changes in foreign currency exchange rates. This strategy takes into consideration all of our exposures. We do not use derivative financial instruments for trading or speculative purposes.",
+            "entity_name": "AMD Foreign Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "interest rate exposure",
+              "interest rate market risk"
+            ],
+            "attributes": {
+              "category": "market_risk",
+              "investment_portfolio_composition_date": "2021-12-25",
+              "portfolio_instruments": "time deposits and commercial paper",
+              "severity_disclosed": "minimal",
+              "subcategory": "interest_rate"
+            },
+            "identifiers": {},
+            "name": "AMD Interest Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "default risk",
+              "credit risk",
+              "investment credit risk"
+            ],
+            "attributes": {
+              "category": "credit_risk",
+              "mitigation": "high credit quality securities only, active monitoring of issuer ratings",
+              "subcategory": "default"
+            },
+            "identifiers": {},
+            "name": "AMD Investment Portfolio Default Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "FX risk",
+              "currency risk",
+              "foreign currency risk"
+            ],
+            "attributes": {
+              "category": "market_risk",
+              "hedge_instrument": "foreign currency forward contracts",
+              "hedge_notional_usd_2020": 755000000,
+              "hedge_notional_usd_2021": 1185000000,
+              "max_maturity_months": 18,
+              "subcategory": "foreign_exchange"
+            },
+            "identifiers": {},
+            "name": "AMD Foreign Exchange Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Interest Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Investment Portfolio Default Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Foreign Exchange Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-22-000016.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "3c4cf1afbe9c195dc3c559e778cdb863ae24d9730c65f0cd164581cb21270945"
+    }
+  ],
+  "prompt_version": "v3"
+}

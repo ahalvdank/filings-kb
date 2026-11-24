@@ -1,0 +1,194 @@
+{
+  "accession": "0000002488-26-000018",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T00:06:27Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "exhibit_number": "2.2",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Stock Purchase Agreement dated as of August 17, 2024, by and among Advanced Micro Devices, Inc., ZT Group Int'l, Inc., the Sellers listed therein and Frank Zhang, as the representative of the Sellers, filed as Exhibit 2.1 to AMD's Current Report on Form 8-K dated August 19, 2024, is hereby incorporated by reference.",
+            "entity_name": "AMD Acquisition of ZT Group Int'l",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit_number": "2.3",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Equity Purchase Agreement dated as of May 18, 2025, by and among Advanced Micro Designs, Inc., AMD Design, LLC, ZT Group Int'l, Inc. and Sanmina Corporation, filed as Exhibit 2.1 to AMD's Current Report on Form 8-K on May 18, 2025, is hereby incorporated by reference.",
+            "entity_name": "AMD Divestiture of AMD Design Assets to Sanmina",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit_number": "4.8",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Second Supplemental Indenture, dated as of March 24, 2025, by and between the Company and U.S. Bank Trust Company, National Association, as trustee, filed as Exhibit 4.1 to AMD's Current Report on Form 8-K dated March 24, 2025, is hereby incorporated by reference.",
+            "entity_name": "AMD March 2025 Second Supplemental Indenture",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit_number": "4.9",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Warrant to Purchase Shares of Common Stock, dated October 5, 2025, between Advanced Micro Devices, Inc. and OpenAI OpCo, LLC, filed as Exhibit 4.1 to AMD's Current Report on Form 8-K dated October 5, 2025, is hereby incorporated by reference.",
+            "entity_name": "AMD October 2025 Warrant Issuance to OpenAI OpCo",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit_number": "10.73",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Offer Letter dated November 12, 2025, by and between Advanced Micro Devices, Inc. and Emily Ellis, filed as Exhibit 10.1 to AMD's Current Report on Form 8-K dated December 12, 2025, is hereby incorporated by reference.",
+            "entity_name": "AMD Emily Ellis Executive Hire",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "ZT Group acquisition"
+            ],
+            "attributes": {
+              "effective_date": "2024-08-17",
+              "event_type": "acquisition",
+              "target_company": "ZT Group Int'l, Inc."
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of ZT Group Int'l",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Sanmina AMD Design sale"
+            ],
+            "attributes": {
+              "buyer": "Sanmina Corporation",
+              "effective_date": "2025-05-18",
+              "event_type": "divestiture"
+            },
+            "identifiers": {},
+            "name": "AMD Divestiture of AMD Design Assets to Sanmina",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2025-03-24",
+              "instrument_type": "notes",
+              "trustee": "U.S. Bank Trust Company, National Association"
+            },
+            "identifiers": {},
+            "name": "AMD March 2025 Second Supplemental Indenture",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "AMD OpenAI warrant"
+            ],
+            "attributes": {
+              "counterparty": "OpenAI OpCo, LLC",
+              "effective_date": "2025-10-05",
+              "instrument_type": "equity_issuance"
+            },
+            "identifiers": {},
+            "name": "AMD October 2025 Warrant Issuance to OpenAI OpCo",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2025-11-12",
+              "event_type": "management_change",
+              "person": "Emily Ellis"
+            },
+            "identifiers": {},
+            "name": "AMD Emily Ellis Executive Hire",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of ZT Group Int'l",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Divestiture of AMD Design Assets to Sanmina",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD March 2025 Second Supplemental Indenture",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD October 2025 Warrant Issuance to OpenAI OpCo",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Emily Ellis Executive Hire",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-26-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "159593bb04b783fca735625698be8182efa1ffa64f8b9a72e35b6ef4d188d0eb"
+    }
+  ],
+  "prompt_version": "v3"
+}

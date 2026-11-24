@@ -1,0 +1,178 @@
+{
+  "accession": "0001045810-26-000021",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T12:08:26Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "John O. Dabiri, Director, Adoption 12/10/2025, 3,984* shares to be sold, expiration date 12/7/2026. *Estimated assuming our closing stock price as of January 23, 2026. The number of shares is based on an estimate because the plan specifies a formulaic dollar amount of shares to be sold.",
+            "entity_name": "John O. Dabiri 10b5-1 Plan Adoption (2025-12-10)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Colette M. Kress, Executive Vice President and Chief Financial Officer, Adoption 12/18/2025, 500,000 shares to be sold, expiration date 3/23/2027.",
+            "entity_name": "Colette M. Kress 10b5-1 Plan Adoption (2025-12-18)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "NVDA",
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "John O. Dabiri",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "NVDA",
+              "insider_status": "officer",
+              "officer_role": "CFO"
+            },
+            "identifiers": {},
+            "name": "Colette M. Kress",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "NVIDIA",
+              "NVDA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVIDIA Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "NVIDIA common stock"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Common Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_expiration": "2026-12-07",
+              "plan_type": "10b5-1",
+              "reporting_person": "John O. Dabiri",
+              "shares": 3984,
+              "shares_estimated": true,
+              "source": "Item_9B_plan_adoption",
+              "transaction_code": "S",
+              "transaction_date": "2025-12-10"
+            },
+            "identifiers": {},
+            "name": "John O. Dabiri 10b5-1 Plan Adoption (2025-12-10)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_expiration": "2027-03-23",
+              "plan_type": "10b5-1",
+              "reporting_person": "Colette M. Kress",
+              "shares": 500000,
+              "source": "Item_9B_plan_adoption",
+              "transaction_code": "S",
+              "transaction_date": "2025-12-18"
+            },
+            "identifiers": {},
+            "name": "Colette M. Kress 10b5-1 Plan Adoption (2025-12-18)",
+            "type": "InsiderTransaction"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "John O. Dabiri",
+            "source_type_entity": "Person",
+            "target_name": "NVIDIA Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO"
+            },
+            "source_name": "Colette M. Kress",
+            "source_type_entity": "Person",
+            "target_name": "NVIDIA Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_expiration": "2026-12-07",
+              "plan_type": "10b5-1",
+              "shares": 3984,
+              "shares_estimated": true,
+              "transaction_code": "S",
+              "transaction_date": "2025-12-10"
+            },
+            "source_name": "John O. Dabiri",
+            "source_type_entity": "Person",
+            "target_name": "NVDA Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": "2025-12-10",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_expiration": "2027-03-23",
+              "plan_type": "10b5-1",
+              "shares": 500000,
+              "transaction_code": "S",
+              "transaction_date": "2025-12-18"
+            },
+            "source_name": "Colette M. Kress",
+            "source_type_entity": "Person",
+            "target_name": "NVDA Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": "2025-12-18",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-26-000021.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "83d7c24c5913b43e621ece1ac4c40938f387201ef909be2b0d2bb1b6e3c540fe"
+    }
+  ],
+  "prompt_version": "v3"
+}

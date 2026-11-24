@@ -1,0 +1,46 @@
+{
+  "accession": "0000034088-26-000045",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T01:36:30Z",
+      "payload": {
+        "chunks": [],
+        "entities": [
+          {
+            "aliases": [
+              "ExxonMobil",
+              "Exxon",
+              "Esso",
+              "Mobil",
+              "XTO"
+            ],
+            "attributes": {
+              "active_patents_end_2025": 8000,
+              "avg_career_employee_tenure_years": 30,
+              "nationalities_represented": 160,
+              "pct_employees_non_us": 59,
+              "regular_employees_2023": 62000,
+              "regular_employees_2024": 61000,
+              "regular_employees_2025": 58000,
+              "state_of_incorporation": "New Jersey",
+              "year_incorporated": 1882
+            },
+            "identifiers": {
+              "ticker": "XOM"
+            },
+            "name": "Exxon Mobil Corporation",
+            "type": "Company"
+          }
+        ],
+        "relationships": [],
+        "source_file": "filings/XOM/0000034088-26-000045.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "212d97ddb2f894707466b67dde6c017b17ab2939770787c1cc6a939307f90296"
+    }
+  ],
+  "prompt_version": "v3"
+}

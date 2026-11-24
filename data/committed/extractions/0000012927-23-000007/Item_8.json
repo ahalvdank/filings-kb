@@ -1,0 +1,1287 @@
+{
+  "accession": "0000012927-23-000007",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T09:05:18Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "revenues_usd_millions_FY2022_FY2021_FY2020",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Commercial Airplanes$25,867 $19,493 $16,162",
+            "entity_name": "BA Commercial Airplanes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "loss_from_operations_usd_millions_FY2022_FY2021_FY2020",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Commercial Airplanes($2,370)($6,475)($13,847)",
+            "entity_name": "BA Commercial Airplanes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "revenues_usd_millions_FY2022_FY2021_FY2020",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Defense, Space & Security23,162 26,540 26,257",
+            "entity_name": "BA Defense, Space & Security Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "loss_earnings_from_operations_usd_millions_FY2022_FY2021_FY2020",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Defense, Space & Security(3,544)1,544 1,539",
+            "entity_name": "BA Defense, Space & Security Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "revenues_usd_millions_FY2022_FY2021_FY2020",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Global Services17,611 16,328 15,543",
+            "entity_name": "BA Global Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "earnings_from_operations_usd_millions_FY2022_FY2021_FY2020",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Global Services2,727 2,017 450",
+            "entity_name": "BA Global Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "revenues_usd_millions_FY2022_FY2021_FY2020",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Boeing Capital199 272 261",
+            "entity_name": "BA Boeing Capital Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "earnings_from_operations_usd_millions_FY2022_FY2021_FY2020",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Boeing Capital29 106 63",
+            "entity_name": "BA Boeing Capital Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing",
+              "BA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "The Boeing Company",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "BCA",
+              "Commercial Airplanes"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Commercial Airplanes",
+              "ticker": "BA"
+            },
+            "name": "BA Commercial Airplanes Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BDS",
+              "Defense, Space & Security"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Defense, Space & Security",
+              "ticker": "BA"
+            },
+            "name": "BA Defense, Space & Security Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BGS",
+              "Global Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Global Services",
+              "ticker": "BA"
+            },
+            "name": "BA Global Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BCC",
+              "Boeing Capital"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Boeing Capital",
+              "ticker": "BA"
+            },
+            "name": "BA Boeing Capital Segment",
+            "type": "RevenueSegment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.327,
+              "margin": -0.092,
+              "period": "FY2022",
+              "revenue": 25867000000
+            },
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Commercial Airplanes Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.127,
+              "margin": -0.153,
+              "period": "FY2022",
+              "revenue": 23162000000
+            },
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Defense, Space & Security Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.079,
+              "margin": 0.155,
+              "period": "FY2022",
+              "revenue": 17611000000
+            },
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Global Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.268,
+              "margin": 0.146,
+              "period": "FY2022",
+              "revenue": 199000000
+            },
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Boeing Capital Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-23-000007.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "97f4032764c0a5d6b239f59ca254185db93e1889fb6902a44ffe0f752a010b1d"
+    },
+    {
+      "extracted_at": "2026-07-01T09:14:28Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Federal income tax audits have been settled for all years prior to 2018. The Internal Revenue Service (IRS) began the 2018-2019 federal tax audit in the first quarter of 2021 and added tax year 2020 to the audit in the fourth quarter of 2021. We are also subject to examination in major state and international jurisdictions for the 2008-2021 tax years. We believe appropriate provisions for all outstanding tax issues have been made for all jurisdictions and all open years.",
+            "entity_name": "Boeing IRS Federal Tax Audit 2018-2020",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Until the Company generates sustained levels of profitability, additional valuation allowances may have to be recorded with corresponding adverse impacts on earnings and/or OCI.",
+            "entity_name": "BA Deferred Tax Valuation Allowance Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Long-term contracts that are contracted on a fixed-price basis could result in losses in future periods. Certain of the fixed-price contracts are for the development of new products, services and related technologies. This development work scope is inherently uncertain and subject to significant variability in estimates of the cost and time required to complete the work by us and our suppliers. The operational and technical complexities of fixed-price development contracts create financial risk, which could trigger additional earnings charges, termination provisions, order cancellations, or other financially significant exposure.",
+            "entity_name": "BA Fixed-Price Development Contract Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "program": "VC-25B",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "During the year ended December 31, 2022, we increased the reach-forward loss on the contract by $1,452 primarily driven by increases to cost estimates associated with factory modification labor and support engineering resources due to labor instability and inefficiencies that we now estimate will persist longer than previously anticipated, higher supplier cost estimates based on ongoing supplier negotiations and higher levels of engineering design changes due to technical requirements which are driving increased rework and schedule delays. Risk remains that we may record additional losses in future periods.",
+            "entity_name": "BA VC-25B Presidential Aircraft Additional Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "program": "KC-46A",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "During the year ended December 31, 2022, we increased the reach-forward loss on the KC-46A Tanker program by $1,374 primarily reflecting higher production and supply chain costs partially driven by labor instability and supply chain disruption, most of which was recorded during the third quarter of 2022. The increase in production costs was primarily driven by factory unit time performance expectations that assume continued production disruption due to labor instability and supply chain disruption. Factory unit time estimates also reflect reduced benefits from prior investments in productivity enablers and higher factory unit time to produce aircraft for the remaining life of the program. Risk remains that we may record additional losses in future periods.",
+            "entity_name": "BA KC-46A Tanker Additional Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "program": "MQ-25",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "During the year ended December 31, 2022, we increased the MQ-25 reach-forward loss by $579 primarily driven by higher than anticipated costs to manufacture the EMD units reflecting recent performance which is resulting in additional factory resources and increased engineering costs to address design and supplier quality issues. We also increased costs associated with engineering design challenges, additional testing and certification activities, and flight test support. Risk remains that we may record additional losses in future periods.",
+            "entity_name": "BA MQ-25 Additional Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "program": "T-7A Red Hawk",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We increased the estimated reach-forward loss by $552 during the year ended December 31, 2022 primarily driven by ongoing supply chain negotiations (which are impacted by supply chain constraints and inflationary pressures), and design revisions, as well as an increase in the number of expected units in the initial production lots. Risk remains that we may record additional losses in future periods.",
+            "entity_name": "BA T-7A Red Hawk Additional Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "program": "Commercial Crew",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "During the year ended December 31, 2022, we increased the reach-forward loss by $288 primarily reflecting increases to estimated costs related to completing the crewed flight tests and revised schedules for both the crewed flight test and three post certification missions. Most of this increase was recorded in the third quarter of 2022, primarily driven by timing of the three future post certification missions which are now assumed to be completed by 2026 based on NASA's revised launch plans. We had previously assumed that the post certification missions would be completed by 2024. Risk remains that we may record additional losses in future periods.",
+            "entity_name": "BA Commercial Crew Starliner Additional Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "It is reasonably possible that we may incur charges that exceed these recorded amounts because of regulatory agency orders and directives, changes in laws and/or regulations, higher than expected costs and/or the discovery of new or additional contamination. As part of our estimating process, we develop a range of reasonably possible alternate scenarios that includes the high end of a range of reasonably possible cost estimates for all remediation sites for which we have sufficient information based on our experience and existing laws and regulations. There are some potential remediation obligations where the costs of remediation cannot be reasonably estimated. At December 31, 2022 and 2021, the high end of the estimated range of reasonably possible remediation costs exceeded our recorded liabilities by $1,058 and $1,094.",
+            "entity_name": "BA Environmental Remediation Excess Cost Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In April 2022, we decided to pause production of the 777X-9 during 2022 and 2023. The production pause is resulting in abnormal production costs that are being expensed as incurred until 777X-9 production resumes. We expensed abnormal production costs of $325 during the year ended December 31, 2022. The 777X program has near break-even margins at December 31, 2022.",
+            "entity_name": "BA 777X-9 Production Pause April 2022",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2022, we adopted Accounting Standards Update (ASU) 2021-10, Government Assistance (Topic 832), which requires certain disclosures for those government assistance transactions for which we have applied a grant accounting model. Certain states and localities in which we operate offer or have offered various business incentives related to investment and/or job creation.",
+            "entity_name": "BA Adoption of ASU 2021-10 Government Assistance",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In the third quarter of 2022, we entered into a $5,800 364-day revolving credit agreement expiring in August 2023, a $3,000 three-year revolving credit agreement expiring in August 2025, and amended our $3,200 five-year revolving credit agreement, which expires in October 2024, primarily to incorporate a LIBOR successor rate. As of December 31, 2022, we had $12,000 currently available under credit line agreements. We continue to be in full compliance with all covenants contained in our debt or credit facility agreements.",
+            "entity_name": "BA Q3 2022 Revolving Credit Facility Restructuring",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "IRS audit 2018-2020",
+              "Boeing federal tax audit"
+            ],
+            "attributes": {
+              "audit_commenced": "Q1-2021",
+              "counterparty": "Internal Revenue Service",
+              "status": "pending",
+              "tax_years_under_audit": "2018-2020"
+            },
+            "identifiers": {},
+            "name": "Boeing IRS Federal Tax Audit 2018-2020",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Boeing deferred tax asset realizability risk"
+            ],
+            "attributes": {
+              "category": "tax",
+              "gross_deferred_tax_assets_usd": 12301000000,
+              "valuation_allowance_usd": 3162000000
+            },
+            "identifiers": {},
+            "name": "BA Deferred Tax Valuation Allowance Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing fixed-price contract financial risk"
+            ],
+            "attributes": {
+              "affected_segments": [
+                "BDS",
+                "BGS Government"
+              ],
+              "category": "operational"
+            },
+            "identifiers": {},
+            "name": "BA Fixed-Price Development Contract Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Air Force One program additional loss risk",
+              "VC-25B reach-forward loss risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "contract_type": "fixed-price",
+              "contract_value_usd": 4300000000,
+              "program": "VC-25B Presidential Aircraft",
+              "reach_forward_loss_increase_2022_usd": 1452000000
+            },
+            "identifiers": {},
+            "name": "BA VC-25B Presidential Aircraft Additional Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "KC-46A program additional loss risk",
+              "Tanker program reach-forward loss risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "contract_type": "fixed-price incentive fee",
+              "program": "KC-46A Tanker",
+              "reach_forward_loss_increase_2022_usd": 1374000000
+            },
+            "identifiers": {},
+            "name": "BA KC-46A Tanker Additional Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "MQ-25 program additional loss risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "contract_type": "fixed-price",
+              "contract_value_usd": 890000000,
+              "program": "MQ-25",
+              "reach_forward_loss_increase_2022_usd": 579000000
+            },
+            "identifiers": {},
+            "name": "BA MQ-25 Additional Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "T-7A Red Hawk program additional loss risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "contract_type": "fixed-price",
+              "emd_contract_value_usd": 860000000,
+              "emd_earnings_charges_2022_usd": 203000000,
+              "program": "T-7A Red Hawk",
+              "reach_forward_loss_increase_2022_production_usd": 552000000
+            },
+            "identifiers": {},
+            "name": "BA T-7A Red Hawk Additional Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "CST-100 Starliner additional loss risk",
+              "Commercial Crew program reach-forward loss risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "contract_type": "fixed-price",
+              "program": "Commercial Crew / CST-100 Starliner",
+              "reach_forward_loss_increase_2022_usd": 288000000
+            },
+            "identifiers": {},
+            "name": "BA Commercial Crew Starliner Additional Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing environmental liability upside risk"
+            ],
+            "attributes": {
+              "accrued_liability_usd": 752000000,
+              "category": "environmental",
+              "high_end_excess_over_recorded_usd": 1058000000
+            },
+            "identifiers": {},
+            "name": "BA Environmental Remediation Excess Cost Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "777X-9 production suspension 2022",
+              "Boeing 777X production pause"
+            ],
+            "attributes": {
+              "abnormal_production_costs_expensed_2022_usd": 325000000,
+              "effective_date": "2022-04",
+              "event_type": "restructuring",
+              "pause_duration": "2022-2023",
+              "program": "777X-9"
+            },
+            "identifiers": {},
+            "name": "BA 777X-9 Production Pause April 2022",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing Topic 832 adoption",
+              "Boeing ASU 2021-10 accounting change"
+            ],
+            "attributes": {
+              "event_type": "accounting_change",
+              "fiscal_year_adopted": "2022",
+              "standard": "ASU 2021-10",
+              "topic": "Topic 832 Government Assistance"
+            },
+            "identifiers": {},
+            "name": "BA Adoption of ASU 2021-10 Government Assistance",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing 2022 credit facilities",
+              "Boeing Q3 2022 revolver"
+            ],
+            "attributes": {
+              "amendment_purpose": "LIBOR successor rate incorporation",
+              "facility_364day_expiry": "2023-08",
+              "facility_364day_usd": 5800000000,
+              "facility_3yr_expiry": "2025-08",
+              "facility_3yr_usd": 3000000000,
+              "facility_5yr_amended_usd": 3200000000,
+              "facility_5yr_expiry": "2024-10",
+              "instrument_type": "revolver",
+              "period": "Q3-2022",
+              "total_available_capacity_usd": 12000000000
+            },
+            "identifiers": {},
+            "name": "BA Q3 2022 Revolving Credit Facility Restructuring",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing IRS Federal Tax Audit 2018-2020",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Deferred Tax Valuation Allowance Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Fixed-Price Development Contract Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA VC-25B Presidential Aircraft Additional Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA KC-46A Tanker Additional Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA MQ-25 Additional Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA T-7A Red Hawk Additional Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Commercial Crew Starliner Additional Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Environmental Remediation Excess Cost Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA 777X-9 Production Pause April 2022",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Adoption of ASU 2021-10 Government Assistance",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Q3 2022 Revolving Credit Facility Restructuring",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-23-000007.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "66bea071c85daf1be29ac8579b06cc9dd2be5750970af6a61251437ad15acc33"
+    },
+    {
+      "extracted_at": "2026-07-01T09:20:32Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note 21",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Multiple legal actions have been filed against us as a result of the October 29, 2018 accident of Lion Air Flight 610 and the March 10, 2019 accident of Ethiopian Airlines Flight 302. During 2021, we entered into (i) a Deferred Prosecution Agreement with the U.S. Department of Justice that resolved the Department of Justice's previously disclosed investigation into us regarding the evaluation of the 737 MAX by the Federal Aviation Administration (FAA) as well as (ii) a proposed settlement with plaintiffs in a shareholder derivative lawsuit that resulted in the Company receiving $219 in the second quarter of 2022. In September 2022, we settled a previously disclosed investigation by the Securities and Exchange Commission related to the 737 MAX accidents and consented to a civil penalty, which resulted in an earnings charge of $200 that was paid in October 2022. We cannot reasonably estimate a range of loss, if any, not covered by available insurance that we may incur as a result of any remaining pending lawsuits or other matters related to the accidents and the 737 MAX.",
+            "entity_name": "737 MAX Accidents Remaining Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 21",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In September 2022, we settled a previously disclosed investigation by the Securities and Exchange Commission related to the 737 MAX accidents and consented to a civil penalty, which resulted in an earnings charge of $200 that was paid in October 2022.",
+            "entity_name": "Boeing SEC 737 MAX Investigation Settlement",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 21",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "During 2021, we entered into (i) a Deferred Prosecution Agreement with the U.S. Department of Justice that resolved the Department of Justice's previously disclosed investigation into us regarding the evaluation of the 737 MAX by the Federal Aviation Administration (FAA) as well as (ii) a proposed settlement with plaintiffs in a shareholder derivative lawsuit that resulted in the Company receiving $219 in the second quarter of 2022.",
+            "entity_name": "Boeing 737 MAX Shareholder Derivative Lawsuit",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 21",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "During 2019, we entered into agreements with Embraer S.A. (Embraer) to establish joint ventures that included the commercial aircraft and services operations of Embraer, of which we were expected to acquire an 80 percent ownership stake for $4,200, as well as a joint venture to promote and develop new markets for the C-390 Millennium. In 2020, we exercised our contractual right to terminate these agreements based on Embraer's failure to meet certain required closing conditions. Embraer has disputed our right to terminate the agreements, and the dispute is currently in arbitration. We cannot reasonably estimate a range of loss, if any, that may result from the arbitration, which we currently expect to be completed in late 2023 or early 2024.",
+            "entity_name": "Boeing-Embraer JV Arbitration",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 22",
+              "period": "FY2022",
+              "revenue_usd": 25867000000,
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "BCA develops, produces and markets commercial jet aircraft principally to the commercial airline industry worldwide. Revenue on commercial aircraft contracts is recognized at the point in time when an aircraft is completed and accepted by the customer.",
+            "entity_name": "BA Commercial Airplanes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 22",
+              "period": "FY2022",
+              "revenue_usd": 23162000000,
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "BDS engages in the research, development, production and modification of the following products and related services: manned and unmanned military aircraft and weapons systems, surveillance and engagement, strategic defense and intelligence systems, satellite systems and space exploration. BDS revenue is generally recognized over the contract term (over time) as costs are incurred.",
+            "entity_name": "BA Defense, Space & Security Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 22",
+              "period": "FY2022",
+              "revenue_usd": 17611000000,
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "BGS provides parts, maintenance, modifications, logistics support, training, data analytics and information-based services to commercial and government customers worldwide. BGS segment revenue and costs include certain products and services provided to other segments. Revenue on commercial spare parts contracts is recognized at the point in time when a spare part is delivered to the customer. Revenue on other contracts is generally recognized over the contract term (over time) as costs are incurred.",
+            "entity_name": "BA Global Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 18",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "On December 17, 2018, the Board approved a repurchase plan for up to $20,000 of common stock. In March 2020, the Board of Directors terminated its prior authorization to repurchase shares under this plan.",
+            "entity_name": "BA $20B Share Repurchase Authorization (December 2018)",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 17",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In February 2022, 2021 and 2020, we granted to our executives 1,804,541, 980,077 and 325,108 restricted stock units (RSUs) as part of our long-term incentive program with grant date fair values of $217.48, $215.70 and 319.04 per unit, respectively. On July 29, 2022, we also granted 2,568,112 RSUs with a grant date fair value of $157.69 per unit as part of our long-term incentive program, accelerating awards planned for 2023 to retain executives.",
+            "entity_name": "BA FY2022 Share-Based Compensation Disclosure",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 22",
+              "section_type": "Item_8",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "Our backlog at December 31, 2022 was $404,381. We expect approximately 17% to be converted to revenue through 2023 and approximately 71% through 2026, with the remainder thereafter.",
+            "entity_name": "BA FY2022 Backlog Revenue Conversion Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Critical Audit Matter",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Margins on fixed-price development contracts are inherently uncertain in that revenue is fixed while the estimates of costs required to complete these contracts are subject to significant variability. The operational and technical complexities of fixed-price development contracts create financial risk, which could increase the estimates of costs and result in lower margins or material reach-forward losses. The ongoing effects of macroeconomic challenges, including supply chain disruption, labor shortages, and inflationary pressures compound these complexities and related financial risks.",
+            "entity_name": "BA Fixed-Price Development Contract Cost Overrun Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Critical Audit Matter",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The introduction of new aircraft programs involves increased risk associated with meeting development, certification and production schedules. The use of program accounting requires estimating and demonstrating customer demand for the number of units included in the program (program accounting quantity) and estimating the sales and costs over the expected life of each program. Additionally, the level of effort to meet regulatory requirements and achieve certification may be challenging to predict, including potential delays in the timing of entry into service and corresponding increases in estimated costs. Changes to the revenue and cost estimates related to the program accounting quantity or regulatory requirements to achieve certification could occur, resulting in lower margins or material reach-forward losses.",
+            "entity_name": "BA 777X Program Certification and Cost Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 22",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "There is significant uncertainty regarding the timing of when backlog will convert into revenue due to timing of 787 deliveries from inventory, timing of 737 MAX delivery resumption in China, timing of entry into service of the 777X, 737-7 and/or 737-10, and the lingering effects of the COVID-19 pandemic.",
+            "entity_name": "BA Backlog Conversion Timing Uncertainty",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Lion Air 610 and Ethiopian Airlines 302 litigation",
+              "737 MAX pending lawsuits"
+            ],
+            "attributes": {
+              "accidents": "Lion Air Flight 610 (October 29, 2018) and Ethiopian Airlines Flight 302 (March 10, 2019)",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "737 MAX Accidents Remaining Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Boeing SEC 737 MAX settlement"
+            ],
+            "attributes": {
+              "civil_penalty_usd": 200000000,
+              "counterparty": "Securities and Exchange Commission",
+              "settlement_date": "2022-09",
+              "status": "settled"
+            },
+            "identifiers": {},
+            "name": "Boeing SEC 737 MAX Investigation Settlement",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "737 MAX shareholder derivative settlement"
+            ],
+            "attributes": {
+              "settlement_quarter": "2022-Q2",
+              "settlement_received_usd": 219000000,
+              "status": "settled"
+            },
+            "identifiers": {},
+            "name": "Boeing 737 MAX Shareholder Derivative Lawsuit",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Embraer arbitration",
+              "Boeing Embraer joint venture dispute"
+            ],
+            "attributes": {
+              "counterparty": "Embraer S.A.",
+              "dispute": "Embraer disputes Boeing's right to terminate 2019 joint venture agreements",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Boeing-Embraer JV Arbitration",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "BCA",
+              "Boeing Commercial Airplanes"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "BCA",
+              "ticker": "BA"
+            },
+            "name": "BA Commercial Airplanes Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BDS",
+              "Boeing Defense Space & Security"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "BDS",
+              "ticker": "BA"
+            },
+            "name": "BA Defense, Space & Security Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BGS",
+              "Boeing Global Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "BGS",
+              "ticker": "BA"
+            },
+            "name": "BA Global Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Boeing 2018 buyback program"
+            ],
+            "attributes": {
+              "amount_usd": 20000000000,
+              "effective_date": "2018-12-17",
+              "note": "Terminated by Board of Directors in March 2020",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "BA $20B Share Repurchase Authorization (December 2018)",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Boeing 2022 RSU and stock option grants",
+              "Boeing 2022 share-based plans"
+            ],
+            "attributes": {
+              "event_type": "compensation_disclosure",
+              "executive_rsu_granted": 4527189,
+              "fiscal_year": 2022,
+              "rsu_and_other_awards_expense_usd": 726000000,
+              "stock_options_granted": 362450
+            },
+            "identifiers": {},
+            "name": "BA FY2022 Share-Based Compensation Disclosure",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "backlog_total_usd": 404381000000,
+              "metric": "backlog_conversion_to_revenue",
+              "pct_through_2023": 0.17,
+              "pct_through_2026": 0.71,
+              "period": "FY2023-FY2026",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "BA FY2022 Backlog Revenue Conversion Outlook",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Boeing fixed-price development contracts risk",
+              "KC-46A Commercial Crew T-7A cost risk"
+            ],
+            "attributes": {
+              "affected_programs": [
+                "KC-46A Tanker",
+                "Commercial Crew",
+                "VC-25B Presidential Aircraft",
+                "T-7A Redhawk",
+                "MQ-25"
+              ],
+              "category": "financial"
+            },
+            "identifiers": {},
+            "name": "BA Fixed-Price Development Contract Cost Overrun Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing 777X certification delay risk",
+              "777X entry into service risk"
+            ],
+            "attributes": {
+              "affected_programs": [
+                "777X"
+              ],
+              "category": "operational"
+            },
+            "identifiers": {},
+            "name": "BA 777X Program Certification and Cost Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing backlog conversion risk",
+              "737 MAX China delivery resumption risk"
+            ],
+            "attributes": {
+              "affected_programs": [
+                "787",
+                "737 MAX",
+                "777X",
+                "737-7",
+                "737-10"
+              ],
+              "category": "operational",
+              "geography": "China"
+            },
+            "identifiers": {},
+            "name": "BA Backlog Conversion Timing Uncertainty",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "737 MAX Accidents Remaining Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing SEC 737 MAX Investigation Settlement",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "new_status": "settled",
+              "prior_status": "pending"
+            },
+            "source_name": "Boeing SEC 737 MAX Investigation Settlement",
+            "source_type_entity": "LegalProceeding",
+            "target_name": "BA 10-K 2022",
+            "target_type_entity": "Filing",
+            "type": "legal_proceeding_status_changed_in",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing 737 MAX Shareholder Derivative Lawsuit",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing-Embraer JV Arbitration",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.327,
+              "period": "FY2022",
+              "revenue": 25867000000
+            },
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Commercial Airplanes Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.127,
+              "period": "FY2022",
+              "revenue": 23162000000
+            },
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Defense, Space & Security Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.079,
+              "period": "FY2022",
+              "revenue": 17611000000
+            },
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Global Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA $20B Share Repurchase Authorization (December 2018)",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA FY2022 Share-Based Compensation Disclosure",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA FY2022 Backlog Revenue Conversion Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Fixed-Price Development Contract Cost Overrun Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA 777X Program Certification and Cost Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA Backlog Conversion Timing Uncertainty",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-23-000007.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "c8d935a34438c5e501da30409e3c4ebb86553e19b6cc923b305cf7228fedccd5"
+    },
+    {
+      "extracted_at": "2026-07-01T09:21:07Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Production quality issues and supply chain disruption for the 787 program have resulted in increased risk associated with forecasted revenue estimates primarily due to the difficulty in assessing the value of consideration expected to be provided to customers as a result of delivery delays.",
+            "entity_name": "BA 787 Program Revenue Estimation Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "There is estimation uncertainty related to the revenue forecasts of aircraft which have reached or are expected to reach a delivery delay period that provides the customer with a contractual termination right. Changes to the expected delivery schedule could result in additional consideration to customers. This could result in lower margins or material reach-forward losses.",
+            "entity_name": "BA 787 Program Revenue Estimation Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "787 delivery delay revenue risk",
+              "787 reach-forward loss risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "driver": "production quality issues and supply chain disruption",
+              "mechanism": "estimation uncertainty in forecasted revenue and customer delivery-delay consideration",
+              "program": "787"
+            },
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "BA 787 Program Revenue Estimation Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "BA 787 Program Revenue Estimation Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-01-27",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-23-000007.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "1c070540ae990c91927fd07346cb74aa440d0abde13ccde2312bfd3b1048a076"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,738 @@
+{
+  "accession": "0001326801-23-000013",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T10:37:01Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "FoA revenue in 2022 decreased $1.21 billion, or 1%, compared to 2021. The decrease was mostly driven by advertising revenue.",
+            "entity_name": "META Family of Apps Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "RL revenue in 2022 decreased $115 million, or 5%, compared to 2021. The decrease in RL revenue was driven by a decrease in the volume of Meta Quest sales.",
+            "entity_name": "META Reality Labs Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Advertising revenue in 2022 decreased $1.29 billion, or 1%, compared to 2021 due to a decrease in the average price per ad, partially offset by an increase in the number of ads delivered. In 2022, the average price per ad decreased by 16%, as compared with an increase of 24% in 2021.",
+            "entity_name": "META Advertising Revenue",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "Starting in the third quarter of 2022, we began a series of cost management initiatives including facilities consolidation, a layoff of approximately 11,000 employees, and a pivot in our data center strategy, which resulted in total restructuring charges of $4.61 billion in 2022.",
+            "entity_name": "META 2022 Restructuring Program",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In connection with our periodic reviews of the estimated useful lives of property and equipment, we extended the estimated average useful lives of our servers and network assets category effective the second and the fourth quarters of 2022. The financial impact of the changes in estimates was a reduction in depreciation expense of $860 million and an increase in net income of $693 million, or $0.26 per diluted share for the year ended December 31, 2022.",
+            "entity_name": "META 2022 Server and Network Asset Useful Life Extension",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "Although it is inherently difficult to predict when and how the metaverse ecosystem will develop, we expect our RL segment to continue to operate at a loss for the foreseeable future, and our ability to support our metaverse efforts is dependent on generating sufficient profits from other areas of our business.",
+            "entity_name": "META Reality Labs Operating Loss Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We anticipate that investments in our data center capacity, servers, network infrastructure, and headcount will continue to drive expense growth in 2023, which will adversely affect our operating margin and profitability.",
+            "entity_name": "META FY2023 Expense Growth Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "If our stock price remains constant to the January 27, 2023 price, and absent any changes to U.S. tax law, we expect our effective tax rate for the full year 2023 to be in the low twenties.",
+            "entity_name": "META FY2023 Effective Tax Rate Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect we may incur significant additional restructuring charges as we continue to focus on cost efficiency measures through 2023.",
+            "entity_name": "META FY2023 Additional Restructuring Charges Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "The majority of the decrease was due to $32.04 billion for capital expenditures, including principal payments on finance leases, $27.96 billion repurchases of our Class A common stock, $3.60 billion of taxes paid related to net share settlement of employee restricted stock unit (RSU) awards, and $1.31 billion for acquisitions of businesses and intangible assets.",
+            "entity_name": "META 2022 Class A Common Stock Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "These decreases were partially offset by $50.48 billion of cash generated from operations and $9.92 billion of net proceeds from the issuance of fixed-rate senior notes (the \"Notes\") in August 2022.",
+            "entity_name": "META August 2022 Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our advertising revenue has been, and we expect will continue to be, adversely affected by reduced marketer spending as a result of limitations on our ad targeting and measurement tools arising from changes to the regulatory environment and third-party mobile operating systems and browsers.",
+            "entity_name": "META Ad Targeting and Measurement Limitations Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In particular, we believe advertising budgets have been pressured by factors such as inflation, rising interest rates, and related market uncertainty, which has led to reduced marketer spending. In addition, competitive products and services have reduced some users' engagement with our products and services.",
+            "entity_name": "META Macroeconomic Advertising Demand Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta",
+              "Facebook"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "Meta Platforms, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Family of Apps",
+              "FoA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Family of Apps",
+              "ticker": "META"
+            },
+            "name": "META Family of Apps Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Reality Labs",
+              "RL"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Reality Labs",
+              "ticker": "META"
+            },
+            "name": "META Reality Labs Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Advertising",
+              "META ad revenue"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Advertising",
+              "ticker": "META"
+            },
+            "name": "META Advertising Revenue",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Meta 2022 layoff",
+              "2022 Meta restructuring"
+            ],
+            "attributes": {
+              "effective_date": "2022",
+              "employees_affected": 11000,
+              "event_type": "restructuring",
+              "total_charges_usd": 4611000000
+            },
+            "identifiers": {},
+            "name": "META 2022 Restructuring Program",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Meta useful life accounting change 2022",
+              "server depreciation change 2022"
+            ],
+            "attributes": {
+              "asset_type": "servers and network assets",
+              "effective_date": "2022",
+              "event_type": "accounting_change",
+              "impact_depreciation_reduction_usd": 860000000,
+              "impact_net_income_increase_usd": 693000000
+            },
+            "identifiers": {},
+            "name": "META 2022 Server and Network Asset Useful Life Extension",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Meta RL segment loss guidance"
+            ],
+            "attributes": {
+              "metric": "operating_loss",
+              "new_value": "continued_operating_loss",
+              "period": "foreseeable_future",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "META Reality Labs Operating Loss Outlook",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Meta 2023 cost growth outlook"
+            ],
+            "attributes": {
+              "metric": "expense_growth",
+              "period": "FY2023",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "META FY2023 Expense Growth Outlook",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Meta 2023 tax rate guidance"
+            ],
+            "attributes": {
+              "metric": "effective_tax_rate",
+              "new_value": "low_twenties_pct",
+              "period": "FY2023",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "META FY2023 Effective Tax Rate Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Meta 2023 restructuring charges guidance"
+            ],
+            "attributes": {
+              "metric": "restructuring_charges",
+              "period": "FY2023",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "META FY2023 Additional Restructuring Charges Outlook",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Meta 2022 share buyback"
+            ],
+            "attributes": {
+              "amount_usd": 27960000000,
+              "effective_date": "2022",
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "META 2022 Class A Common Stock Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Meta 2022 senior notes",
+              "Meta fixed-rate notes 2022"
+            ],
+            "attributes": {
+              "instrument_type": "notes",
+              "issuance_date": "2022-08",
+              "note_type": "fixed-rate senior",
+              "principal_usd": 9920000000
+            },
+            "identifiers": {},
+            "name": "META August 2022 Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "iOS privacy impact risk",
+              "regulatory ad targeting limitations"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "drivers": [
+                "iOS changes",
+                "GDPR",
+                "ePrivacy Directive",
+                "CPRA",
+                "Digital Markets Act"
+              ],
+              "geography": "Global"
+            },
+            "identifiers": {},
+            "name": "META Ad Targeting and Measurement Limitations Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "macro headwind on Meta ad revenue"
+            ],
+            "attributes": {
+              "category": "macroeconomic",
+              "geography": "Global"
+            },
+            "identifiers": {},
+            "name": "META Macroeconomic Advertising Demand Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": -0.01,
+              "margin": 0.37,
+              "operating_income": 42661000000,
+              "period": "FY2022",
+              "revenue": 114450000000
+            },
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META Family of Apps Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.05,
+              "margin": -6.35,
+              "operating_income": -13717000000,
+              "period": "FY2022",
+              "revenue": 2159000000
+            },
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META Reality Labs Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.01,
+              "period": "FY2022",
+              "revenue": 113642000000
+            },
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META Advertising Revenue",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META 2022 Restructuring Program",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META 2022 Server and Network Asset Useful Life Extension",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META Reality Labs Operating Loss Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META FY2023 Expense Growth Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META FY2023 Effective Tax Rate Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META FY2023 Additional Restructuring Charges Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META 2022 Class A Common Stock Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META August 2022 Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META Ad Targeting and Measurement Limitations Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META Macroeconomic Advertising Demand Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-23-000013.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "68c744288c8b8811069be700513b127308b8fd6f6ecf7cbbc7dbd0bc96dc0a3b"
+    },
+    {
+      "extracted_at": "2026-07-20T10:39:47Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In 2022, we repurchased and subsequently retired 161 million shares of our Class A common stock for an aggregate amount of $27.93 billion. As of December 31, 2022, $10.87 billion remained available and authorized for repurchases.",
+            "entity_name": "META 2022 Class A Stock Repurchase Execution",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In January 2023, an additional $40 billion of repurchases was authorized under this program.",
+            "entity_name": "META January 2023 $40B Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "We anticipate making capital expenditures of approximately $30 billion to $33 billion in 2023.",
+            "entity_name": "META FY2023 Capital Expenditure Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2023-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In August 2022, we issued an aggregate of $10.0 billion principal amount of the Notes. The Notes were issued in four series, which mature from 2027 through 2062. Short-term and long-term future interest payments obligations as of December 31, 2022 are $411 million and $7.69 billion, respectively.",
+            "entity_name": "META August 2022 $10B Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2023-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "Our restructuring efforts to sublease, early terminate or abandon several office buildings under operating leases did not materially change our operating lease obligations.",
+            "entity_name": "META 2022 Real Estate and Lease Restructuring",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "Cash provided by operating activities during 2022 mostly consisted of net income adjusted for certain non-cash items, such as $11.99 billion of share-based compensation expense, $8.69 billion of depreciation and amortization, and $3.56 billion of impairment for leases, leasehold improvements, and abandonment charges for data center assets related to our restructuring efforts.",
+            "entity_name": "META 2022 Real Estate and Lease Restructuring",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-01",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta 2022 buyback"
+            ],
+            "attributes": {
+              "amount_usd": 27930000000,
+              "period": "FY2022",
+              "remaining_authorization_usd": 10870000000,
+              "return_type": "buyback",
+              "shares_repurchased": 161000000
+            },
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "META 2022 Class A Stock Repurchase Execution",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Meta January 2023 buyback authorization"
+            ],
+            "attributes": {
+              "amount_usd": 40000000000,
+              "effective_date": "2023-01",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "META January 2023 $40B Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Meta 2023 capex outlook"
+            ],
+            "attributes": {
+              "metric": "capital_expenditures",
+              "new_value": "30B-33B",
+              "period": "FY2023",
+              "unit": "USD",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "META FY2023 Capital Expenditure Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Meta 2022 notes offering"
+            ],
+            "attributes": {
+              "instrument_type": "notes",
+              "issuance_date": "2022-08",
+              "long_term_interest_usd": 7690000000,
+              "maturity_range": "2027-2062",
+              "principal_usd": 10000000000,
+              "purpose": "general corporate purposes",
+              "series_count": 4,
+              "short_term_interest_usd": 411000000
+            },
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "META August 2022 $10B Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Meta 2022 office restructuring",
+              "Meta 2022 lease abandonment"
+            ],
+            "attributes": {
+              "actions": "sublease, early termination, and abandonment of office buildings",
+              "event_type": "restructuring",
+              "impairment_charges_usd": 3560000000,
+              "period": "FY2022"
+            },
+            "identifiers": {},
+            "name": "META 2022 Real Estate and Lease Restructuring",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META 2022 Class A Stock Repurchase Execution",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META January 2023 $40B Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META FY2023 Capital Expenditure Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2023-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META August 2022 $10B Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2023-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META 2022 Real Estate and Lease Restructuring",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-01",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-23-000013.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "5b07e5dfb09dd0b635b2a12c5d990d70c25c736f93e524e136d89d3729b26b42"
+    }
+  ],
+  "prompt_version": "v3"
+}

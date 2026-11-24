@@ -1,0 +1,297 @@
+{
+  "accession": "0000019617-22-000272",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-19T14:45:11Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "For management reporting purposes, JPMorgan Chase's activities are organized into four major reportable business segments, as well as a Corporate segment. The Firm's consumer business is the Consumer & Community Banking (\"CCB\") segment. The Firm's wholesale business segments are the Corporate & Investment Bank (\"CIB\"), Commercial Banking (\"CB\"), and Asset & Wealth Management (\"AWM\").",
+            "entity_name": "JPM Consumer & Community Banking",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "For management reporting purposes, JPMorgan Chase's activities are organized into four major reportable business segments, as well as a Corporate segment. The Firm's consumer business is the Consumer & Community Banking (\"CCB\") segment. The Firm's wholesale business segments are the Corporate & Investment Bank (\"CIB\"), Commercial Banking (\"CB\"), and Asset & Wealth Management (\"AWM\").",
+            "entity_name": "JPM Corporate & Investment Bank",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "For management reporting purposes, JPMorgan Chase's activities are organized into four major reportable business segments, as well as a Corporate segment. The Firm's consumer business is the Consumer & Community Banking (\"CCB\") segment. The Firm's wholesale business segments are the Corporate & Investment Bank (\"CIB\"), Commercial Banking (\"CB\"), and Asset & Wealth Management (\"AWM\").",
+            "entity_name": "JPM Commercial Banking",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "For management reporting purposes, JPMorgan Chase's activities are organized into four major reportable business segments, as well as a Corporate segment. The Firm's consumer business is the Consumer & Community Banking (\"CCB\") segment. The Firm's wholesale business segments are the Corporate & Investment Bank (\"CIB\"), Commercial Banking (\"CB\"), and Asset & Wealth Management (\"AWM\").",
+            "entity_name": "JPM Asset & Wealth Management",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The Firm is subject to obligations under the terms of a Deferred Prosecution Agreement entered into with the Department of Justice on September 29, 2020 relating to precious metals and U.S. Treasuries markets investigations as well as under a related order issued by the CFTC.",
+            "entity_name": "JPM DOJ Deferred Prosecution Agreement 2020",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In September 2021, the Firm launched a retail bank in the U.K. operating through J.P. Morgan Europe Limited (\"JPMEL\") and acquired Nutmeg Saving and Investment Limited, a U.K. online digital investment manager (\"Nutmeg\").",
+            "entity_name": "JPM Acquisition of Nutmeg Saving and Investment Limited",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "The Firm has global Diversity, Equity & Inclusion centers of excellence, several of which were launched in 2021, that lead the Firm's strategy in supporting its commitments to create more equity and lasting impact in communities, and strengthen its inclusive culture.",
+            "entity_name": "JPM Diversity Equity and Inclusion Program",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "JPMorgan Chase",
+              "JPM",
+              "the Firm"
+            ],
+            "attributes": {
+              "domicile": "Delaware",
+              "employees_global": 271025,
+              "fiscal_year_end": "2021-12-31",
+              "headquarters": "United States",
+              "stockholders_equity_usd": 294100000000,
+              "total_assets_usd": 3700000000000
+            },
+            "identifiers": {
+              "ticker": "JPM"
+            },
+            "name": "JPMorgan Chase & Co.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "CCB",
+              "Consumer & Community Banking"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Consumer & Community Banking",
+              "ticker": "JPM"
+            },
+            "name": "JPM Consumer & Community Banking",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "CIB",
+              "Corporate & Investment Bank"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Corporate & Investment Bank",
+              "ticker": "JPM"
+            },
+            "name": "JPM Corporate & Investment Bank",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "CB",
+              "Commercial Banking"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Commercial Banking",
+              "ticker": "JPM"
+            },
+            "name": "JPM Commercial Banking",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AWM",
+              "Asset & Wealth Management"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Asset & Wealth Management",
+              "ticker": "JPM"
+            },
+            "name": "JPM Asset & Wealth Management",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "JPM DPA 2020",
+              "precious metals Treasuries DPA"
+            ],
+            "attributes": {
+              "counterparty": "Department of Justice",
+              "effective_date": "2020-09-29",
+              "related_regulator": "CFTC",
+              "status": "pending",
+              "subject": "precious metals and U.S. Treasuries markets investigations"
+            },
+            "identifiers": {},
+            "name": "JPM DOJ Deferred Prosecution Agreement 2020",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Nutmeg acquisition"
+            ],
+            "attributes": {
+              "effective_date": "2021-09",
+              "event_type": "acquisition",
+              "geography": "U.K.",
+              "target_company": "Nutmeg Saving and Investment Limited",
+              "target_description": "U.K. online digital investment manager"
+            },
+            "identifiers": {},
+            "name": "JPM Acquisition of Nutmeg Saving and Investment Limited",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "JPM DEI",
+              "JPM diversity commitment"
+            ],
+            "attributes": {
+              "commitment_type": "dei"
+            },
+            "identifiers": {},
+            "name": "JPM Diversity Equity and Inclusion Program",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "employees": 128863,
+              "period": "FY2021"
+            },
+            "source_name": "JPM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Consumer & Community Banking",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "employees": 67546,
+              "period": "FY2021"
+            },
+            "source_name": "JPM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Corporate & Investment Bank",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "employees": 12902,
+              "period": "FY2021"
+            },
+            "source_name": "JPM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Commercial Banking",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "employees": 22762,
+              "period": "FY2021"
+            },
+            "source_name": "JPM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Asset & Wealth Management",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "JPM DOJ Deferred Prosecution Agreement 2020",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Acquisition of Nutmeg Saving and Investment Limited",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Diversity Equity and Inclusion Program",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/JPM/0000019617-22-000272.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "2cfb3a50ada469f508f774afba0fe2bb74b84fcd59456e52bc553bbd67c9dee4"
+    }
+  ],
+  "prompt_version": "v3"
+}

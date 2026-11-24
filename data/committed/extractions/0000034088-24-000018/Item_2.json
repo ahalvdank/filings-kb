@@ -1,0 +1,327 @@
+{
+  "accession": "0000034088-24-000018",
+  "item": "Item_2",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T02:25:16Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "ExxonMobil closed on the sale of its interest in the Aera Energy joint venture and acquired Denbury Inc. (Denbury), which includes Gulf Coast and Rocky Mountain oil and natural gas operations.",
+            "entity_name": "XOM Acquisition of Denbury Inc. (2023)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "ExxonMobil closed on the sale of its interest in the Aera Energy joint venture and acquired Denbury Inc. (Denbury), which includes Gulf Coast and Rocky Mountain oil and natural gas operations.",
+            "entity_name": "XOM Divestiture of Aera Energy Joint Venture Interest (2023)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2023, ExxonMobil completed a partial sale of 10 percent participating interest and in early 2024 closed on the sale of its remaining interest resulting in a full exit from the country.",
+            "entity_name": "XOM Iraq Operations Full Exit (2023-2024)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "Net acreage totaled 0.1 million offshore acres at year-end 2023. ExxonMobil is actively taking steps to exit its operations in the country.",
+            "entity_name": "XOM Equatorial Guinea Operations Exit (in progress)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "Groningen gas production ceased on October 1, 2023, at the Dutch government's instruction. In case of severe cold weather conditions, the Dutch government could mandate the re-start of gas production.",
+            "entity_name": "XOM Groningen Gas Production Cessation (2023-10-01)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "The Corporation announced a sales agreement relating to ExxonMobil's ownership interest in this asset and expects the transaction to close in 2024.",
+            "entity_name": "XOM Karlsruhe Refinery Stake Sale (expected 2024)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "ExxonMobil",
+              "XOM"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "XOM"
+            },
+            "name": "Exxon Mobil Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Denbury"
+            ],
+            "attributes": {},
+            "identifiers": {},
+            "name": "Denbury Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Denbury acquisition"
+            ],
+            "attributes": {
+              "event_type": "acquisition",
+              "geography": "Gulf Coast and Rocky Mountain",
+              "target_company": "Denbury Inc."
+            },
+            "identifiers": {},
+            "name": "XOM Acquisition of Denbury Inc. (2023)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Aera Energy JV sale"
+            ],
+            "attributes": {
+              "event_type": "divestiture",
+              "target_company": "Aera Energy"
+            },
+            "identifiers": {},
+            "name": "XOM Divestiture of Aera Energy Joint Venture Interest (2023)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "ExxonMobil Iraq exit",
+              "West Qurna exit"
+            ],
+            "attributes": {
+              "event_type": "divestiture",
+              "geography": "Iraq",
+              "note": "Partial sale of 10% participating interest in 2023; full exit closed in early 2024"
+            },
+            "identifiers": {},
+            "name": "XOM Iraq Operations Full Exit (2023-2024)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "ExxonMobil Equatorial Guinea divestiture"
+            ],
+            "attributes": {
+              "event_type": "divestiture",
+              "geography": "Equatorial Guinea"
+            },
+            "identifiers": {},
+            "name": "XOM Equatorial Guinea Operations Exit (in progress)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Groningen shutdown",
+              "Netherlands Groningen gas cessation"
+            ],
+            "attributes": {
+              "effective_date": "2023-10-01",
+              "event_type": "regulatory_action",
+              "geography": "Netherlands"
+            },
+            "identifiers": {},
+            "name": "XOM Groningen Gas Production Cessation (2023-10-01)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Karlsruhe refinery divestiture"
+            ],
+            "attributes": {
+              "event_type": "divestiture",
+              "geography": "Germany",
+              "note": "ExxonMobil 25% ownership interest; transaction expected to close in 2024"
+            },
+            "identifiers": {},
+            "name": "XOM Karlsruhe Refinery Stake Sale (expected 2024)",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Acquisition of Denbury Inc. (2023)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Divestiture of Aera Energy Joint Venture Interest (2023)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Iraq Operations Full Exit (2023-2024)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Equatorial Guinea Operations Exit (in progress)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Groningen Gas Production Cessation (2023-10-01)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Karlsruhe Refinery Stake Sale (expected 2024)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-24-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "16cb10bf5e8504206f80b88895ab595948e9f645cbd166397541bcf63ea4b134"
+    },
+    {
+      "extracted_at": "2026-09-01T02:26:06Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "segment",
+            "content": "Within the Energy Products segment, retail fuels sites sell products and services throughout the world through our Exxon, Esso, and Mobil brands.",
+            "entity_name": "XOM Energy Products Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "site_count_table_year_end_2023",
+              "section_type": "Item_2"
+            },
+            "chunk_type": "segment",
+            "content": "Number of Retail Fuel Sites At Year-End 2023: Worldwide 622 owned/leased, 18,481 distributors/resellers, 19,103 total. United States 10,722 total; Canada 2,477 total; Europe 3,742 total; Asia Pacific 1,215 total; Latin America 523 total; Middle East/Africa 424 total.",
+            "entity_name": "XOM Energy Products Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Energy Products"
+            ],
+            "attributes": {
+              "brands": [
+                "Exxon",
+                "Esso",
+                "Mobil"
+              ],
+              "distributor_reseller_sites_worldwide": 18481,
+              "owned_leased_sites_worldwide": 622,
+              "total_retail_fuel_sites_worldwide_2023": 19103
+            },
+            "identifiers": {
+              "segment_name": "Energy Products",
+              "ticker": "XOM"
+            },
+            "name": "XOM Energy Products Segment",
+            "type": "RevenueSegment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "asia_pacific_sites": 1215,
+              "canada_sites": 2477,
+              "distributor_reseller_sites": 18481,
+              "europe_sites": 3742,
+              "latin_america_sites": 523,
+              "middle_east_africa_sites": 424,
+              "owned_leased_sites": 622,
+              "period": "FY2023",
+              "total_retail_fuel_sites": 19103,
+              "us_sites": 10722
+            },
+            "source_name": "XOM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Energy Products Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-24-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "ba8ba471fff68289612ffb95fbe17fcabd15cf1aac04f5b1bbbe51e4ed0be7e4"
+    }
+  ],
+  "prompt_version": "v3"
+}

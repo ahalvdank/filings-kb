@@ -1,0 +1,186 @@
+{
+  "accession": "0001045810-26-000021",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T12:04:19Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are exposed to interest rate risk related to our fixed-rate investment portfolio and outstanding debt. The investment portfolio is managed consistent with our overall liquidity strategy in support of both working capital needs and growth of our businesses.",
+            "entity_name": "NVDA Interest Rate Risk on Investment Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "According to our sensitivity analysis on our investment portfolio, a decrease in the yield curve of 0.5% as of the end of fiscal year 2026 and 2025 would decrease the fair value for these investments by approximately $0.2 billion.",
+            "entity_name": "NVDA Interest Rate Risk on Investment Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We consider our direct exposure to foreign exchange rate fluctuations to be minimal as substantially all of our sales are in United States dollars and foreign currency forward contracts are used to offset movements of foreign currency exchange rates.",
+            "entity_name": "NVDA Foreign Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Increases in the value of the United States' dollar relative to other currencies would make our products more expensive, which could negatively impact our ability to compete. Conversely, decreases in the value of the United States' dollar relative to other currencies could result in our suppliers raising their manufacturing costs.",
+            "entity_name": "NVDA Foreign Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If the U.S. dollar strengthened by 10% as of January 25, 2026 and January 26, 2025, the amount recorded in Accumulated other comprehensive income (loss) related to our foreign exchange contracts before tax effect would have been an adverse impact of $180 million and $136 million, respectively.",
+            "entity_name": "NVDA Foreign Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If an adverse 10% foreign exchange rate change was applied to our balance sheet hedging contracts, it would have resulted in an adverse impact on income before taxes of $124 million and $129 million as of January 25, 2026 and January 26, 2025, respectively.",
+            "entity_name": "NVDA Foreign Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Publicly-held equity securities are subject to market price volatility. A hypothetical 10% decrease in our publicly-held equity securities would decrease the fair value of the publicly-held equity securities balance by $1.8 billion and an insignificant amount as of January 25, 2026 and January 26, 2025, respectively.",
+            "entity_name": "NVDA Equity Securities Market Price Volatility Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Non-marketable equity securities are measured based on cost minus impairment, if any, and are adjusted for observable price changes in orderly transactions for an identical or similar investment in the same issuer. Valuations of our non-marketable equity securities are inherently complex due to the lack of readily available market data and observable transactions, and impact of macroeconomic factors.",
+            "entity_name": "NVDA Equity Securities Market Price Volatility Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVDA interest rate sensitivity",
+              "NVDA fixed-rate investment risk"
+            ],
+            "attributes": {
+              "category": "financial",
+              "sensitivity_note": "0.5% yield curve decrease would decrease fair value of investment portfolio by approximately $0.2 billion",
+              "subcategory": "interest_rate"
+            },
+            "identifiers": {},
+            "name": "NVDA Interest Rate Risk on Investment Portfolio",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "NVDA FX risk",
+              "NVDA forex exposure"
+            ],
+            "attributes": {
+              "category": "financial",
+              "hedging_instrument": "foreign currency forward contracts",
+              "sensitivity_aoci_adverse_usd": 180000000,
+              "sensitivity_income_adverse_usd": 124000000,
+              "subcategory": "foreign_exchange"
+            },
+            "identifiers": {},
+            "name": "NVDA Foreign Exchange Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "NVDA equity investment valuation risk",
+              "NVDA non-marketable equity risk"
+            ],
+            "attributes": {
+              "category": "financial",
+              "non_marketable_note": "Valuations inherently complex due to lack of readily available market data and observable transactions",
+              "publicly_held_sensitivity_note": "10% decrease in publicly-held equity securities would decrease fair value by $1.8 billion",
+              "subcategory": "market_price"
+            },
+            "identifiers": {},
+            "name": "NVDA Equity Securities Market Price Volatility Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Interest Rate Risk on Investment Portfolio",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Foreign Exchange Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2026",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Equity Securities Market Price Volatility Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-26-000021.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "62c72c6432f9ec85a930adc0f8df9a0ee8a55924d1ec15a132956c2751bdb599"
+    }
+  ],
+  "prompt_version": "v3"
+}

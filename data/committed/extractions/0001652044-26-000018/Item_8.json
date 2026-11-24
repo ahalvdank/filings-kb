@@ -1,0 +1,1671 @@
+{
+  "accession": "0001652044-26-000018",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T13:50:01Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "table": "Note 2 Disaggregated Revenues, in millions, Year Ended December 31 2023/2024/2025"
+            },
+            "chunk_type": "segment",
+            "content": "Google Search & other$175,033 $198,084 $224,532",
+            "entity_name": "GOOGL Google Search & Other Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "table": "Note 2 Disaggregated Revenues, in millions, Year Ended December 31 2023/2024/2025"
+            },
+            "chunk_type": "segment",
+            "content": "YouTube ads31,510 36,147 40,367",
+            "entity_name": "GOOGL YouTube Ads Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "table": "Note 2 Disaggregated Revenues, in millions, Year Ended December 31 2023/2024/2025"
+            },
+            "chunk_type": "segment",
+            "content": "Google Network31,312 30,359 29,792",
+            "entity_name": "GOOGL Google Network Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "table": "Note 2 Disaggregated Revenues, in millions, Year Ended December 31 2023/2024/2025"
+            },
+            "chunk_type": "segment",
+            "content": "Google advertising237,855 264,590 294,691",
+            "entity_name": "GOOGL Google Advertising Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "table": "Note 2 Disaggregated Revenues, in millions, Year Ended December 31 2023/2024/2025"
+            },
+            "chunk_type": "segment",
+            "content": "Google subscriptions, platforms, and devices\n34,688 40,340 48,030",
+            "entity_name": "GOOGL Google Subscriptions Platforms and Devices Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "table": "Note 2 Disaggregated Revenues, in millions, Year Ended December 31 2023/2024/2025"
+            },
+            "chunk_type": "segment",
+            "content": "Google Services total272,543 304,930 342,721",
+            "entity_name": "GOOGL Google Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "table": "Note 2 Disaggregated Revenues, in millions, Year Ended December 31 2023/2024/2025"
+            },
+            "chunk_type": "segment",
+            "content": "Google Cloud33,088 43,229 58,705",
+            "entity_name": "GOOGL Google Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "table": "Note 2 Disaggregated Revenues, in millions, Year Ended December 31 2023/2024/2025"
+            },
+            "chunk_type": "segment",
+            "content": "Other Bets1,527 1,648 1,537",
+            "entity_name": "GOOGL Other Bets Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "columns": "Shares | APIC Amount | AOCI | Retained Earnings | Total Stockholders Equity, in millions",
+              "section_type": "Item_8",
+              "table": "Consolidated Statements of Stockholders Equity, Year Ended December 31 2025"
+            },
+            "chunk_type": "capital_return",
+            "content": "Dividends and dividend equivalents declared ($0.83 per share)\n0 152 0 (10,315)(10,163)",
+            "entity_name": "GOOGL FY2025 Dividend Increase $0.83 per Share",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "columns": "Shares | APIC Amount | AOCI | Retained Earnings | Total Stockholders Equity, in millions",
+              "section_type": "Item_8",
+              "table": "Consolidated Statements of Stockholders Equity, Year Ended December 31 2025"
+            },
+            "chunk_type": "capital_return",
+            "content": "Repurchases of stock(240)(2,514)0 (42,884)(45,398)",
+            "entity_name": "GOOGL FY2025 Stock Repurchases $45.4B",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "table": "Consolidated Statements of Cash Flows, Financing activities, Year Ended December 31 2023/2024/2025, in millions"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Proceeds from issuance of debt, net of costs10,790 13,589 64,564 \nRepayments of debt(11,550)(12,701)(32,427)",
+            "entity_name": "GOOGL FY2025 Debt Issuance $64.6B Proceeds",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 1 Recently Adopted Accounting Pronouncements",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In December 2023, the Financial Accounting Standards Board (FASB) issued Accounting Standards Update (ASU) 2023-09 \"Income Taxes (Topics 740): Improvements to Income Tax Disclosures\" which expands the disclosure requirements for income taxes. We adopted this ASU for our 2025 annual period with the comparative periods updated to reflect additional disclosures. See Note 14 for the revised disclosures consistent with the new standard.",
+            "entity_name": "GOOGL Adoption of ASU 2023-09 Income Tax Disclosures",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Google"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Google Search & other"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Search & other",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Search & Other Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "YouTube ads"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "YouTube ads",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL YouTube Ads Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Network"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Network",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Network Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google advertising"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google advertising",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Advertising Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google subscriptions, platforms, and devices"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google subscriptions, platforms, and devices",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Subscriptions Platforms and Devices Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Services",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Cloud",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Other Bets"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Other Bets",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Other Bets Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 10163000000,
+              "per_share": 0.83,
+              "prior_per_share": 0.6,
+              "return_type": "dividend_increase"
+            },
+            "identifiers": {},
+            "name": "GOOGL FY2025 Dividend Increase $0.83 per Share",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 45398000000,
+              "return_type": "buyback",
+              "shares_repurchased_millions": 240
+            },
+            "identifiers": {},
+            "name": "GOOGL FY2025 Stock Repurchases $45.4B",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "notes",
+              "principal_usd": 64564000000,
+              "repayments_usd": 32427000000,
+              "resulting_long_term_debt_usd": 46547000000
+            },
+            "identifiers": {},
+            "name": "GOOGL FY2025 Debt Issuance $64.6B Proceeds",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "adopted_period": "FY2025 annual",
+              "description": "Income Taxes (Topics 740): Improvements to Income Tax Disclosures",
+              "event_type": "accounting_change",
+              "standard": "ASU 2023-09"
+            },
+            "identifiers": {},
+            "name": "GOOGL Adoption of ASU 2023-09 Income Tax Disclosures",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.1335,
+              "period": "FY2025",
+              "revenue": 224532000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Search & Other Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.1168,
+              "period": "FY2025",
+              "revenue": 40367000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL YouTube Ads Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.0187,
+              "period": "FY2025",
+              "revenue": 29792000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Network Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.1138,
+              "period": "FY2025",
+              "revenue": 294691000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Advertising Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.1906,
+              "period": "FY2025",
+              "revenue": 48030000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Subscriptions Platforms and Devices Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.1239,
+              "period": "FY2025",
+              "revenue": 342721000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.358,
+              "period": "FY2025",
+              "revenue": 58705000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.0674,
+              "period": "FY2025",
+              "revenue": 1537000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Other Bets Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL FY2025 Dividend Increase $0.83 per Share",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL FY2025 Stock Repurchases $45.4B",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL FY2025 Debt Issuance $64.6B Proceeds",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Adoption of ASU 2023-09 Income Tax Disclosures",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-26-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "d69c7c186d99f4f4c42d6972e9256c7bf30bf1287210a26657ac6594efc948c9"
+    },
+    {
+      "extracted_at": "2026-07-19T14:01:19Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In May 2025, we issued $5.0 billion of US dollar-denominated fixed-rate senior unsecured notes with a weighted-average coupon rate of 4.89%, and a weighted-average maturity of approximately 24 years.",
+            "entity_name": "GOOGL May 2025 $5.0B USD Fixed-Rate Senior Notes",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Additionally, in May 2025, we issued €6.75 billion of euro-denominated fixed-rate senior unsecured notes with a weighted-average coupon rate of 3.31%, and a weighted-average maturity of approximately 14 years.",
+            "entity_name": "GOOGL May 2025 €6.75B Euro Fixed-Rate Senior Notes",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In November 2025, we issued $500 million of US dollar-denominated floating-rate senior unsecured notes and $17.0 billion of US dollar-denominated fixed-rate senior unsecured notes with a weighted-average coupon rate of 4.92% and a weighted-average maturity of approximately 20 years.",
+            "entity_name": "GOOGL November 2025 $17.5B USD Senior Notes",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Additionally in November 2025, we issued €6.5 billion of euro-denominated fixed-rate senior unsecured notes with a weighted-average coupon rate of 3.44% and a weighted-average maturity of approximately 16 years.",
+            "entity_name": "GOOGL November 2025 €6.5B Euro Fixed-Rate Senior Notes",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "In April 2025, the company's Board of Directors authorized an additional $70.0 billion share repurchase program for its Class A and Class C shares. As of December 31, 2025, $69.5 billion remained available for Class A and Class C share repurchases.",
+            "entity_name": "GOOGL April 2025 $70B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "In April 2025, the company's Board of Directors increased the quarterly cash dividend by 5% to $0.21 per share of outstanding Class A, Class B, and Class C shares.",
+            "entity_name": "GOOGL April 2025 Quarterly Dividend Increase to $0.21",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In March 2025, we entered into a definitive agreement to acquire Wiz, a leading cloud security platform, for $32.0 billion, subject to closing adjustments, in an all-cash transaction. The acquisition of Wiz is expected to close in 2026, subject to customary closing conditions, including the receipt of regulatory approvals. Upon the close of the acquisition, Wiz will be part of the Google Cloud segment.",
+            "entity_name": "GOOGL Pending Acquisition of Wiz",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In December 2025, we entered into a definitive agreement to acquire Intersect, which provides data center and energy infrastructure solutions, for $4.8 billion in cash, plus the assumption of debt. The acquisition of Intersect is expected to close in the first half of 2026, subject to customary closing conditions.",
+            "entity_name": "GOOGL Pending Acquisition of Intersect",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In February 2026, Waymo, a consolidated VIE, announced an investment round of $16.0 billion, the significant majority of which was funded by Alphabet. Investments from external parties will be accounted for as equity transactions and will result in recognition of noncontrolling interests.",
+            "entity_name": "Waymo February 2026 $16B Investment Round",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "For the years ended December 31, 2023, 2024, and 2025, total SBC expense was $22.1 billion, $22.8 billion, and $27.1 billion, including amounts associated with awards we expect to settle in Alphabet stock of $21.7 billion, $22.0 billion, and $24.1 billion, respectively.",
+            "entity_name": "GOOGL 2025 Stock-Based Compensation Disclosure",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "As of December 31, 2025, there was $42.9 billion of unrecognized compensation cost related to unvested RSUs. This amount is expected to be recognized over a weighted-average period of 2.6 years.",
+            "entity_name": "GOOGL 2025 Stock-Based Compensation Disclosure",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In June 2017, the EC announced its decision that certain actions taken by Google relating to its display and ranking of shopping search results and ads infringed European antitrust laws and imposed a €2.4 billion fine. In 2024, we made a cash payment of $3.0 billion for the fine.",
+            "entity_name": "EC Shopping Antitrust v. Google",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In July 2018, the EC announced its decision that certain provisions in Google's Android-related distribution agreements infringed European antitrust laws, imposed a €4.3 billion fine, and directed the termination of the conduct at issue. We appealed the EC decision and implemented changes to certain of our Android distribution practices. In September 2022, the General Court affirmed the EC decision but reduced the fine from €4.3 billion to €4.1 billion. We subsequently appealed the General Court's affirmation of the EC decision with the European Court of Justice, which remains pending.",
+            "entity_name": "EC Android Antitrust v. Google",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In September 2024, the General Court overturned the EC decision and annulled the €1.5 billion fine. The EC has appealed the General Court's decision with the European Court of Justice.",
+            "entity_name": "EC AdSense for Search Antitrust v. Google",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "A final judgment was entered in December 2025, which, among other things, imposes restrictions on how Google distributes its services and requires Google to share certain search data with and offer syndication services to certain competitors. In January 2026, we appealed the final judgment and moved to pause implementation of certain remedies. In February 2026, the DOJ and state Attorneys General also appealed.",
+            "entity_name": "DOJ Search Antitrust v. Google",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In August 2025, we agreed to a settlement with the ACCC requiring, among other things, changes to our Android agreements. We recognized a charge in the second quarter of 2025, and the settlement was approved by the court in December 2025.",
+            "entity_name": "ACCC Google Search Distribution Settlement",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In April 2025, the JFTC issued a cease-and-desist order requiring us to make changes to our Android agreements to ensure they are consistent with Japanese antitrust law. The JFTC did not impose monetary penalties.",
+            "entity_name": "JFTC Google Search Distribution",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In April 2025, the US District Court for the Eastern District of Virginia issued a mixed decision in the DOJ case against Google, ruling that neither Google's advertiser tools nor the DoubleClick and AdMeld acquisitions were anticompetitive, but that Google's publisher tools unfairly excluded rivals. A separate proceeding to determine remedies, the range of which vary widely, took place in September 2025, with the parties presenting differing remedy proposals. The DOJ's remedy proposal includes structural remedies that could have a material adverse effect on our business. Closing arguments were held in November 2025, and we are awaiting a final judgment.",
+            "entity_name": "DOJ Advertising Technology Antitrust v. Google",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In December 2020, a number of state Attorneys General filed a lawsuit in the US District Court for the Eastern District of Texas concerning Google's advertising technology and its compliance with US antitrust laws and state deceptive trade laws. A trial in the state Attorneys General case in the Eastern District of Texas will take place after a decision on remedies is issued in the DOJ case.",
+            "entity_name": "State AGs Advertising Technology Antitrust v. Google (Eastern Texas)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In September 2025, the EC announced its decision that Google had infringed European competition laws through \"self-preferencing\" practices on the buy-side and the sell-side relating to Google's advertising technology business. The EC decision imposed a €3.0 billion fine and directed Google to cease and desist the alleged \"self-preferencing\" practices. We appealed the ruling in November 2025. We recognized a charge of $3.5 billion in the third quarter of 2025, and we placed bank guarantees in the fourth quarter of 2025 in lieu of cash payment.",
+            "entity_name": "EC Advertising Technology Self-Preferencing v. Google",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In September 2024, the UK also issued a Statement of Objections concerning Google's advertising technology and its compliance with UK antitrust laws, to which we responded.",
+            "entity_name": "UK Advertising Technology Antitrust v. Google",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In September 2023, we reached a settlement in principle with 50 state Attorneys General and three territories and recognized a charge. The court preliminarily approved the settlement in November 2025, and final approval remains pending before the court. In May 2024, we funded the settlement amount to an escrow agent.",
+            "entity_name": "Google Play State Attorneys General Settlement",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In July 2025, the Court of Appeals denied our appeal. We are in the process of appealing that decision to the US Supreme Court, and we implemented the ordered remedies in October 2025 while the appeal is pending. In October 2025, we reached a settlement with Epic to modify the remedies in this case and resolve certain other lawsuits Epic has filed regarding Google Play's business. The settlement is contingent on the court approving a proposed modified injunction.",
+            "entity_name": "Epic Games v. Google Play",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In October 2025, we finalized a $1.4 billion settlement of certain privacy matters.",
+            "entity_name": "Google Privacy Matters Settlement",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In March 2024, the EC opened two investigations regarding Google's compliance with certain provisions of the EU's Digital Markets Act relating to Google Play and Search. In March 2025, the EC issued preliminary findings of non-compliance in both investigations, to which we responded.",
+            "entity_name": "EC Digital Markets Act Compliance Investigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "coupon": 0.0489,
+              "currency": "USD",
+              "instrument_type": "notes",
+              "issuance_date": "2025-05",
+              "maturity_years_avg": 24,
+              "principal_usd": 5000000000,
+              "purpose": "general_corporate",
+              "rate_type": "fixed"
+            },
+            "identifiers": {},
+            "name": "GOOGL May 2025 $5.0B USD Fixed-Rate Senior Notes",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "coupon": 0.0331,
+              "currency": "EUR",
+              "instrument_type": "notes",
+              "issuance_date": "2025-05",
+              "maturity_years_avg": 14,
+              "principal_eur": 6750000000,
+              "purpose": "general_corporate",
+              "rate_type": "fixed"
+            },
+            "identifiers": {},
+            "name": "GOOGL May 2025 €6.75B Euro Fixed-Rate Senior Notes",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "GOOGL November 2025 USD notes"
+            ],
+            "attributes": {
+              "currency": "USD",
+              "fixed_rate_coupon": 0.0492,
+              "fixed_rate_maturity_years_avg": 20,
+              "fixed_rate_tranche_usd": 17000000000,
+              "floating_rate_index": "SOFR+0.52%",
+              "floating_rate_maturity": "2028",
+              "floating_rate_tranche_usd": 500000000,
+              "instrument_type": "notes",
+              "issuance_date": "2025-11",
+              "principal_usd": 17500000000,
+              "purpose": "general_corporate",
+              "rate_type": "mixed"
+            },
+            "identifiers": {},
+            "name": "GOOGL November 2025 $17.5B USD Senior Notes",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "coupon": 0.0344,
+              "currency": "EUR",
+              "instrument_type": "notes",
+              "issuance_date": "2025-11",
+              "maturity_years_avg": 16,
+              "principal_eur": 6500000000,
+              "purpose": "general_corporate",
+              "rate_type": "fixed"
+            },
+            "identifiers": {},
+            "name": "GOOGL November 2025 €6.5B Euro Fixed-Rate Senior Notes",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "GOOGL 2025 buyback program"
+            ],
+            "attributes": {
+              "amount_usd": 70000000000,
+              "effective_date": "2025-04",
+              "remaining_usd_as_of_2025_12_31": 69500000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "GOOGL April 2025 $70B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2025-04",
+              "frequency": "quarterly",
+              "increase_pct": 0.05,
+              "per_share": 0.21,
+              "return_type": "dividend_increase"
+            },
+            "identifiers": {},
+            "name": "GOOGL April 2025 Quarterly Dividend Increase to $0.21",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Wiz acquisition"
+            ],
+            "attributes": {
+              "announcement_date": "2025-03",
+              "consideration": "all_cash",
+              "deal_value_usd": 32000000000,
+              "event_type": "acquisition",
+              "expected_close": "2026",
+              "pending_regulatory_approvals": true,
+              "target_company": "Wiz",
+              "target_segment_on_close": "Google Cloud"
+            },
+            "identifiers": {},
+            "name": "GOOGL Pending Acquisition of Wiz",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intersect acquisition"
+            ],
+            "attributes": {
+              "announcement_date": "2025-12",
+              "consideration": "cash_plus_debt_assumption",
+              "deal_value_usd": 4800000000,
+              "event_type": "acquisition",
+              "expected_close": "first half of 2026",
+              "target_company": "Intersect",
+              "target_description": "data center and energy infrastructure solutions"
+            },
+            "identifiers": {},
+            "name": "GOOGL Pending Acquisition of Intersect",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Waymo 2026 investment round"
+            ],
+            "attributes": {
+              "accounting_treatment": "equity transactions with noncontrolling interests",
+              "announcement_date": "2026-02",
+              "entity": "Waymo",
+              "event_type": "business_combination",
+              "investment_amount_usd": 16000000000,
+              "majority_funder": "Alphabet"
+            },
+            "identifiers": {},
+            "name": "Waymo February 2026 $16B Investment Round",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "GOOGL SBC 2025"
+            ],
+            "attributes": {
+              "event_type": "compensation_disclosure",
+              "fiscal_year": "2025",
+              "recognition_period_years": 2.6,
+              "sbc_settled_in_alphabet_stock_usd": 24100000000,
+              "total_sbc_expense_usd": 27100000000,
+              "unrecognized_compensation_cost_usd": 42900000000
+            },
+            "identifiers": {},
+            "name": "GOOGL 2025 Stock-Based Compensation Disclosure",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "EU Shopping antitrust"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "fine_eur": 2400000000,
+              "jurisdiction": "EU",
+              "payment_usd": 3000000000,
+              "payment_year": 2024,
+              "status": "settled",
+              "subject": "shopping search results and ads display and ranking"
+            },
+            "identifiers": {},
+            "name": "EC Shopping Antitrust v. Google",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EU Android antitrust"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "court": "European Court of Justice",
+              "fine_eur": 4100000000,
+              "jurisdiction": "EU",
+              "status": "appealed",
+              "subject": "Android distribution agreements"
+            },
+            "identifiers": {},
+            "name": "EC Android Antitrust v. Google",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EU AdSense antitrust"
+            ],
+            "attributes": {
+              "appellant": "European Commission",
+              "counterparty": "European Commission",
+              "court": "European Court of Justice",
+              "general_court_outcome": "fine annulled September 2024",
+              "jurisdiction": "EU",
+              "original_fine_eur": 1500000000,
+              "status": "appealed",
+              "subject": "AdSense for Search partner agreements"
+            },
+            "identifiers": {},
+            "name": "EC AdSense for Search Antitrust v. Google",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "US v. Google Search",
+              "DOJ search case"
+            ],
+            "attributes": {
+              "counterparty": "US Department of Justice",
+              "court": "US District Court for the District of Columbia",
+              "final_judgment_date": "2025-12",
+              "google_appeal_date": "2026-01",
+              "jurisdiction": "US",
+              "status": "appealed",
+              "subject": "Search and Search advertising practices"
+            },
+            "identifiers": {},
+            "name": "DOJ Search Antitrust v. Google",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Australia ACCC search settlement"
+            ],
+            "attributes": {
+              "counterparty": "Australian Competition and Consumer Commission",
+              "court_approval_date": "2025-12",
+              "jurisdiction": "Australia",
+              "settlement_date": "2025-08",
+              "status": "settled",
+              "subject": "Search distribution practices and Android agreements"
+            },
+            "identifiers": {},
+            "name": "ACCC Google Search Distribution Settlement",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Japan JFTC search"
+            ],
+            "attributes": {
+              "counterparty": "Japanese Fair Trade Commission",
+              "jurisdiction": "Japan",
+              "monetary_penalty": false,
+              "order_date": "2025-04",
+              "order_type": "cease-and-desist",
+              "status": "pending",
+              "subject": "Search distribution practices and Android agreements"
+            },
+            "identifiers": {},
+            "name": "JFTC Google Search Distribution",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "DOJ ad tech case Eastern Virginia"
+            ],
+            "attributes": {
+              "counterparty": "US Department of Justice",
+              "court": "US District Court for the Eastern District of Virginia",
+              "doj_remedy_includes_structural_remedies": true,
+              "jurisdiction": "US",
+              "partial_ruling_date": "2025-04",
+              "status": "pending",
+              "subject": "advertising technology publisher tools"
+            },
+            "identifiers": {},
+            "name": "DOJ Advertising Technology Antitrust v. Google",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "State AGs ad tech Texas"
+            ],
+            "attributes": {
+              "counterparty": "state Attorneys General",
+              "court": "US District Court for the Eastern District of Texas",
+              "filing_date_case": "2020-12",
+              "jurisdiction": "US",
+              "status": "pending",
+              "subject": "advertising technology antitrust and state deceptive trade laws"
+            },
+            "identifiers": {},
+            "name": "State AGs Advertising Technology Antitrust v. Google (Eastern Texas)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EU ad tech antitrust",
+              "EC adtech self-preferencing"
+            ],
+            "attributes": {
+              "charge_quarter": "Q3 2025",
+              "charge_usd": 3500000000,
+              "counterparty": "European Commission",
+              "fine_eur": 3000000000,
+              "google_appeal_date": "2025-11",
+              "jurisdiction": "EU",
+              "status": "appealed",
+              "subject": "advertising technology self-preferencing buy-side and sell-side"
+            },
+            "identifiers": {},
+            "name": "EC Advertising Technology Self-Preferencing v. Google",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "UK ad tech antitrust"
+            ],
+            "attributes": {
+              "counterparty": "UK Competition and Markets Authority",
+              "jurisdiction": "UK",
+              "statement_of_objections_date": "2024-09",
+              "status": "pending",
+              "subject": "advertising technology compliance with UK antitrust laws"
+            },
+            "identifiers": {},
+            "name": "UK Advertising Technology Antitrust v. Google",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Google Play state AG settlement"
+            ],
+            "attributes": {
+              "counterparty": "50 state Attorneys General and three territories",
+              "escrow_funded_date": "2024-05",
+              "jurisdiction": "US",
+              "preliminary_approval_date": "2025-11",
+              "status": "pending",
+              "subject": "Android and Google Play operation antitrust and consumer protection"
+            },
+            "identifiers": {},
+            "name": "Google Play State Attorneys General Settlement",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Epic v. Google",
+              "Epic Games Google Play antitrust"
+            ],
+            "attributes": {
+              "counterparty": "Epic Games, Inc.",
+              "court": "US Supreme Court",
+              "jurisdiction": "US",
+              "remedies_implemented_date": "2025-10",
+              "settlement_date": "2025-10",
+              "settlement_note": "Settlement to modify remedies pending court approval",
+              "status": "appealed",
+              "subject": "Google Play business models antitrust"
+            },
+            "identifiers": {},
+            "name": "Epic Games v. Google Play",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "GOOGL privacy settlement 2025"
+            ],
+            "attributes": {
+              "finalized_date": "2025-10",
+              "jurisdiction": "multiple",
+              "settlement_amount_usd": 1400000000,
+              "status": "settled",
+              "subject": "privacy matters including location information and advertising practices"
+            },
+            "identifiers": {},
+            "name": "Google Privacy Matters Settlement",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EU DMA investigation"
+            ],
+            "attributes": {
+              "counterparty": "European Commission",
+              "investigation_scope": "Google Play and Search DMA compliance",
+              "investigations_opened_date": "2024-03",
+              "jurisdiction": "EU",
+              "preliminary_findings_date": "2025-03",
+              "status": "pending",
+              "subject": "EU Digital Markets Act compliance"
+            },
+            "identifiers": {},
+            "name": "EC Digital Markets Act Compliance Investigation",
+            "type": "LegalProceeding"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL May 2025 $5.0B USD Fixed-Rate Senior Notes",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL May 2025 €6.75B Euro Fixed-Rate Senior Notes",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL November 2025 $17.5B USD Senior Notes",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL November 2025 €6.5B Euro Fixed-Rate Senior Notes",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL April 2025 $70B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL April 2025 Quarterly Dividend Increase to $0.21",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Pending Acquisition of Wiz",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Pending Acquisition of Intersect",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Waymo February 2026 $16B Investment Round",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL 2025 Stock-Based Compensation Disclosure",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "EC Shopping Antitrust v. Google",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "EC Android Antitrust v. Google",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "EC AdSense for Search Antitrust v. Google",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "DOJ Search Antitrust v. Google",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "ACCC Google Search Distribution Settlement",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "JFTC Google Search Distribution",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "DOJ Advertising Technology Antitrust v. Google",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "State AGs Advertising Technology Antitrust v. Google (Eastern Texas)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "EC Advertising Technology Self-Preferencing v. Google",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UK Advertising Technology Antitrust v. Google",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Google Play State Attorneys General Settlement",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Epic Games v. Google Play",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Google Privacy Matters Settlement",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "EC Digital Markets Act Compliance Investigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-26-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "2d51d4e27da62f94f501244228202b6c2a9febb40e83e67c9a3b010d06480814"
+    },
+    {
+      "extracted_at": "2026-07-19T14:05:03Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Google Services includes products and services such as ads, Android, Chrome, devices, Google Maps, Google Play, Search, and YouTube. Google Services generates revenues primarily from advertising; fees received for consumer subscription-based products such as YouTube TV, YouTube Music and Premium, and NFL Sunday Ticket, as well as Google One; the sale of apps and in-app purchases; and devices.",
+            "entity_name": "GOOGL Google Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Google Cloud includes infrastructure and platform services, applications, and other services for enterprise customers. Google Cloud generates revenues primarily from consumption-based fees and subscriptions received for Google Cloud Platform services, Google Workspace communication and collaboration tools, and other enterprise services.",
+            "entity_name": "GOOGL Google Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Other Bets is a combination of multiple operating segments that are not individually material. Revenues from Other Bets are generated primarily from the sale of autonomous transportation services and internet services.",
+            "entity_name": "GOOGL Other Bets Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The IRS is currently examining our 2019 through 2021 tax returns.",
+            "entity_name": "Alphabet IRS Examination 2019-2021",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "We have also received tax assessments in multiple foreign jurisdictions asserting transfer pricing adjustments or permanent establishment. We continue to defend such claims as presented.",
+            "entity_name": "Alphabet Foreign Transfer Pricing Tax Assessments",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Changes to US tax law enacted on July 4, 2025, allow for immediate expensing of domestic research and experimentation costs, accelerated depreciation on eligible capital expenditures, and other tax law changes impacting 2025 with certain changes effective in 2026. These changes are reflected in our results for the year ended December 31, 2025.",
+            "entity_name": "GOOGL US Tax Law Changes July 4 2025",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "However, the outcome of tax audits cannot be predicted with certainty. If any issues addressed in our tax audits are resolved in a manner not consistent with management's expectations, we could be required to adjust our provision for income taxes in the period such resolutions occur.",
+            "entity_name": "GOOGL Tax Audit Outcome Uncertainty Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Google Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Services",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Google Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Google Cloud",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Google Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Other Bets",
+              "Alphabet Other Bets"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Other Bets",
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Other Bets Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "IRS audit 2019-2021"
+            ],
+            "attributes": {
+              "counterparty": "Internal Revenue Service",
+              "status": "pending",
+              "tax_years": "2019-2021"
+            },
+            "identifiers": {},
+            "name": "Alphabet IRS Examination 2019-2021",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "foreign transfer pricing assessments",
+              "international permanent establishment assessments"
+            ],
+            "attributes": {
+              "category": "transfer_pricing_and_permanent_establishment",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Alphabet Foreign Transfer Pricing Tax Assessments",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "July 2025 tax law changes",
+              "domestic R&D expensing law change"
+            ],
+            "attributes": {
+              "effective_date": "2025-07-04",
+              "event_type": "accounting_change"
+            },
+            "identifiers": {},
+            "name": "GOOGL US Tax Law Changes July 4 2025",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "uncertain tax position risk",
+              "tax audit uncertainty"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "US and foreign jurisdictions"
+            },
+            "identifiers": {},
+            "name": "GOOGL Tax Audit Outcome Uncertainty Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.124,
+              "margin": 0.407,
+              "operating_income": 139404000000,
+              "period": "FY2025",
+              "revenue": 342721000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.358,
+              "margin": 0.237,
+              "operating_income": 13910000000,
+              "period": "FY2025",
+              "revenue": 58705000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Google Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.067,
+              "operating_loss": -7515000000,
+              "period": "FY2025",
+              "revenue": 1537000000
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Other Bets Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Alphabet IRS Examination 2019-2021",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Alphabet Foreign Transfer Pricing Tax Assessments",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL US Tax Law Changes July 4 2025",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Tax Audit Outcome Uncertainty Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-26-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "eda9ef067833b313439214cf6cf47d462f87e2d9232ed68965d7e8b80ec5c701"
+    }
+  ],
+  "prompt_version": "v3"
+}

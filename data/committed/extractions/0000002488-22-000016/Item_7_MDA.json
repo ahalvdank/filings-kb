@@ -1,0 +1,366 @@
+{
+  "accession": "0000002488-22-000016",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T04:14:41Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Computing and Graphics net revenue of $9.3 billion in 2021 increased by 45%, compared to $6.4 billion in 2020, primarily as a result of a 57% increase in average selling price, partially offset by an 8% decrease in unit shipments.",
+            "entity_name": "AMD Computing and Graphics Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Computing and Graphics operating income was $2.1 billion in 2021 compared to $1.3 billion in 2020. The increase in operating income was primarily driven by higher revenue and improved margin in the segment which more than offset higher operating expenses.",
+            "entity_name": "AMD Computing and Graphics Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Enterprise, Embedded and Semi-Custom net revenue of $7.1 billion in 2021 increased by 113% compared to net revenue of $3.3 billion in 2020, primarily driven by higher sales of our semi-custom products and EPYC server processors.",
+            "entity_name": "AMD Enterprise, Embedded and Semi-Custom Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Enterprise, Embedded and Semi-Custom operating income was $2.0 billion in 2021 compared to $391 million in 2020. The increase in operating income was primarily due to the higher revenue and improved margin in the segment which more than offset higher operating expenses.",
+            "entity_name": "AMD Enterprise, Embedded and Semi-Custom Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "in May 2021, our Board of Directors approved a stock repurchase program (Repurchase Program) to purchase up to $4 billion of our outstanding common stock in the open market.",
+            "entity_name": "AMD May 2021 $4B Stock Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During the twelve months ended December 25, 2021, we repurchased 16.7 million shares of our common stock under the Repurchase Program, for a total cash outlay of $1.8 billion. As of December 25, 2021, $2.2 billion remained available for future stock repurchases under this program.",
+            "entity_name": "AMD FY2021 Common Stock Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "Subsequent to December 25, 2021, we repurchased $1.0 billion of our common stock under our stock repurchase program.",
+            "entity_name": "AMD Post-Fiscal-2021 $1B Common Stock Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "As part of our strategy to establish AMD as the industry's high performance computing leader, we announced in October 2020 that we entered into a definitive agreement to acquire Xilinx, Inc. in an all-stock transaction. The completion of the transaction remains subject to certain closing conditions, including regulatory approval, and is currently expected to close in the first quarter of 2022.",
+            "entity_name": "AMD Xilinx Acquisition",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect that international sales will continue to be a significant portion of total sales in the foreseeable future. Substantially all of our sales transactions are denominated in U.S. dollars.",
+            "entity_name": "AMD International Sales Continuation Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We believe our cash, cash equivalents, short-term investments and cash flows from operations along with our Revolving Credit Facility will be sufficient to fund operations, including capital expenditures and purchase commitments, over the next 12 months and beyond.",
+            "entity_name": "AMD Liquidity Adequacy Outlook FY2022+",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Interest expense of $34 million in 2021 decreased by $13 million compared to $47 million in 2020, primarily due to lower debt balances as a result of conversions by holders of our 2.125% Convertible Senior Notes due 2026.",
+            "entity_name": "AMD 2.125% Convertible Senior Notes FY2021 Conversion",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Computing and Graphics",
+              "CG Segment"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Computing and Graphics",
+              "ticker": "AMD"
+            },
+            "name": "AMD Computing and Graphics Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "EESC",
+              "Enterprise Embedded and Semi-Custom"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Enterprise, Embedded and Semi-Custom",
+              "ticker": "AMD"
+            },
+            "name": "AMD Enterprise, Embedded and Semi-Custom Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AMD Repurchase Program 2021"
+            ],
+            "attributes": {
+              "amount_usd": 4000000000,
+              "effective_date": "2021-05",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "AMD May 2021 $4B Stock Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 1800000000,
+              "return_type": "buyback",
+              "shares_repurchased": 16700000
+            },
+            "identifiers": {},
+            "name": "AMD FY2021 Common Stock Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 1000000000,
+              "note": "Subsequent event; repurchased after December 25, 2021 fiscal year end",
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "AMD Post-Fiscal-2021 $1B Common Stock Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "AMD-Xilinx merger",
+              "Xilinx deal"
+            ],
+            "attributes": {
+              "announcement_date": "2020-10",
+              "consideration": "all_stock",
+              "event_type": "acquisition",
+              "expected_close": "2022-Q1",
+              "status": "pending",
+              "target_company": "Xilinx, Inc."
+            },
+            "identifiers": {},
+            "name": "AMD Xilinx Acquisition",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "international_sales_contribution",
+              "new_value": "significant_portion_of_total_sales",
+              "period": "ongoing",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "AMD International Sales Continuation Outlook",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "liquidity_sufficiency",
+              "new_value": "sufficient_for_next_12_months_and_beyond",
+              "period": "FY2022_and_beyond",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "AMD Liquidity Adequacy Outlook FY2022+",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "coupon": 0.02125,
+              "instrument_type": "equity_issuance",
+              "maturity": "2026",
+              "note": "Holders converted notes to equity reducing total debt from $338M to $313M in FY2021"
+            },
+            "identifiers": {},
+            "name": "AMD 2.125% Convertible Senior Notes FY2021 Conversion",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.45,
+              "margin": 0.224,
+              "margin_type": "operating",
+              "period": "FY2021",
+              "revenue": 9332000000
+            },
+            "source_name": "AMD 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Computing and Graphics Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 1.13,
+              "margin": 0.279,
+              "margin_type": "operating",
+              "period": "FY2021",
+              "revenue": 7102000000
+            },
+            "source_name": "AMD 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Enterprise, Embedded and Semi-Custom Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD May 2021 $4B Stock Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD FY2021 Common Stock Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Post-Fiscal-2021 $1B Common Stock Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Xilinx Acquisition",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "AMD 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD International Sales Continuation Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "AMD 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Liquidity Adequacy Outlook FY2022+",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "AMD 2.125% Convertible Senior Notes FY2021 Conversion",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2022-02-01",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-22-000016.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "e6ef62aae07a8b2b3bf489fe92c16920aba97bfd020a31d367e700599d97812d"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,561 @@
+{
+  "accession": "0000731766-24-000081",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T23:25:04Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "growth_pct": 0.13,
+              "operating_margin": 0.058,
+              "period": "FY2023",
+              "revenue_usd": 281360000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "UnitedHealthcare's revenues increased due to growth in the number of people served throughout the year in Medicare Advantage, Medicaid and commercial offerings. People served in Medicaid as of December 31, 2023 decreased primarily due to redeterminations, largely occurring in the second half of 2023, partially offset by increased people served with higher acuity needs. Earnings from operations increased due to increased investment income and the factors impacting revenue, partially offset by elevated care activity, primarily relating to outpatient care for seniors.",
+            "entity_name": "UNH UnitedHealthcare Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.34,
+              "operating_margin": 0.069,
+              "period": "FY2023",
+              "revenue_usd": 95319000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues at Optum Health increased primarily due to organic growth in patients served under value-based care arrangements and business combinations. Earnings from operations increased due to cost management initiatives and increased investment income, partially offset by higher senior outpatient and behavioral health care activity and costs associated with serving newly added patients under value-based care arrangements. Optum Health served approximately 103 million people as of December 31, 2023 compared to 102 million people as of December 31, 2022.",
+            "entity_name": "UNH Optum Health Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.3,
+              "operating_margin": 0.225,
+              "period": "FY2023",
+              "revenue_usd": 18932000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues and earnings from operations at Optum Insight increased due to growth in business services as a result of business combinations and growth in technology services.",
+            "entity_name": "UNH Optum Insight Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.16,
+              "operating_margin": 0.044,
+              "period": "FY2023",
+              "revenue_usd": 116087000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues and earnings from operations at Optum Rx increased due to growth in pharmacy offerings and higher script volumes from both new clients and growth in existing clients. Earnings from operations also increased as a result of continued supply chain and operating cost management initiatives. Optum Rx fulfilled 1,542 million and 1,438 million adjusted scripts in 2023 and 2022, respectively.",
+            "entity_name": "UNH Optum Rx Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.14,
+              "period": "FY2023",
+              "revenue_usd": 129862000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Medicare Advantage funding continues to be pressured, as discussed below in \"Regulatory Trends and Uncertainties\" and we have observed increased care patterns as discussed below in \"Medical Cost Trends.\" Our 2024 benefit design approach contemplates these trends.",
+            "entity_name": "UNH UnitedHealthcare Medicare & Retirement",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.18,
+              "period": "FY2023",
+              "revenue_usd": 75004000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "People served in Medicaid as of December 31, 2023 decreased primarily due to redeterminations, largely occurring in the second half of 2023, partially offset by increased people served with higher acuity needs.",
+            "entity_name": "UNH UnitedHealthcare Community & State",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.06,
+              "period": "FY2023",
+              "revenue_usd": 76494000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "The commercial risk market remains highly competitive in the small group, large group and individual segments. We expect broad-based competition to continue as the industry adapts to individual and employer needs.",
+            "entity_name": "UNH UnitedHealthcare Employer & Individual",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "On December 22, 2023, we entered into an agreement to sell our operations in Brazil to a private investor, subject to regulatory approval and other closing conditions. We completed the disposition on February 6, 2024, and will record a loss of approximately $7 billion in the quarter ended March 31, 2024, the majority of which was due to foreign currency translation losses in accumulated other comprehensive income.",
+            "entity_name": "UNH Brazil Operations Divestiture 2023",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "As of December 31, 2023, we have entered into agreements to acquire companies in the health care sector, subject to regulatory approval and other customary closing conditions. The total anticipated capital required for these acquisitions, excluding the payoff of acquired indebtedness, is approximately $6 billion.",
+            "entity_name": "UNH Pending Health Care Sector Acquisitions FY2023",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In June 2023, our Board of Directors increased the Company's quarterly cash dividend to shareholders to an annual rate of $7.52 compared to $6.60 per share.",
+            "entity_name": "UNH June 2023 Dividend Increase to $7.52 Annual Rate",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "As of December 31, 2023, we had Board of Directors' authorization to purchase up to 15 million shares of our common stock. The Board of Directors from time to time may further amend the share repurchase program in order to increase the authorized number of shares which may be repurchased under the program.",
+            "entity_name": "UNH Share Repurchase Authorization (up to 15M shares)",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Medicare Advantage rate notices over the years have at times resulted in industry base rates well below industry forward medical trend. For example, the Final Notice for 2024 rates resulted in an industry base rate decrease, as did the January 2024 Advance Notice for 2025 rates, both of which are well short of what is an increasing industry forward medical cost trend, creating continued pressure in the Medicare Advantage program. Further, substantial revisions to the risk adjustment model, which serves to adjust rates to reflect a patient's health status and care resource needs, will continue to result in reduced funding and potentially benefits for people, especially those with some of the greatest health and social challenges.",
+            "entity_name": "UNH Medicare Advantage Funding Pressure Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In Medicaid, we believe the payment rate environment creates the risk of continued downward pressure on Medicaid margin percentages. We continue to take a prudent, market-sustainable posture for both new business and maintenance of existing relationships. We continue to advocate for actuarially sound rates commensurate with our medical cost trends and we remain dedicated to partnering with those states that are committed to the long-term viability of their programs.",
+            "entity_name": "UNH Medicaid Margin Pressure Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "During 2023, we observed increased care patterns, primarily related to outpatient procedures for seniors, which we expect will persist throughout 2024, and may continue in future periods. We endeavor to mitigate those increases by engaging physicians and consumers with information and helping them make clinically sound choices, with the objective of helping them achieve high-quality, affordable care.",
+            "entity_name": "UNH Elevated Senior Outpatient Medical Cost Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UnitedHealthcare"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "UnitedHealthcare",
+              "ticker": "UNH"
+            },
+            "name": "UNH UnitedHealthcare Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Health"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Health",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Health Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Insight"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Insight",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Insight Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Rx"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Rx",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Rx Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Medicare & Retirement",
+              "UHC Medicare & Retirement"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "UnitedHealthcare Medicare & Retirement",
+              "ticker": "UNH"
+            },
+            "name": "UNH UnitedHealthcare Medicare & Retirement",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Community & State",
+              "UHC Medicaid segment"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "UnitedHealthcare Community & State",
+              "ticker": "UNH"
+            },
+            "name": "UNH UnitedHealthcare Community & State",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Employer & Individual",
+              "UHC E&I"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "UnitedHealthcare Employer & Individual",
+              "ticker": "UNH"
+            },
+            "name": "UNH UnitedHealthcare Employer & Individual",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "UNH Brazil sale",
+              "Brazil operations sale"
+            ],
+            "attributes": {
+              "agreement_date": "2023-12-22",
+              "completion_date": "2024-02-06",
+              "event_type": "divestiture",
+              "expected_loss_usd": 7000000000
+            },
+            "identifiers": {},
+            "name": "UNH Brazil Operations Divestiture 2023",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "UNH pending acquisitions 2023"
+            ],
+            "attributes": {
+              "event_type": "acquisition",
+              "sector": "health care",
+              "total_consideration_usd": 6000000000
+            },
+            "identifiers": {},
+            "name": "UNH Pending Health Care Sector Acquisitions FY2023",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "UNH 2023 dividend increase"
+            ],
+            "attributes": {
+              "effective_date": "2023-06",
+              "per_share": 7.52,
+              "per_share_basis": "annual",
+              "prior_per_share": 6.6,
+              "return_type": "dividend_increase"
+            },
+            "identifiers": {},
+            "name": "UNH June 2023 Dividend Increase to $7.52 Annual Rate",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "UNH buyback authorization 2023"
+            ],
+            "attributes": {
+              "return_type": "repurchase_authorization",
+              "shares_authorized": 15000000
+            },
+            "identifiers": {},
+            "name": "UNH Share Repurchase Authorization (up to 15M shares)",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Medicare Advantage rate pressure",
+              "MA rate risk"
+            ],
+            "attributes": {
+              "business_line": "Medicare Advantage",
+              "category": "regulatory",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "UNH Medicare Advantage Funding Pressure Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Medicaid payment rate risk",
+              "Medicaid rate adequacy risk"
+            ],
+            "attributes": {
+              "business_line": "Medicaid",
+              "category": "regulatory",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "UNH Medicaid Margin Pressure Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "elevated care patterns risk",
+              "senior outpatient cost trend risk"
+            ],
+            "attributes": {
+              "category": "medical_cost",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "UNH Elevated Senior Outpatient Medical Cost Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "earnings_from_operations": 16415000000,
+              "growth_pct": 0.13,
+              "margin": 0.058,
+              "period": "FY2023",
+              "revenue": 281360000000
+            },
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH UnitedHealthcare Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations": 6560000000,
+              "growth_pct": 0.34,
+              "margin": 0.069,
+              "period": "FY2023",
+              "revenue": 95319000000
+            },
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Health Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations": 4268000000,
+              "growth_pct": 0.3,
+              "margin": 0.225,
+              "period": "FY2023",
+              "revenue": 18932000000
+            },
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Insight Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "earnings_from_operations": 5115000000,
+              "growth_pct": 0.16,
+              "margin": 0.044,
+              "period": "FY2023",
+              "revenue": 116087000000
+            },
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Rx Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.14,
+              "period": "FY2023",
+              "revenue": 129862000000
+            },
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH UnitedHealthcare Medicare & Retirement",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.18,
+              "period": "FY2023",
+              "revenue": 75004000000
+            },
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH UnitedHealthcare Community & State",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.06,
+              "period": "FY2023",
+              "revenue": 76494000000
+            },
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH UnitedHealthcare Employer & Individual",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Brazil Operations Divestiture 2023",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Pending Health Care Sector Acquisitions FY2023",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH June 2023 Dividend Increase to $7.52 Annual Rate",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Share Repurchase Authorization (up to 15M shares)",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Medicare Advantage Funding Pressure Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Medicaid Margin Pressure Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Elevated Senior Outpatient Medical Cost Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-24-000081.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "556495c022a975eec12008e20f05524fc7b92ed401dcf86fac5a45fbe1ca640f"
+    }
+  ],
+  "prompt_version": "v3"
+}

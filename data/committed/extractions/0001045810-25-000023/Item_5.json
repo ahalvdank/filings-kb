@@ -1,0 +1,204 @@
+{
+  "accession": "0001045810-25-000023",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T12:06:07Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "In May 2024, we announced a ten-for-one stock split, or the Stock Split, of our issued common stock, which was effected through the filing of an amendment to the Company's Restated Certificate of Incorporation, or the Amendment, with the Secretary of the State of Delaware. In June 2024, the Company filed the Amendment to effect the Stock Split and proportionately increased the number of shares of the Company's authorized common stock from 8.0 billion to 80.0 billion.",
+            "entity_name": "NVDA June 2024 Ten-for-One Stock Split",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "On August 26, 2024, our Board of Directors approved an additional $50 billion to our share repurchase authorization, without expiration.",
+            "entity_name": "NVDA August 2024 $50B Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2025-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In fiscal year 2025, we repurchased 310 million shares of our common stock for $34.0 billion. As of January 26, 2025, we were authorized, subject to certain specifications, to repurchase up to $38.7 billion of our common stock. From January 27, 2025 through February 21, 2025, we repurchased 29 million shares for $3.7 billion pursuant to a pre-established trading plan.",
+            "entity_name": "NVDA FY2025 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2025-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In fiscal year 2025, we paid cash dividends to our shareholders of $834 million. The payment of future cash dividends is subject to our Board of Directors' continuing determination that the declaration of dividends is in the best interests of our shareholders.",
+            "entity_name": "NVDA FY2025 Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2025-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "On December 6, 2024, we issued a total of 94,560 shares of our common stock, valued at approximately $13.5 million based on our closing stock price on the date of issuance, to key employees of a company we acquired. On December 29, 2024, we issued a total of 205,110 shares of our common stock, valued at approximately $28.1 million based on our closing stock price on December 27, 2024, to key employees of a company we acquired.",
+            "entity_name": "NVDA December 2024 Unregistered Equity Issuances",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2025-02-26",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVIDIA 10-for-1 stock split",
+              "NVDA 2024 stock split"
+            ],
+            "attributes": {
+              "announced_date": "2024-05",
+              "authorized_shares_post": 80000000000,
+              "authorized_shares_pre": 8000000000,
+              "effective_date": "2024-06",
+              "event_type": "stock_split",
+              "split_ratio": "10-for-1"
+            },
+            "identifiers": {},
+            "name": "NVDA June 2024 Ten-for-One Stock Split",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NVIDIA $50 billion buyback authorization"
+            ],
+            "attributes": {
+              "amount_usd": 50000000000,
+              "effective_date": "2024-08-26",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "NVDA August 2024 $50B Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "NVIDIA fiscal 2025 buyback activity"
+            ],
+            "attributes": {
+              "amount_usd": 34000000000,
+              "period": "FY2025",
+              "return_type": "buyback",
+              "shares": 310000000
+            },
+            "identifiers": {},
+            "name": "NVDA FY2025 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "NVIDIA fiscal 2025 dividend payments"
+            ],
+            "attributes": {
+              "amount_usd": 834000000,
+              "period": "FY2025",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2025 Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "NVIDIA December 2024 Section 4(a)(2) share issuances"
+            ],
+            "attributes": {
+              "exemption": "Section 4(a)(2)",
+              "instrument_type": "equity_issuance",
+              "issuance_date_1": "2024-12-06",
+              "issuance_date_2": "2024-12-29",
+              "purpose": "acquisition_consideration_to_employees",
+              "shares_1": 94560,
+              "shares_2": 205110,
+              "value_1_usd": 13500000,
+              "value_2_usd": 28100000
+            },
+            "identifiers": {},
+            "name": "NVDA December 2024 Unregistered Equity Issuances",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA June 2024 Ten-for-One Stock Split",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA August 2024 $50B Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2025-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2025 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2025-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2025 Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2025-02-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA December 2024 Unregistered Equity Issuances",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2025-02-26",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-25-000023.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "6ee80a405794876bafef7c7cbe084f37ce8236daf6710a149ae4e2bf5d0a4803"
+    }
+  ],
+  "prompt_version": "v3"
+}

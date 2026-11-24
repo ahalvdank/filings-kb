@@ -1,0 +1,200 @@
+{
+  "accession": "0001326801-25-000017",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T08:38:09Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "On November 27, 2024, Peggy Alford, a member of our board of directors, entered into a trading plan that provides for the sale of an aggregate of up to $1.2 million worth of shares of our Class A common stock. The plan will terminate on November 15, 2025, subject to early termination for certain specified events set forth in the plan.",
+            "entity_name": "Peggy Alford",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "On November 27, 2024, Peggy Alford, a member of our board of directors, entered into a trading plan that provides for the sale of an aggregate of up to $1.2 million worth of shares of our Class A common stock. The plan will terminate on November 15, 2025, subject to early termination for certain specified events set forth in the plan.",
+            "entity_name": "Peggy Alford 10b5-1 Plan Adoption (2024-11-27)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "executive_biography",
+            "content": "On November 27, 2024, Christopher K. Cox, our Chief Product Officer, entered into a trading plan that provides for the sale of an aggregate of up to 60,000 shares of our Class A common stock. The plan will terminate on February 20, 2026, subject to early termination for certain specified events set forth in the plan.",
+            "entity_name": "Christopher K. Cox",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "On November 27, 2024, Christopher K. Cox, our Chief Product Officer, entered into a trading plan that provides for the sale of an aggregate of up to 60,000 shares of our Class A common stock. The plan will terminate on February 20, 2026, subject to early termination for certain specified events set forth in the plan.",
+            "entity_name": "Christopher K. Cox 10b5-1 Plan Adoption (2024-11-27)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "Meta Platforms, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "META Class A"
+            ],
+            "attributes": {
+              "security_type": "common_stock",
+              "share_class": "A"
+            },
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "META Class A Common Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Peggy Alford",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "Christopher K. Cox",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "max_sale_value_usd": 1200000,
+              "plan_entry_date": "2024-11-27",
+              "plan_termination_date": "2025-11-15",
+              "plan_type": "10b5-1",
+              "reporting_person": "Peggy Alford",
+              "source": "10-K_Item_9B_partial",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Peggy Alford 10b5-1 Plan Adoption (2024-11-27)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_entry_date": "2024-11-27",
+              "plan_termination_date": "2026-02-20",
+              "plan_type": "10b5-1",
+              "reporting_person": "Christopher K. Cox",
+              "shares": 60000,
+              "source": "10-K_Item_9B_partial",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Christopher K. Cox 10b5-1 Plan Adoption (2024-11-27)",
+            "type": "InsiderTransaction"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Peggy Alford",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Chief Product Officer"
+            },
+            "source_name": "Christopher K. Cox",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "max_sale_value_usd": 1200000,
+              "plan_entry_date": "2024-11-27",
+              "plan_termination_date": "2025-11-15",
+              "plan_type": "10b5-1",
+              "transaction_code": "S"
+            },
+            "source_name": "Peggy Alford",
+            "source_type_entity": "Person",
+            "target_name": "META Class A Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_entry_date": "2024-11-27",
+              "plan_termination_date": "2026-02-20",
+              "plan_type": "10b5-1",
+              "shares": 60000,
+              "transaction_code": "S"
+            },
+            "source_name": "Christopher K. Cox",
+            "source_type_entity": "Person",
+            "target_name": "META Class A Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-25-000017.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "21719c50338ccd546b80a012a311c58e41171510948b5c790f18766bd5987856"
+    }
+  ],
+  "prompt_version": "v3"
+}

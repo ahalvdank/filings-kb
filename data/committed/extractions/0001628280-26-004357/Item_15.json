@@ -1,0 +1,292 @@
+{
+  "accession": "0001628280-26-004357",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T05:13:31Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Agreement and Plan of Merger, dated June 30, 2024, by and among Spirit AeroSystems Holdings, Inc., The Boeing Company and Sphere Acquisition Corp. (Exhibit 2.1 to the Company's Current Report on Form 8-K dated July 1, 2024)",
+            "entity_name": "BA Merger Agreement with Spirit AeroSystems Holdings (June 2024)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Membership Interest Purchase Agreement, dated as of April 22, 2025, among The Boeing Company, JNPR Aero, LLC and Project Maroon, LLC (Exhibit 2.1 to the Company's Current Report on Form 8-K dated April 22, 2025)",
+            "entity_name": "BA Membership Interest Sale to Project Maroon (April 2025)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Non-Prosecution Agreement, dated May 29, 2025 (Exhibit 10.1 to the Company's Current Report on Form 8-K dated May 29, 2025)",
+            "entity_name": "BA Non-Prosecution Agreement (May 2025)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Certificate of Designations, filed with the Secretary of State of the State of Delaware and effective October 31, 2024 (Exhibit 3.1 to the Company's Current Report on Form 8-K dated October 28, 2024)",
+            "entity_name": "BA 6.00% Series A Mandatory Convertible Preferred Stock Issuance (October 2024)",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Form of Certificate for the 6.00% Series A Mandatory Convertible Preferred Stock (Exhibit 4.1 to the Company's Current Report on Form 8-K dated October 28, 2024)",
+            "entity_name": "BA 6.00% Series A Mandatory Convertible Preferred Stock Issuance (October 2024)",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Five-Year Credit Agreement, dated as of August 24, 2023, among The Boeing Company for itself and on behalf of its Subsidiaries, as a Borrower, the Lenders party hereto, Citibank, N.A., as administrative agent, JPMorgan Chase Bank, N.A., as syndication agent and Citibank N.A. and JPMorgan Chase Bank, N.A., as joint lead arrangers and joint book managers (Exhibit 10.2 to the Company's Current Report on Form 8-K dated August 24, 2023)",
+            "entity_name": "BA Five-Year Credit Agreement (August 2023)",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Five-Year Credit Agreement, dated as of May 15, 2024, among The Boeing Company for itself and on behalf of its Subsidiaries, as a Borrower, the Lenders party hereto, Citibank, N.A., as administrative agent, JPMorgan Chase Bank, N.A., as syndication agent and Citibank N.A. and JPMorgan Chase Bank, N.A., as joint lead arrangers and joint book managers (Exhibit 10.1 to the Company's Current Report on Form 8-K dated May 15, 2024)",
+            "entity_name": "BA Five-Year Credit Agreement (May 2024)",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "364-Day Credit Agreement, dated as of August 25, 2025, among The Boeing Company for itself and on behalf of its Subsidiaries, as a Borrower, the Lenders party thereto, Citibank, N.A., as Administrative Agent, JPMorgan Chase Bank, N.A. as Syndication Agent and Citibank, N.A. and JPMorgan Chase Bank N.A., as Joint Lead Arrangers and Joint Book Managers (Exhibit 10.1 to the Company's Current Report on Form 8-K dated August 25, 2025)",
+            "entity_name": "BA 364-Day Credit Agreement (August 2025)",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "The Boeing Company",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Spirit AeroSystems acquisition",
+              "Spirit merger"
+            ],
+            "attributes": {
+              "acquiring_vehicle": "Sphere Acquisition Corp.",
+              "agreement_date": "2024-06-30",
+              "event_type": "acquisition",
+              "target_company": "Spirit AeroSystems Holdings, Inc."
+            },
+            "identifiers": {},
+            "name": "BA Merger Agreement with Spirit AeroSystems Holdings (June 2024)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "JNPR Aero divestiture",
+              "Project Maroon transaction"
+            ],
+            "attributes": {
+              "agreement_date": "2025-04-22",
+              "counterparty_buyer": "Project Maroon, LLC",
+              "divested_entity": "JNPR Aero, LLC",
+              "event_type": "divestiture"
+            },
+            "identifiers": {},
+            "name": "BA Membership Interest Sale to Project Maroon (April 2025)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing NPA 2025"
+            ],
+            "attributes": {
+              "agreement_date": "2025-05-29",
+              "event_type": "regulatory_action"
+            },
+            "identifiers": {},
+            "name": "BA Non-Prosecution Agreement (May 2025)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing Series A Preferred",
+              "BA mandatory convertible preferred 2024"
+            ],
+            "attributes": {
+              "coupon": 0.06,
+              "effective_date": "2024-10-31",
+              "instrument_type": "equity_issuance",
+              "security_type": "Mandatory Convertible Preferred Stock",
+              "series": "A"
+            },
+            "identifiers": {},
+            "name": "BA 6.00% Series A Mandatory Convertible Preferred Stock Issuance (October 2024)",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing 5-year revolver 2023"
+            ],
+            "attributes": {
+              "administrative_agent": "Citibank, N.A.",
+              "effective_date": "2023-08-24",
+              "instrument_type": "revolver",
+              "syndication_agent": "JPMorgan Chase Bank, N.A."
+            },
+            "identifiers": {},
+            "name": "BA Five-Year Credit Agreement (August 2023)",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing 5-year revolver 2024"
+            ],
+            "attributes": {
+              "administrative_agent": "Citibank, N.A.",
+              "effective_date": "2024-05-15",
+              "instrument_type": "revolver",
+              "syndication_agent": "JPMorgan Chase Bank, N.A."
+            },
+            "identifiers": {},
+            "name": "BA Five-Year Credit Agreement (May 2024)",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing 364-day revolver 2025"
+            ],
+            "attributes": {
+              "administrative_agent": "Citibank, N.A.",
+              "effective_date": "2025-08-25",
+              "instrument_type": "revolver",
+              "syndication_agent": "JPMorgan Chase Bank, N.A."
+            },
+            "identifiers": {},
+            "name": "BA 364-Day Credit Agreement (August 2025)",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Merger Agreement with Spirit AeroSystems Holdings (June 2024)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Membership Interest Sale to Project Maroon (April 2025)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Non-Prosecution Agreement (May 2025)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA 6.00% Series A Mandatory Convertible Preferred Stock Issuance (October 2024)",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Five-Year Credit Agreement (August 2023)",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA Five-Year Credit Agreement (May 2024)",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "BA 364-Day Credit Agreement (August 2025)",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0001628280-26-004357.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "8e9c9dbdb8869b0d680236d0e47ea0dad51284e56d7268332a7703aa90d10224"
+    }
+  ],
+  "prompt_version": "v3"
+}

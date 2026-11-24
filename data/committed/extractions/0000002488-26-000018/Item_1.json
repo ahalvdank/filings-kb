@@ -1,0 +1,331 @@
+{
+  "accession": "0000002488-26-000018",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-21T23:16:28Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In March 2025, we acquired ZT Group Int'l, Inc. (ZT Systems), where we retained certain intellectual property and employees associated with the design operations (ZT Design Business). This acquisition enables us to deliver end-to-end AI solutions and accelerate the design and deployment of AMD-powered AI infrastructure at scale optimized for the cloud.",
+            "entity_name": "AMD Acquisition of ZT Systems",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In October 2025, we sold the ZT data center infrastructure manufacturing business (ZT Manufacturing Business) to Sanmina Corporation (Sanmina).",
+            "entity_name": "AMD Divestiture of ZT Manufacturing Business",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "In October 2025, we entered into a product purchase agreement with OpenAI OpCo, LLC, (OpenAI) to deploy 6 gigawatts of AMD GPUs, with the deployment of the first gigawatt of capacity powered by our AMD Instinct MI450 series products. This multiyear strategic partnership with OpenAI demonstrates our continued execution of hardware, software and full-stack solutions roadmaps.",
+            "entity_name": "AMD-OpenAI GPU Deployment Partnership",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "Beginning in the first quarter of fiscal year 2025, we combined the Client and Gaming segments into one reportable segment to align with how we manage our business. All prior period segment data were retrospectively adjusted.",
+            "entity_name": "AMD Client and Gaming Segment Combination",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "the Data Center segment, which primarily includes AI accelerators, CPUs for servers, GPUs, APUs, DPUs, AI NICs, FPGAs and SoC products for data centers",
+            "entity_name": "AMD Data Center Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "the Client and Gaming segment, which primarily includes CPUs, APUs, chipsets for desktops and notebooks, discrete GPUs, and semi-custom SoC products and development services",
+            "entity_name": "AMD Client and Gaming Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "the Embedded segment, which primarily includes embedded CPUs, APUs, FPGAs, SOMs, and adaptive SoC products.",
+            "entity_name": "AMD Embedded Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "We have been named as a responsible party at three Superfund Sites in Sunnyvale, California that are on the National Priorities List. Since 1981, we have discovered hazardous material releases to the soil and groundwater from former underground tanks and proceeded to investigate and conduct remediation at these three sites.",
+            "entity_name": "AMD Sunnyvale Superfund Sites",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "To address anticipated future remediation costs under the orders, we have computed and recorded an estimated environmental liability of approximately $5.9 million and have not recorded any potential insurance recoveries in determining the estimated costs of the cleanup.",
+            "entity_name": "AMD Sunnyvale Superfund Sites",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "AMD"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "Advanced Micro Devices, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "ZT Systems acquisition",
+              "ZT Group acquisition"
+            ],
+            "attributes": {
+              "effective_date": "2025-03",
+              "event_type": "acquisition",
+              "target_company": "ZT Group Int'l, Inc."
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of ZT Systems",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "ZT Manufacturing sale",
+              "Sanmina divestiture"
+            ],
+            "attributes": {
+              "acquirer": "Sanmina Corporation",
+              "divested_unit": "ZT data center infrastructure manufacturing business",
+              "effective_date": "2025-10",
+              "event_type": "divestiture"
+            },
+            "identifiers": {},
+            "name": "AMD Divestiture of ZT Manufacturing Business",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "OpenAI product purchase agreement",
+              "AMD OpenAI strategic partnership"
+            ],
+            "attributes": {
+              "capacity_gw": 6,
+              "counterparty": "OpenAI OpCo, LLC",
+              "effective_date": "2025-10",
+              "event_type": "joint_venture"
+            },
+            "identifiers": {},
+            "name": "AMD-OpenAI GPU Deployment Partnership",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD Client Gaming segment merger",
+              "AMD segment reorganization FY2025"
+            ],
+            "attributes": {
+              "effective_period": "Q1 FY2025",
+              "event_type": "business_combination"
+            },
+            "identifiers": {},
+            "name": "AMD Client and Gaming Segment Combination",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD Data Center",
+              "Data Center"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center",
+              "ticker": "AMD"
+            },
+            "name": "AMD Data Center Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AMD Client and Gaming",
+              "Client and Gaming",
+              "Client & Gaming"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Client and Gaming",
+              "ticker": "AMD"
+            },
+            "name": "AMD Client and Gaming Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AMD Embedded",
+              "Embedded"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Embedded",
+              "ticker": "AMD"
+            },
+            "name": "AMD Embedded Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AMD Superfund liability",
+              "Sunnyvale environmental remediation"
+            ],
+            "attributes": {
+              "accrued_liability_usd": 5900000,
+              "counterparty": "U.S. EPA / California Regional Water Quality Control Board",
+              "site_count": 3,
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "AMD Sunnyvale Superfund Sites",
+            "type": "LegalProceeding"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of ZT Systems",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Divestiture of ZT Manufacturing Business",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD-OpenAI GPU Deployment Partnership",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Client and Gaming Segment Combination",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025"
+            },
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Data Center Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025"
+            },
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Client and Gaming Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025"
+            },
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Embedded Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Sunnyvale Superfund Sites",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-26-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "7c70ee3b0f8a1893e6eb0c6b7652cb4f0fb0b2112aeb2f9f8f790e6cf74dd80b"
+    }
+  ],
+  "prompt_version": "v3"
+}

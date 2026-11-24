@@ -1,0 +1,72 @@
+{
+  "accession": "0000950170-25-100235",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T12:04:04Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of the date of this Form 10-K, we do not believe any risks from cybersecurity threats have materially affected or are reasonably likely to materially affect us, including our results of operations or financial condition. However, the cybersecurity threat environment is increasingly challenging, and we, along with the entire digital ecosystem, are under constant and increasing threat.",
+            "entity_name": "MSFT Cybersecurity Threat Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We track over 1,500 unique threat actors, including more than 600 nation-state actors, 300 cybercriminal groups, 200 influence operation groups, and hundreds of others. To support our efforts, we operate a Cyber Defense Operations Center connected to over 10,000 security and threat intelligence experts, including engineers, researchers, data scientists, cybersecurity experts, threat hunters, geopolitical analysts, investigators, and frontline responders across the globe.",
+            "entity_name": "MSFT Cybersecurity Threat Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft cyber threat risk",
+              "cybersecurity threat landscape risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "cybercriminal_groups_tracked": 300,
+              "geography": "global",
+              "influence_operation_groups_tracked": 200,
+              "nation_state_actors_tracked": 600,
+              "threat_actors_tracked": 1500
+            },
+            "identifiers": {},
+            "name": "MSFT Cybersecurity Threat Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Cybersecurity Threat Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0000950170-25-100235.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "d16cbd529ef296c671c5c45df00189cfcd6228e01df88f9f21194d07f0cdef6c"
+    }
+  ],
+  "prompt_version": "v3"
+}

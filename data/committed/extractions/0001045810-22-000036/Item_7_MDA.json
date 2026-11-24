@@ -1,0 +1,357 @@
+{
+  "accession": "0001045810-22-000036",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T17:50:52Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "On February 8, 2022, NVIDIA and SoftBank announced the termination of the Share Purchase Agreement whereby NVIDIA would have acquired Arm from SoftBank. The parties agreed to terminate because of significant regulatory challenges preventing the completion of the transaction. We intend to record in operating expenses a $1.36 billion charge in the first quarter of fiscal year 2023 reflecting the write-off of the prepayment provided at signing in September 2020.",
+            "entity_name": "NVDA Termination of Arm Share Purchase Agreement",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Graphics segment revenue increased by 61% in fiscal year 2022 compared to fiscal year 2021. We continue to benefit from strong demand for NVIDIA Ampere architecture products, and believe the increase in Gaming revenue during fiscal year 2022 resulted from a combination of factors, including: the ramp of new RTX 30 Series GPUs; the release of new games supporting ray tracing; the rising popularity of gaming, esports, content creation and streaming; the demand for new and upgraded systems to support the increase in remote work; and the ability of end users to engage in cryptocurrency mining.",
+            "entity_name": "NVDA Graphics Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Compute & Networking segment revenue increased by 61% in fiscal year 2022 compared to fiscal year 2021, driven primarily by sales of NVIDIA Ampere architecture products to hyperscale customers for cloud computing and workloads such as natural language processing and deep recommender models, as well as to vertical industries. The increase compared to fiscal year 2021 also reflects the strong sales of networking products and that fiscal year 2022 includes a full year of networking revenue as Mellanox was acquired in April 2020. CMP contributed $550 million in fiscal year 2022 compared to an insignificant amount in the prior year.",
+            "entity_name": "NVDA Compute & Networking Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In fiscal year 2022, we paid $399 million in quarterly cash dividends. Our cash dividend program and the payment of future cash dividends under that program are subject to our Board's continuing determination that the dividend program and the declaration of dividends thereunder are in the best interests of our shareholders.",
+            "entity_name": "NVDA FY2022 Quarterly Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "As of January 30, 2022, we were authorized, subject to certain specifications, to repurchase additional shares of our common stock up to $7.24 billion through December 2022. We did not repurchase any shares during fiscal year 2022.",
+            "entity_name": "NVDA $7.24B Share Repurchase Authorization (Dec 2022)",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Interest expense was $236 million and $184 million in fiscal years 2022 and 2021, respectively. The increase in expense reflects interest on the $5.00 billion note issued in June 2021.",
+            "entity_name": "NVDA June 2021 $5.0B Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect to remain supply-constrained into the first half of fiscal year 2023, primarily in Gaming and Networking.",
+            "entity_name": "NVDA FY2023 H1 Supply Constraint Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "During fiscal year 2023, we expect to use our existing cash and cash equivalents, our marketable securities, and the cash generated by our operations to fund our capital investments of approximately $1.4 billion related to property and equipment.",
+            "entity_name": "NVDA FY2023 Capital Expenditure Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "In fiscal year 2023, we plan to build Earth-2, an AI supercomputer dedicated to predicting the impacts of climate change and increase our purchases of Renewable Energy Credits.",
+            "entity_name": "NVDA FY2023 Renewable Energy Credits Purchase Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVIDIA",
+              "NVDA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVIDIA Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Arm acquisition termination",
+              "NVIDIA-Arm deal termination"
+            ],
+            "attributes": {
+              "event_type": "acquisition",
+              "prepayment_writeoff_usd": 1360000000,
+              "seller": "SoftBank",
+              "status": "terminated",
+              "target_company": "Arm Holdings",
+              "termination_date": "2022-02-08",
+              "termination_reason": "regulatory_challenges",
+              "writeoff_period": "Q1 FY2023"
+            },
+            "identifiers": {},
+            "name": "NVDA Termination of Arm Share Purchase Agreement",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Graphics",
+              "NVIDIA Graphics"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Graphics",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Graphics Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Compute & Networking",
+              "NVIDIA Compute & Networking"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Compute & Networking",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Compute & Networking Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 399000000,
+              "period": "FY2022",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2022 Quarterly Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "NVIDIA FY2022 buyback authorization"
+            ],
+            "attributes": {
+              "amount_usd": 7240000000,
+              "expiration": "2022-12",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "NVDA $7.24B Share Repurchase Authorization (Dec 2022)",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "notes",
+              "issuance_date": "2021-06",
+              "principal_usd": 5000000000
+            },
+            "identifiers": {},
+            "name": "NVDA June 2021 $5.0B Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "supply_availability",
+              "new_value": "supply-constrained",
+              "period": "H1 FY2023",
+              "segments_affected": [
+                "Gaming",
+                "Networking"
+              ],
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2023 H1 Supply Constraint Outlook",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "capital_expenditures",
+              "new_value": 1400000000,
+              "period": "FY2023",
+              "unit": "USD",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2023 Capital Expenditure Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "target_year": 2023
+            },
+            "identifiers": {},
+            "name": "NVDA FY2023 Renewable Energy Credits Purchase Commitment",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Termination of Arm Share Purchase Agreement",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.61,
+              "period": "FY2022",
+              "revenue": 15868000000
+            },
+            "source_name": "NVDA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Graphics Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.61,
+              "period": "FY2022",
+              "revenue": 11046000000
+            },
+            "source_name": "NVDA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Compute & Networking Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2022 Quarterly Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA $7.24B Share Repurchase Authorization (Dec 2022)",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA June 2021 $5.0B Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "NVDA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2023 H1 Supply Constraint Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "NVDA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2023 Capital Expenditure Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2023 Renewable Energy Credits Purchase Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": "2022-02-25",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-22-000036.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "7458aa046c9b1ad357f48cbda26310fb2039b41533b7d13a4d3b3cfd4cab780b"
+    }
+  ],
+  "prompt_version": "v3"
+}

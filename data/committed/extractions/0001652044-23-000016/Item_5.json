@@ -1,0 +1,84 @@
+{
+  "accession": "0001652044-23-000016",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T20:29:25Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "We have never declared or paid any cash dividend on our common or capital stock. The primary use of capital continues to be to invest for the long-term growth of the business. We regularly evaluate our cash and capital structure, including the size, pace, and form of capital return to stockholders.",
+            "entity_name": "Alphabet Inc.",
+            "entity_type_entity": "Company",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "The repurchases are being executed from time to time, subject to general business and market conditions and other investment opportunities, through open market purchases or privately negotiated transactions, including through Rule 10b5-1 plans. The repurchase program does not have an expiration date.",
+            "entity_name": "GOOGL Q4 2022 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Google Inc.",
+              "Alphabet"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Alphabet Q4 2022 buyback"
+            ],
+            "attributes": {
+              "class_a_shares_repurchased_thousands": 15240,
+              "class_c_shares_repurchased_thousands": 146082,
+              "period": "Q4_2022",
+              "program_has_expiration": false,
+              "remaining_authorization_usd_millions": 28079,
+              "return_type": "buyback",
+              "total_shares_repurchased_thousands": 161322
+            },
+            "identifiers": {},
+            "name": "GOOGL Q4 2022 Share Repurchases",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Q4 2022 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-23-000016.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "5060380e43d6da0de01d7a055cfa8311343903a6551caa008e900514d77be5d3"
+    }
+  ],
+  "prompt_version": "v3"
+}

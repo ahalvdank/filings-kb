@@ -1,0 +1,329 @@
+{
+  "accession": "0000012927-25-000015",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T06:10:58Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "exhibit": "2.1",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Agreement and Plan of Merger, dated June 30, 2024, by and among Spirit AeroSystems Holdings, Inc., The Boeing Company and Sphere Acquisition Corp.",
+            "entity_name": "BA Acquisition of Spirit AeroSystems Holdings",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit": "3.3",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Certificate of Designations, filed with the Secretary of State of the State of Delaware and effective October 31, 2024",
+            "entity_name": "BA October 2024 6.00% Series A Mandatory Convertible Preferred Stock Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit": "4.4",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Form of Certificate for the 6.00% Series A Mandatory Convertible Preferred Stock",
+            "entity_name": "BA October 2024 6.00% Series A Mandatory Convertible Preferred Stock Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit": "10.3",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Five-Year Credit Agreement, dated as of May 15, 2024, among The Boeing Company for itself and on behalf of its Subsidiaries, as a Borrower, the Lenders party hereto, Citibank, N.A., as administrative agent, JPMorgan Chase Bank, N.A., as syndication agent and Citibank N.A. and JPMorgan Chase Bank, N.A., as joint lead arrangers and joint book managers",
+            "entity_name": "BA May 2024 Five-Year Revolving Credit Agreement",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit": "10.1",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Five-Year Credit Agreement, dated as of August 24, 2023, among The Boeing Company for itself and on behalf of its Subsidiaries, as a Borrower, the Lenders party hereto, Citibank, N.A., as administrative agent, JPMorgan Chase Bank, N.A., as syndication agent and Citibank N.A. and JPMorgan Chase Bank, N.A., as joint lead arrangers and joint book managers",
+            "entity_name": "BA August 2023 Five-Year Revolving Credit Agreement",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit": "10.2",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Three-Year Credit Agreement, dated as of August 25, 2022, among The Boeing Company for itself and on behalf of its Subsidiaries, as a Borrower, the Lenders party hereto, Citibank, N.A., as administrative agent, JPMorgan Chase Bank, N.A., as syndication agent and Citibank, N.A. and JPMorgan Chase Bank, N.A., as joint lead arrangers and joint book managers",
+            "entity_name": "BA August 2022 Three-Year Revolving Credit Agreement",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit": "4.3",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "First Supplemental Indenture, dated as of May 1, 2024 between The Boeing Company and The Bank of New York Mellon, N.A., as successor trustee to JPMorgan Chase Bank, as Trustee",
+            "entity_name": "BA May 2024 First Supplemental Indenture",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit": "10.6",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Deferred Prosecution Agreement dated January 6, 2021",
+            "entity_name": "The Boeing Company Deferred Prosecution Agreement (2021)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit": "10.4",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Joint Venture Master Agreement, dated as of May 2, 2005, by and among Lockheed Martin Corporation, The Boeing Company and United Launch Alliance, L.L.C.",
+            "entity_name": "United Launch Alliance Joint Venture Formation",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Spirit AeroSystems Merger",
+              "Spirit AeroSystems acquisition"
+            ],
+            "attributes": {
+              "acquirer_vehicle": "Sphere Acquisition Corp.",
+              "agreement_date": "2024-06-30",
+              "event_type": "acquisition",
+              "target_company": "Spirit AeroSystems Holdings, Inc."
+            },
+            "identifiers": {},
+            "name": "BA Acquisition of Spirit AeroSystems Holdings",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing Series A Preferred Stock 2024",
+              "BA 6% MCPS"
+            ],
+            "attributes": {
+              "coupon": 0.06,
+              "effective_date": "2024-10-31",
+              "instrument_name": "6.00% Series A Mandatory Convertible Preferred Stock",
+              "instrument_type": "equity_issuance"
+            },
+            "identifiers": {},
+            "name": "BA October 2024 6.00% Series A Mandatory Convertible Preferred Stock Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing five-year revolver 2024"
+            ],
+            "attributes": {
+              "administrative_agent": "Citibank, N.A.",
+              "agreement_date": "2024-05-15",
+              "instrument_type": "revolver",
+              "syndication_agent": "JPMorgan Chase Bank, N.A.",
+              "term_years": 5
+            },
+            "identifiers": {},
+            "name": "BA May 2024 Five-Year Revolving Credit Agreement",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing five-year revolver 2023"
+            ],
+            "attributes": {
+              "administrative_agent": "Citibank, N.A.",
+              "agreement_date": "2023-08-24",
+              "instrument_type": "revolver",
+              "syndication_agent": "JPMorgan Chase Bank, N.A.",
+              "term_years": 5
+            },
+            "identifiers": {},
+            "name": "BA August 2023 Five-Year Revolving Credit Agreement",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing three-year revolver 2022"
+            ],
+            "attributes": {
+              "administrative_agent": "Citibank, N.A.",
+              "agreement_date": "2022-08-25",
+              "instrument_type": "revolver",
+              "syndication_agent": "JPMorgan Chase Bank, N.A.",
+              "term_years": 3
+            },
+            "identifiers": {},
+            "name": "BA August 2022 Three-Year Revolving Credit Agreement",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing supplemental indenture 2024"
+            ],
+            "attributes": {
+              "agreement_date": "2024-05-01",
+              "instrument_type": "refinancing",
+              "note": "First Supplemental Indenture amending Senior Debt Securities Indenture; successor trustee to JPMorgan Chase Bank",
+              "trustee": "The Bank of New York Mellon, N.A."
+            },
+            "identifiers": {},
+            "name": "BA May 2024 First Supplemental Indenture",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing DPA 2021"
+            ],
+            "attributes": {
+              "agreement_date": "2021-01-06",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "The Boeing Company Deferred Prosecution Agreement (2021)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "ULA JV",
+              "United Launch Alliance JV"
+            ],
+            "attributes": {
+              "agreement_date": "2005-05-02",
+              "counterparties": [
+                "Lockheed Martin Corporation",
+                "United Launch Alliance, L.L.C."
+              ],
+              "event_type": "joint_venture"
+            },
+            "identifiers": {},
+            "name": "United Launch Alliance Joint Venture Formation",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Acquisition of Spirit AeroSystems Holdings",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA October 2024 6.00% Series A Mandatory Convertible Preferred Stock Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA May 2024 Five-Year Revolving Credit Agreement",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA August 2023 Five-Year Revolving Credit Agreement",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA August 2022 Three-Year Revolving Credit Agreement",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA May 2024 First Supplemental Indenture",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "The Boeing Company Deferred Prosecution Agreement (2021)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "United Launch Alliance Joint Venture Formation",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-25-000015.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "094f50933e10765fed769dc614f45d3ddab51770a73127edcb3e05bf1fec0b55"
+    }
+  ],
+  "prompt_version": "v3"
+}

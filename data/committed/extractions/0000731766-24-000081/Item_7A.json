@@ -1,0 +1,164 @@
+{
+  "accession": "0000731766-24-000081",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T23:26:08Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2023, we had $34 billion of financial assets on which the interest rates received vary with market interest rates, which may significantly impact our investment income. Also as of December 31, 2023, $20 billion of our financial liabilities, which include debt and deposit liabilities, were at interest rates which vary with market rates, either directly or through the use of related interest rate swap contracts.",
+            "entity_name": "UNH Interest Rate Risk on Variable-Rate Financial Assets and Liabilities",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2023, $43 billion of our investments were fixed-rate debt securities and $44 billion of our debt was non-swapped fixed-rate term debt. An increase in market interest rates decreases the market value of fixed-rate investments and fixed-rate debt. Conversely, a decrease in market interest rates increases the market value of fixed-rate investments and fixed-rate debt.",
+            "entity_name": "UNH Interest Rate Risk on Fair Value of Fixed-Rate Investments and Debt",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We manage exposure to market interest rates by diversifying investments across different fixed-income market sectors and debt across maturities, as well as by matching a portion of our floating-rate assets and liabilities, either directly or through the use of interest rate swap contracts.",
+            "entity_name": "UNH Interest Rate Risk on Fair Value of Fixed-Rate Investments and Debt",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have an exposure to changes in the value of foreign currencies, primarily the Brazilian real and the Chilean peso, to the U.S. dollar in translation of UnitedHealthcare Employer & Individual's international business operating results at the average exchange rate over the accounting period, and assets and liabilities at the exchange rate at the end of the accounting period.",
+            "entity_name": "UNH Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2023, a hypothetical 10% and 25% increase in the value of the U.S. dollar against those currencies would have caused a reduction in net assets of approximately $590 million and $1.3 billion, respectively. We manage exposure to foreign currency earnings risk primarily by conducting our international business operations in their functional currencies.",
+            "entity_name": "UNH Foreign Currency Exchange Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UNH variable rate investment income risk",
+              "UNH interest rate exposure"
+            ],
+            "attributes": {
+              "as_of_date": "2023-12-31",
+              "category": "interest_rate",
+              "sensitivity_100bp_increase_interest_expense_usd": 196000000,
+              "sensitivity_100bp_increase_investment_income_usd": 344000000,
+              "variable_rate_financial_assets_usd": 34000000000,
+              "variable_rate_financial_liabilities_usd": 20000000000
+            },
+            "identifiers": {},
+            "name": "UNH Interest Rate Risk on Variable-Rate Financial Assets and Liabilities",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "UNH fixed-rate fair value risk",
+              "UNH fixed-rate investment and debt interest rate risk"
+            ],
+            "attributes": {
+              "as_of_date": "2023-12-31",
+              "category": "interest_rate",
+              "fixed_rate_debt_securities_usd": 43000000000,
+              "non_swapped_fixed_rate_term_debt_usd": 44000000000,
+              "sensitivity_100bp_increase_fair_value_assets_usd": -1871000000,
+              "sensitivity_100bp_increase_fair_value_liabilities_usd": -4444000000
+            },
+            "identifiers": {},
+            "name": "UNH Interest Rate Risk on Fair Value of Fixed-Rate Investments and Debt",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "UNH FX risk",
+              "UNH currency translation risk",
+              "UNH Brazilian real Chilean peso exposure"
+            ],
+            "attributes": {
+              "as_of_date": "2023-12-31",
+              "category": "foreign_currency",
+              "equity_securities_non_usd_usd": 4900000000,
+              "geography": "Brazil, Chile",
+              "primary_currencies": [
+                "Brazilian real",
+                "Chilean peso"
+              ],
+              "sensitivity_10pct_usd_appreciation_net_assets_usd": -590000000,
+              "sensitivity_25pct_usd_appreciation_net_assets_usd": -1300000000
+            },
+            "identifiers": {},
+            "name": "UNH Foreign Currency Exchange Rate Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Interest Rate Risk on Variable-Rate Financial Assets and Liabilities",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Interest Rate Risk on Fair Value of Fixed-Rate Investments and Debt",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Foreign Currency Exchange Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-24-000081.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "77fc4293adf399a6945417c613e487bf9342715d46837e10112d0e2c965df223"
+    }
+  ],
+  "prompt_version": "v3"
+}

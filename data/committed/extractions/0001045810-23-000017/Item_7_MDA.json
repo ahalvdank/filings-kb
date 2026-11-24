@@ -1,0 +1,625 @@
+{
+  "accession": "0001045810-23-000017",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T17:06:50Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Compute & Networking - The year-on-year increase was led by growth from hyperscale customers and also reflects purchases made by several CSP partners to support multi-year cloud service agreements for our new NVIDIA AI cloud service offerings and our research and development activities. The increase was also related to the growth in Automotive. CMP contributed an insignificant amount in fiscal year 2023 compared to $550 million in fiscal year 2022.",
+            "entity_name": "NVDA Compute & Networking Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Graphics - The year-on-year decrease primarily reflects lower sell-in to partners to help reduce channel inventory levels as global macro-economic conditions and COVID-19 related disruptions in China weighed on gaming demand.",
+            "entity_name": "NVDA Graphics Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Data Center revenue for fiscal year 2023 was $15.01 billion, up 41% from fiscal year 2022. The strong growth in Data Center revenue was influenced by hyperscaler and cloud usage of our accelerated computing platforms and networking portfolio.",
+            "entity_name": "NVDA Data Center Platform",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Gaming revenue for fiscal year 2023 was $9.07 billion, down 27% from fiscal year 2022. Gaming results were influenced by the rapid change in economic conditions causing excess inventory with our channel partners.",
+            "entity_name": "NVDA Gaming Platform",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Professional Visualization revenue for fiscal year 2023 was $1.54 billion, down 27% from fiscal year 2022. Professional Visualization results were influenced by the rapid change in economic conditions causing excess inventory with our OEM partners.",
+            "entity_name": "NVDA Professional Visualization Platform",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Automotive revenue for fiscal year 2023 grew 60% compared to fiscal year 2022 to $903 million. In Automotive, we started production of the NVIDIA DRIVE Orin autonomous vehicle SOC and introduced next-generation NVIDIA DRIVE Thor.",
+            "entity_name": "NVDA Automotive Platform",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal year 2023, we returned $10.04 billion in share repurchases and $398 million in quarterly cash dividends.",
+            "entity_name": "NVDA FY2023 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal year 2023, we returned $10.04 billion in share repurchases and $398 million in quarterly cash dividends.",
+            "entity_name": "NVDA FY2023 Quarterly Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "As of January 29, 2023, we were authorized, subject to certain specifications, to repurchase additional shares of our common stock up to $7.23 billion through December 2023.",
+            "entity_name": "NVDA Share Repurchase Authorization Remaining Dec-2023",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In February 2022, NVIDIA and SoftBank announced the termination of the Share Purchase Agreement whereby NVIDIA would have acquired Arm from SoftBank due to significant regulatory challenges preventing the completion of the transaction. We recorded an acquisition termination cost of $1.35 billion in fiscal year 2023 reflecting the write-off of the prepayment provided at signing.",
+            "entity_name": "NVDA Arm Acquisition Termination",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In fiscal year 2023, we stopped direct sales to Russia and later in the year, we closed business operations in Russia. Direct sales to Russia in fiscal year 2022 were immaterial.",
+            "entity_name": "NVDA Russia Business Exit FY2023",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "During the third quarter of fiscal year 2023, the USG announced new license requirements that, with certain exceptions, impact exports to China (including Hong Kong and Macau) and Russia of our A100 and H100 integrated circuits, DGX or any other systems or boards which incorporate A100 or H100 integrated circuits and our A100X. We are required to transition certain operations out of China (including Hong Kong), including research and development and supply and distribution operations.",
+            "entity_name": "NVDA USG A100/H100 China Export License Requirements",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In February 2023, we completed an assessment of the useful lives of our property, plant, and equipment. Based on advances in technology and usage rate, we increased the estimated useful life of a majority of the server, storage, and network equipment from three years to a range of four to five years, and assembly and test equipment from five years to seven years. This change in accounting estimate became effective at the beginning of fiscal year 2024. Based on the carrying amounts of a majority of our server, storage, network, and assembly and test equipment, net in use as of the end of fiscal year 2023, it is estimated this change will increase our fiscal year 2024 operating income by $133 million as a result of the reduction in depreciation expense.",
+            "entity_name": "NVDA Equipment Useful Life Accounting Change FY2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "During fiscal year 2024, we expect to use our existing cash and cash equivalents, our marketable securities, and the cash generated by our operations to fund our capital investments of approximately $1.10 billion to $1.30 billion related to property and equipment.",
+            "entity_name": "NVDA FY2024 Capital Expenditure Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our results and competitive position may be harmed if customers in China do not want to purchase our alternative product offerings, if customers purchase product from competitors, or if customers develop their own internal solution, if the USG does not grant licenses in a timely manner or denies licenses to significant customers, or if we incur significant transition costs.",
+            "entity_name": "NVDA China Revenue Risk from Export Controls",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We may incur inventory provisions if our inventory or supply commitments are misaligned with demand for our products.",
+            "entity_name": "NVDA Inventory Supply-Demand Misalignment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Product transitions are complex as we often ship both new and legacy architecture products simultaneously and we and our channel partners prepare to ship and support new products. We are currently transitioning the architecture of our Data Center, Professional Visualization, and Gaming products. Qualification time for new products, customers anticipating product transitions and channel partners reducing channel inventory of legacy architectures ahead of new product introductions can create reductions or volatility in our revenue.",
+            "entity_name": "NVDA Product Transition Revenue Volatility Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Compute & Networking"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Compute & Networking",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Compute & Networking Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Graphics"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Graphics",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Graphics Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Data Center"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Data Center Platform",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Gaming"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Gaming",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Gaming Platform",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Professional Visualization",
+              "ProViz"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Professional Visualization",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Professional Visualization Platform",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Automotive"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Automotive",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Automotive Platform",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "NVIDIA FY2023 buybacks"
+            ],
+            "attributes": {
+              "amount_usd": 10040000000,
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2023 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 398000000,
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2023 Quarterly Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "NVDA buyback authorization $7.23B"
+            ],
+            "attributes": {
+              "amount_usd": 7230000000,
+              "effective_date": "2023-12",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "NVDA Share Repurchase Authorization Remaining Dec-2023",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Arm Share Purchase Agreement termination",
+              "NVIDIA-SoftBank Arm deal termination"
+            ],
+            "attributes": {
+              "charge_usd": 1350000000,
+              "counterparty": "SoftBank",
+              "event_type": "acquisition",
+              "status": "terminated",
+              "target_company": "Arm",
+              "termination_date": "2022-02"
+            },
+            "identifiers": {},
+            "name": "NVDA Arm Acquisition Termination",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NVIDIA Russia exit"
+            ],
+            "attributes": {
+              "event_type": "restructuring",
+              "geography": "Russia"
+            },
+            "identifiers": {},
+            "name": "NVDA Russia Business Exit FY2023",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NVIDIA China export controls A100 H100"
+            ],
+            "attributes": {
+              "effective_quarter": "Q3 FY2023",
+              "event_type": "regulatory_action",
+              "geography": "China, Hong Kong, Macau",
+              "products_affected": [
+                "A100",
+                "H100",
+                "DGX",
+                "A100X"
+              ]
+            },
+            "identifiers": {},
+            "name": "NVDA USG A100/H100 China Export License Requirements",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NVIDIA depreciation policy change"
+            ],
+            "attributes": {
+              "effective_date": "FY2024",
+              "estimated_fy2024_operating_income_impact_usd": 133000000,
+              "event_type": "accounting_change"
+            },
+            "identifiers": {},
+            "name": "NVDA Equipment Useful Life Accounting Change FY2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NVDA FY2024 CapEx guidance"
+            ],
+            "attributes": {
+              "metric": "capital_expenditures",
+              "new_value": "1.10 to 1.30 billion",
+              "period": "FY2024",
+              "unit": "USD",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2024 Capital Expenditure Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "NVDA China export control revenue risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "China"
+            },
+            "identifiers": {},
+            "name": "NVDA China Revenue Risk from Export Controls",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "NVDA excess inventory risk"
+            ],
+            "attributes": {
+              "category": "operational"
+            },
+            "identifiers": {},
+            "name": "NVDA Inventory Supply-Demand Misalignment Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "NVDA architecture transition risk"
+            ],
+            "attributes": {
+              "category": "operational"
+            },
+            "identifiers": {},
+            "name": "NVDA Product Transition Revenue Volatility Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.36,
+              "period": "FY2023",
+              "revenue": 15068000000
+            },
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Compute & Networking Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.25,
+              "period": "FY2023",
+              "revenue": 11906000000
+            },
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Graphics Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.41,
+              "period": "FY2023",
+              "revenue": 15010000000
+            },
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Data Center Platform",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.27,
+              "period": "FY2023",
+              "revenue": 9070000000
+            },
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Gaming Platform",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.27,
+              "period": "FY2023",
+              "revenue": 1540000000
+            },
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Professional Visualization Platform",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.6,
+              "period": "FY2023",
+              "revenue": 903000000
+            },
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Automotive Platform",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2023 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2023 Quarterly Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Share Repurchase Authorization Remaining Dec-2023",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Arm Acquisition Termination",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Russia Business Exit FY2023",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA USG A100/H100 China Export License Requirements",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Equipment Useful Life Accounting Change FY2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2024 Capital Expenditure Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA China Revenue Risk from Export Controls",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Inventory Supply-Demand Misalignment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2023",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Product Transition Revenue Volatility Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2023-01-29",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-23-000017.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "7d6986d50d45b592133f598442142bcd61ceb28379d04917710ac11b48e2e49e"
+    }
+  ],
+  "prompt_version": "v3"
+}

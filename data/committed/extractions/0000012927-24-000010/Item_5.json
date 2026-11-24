@@ -1,0 +1,60 @@
+{
+  "accession": "0000012927-24-000010",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T06:23:48Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "material_event",
+            "content": "A total of 1,448,228 shares were transferred to us from employees in satisfaction of minimum tax withholding obligations associated with the vesting of restricted stock units during the period. We did not purchase any shares of our common stock in the open market pursuant to a repurchase program.",
+            "entity_name": "BA Q4 2023 RSU Tax Withholding Share Transfers",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing Q4 2023 RSU withholding"
+            ],
+            "attributes": {
+              "avg_price_per_share": 245.68,
+              "event_type": "compensation_disclosure",
+              "mechanism": "employee_rsu_tax_withholding",
+              "open_market_repurchases": false,
+              "period": "Q4 2023",
+              "shares_transferred": 1448228
+            },
+            "identifiers": {},
+            "name": "BA Q4 2023 RSU Tax Withholding Share Transfers",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "BA Q4 2023 RSU Tax Withholding Share Transfers",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-24-000010.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "d2b40b606b1dffbb440001490119deeb8efbd00e3b65e078568ba1ee3a548416"
+    }
+  ],
+  "prompt_version": "v3"
+}

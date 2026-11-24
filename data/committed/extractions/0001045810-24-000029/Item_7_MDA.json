@@ -1,0 +1,676 @@
+{
+  "accession": "0001045810-24-000029",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-18T21:43:41Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "growth_pct": 2.15,
+              "period": "FY2024",
+              "revenue_usd": 47405000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Compute & Networking revenue – The year-on-year increase was due to higher Data Center revenue. Compute grew 266% due to higher shipments of the NVIDIA Hopper GPU computing platform for the training and inference of LLMs, recommendation engines and generative AI applications. Networking was up 133% due to higher shipments of InfiniBand.",
+            "entity_name": "NVDA Compute & Networking Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.14,
+              "period": "FY2024",
+              "revenue_usd": 13517000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Graphics revenue – The year-on-year increase was led by growth in Gaming of 15% driven by higher sell-in to partners following the normalization of channel inventory levels.",
+            "entity_name": "NVDA Graphics Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Data Center revenue for fiscal year 2024 was $47.5 billion, up 217% from fiscal year 2023. In Data Center, we launched AI inference platforms that combine our full-stack inference software with NVIDIA Ada, NVIDIA Hopper and NVIDIA Grace Hopper processors optimized for generative AI, LLMs and other AI workloads.",
+            "entity_name": "NVDA Data Center",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Gaming revenue for fiscal year 2024 was $10.4 billion, up 15% from fiscal year 2023. In Gaming, we launched the GeForce RTX 4060 and 4070 GPUs based on the NVIDIA Ada Lovelace architecture.",
+            "entity_name": "NVDA Gaming",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Professional Visualization revenue for fiscal year 2024 was $1.6 billion, up 1% from fiscal year 2023. In Professional Visualization, we announced new GPUs based on the NVIDIA RTX Ada Lovelace architecture, and announced NVIDIA Omniverse Cloud, a fully managed service running in Microsoft Azure, for the development and deployment of industrial metaverse applications.",
+            "entity_name": "NVDA Professional Visualization",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Automotive revenue for fiscal year 2024 was $1.1 billion, up 21% from fiscal year 2023. The increase primarily reflected growth in self-driving platforms.",
+            "entity_name": "NVDA Automotive",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "China represented a mid-single digit percentage of our Data Center revenue in the fourth quarter of fiscal year 2024 due to USG licensing requirements and we expect China to be in a similar range in the first quarter of fiscal year 2025.",
+            "entity_name": "NVDA Q1 FY2025 China Data Center Revenue Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "During fiscal year 2025, we expect to use our existing cash, cash equivalents, and marketable securities, and the cash generated by our operations to fund our capital investments of approximately $3.5 billion to $4.0 billion related to property and equipment.",
+            "entity_name": "NVDA FY2025 Capital Investment Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "Based on enacted laws, Pillar Two is not expected to materially impact our effective tax rate or cash flows in the next fiscal year.",
+            "entity_name": "NVDA FY2025 Pillar Two Tax Impact Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal year 2024, we paid $395 million in quarterly cash dividends.",
+            "entity_name": "NVDA FY2024 Quarterly Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In August 2023, our Board of Directors approved an increase to our share repurchase program of an additional $25.0 billion, without expiration.",
+            "entity_name": "NVDA August 2023 $25B Share Repurchase Authorization Increase",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal year 2024, we repurchased 21 million shares of our common stock for $9.7 billion. As of January 28, 2024, we were authorized, subject to certain specifications, to repurchase additional shares of our common stock up to $22.5 billion.",
+            "entity_name": "NVDA FY2024 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In February 2023, we assessed the useful lives of our property, plant, and equipment. Based on advances in technology and usage rate, we increased the estimated useful life of a majority of the server, storage, and network equipment from three years to a range of four to five years, and assembly and test equipment from five years to seven years. The estimated effect of this change for fiscal year 2024 was a benefit of $33 million and $102 million for cost of revenue and operating expenses, respectively, which resulted in an increase in operating income of $135 million and net income of $114 million after tax, or $0.05 per both basic and diluted share.",
+            "entity_name": "NVDA FY2023 Property & Equipment Useful Life Accounting Change",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Given the increasing strategic importance of AI and rising geopolitical tensions, the USG has changed and may again change the export control rules at any time and further subject a wider range of our products to export restrictions and licensing requirements, negatively impacting our business and financial results. In the event of such change, we may be unable to sell our inventory of such products and may be unable to develop replacement products not subject to the licensing requirements, effectively excluding us from all or part of the China market, as well as other impacted markets, including the Middle East.",
+            "entity_name": "NVDA USG Export Controls China Market Access Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "While we work to enhance the resiliency and redundancy of our supply chain, which is currently concentrated in the Asia-Pacific region, new and existing export controls or changes to existing export controls could limit alternative manufacturing locations and negatively impact our business.",
+            "entity_name": "NVDA Asia-Pacific Supply Chain Concentration Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We expect our next-generation products to be supply-constrained based upon demand indications. We may continue to enter into new supplier and capacity arrangements.",
+            "entity_name": "NVDA Next-Generation Product Supply Constraint Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We may incur inventory provisions or impairments if our inventory or supply or capacity commitments exceed demand for our products or demand declines.",
+            "entity_name": "NVDA Inventory Provision and Excess Purchase Commitment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Accordingly, some of our employees in Israel have been absent for an extended period and they or others may continue to be absent, which may cause disruption to our product development or operations. We did not experience any significant impact or expense to our business; however, if the conflict is further extended, it could impact future product development, operations, and revenue or create other uncertainty for our business.",
+            "entity_name": "NVDA Israel-Hamas Conflict Employee and Operational Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVIDIA",
+              "NVDA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVIDIA Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Compute & Networking"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Compute & Networking",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Compute & Networking Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Graphics"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Graphics",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Graphics Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Data Center"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Data Center",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Gaming"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Gaming",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Gaming",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Professional Visualization",
+              "Pro Viz"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Professional Visualization",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Professional Visualization",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Automotive"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Automotive",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Automotive",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "china_data_center_revenue_pct",
+              "new_value": "mid_single_digit_pct",
+              "period": "Q1_FY2025",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "NVDA Q1 FY2025 China Data Center Revenue Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "capital_investments_property_equipment",
+              "new_value": "3.5B_to_4.0B_USD",
+              "period": "FY2025",
+              "unit": "USD",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2025 Capital Investment Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "pillar_two_effective_tax_rate_impact",
+              "new_value": "not_material",
+              "period": "FY2025",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2025 Pillar Two Tax Impact Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 395000000,
+              "period": "FY2024",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2024 Quarterly Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "NVDA FY2024 buyback expansion"
+            ],
+            "attributes": {
+              "amount_usd": 25000000000,
+              "effective_date": "2023-08",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "NVDA August 2023 $25B Share Repurchase Authorization Increase",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 9700000000,
+              "period": "FY2024",
+              "return_type": "buyback",
+              "shares": 21000000
+            },
+            "identifiers": {},
+            "name": "NVDA FY2024 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "NVDA server equipment useful life change February 2023"
+            ],
+            "attributes": {
+              "effective_date": "2023-02",
+              "event_type": "accounting_change",
+              "fy2024_operating_income_benefit_usd": 135000000
+            },
+            "identifiers": {},
+            "name": "NVDA FY2023 Property & Equipment Useful Life Accounting Change",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "China export control risk",
+              "USG licensing requirement risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "China"
+            },
+            "identifiers": {},
+            "name": "NVDA USG Export Controls China Market Access Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "supply chain geographic concentration risk"
+            ],
+            "attributes": {
+              "category": "supply_chain",
+              "geography": "Asia-Pacific"
+            },
+            "identifiers": {},
+            "name": "NVDA Asia-Pacific Supply Chain Concentration Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "new product supply-constrained risk"
+            ],
+            "attributes": {
+              "category": "supply_chain"
+            },
+            "identifiers": {},
+            "name": "NVDA Next-Generation Product Supply Constraint Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "inventory write-down risk"
+            ],
+            "attributes": {
+              "category": "inventory"
+            },
+            "identifiers": {},
+            "name": "NVDA Inventory Provision and Excess Purchase Commitment Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Israel conflict operational disruption"
+            ],
+            "attributes": {
+              "category": "geopolitical",
+              "geography": "Israel"
+            },
+            "identifiers": {},
+            "name": "NVDA Israel-Hamas Conflict Employee and Operational Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 2.15,
+              "operating_income": 32016000000,
+              "period": "FY2024",
+              "revenue": 47405000000
+            },
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Compute & Networking Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.14,
+              "operating_income": 5846000000,
+              "period": "FY2024",
+              "revenue": 13517000000
+            },
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Graphics Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 2.17,
+              "period": "FY2024",
+              "revenue": 47500000000
+            },
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Data Center",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.15,
+              "period": "FY2024",
+              "revenue": 10400000000
+            },
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Gaming",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.01,
+              "period": "FY2024",
+              "revenue": 1600000000
+            },
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Professional Visualization",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.21,
+              "period": "FY2024",
+              "revenue": 1100000000
+            },
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Automotive",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Q1 FY2025 China Data Center Revenue Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2025 Capital Investment Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2025 Pillar Two Tax Impact Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2024 Quarterly Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA August 2023 $25B Share Repurchase Authorization Increase",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2024 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2023 Property & Equipment Useful Life Accounting Change",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA USG Export Controls China Market Access Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Asia-Pacific Supply Chain Concentration Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Next-Generation Product Supply Constraint Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Inventory Provision and Excess Purchase Commitment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Israel-Hamas Conflict Employee and Operational Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2024-01-28",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-24-000029.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "ba81f361dd637f41a346fc8f82261f6b08dfa0fff139a37dcc26f19feeb91c38"
+    }
+  ],
+  "prompt_version": "v3"
+}

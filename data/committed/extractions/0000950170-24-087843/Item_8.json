@@ -1,0 +1,1286 @@
+{
+  "accession": "0000950170-24-087843",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T13:11:39Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note 1 definition",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Product revenue includes sales from operating systems, cross-device productivity and collaboration applications, server applications, business solution applications, desktop and server management tools, software development tools, video games, and hardware such as PCs, tablets, gaming and entertainment consoles, other intelligent devices, and related accessories.",
+            "entity_name": "MSFT Product Revenue",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "label": "Income Statement Revenue by Category (Year Ended June 30, 2024 / 2023 / 2022)",
+              "period": "FY2024",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Product $64,773 $64,699 $72,732",
+            "entity_name": "MSFT Product Revenue",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 1 definition",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Service and other revenue includes sales from cloud-based solutions that provide customers with software, services, platforms, and content such as Office 365, Azure, Dynamics 365, and gaming; solution support; and consulting services. Service and other revenue also includes sales from online advertising and LinkedIn.",
+            "entity_name": "MSFT Service and Other Revenue",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "label": "Income Statement Revenue by Category (Year Ended June 30, 2024 / 2023 / 2022)",
+              "period": "FY2024",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Service and other $180,349 $147,216 $125,538",
+            "entity_name": "MSFT Service and Other Revenue",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "label": "Cash Flows Statements — Financing (Year Ended June 30, 2024 / 2023 / 2022)",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Common stock repurchased $(17,254) $(22,245) $(32,696)",
+            "entity_name": "MSFT FY2024 Common Stock Repurchase",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "label": "Cash Flows Statements — Financing (Year Ended June 30, 2024 / 2023 / 2022)",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Common stock cash dividends paid $(21,771) $(19,800) $(18,135)",
+            "entity_name": "MSFT FY2024 Common Stock Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "label": "Stockholders' Equity Statements (Year Ended June 30, 2024 / 2023 / 2022)",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Cash dividends declared per common share $3.00 $2.72 $2.48",
+            "entity_name": "MSFT FY2024 Common Stock Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "label": "Cash Flows Statements — Financing (Year Ended June 30, 2024 / 2023 / 2022)",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Proceeds from issuance of debt, maturities of 90 days or less, net $5,250 $0 $0 Proceeds from issuance of debt $24,395 $0 $0 Repayments of debt $(29,070) $(2,750) $(9,023)",
+            "entity_name": "MSFT FY2024 Debt Issuance and Repayment",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 5 — Derivatives, Credit-Risk-Related Contingent Features",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "As of June 30, 2024, our long-term unsecured debt rating was AAA, and cash investments were in excess of $1.0 billion. As a result, no collateral was required to be posted.",
+            "entity_name": "MSFT FY2024 Debt Issuance and Repayment",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 1 — Accounting Policies",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In July 2022, we completed an assessment of the useful lives of our server and network equipment. Due to investments in software that increased efficiencies in how we operate our server and network equipment, as well as advances in technology, we determined we should increase the estimated useful lives of both server and network equipment from four years to six years. This change in accounting estimate was effective beginning fiscal year 2023.",
+            "entity_name": "MSFT Server and Network Equipment Useful Life Extension",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "label": "Cash Flows Statements — Investing (Year Ended June 30, 2024 / 2023 / 2022)",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Acquisition of companies, net of cash acquired, and purchases of intangible and other assets $(69,132) $(1,670) $(22,038)",
+            "entity_name": "MSFT FY2024 Company Acquisitions",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 1 — Related Party Transactions",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Reid Hoffman, a member of our Board of Directors, is a co-founder of and serves on the board of directors of Inflection. Mr. Hoffman did not participate in any portions of the meetings of our Board of Directors or any committee thereof to review and approve the transaction with Inflection.",
+            "entity_name": "Reid Hoffman",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft",
+              "MSFT"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "Microsoft Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "MSFT",
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Reid Hoffman",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Product"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Product",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Product Revenue",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Service and other",
+              "Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Service and Other",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Service and Other Revenue",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 17254000000,
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "MSFT FY2024 Common Stock Repurchase",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 21771000000,
+              "per_share": 3.0,
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "MSFT FY2024 Common Stock Dividend",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "credit_rating_long_term_unsecured": "AAA",
+              "instrument_type": "notes",
+              "long_term_debt_balance_usd": 42688000000,
+              "long_term_proceeds_usd": 24395000000,
+              "repayments_usd": 29070000000,
+              "short_term_proceeds_usd": 5250000000
+            },
+            "identifiers": {},
+            "name": "MSFT FY2024 Debt Issuance and Repayment",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "server useful life change",
+              "useful life accounting change"
+            ],
+            "attributes": {
+              "assessment_completed": "2022-07",
+              "assets_affected": "server and network equipment",
+              "effective_period": "FY2023",
+              "event_type": "accounting_change",
+              "new_useful_life_years": 6,
+              "prior_useful_life_years": 4
+            },
+            "identifiers": {},
+            "name": "MSFT Server and Network Equipment Useful Life Extension",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "consideration_net_of_cash_usd": 69132000000,
+              "event_type": "acquisition",
+              "period": "FY2024"
+            },
+            "identifiers": {},
+            "name": "MSFT FY2024 Company Acquisitions",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.001,
+              "margin": 0.764,
+              "period": "FY2024",
+              "revenue": 64773000000
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Product Revenue",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.225,
+              "margin": 0.674,
+              "period": "FY2024",
+              "revenue": 180349000000
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Service and Other Revenue",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2024 Common Stock Repurchase",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2024 Common Stock Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2024 Debt Issuance and Repayment",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Server and Network Equipment Useful Life Extension",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2024 Company Acquisitions",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Reid Hoffman",
+            "source_type_entity": "Person",
+            "target_name": "Microsoft Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0000950170-24-087843.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "04ac2fa5a03dd1c093d5d663b9780855a9e671f23a1d5e6f06810bc3dad6a1cb"
+    },
+    {
+      "extracted_at": "2026-07-20T13:23:20Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note": "Note 8",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On October 13, 2023, we completed our acquisition of Activision Blizzard, Inc. (\"Activision Blizzard\") for a total purchase price of $75.4 billion, consisting primarily of cash. Activision Blizzard is a leader in game development and an interactive entertainment content publisher. The acquisition will accelerate the growth in our gaming business across mobile, PC, console, and cloud gaming. The financial results of Activision Blizzard have been included in our consolidated financial statements since the date of the acquisition. Activision Blizzard is reported as part of our More Personal Computing segment.",
+            "entity_name": "MSFT Acquisition of Activision Blizzard",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "metric": "acquisition_income_statement_impact",
+              "note": "Note 8",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Following is the net impact of the Activision Blizzard acquisition on our consolidated income statements since the date of acquisition: Revenue $5,729 Operating loss (1,362) for the year ended June 30, 2024. The change of Activision Blizzard content from third-party to first-party is reflected in the net impact.",
+            "entity_name": "MSFT Acquisition of Activision Blizzard",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 8",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On March 4, 2022, we completed our acquisition of Nuance Communications, Inc. (\"Nuance\") for a total purchase price of $18.8 billion, consisting primarily of cash. Nuance is a cloud and artificial intelligence (\"AI\") software provider with healthcare and enterprise AI experience, and the acquisition will build on our industry-specific cloud offerings. The financial results of Nuance have been included in our consolidated financial statements since the date of the acquisition. Nuance is reported as part of our Intelligent Cloud segment.",
+            "entity_name": "MSFT Acquisition of Nuance Communications",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Microsoft Mobile Oy, a subsidiary of Microsoft, along with other handset manufacturers and network operators, is a defendant in 45 lawsuits filed in the Superior Court for the District of Columbia by individual plaintiffs who allege that radio emissions from cellular handsets caused their brain tumors and other adverse health effects. We assumed responsibility for these claims in our agreement to acquire Nokia's Devices and Services business and have been substituted for the Nokia defendants. Twelve of these cases were consolidated for certain pre-trial proceedings; the remaining cases are stayed.",
+            "entity_name": "Microsoft Mobile Oy Cell Phone Radiation Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In April of 2023, the court granted defendants' motion to strike the testimony of plaintiffs' experts that cell phones cause brain cancer and entered an order excluding all of plaintiffs' experts from testifying. The parties agreed to a stipulated dismissal of the consolidated cases to allow plaintiffs to appeal the expert testimony order. Plaintiffs appealed the court's order in August of 2023, and the parties have filed their briefs on the appeal. In July 2024, the court entered summary judgment in nine of the stayed cases on the grounds that plaintiffs had agreed to be bound by the general causation outcome in the consolidated cases.",
+            "entity_name": "Microsoft Mobile Oy Cell Phone Radiation Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 15",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In 2018, the Irish Data Protection Commission (\"IDPC\") began investigating a complaint against LinkedIn as to whether LinkedIn's targeted advertising practices violated the recently implemented European Union General Data Protection Regulation (\"GDPR\"). Microsoft cooperated throughout the period of inquiry. In April 2023, the IDPC provided LinkedIn with a non-public preliminary draft decision alleging GDPR violations and proposing a fine. In July 2024, the IDPC provided LinkedIn with a revised non-public draft decision. There is no set timeline for the IDPC to issue a final decision, at which time Microsoft will consider its options to appeal.",
+            "entity_name": "Irish Data Protection Commission LinkedIn GDPR Investigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 12",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "We remain under audit by the IRS for tax years 2014 to 2017. With respect to the audit for tax years 2004 to 2013, on September 26, 2023, we received Notices of Proposed Adjustment (\"NOPAs\") from the IRS. The primary issues in the NOPAs relate to intercompany transfer pricing. In the NOPAs, the IRS is seeking an additional tax payment of $28.9 billion plus penalties and interest. As of June 30, 2024, we believe our allowances for income tax contingencies are adequate. We disagree with the proposed adjustments and will vigorously contest the NOPAs through the IRS's administrative appeals office and, if necessary, judicial proceedings.",
+            "entity_name": "IRS Microsoft Transfer Pricing NOPAs 2004-2013",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 16",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "On September 14, 2021, our Board of Directors approved a share repurchase program authorizing up to $60.0 billion in share repurchases. This share repurchase program commenced in November 2021, following completion of the program approved on September 18, 2019, has no expiration date, and may be terminated at any time. As of June 30, 2024, $10.3 billion remained of this $60.0 billion share repurchase program.",
+            "entity_name": "MSFT September 2021 $60B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 16",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "We repurchased the following shares of common stock under the share repurchase programs: Total (Year Ended June 30, 2024) 32 million shares for $11,960 million. All repurchases were made using cash resources. The above table excludes shares repurchased to settle employee tax withholding related to the vesting of stock awards of $5.3 billion, $3.8 billion, and $4.7 billion for fiscal years 2024, 2023, and 2022, respectively.",
+            "entity_name": "MSFT FY2024 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 16",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Our Board of Directors declared the following dividends: Fiscal Year 2024 Total $3.00 per share, $22,296 million. The dividend declared on June 12, 2024 was included in other current liabilities as of June 30, 2024.",
+            "entity_name": "MSFT FY2024 Quarterly Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 11",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Includes $3.6 billion of debt at face value related to the Activision Blizzard acquisition, the majority of which was exchanged for Microsoft registered securities in June 2024.",
+            "entity_name": "MSFT 2024 $3.3B Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 11",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "As of June 30, 2024, we had $6.7 billion of commercial paper issued and outstanding, with a weighted average interest rate of 5.4% and maturities ranging from 28 days to 152 days. The estimated fair value of this commercial paper approximates its carrying value. As of June 30, 2023, we had no commercial paper issued or outstanding.",
+            "entity_name": "MSFT FY2024 Commercial Paper Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 13",
+              "section_type": "Item_8",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "Revenue allocated to remaining performance obligations, which includes unearned revenue and amounts that will be invoiced and recognized as revenue in future periods, was $275 billion as of June 30, 2024, of which $269 billion is related to the commercial portion of revenue. We expect to recognize approximately 45% of our total company remaining performance obligation revenue over the next 12 months and the remainder thereafter.",
+            "entity_name": "MSFT FY2025 RPO Revenue Recognition Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "metric": "unearned_revenue",
+              "note": "Note 13",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Unearned revenue by segment was as follows: Productivity and Business Processes $30,879 million as of June 30, 2024 (versus $27,572 million as of June 30, 2023).",
+            "entity_name": "MSFT Productivity and Business Processes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "metric": "unearned_revenue",
+              "note": "Note 13",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Unearned revenue by segment was as follows: Intelligent Cloud $23,117 million as of June 30, 2024 (versus $21,563 million as of June 30, 2023). Nuance is reported as part of our Intelligent Cloud segment.",
+            "entity_name": "MSFT Intelligent Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "metric": "unearned_revenue",
+              "note": "Note 13",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Unearned revenue by segment was as follows: More Personal Computing $6,188 million as of June 30, 2024 (versus $4,678 million as of June 30, 2023). Activision Blizzard is reported as part of our More Personal Computing segment.",
+            "entity_name": "MSFT More Personal Computing Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Note 18",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Stock-based compensation expense and related income tax benefits were as follows: Year Ended June 30, 2024 — Stock-based compensation expense $10,734 million; Income tax benefits related to stock-based compensation $1,826 million.",
+            "entity_name": "MSFT FY2024 Stock-Based Compensation Disclosure",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft",
+              "MSFT"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "Microsoft Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Activision Blizzard acquisition"
+            ],
+            "attributes": {
+              "consideration": "primarily cash",
+              "effective_date": "2023-10-13",
+              "event_type": "acquisition",
+              "goodwill_assigned_usd": 50969000000,
+              "operating_loss_since_acquisition_usd": 1362000000,
+              "purchase_price_usd": 75400000000,
+              "reported_segment": "More Personal Computing",
+              "revenue_contribution_since_acquisition_usd": 5729000000,
+              "target_company": "Activision Blizzard, Inc."
+            },
+            "identifiers": {},
+            "name": "MSFT Acquisition of Activision Blizzard",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Nuance acquisition"
+            ],
+            "attributes": {
+              "consideration": "primarily cash",
+              "effective_date": "2022-03-04",
+              "event_type": "acquisition",
+              "goodwill_assigned_usd": 16326000000,
+              "purchase_price_usd": 18800000000,
+              "reported_segment": "Intelligent Cloud",
+              "target_company": "Nuance Communications, Inc."
+            },
+            "identifiers": {},
+            "name": "MSFT Acquisition of Nuance Communications",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "U.S. Cell Phone Litigation",
+              "Nokia handset brain tumor lawsuits"
+            ],
+            "attributes": {
+              "counterparty": "Individual plaintiffs",
+              "court": "Superior Court for the District of Columbia",
+              "num_lawsuits": 45,
+              "status": "appealed",
+              "subject": "radio emissions from cellular handsets causing brain tumors and adverse health effects"
+            },
+            "identifiers": {},
+            "name": "Microsoft Mobile Oy Cell Phone Radiation Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "IDPC LinkedIn GDPR matter",
+              "LinkedIn targeted advertising GDPR investigation"
+            ],
+            "attributes": {
+              "counterparty": "Irish Data Protection Commission",
+              "initiated": "2018",
+              "status": "pending",
+              "subject": "LinkedIn targeted advertising practices and GDPR compliance"
+            },
+            "identifiers": {},
+            "name": "Irish Data Protection Commission LinkedIn GDPR Investigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "IRS NOPA transfer pricing dispute",
+              "IRS $28.9B tax adjustment"
+            ],
+            "attributes": {
+              "claimed_additional_tax_usd": 28900000000,
+              "counterparty": "Internal Revenue Service",
+              "nopa_date": "2023-09-26",
+              "status": "pending",
+              "subject": "intercompany transfer pricing",
+              "tax_years": "2004-2013"
+            },
+            "identifiers": {},
+            "name": "IRS Microsoft Transfer Pricing NOPAs 2004-2013",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "MSFT $60B buyback program"
+            ],
+            "attributes": {
+              "amount_usd": 60000000000,
+              "effective_date": "2021-11",
+              "remaining_usd_as_of_june_2024": 10300000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "MSFT September 2021 $60B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "MSFT FY2024 buybacks"
+            ],
+            "attributes": {
+              "amount_usd": 11960000000,
+              "period": "FY2024",
+              "return_type": "buyback",
+              "shares_millions": 32
+            },
+            "identifiers": {},
+            "name": "MSFT FY2024 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "MSFT $0.75 quarterly dividend FY2024"
+            ],
+            "attributes": {
+              "annual_per_share": 3.0,
+              "per_share": 0.75,
+              "period": "FY2024",
+              "return_type": "dividend",
+              "total_amount_usd": 22296000000
+            },
+            "identifiers": {},
+            "name": "MSFT FY2024 Quarterly Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "MSFT 2024 long-term debt issuance"
+            ],
+            "attributes": {
+              "effective_rate_range": "5.16%-5.49%",
+              "instrument_type": "notes",
+              "maturity_range": "2026-2050",
+              "note": "Includes $3.6B of debt at face value from Activision Blizzard acquisition, majority exchanged for Microsoft registered securities in June 2024",
+              "principal_usd": 3344000000,
+              "stated_coupon_range": "1.35%-4.50%"
+            },
+            "identifiers": {},
+            "name": "MSFT 2024 $3.3B Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "MSFT commercial paper outstanding June 2024"
+            ],
+            "attributes": {
+              "as_of_date": "2024-06-30",
+              "instrument_type": "notes",
+              "maturity_range_days": "28-152",
+              "principal_usd": 6700000000,
+              "weighted_avg_rate": 0.054
+            },
+            "identifiers": {},
+            "name": "MSFT FY2024 Commercial Paper Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "MSFT remaining performance obligation recognition guidance"
+            ],
+            "attributes": {
+              "commercial_rpo_usd": 269000000000,
+              "metric": "remaining_performance_obligation_recognition",
+              "new_value": "approximately 45%",
+              "period": "next 12 months from June 30 2024",
+              "total_rpo_usd": 275000000000,
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "MSFT FY2025 RPO Revenue Recognition Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Productivity and Business Processes"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Productivity and Business Processes",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Productivity and Business Processes Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Intelligent Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Intelligent Cloud",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Intelligent Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "More Personal Computing"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "More Personal Computing",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT More Personal Computing Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "MSFT FY2024 SBC expense"
+            ],
+            "attributes": {
+              "event_type": "compensation_disclosure",
+              "income_tax_benefit_usd": 1826000000,
+              "period": "FY2024",
+              "sbc_expense_usd": 10734000000
+            },
+            "identifiers": {},
+            "name": "MSFT FY2024 Stock-Based Compensation Disclosure",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Acquisition of Activision Blizzard",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Acquisition of Nuance Communications",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Microsoft Mobile Oy Cell Phone Radiation Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Irish Data Protection Commission LinkedIn GDPR Investigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "IRS Microsoft Transfer Pricing NOPAs 2004-2013",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT September 2021 $60B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2024 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2024 Quarterly Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT 2024 $3.3B Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2024 Commercial Paper Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2025 RPO Revenue Recognition Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "unearned_revenue_usd": 30879000000
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Productivity and Business Processes Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "unearned_revenue_usd": 23117000000
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Intelligent Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "unearned_revenue_usd": 6188000000
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT More Personal Computing Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2024 Stock-Based Compensation Disclosure",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0000950170-24-087843.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "dd9425c1c7291f1a0d95039f6e1fb7fba9f2b7624105bdb99ca9deb4ebeda44b"
+    },
+    {
+      "extracted_at": "2026-07-20T13:26:32Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "operating_income_fy2024_usd": 40540000000,
+              "revenue_fy2024_usd": 77728000000,
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Our Productivity and Business Processes segment consists of products and services in our portfolio of productivity, communication, and information services, spanning a variety of devices and platforms. This segment primarily comprises: Office Commercial (Office 365 subscriptions, the Office 365 portion of Microsoft 365 Commercial subscriptions, and Office licensed on-premises), comprising Office, Exchange, SharePoint, Microsoft Teams, Office 365 Security and Compliance, Microsoft Viva, and Copilot for Microsoft 365. Office Consumer, including Microsoft 365 Consumer and Copilot Pro subscriptions, Office licensed on-premises, and other Office services. LinkedIn, including Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. Dynamics business solutions, including Dynamics 365, comprising a set of intelligent, cloud-based applications across ERP, CRM, Power Apps, and Power Automate; and on-premises ERP and CRM applications.",
+            "entity_name": "MSFT Productivity and Business Processes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "operating_income_fy2024_usd": 49584000000,
+              "revenue_fy2024_usd": 105362000000,
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Our Intelligent Cloud segment consists of our public, private, and hybrid server products and cloud services that can power modern business and developers. This segment primarily comprises: Server products and cloud services, including Azure and other cloud services; SQL Server, Windows Server, Visual Studio, System Center, and related Client Access Licenses (\"CALs\"); and Nuance and GitHub. Enterprise and partner services, including Enterprise Support Services, Industry Solutions, Nuance professional services, Microsoft Partner Network, and Learning Experience.",
+            "entity_name": "MSFT Intelligent Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "operating_income_fy2024_usd": 19309000000,
+              "revenue_fy2024_usd": 62032000000,
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Our More Personal Computing segment consists of products and services that put customers at the center of the experience with our technology. This segment primarily comprises: Windows, including Windows OEM licensing and other non-volume licensing of the Windows operating system; Windows Commercial, comprising volume licensing of the Windows operating system, Windows cloud services, and other Windows commercial offerings; patent licensing; and Windows Internet of Things. Devices, including Surface, HoloLens, and PC accessories. Gaming, including Xbox hardware and Xbox content and services, comprising first-party content (such as Activision Blizzard) and third-party content, including games and in-game content; Xbox Game Pass and other subscriptions; Xbox Cloud Gaming; advertising; third-party disc royalties; and other cloud services.",
+            "entity_name": "MSFT More Personal Computing Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Our Microsoft Cloud revenue, which includes Azure and other cloud services, Office 365 Commercial, the commercial portion of LinkedIn, Dynamics 365, and other commercial cloud properties, was $137.4 billion, $111.6 billion, and $91.4 billion in fiscal years 2024, 2023, and 2022, respectively. These amounts are primarily included in Server products and cloud services, Office products and cloud services, LinkedIn, and Dynamics products and cloud services in the table above.",
+            "entity_name": "MSFT Microsoft Cloud",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On October 13, 2023, the Company completed the acquisition of Activision Blizzard, Inc. The Company accounted for the Activision Blizzard, Inc., acquisition as a business combination and, accordingly, allocated the purchase price to the assets acquired and liabilities assumed based on their respective estimated fair values as of the date of acquisition. Identifiable intangible assets acquired included marketing-related intangible assets, technology-based intangible assets, and customer-related intangible assets. The excess of the purchase consideration over the fair value of identifiable assets acquired and liabilities assumed was recorded as goodwill.",
+            "entity_name": "MSFT Acquisition of Activision Blizzard",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Under the Executive Incentive Plan, the Compensation Committee approves stock awards to executive officers and certain senior executives. RSUs generally vest ratably over a service period of four years. PSUs generally vest over a performance period of three years. The number of shares the PSU holder receives is based on the extent to which the corresponding performance goals have been achieved.",
+            "entity_name": "MSFT FY2024 Executive Incentive Plan and Stock Award Compensation Disclosure",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "As of June 30, 2024, total unrecognized compensation costs related to stock awards were $20.3 billion. These costs are expected to be recognized over a weighted average period of three years. The weighted average grant-date fair value of stock awards granted was $339.46, $252.59, and $291.22 for fiscal years 2024, 2023, and 2022, respectively. The fair value of stock awards vested was $16.0 billion, $11.9 billion, and $14.1 billion, for fiscal years 2024, 2023, and 2022, respectively.",
+            "entity_name": "MSFT FY2024 Executive Incentive Plan and Stock Award Compensation Disclosure",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The Company's long-term income taxes liability includes uncertain tax positions related to transfer pricing issues that remain unresolved with the Internal Revenue Service (\"IRS\"). The Company remains under IRS audit, or subject to IRS audit, for tax years subsequent to 2003. In the current fiscal year, the Company received Notices of Proposed Adjustments (\"NOPAs\") for the tax years 2004 to 2013, primarily related to intercompany transfer pricing. While the Company has settled a portion of the IRS audits, resolution of the remaining matters could have a material impact on the Company's financial statements.",
+            "entity_name": "MSFT IRS Transfer Pricing Dispute (Tax Years 2004-2013)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Productivity and Business Processes",
+              "PBP"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Productivity and Business Processes",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Productivity and Business Processes Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Intelligent Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Intelligent Cloud",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Intelligent Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "More Personal Computing",
+              "MPC"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "More Personal Computing",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT More Personal Computing Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Microsoft Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Microsoft Cloud",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Microsoft Cloud",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Activision Blizzard acquisition",
+              "Activision deal"
+            ],
+            "attributes": {
+              "effective_date": "2023-10-13",
+              "event_type": "acquisition",
+              "target_company": "Activision Blizzard, Inc."
+            },
+            "identifiers": {},
+            "name": "MSFT Acquisition of Activision Blizzard",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "MSFT Executive Incentive Plan FY2024",
+              "MSFT RSU PSU stock award disclosure FY2024"
+            ],
+            "attributes": {
+              "event_type": "compensation_disclosure",
+              "fiscal_year": "FY2024",
+              "unrecognized_compensation_cost_usd": 20300000000,
+              "weighted_avg_recognition_years": 3
+            },
+            "identifiers": {},
+            "name": "MSFT FY2024 Executive Incentive Plan and Stock Award Compensation Disclosure",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Microsoft IRS NOPA transfer pricing",
+              "IRS intercompany transfer pricing audit"
+            ],
+            "attributes": {
+              "counterparty": "Internal Revenue Service",
+              "matter_type": "intercompany transfer pricing",
+              "status": "pending",
+              "tax_years": "2004-2013"
+            },
+            "identifiers": {},
+            "name": "MSFT IRS Transfer Pricing Dispute (Tax Years 2004-2013)",
+            "type": "LegalProceeding"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.122,
+              "margin": 0.521,
+              "operating_income": 40540000000,
+              "period": "FY2024",
+              "revenue": 77728000000
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Productivity and Business Processes Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.199,
+              "margin": 0.471,
+              "operating_income": 49584000000,
+              "period": "FY2024",
+              "revenue": 105362000000
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Intelligent Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.133,
+              "margin": 0.311,
+              "operating_income": 19309000000,
+              "period": "FY2024",
+              "revenue": 62032000000
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT More Personal Computing Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.231,
+              "period": "FY2024",
+              "revenue": 137400000000
+            },
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Microsoft Cloud",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Acquisition of Activision Blizzard",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2024 Executive Incentive Plan and Stock Award Compensation Disclosure",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT IRS Transfer Pricing Dispute (Tax Years 2004-2013)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2024-07-30",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0000950170-24-087843.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "41e6768f57d531a6c05d7ef84dcaffbc4b350dd86929efc9dbbec206293740a8"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,173 @@
+{
+  "accession": "0001652044-26-000018",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T13:32:34Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Dividend payments to stockholders of Class A, Class B, and Class C shares were $4.8 billion, $703 million, and $4.5 billion, respectively, for the year ended December 31, 2025.",
+            "entity_name": "GOOGL FY2025 Dividend Payments",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "The company intends to pay quarterly cash dividends in the future, subject to review and approval by the company's Board of Directors in its sole discretion. We regularly evaluate our cash and capital structure, including the size, pace, and form of capital return to stockholders.",
+            "entity_name": "GOOGL Quarterly Dividend Continuation Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In April 2024, the company's Board of Directors authorized a $70.0 billion share repurchase program for its Class A and Class C shares.",
+            "entity_name": "GOOGL April 2024 $70B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In April 2025, the company's Board of Directors authorized an additional $70.0 billion share repurchase program for its Class A and Class C shares. Repurchases are being executed from time to time, subject to general business and market conditions and other investment opportunities, through open market purchases or privately negotiated transactions, including through Rule 10b5-1 plans. The repurchase programs do not have an expiration date.",
+            "entity_name": "GOOGL April 2025 $70B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Alphabet",
+              "Google Inc."
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "class_a_amount_usd": 4800000000,
+              "class_b_amount_usd": 703000000,
+              "class_c_amount_usd": 4500000000,
+              "period": "FY2025",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "GOOGL FY2025 Dividend Payments",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 70000000000,
+              "classes": "Class A and Class C",
+              "effective_date": "2024-04",
+              "no_expiration_date": true,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "GOOGL April 2024 $70B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 70000000000,
+              "classes": "Class A and Class C",
+              "effective_date": "2025-04",
+              "no_expiration_date": true,
+              "remaining_capacity_usd_as_of_2025_12_31": 69503000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "GOOGL April 2025 $70B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "quarterly_cash_dividend",
+              "period": "ongoing",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "GOOGL Quarterly Dividend Continuation Guidance",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL FY2025 Dividend Payments",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL April 2024 $70B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL April 2025 $70B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Quarterly Dividend Continuation Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-26-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "5c3797839f9095baa1e32cbd809b968e7d206cfbb84ab4127075a6d34058e5fd"
+    }
+  ],
+  "prompt_version": "v3"
+}

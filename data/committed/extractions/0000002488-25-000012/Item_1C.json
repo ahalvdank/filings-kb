@@ -1,0 +1,70 @@
+{
+  "accession": "0000002488-25-000012",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-10-14T01:01:12Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We face certain ongoing risks from cybersecurity threats that, if realized, are reasonably likely to materially affect us, including our operations, business strategy, results of operations, or financial condition.",
+            "entity_name": "AMD Cybersecurity Threat Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "no material incident realized as of filing date",
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "At this time, we have not identified risks from known cybersecurity threats, including as a result of any prior cybersecurity incidents, that have materially affected us, including our operations, business strategy, results of operations, or financial condition.",
+            "entity_name": "AMD Cybersecurity Threat Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "cyberattack risk",
+              "IT outage and data breach risk",
+              "cyber threat risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "severity_qualifier": "reasonably likely to materially affect operations, business strategy, results of operations, or financial condition"
+            },
+            "identifiers": {},
+            "name": "AMD Cybersecurity Threat Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 0000002488-25-000012",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Cybersecurity Threat Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-25-000012.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "6a2ea00dd04f47d3e99b7e51cd01fcb415bbf0de6e59ae7bc2b4a93f1eb0fd1e"
+    }
+  ],
+  "prompt_version": "v3"
+}

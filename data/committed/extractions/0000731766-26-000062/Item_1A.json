@@ -1,0 +1,724 @@
+{
+  "accession": "0000731766-26-000062",
+  "item": "Item_1A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T21:41:13Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Premium revenues from risk-based products constitute nearly 80% of our total consolidated revenues. Estimates of benefit expense payments involve extensive judgement and are subject to considerable inherent variability. Relatively small differences between predicted and actual medical costs, or utilization rates as a percentage of revenues, have resulted and in the future may result in significant changes in our financial results.",
+            "entity_name": "UNH Medical Cost Estimation and Pricing Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our business depends on the integrity and timeliness of the data we use to serve our members, customers and health care professionals and to operate our business. If the data we rely upon to run our businesses is found to be inaccurate, incomplete, outdated or unreliable or if we fail to effectively maintain or protect the integrity of our data and information systems, including systems powered by or incorporating artificial intelligence (AI), we could experience failures in our health, wellness and information technology products; lose existing customers; have difficulty attracting new customers; experience problems in determining medical cost estimates and establishing appropriate pricing.",
+            "entity_name": "UNH Data Integrity and Information Systems Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are regularly the target of attempted cyberattacks and other security threats and have previously been, and may in the future be, subject to compromises of the information technology systems we use, information we hold, or information held on our behalf by third parties. The costs to eliminate or address these threats and vulnerabilities before or after a cybersecurity incident could be material.",
+            "entity_name": "UNH Cybersecurity and Data Breach Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "material_event",
+            "content": "we previously reported that our Change Healthcare business, which we had recently acquired, was subject to a cyberattack in 2024, in which the data involved contained protected health information or personally identifiable information.",
+            "entity_name": "Change Healthcare 2024 Cyberattack",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our increasing use of AI presents legal, regulatory and business risks to our operations, reputation and financial results. We increasingly rely on technologies powered by or incorporating AI in our internal operations and in the delivery of products and services. While these technologies present opportunities to improve efficiency, enhance customer experience, and optimize clinical and administrative processes, they also entail risks and uncertainties.",
+            "entity_name": "UNH AI Technology Legal and Operational Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are routinely made party to a variety of private party and governmental legal actions and investigations related to, among other matters, the design, management and delivery of our product and service offerings. Any failure by us to adhere to the laws and regulations applicable to our businesses could subject us to civil and criminal penalties. We are largely self-insured with regard to legal actions, including claims of medical malpractice against our affiliated physicians and us.",
+            "entity_name": "UNH Legal Actions and Governmental Investigations Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We depend substantially on our continued ability to contract with health care payers (as a service provider to those payers), as well as physicians, hospitals, pharmaceutical benefit service providers, pharmaceutical manufacturers and other care and service providers at competitive prices. If we fail to develop and maintain satisfactory relationships with health care providers, whether in-network or out-of-network, our failure to do so could materially and adversely affect our business, results of operations, financial position and cash flows.",
+            "entity_name": "UNH Provider Network and Relationship Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our businesses face significant competition in all of the markets in which we operate. In many geographies or product segments, our competitors have and may continue to have competitive advantages. Our competitive position may also be adversely affected by significant merger and acquisition activity in the industries in which we operate, among both our competitors and suppliers.",
+            "entity_name": "UNH Competitive and Market Share Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We participate in various federal, state and local government health care benefit programs, including as a payer in Medicare Advantage, Medicare Part D, various Medicaid programs and CHIP, and receive substantial revenues from these programs. A reduction or less than expected increase, or a protracted delay, in government funding for these programs or change in allocation methodologies, or termination of the contract at the option of the government, has affected and in future periods may materially and adversely affect our results of operations, financial position and cash flows.",
+            "entity_name": "UNH Government Healthcare Program Funding Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our business activities in the United States and other countries are highly regulated and new laws or regulations or changes in existing laws or regulations or their enforcement or application could materially and adversely affect our business. We are regulated by federal, state and local governments in the United States and other countries where we do business. The laws and regulations governing our businesses and interpretations of those laws and regulations are subject to frequent and often unpredictable change.",
+            "entity_name": "UNH Healthcare Regulatory Compliance Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2025, our goodwill and other intangible assets had a carrying value of $131 billion, representing 42% of our total consolidated assets. We periodically evaluate our goodwill and other intangible assets to determine whether all or a portion of their carrying values may be impaired, in which case a charge to earnings may be necessary. Any future evaluations requiring an impairment of our goodwill and other intangible assets could materially and adversely affect our results of operations and equity in the period in which the impairment occurs.",
+            "entity_name": "UNH Goodwill and Intangible Asset Impairment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We provide pharmacy care services through our Optum Rx and UnitedHealthcare businesses. Each business is subject to federal and state anti-kickback, beneficiary inducement and other laws governing the relationships of the business with pharmaceutical manufacturers, physicians, pharmacies, customers and consumers. In addition, federal and state legislatures regularly consider new regulations for the industry which could materially affect current industry practices.",
+            "entity_name": "UNH Pharmacy Care Services Regulatory Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The collection, maintenance, protection, use, transmission, disclosure and disposal of protected personal information are regulated at the federal, state, international and industry levels and addressed in requirements of our customer contracts. These laws, regulations and requirements are subject to frequent and often unpredictable change. Compliance with new privacy, security, technology and data laws, regulations and requirements may result in increased operating costs, and may constrain or require us to alter our business model or operations.",
+            "entity_name": "UNH Privacy and Data Compliance Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Because we operate as a holding company, we are dependent on dividends and administrative expense reimbursements from our subsidiaries to fund our obligations. Many of these subsidiaries are regulated by state departments of insurance or similar regulatory authorities. An inability of our regulated subsidiaries to pay dividends to their parent companies in the desired amounts or at the time of our choosing could adversely affect our ability to reinvest in our business through capital expenditures or business acquisitions, as well as our ability to maintain our corporate quarterly dividend payment, repurchase shares of our common stock and repay our debt.",
+            "entity_name": "UNH Regulated Subsidiary Capital Restriction Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Unfavorable economic conditions may have a range of impacts on the demand for our products and services. Such conditions also have caused and in future periods could continue to cause employers to stop offering certain health care coverage as an employee benefit or elect to offer particular coverage on a voluntary, employee-funded basis to reduce their operating costs. A prolonged unfavorable economic environment could constrain state and federal budgets and result in reduced reimbursements or payments in our federal and state government health care coverage programs, including Medicare, Medicaid and CHIP.",
+            "entity_name": "UNH Unfavorable Economic Conditions Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have been the subject of downgrades and other negative credit rating actions in past periods, and may not be able to maintain our current credit ratings in future periods. Any downgrades in our credit ratings could materially increase our costs of or ability to access funds in the debt capital markets and otherwise materially increase our operating costs.",
+            "entity_name": "UNH Credit Rating Downgrade Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Successful acquisitions also require us to effectively, comprehensively and expeditiously integrate the acquired business into our existing operations, including our internal control environment and culture, or otherwise leverage its operations which may present risks different from those presented by organic growth and may be difficult for us to manage. For example, we have experienced and in the future may encounter more acute information technology system vulnerabilities or different litigation risk profiles in recently acquired businesses than we have historically managed.",
+            "entity_name": "UNH Strategic Transactions and M&A Integration Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Large-scale medical emergencies, pandemics, natural disasters, public health crises and other extreme events could have a material adverse effect on our business operations, cash flows, financial conditions and results of operations. For example, disruptions in public and private infrastructure resulting from such events could increase our operating costs and impair our ability to provide services to our clients and customers. In addition, as a result of these events, the premiums and fees we charge may not be sufficient to cover our medical and administrative costs.",
+            "entity_name": "UNH Public Health Crisis and Pandemic Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Volatility in interest rates affects our interest income and the market value of our investments in debt securities of varying maturities which constitute the substantial majority of the fair value of our investments as of December 31, 2025. In addition, a delay in payment of principal or interest by issuers or other borrowers, or defaults by issuers (primarily issuers of our investments in corporate and municipal bonds) or other borrowers, could reduce our investment income and require us to write down the value of our investments or loans, which could adversely affect our profitability and equity.",
+            "entity_name": "UNH Investment Portfolio Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We depend on our ability to attract, develop and retain qualified employees and executives, including those with diverse talents, backgrounds, experiences and perspectives, to operate and expand our business. While we have development and succession plans in place for our key employees and executives, these plans do not guarantee that the services of our key employees and executives will continue to be available to us. If we are unable to attract, develop, retain and effectively manage the development and succession plans for key employees and executives, our business, results of operations and future performance could suffer.",
+            "entity_name": "UNH Key Executive and Employee Retention Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "medical cost underestimation risk",
+              "premium adequacy risk",
+              "benefit pricing risk"
+            ],
+            "attributes": {
+              "category": "actuarial",
+              "risk_based_revenue_pct": 0.8
+            },
+            "identifiers": {},
+            "name": "UNH Medical Cost Estimation and Pricing Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "IT systems integrity risk",
+              "data integrity risk",
+              "information systems failure risk"
+            ],
+            "attributes": {
+              "category": "operational_technology",
+              "includes_ai": true
+            },
+            "identifiers": {},
+            "name": "UNH Data Integrity and Information Systems Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "cyberattack risk",
+              "data security breach risk",
+              "ransomware risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity"
+            },
+            "identifiers": {},
+            "name": "UNH Cybersecurity and Data Breach Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Change Healthcare cyberattack",
+              "Change Healthcare data breach"
+            ],
+            "attributes": {
+              "data_compromised": "protected health information and personally identifiable information",
+              "effective_date": "2024",
+              "event_type": "cybersecurity_incident",
+              "target_entity": "Change Healthcare"
+            },
+            "identifiers": {},
+            "name": "Change Healthcare 2024 Cyberattack",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "artificial intelligence risk",
+              "AI regulatory risk",
+              "generative AI risk"
+            ],
+            "attributes": {
+              "category": "technology",
+              "includes_generative_ai": true
+            },
+            "identifiers": {},
+            "name": "UNH AI Technology Legal and Operational Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "litigation risk",
+              "government investigation risk",
+              "False Claims Act risk",
+              "class action risk"
+            ],
+            "attributes": {
+              "category": "legal",
+              "self_insured": true
+            },
+            "identifiers": {},
+            "name": "UNH Legal Actions and Governmental Investigations Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "health care provider contracting risk",
+              "network adequacy risk",
+              "out-of-network dispute risk"
+            ],
+            "attributes": {
+              "category": "operational"
+            },
+            "identifiers": {},
+            "name": "UNH Provider Network and Relationship Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "competitive position risk",
+              "market share loss risk",
+              "disruptive entrant risk"
+            ],
+            "attributes": {
+              "category": "competitive"
+            },
+            "identifiers": {},
+            "name": "UNH Competitive and Market Share Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Medicare Advantage funding risk",
+              "Medicaid reimbursement risk",
+              "CMS benchmark risk",
+              "CHIP funding risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "programs": [
+                "Medicare Advantage",
+                "Medicare Part D",
+                "Medicaid",
+                "CHIP"
+              ]
+            },
+            "identifiers": {},
+            "name": "UNH Government Healthcare Program Funding Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "ACA regulatory risk",
+              "insurance regulatory risk",
+              "HMO licensing risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "US and international"
+            },
+            "identifiers": {},
+            "name": "UNH Healthcare Regulatory Compliance Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "goodwill impairment risk",
+              "intangible asset write-down risk"
+            ],
+            "attributes": {
+              "as_of_date": "2025-12-31",
+              "category": "financial",
+              "goodwill_carrying_value_usd": 131000000000,
+              "pct_of_total_assets": 0.42
+            },
+            "identifiers": {},
+            "name": "UNH Goodwill and Intangible Asset Impairment Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "PBM regulatory risk",
+              "Optum Rx regulatory risk",
+              "pharmacy benefits regulatory risk"
+            ],
+            "attributes": {
+              "businesses": [
+                "Optum Rx",
+                "UnitedHealthcare"
+              ],
+              "category": "regulatory"
+            },
+            "identifiers": {},
+            "name": "UNH Pharmacy Care Services Regulatory Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "HIPAA compliance risk",
+              "data privacy regulatory risk",
+              "AI data regulation risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "UNH Privacy and Data Compliance Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "holding company dividend restriction risk",
+              "subsidiary capital adequacy risk"
+            ],
+            "attributes": {
+              "category": "financial"
+            },
+            "identifiers": {},
+            "name": "UNH Regulated Subsidiary Capital Restriction Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "macroeconomic risk",
+              "economic downturn risk",
+              "employer benefit reduction risk"
+            ],
+            "attributes": {
+              "category": "macroeconomic"
+            },
+            "identifiers": {},
+            "name": "UNH Unfavorable Economic Conditions Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "credit rating risk",
+              "debt rating downgrade risk",
+              "claims-paying rating risk"
+            ],
+            "attributes": {
+              "category": "financial"
+            },
+            "identifiers": {},
+            "name": "UNH Credit Rating Downgrade Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "acquisition integration risk",
+              "M&A risk",
+              "strategic alliance risk"
+            ],
+            "attributes": {
+              "category": "strategic"
+            },
+            "identifiers": {},
+            "name": "UNH Strategic Transactions and M&A Integration Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "pandemic risk",
+              "natural disaster risk",
+              "climate change health cost risk"
+            ],
+            "attributes": {
+              "category": "macroeconomic"
+            },
+            "identifiers": {},
+            "name": "UNH Public Health Crisis and Pandemic Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "investment portfolio risk",
+              "interest rate risk",
+              "credit default risk"
+            ],
+            "attributes": {
+              "category": "financial"
+            },
+            "identifiers": {},
+            "name": "UNH Investment Portfolio Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "talent risk",
+              "executive succession risk",
+              "key person risk"
+            ],
+            "attributes": {
+              "category": "operational"
+            },
+            "identifiers": {},
+            "name": "UNH Key Executive and Employee Retention Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Medical Cost Estimation and Pricing Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Data Integrity and Information Systems Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Cybersecurity and Data Breach Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Change Healthcare 2024 Cyberattack",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH AI Technology Legal and Operational Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Legal Actions and Governmental Investigations Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Provider Network and Relationship Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Competitive and Market Share Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Government Healthcare Program Funding Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Healthcare Regulatory Compliance Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Goodwill and Intangible Asset Impairment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Pharmacy Care Services Regulatory Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Privacy and Data Compliance Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Regulated Subsidiary Capital Restriction Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Unfavorable Economic Conditions Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Credit Rating Downgrade Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Strategic Transactions and M&A Integration Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Public Health Crisis and Pandemic Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Investment Portfolio Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Key Executive and Employee Retention Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-26-000062.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "0a8bd202efe0707edf7dc51a4ea89214bb58646c5aa6dec9812a874b1207c61f"
+    }
+  ],
+  "prompt_version": "v3"
+}

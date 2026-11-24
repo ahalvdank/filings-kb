@@ -1,0 +1,277 @@
+{
+  "accession": "0001628280-26-008131",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-19T10:22:05Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "For management reporting purposes, the Firm has three reportable business segments – Consumer & Community Banking (\"CCB\"), Commercial & Investment Bank (\"CIB\") and Asset & Wealth Management (\"AWM\") – with the remaining activities in Corporate.",
+            "entity_name": "JPM Consumer & Community Banking",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "employees_AWM": 29722,
+              "employees_CCB": 144196,
+              "employees_CIB": 94563,
+              "employees_Corporate": 50031,
+              "employees_total": 318512,
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "As of December 31, 2025, JPMorganChase had 318,512 employees globally. JPMorganChase's employees are located in 66 countries, with 58% of the Firm's employees located in the U.S. The following table presents the distribution of the Firm's global workforce by region and by line of business (\"LOB\") and Corporate as of December 31, 2025:",
+            "entity_name": "JPM Consumer & Community Banking",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "For management reporting purposes, the Firm has three reportable business segments – Consumer & Community Banking (\"CCB\"), Commercial & Investment Bank (\"CIB\") and Asset & Wealth Management (\"AWM\") – with the remaining activities in Corporate.",
+            "entity_name": "JPM Commercial & Investment Bank",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "For management reporting purposes, the Firm has three reportable business segments – Consumer & Community Banking (\"CCB\"), Commercial & Investment Bank (\"CIB\") and Asset & Wealth Management (\"AWM\") – with the remaining activities in Corporate.",
+            "entity_name": "JPM Asset & Wealth Management",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "The Firm remains subject to a consent order entered into in March 2024 with the OCC which relates to the Firm's processes to inventory trading venues and confirm the completeness of certain data fed to trade surveillance platforms.",
+            "entity_name": "JPM OCC Consent Order March 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "Excludes Todd A. Combs, who resigned from the Firm's Board of Directors, effective December 7, 2025. Refer to Recent Events on page 50 for additional information.",
+            "entity_name": "Todd A. Combs Board Resignation December 2025",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Excludes Todd A. Combs, who resigned from the Firm's Board of Directors, effective December 7, 2025. Refer to Recent Events on page 50 for additional information.",
+            "entity_name": "Todd A. Combs",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "JPMorganChase",
+              "J.P. Morgan",
+              "Chase",
+              "JPM"
+            ],
+            "attributes": {
+              "employees_global": 318512,
+              "fiscal_year_end": "2025-12-31",
+              "incorporation_state": "Delaware",
+              "stockholders_equity_usd": 362400000000,
+              "total_assets_usd": 4400000000000
+            },
+            "identifiers": {
+              "ticker": "JPM"
+            },
+            "name": "JPMorgan Chase & Co.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "CCB",
+              "Consumer & Community Banking"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "CCB",
+              "ticker": "JPM"
+            },
+            "name": "JPM Consumer & Community Banking",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "CIB",
+              "Commercial & Investment Bank"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "CIB",
+              "ticker": "JPM"
+            },
+            "name": "JPM Commercial & Investment Bank",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AWM",
+              "Asset & Wealth Management"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "AWM",
+              "ticker": "JPM"
+            },
+            "name": "JPM Asset & Wealth Management",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "JPMorganChase OCC consent order",
+              "trade surveillance consent order"
+            ],
+            "attributes": {
+              "effective_date": "2024-03",
+              "event_type": "regulatory_action",
+              "regulator": "OCC",
+              "status": "ongoing",
+              "subject": "inventory of trading venues and completeness of data fed to trade surveillance platforms"
+            },
+            "identifiers": {},
+            "name": "JPM OCC Consent Order March 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Combs board departure"
+            ],
+            "attributes": {
+              "departing_person": "Todd A. Combs",
+              "effective_date": "2025-12-07",
+              "event_type": "management_change",
+              "role": "Board of Directors"
+            },
+            "identifiers": {},
+            "name": "Todd A. Combs Board Resignation December 2025",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "JPM",
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Todd A. Combs",
+            "type": "Person"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "employees": 144196,
+              "period": "FY2025"
+            },
+            "source_name": "JPM 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Consumer & Community Banking",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "employees": 94563,
+              "period": "FY2025"
+            },
+            "source_name": "JPM 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Commercial & Investment Bank",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "employees": 29722,
+              "period": "FY2025"
+            },
+            "source_name": "JPM 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Asset & Wealth Management",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "JPM OCC Consent Order March 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Todd A. Combs Board Resignation December 2025",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember",
+              "tenure_end_date": "2025-12-07"
+            },
+            "source_name": "Todd A. Combs",
+            "source_type_entity": "Person",
+            "target_name": "JPMorgan Chase & Co.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": "2025-12-07"
+          }
+        ],
+        "source_file": "filings/JPM/0001628280-26-008131.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "54a22745f3f7f07811af3b2a85506fc659abd789c39955da62fc149970051350"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,160 @@
+{
+  "accession": "0001326801-25-000017",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T08:02:05Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We believe we are a particularly attractive target as a result of our prominence and scale, the types and volume of personal data and content on our systems, and the evolving nature of our products and services. Our products and services reach billions of users and involve the collection, storage, processing, and transmission of a large amount of data.",
+            "entity_name": "META Cybersecurity Threat Exposure",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "However, at any given time, we face known and unknown cybersecurity risks and threats that are not fully mitigated, and we discover vulnerabilities in our program. We continuously work to enhance our information security program and risk management efforts.",
+            "entity_name": "META Cybersecurity Threat Exposure",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In 2024, we did not identify any cybersecurity threats that have materially affected or are reasonably likely to materially affect our business strategy, results of operations, or financial condition. However, despite our efforts, we cannot eliminate all risks from cybersecurity threats, or provide assurances that we have not experienced undetected cybersecurity incidents.",
+            "entity_name": "META Cybersecurity Threat Exposure",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In addition, we maintain specific policies and practices governing our third-party security risks, including our third-party assessment (TPA) process. Under our TPA process, we gather information from certain third parties who contract with Meta and share or receive data, or have access to or integrate with our systems, in order to help us assess potential risks associated with their security controls.",
+            "entity_name": "META Third-Party Vendor Cybersecurity Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Our Chief Information Security Officer (CISO), Guy Rosen, leads our cybersecurity program and oversees teams across the company supporting our security functions of identify, prevent, detect, respond, and recover. Mr. Rosen has two decades of experience in various cybersecurity, software development, product management, and other technology-related roles. Mr. Rosen has served in a number of significant leadership roles at our company since 2013, including oversight of security, safety, and integrity initiatives, and was appointed as our CISO in 2022.",
+            "entity_name": "Guy Rosen",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta cybersecurity risk",
+              "Meta information security risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "META Cybersecurity Threat Exposure",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Meta TPA risk",
+              "Meta third-party security risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "subcategory": "third_party_vendor"
+            },
+            "identifiers": {},
+            "name": "META Third-Party Vendor Cybersecurity Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "META",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "tenure_start_date": "2022"
+            },
+            "identifiers": {},
+            "name": "Guy Rosen",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Meta"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "Meta Platforms, Inc.",
+            "type": "Company"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Cybersecurity Threat Exposure",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Third-Party Vendor Cybersecurity Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Chief Information Security Officer",
+              "tenure_start_date": "2022"
+            },
+            "source_name": "Guy Rosen",
+            "source_type_entity": "Person",
+            "target_name": "Meta Platforms, Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-25-000017.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "384409100ce6d52839499b4931e74c7b1a326c7cbd2879a03b27a2bba6787d36"
+    }
+  ],
+  "prompt_version": "v3"
+}

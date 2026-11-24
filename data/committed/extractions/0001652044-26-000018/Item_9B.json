@@ -1,0 +1,274 @@
+{
+  "accession": "0001652044-26-000018",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T14:08:43Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "plan_type": "10b5-1",
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "John Hennessy, Chair of the Board of Directors, through the John L. Hennessy & Andrea J. Hennessy Revocable Trust, adopted a new trading plan on November 10, 2025 (with the first trade under the new plan scheduled for March 15, 2026). The trading plan will be effective until March 15, 2027 to sell up to 8,400 shares of Class C Capital Stock and up to 4,200 shares of Class A Common Stock.",
+            "entity_name": "John Hennessy",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B",
+              "security_class": "Class C"
+            },
+            "chunk_type": "insider_holding",
+            "content": "John Hennessy, Chair of the Board of Directors, through the John L. Hennessy & Andrea J. Hennessy Revocable Trust, adopted a new trading plan on November 10, 2025 (with the first trade under the new plan scheduled for March 15, 2026). The trading plan will be effective until March 15, 2027 to sell up to 8,400 shares of Class C Capital Stock and up to 4,200 shares of Class A Common Stock.",
+            "entity_name": "John Hennessy 10b5-1 Plan Nov 2025 — Class C (up to 8,400 shares)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B",
+              "security_class": "Class A"
+            },
+            "chunk_type": "insider_holding",
+            "content": "John Hennessy, Chair of the Board of Directors, through the John L. Hennessy & Andrea J. Hennessy Revocable Trust, adopted a new trading plan on November 10, 2025 (with the first trade under the new plan scheduled for March 15, 2026). The trading plan will be effective until March 15, 2027 to sell up to 8,400 shares of Class C Capital Stock and up to 4,200 shares of Class A Common Stock.",
+            "entity_name": "John Hennessy 10b5-1 Plan Nov 2025 — Class A (up to 4,200 shares)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_type": "10b5-1",
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Ruth M. Porat, President and Chief Investment Officer, adopted a new trading plan on November 29, 2025 (with the first trade under the new plan scheduled for March 2, 2026). The trading plan is scheduled to be in effect until March 2, 2027 to sell up to 154,486 shares (gross, plus any dividend equivalent units) of Class C Capital Stock issued upon the vesting of Ruth's Alphabet 2021 Performance Stock Units, as adjusted based on performance (shares sold are net of tax withholding).",
+            "entity_name": "Ruth M. Porat",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B",
+              "security_class": "Class C"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Ruth M. Porat, President and Chief Investment Officer, adopted a new trading plan on November 29, 2025 (with the first trade under the new plan scheduled for March 2, 2026). The trading plan is scheduled to be in effect until March 2, 2027 to sell up to 154,486 shares (gross, plus any dividend equivalent units) of Class C Capital Stock issued upon the vesting of Ruth's Alphabet 2021 Performance Stock Units, as adjusted based on performance (shares sold are net of tax withholding).",
+            "entity_name": "Ruth M. Porat 10b5-1 Plan Nov 2025 — Class C (up to 154,486 shares)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Alphabet",
+              "Google"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "John L. Hennessy"
+            ],
+            "attributes": {
+              "current_company_id": "GOOGL",
+              "insider_status": "director",
+              "officer_role": "ChairOfBoard"
+            },
+            "identifiers": {},
+            "name": "John Hennessy",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Ruth Porat"
+            ],
+            "attributes": {
+              "current_company_id": "GOOGL",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "Ruth M. Porat",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "GOOG",
+              "GOOGL Class C"
+            ],
+            "attributes": {
+              "issuer": "Alphabet Inc.",
+              "share_class": "Class C"
+            },
+            "identifiers": {
+              "ticker": "GOOG"
+            },
+            "name": "Alphabet Inc. Class C Capital Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [
+              "GOOGL Class A"
+            ],
+            "attributes": {
+              "issuer": "Alphabet Inc.",
+              "share_class": "Class A"
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "Alphabet Inc. Class A Common Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "first_trade_scheduled": "2026-03-15",
+              "held_via": "John L. Hennessy & Andrea J. Hennessy Revocable Trust",
+              "plan_adoption_date": "2025-11-10",
+              "plan_expiry": "2027-03-15",
+              "reporting_person": "John Hennessy",
+              "security_class": "Class C Capital Stock",
+              "shares": 8400,
+              "source": "10b5-1_trading_plan",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "John Hennessy 10b5-1 Plan Nov 2025 — Class C (up to 8,400 shares)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "first_trade_scheduled": "2026-03-15",
+              "held_via": "John L. Hennessy & Andrea J. Hennessy Revocable Trust",
+              "plan_adoption_date": "2025-11-10",
+              "plan_expiry": "2027-03-15",
+              "reporting_person": "John Hennessy",
+              "security_class": "Class A Common Stock",
+              "shares": 4200,
+              "source": "10b5-1_trading_plan",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "John Hennessy 10b5-1 Plan Nov 2025 — Class A (up to 4,200 shares)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "first_trade_scheduled": "2026-03-02",
+              "note": "Up to 154,486 shares gross including dividend equivalent units; shares sold net of tax withholding",
+              "plan_adoption_date": "2025-11-29",
+              "plan_expiry": "2027-03-02",
+              "reporting_person": "Ruth M. Porat",
+              "security_class": "Class C Capital Stock",
+              "shares": 154486,
+              "source": "10b5-1_trading_plan",
+              "source_award": "Alphabet 2021 Performance Stock Units",
+              "transaction_code": "S"
+            },
+            "identifiers": {},
+            "name": "Ruth M. Porat 10b5-1 Plan Nov 2025 — Class C (up to 154,486 shares)",
+            "type": "InsiderTransaction"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "ChairOfBoard"
+            },
+            "source_name": "John Hennessy",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "President and Chief Investment Officer"
+            },
+            "source_name": "Ruth M. Porat",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Inc.",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "first_trade_scheduled": "2026-03-15",
+              "note": "10b5-1 planned sale; not yet executed as of filing date",
+              "plan_adoption_date": "2025-11-10",
+              "shares": 8400,
+              "transaction_code": "S"
+            },
+            "source_name": "John Hennessy",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Inc. Class C Capital Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "first_trade_scheduled": "2026-03-15",
+              "note": "10b5-1 planned sale; not yet executed as of filing date",
+              "plan_adoption_date": "2025-11-10",
+              "shares": 4200,
+              "transaction_code": "S"
+            },
+            "source_name": "John Hennessy",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Inc. Class A Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "first_trade_scheduled": "2026-03-02",
+              "note": "10b5-1 planned sale from 2021 PSU vesting; net of tax withholding",
+              "plan_adoption_date": "2025-11-29",
+              "shares": 154486,
+              "transaction_code": "S"
+            },
+            "source_name": "Ruth M. Porat",
+            "source_type_entity": "Person",
+            "target_name": "Alphabet Inc. Class C Capital Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-26-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "f0414e749415796d42a8da39f8c71d767a0f88388860af8bd10edf07957adb38"
+    }
+  ],
+  "prompt_version": "v3"
+}

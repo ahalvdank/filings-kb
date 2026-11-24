@@ -1,0 +1,1596 @@
+{
+  "accession": "0000012927-25-000015",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T05:47:30Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_8",
+              "subsection": "Summary of Business Segment Data"
+            },
+            "chunk_type": "segment",
+            "content": "Commercial Airplanes$22,861 $33,901 $26,026 ... Loss from operations: Commercial Airplanes($7,969)($1,635)($2,341)",
+            "entity_name": "BA Commercial Airplanes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_8",
+              "subsection": "Summary of Business Segment Data"
+            },
+            "chunk_type": "segment",
+            "content": "Defense, Space & Security23,918 24,933 23,162 ... Defense, Space & Security(5,413)(1,764)(3,544)",
+            "entity_name": "BA Defense, Space & Security Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_8",
+              "subsection": "Summary of Business Segment Data"
+            },
+            "chunk_type": "segment",
+            "content": "Global Services19,954 19,127 17,611 ... Global Services3,618 3,329 2,727",
+            "entity_name": "BA Global Services Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "subsection": "Note 2 - Spirit Acquisition"
+            },
+            "chunk_type": "material_event",
+            "content": "On June 30, 2024, we entered into an Agreement and Plan of Merger (the Merger Agreement) pursuant to which we have agreed to acquire Spirit AeroSystems Holdings, Inc. (Spirit) in an all-stock transaction at an equity value of approximately $4,700, or $37.25 per share of Spirit Class A Common Stock. The transaction will include the assumption of Spirit's net debt at closing.",
+            "entity_name": "BA Acquisition of Spirit AeroSystems Holdings",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "subsection": "Note 2 - Spirit Acquisition"
+            },
+            "chunk_type": "material_event",
+            "content": "The transaction is expected to close mid-2025 and is subject to the sale of the Spirit operations related to certain Airbus commercial work packages and the satisfaction of customary closing conditions, including certain regulatory approvals. On January 31, 2025, Spirit's stockholders approved the Merger Agreement and the related transactions.",
+            "entity_name": "BA Acquisition of Spirit AeroSystems Holdings",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "subsection": "Note 1 - Principles of Consolidation and Basis of Presentation"
+            },
+            "chunk_type": "material_event",
+            "content": "We added a new financial statement line item to the Consolidated Statements of Cash Flows for cash invested in Supplier notes receivable and reclassified the corresponding amounts in the prior period financial statements to conform to the current period presentation.",
+            "entity_name": "BA Supplier Notes Receivable Cash Flow Reclassification",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_8",
+              "subsection": "Consolidated Statements of Cash Flows"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Common stock issuance, net of issuance costs18,200",
+            "entity_name": "BA 2024 Common Stock Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8",
+              "subsection": "Consolidated Statements of Financial Position"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Mandatory convertible preferred stock, 6.00% Series A, par value $1.00 – 20,000,000 shares authorized; 5,750,000 shares issued; aggregate liquidation preference $5,750",
+            "entity_name": "BA 2024 6.00% Series A Mandatory Convertible Preferred Stock Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_8",
+              "subsection": "Consolidated Statements of Equity"
+            },
+            "chunk_type": "capital_return",
+            "content": "Cash dividends declared on Mandatory convertible preferred stock (72)(72)",
+            "entity_name": "BA 2024 Mandatory Convertible Preferred Stock Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "The Boeing Company",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Spirit AeroSystems",
+              "Spirit"
+            ],
+            "attributes": {},
+            "identifiers": {},
+            "name": "Spirit AeroSystems Holdings, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "BCA",
+              "Commercial Airplanes"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Commercial Airplanes",
+              "ticker": "BA"
+            },
+            "name": "BA Commercial Airplanes Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BDS",
+              "Defense Space Security"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Defense, Space & Security",
+              "ticker": "BA"
+            },
+            "name": "BA Defense, Space & Security Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BGS",
+              "Global Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Global Services",
+              "ticker": "BA"
+            },
+            "name": "BA Global Services Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Boeing-Spirit merger",
+              "Spirit acquisition"
+            ],
+            "attributes": {
+              "agreement_date": "2024-06-30",
+              "consideration": "all_stock",
+              "equity_value_usd": 4700000000,
+              "event_type": "acquisition",
+              "expected_close": "mid-2025",
+              "price_per_share_usd": 37.25,
+              "target_company": "Spirit AeroSystems Holdings, Inc.",
+              "termination_fee_usd": 300000000
+            },
+            "identifiers": {},
+            "name": "BA Acquisition of Spirit AeroSystems Holdings",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "event_type": "accounting_change"
+            },
+            "identifiers": {},
+            "name": "BA Supplier Notes Receivable Cash Flow Reclassification",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "equity_issuance",
+              "principal_usd": 18200000000
+            },
+            "identifiers": {},
+            "name": "BA 2024 Common Stock Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "BA MCPS Series A",
+              "BA Series A Preferred"
+            ],
+            "attributes": {
+              "coupon": 0.06,
+              "instrument_type": "equity_issuance",
+              "liquidation_preference_usd": 5750000000,
+              "principal_usd": 5657000000,
+              "shares_issued": 5750000
+            },
+            "identifiers": {},
+            "name": "BA 2024 6.00% Series A Mandatory Convertible Preferred Stock Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 72000000,
+              "period": "FY2024",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "BA 2024 Mandatory Convertible Preferred Stock Dividend",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": -0.326,
+              "margin": -0.348,
+              "period": "FY2024",
+              "revenue": 22861000000
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Commercial Airplanes Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.041,
+              "margin": -0.226,
+              "period": "FY2024",
+              "revenue": 23918000000
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Defense, Space & Security Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.043,
+              "margin": 0.181,
+              "period": "FY2024",
+              "revenue": 19954000000
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Global Services Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Acquisition of Spirit AeroSystems Holdings",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Supplier Notes Receivable Cash Flow Reclassification",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA 2024 Common Stock Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA 2024 6.00% Series A Mandatory Convertible Preferred Stock Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA 2024 Mandatory Convertible Preferred Stock Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-25-000015.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "d6508b93060c2a5ee10d2578b75d24a721637f872f69b83b795c0a273aaf1cee"
+    },
+    {
+      "extracted_at": "2026-07-01T05:55:56Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note_reference": "Note 16",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In the second quarter of 2024, we issued $10.0 billion of fixed-rate senior notes consisting of $1.0 billion due May 2027 that bear an annual interest rate of 6.259%, $1.5 billion due May 2029 that bear an annual interest rate of 6.298%, $1.0 billion due May 2031 that bear an annual interest rate of 6.388%, $2.5 billion due May 2034 that bear an annual interest rate of 6.528%, $2.5 billion due May 2054 that bear an annual interest rate of 6.858%, and $1.5 billion due May 2064 that bear an annual interest rate of 7.008%. The notes are unsecured senior obligations and rank equally in right of payment with our existing and future unsecured and unsubordinated indebtedness. The net proceeds of the issuance totaled $9.9 billion, after deducting underwriting discounts, commissions, and offering expenses.",
+            "entity_name": "BA Q2 2024 $10.0B Fixed-Rate Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 16",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In the second quarter of 2024, we entered into a $4.0 billion five-year revolving credit agreement expiring in May 2029. Effective as of the second quarter of 2024, we terminated the $0.8 billion 364-day revolving credit agreement expiring in August 2024, and the $3.2 billion five-year revolving credit agreement, as amended, expiring in October 2024. Our $3.0 billion three-year revolving credit agreement expiring in August 2025 and $3.0 billion five-year revolving credit agreement expiring in August 2028 each remain in effect. As of December 31, 2024, we had $10.0 billion available under credit line agreements.",
+            "entity_name": "BA Q2 2024 $4.0B Five-Year Revolving Credit Facility",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 14 – Severance",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "During the fourth quarter of 2024, we announced plans to reduce our overall workforce. As a result, we recorded $295 of severance benefits payable to employees expected to leave the Company through involuntary terminations by the first half of 2025. The severance packages are consistent with our ongoing compensation and benefits plans. The remaining liability at December 31, 2024, was $287.",
+            "entity_name": "BA Q4 2024 Workforce Reduction",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 14 – 737 MAX Customer Concessions",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "During 2024, we recorded an earnings charge of $443, net of insurance recoveries, in connection with estimated considerations to customers for disruption related to the Alaska Airlines 737-9 accident and 737-9 grounding. This charge is reflected in the financial statements as a reduction to Sales of products.",
+            "entity_name": "BA 2024 737-9 Grounding Customer Concessions Charge",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 8 – Commercial Aircraft Programs",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "During the year ended December 31, 2024, we determined that estimated costs to complete the 777X program plus the costs already included in 777X inventory exceed estimated revenues from the program. The resulting reach-forward loss of $3,499 was recorded as a reduction of deferred production costs and other non-recurring costs.",
+            "entity_name": "BA 2024 777X Program Reach-Forward Loss",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 14 – KC-46A Tanker",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "The fourth quarter charge also includes increased cost allocations from the decision to end production of the 767 freighter program and higher supplier costs.",
+            "entity_name": "BA 2024 767 Freighter Production End",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 5 – Income Taxes",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Until the Company generates sustained levels of profitability, additional valuation allowances may have to be recorded with corresponding adverse impacts on earnings and/or OCI.",
+            "entity_name": "BA Deferred Tax Valuation Allowance Additional Charge Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 8 – Commercial Aircraft Programs",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The level of profitability on the 777X program will be subject to several factors. These factors include aircraft certification requirements and timing, change incorporation on completed aircraft, production disruption due to labor instability and supply chain disruption, customer considerations, delivery timing and negotiations, further production rate adjustments for the 777X or other commercial aircraft programs, and contraction of the accounting quantity. One or more of these factors could result in additional reach-forward losses in future periods.",
+            "entity_name": "BA 777X Program Additional Reach-Forward Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 14 – KC-46A Tanker",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "During the fourth quarter of 2024, we recorded an earnings charge of $822, primarily due to factory performance, higher estimated future production costs, and higher costs resulting from the IAM 751 work stoppage and new agreement. The fourth quarter charge also includes increased cost allocations from the decision to end production of the 767 freighter program and higher supplier costs. As of December 31, 2024, we had approximately $85 of capitalized precontract costs and $132 of potential termination liabilities to suppliers related to future production lots. Risk remains that we may record additional losses in future periods.",
+            "entity_name": "BA KC-46A Tanker Program Additional Reach-Forward Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 14 – T-7A Red Hawk",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "During 2024 and 2023, we increased the reach-forward loss on the T-7A Red Hawk program by $1,770 and $275. The increase in 2024 primarily reflects higher estimated supplier costs related to future production lots. During the first quarter of 2024, we increased the reach-forward loss by $94 primarily reflecting increases in production costs.",
+            "entity_name": "BA T-7A Red Hawk Program Additional Reach-Forward Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 14 – MQ-25",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "During the fourth quarter of 2024, we increased the reach-forward loss by $122, primarily reflecting costs associated with ongoing design and software development challenges. The initial EMD units are currently progressing through the factory and the increase reflects recent and projected factory performance as well as the higher than anticipated complexity of the production build. We expect the initial units to complete production in 2025 and begin flight testing. We will be initiating final assembly operations at our new facility at Mid-America St. Louis Airport in Mascoutah, Illinois, in 2025. Risk remains that we may record additional losses in future periods.",
+            "entity_name": "BA MQ-25 Program Additional Reach-Forward Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 14 – Commercial Crew",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Its return to Earth was delayed to allow time to perform further testing of propulsion system anomalies and returned to Earth uncrewed in September 2024. During 2024, we increased the reach-forward loss by $523 primarily to reflect schedule delays and higher testing and certification costs as well as higher costs for post certification missions. At December 31, 2024, we had approximately $398 of capitalized precontract costs and $150 of potential termination liabilities to suppliers related to unauthorized future missions. Risk remains that we may record additional losses in future periods.",
+            "entity_name": "BA Commercial Crew Starliner Program Additional Reach-Forward Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 14 – VC-25B Presidential Aircraft",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The Company's firm fixed-price contract for the Engineering and Manufacturing Development (EMD) effort on the U.S. Air Force's (USAF) VC-25B Presidential Aircraft, commonly known as Air Force One, is a $4 billion program to develop and modify two 747-8 commercial aircraft. During 2024 and 2023, we increased the reach-forward loss on the contract by $379 and $482. During the second quarter of 2024, we increased the reach-forward loss on the contract by $250 primarily driven by higher than anticipated costs due to engineering design changes related to wiring and other structural requirements. During the fourth quarter of 2024, we increased the reach-forward loss by $129 reflecting higher estimated costs due to engineering design changes and schedule delays. Risk remains that we may record additional losses in future periods.",
+            "entity_name": "BA VC-25B Presidential Aircraft Program Additional Loss Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 14 – Environmental",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "It is reasonably possible that we may incur costs that exceed these recorded amounts because of regulatory agency orders and directives, changes in laws and/or regulations, higher than expected costs and/or the discovery of new or additional contamination. At December 31, 2024 and 2023, the high end of the estimated range of reasonably possible remediation costs exceeded our recorded liabilities by $1,002 and $1,030.",
+            "entity_name": "BA Environmental Remediation Cost Overrun Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_reference": "Note 14 – Fixed-Price Contracts",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The risk that actual performance, technical or contractual outcomes could be different than those previously assumed creates financial risk that could trigger additional material earnings charges, termination provisions, order cancellations, or other financially significant exposure.",
+            "entity_name": "BA Fixed-Price Development Contract Performance Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing 2024 senior notes issuance",
+              "Boeing Q2 2024 bond offering"
+            ],
+            "attributes": {
+              "coupon_range_high": 0.07008,
+              "coupon_range_low": 0.06259,
+              "instrument_type": "notes",
+              "issuance_period": "Q2 2024",
+              "maturity_range": "2027-2064",
+              "net_proceeds_usd": 9900000000,
+              "principal_usd": 10000000000,
+              "security_type": "unsecured_senior_fixed_rate"
+            },
+            "identifiers": {},
+            "name": "BA Q2 2024 $10.0B Fixed-Rate Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing 2024 revolving credit",
+              "Boeing Q2 2024 revolver"
+            ],
+            "attributes": {
+              "inception_period": "Q2 2024",
+              "instrument_type": "revolver",
+              "maturity": "2029-05",
+              "note": "Replaced terminated $0.8B 364-day revolver and $3.2B five-year revolver",
+              "principal_usd": 4000000000,
+              "term_years": 5
+            },
+            "identifiers": {},
+            "name": "BA Q2 2024 $4.0B Five-Year Revolving Credit Facility",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing 2024 workforce reduction",
+              "Boeing 2024 layoffs"
+            ],
+            "attributes": {
+              "completion_target": "H1 2025",
+              "event_type": "restructuring",
+              "remaining_liability_usd": 287000000,
+              "severance_charge_usd": 295000000
+            },
+            "identifiers": {},
+            "name": "BA Q4 2024 Workforce Reduction",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing 737-9 Alaska Airlines grounding charge",
+              "Alaska Airlines 737-9 accident customer charge"
+            ],
+            "attributes": {
+              "charge_usd": 443000000,
+              "event_type": "regulatory_action",
+              "fiscal_year": 2024,
+              "net_of_insurance": true
+            },
+            "identifiers": {},
+            "name": "BA 2024 737-9 Grounding Customer Concessions Charge",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing 777X 2024 reach-forward loss",
+              "Boeing 777X program impairment 2024"
+            ],
+            "attributes": {
+              "charge_usd": 3499000000,
+              "event_type": "goodwill_impairment",
+              "note": "Reach-forward loss recorded as reduction of deferred production costs and other non-recurring costs in inventory; closest available event_type to a program-level impairment charge"
+            },
+            "identifiers": {},
+            "name": "BA 2024 777X Program Reach-Forward Loss",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing 767 freighter program end",
+              "Boeing 767F production termination"
+            ],
+            "attributes": {
+              "event_type": "restructuring",
+              "fiscal_year": 2024,
+              "note": "Decision to end production of the 767 freighter program disclosed in Q4 2024 KC-46A charge context"
+            },
+            "identifiers": {},
+            "name": "BA 2024 767 Freighter Production End",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing DTA valuation allowance risk",
+              "Boeing deferred tax asset realization risk"
+            ],
+            "attributes": {
+              "category": "tax",
+              "geography": "United States",
+              "valuation_allowance_balance_usd": 7837000000
+            },
+            "identifiers": {},
+            "name": "BA Deferred Tax Valuation Allowance Additional Charge Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing 777X future program loss risk"
+            ],
+            "attributes": {
+              "category": "program",
+              "program": "777X"
+            },
+            "identifiers": {},
+            "name": "BA 777X Program Additional Reach-Forward Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing KC-46A future program loss risk"
+            ],
+            "attributes": {
+              "category": "program",
+              "program": "KC-46A Tanker"
+            },
+            "identifiers": {},
+            "name": "BA KC-46A Tanker Program Additional Reach-Forward Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing T-7A future program loss risk"
+            ],
+            "attributes": {
+              "category": "program",
+              "program": "T-7A Red Hawk"
+            },
+            "identifiers": {},
+            "name": "BA T-7A Red Hawk Program Additional Reach-Forward Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing MQ-25 future program loss risk"
+            ],
+            "attributes": {
+              "category": "program",
+              "program": "MQ-25"
+            },
+            "identifiers": {},
+            "name": "BA MQ-25 Program Additional Reach-Forward Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing CST-100 Starliner future program loss risk",
+              "Boeing Commercial Crew risk"
+            ],
+            "attributes": {
+              "category": "program",
+              "program": "Commercial Crew / CST-100 Starliner"
+            },
+            "identifiers": {},
+            "name": "BA Commercial Crew Starliner Program Additional Reach-Forward Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing VC-25B future program loss risk",
+              "Boeing Air Force One EMD loss risk"
+            ],
+            "attributes": {
+              "category": "program",
+              "program": "VC-25B Presidential Aircraft"
+            },
+            "identifiers": {},
+            "name": "BA VC-25B Presidential Aircraft Program Additional Loss Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing environmental liability overrun risk"
+            ],
+            "attributes": {
+              "category": "environmental",
+              "high_end_excess_usd": 1002000000,
+              "recorded_liability_usd": 834000000
+            },
+            "identifiers": {},
+            "name": "BA Environmental Remediation Cost Overrun Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Boeing fixed-price contract risk",
+              "Boeing development program financial risk"
+            ],
+            "attributes": {
+              "category": "contract"
+            },
+            "identifiers": {},
+            "name": "BA Fixed-Price Development Contract Performance Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Q2 2024 $10.0B Fixed-Rate Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Q2 2024 $4.0B Five-Year Revolving Credit Facility",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Q4 2024 Workforce Reduction",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA 2024 737-9 Grounding Customer Concessions Charge",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA 2024 777X Program Reach-Forward Loss",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA 2024 767 Freighter Production End",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Deferred Tax Valuation Allowance Additional Charge Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA 777X Program Additional Reach-Forward Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA KC-46A Tanker Program Additional Reach-Forward Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA T-7A Red Hawk Program Additional Reach-Forward Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA MQ-25 Program Additional Reach-Forward Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Commercial Crew Starliner Program Additional Reach-Forward Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA VC-25B Presidential Aircraft Program Additional Loss Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Environmental Remediation Cost Overrun Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Fixed-Price Development Contract Performance Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-25-000015.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "35618f8f85b585ca5bf00bf4367d2eb0a429ca2b64fb37abe6fb1d7bb53c6335"
+    },
+    {
+      "extracted_at": "2026-07-01T06:04:13Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "note_number": "Note_22",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "on January 7, 2021, we entered into a Deferred Prosecution Agreement (DPA) with the U.S. Department of Justice (the Department) relating to the Department's investigation into us regarding the evaluation of the 737 MAX by the Federal Aviation Administration (the Investigation). Among other obligations, the DPA included a three-year reporting period, which ended in January 2024. On May 14, 2024, the Department notified us of its determination that we did not fulfill our obligations under the DPA and that the Department would not move to dismiss the case.",
+            "entity_name": "Boeing 737 MAX DOJ Criminal Investigation and DPA",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note_22",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On July 24, 2024, we and the Department filed a proposed plea agreement with the U.S. District Court for the Northern District of Texas (the Court) to resolve the Investigation. Under the terms of the proposed agreement, Boeing agreed that it would plead guilty to the charge that was the basis for the DPA; pay an additional fine of $244; commit to invest at least $455 in compliance, quality and safety programs over a three-year period; and agree to the appointment of an independent compliance monitor for three years. On December 5, 2024, the Court rejected the proposed plea agreement, citing the proposed agreement's provisions governing the monitor's selection and supervision. In light of the Court's ruling, Boeing and the Department are currently engaged in discussions regarding potential resolution of this matter.",
+            "entity_name": "Boeing 737 MAX DOJ Criminal Investigation and DPA",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note_22",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Multiple legal actions, investigations and inquiries were initiated concerning the October 29, 2018, accident of Lion Air Flight 610 and the March 10, 2019 accident of Ethiopian Airlines Flight 302. While many of these legal actions and investigations have been resolved, others are still pending, including a federal securities class action filed in federal district court in the Northern District of Illinois, and a number of civil lawsuits and claims brought by family members of those lost in the accidents.",
+            "entity_name": "Boeing 737 MAX Federal Securities Class Action",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note_22",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "While many of these legal actions and investigations have been resolved, others are still pending, including a federal securities class action filed in federal district court in the Northern District of Illinois, and a number of civil lawsuits and claims brought by family members of those lost in the accidents.",
+            "entity_name": "Boeing 737 MAX Civil Lawsuits by Victims Families",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note_22",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Multiple legal actions were initiated as a result of the January 5, 2024, Alaska Airlines Flight 1282 accident. We are also subject to multiple governmental and regulatory investigations and inquiries relating to the Alaska Airlines Flight 1282 accident and our commercial airplanes business.",
+            "entity_name": "Boeing Alaska Airlines Flight 1282 Legal Actions",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note_23",
+              "period": "FY2024",
+              "revenue_usd_millions": 22861,
+              "section_type": "Item_8",
+              "segment_operating_loss_usd_millions": -7969
+            },
+            "chunk_type": "segment",
+            "content": "BCA develops, produces and markets commercial jet aircraft principally to the commercial airline industry worldwide. Revenue on commercial aircraft contracts is recognized at the point in time when an aircraft is completed and accepted by the customer.",
+            "entity_name": "BA BCA Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note_23",
+              "period": "FY2024",
+              "revenue_usd_millions": 23918,
+              "section_type": "Item_8",
+              "segment_operating_loss_usd_millions": -5413
+            },
+            "chunk_type": "segment",
+            "content": "BDS engages in the research, development, production and modification of the following products and related services: manned and unmanned military aircraft and weapons systems, surveillance and engagement, strategic defense and intelligence systems, satellite systems and space exploration. BDS revenue is generally recognized over the contract term (over time) as costs are incurred.",
+            "entity_name": "BA BDS Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note_23",
+              "period": "FY2024",
+              "revenue_usd_millions": 19954,
+              "section_type": "Item_8",
+              "segment_operating_earnings_usd_millions": 3618
+            },
+            "chunk_type": "segment",
+            "content": "BGS provides parts, maintenance, modifications, logistics support, training, data analytics and information-based services to commercial and government customers worldwide. BGS segment revenue and costs include certain products and services provided to other segments. Revenue on commercial spare parts contracts is recognized at the point in time when a spare part is delivered to the customer. Revenue on other contracts is generally recognized over the contract term (over time) as costs are incurred.",
+            "entity_name": "BA BGS Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "On October 30, 2024, we issued 129,375,000 shares of common stock, $5.00 par value per share, from shares held in Treasury Stock. As a result of the transaction, we received cash proceeds of $18,181, net of underwriting fees and other issuance costs.",
+            "entity_name": "BA October 2024 Common Stock Offering",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "On October 31, 2024, we issued 115,000,000 depositary shares, representing 5,750,000 shares of our 6.00% Series A Mandatory Convertible Preferred Stock (Mandatory convertible preferred stock). The Mandatory convertible preferred stock has a $1,000.00 per share liquidation preference and $1.00 per share par value. As a result of the transaction, we received cash proceeds of $5,651, net of underwriting fees and other issuance costs.",
+            "entity_name": "BA October 2024 Series A Mandatory Convertible Preferred Stock Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "In December 2024, dividends of $72 were declared to holders of record as of January 1, 2025, representing $12.50 per share, and were paid in cash on January 15, 2025.",
+            "entity_name": "BA December 2024 Series A Mandatory Convertible Preferred Stock Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note_18",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "Our 2023 Incentive Stock Plan, permits awards of incentive and non-qualified stock options, stock appreciation rights, restricted stock or units, performance restricted stock or units, and other stock and cash-based awards to our employees, officers, directors, consultants, and independent contractors. The aggregate number of shares of our common stock authorized for issuance under the plan is 12,900,000, plus shares that remained or became available under our 2003 Incentive Stock Plan, as amended and restated.",
+            "entity_name": "BA 2024 Share-Based Compensation Disclosure",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note_number": "Note_23",
+              "section_type": "Item_8",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "Our backlog at December 31, 2024 was $521,336. We expect approximately 14% to be converted to revenue through 2025 and approximately 59% through 2028, with the remainder thereafter. There is significant uncertainty regarding the timing of when backlog will convert into revenue. We may experience reductions to backlog and/or significant order cancellations due to various factors including delivery delays, production disruptions and delays to entry into service of the 777X, 737-7 and/or 737-10.",
+            "entity_name": "BA Total Backlog Revenue Conversion Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing",
+              "BA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "The Boeing Company",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Boeing DPA",
+              "Boeing 737 MAX DOJ investigation"
+            ],
+            "attributes": {
+              "counterparty": "U.S. Department of Justice",
+              "court": "U.S. District Court for the Northern District of Texas",
+              "dpa_entered": "2021-01-07",
+              "note": "Court rejected proposed plea agreement December 5, 2024; Boeing and DOJ in ongoing discussions",
+              "proposed_compliance_investment_usd": 455000000,
+              "proposed_fine_usd": 244000000,
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Boeing 737 MAX DOJ Criminal Investigation and DPA",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "737 MAX securities class action"
+            ],
+            "attributes": {
+              "court": "Northern District of Illinois",
+              "status": "pending",
+              "underlying_accidents": "Lion Air Flight 610 (2018-10-29), Ethiopian Airlines Flight 302 (2019-03-10)"
+            },
+            "identifiers": {},
+            "name": "Boeing 737 MAX Federal Securities Class Action",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "737 MAX family member civil claims"
+            ],
+            "attributes": {
+              "status": "pending",
+              "underlying_accidents": "Lion Air Flight 610 (2018-10-29), Ethiopian Airlines Flight 302 (2019-03-10)"
+            },
+            "identifiers": {},
+            "name": "Boeing 737 MAX Civil Lawsuits by Victims Families",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Flight 1282 litigation",
+              "Alaska Airlines door plug litigation"
+            ],
+            "attributes": {
+              "incident_date": "2024-01-05",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Boeing Alaska Airlines Flight 1282 Legal Actions",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Boeing Commercial Airplanes",
+              "BCA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "BCA",
+              "ticker": "BA"
+            },
+            "name": "BA BCA Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Boeing Defense Space & Security",
+              "BDS"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "BDS",
+              "ticker": "BA"
+            },
+            "name": "BA BDS Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Boeing Global Services",
+              "BGS"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "BGS",
+              "ticker": "BA"
+            },
+            "name": "BA BGS Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Boeing October 2024 equity offering"
+            ],
+            "attributes": {
+              "instrument_type": "equity_issuance",
+              "issuance_date": "2024-10-30",
+              "principal_usd": 18181000000,
+              "shares_issued": 129375000
+            },
+            "identifiers": {},
+            "name": "BA October 2024 Common Stock Offering",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing 6.00% Series A MCPS issuance",
+              "Boeing preferred stock offering 2024"
+            ],
+            "attributes": {
+              "coupon": 0.06,
+              "depositary_shares_issued": 115000000,
+              "instrument_type": "equity_issuance",
+              "issuance_date": "2024-10-31",
+              "liquidation_preference_per_share_usd": 1000.0,
+              "mandatory_conversion_date": "2027-10-15",
+              "preferred_shares_issued": 5750000,
+              "principal_usd": 5651000000
+            },
+            "identifiers": {},
+            "name": "BA October 2024 Series A Mandatory Convertible Preferred Stock Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Boeing MCPS Q4 2024 dividend"
+            ],
+            "attributes": {
+              "amount_usd": 72000000,
+              "effective_date": "2025-01-15",
+              "per_share": 12.5,
+              "per_share_basis": "per_preferred_share",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "BA December 2024 Series A Mandatory Convertible Preferred Stock Dividend",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Boeing 2023 Incentive Stock Plan compensation disclosure"
+            ],
+            "attributes": {
+              "event_type": "compensation_disclosure",
+              "fiscal_year": 2024,
+              "plan_name": "2023 Incentive Stock Plan",
+              "rsu_and_other_award_expense_usd": 409000000,
+              "shares_authorized": 12900000
+            },
+            "identifiers": {},
+            "name": "BA 2024 Share-Based Compensation Disclosure",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Boeing backlog conversion outlook"
+            ],
+            "attributes": {
+              "metric": "backlog_revenue_conversion",
+              "new_value": "14% through 2025, 59% through 2028",
+              "period": "FY2025-FY2028",
+              "total_backlog_usd": 521336000000,
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "BA Total Backlog Revenue Conversion Guidance",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing 737 MAX DOJ Criminal Investigation and DPA",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing 737 MAX Federal Securities Class Action",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing 737 MAX Civil Lawsuits by Victims Families",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Alaska Airlines Flight 1282 Legal Actions",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.326,
+              "margin": -0.349,
+              "period": "FY2024",
+              "revenue": 22861000000
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA BCA Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.041,
+              "margin": -0.226,
+              "period": "FY2024",
+              "revenue": 23918000000
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA BDS Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.043,
+              "margin": 0.181,
+              "period": "FY2024",
+              "revenue": 19954000000
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA BGS Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA October 2024 Common Stock Offering",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA October 2024 Series A Mandatory Convertible Preferred Stock Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA December 2024 Series A Mandatory Convertible Preferred Stock Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA 2024 Share-Based Compensation Disclosure",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "BA Total Backlog Revenue Conversion Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-25-000015.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "fbfb67270d9f214f2824953edc5355c5233b55d9987d21d1f6b47a7cd42e7669"
+    },
+    {
+      "extracted_at": "2026-07-01T06:08:17Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "During the year ended December 31, 2024, Eliminations and other unallocated items included an earnings charge of $244 that reflects a fine that would be paid if an agreement with the U.S. Department of Justice is approved by the federal district court.",
+            "entity_name": "Boeing DOJ Agreement - $244M Fine",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2025-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "data_type": "segment_assets",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Segment assets are summarized in the table below.\n\nDecember 31,20242023\n\nCommercial Airplanes$84,177 $77,047 \n\nDefense, Space & Security15,350 14,921 \n\nGlobal Services16,704 16,193 \n\nUnallocated items, eliminations and other40,132 28,851 \n\nTotal$156,363 $137,012",
+            "entity_name": "Boeing Commercial Airplanes",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2025-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "data_type": "capital_expenditures",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "Capital Expenditures\n\nYears ended December 31,202420232022\n\nCommercial Airplanes$508 $420 $218 \n\nDefense, Space & Security296 192 202 \n\nGlobal Services212 127 130 \n\nUnallocated items, eliminations and other1,214 788 672 \n\nTotal$2,230 $1,527 $1,222",
+            "entity_name": "Boeing Commercial Airplanes",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2025-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "The 737 program is experiencing increased oversight from the Federal Aviation Administration (FAA) in approving future production rate increases. The 737 program is also experiencing constraints from the Company's key suppliers and is currently working with suppliers to ensure they can meet future production rate increases. There is inherent uncertainty in the program's production rate schedule as the estimate is subject to significant variability in these external factors.",
+            "entity_name": "Boeing 737 FAA Increased Production Rate Oversight",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-02-03",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing Department of Justice fine",
+              "DOJ agreement fine"
+            ],
+            "attributes": {
+              "counterparty": "U.S. Department of Justice",
+              "fine_amount_usd": 244000000,
+              "note": "Earnings charge recorded in 2024; agreement pending federal district court approval",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "Boeing DOJ Agreement - $244M Fine",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "BCA",
+              "Commercial Airplanes"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Commercial Airplanes",
+              "ticker": "BA"
+            },
+            "name": "Boeing Commercial Airplanes",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BDS",
+              "Defense Space Security"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Defense, Space & Security",
+              "ticker": "BA"
+            },
+            "name": "Boeing Defense, Space & Security",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "BGS",
+              "Global Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Global Services",
+              "ticker": "BA"
+            },
+            "name": "Boeing Global Services",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "737 FAA oversight",
+              "737 FAA production approval constraints"
+            ],
+            "attributes": {
+              "event_type": "regulatory_action",
+              "program": "737",
+              "regulator": "FAA"
+            },
+            "identifiers": {},
+            "name": "Boeing 737 FAA Increased Production Rate Oversight",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing DOJ Agreement - $244M Fine",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2025-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "assets_usd": 84177000000,
+              "capex_usd": 508000000,
+              "period": "FY2024"
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Commercial Airplanes",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2025-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "assets_usd": 15350000000,
+              "capex_usd": 296000000,
+              "period": "FY2024"
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Defense, Space & Security",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2025-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "assets_usd": 16704000000,
+              "capex_usd": 212000000,
+              "period": "FY2024"
+            },
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Global Services",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2025-02-03",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing 737 FAA Increased Production Rate Oversight",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-02-03",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0000012927-25-000015.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "312f4c8e13aa64f8b385884d69cef240ccef7780ce887204c818659c83af144f"
+    }
+  ],
+  "prompt_version": "v3"
+}

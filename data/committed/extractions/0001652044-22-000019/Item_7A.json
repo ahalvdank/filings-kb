@@ -1,0 +1,193 @@
+{
+  "accession": "0001652044-22-000019",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T21:32:24Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "If an adverse 10% foreign currency exchange rate change was applied to total monetary assets, liabilities, and commitments denominated in currencies other than the functional currencies at the balance sheet date, it would have resulted in an adverse effect on income before income taxes of approximately $497 million and $285 million as of December 31, 2020 and 2021, respectively, after consideration of the effect of foreign exchange contracts in place for the years ended December 31, 2020 and 2021.",
+            "entity_name": "GOOGL Foreign Currency Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We use foreign currency forwards and option contracts, including collars (an option strategy comprised of a combination of purchased and written options) to protect forecasted U.S. dollar-equivalent earnings from changes in foreign currency exchange rates. These hedging contracts reduce, but do not entirely eliminate, the effect of foreign currency exchange rate movements.",
+            "entity_name": "GOOGL Foreign Currency Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our investments in both fixed rate and floating rate interest earning securities carry a degree of interest rate risk. Fixed rate securities may have their fair market value adversely affected due to a rise in interest rates, while floating rate securities may produce less income than predicted if interest rates fall.",
+            "entity_name": "GOOGL Interest Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A",
+              "var_one_day_2020_usd_millions": 144,
+              "var_one_day_2021_usd_millions": 139
+            },
+            "chunk_type": "risk_factor",
+            "content": "We use value-at-risk (VaR) analysis to determine the potential effect of fluctuations in interest rates on the value of our marketable debt security portfolio. The VaR is the expected loss in fair value, for a given confidence interval, for our investment portfolio due to adverse movements in interest rates. We use a variance/covariance VaR model with 95% confidence interval.",
+            "entity_name": "GOOGL Interest Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "A hypothetical adverse price change of 10% on our December 31, 2021 balance, which could be experienced in the near term, would decrease the fair value of marketable equity securities by $780 million. From time to time, we may enter into derivatives to hedge the market price risk on certain of our marketable equity securities.",
+            "entity_name": "GOOGL Equity Investment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Volatility in the global economic climate and financial markets could result in a significant impairment charge relating to our non-marketable equity securities. Changes in valuation of non-marketable equity securities may not directly correlate with changes in valuation of marketable equity securities. Additionally, observable transactions at lower valuations could result in significant losses on our non-marketable equity securities. The effect of COVID-19 on our impairment assessment requires significant judgment due to the uncertainty around the duration and severity of the effect.",
+            "entity_name": "GOOGL Equity Investment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Alphabet FX risk",
+              "Alphabet foreign currency risk"
+            ],
+            "attributes": {
+              "category": "currency",
+              "geography": "global",
+              "hedging_instruments": [
+                "forward_contracts",
+                "options",
+                "collars",
+                "net_investment_hedges"
+              ],
+              "principal_currencies_hedged": [
+                "AUD",
+                "GBP",
+                "CAD",
+                "EUR",
+                "JPY"
+              ],
+              "sensitivity_adverse_10pct_income_impact_2020_usd": 497000000,
+              "sensitivity_adverse_10pct_income_impact_2021_usd": 285000000
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Foreign Currency Exchange Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Alphabet interest rate risk",
+              "Alphabet marketable debt portfolio rate risk"
+            ],
+            "attributes": {
+              "category": "interest_rate",
+              "portfolio": "marketable_debt_securities",
+              "var_12mo_avg_2020_usd": 145000000,
+              "var_12mo_avg_2021_usd": 148000000,
+              "var_confidence_interval": 0.95,
+              "var_model": "variance_covariance",
+              "var_one_day_2020_usd": 144000000,
+              "var_one_day_2021_usd": 139000000
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Interest Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Alphabet equity investment risk",
+              "Alphabet marketable and non-marketable equity risk"
+            ],
+            "attributes": {
+              "category": "equity_valuation",
+              "covid_19_impairment_judgment_noted": true,
+              "equity_method_investments_2021_usd": 1500000000,
+              "marketable_equity_fair_value_2020_usd": 5900000000,
+              "marketable_equity_fair_value_2021_usd": 7800000000,
+              "non_marketable_equity_carrying_value_2020_usd": 18900000000,
+              "non_marketable_equity_carrying_value_2021_usd": 27600000000,
+              "sensitivity_10pct_adverse_price_change_2021_usd": 780000000
+            },
+            "identifiers": {
+              "ticker": "GOOGL"
+            },
+            "name": "GOOGL Equity Investment Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Foreign Currency Exchange Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Interest Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Equity Investment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-22-000019.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "ce5c5e2d7a269a4b4d0b19710dd7b2707bed16a93f487dcf5cc2d40a014fd4d4"
+    }
+  ],
+  "prompt_version": "v3"
+}

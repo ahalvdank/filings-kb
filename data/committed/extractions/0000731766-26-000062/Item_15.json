@@ -1,0 +1,244 @@
+{
+  "accession": "0000731766-26-000062",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T22:21:55Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "columns": "2025, 2024, 2023",
+              "section_type": "Item_15",
+              "table": "Condensed Statements of Cash Flows (Parent Company Only)",
+              "unit": "millions USD"
+            },
+            "chunk_type": "capital_return",
+            "content": "Common stock repurchases(5,545)(9,000)(8,000)",
+            "entity_name": "UNH FY2025 Common Stock Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "columns": "2025, 2024, 2023",
+              "section_type": "Item_15",
+              "table": "Condensed Statements of Cash Flows (Parent Company Only)",
+              "unit": "millions USD"
+            },
+            "chunk_type": "capital_return",
+            "content": "Cash dividends paid(7,916)(7,533)(6,761)",
+            "entity_name": "UNH FY2025 Cash Dividends Paid",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "columns": "2025, 2024, 2023",
+              "section_type": "Item_15",
+              "table": "Condensed Statements of Cash Flows (Parent Company Only)",
+              "unit": "millions USD"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Proceeds from issuance of long-term debt2,969 17,811 6,394\nRepayments of long-term debt(3,050)(3,000)(2,125)",
+            "entity_name": "UNH FY2025 Long-Term Debt Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15",
+              "table": "Note 3 Debt Maturity Schedule",
+              "unit": "millions USD"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Maturities of short-term borrowings and long-term debt for the years ending December 31 are as follows:\n(in millions)\n2026$5,900 \n20273,425 \n20283,500 \n20293,550 \n20303,750 \nThereafter58,552",
+            "entity_name": "UNH FY2025 Long-Term Debt Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit_number": "10.22",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Employment Agreement, effective as of May 12, 2025, between United HealthCare Services, Inc. and Stephen Hemsley (incorporated by reference to Exhibit 10.1 to UnitedHealth Group Incorporated's Quarterly Report on Form 10-Q filed on August 11, 2025)",
+            "entity_name": "UNH Stephen Hemsley Employment Agreement May 2025",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit_number": "10.23",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Employment Agreement, effective as of September 2, 2025, between United HealthCare Services, Inc. and Wayne DeVeydt (incorporated by reference to Exhibit 10.1 to UnitedHealth Group Incorporated's Current Report on Form 8-K filed on July 31, 2025)",
+            "entity_name": "UNH Wayne DeVeydt Employment Agreement September 2025",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit_number": "10.24",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Amended and Restated Employment Agreement, effective as of May 6, 2025, between United HealthCare Services, Inc. and Patrick Conway",
+            "entity_name": "UNH Patrick Conway Amended and Restated Employment Agreement May 2025",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 5545000000,
+              "period": "FY2025",
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "UNH FY2025 Common Stock Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 7916000000,
+              "period": "FY2025",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "UNH FY2025 Cash Dividends Paid",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "notes",
+              "note": "Parent company proceeds from issuance of long-term debt per Schedule I cash flow statement; partial offset by $3,050M repayments",
+              "period": "FY2025",
+              "principal_usd": 2969000000
+            },
+            "identifiers": {},
+            "name": "UNH FY2025 Long-Term Debt Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2025-05-12",
+              "employer": "United HealthCare Services, Inc.",
+              "event_type": "management_change",
+              "person": "Stephen Hemsley"
+            },
+            "identifiers": {},
+            "name": "UNH Stephen Hemsley Employment Agreement May 2025",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2025-09-02",
+              "employer": "United HealthCare Services, Inc.",
+              "event_type": "management_change",
+              "person": "Wayne DeVeydt"
+            },
+            "identifiers": {},
+            "name": "UNH Wayne DeVeydt Employment Agreement September 2025",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2025-05-06",
+              "employer": "United HealthCare Services, Inc.",
+              "event_type": "management_change",
+              "person": "Patrick Conway"
+            },
+            "identifiers": {},
+            "name": "UNH Patrick Conway Amended and Restated Employment Agreement May 2025",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2025 Common Stock Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2025 Cash Dividends Paid",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2025 Long-Term Debt Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Stephen Hemsley Employment Agreement May 2025",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Wayne DeVeydt Employment Agreement September 2025",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Patrick Conway Amended and Restated Employment Agreement May 2025",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-03-02",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-26-000062.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "2423c6c3ac0080e8b374d1049ccfbe41ee77806bd18f9125397bc6b4c408dcd4"
+    }
+  ],
+  "prompt_version": "v3"
+}

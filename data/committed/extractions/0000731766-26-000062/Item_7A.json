@@ -1,0 +1,101 @@
+{
+  "accession": "0000731766-26-000062",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T21:54:29Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2025, we had $34 billion of financial assets on which the interest rates received vary with market interest rates, which may significantly impact our investment income. Also as of December 31, 2025, $27 billion of our financial liabilities, which include debt and deposit liabilities, were at interest rates which vary with market rates, either directly or through the use of related interest rate swap contracts.",
+            "entity_name": "UNH Variable-Rate Interest Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2025, $48 billion of our investments were fixed-rate debt securities and $51 billion of our debt was non-swapped fixed-rate term debt. An increase in market interest rates decreases the market value of fixed-rate investments and fixed-rate debt. Conversely, a decrease in market interest rates increases the market value of fixed-rate investments and fixed-rate debt.",
+            "entity_name": "UNH Fixed-Rate Fair Value Interest Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UNH floating-rate asset and liability exposure",
+              "UNH interest rate sensitivity on investment income"
+            ],
+            "attributes": {
+              "as_of_date": "2025-12-31",
+              "category": "market_risk",
+              "subcategory": "interest_rate",
+              "variable_rate_financial_assets_usd": 34000000000,
+              "variable_rate_financial_liabilities_usd": 27000000000
+            },
+            "identifiers": {
+              "ticker": "UNH"
+            },
+            "name": "UNH Variable-Rate Interest Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "UNH fixed-rate investment fair value risk",
+              "UNH fixed-rate debt fair value exposure"
+            ],
+            "attributes": {
+              "as_of_date": "2025-12-31",
+              "category": "market_risk",
+              "fixed_rate_investments_usd": 48000000000,
+              "fixed_rate_non_swapped_term_debt_usd": 51000000000,
+              "subcategory": "interest_rate"
+            },
+            "identifiers": {
+              "ticker": "UNH"
+            },
+            "name": "UNH Fixed-Rate Fair Value Interest Rate Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Variable-Rate Interest Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Fixed-Rate Fair Value Interest Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-26-000062.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "5104a8706cde6b4e7267305b06a13e6f1aa65acc27a672b2cc1fee115c3b18b2"
+    }
+  ],
+  "prompt_version": "v3"
+}

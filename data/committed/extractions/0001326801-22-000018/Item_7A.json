@@ -1,0 +1,156 @@
+{
+  "accession": "0001326801-22-000018",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T11:31:07Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have foreign currency risks related to our revenue and operating expenses denominated in currencies other than the U.S. dollar, primarily the Euro. Accordingly, changes in exchange rates, and in particular a strengthening of the U.S. dollar, have in the past, and may in the future, negatively affect our revenue and other operating results as expressed in U.S. dollars.",
+            "entity_name": "META Foreign Currency Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Foreign currency losses of $140 million, $129 million, and $105 million were recognized in 2021, 2020, and 2019, respectively, as interest and other income, net in our consolidated statements of income.",
+            "entity_name": "META Foreign Currency Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "A hypothetical 100 basis point increase in interest rates would have resulted in a decrease of $714 million and $794 million in the market value of our available-for-sale debt securities as of December 31, 2021 and December 31, 2020, respectively. Any realized gains or losses resulting from such interest rate changes would only occur if we sold the investments prior to maturity.",
+            "entity_name": "META Interest Rate Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our equity investments are subject to a wide variety of market-related risks that could have a material impact on the carrying value of our holdings.",
+            "entity_name": "META Equity Investment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Volatility in the global economic climate and financial markets, including recent and ongoing effects related to the impact of the COVID-19 pandemic, which requires significant judgments, could result in a material impairment charge on our equity investments. Equity investments accounted for under the equity method were immaterial as of December 31, 2021 and December 31, 2020. Our total equity investments had a carrying value of $6.78 billion and $6.23 billion as of December 31, 2021 and December 31, 2020, respectively.",
+            "entity_name": "META Equity Investment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "FX risk",
+              "Euro/USD exchange risk",
+              "foreign currency risk"
+            ],
+            "attributes": {
+              "category": "market_risk",
+              "historical_loss_2019_usd": 105000000,
+              "historical_loss_2020_usd": 129000000,
+              "historical_loss_2021_usd": 140000000,
+              "primary_currency_exposure": "Euro",
+              "subcategory": "foreign_currency"
+            },
+            "identifiers": {},
+            "name": "META Foreign Currency Exchange Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "interest rate sensitivity",
+              "rate risk on marketable securities"
+            ],
+            "attributes": {
+              "category": "market_risk",
+              "hypothetical_100bp_impact_2020_usd": -794000000,
+              "hypothetical_100bp_impact_2021_usd": -714000000,
+              "subcategory": "interest_rate"
+            },
+            "identifiers": {},
+            "name": "META Interest Rate Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "private equity investment risk",
+              "equity holdings impairment risk"
+            ],
+            "attributes": {
+              "category": "market_risk",
+              "portfolio_carrying_value_2020_usd": 6230000000,
+              "portfolio_carrying_value_2021_usd": 6780000000,
+              "subcategory": "equity_investment"
+            },
+            "identifiers": {},
+            "name": "META Equity Investment Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META Foreign Currency Exchange Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META Interest Rate Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META Equity Investment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-22-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "7e720fe1fe1333dd8ebb17635b3b3e4e0d5f0f861d5aec513cf97539e4559568"
+    }
+  ],
+  "prompt_version": "v3"
+}

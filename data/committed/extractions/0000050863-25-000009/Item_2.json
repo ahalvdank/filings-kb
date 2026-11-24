@@ -1,0 +1,3507 @@
+{
+  "accession": "0000050863-25-000009",
+  "item": "Item_2",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-28T11:12:52Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_2"
+            },
+            "chunk_type": "segment",
+            "content": "CCG revenue increased $1.0 billion from 2023. Notebook revenue was $19.1 billion in 2024, up $2.1 billion from 2023. Notebook volume increased 12% from 2023, as customer inventory levels improved compared to higher levels in 2023. Notebook ASPs were roughly flat with 2023.",
+            "entity_name": "INTC Client Computing Group",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_2"
+            },
+            "chunk_type": "segment",
+            "content": "DCAI revenue increased $182 million from 2023, primarily driven by an increase in server revenue. Server ASPs increased 12% from 2023, primarily due to a higher mix of high core count products. Server volume decreased 10% from 2023, due to lower demand in a competitive environment and a higher mix of high core count products.",
+            "entity_name": "INTC Data Center and AI",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_2"
+            },
+            "chunk_type": "segment",
+            "content": "NEX revenue increased $68 million from 2023, primarily driven by higher Network and Edge revenue, partially offset by 5G customers tempering purchases to reduce existing inventories.",
+            "entity_name": "INTC Network and Edge",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_2"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue was $17.5 billion, down $1.4 billion from 2023. Intersegment revenue was $17.2 billion, down $799 million from 2023, driven primarily by lower intersegment ASPs, lower back-end services revenue, and higher intersegment credits. These intersegment decreases were partially offset by higher wafer volume primarily from Intel 3, Intel 4, and Intel 7 products. External revenue was $385 million, down $568 million from 2023, driven primarily by lower traditional packaging services and lower equipment sales.",
+            "entity_name": "INTC Intel Foundry",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_2"
+            },
+            "chunk_type": "segment",
+            "content": "Cost of sales was $25.6 billion in 2024, up $4.1 billion from 2023, primarily driven by higher period charges related to non-cash impairments and accelerated depreciation of $3.3 billion for certain manufacturing assets, a substantial majority of which related to our Intel 7 process node; higher intersegment cost of goods sold of $1.3 billion primarily driven by higher sales volume and higher costs from the ramp of advanced technologies; and higher period charges primarily related to factory start-up costs.",
+            "entity_name": "INTC Intel Foundry",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "section_type": "Item_2"
+            },
+            "chunk_type": "segment",
+            "content": "All other revenue was $3.8 billion, down $1.8 billion from 2023. Altera revenue was $1.5 billion, down $1.3 billion from 2023 as customers tempered purchases to reduce existing inventories across all product lines. Mobileye revenue was $1.7 billion, down $425 million from 2023 as customers tempered purchases to reduce existing inventories of EyeQ products.",
+            "entity_name": "INTC All Other",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2024, we announced our intention to implement a series of cost and capital reduction initiatives designed to adjust our spending to current business trends while enabling our new operating model and continuing to fund investments in our core strategy—returning to product and process competitiveness. These initiatives, which we refer to as our 2024 Restructuring Plan, include reducing headcount, consolidating and reducing our global real estate footprint, conducting portfolio reviews of our businesses under a \"clean sheet\" view, rationalizing capital investments and deployments based upon demand signals and capacity requirements, and reducing our overall operating expenses.",
+            "entity_name": "INTC 2024 Restructuring Plan",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "The headcount actions in connection with the 2024 Restructuring Plan are expected to result in an approximate 15% decrease in our core Intel workforce by early 2025. As a result of initiating and deploying our 2024 Restructuring Plan, we recognized restructuring charges of $2.8 billion in 2024.",
+            "entity_name": "INTC 2024 Restructuring Plan",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "$3.1 billion of non-cash charges associated with the impairment of goodwill for certain of our reporting units as well as certain acquired intangible assets (see \"Note 7: Restructuring and Other Charges\" within Notes to Consolidated Financial Statements)",
+            "entity_name": "INTC 2024 Goodwill and Intangible Asset Impairment",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "in Q3 2024, we announced our intent to establish Intel Foundry as an independent subsidiary.",
+            "entity_name": "INTC Intel Foundry Independent Subsidiary Announcement",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "We are pursuing monetization opportunities with Altera and remain focused on selling a stake in the business on its path to a potential IPO in the coming years.",
+            "entity_name": "INTC Altera Monetization and Potential IPO",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2024, we signed an agreement with the US Federal Department of Commerce for the award of up to $7.9 billion in direct funding under the commercial CHIPS Act program, which is designed to support leading-edge semiconductor manufacturing in the US, as well as an agreement under which we may receive up to $3 billion in direct funding under the CHIPS Act's Secure Enclave program, which is designed to expand the trusted manufacturing of leading-edge semiconductors for the US government.",
+            "entity_name": "INTC CHIPS Act Funding Agreements 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In 2024, as part of our SCIP program, we entered into an arrangement with Apollo in which we received a one-time capital infusion in exchange for an interest in the rights to operate Fab 34 in Leixlip, Ireland. This follows our first SCIP agreement, with Brookfield, completed in 2022 and relating to our Arizona facility expansion. In total, we expect greater than $25 billion of capital offsets through these partnerships.",
+            "entity_name": "INTC Apollo SCIP Fab 34 Arrangement 2024",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "In 2024, we linked a portion of the executive and employee performance bonus to our goal to reduce our 2024 Scope 1 and 2 greenhouse gas emissions by 25,000 metric tons of carbon dioxide equivalent, compared to 2023.",
+            "entity_name": "INTC 2024 Scope 1 and 2 GHG Reduction Target",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "In 2024, continuing our practice of linking a portion of our executive and employee performance bonus to our corporate sustainability metrics, we linked a portion of the performance bonus to our 2024 target to reach 95% renewable electricity use globally.",
+            "entity_name": "INTC 2024 Renewable Electricity Target",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "In 2024, we linked a portion of our executive and employee performance bonus to our target to conserve and restore 13.5 billion gallons of water during the year.",
+            "entity_name": "INTC 2024 Water Conservation Target",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "esg_commitment",
+            "content": "To drive accountability, we linked a portion of our executive and employee compensation to diversity and inclusion metrics in 2024.",
+            "entity_name": "INTC 2024 Diversity and Inclusion Commitment",
+            "entity_type_entity": "ESGCommitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Intel"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "Intel Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "CCG"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "CCG",
+              "ticker": "INTC"
+            },
+            "name": "INTC Client Computing Group",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "DCAI"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "DCAI",
+              "ticker": "INTC"
+            },
+            "name": "INTC Data Center and AI",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "NEX"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "NEX",
+              "ticker": "INTC"
+            },
+            "name": "INTC Network and Edge",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Intel Foundry",
+              "IFS"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Intel Foundry",
+              "ticker": "INTC"
+            },
+            "name": "INTC Intel Foundry",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Intel All Other",
+              "Altera",
+              "Mobileye"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "All Other",
+              "ticker": "INTC"
+            },
+            "name": "INTC All Other",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Intel 2024 cost reduction plan"
+            ],
+            "attributes": {
+              "event_type": "restructuring",
+              "fiscal_year": 2024,
+              "headcount_reduction_pct": 0.15,
+              "manufacturing_asset_impairment_usd": 3300000000,
+              "restructuring_charges_usd": 2800000000
+            },
+            "identifiers": {},
+            "name": "INTC 2024 Restructuring Plan",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel goodwill impairment 2024"
+            ],
+            "attributes": {
+              "charge_usd": 3100000000,
+              "event_type": "goodwill_impairment",
+              "fiscal_year": 2024
+            },
+            "identifiers": {},
+            "name": "INTC 2024 Goodwill and Intangible Asset Impairment",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel Foundry spin-out Q3 2024"
+            ],
+            "attributes": {
+              "announcement_period": "Q3 2024",
+              "event_type": "business_combination"
+            },
+            "identifiers": {},
+            "name": "INTC Intel Foundry Independent Subsidiary Announcement",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Altera standalone business",
+              "Altera IPO path"
+            ],
+            "attributes": {
+              "event_type": "divestiture",
+              "standalone_since": "Q1 2024",
+              "target": "Altera"
+            },
+            "identifiers": {},
+            "name": "INTC Altera Monetization and Potential IPO",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel CHIPS Act award",
+              "Intel DOC CHIPS agreement"
+            ],
+            "attributes": {
+              "agency": "US Federal Department of Commerce",
+              "commercial_program_award_up_to_usd": 7900000000,
+              "event_type": "regulatory_action",
+              "secure_enclave_award_up_to_usd": 3000000000,
+              "signed_year": 2024
+            },
+            "identifiers": {},
+            "name": "INTC CHIPS Act Funding Agreements 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Apollo SCIP Leixlip",
+              "Fab 34 Apollo capital arrangement"
+            ],
+            "attributes": {
+              "counterparty": "Apollo",
+              "facility": "Fab 34, Leixlip, Ireland",
+              "instrument_type": "equity_issuance",
+              "structure": "capital infusion in exchange for interest in rights to operate",
+              "year": 2024
+            },
+            "identifiers": {},
+            "name": "INTC Apollo SCIP Fab 34 Arrangement 2024",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Intel 25000 MT CO2e reduction 2024"
+            ],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "target_value": "reduce Scope 1 and 2 GHG by 25000 metric tons CO2e vs 2023",
+              "target_year": 2024
+            },
+            "identifiers": {},
+            "name": "INTC 2024 Scope 1 and 2 GHG Reduction Target",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Intel 95% renewable electricity 2024"
+            ],
+            "attributes": {
+              "commitment_type": "ghg_reduction",
+              "target_value": "95% renewable electricity globally",
+              "target_year": 2024
+            },
+            "identifiers": {},
+            "name": "INTC 2024 Renewable Electricity Target",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Intel 13.5B gallon water stewardship"
+            ],
+            "attributes": {
+              "commitment_type": "water_use",
+              "target_value": "conserve and restore 13.5 billion gallons",
+              "target_year": 2024
+            },
+            "identifiers": {},
+            "name": "INTC 2024 Water Conservation Target",
+            "type": "ESGCommitment"
+          },
+          {
+            "aliases": [
+              "Intel DEI 2024",
+              "Intel inclusion metrics"
+            ],
+            "attributes": {
+              "commitment_type": "dei",
+              "year": 2024
+            },
+            "identifiers": {},
+            "name": "INTC 2024 Diversity and Inclusion Commitment",
+            "type": "ESGCommitment"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.035,
+              "margin": 0.52,
+              "operating_margin": 0.36,
+              "period": "FY2024",
+              "revenue": 30290000000
+            },
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Client Computing Group",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.014,
+              "margin": 0.47,
+              "operating_margin": 0.1,
+              "period": "FY2024",
+              "revenue": 12817000000
+            },
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Data Center and AI",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.012,
+              "margin": 0.58,
+              "operating_margin": 0.16,
+              "period": "FY2024",
+              "revenue": 5842000000
+            },
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Network and Edge",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.072,
+              "margin": -0.46,
+              "note": "revenue includes intersegment; external revenue was $385M",
+              "operating_margin": -0.76,
+              "period": "FY2024",
+              "revenue": 17543000000
+            },
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Intel Foundry",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.318,
+              "margin": 0.52,
+              "operating_margin": -0.022,
+              "period": "FY2024",
+              "revenue": 3824000000
+            },
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC All Other",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2024 Restructuring Plan",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2024 Goodwill and Intangible Asset Impairment",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Intel Foundry Independent Subsidiary Announcement",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Altera Monetization and Potential IPO",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC CHIPS Act Funding Agreements 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Apollo SCIP Fab 34 Arrangement 2024",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2024 Scope 1 and 2 GHG Reduction Target",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2024 Renewable Electricity Target",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2024 Water Conservation Target",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2024 Diversity and Inclusion Commitment",
+            "target_type_entity": "ESGCommitment",
+            "type": "discloses_esg_commitment",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/INTC/0000050863-25-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "5aeefbd7eebee6aeed80054a33a05920ee87390e3cea42eb51f4450ebd597757"
+    },
+    {
+      "extracted_at": "2026-07-28T11:26:41Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The industry in which we operate is highly competitive and subject to rapid technological, geopolitical, and market developments; changes in industry standards; changes in customer and end-user needs, expectations, and preferences; and frequent product introductions and improvements. Our competitive environment has intensified in recent years, and we expect it to continue to do so in the future, including as a result of the proliferation of AI and high demand for AI-related products and services.",
+            "entity_name": "INTC Competitive Industry and AI Competition Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have limited experience in the highly competitive and capital-intensive third-party foundry business. As we pursue our strategy to establish Intel Foundry as a major provider of foundry capacity to manufacture semiconductors for others, we will face intense competition from well-established competitors such as TSMC, Samsung, Global Foundries (GF), United Microelectronics Corporation (UMC), and Semiconductor Manufacturing International Corporation (SMIC).",
+            "entity_name": "INTC Intel Foundry Third-Party Business Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are making significant, long-term and inherently risky investments in R&D and manufacturing facilities that may not realize a favorable return. To compete successfully, we must maintain an effective R&D program, develop new products and manufacturing processes, improve our products and processes, and make significant capital investments in new and existing manufacturing facilities, all ahead of competitors and market demand.",
+            "entity_name": "INTC R&D and Manufacturing Capital Investment Return Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The development and implementation of new semiconductor products and manufacturing technologies are subject to many risks and uncertainties. We are continually engaged in the development of next-generation technologies. Forecasting our progress and schedule for developing advanced nodes and other technologies is challenging, and at times we encounter unexpected delays due to the complexity of interactions among steps in the manufacturing process, challenges in using new materials or new production equipment, and other issues.",
+            "entity_name": "INTC Process Technology Development Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Macroeconomic conditions and geopolitical tensions and conflicts, including changes to trade policies and regulations, present significant risks to us in many jurisdictions. We have manufacturing, assembly and test, R&D, sales, and other operations in many countries, and some of our business activities are concentrated in one or more geographic areas.",
+            "entity_name": "INTC Macroeconomic and Geopolitical Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In particular, geopolitical and trade tensions between the US and China, one of our largest markets, have led to increased tariffs and trade restrictions, including tariffs applicable to some of our products, and have affected customer ordering patterns. Further, the US has imposed restrictions on the export of US-regulated products and technology to certain Chinese technology companies, including certain of our customers.",
+            "entity_name": "INTC US-China Trade and Export Control Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are subject to numerous risks associated with the evolving market for products with AI capabilities. The markets and use cases for products with AI capabilities have been rapidly evolving, are difficult to predict, and may impact demand for our products. For example, in the last few years, the demand for high-end GPUs for model training increased dramatically and has resulted and may continue to result in a significant shift in data center customer spend.",
+            "entity_name": "INTC AI Market Demand and Product Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have a highly complex global supply chain composed of thousands of suppliers. These suppliers provide direct materials for our production processes; supply tools, equipment, and IP (via licenses) for our factories; deliver logistics and packaging services; and supply software, lab, and office equipment, and other goods and services used in our business.",
+            "entity_name": "INTC Global Supply Chain Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "There has been a significant escalation in tensions and hostilities affecting or in close proximity to Israel, where we have a leading-edge fabrication facility and multiple product development centers. As a significant portion of our revenues are generated from products on Intel 7 manufactured at our fabrication facility in Israel and we are not insured for business interruptions, a disruption of that facility could have a significant adverse impact on our business.",
+            "entity_name": "INTC Israel Fabrication Facility Geopolitical Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Tensions between mainland China and Taiwan have increased significantly in recent years, presenting an elevated risk of hostilities. Many of our products and all of our more advanced products depend on suppliers in Taiwan for critical components, including various compute die, that cannot be easily or quickly replaced. Other of our products, including some of our most recently introduced products, are made entirely in Taiwan.",
+            "entity_name": "INTC Taiwan Supply Chain Disruption Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We expect to continue to benefit from government incentives, though recent US government actions create uncertainty as to the receipt of awards under our existing CHIPS Act agreements and the potential for future awards in the US. These incentives typically require that we make significant capital investments in new facilities or expand existing facilities and our related workforce.",
+            "entity_name": "INTC CHIPS Act Government Incentive Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 28, 2024, our capital investments classified as construction in progress totaled $50.4 billion ($43.4 billion as of December 30, 2023). These assets have not yet been placed into service and have not yet begun depreciating. As these construction-in-progress assets are placed into service, we expect to incur depreciation expense that impacts future production costs and, ultimately, cost of sales. To the extent we are unable to grow our revenues to offset these production costs, our gross margin and operating income will be unfavorably affected.",
+            "entity_name": "INTC Construction-in-Progress Depreciation and Impairment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Litigation charges and other includes a charge of $780 million that we recorded in 2024 arising out of the R2 litigation.",
+            "entity_name": "INTC R2 Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In 2023, a $1.2 billion benefit was recorded due to the reduction in the previously accrued charge as a result of developments in the VLSI litigation.",
+            "entity_name": "INTC VLSI Technology Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In 2024, we also received and recognized $560 million as a benefit to other, net for interest in relation to the European Commission competition matter for which we recorded and paid a ruling amount to the European Commission in 2009 and that we were successful at challenging and overturning with the ruling amount refunded to us in 2022.",
+            "entity_name": "INTC European Commission Competition Matter",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In Q3 2024, the 2024 Restructuring Plan was announced, subsequently approved and committed to by our management team, and initiated to implement cost-reduction measures, including reductions in employee headcount, other operating expenditures, and capital expenditures (see \"Note 7: Restructuring and Other Charges\" within Notes to Consolidated Financial Statements). We expect that our 2024 Restructuring Plan, in conjunction with other initiatives, will reduce our cost structure while we continue our investments to develop, manufacture, market, sell, and deliver product and process initiatives in furtherance of our strategy.",
+            "entity_name": "INTC 2024 Restructuring Plan",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In addition, we incurred non-cash impairments relating to goodwill and acquired intangible assets of $3.1 billion in 2024.",
+            "entity_name": "INTC 2024 Goodwill and Intangible Asset Impairment",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "During Q3 2024, we concluded that our manufacturing asset portfolio, primarily for our Intel 7 process node, exceeded manufacturing capacity requirements. Upon completing an asset re-use assessment, we impaired certain construction-in-progress assets and accelerated depreciation for certain in-use manufacturing assets that resulted in $3.3 billion of charges in 2024.",
+            "entity_name": "INTC Q3 2024 Intel 7 Process Node Manufacturing Asset Impairment",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "These sources are further supplemented by our committed credit facilities and other borrowing capacity and certain other Smart Capital initiatives that we have undertaken, including our Ireland SCIP transaction that closed in the second quarter of 2024 that resulted in $11.0 billion of net cash inflows to us (see \"Note 4: Non-Controlling Interests\" within Notes to Consolidated Financial Statements).",
+            "entity_name": "INTC 2024 Ireland SCIP Joint Venture with Apollo",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In September 2024, we were awarded up to $3.0 billion in direct funding for the Secure Enclave program to expand the trusted manufacturing of leading-edge semiconductors for the US government.",
+            "entity_name": "INTC September 2024 Secure Enclave CHIPS Act Award",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In November 2024, we signed a Direct Funding Agreement with the US Department of Commerce for the award of $7.9 billion in government incentives pursuant to the CHIPS Act, and we received $1.1 billion of cash in 2024 and have received an additional $1.1 billion of cash in 2025.",
+            "entity_name": "INTC November 2024 CHIPS Act Direct Funding Agreement",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "capital_return",
+            "content": "We suspended the declaration of quarterly dividends starting with Q4 2024. We are prohibited under our commercial CHIPS Act agreement from paying dividends for the next two years and are subject to limitations on the payment of dividends for the three years thereafter. Further, we do not expect to pay dividends until our cash flows improve as we focus on the critical investments needed to execute our business strategy and create long-term value.",
+            "entity_name": "INTC Q4 2024 Dividend Suspension",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "During 2024, we issued a total of $2.6 billion aggregate principal amount of senior notes and remarketed $438 million aggregate principal amount of other bonds for general corporate purposes, including, but not limited to, refinancing of outstanding debt and funding for working capital and capital expenditures.",
+            "entity_name": "INTC 2024 Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "During 2024, we also expanded both our 5-year $5.0 billion revolving credit facility agreement and our 364-day $5.0 billion credit facility agreement, to $7.0 billion and $8.0 billion, respectively, and the maturity dates were extended to February 2029 and January 2025, respectively.",
+            "entity_name": "INTC 2024 Revolving Credit Facility Expansion",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In January 2025, we amended our 364-day $8.0 billion credit facility agreement to $5.0 billion, and the maturity date was extended by one year to January 2026.",
+            "entity_name": "INTC January 2025 Credit Facility Amendment",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "As a result of our 2024 Restructuring Plan and related cost-reduction measures, we expect a decrease in total R&D and MG&A expenses in future periods as we focus investments in R&D and create capacity for sustained investment in technology and manufacturing.",
+            "entity_name": "INTC R&D and MG&A Expense Reduction Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect actions pursuant to the 2024 Restructuring Plan to be substantially completed by the fourth quarter of 2025, which is subject to change.",
+            "entity_name": "INTC 2024 Restructuring Plan Completion Timeline Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Intel competitive intensity risk",
+              "Intel AI competition risk"
+            ],
+            "attributes": {
+              "category": "competitive",
+              "geography": "global"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Competitive Industry and AI Competition Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel Foundry IFS strategy risk"
+            ],
+            "attributes": {
+              "category": "strategic",
+              "geography": "global"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Intel Foundry Third-Party Business Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel capex return risk",
+              "Intel manufacturing investment risk"
+            ],
+            "attributes": {
+              "category": "financial",
+              "geography": "global"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC R&D and Manufacturing Capital Investment Return Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel process node delay risk"
+            ],
+            "attributes": {
+              "category": "technology",
+              "geography": "global"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Process Technology Development Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel macro risk",
+              "Intel geopolitical risk"
+            ],
+            "attributes": {
+              "category": "macro",
+              "geography": "global"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Macroeconomic and Geopolitical Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel China trade risk",
+              "Intel export control risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "china_revenue_pct_fy2024": 0.29,
+              "geography": "China"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC US-China Trade and Export Control Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel AI product risk",
+              "Intel GPU competition risk"
+            ],
+            "attributes": {
+              "category": "market_demand",
+              "geography": "global"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC AI Market Demand and Product Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel supply chain risk"
+            ],
+            "attributes": {
+              "category": "supply_chain",
+              "geography": "global"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Global Supply Chain Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel Israel fab risk"
+            ],
+            "attributes": {
+              "category": "geopolitical",
+              "geography": "Israel"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Israel Fabrication Facility Geopolitical Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel Taiwan risk",
+              "Intel TSMC concentration risk"
+            ],
+            "attributes": {
+              "category": "supply_chain",
+              "geography": "Taiwan"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Taiwan Supply Chain Disruption Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel CHIPS Act risk",
+              "Intel government grant risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC CHIPS Act Government Incentive Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel CIP depreciation overhang risk"
+            ],
+            "attributes": {
+              "category": "financial",
+              "cip_balance_usd_as_of_dec28_2024": 50400000000,
+              "geography": "global"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Construction-in-Progress Depreciation and Impairment Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "R2 litigation"
+            ],
+            "attributes": {
+              "charge_recorded_2024_usd": 780000000,
+              "status": "pending"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC R2 Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "VLSI litigation"
+            ],
+            "attributes": {
+              "benefit_recorded_2023_usd": 1200000000,
+              "status": "pending"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC VLSI Technology Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EC competition matter",
+              "European Commission antitrust matter"
+            ],
+            "attributes": {
+              "interest_received_2024_usd": 560000000,
+              "original_ruling_year": 2009,
+              "refund_received_year": 2022,
+              "status": "dismissed"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC European Commission Competition Matter",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Intel 2024 restructuring",
+              "Intel Q3 2024 restructuring plan"
+            ],
+            "attributes": {
+              "announcement_period": "Q3 2024",
+              "event_type": "restructuring",
+              "expected_completion": "Q4 2025",
+              "plan_employee_severance_usd": 2200000000,
+              "total_restructuring_other_charges_2024_usd": 6970000000
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC 2024 Restructuring Plan",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel goodwill impairment 2024"
+            ],
+            "attributes": {
+              "event_type": "goodwill_impairment",
+              "impairment_usd": 3100000000,
+              "period": "2024"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC 2024 Goodwill and Intangible Asset Impairment",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel 7 node impairment 2024",
+              "Intel CIP Intel 7 impairment"
+            ],
+            "attributes": {
+              "charges_usd": 3300000000,
+              "event_type": "goodwill_impairment",
+              "note": "PP&E impairment and accelerated depreciation; manufacturing capacity exceeded requirements",
+              "period": "Q3 2024",
+              "process_node": "Intel 7"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Q3 2024 Intel 7 Process Node Manufacturing Asset Impairment",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Ireland SCIP",
+              "Intel Apollo Fab 34 Ireland JV"
+            ],
+            "attributes": {
+              "close_date": "Q2 2024",
+              "event_type": "joint_venture",
+              "facility": "Fab 34, Ireland",
+              "net_cash_inflows_usd": 11000000000,
+              "partner": "Apollo",
+              "q4_2024_penalty_charge_usd": 755000000
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC 2024 Ireland SCIP Joint Venture with Apollo",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel Secure Enclave award"
+            ],
+            "attributes": {
+              "award_amount_usd": 3000000000,
+              "counterparty": "US government",
+              "effective_date": "2024-09",
+              "event_type": "regulatory_action",
+              "program": "Secure Enclave"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC September 2024 Secure Enclave CHIPS Act Award",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel CHIPS Act DFA",
+              "Intel $7.9B CHIPS Act agreement"
+            ],
+            "attributes": {
+              "award_amount_usd": 7900000000,
+              "cash_received_2024_usd": 1100000000,
+              "cash_received_2025_usd": 1100000000,
+              "counterparty": "US Department of Commerce",
+              "effective_date": "2024-11",
+              "event_type": "regulatory_action"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC November 2024 CHIPS Act Direct Funding Agreement",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel dividend suspension 2024"
+            ],
+            "attributes": {
+              "dividend_restriction_note": "Prohibited from paying dividends for two years under commercial CHIPS Act agreement",
+              "effective_date": "2024-Q4",
+              "return_type": "dividend_suspension"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC Q4 2024 Dividend Suspension",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Intel 2024 $2.6B senior notes"
+            ],
+            "attributes": {
+              "instrument_type": "notes",
+              "principal_usd": 2600000000,
+              "purpose": "general corporate purposes including refinancing and capex"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC 2024 Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Intel 2024 revolver expansion"
+            ],
+            "attributes": {
+              "364_day_facility_new_usd": 8000000000,
+              "364_day_facility_prior_usd": 5000000000,
+              "364_day_original_new_maturity": "2025-01",
+              "five_year_facility_new_usd": 7000000000,
+              "five_year_facility_prior_usd": 5000000000,
+              "five_year_maturity": "2029-02",
+              "instrument_type": "revolver"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC 2024 Revolving Credit Facility Expansion",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Intel 2025 revolver amendment"
+            ],
+            "attributes": {
+              "effective_date": "2025-01",
+              "instrument_type": "revolver",
+              "new_facility_usd": 5000000000,
+              "new_maturity": "2026-01",
+              "prior_facility_usd": 8000000000
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC January 2025 Credit Facility Amendment",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Intel opex reduction guidance"
+            ],
+            "attributes": {
+              "direction": "decrease",
+              "metric": "RD_and_MGA_expenses",
+              "period": "future periods",
+              "update_type": "confirmation"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC R&D and MG&A Expense Reduction Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "Intel restructuring completion guidance"
+            ],
+            "attributes": {
+              "metric": "restructuring_completion",
+              "new_value": "Q4 2025",
+              "note": "subject to change",
+              "period": "Q4 2025",
+              "update_type": "confirmation"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC 2024 Restructuring Plan Completion Timeline Guidance",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Competitive Industry and AI Competition Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Intel Foundry Third-Party Business Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC R&D and Manufacturing Capital Investment Return Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Process Technology Development Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Macroeconomic and Geopolitical Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC US-China Trade and Export Control Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC AI Market Demand and Product Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Global Supply Chain Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Israel Fabrication Facility Geopolitical Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Taiwan Supply Chain Disruption Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC CHIPS Act Government Incentive Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Construction-in-Progress Depreciation and Impairment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC R2 Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC VLSI Technology Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC European Commission Competition Matter",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2024 Restructuring Plan",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2024 Goodwill and Intangible Asset Impairment",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Q3 2024 Intel 7 Process Node Manufacturing Asset Impairment",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2024 Ireland SCIP Joint Venture with Apollo",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC September 2024 Secure Enclave CHIPS Act Award",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC November 2024 CHIPS Act Direct Funding Agreement",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Q4 2024 Dividend Suspension",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2024 Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2024 Revolving Credit Facility Expansion",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC January 2025 Credit Facility Amendment",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC R&D and MG&A Expense Reduction Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2024 Restructuring Plan Completion Timeline Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/INTC/0000050863-25-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "b6a64c74c10a81af85df6778ae8676c3d2ba53f3727b4ec4bfa27b0a55f57f53"
+    },
+    {
+      "extracted_at": "2026-07-28T11:36:33Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "during 2024, some of our customers experienced instability issues when using Intel Core 13th and 14th Gen desktop processors, which required us to undertake an investigation and deploy corrective actions. This adversely impacted sales volume during 2024 and may result in higher warranty costs in the future.",
+            "entity_name": "INTC Product Defect and Errata Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The security vulnerabilities identified in our processors include a category known as side-channel vulnerabilities, such as the variants referred to as \"Spectre\" and \"Meltdown.\" Additional categories and variants have been identified and are expected to continue to be identified.",
+            "entity_name": "INTC Processor Security Vulnerability Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We face significant and persistent cybersecurity risks due to: the breadth of geographies, networks, and systems we must defend against cybersecurity attacks; the complexity, technical sophistication, value, and widespread use of our systems, products, and processes; the attractiveness of our systems, products, and processes to threat actors (including state-sponsored organizations) seeking to inflict harm on us or our customers; the substantial level of harm that could occur to us and our customers were we to suffer impacts of a material cybersecurity incident; and our use of third-party products, services, and components.",
+            "entity_name": "INTC Cybersecurity Threat Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In the past few years, we have faced costly and lengthy lawsuits across multiple jurisdictions selected by non-practicing entities with well-funded third-party investment support, including most notably the VLSI and R2 litigation, which have resulted in significant adverse judgments and settlements.",
+            "entity_name": "INTC IP Litigation and Patent Infringement Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Collectively, our three largest customers accounted for 45% of our net revenue in 2024, 40% of our net revenue in 2023 and 42% of our net revenue in 2022. We expect a small number of customers will continue to account for a significant portion of our revenue in the foreseeable future.",
+            "entity_name": "INTC Customer Revenue Concentration Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 28, 2024, we had $51.0 billion in aggregate principal amount of senior unsecured notes and other borrowings outstanding. During 2024 and in prior years, we suffered multiple credit rating downgrades that adversely impacted our borrowing costs and access to capital, and we may continue to suffer additional such downgrades if our business and financial results do not measurably improve.",
+            "entity_name": "INTC Debt Obligation and Credit Rating Downgrade Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have had a number of changes in our senior leadership team in recent years, including our CEO and other senior management positions. For example, in December 2024, our most recent CEO retired after less than four years with the company and a search is currently underway for a new CEO.",
+            "entity_name": "INTC Talent Retention and Senior Leadership Change Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "our failure to realize a satisfactory return on our investment, potentially resulting in an impairment of goodwill and other assets, such as the $2.9 billion charge we recorded in the third quarter of 2024 primarily related to Mobileye goodwill, and restructuring charges",
+            "entity_name": "INTC Mobileye Goodwill Impairment Q3 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "For example, in December 2024, our most recent CEO retired after less than four years with the company and a search is currently underway for a new CEO.",
+            "entity_name": "INTC CEO Retirement December 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "we have been required to curtail our planned hiring and reduce our workforce to respond to business conditions that have differed from our expectations, which can be disruptive, adversely impact employee morale, compromise our ability to deliver on our strategy and workforce goals, and impact our ability to recruit in the future. For example, we undertook significant headcount reductions in 2022 and 2024.",
+            "entity_name": "INTC 2024 Headcount Reduction",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In the fourth quarter of 2020, our Habana Labs subsidiary's network was breached in connection with a suspected unsuccessful ransomware attack, resulting in unauthorized third-party access of certain confidential information.",
+            "entity_name": "INTC Habana Labs Network Breach Q4 2020",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "For example, in February 2024, R2 Semiconductor, Inc., a non-practicing entity, was able to obtain an injunction and recall order against us and our customers in the Dusseldorf Regional Court in Germany that, if enforced, could have caused significant potential disruption to our and our customers' businesses in Europe.",
+            "entity_name": "R2 Semiconductor v. Intel Germany",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In the past few years, we have faced costly and lengthy lawsuits across multiple jurisdictions selected by non-practicing entities with well-funded third-party investment support, including most notably the VLSI and R2 litigation, which have resulted in significant adverse judgments and settlements.",
+            "entity_name": "VLSI Technology v. Intel",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "capital_return",
+            "content": "In recent years, we have not made repurchases of our stock and reduced, and then suspended in the fourth quarter of 2024, our quarterly dividend. Further, we agreed under our commercial CHIPS Act agreement to forgo paying dividends for the next two years, and agreed to limitations on the payment of dividends for the three years thereafter.",
+            "entity_name": "INTC Q4 2024 Dividend Suspension",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "During 2024 and in prior years, we suffered multiple credit rating downgrades that adversely impacted our borrowing costs and access to capital, and we may continue to suffer additional such downgrades if our business and financial results do not measurably improve.",
+            "entity_name": "INTC 2024 Credit Rating Downgrades",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Ms. Johnston Holthaus has been Interim Co-Chief Executive Officer of Intel and Chief Executive Officer of Intel Products since December 2024. As CEO of Intel Products, she is responsible for a group that encompasses the company's Client Computing Group (CCG), Data Center and AI Group and Network and Edge Group.",
+            "entity_name": "Michelle Johnston Holthaus",
+            "entity_type_entity": "Person",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Mr. Hotard has been Executive Vice President and General Manager of the Data Center and AI Group (DCAI) since February 2024. In this capacity, he directs the strategic vision and operational management of Intel's data center portfolio, while also playing a crucial role in the company's focus on AI systems.",
+            "entity_name": "Justin Hotard",
+            "entity_type_entity": "Person",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Ms. Miller Boise has been our Executive Vice President and Chief Legal Officer since July 2022 and Corporate Secretary since August 2022. Ms. Miller Boise leads Intel's global legal, trade, and government affairs team, is a member of Intel's Executive Leadership Team, and is a strategic advisor to the company and the Board of Directors.",
+            "entity_name": "April Miller Boise",
+            "entity_type_entity": "Person",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Mr. Schell has been our Executive Vice President and Chief Commercial Officer and General Manager of the Sales, Marketing and Communications Group since March 2022. In his role, he oversees Intel's global sales, business management, marketing, communications, corporate planning, customer support, and customer success teams, leading the company's efforts to foster innovative go-to-market approaches that broaden Intel's business opportunities and deepen customer and partner relationships and outcomes worldwide.",
+            "entity_name": "Christoph Schell",
+            "entity_type_entity": "Person",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Intel",
+              "INTC"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "Intel Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Intel Core 13th 14th Gen instability",
+              "Intel product defect risk"
+            ],
+            "attributes": {
+              "category": "product_quality"
+            },
+            "identifiers": {},
+            "name": "INTC Product Defect and Errata Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Spectre Meltdown side-channel vulnerability",
+              "Intel processor security risk"
+            ],
+            "attributes": {
+              "category": "product_security"
+            },
+            "identifiers": {},
+            "name": "INTC Processor Security Vulnerability Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel cyberattack risk",
+              "Intel state-sponsored cyberattack risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity"
+            },
+            "identifiers": {},
+            "name": "INTC Cybersecurity Threat Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel non-practicing entity patent risk",
+              "Intel VLSI R2 patent litigation risk"
+            ],
+            "attributes": {
+              "category": "legal"
+            },
+            "identifiers": {},
+            "name": "INTC IP Litigation and Patent Infringement Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel top-3 customer concentration risk"
+            ],
+            "attributes": {
+              "category": "revenue_concentration",
+              "top_3_customer_revenue_pct_2024": 0.45
+            },
+            "identifiers": {},
+            "name": "INTC Customer Revenue Concentration Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel credit rating risk",
+              "Intel debt service risk"
+            ],
+            "attributes": {
+              "category": "financial",
+              "outstanding_principal_usd": 51000000000
+            },
+            "identifiers": {},
+            "name": "INTC Debt Obligation and Credit Rating Downgrade Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Intel CEO succession risk",
+              "Intel key employee retention risk"
+            ],
+            "attributes": {
+              "category": "human_capital"
+            },
+            "identifiers": {},
+            "name": "INTC Talent Retention and Senior Leadership Change Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Mobileye $2.9B impairment 2024"
+            ],
+            "attributes": {
+              "charge_usd": 2900000000,
+              "event_type": "goodwill_impairment",
+              "period": "Q3 2024",
+              "subject": "Mobileye"
+            },
+            "identifiers": {},
+            "name": "INTC Mobileye Goodwill Impairment Q3 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel CEO departure 2024"
+            ],
+            "attributes": {
+              "effective_date": "2024-12",
+              "event_type": "management_change",
+              "role_affected": "CEO"
+            },
+            "identifiers": {},
+            "name": "INTC CEO Retirement December 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel 2024 restructuring",
+              "Intel workforce reduction 2024"
+            ],
+            "attributes": {
+              "event_type": "restructuring",
+              "period": "2024"
+            },
+            "identifiers": {},
+            "name": "INTC 2024 Headcount Reduction",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Habana Labs ransomware breach 2020"
+            ],
+            "attributes": {
+              "event_type": "cybersecurity_incident",
+              "incident_nature": "suspected unsuccessful ransomware attack",
+              "period": "Q4 2020",
+              "subsidiary": "Habana Labs"
+            },
+            "identifiers": {},
+            "name": "INTC Habana Labs Network Breach Q4 2020",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "R2 Semiconductor Germany injunction 2024"
+            ],
+            "attributes": {
+              "counterparty": "R2 Semiconductor, Inc.",
+              "court": "Dusseldorf Regional Court",
+              "judgment_date": "2024-02",
+              "nature": "patent injunction and recall order",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "R2 Semiconductor v. Intel Germany",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "VLSI litigation against Intel"
+            ],
+            "attributes": {
+              "counterparty": "VLSI",
+              "nature": "patent infringement multi-jurisdiction",
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "VLSI Technology v. Intel",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Intel quarterly dividend suspension 2024"
+            ],
+            "attributes": {
+              "chips_act_restriction": "forgo dividends for two years under commercial CHIPS Act agreement",
+              "effective_date": "2024-Q4",
+              "return_type": "dividend_suspension"
+            },
+            "identifiers": {},
+            "name": "INTC Q4 2024 Dividend Suspension",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Intel credit downgrade 2024"
+            ],
+            "attributes": {
+              "instrument_type": "refinancing",
+              "note": "Multiple credit rating downgrades during 2024 and prior years adversely impacted borrowing costs and access to capital"
+            },
+            "identifiers": {},
+            "name": "INTC 2024 Credit Rating Downgrades",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "officer",
+              "officer_role": "CEO",
+              "tenure_start_date": "2024-12"
+            },
+            "identifiers": {},
+            "name": "Michelle Johnston Holthaus",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "tenure_start_date": "2024-02"
+            },
+            "identifiers": {},
+            "name": "Justin Hotard",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "officer",
+              "officer_role": "GeneralCounsel",
+              "tenure_start_date": "2022-07"
+            },
+            "identifiers": {},
+            "name": "April Miller Boise",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "officer",
+              "officer_role": "Other",
+              "tenure_start_date": "2022-03"
+            },
+            "identifiers": {},
+            "name": "Christoph Schell",
+            "type": "Person"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Product Defect and Errata Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Processor Security Vulnerability Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Cybersecurity Threat Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC IP Litigation and Patent Infringement Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Customer Revenue Concentration Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Debt Obligation and Credit Rating Downgrade Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Talent Retention and Senior Leadership Change Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Mobileye Goodwill Impairment Q3 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC CEO Retirement December 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2024 Headcount Reduction",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Habana Labs Network Breach Q4 2020",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "R2 Semiconductor v. Intel Germany",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "VLSI Technology v. Intel",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Q4 2024 Dividend Suspension",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2024 Credit Rating Downgrades",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2025-01-31",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Interim Co-Chief Executive Officer and Chief Executive Officer of Intel Products",
+              "tenure_start_date": "2024-12"
+            },
+            "source_name": "Michelle Johnston Holthaus",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-12-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Executive Vice President and General Manager, Data Center and AI Group",
+              "tenure_start_date": "2024-02"
+            },
+            "source_name": "Justin Hotard",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2024-02-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Executive Vice President and Chief Legal Officer",
+              "tenure_start_date": "2022-07"
+            },
+            "source_name": "April Miller Boise",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-07-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Executive Vice President, Chief Commercial Officer and General Manager, Sales, Marketing and Communications Group",
+              "tenure_start_date": "2022-03"
+            },
+            "source_name": "Christoph Schell",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-03-01",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/INTC/0000050863-25-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "6dbcb76edfa0823548d8070b82fd0af2cbeb8c07b4de5b912879ff313b6f9fee"
+    },
+    {
+      "extracted_at": "2026-07-28T11:42:28Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Mr. Yeary has been Interim Executive Chair of Intel's Board of Directors since December 2024. He joined the Board in March 2009 and was named Chair of the Board in January 2023. He is Managing Member at Darwin Capital Advisors LLC, a private investment firm, and was Executive Chairman of CamberView Partners LLC, a corporate advisory firm, until 2018.",
+            "entity_name": "Frank D. Yeary",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Mr. Zinsner has been Interim Co-Chief Executive Officer of Intel since December 2024. He has also been our Executive Vice President and Chief Financial Officer since January 2022, overseeing our global finance organization. He joined Intel from Micron Technology, Inc., a manufacturer of memory and storage products, where he most recently served as Executive Vice President and Chief Financial Officer from February 2018 to October 2021.",
+            "entity_name": "David Zinsner",
+            "entity_type_entity": "Person",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "the Company identified certain impairment indicators in the three months ended September 28, 2024 that required an interim goodwill impairment test. As a result of this assessment, the Company recorded an impairment loss of $2.6 billion related to the Mobileye reporting unit.",
+            "entity_name": "INTC Mobileye Goodwill Impairment Q3 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "We previously announced the implementation of our internal foundry operating model, which took effect in the first quarter of 2024, and creates a foundry relationship between our Intel Products business (collectively CCG, DCAI, and NEX) and our Intel Foundry business.",
+            "entity_name": "INTC Internal Foundry Operating Model Implementation Q1 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "segment",
+            "content": "Intel Foundry also includes certain third-party foundry and assembly and test revenue from external customers that totaled $385 million in 2024, $953 million in 2023, and $474 million in 2022.",
+            "entity_name": "Intel Foundry",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2",
+              "total_paid_usd": 1599000000
+            },
+            "chunk_type": "capital_return",
+            "content": "Cash dividends declared ($0.38 per share of common stock)",
+            "entity_name": "INTC FY2024 Cash Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Though Intel has suspended sales in Russia, there may be a need to file documents or engage with FSB as Intel winds up our local Russian offices. All such dealings are explicitly authorized by General License 1B issued by the US Department of the Treasury's Office of Foreign Assets Control (OFAC), and there are no gross revenues or net profits directly associated with any such dealings by us with the FSB.",
+            "entity_name": "INTC Russia Sanctions OFAC Compliance Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Frank Yeary"
+            ],
+            "attributes": {
+              "chair_since": "2023-01",
+              "current_company_id": "INTC",
+              "insider_status": "officer",
+              "interim_executive_chair_since": "2024-12",
+              "officer_role": "ChairOfBoard",
+              "tenure_start_date": "2009-03"
+            },
+            "identifiers": {},
+            "name": "Frank D. Yeary",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "additional_role": "Interim Co-Chief Executive Officer since December 2024",
+              "current_company_id": "INTC",
+              "insider_status": "officer",
+              "officer_role": "CFO",
+              "tenure_start_date": "2022-01"
+            },
+            "identifiers": {},
+            "name": "David Zinsner",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Intel"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "Intel Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Mobileye goodwill impairment 2024"
+            ],
+            "attributes": {
+              "event_type": "goodwill_impairment",
+              "impairment_amount_usd": 2600000000,
+              "mobileye_goodwill_pre_impairment_usd": 8300000000,
+              "reporting_unit": "Mobileye",
+              "trigger_period": "Q3 FY2024"
+            },
+            "identifiers": {},
+            "name": "INTC Mobileye Goodwill Impairment Q3 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel internal foundry model",
+              "Intel Products Intel Foundry separation"
+            ],
+            "attributes": {
+              "effective_date": "2024-Q1",
+              "event_type": "restructuring"
+            },
+            "identifiers": {},
+            "name": "INTC Internal Foundry Operating Model Implementation Q1 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 1599000000,
+              "fiscal_year": "FY2024",
+              "per_share": 0.38,
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "INTC FY2024 Cash Dividend",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "IFS",
+              "Intel Foundry Services"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Intel Foundry",
+              "ticker": "INTC"
+            },
+            "name": "Intel Foundry",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Intel Russia FSB exposure",
+              "Section 13r sanctions disclosure"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "Russia",
+              "regulatory_framework": "Section 13(r) Securities Exchange Act"
+            },
+            "identifiers": {},
+            "name": "INTC Russia Sanctions OFAC Compliance Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "chair_since": "2023-01",
+              "interim_executive_chair_since": "2024-12",
+              "role": "ChairOfBoard",
+              "tenure_start_date": "2009-03"
+            },
+            "source_name": "Frank D. Yeary",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2023-01-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "additional_role": "Interim Co-CEO since 2024-12",
+              "role": "CFO",
+              "tenure_start_date": "2022-01"
+            },
+            "source_name": "David Zinsner",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-01-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Mobileye Goodwill Impairment Q3 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Internal Foundry Operating Model Implementation Q1 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC FY2024 Cash Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2024",
+              "revenue": 385000000,
+              "revenue_type": "external_third_party_only"
+            },
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Intel Foundry",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Russia Sanctions OFAC Compliance Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/INTC/0000050863-25-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "93d8e58176bc048ab0cd1dda90a26113f2514d1eae4ce10d8904c1b9a2e381ef"
+    },
+    {
+      "extracted_at": "2026-07-28T11:55:57Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "column_order": "CCG, DCAI, NEX, Total Intel Products, Intel Foundry, All Other, Corporate Unallocated, Intersegment Eliminations, Total Consolidated",
+              "period": "Dec 28, 2024",
+              "section_type": "Item_2",
+              "units": "millions USD"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue$30,290 $12,817 $5,842 $48,949 $17,543 $3,824 $— $(17,215)$53,101 \nCost of sales14,569 6,792 2,457 23,818 25,596 1,831 1,919 (17,408)35,756 \nGross margin (loss)\n15,721 6,025 3,385 25,131 (8,053)1,993 (1,919)193 17,345 \nOperating expenses4,801 4,687 2,454 11,942 5,355 2,077 9,299 350 29,023 \nOperating income (loss)\n$10,920 $1,338 $931 $13,189 $(13,408)$(84)$(11,218)$(157)$(11,678)",
+            "entity_name": "INTC CCG Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "column_order": "CCG, DCAI, NEX, Total Intel Products, Intel Foundry, All Other, Corporate Unallocated, Intersegment Eliminations, Total Consolidated",
+              "period": "Dec 28, 2024",
+              "section_type": "Item_2",
+              "units": "millions USD"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue$30,290 $12,817 $5,842 $48,949 $17,543 $3,824 $— $(17,215)$53,101 \nCost of sales14,569 6,792 2,457 23,818 25,596 1,831 1,919 (17,408)35,756 \nGross margin (loss)\n15,721 6,025 3,385 25,131 (8,053)1,993 (1,919)193 17,345 \nOperating expenses4,801 4,687 2,454 11,942 5,355 2,077 9,299 350 29,023 \nOperating income (loss)\n$10,920 $1,338 $931 $13,189 $(13,408)$(84)$(11,218)$(157)$(11,678)",
+            "entity_name": "INTC DCAI Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "column_order": "CCG, DCAI, NEX, Total Intel Products, Intel Foundry, All Other, Corporate Unallocated, Intersegment Eliminations, Total Consolidated",
+              "period": "Dec 28, 2024",
+              "section_type": "Item_2",
+              "units": "millions USD"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue$30,290 $12,817 $5,842 $48,949 $17,543 $3,824 $— $(17,215)$53,101 \nCost of sales14,569 6,792 2,457 23,818 25,596 1,831 1,919 (17,408)35,756 \nGross margin (loss)\n15,721 6,025 3,385 25,131 (8,053)1,993 (1,919)193 17,345 \nOperating expenses4,801 4,687 2,454 11,942 5,355 2,077 9,299 350 29,023 \nOperating income (loss)\n$10,920 $1,338 $931 $13,189 $(13,408)$(84)$(11,218)$(157)$(11,678)",
+            "entity_name": "INTC NEX Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "column_order": "CCG, DCAI, NEX, Total Intel Products, Intel Foundry, All Other, Corporate Unallocated, Intersegment Eliminations, Total Consolidated",
+              "period": "Dec 28, 2024",
+              "section_type": "Item_2",
+              "units": "millions USD"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue$30,290 $12,817 $5,842 $48,949 $17,543 $3,824 $— $(17,215)$53,101 \nCost of sales14,569 6,792 2,457 23,818 25,596 1,831 1,919 (17,408)35,756 \nGross margin (loss)\n15,721 6,025 3,385 25,131 (8,053)1,993 (1,919)193 17,345 \nOperating expenses4,801 4,687 2,454 11,942 5,355 2,077 9,299 350 29,023 \nOperating income (loss)\n$10,920 $1,338 $931 $13,189 $(13,408)$(84)$(11,218)$(157)$(11,678)",
+            "entity_name": "INTC Intel Foundry Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In the third quarter of 2024, the 2024 Restructuring Plan was announced, subsequently approved and committed to by our management team, and initiated to implement cost-reduction measures, including reductions in employee headcount, other operating expenditures, and capital expenditures. Restructuring charges are primarily composed of employee severance and benefit arrangements, non-cash charges related to asset impairments associated with exit activities, and charges relating to real estate exits and consolidations. These charges were included as \"corporate unallocated expenses\" within the restructuring and other category presented in \"Note 3: Operating Segments\" within Notes to Consolidated Financial Statements.",
+            "entity_name": "Intel 2024 Restructuring Plan",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect to recognize total charges of approximately $3.0 billion under the 2024 Restructuring Plan. The cumulative cost of the 2024 Restructuring Plan as of December 28, 2024, was $2.8 billion. Any changes to our estimates or timing will be reflected in our results of operations in future periods. We expect actions pursuant to the 2024 Restructuring Plan to be substantially complete by the fourth quarter of 2025, which is subject to change.",
+            "entity_name": "Intel 2024 Restructuring Plan Cost and Completion Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "we recognized a non-cash goodwill impairment charge of $2.8 billion in the third quarter of 2024 within restructuring and other, most of which related to our Mobileye reporting unit, as the estimated fair value of the reporting unit was lower than the assigned carrying value.",
+            "entity_name": "INTC 2024 Mobileye Goodwill Impairment",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "we recognized a non-cash goodwill impairment loss of $222 million within restructuring and other in the first quarter of 2024 related to our Intel Foundry reporting unit, as the estimated fair value of the new reporting unit was lower than the assigned carrying value, which includes substantially all of our allocated property, plant, and equipment. The Intel Foundry reporting unit has no remaining goodwill.",
+            "entity_name": "INTC 2024 Intel Foundry Goodwill Impairment",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In the second quarter of 2024, we closed a transaction with Apollo Global Management, Inc. (Apollo) involving the sale of 49% of our interest in an Irish limited liability company (Ireland SCIP) for net proceeds of $11.0 billion, which increased our capital in excess of par value. Ireland SCIP is a VIE that we consolidate into our Consolidated Financial Statements because we are the primary beneficiary. Generally, distributions will be received from Ireland SCIP based on both parties' proportional ownership. Ireland SCIP has the rights to operate Fab 34 in Leixlip, Ireland, and has the rights to the related factory output.",
+            "entity_name": "Ireland SCIP Apollo Transaction Q2 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are required to substantially complete construction of Fab 34 in accordance with contractual parameters and timelines or we will be required to pay delay-related liquidated damages to Apollo beginning in 2026, not to exceed $1.1 billion in total. As of December 28, 2024, we expect certain construction milestones for Fab 34 will be delayed as we refined our near-term production capacity requirements and related capital outlays relative to those that are required per the Ireland SCIP agreement. As a result, in 2024 we recognized a loss of $755 million within Interest and other, net from the change in fair value of the liquidated damage provisions, which qualify as a non-designated derivative.",
+            "entity_name": "Intel Ireland SCIP Construction Delay and Liquidated Damages Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "We have a receivable within other current assets for the transaction's remaining proceeds of $2.0 billion, which remains outstanding as of December 28, 2024 and will be received upon the second closing of the transaction, expected to be in March 2025.",
+            "entity_name": "INTC NAND Memory Business Divestiture to SK Hynix",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have an unrecognized commitment to fund our respective share of the total construction costs of Arizona SCIP. The total construction costs were estimated at $29.0 billion when we entered into the definitive agreement with Brookfield in 2022. As of December 28, 2024, substantially all of the assets of Arizona SCIP consisted of property, plant, and equipment. The assets held by Arizona SCIP, which can be used only to settle obligations of the VIE and are not available to us, were $11.5 billion as of December 28, 2024 ($4.8 billion as of December 30, 2023).",
+            "entity_name": "Intel Arizona SCIP Construction Cost Commitment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In September 2024, we were awarded up to $3.0 billion in direct funding for the Secure Enclave program to expand the trusted manufacturing of leading-edge semiconductors for the US government. In November 2024, we signed a Direct Funding Agreement with the US Department of Commerce for the award of $7.9 billion in government incentives. We recognized $1.3 billion of grants, including $253 million of operating grants, in 2024 under the CHIPS Act. Additionally, we recognized an advanced manufacturing investment tax credit of $2.6 billion in 2024 ($845 million in 2023), which may be refunded to us in cash to the extent it exceeds our outstanding income tax liabilities.",
+            "entity_name": "Intel CHIPS Act Direct Funding Agreement November 2024",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "Litigation charges and other includes a charge of $780 million in 2024 arising out of the R2 litigation.",
+            "entity_name": "R2 Litigation vs Intel",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In 2023, a $1.2 billion benefit was recorded due to the reduction in the previously accrued charge as a result of developments in the VLSI litigation.",
+            "entity_name": "VLSI Technology Litigation vs Intel",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "2023 charges also included a $401 million charge for an EC-imposed fine and a $353 million termination fee in connection with our inability to timely obtain required regulatory approvals needed to acquire Tower.",
+            "entity_name": "European Commission Competition Fine 2023 vs Intel",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "note": "Three tranches with zero balance at Dec 30, 2023 and non-zero balance at Dec 28, 2024, indicating issuance during FY2024. Format per row: coupon rate, then effective rate / Dec 28 2024 balance ($M) / Dec 30 2023 balance ($M)",
+              "section_type": "Item_2"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "5.00%, due February 2031\n4.99%500 —\n5.15%, due February 2034\n5.20%900 —\n5.60%, due February 2054\n5.61%1,150 —",
+            "entity_name": "Intel FY2024 Fixed-Rate Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Client Computing Group",
+              "CCG"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "CCG",
+              "ticker": "INTC"
+            },
+            "name": "INTC CCG Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Data Center and AI",
+              "DCAI"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "DCAI",
+              "ticker": "INTC"
+            },
+            "name": "INTC DCAI Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Network and Edge",
+              "NEX"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "NEX",
+              "ticker": "INTC"
+            },
+            "name": "INTC NEX Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Intel Foundry"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Intel Foundry",
+              "ticker": "INTC"
+            },
+            "name": "INTC Intel Foundry Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "2024 Restructuring Plan"
+            ],
+            "attributes": {
+              "asset_impairment_usd": 3631000000,
+              "charges_fy2024_usd": 6970000000,
+              "cumulative_charges_through_dec2024_usd": 2800000000,
+              "employee_severance_usd": 2481000000,
+              "event_type": "restructuring",
+              "expected_completion": "Q4 2025",
+              "expected_total_charges_usd": 3000000000
+            },
+            "identifiers": {},
+            "name": "Intel 2024 Restructuring Plan",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Mobileye goodwill impairment Q3 2024"
+            ],
+            "attributes": {
+              "event_type": "goodwill_impairment",
+              "impairment_usd": 2613000000,
+              "quarter": "Q3 2024",
+              "reporting_unit": "Mobileye"
+            },
+            "identifiers": {},
+            "name": "INTC 2024 Mobileye Goodwill Impairment",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel Foundry goodwill impairment Q1 2024"
+            ],
+            "attributes": {
+              "event_type": "goodwill_impairment",
+              "impairment_usd": 222000000,
+              "quarter": "Q1 2024",
+              "reporting_unit": "Intel Foundry"
+            },
+            "identifiers": {},
+            "name": "INTC 2024 Intel Foundry Goodwill Impairment",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Ireland SCIP",
+              "Apollo Fab 34 deal"
+            ],
+            "attributes": {
+              "effective_period": "Q2 2024",
+              "event_type": "joint_venture",
+              "fab": "Fab 34",
+              "interest_sold_pct": 0.49,
+              "location": "Leixlip, Ireland",
+              "net_proceeds_usd": 11000000000,
+              "partner": "Apollo Global Management, Inc."
+            },
+            "identifiers": {},
+            "name": "Ireland SCIP Apollo Transaction Q2 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "NAND OpCo sale",
+              "SK hynix NAND deal"
+            ],
+            "attributes": {
+              "buyer": "SK hynix Inc.",
+              "event_type": "divestiture",
+              "first_closing_date": "2021-12-29",
+              "remaining_proceeds_usd": 2000000000,
+              "second_closing_expected": "2025-03"
+            },
+            "identifiers": {},
+            "name": "INTC NAND Memory Business Divestiture to SK Hynix",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "CHIPS Act DFA",
+              "CHIPS Act $7.9B award"
+            ],
+            "attributes": {
+              "amtc_recognized_2024_usd": 2600000000,
+              "counterparty": "US Department of Commerce",
+              "direct_funding_award_usd": 7900000000,
+              "effective_date": "2024-11",
+              "event_type": "regulatory_action",
+              "grants_recognized_2024_usd": 1300000000,
+              "secure_enclave_award_usd": 3000000000
+            },
+            "identifiers": {},
+            "name": "Intel CHIPS Act Direct Funding Agreement November 2024",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "R2 litigation"
+            ],
+            "attributes": {
+              "charge_2024_usd": 780000000,
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "R2 Litigation vs Intel",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "VLSI litigation"
+            ],
+            "attributes": {
+              "charge_benefit_2023_usd": -1200000000,
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "VLSI Technology Litigation vs Intel",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "EC fine 2023",
+              "EC competition fine"
+            ],
+            "attributes": {
+              "authority": "European Commission",
+              "charge_2023_usd": 401000000,
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "European Commission Competition Fine 2023 vs Intel",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Intel 2024 senior notes"
+            ],
+            "attributes": {
+              "instrument_type": "notes",
+              "total_principal_usd": 2550000000,
+              "tranches": [
+                {
+                  "coupon_pct": 5.0,
+                  "effective_rate_pct": 4.99,
+                  "maturity": "2031-02",
+                  "principal_usd": 500000000
+                },
+                {
+                  "coupon_pct": 5.15,
+                  "effective_rate_pct": 5.2,
+                  "maturity": "2034-02",
+                  "principal_usd": 900000000
+                },
+                {
+                  "coupon_pct": 5.6,
+                  "effective_rate_pct": 5.61,
+                  "maturity": "2054-02",
+                  "principal_usd": 1150000000
+                }
+              ]
+            },
+            "identifiers": {},
+            "name": "Intel FY2024 Fixed-Rate Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Fab 34 delay risk",
+              "Ireland SCIP liquidated damages risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "damages_commencement": "2026",
+              "geography": "Ireland",
+              "loss_recognized_2024_usd": 755000000,
+              "max_liquidated_damages_usd": 1100000000
+            },
+            "identifiers": {},
+            "name": "Intel Ireland SCIP Construction Delay and Liquidated Damages Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Arizona SCIP Brookfield commitment risk"
+            ],
+            "attributes": {
+              "category": "financial",
+              "geography": "Arizona",
+              "partner": "Brookfield Asset Management",
+              "total_construction_cost_estimate_usd": 29000000000,
+              "vie_assets_usd": 11500000000
+            },
+            "identifiers": {},
+            "name": "Intel Arizona SCIP Construction Cost Commitment Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "2024 Restructuring Plan outlook"
+            ],
+            "attributes": {
+              "metric": "restructuring_total_charges",
+              "new_value": "approximately $3.0 billion",
+              "period": "FY2024-FY2025",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "Intel 2024 Restructuring Plan Cost and Completion Guidance",
+            "type": "GuidanceUpdate"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.035,
+              "margin": 0.519,
+              "operating_income_usd": 10920000000,
+              "period": "FY2024",
+              "revenue": 30290000000
+            },
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC CCG Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.014,
+              "margin": 0.47,
+              "operating_income_usd": 1338000000,
+              "period": "FY2024",
+              "revenue": 12817000000
+            },
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC DCAI Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.012,
+              "margin": 0.579,
+              "operating_income_usd": 931000000,
+              "period": "FY2024",
+              "revenue": 5842000000
+            },
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC NEX Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.072,
+              "margin": -0.459,
+              "operating_income_usd": -13408000000,
+              "period": "FY2024",
+              "revenue": 17543000000
+            },
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC Intel Foundry Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Intel 2024 Restructuring Plan",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2024 Mobileye Goodwill Impairment",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC 2024 Intel Foundry Goodwill Impairment",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Ireland SCIP Apollo Transaction Q2 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC NAND Memory Business Divestiture to SK Hynix",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Intel CHIPS Act Direct Funding Agreement November 2024",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "R2 Litigation vs Intel",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "VLSI Technology Litigation vs Intel",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "European Commission Competition Fine 2023 vs Intel",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Intel FY2024 Fixed-Rate Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Intel Ireland SCIP Construction Delay and Liquidated Damages Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Intel Arizona SCIP Construction Cost Commitment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "INTC 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "Intel 2024 Restructuring Plan Cost and Completion Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/INTC/0000050863-25-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "3243e3e5f7fce8035048df1311aca3092eab4e585e846bdc62487278a8df08b8"
+    },
+    {
+      "extracted_at": "2026-07-28T11:58:57Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In 2024, we issued a total of $2.6 billion aggregate principal amount of senior notes, and settled in cash $1.9 billion of our senior notes that matured in May 2024 and June 2024.",
+            "entity_name": "INTC FY2024 $2.6B Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2025-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In 2024, we remarketed $438 million aggregate principal amount of bonds issued by the Industrial Development Authority of the City of Chandler, Arizona. In accordance with loan agreements we entered into with the Industrial Development Authority of the City of Chandler, Arizona, the bonds are unsecured general obligations. The bonds mature in 2049 and have a 4.0% coupon. The bonds are subject to optional tender starting in February 2029 and mandatory tender in June 2029, at which time we may remarket the bonds for a new term period.",
+            "entity_name": "INTC FY2024 Arizona Bonds Remarketing $438M",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2025-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In 2024, we expanded both our 5-year $5.0 billion revolving credit facility agreement and our 364-day $5.0 billion credit facility agreement, to $7.0 billion and $8.0 billion, respectively, and the maturity dates were extended by one year to February 2029 and January 2025, respectively. These credit facilities are unsecured general obligations. The revolving credit facilities had no borrowings outstanding as of December 28, 2024 and December 30, 2023.",
+            "entity_name": "INTC FY2024 Revolving Credit Facility Expansion",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2025-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In January 2025, we amended our 364-day $8.0 billion credit facility agreement to $5.0 billion, and the maturity date was extended by one year to January 2026.",
+            "entity_name": "INTC January 2025 364-Day Credit Facility Amendment to $5.0B",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2025-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "Our Ireland SCIP agreement with Apollo contains construction-related liquidated damage provisions that meet the definition of an embedded derivative that is not clearly and closely related to the relevant host contract, thus requiring bifurcation and separate accounting as a derivative liability. As of December 28, 2024, we assessed the probability of paying damages to Apollo and recognized a loss of $755 million in 2024 within Interest and other, net, and a derivative liability within Other long-term liabilities.",
+            "entity_name": "INTC FY2024 Ireland SCIP Apollo Liquidated Damages $755M",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "Share-based compensation recognized in 2024 was $3.4 billion ($3.2 billion in 2023 and $3.1 billion in 2022). During 2024, the actual tax benefit that we realized for the tax deduction from share-based awards totaled $684 million ($571 million in 2023 and $478 million in 2022).",
+            "entity_name": "INTC FY2024 Share-Based Compensation $3.4B",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-01-30",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Intel 2024 senior notes issuance"
+            ],
+            "attributes": {
+              "instrument_type": "notes",
+              "issuance_year": 2024,
+              "note": "Settled $1.9B of senior notes maturing in May 2024 and June 2024 in same period",
+              "principal_usd": 2600000000
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC FY2024 $2.6B Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Chandler Arizona bonds 2024 remarketing",
+              "Intel 4.0% 2049 bonds remarketing"
+            ],
+            "attributes": {
+              "coupon": 0.04,
+              "instrument_type": "refinancing",
+              "issuer": "Industrial Development Authority of the City of Chandler, Arizona",
+              "mandatory_tender": "2029-06",
+              "maturity": "2049",
+              "optional_tender_start": "2029-02",
+              "principal_usd": 438000000
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC FY2024 Arizona Bonds Remarketing $438M",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Intel 2024 revolver expansion"
+            ],
+            "attributes": {
+              "364_day_facility_new_usd": 8000000000,
+              "364_day_facility_prior_usd": 5000000000,
+              "364_day_maturity": "2025-01",
+              "borrowings_outstanding": 0,
+              "five_year_facility_new_usd": 7000000000,
+              "five_year_facility_prior_usd": 5000000000,
+              "five_year_maturity": "2029-02",
+              "instrument_type": "revolver"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC FY2024 Revolving Credit Facility Expansion",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Intel January 2025 credit facility amendment"
+            ],
+            "attributes": {
+              "amendment_date": "2025-01",
+              "instrument_type": "revolver",
+              "maturity": "2026-01",
+              "principal_usd": 5000000000,
+              "prior_principal_usd": 8000000000
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC January 2025 364-Day Credit Facility Amendment to $5.0B",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Intel SCIP Apollo liquidated damages",
+              "Ireland SCIP derivative liability"
+            ],
+            "attributes": {
+              "counterparty": "Apollo",
+              "event_type": "joint_venture",
+              "loss_recognized_usd": 755000000,
+              "note": "Construction-related liquidated damage provisions under Ireland SCIP agreement recognized as embedded derivative liability in Other long-term liabilities",
+              "period": "FY2024"
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC FY2024 Ireland SCIP Apollo Liquidated Damages $755M",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Intel 2024 equity compensation disclosure",
+              "Intel 2024 share-based comp"
+            ],
+            "attributes": {
+              "amount_usd": 3400000000,
+              "event_type": "compensation_disclosure",
+              "period": "FY2024",
+              "rsus_outstanding_millions": 117.4,
+              "tax_benefit_realized_usd": 684000000,
+              "unrecognized_comp_cost_usd": 2700000000,
+              "weighted_avg_recognition_years": 1.1
+            },
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "INTC FY2024 Share-Based Compensation $3.4B",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC FY2024 $2.6B Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2025-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC FY2024 Arizona Bonds Remarketing $438M",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2025-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC FY2024 Revolving Credit Facility Expansion",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2025-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC January 2025 364-Day Credit Facility Amendment to $5.0B",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2025-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC FY2024 Ireland SCIP Apollo Liquidated Damages $755M",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-30",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "INTC 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "INTC FY2024 Share-Based Compensation $3.4B",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-01-30",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/INTC/0000050863-25-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "569b3d6b251f1d0fb6dea63f2d75d16d9cc4bd60157267c9fdd03139bb035fad"
+    }
+  ],
+  "prompt_version": "v3"
+}

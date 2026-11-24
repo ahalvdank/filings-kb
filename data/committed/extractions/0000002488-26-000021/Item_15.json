@@ -1,0 +1,141 @@
+{
+  "accession": "0000002488-26-000021",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-21T23:12:32Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Stock Purchase Agreement dated as of August 17, 2024, by and among Advanced Micro Devices, Inc., ZT Group Int'l, Inc., the Sellers listed therein and Frank Zhang, as the representative of the Sellers, filed as Exhibit 2.1 to AMD's Current Report on Form 8-K dated August 19, 2024, is hereby incorporated by reference.",
+            "entity_name": "AMD Acquisition of ZT Group Int'l",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Equity Purchase Agreement dated as of May 18, 2025, by and among Advanced Micro Designs, Inc., AMD Design, LLC, ZT Group Int'l, Inc. and Sanmina Corporation, filed as Exhibit 2.1 to AMD's Current Report on Form 8-K on May 18, 2025, is hereby incorporated by reference.",
+            "entity_name": "AMD Divestiture of AMD Design to Sanmina",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Warrant to Purchase Shares of Common Stock, dated October 5, 2025, between Advanced Micro Devices, Inc. and OpenAI OpCo, LLC, filed as Exhibit 4.1 to AMD's Current Report on Form 8-K dated October 5, 2025, is hereby incorporated by reference.",
+            "entity_name": "AMD OpenAI Warrant Issuance October 2025",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Registration Rights Agreement, dated October 5, 2025, between Advanced Micro Devices, Inc. and OpenAI OpCo, LLC, filed as Exhibit 10.1 to AMD's Current Report on Form 8-K dated October 5, 2025, is hereby incorporated by reference.",
+            "entity_name": "AMD OpenAI Warrant Issuance October 2025",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "ZT Group acquisition"
+            ],
+            "attributes": {
+              "consideration": "stock_purchase",
+              "effective_date": "2024-08-17",
+              "event_type": "acquisition",
+              "target_company": "ZT Group Int'l, Inc."
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of ZT Group Int'l",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD Design sale to Sanmina",
+              "ZT Group divestiture to Sanmina"
+            ],
+            "attributes": {
+              "counterparty": "Sanmina Corporation",
+              "divested_entities": "AMD Design, LLC; ZT Group Int'l, Inc.",
+              "effective_date": "2025-05-18",
+              "event_type": "divestiture"
+            },
+            "identifiers": {},
+            "name": "AMD Divestiture of AMD Design to Sanmina",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD-OpenAI warrant",
+              "OpenAI common stock warrant"
+            ],
+            "attributes": {
+              "counterparty": "OpenAI OpCo, LLC",
+              "instrument_type": "equity_issuance",
+              "issuance_date": "2025-10-05",
+              "registration_rights": true
+            },
+            "identifiers": {},
+            "name": "AMD OpenAI Warrant Issuance October 2025",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of ZT Group Int'l",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Divestiture of AMD Design to Sanmina",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMD OpenAI Warrant Issuance October 2025",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-26-000021.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "51af2cb122af3aecff17792b3aa555fa68f01aff1dce6937e684adcb793e3e4f"
+    }
+  ],
+  "prompt_version": "v3"
+}

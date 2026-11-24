@@ -1,0 +1,58 @@
+{
+  "accession": "0001326801-23-000013",
+  "item": "Item_2",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T10:24:10Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "beginning in the third quarter of 2022, we made a decision to either sublease, early terminate, or abandon several office buildings under operating leases.",
+            "entity_name": "META 2022 Facilities Consolidation Restructuring",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "META office space consolidation",
+              "META facilities restructuring Q3 2022"
+            ],
+            "attributes": {
+              "description": "Decision to sublease, early terminate, or abandon several office buildings under operating leases, beginning Q3 2022",
+              "effective_date": "2022-Q3",
+              "event_type": "restructuring"
+            },
+            "identifiers": {},
+            "name": "META 2022 Facilities Consolidation Restructuring",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "META 2022 Facilities Consolidation Restructuring",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-23-000013.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "0364565cc88c1e68ce1559ba1626cffdceb5253493d567e92dfa343148f4c959"
+    }
+  ],
+  "prompt_version": "v3"
+}

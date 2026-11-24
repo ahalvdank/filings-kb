@@ -1,0 +1,70 @@
+{
+  "accession": "0000093410-23-000009",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-10T14:13:04Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "October 1 – October 31, 2022 7,582,842 $165.65 7,582,805 $9.4\n\nNovember 1 – November 30, 2022 6,967,090 $183.00 6,966,715 $8.1\n\nDecember 1 – December 31, 2022 6,972,807 $174.82 6,972,807 $6.9\n\nTotal October 1 – December 31, 2022 21,522,739 $174.24 21,522,327",
+            "entity_name": "CVX Q4 2022 Share Repurchase Activity",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Chevron"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "CVX"
+            },
+            "name": "Chevron Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Chevron Q4 2022 buyback"
+            ],
+            "attributes": {
+              "average_price_per_share": 174.24,
+              "period": "Q4 2022",
+              "remaining_authorization_usd": 6900000000,
+              "return_type": "buyback",
+              "shares_repurchased": 21522739
+            },
+            "identifiers": {},
+            "name": "CVX Q4 2022 Share Repurchase Activity",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "CVX 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "CVX Q4 2022 Share Repurchase Activity",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-10",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/CVX/0000093410-23-000009.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "4c7edba4a863fcd94dfd7c09e7462730590631e3197a2edad8ec2cc854e3d40a"
+    }
+  ],
+  "prompt_version": "v3"
+}

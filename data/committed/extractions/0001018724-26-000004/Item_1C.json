@@ -1,0 +1,91 @@
+{
+  "accession": "0001018724-26-000004",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T04:45:13Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have processes in place for assessing, identifying, and managing material risks from potential unauthorized occurrences on or through our electronic information systems that could adversely affect the confidentiality, integrity, or availability of our information systems or the information residing on those systems.",
+            "entity_name": "AMZN Cybersecurity and Data Security Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We also use systems and processes designed to reduce the impact of a security incident at a third-party vendor or customer. Additionally, we use processes to oversee and identify material risks from cybersecurity threats associated with our use of third-party technology and systems, including: artificial intelligence technologies; technology and systems we use for encryption and authentication; employee email and other communication technologies; content delivery to customers; back-office support; and other functions.",
+            "entity_name": "AMZN Third-Party Cybersecurity Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "data loss risk",
+              "unauthorized access risk",
+              "We Could Be Harmed by Data Loss or Other Security Incidents"
+            ],
+            "attributes": {
+              "category": "cybersecurity"
+            },
+            "identifiers": {},
+            "name": "AMZN Cybersecurity and Data Security Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "third-party vendor cybersecurity risk",
+              "supply chain cybersecurity risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "subcategory": "third_party"
+            },
+            "identifiers": {},
+            "name": "AMZN Third-Party Cybersecurity Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Cybersecurity and Data Security Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K FY2025",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Third-Party Cybersecurity Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-26-000004.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "c16aee07697ad89f9091a4ff7ba58ab44d7c525567580bc3b93b4eef2ddb4bc0"
+    }
+  ],
+  "prompt_version": "v3"
+}

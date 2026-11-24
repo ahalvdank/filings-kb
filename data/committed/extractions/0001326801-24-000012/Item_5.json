@@ -1,0 +1,130 @@
+{
+  "accession": "0001326801-24-000012",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T09:27:41Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "On February 1, 2024 we announced the initiation of our first ever cash dividend program. This cash dividend of $0.50 per share of Class A common stock and Class B common stock (together, the \"common stock\") is equivalent to $2.00 per share on an annual basis. The first cash dividend will be paid on March 26, 2024 to all holders of record of common stock at the close of business on February 22, 2024.",
+            "entity_name": "META First Cash Dividend (Q1 2024)",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In January 2024, an additional $50 billion of repurchases was authorized under this program. The timing and actual number of shares repurchased depend on a variety of factors, including price, general business and market conditions, and other investment opportunities, and shares may be repurchased through open market purchases or privately negotiated transactions, including through the use of trading plans intended to qualify under Rule 10b5-1 under the Exchange Act.",
+            "entity_name": "META January 2024 $50B Share Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "The following table summarizes the share repurchase activity for the three months ended December 31, 2023: October 1 - 31, 202310,105 $294.59 10,105 $34,246 November 1 - 30, 2023— $— — $34,246 December 1 - 31, 20239,607 $345.27 9,607 $30,929 Total19,712 19,712",
+            "entity_name": "META Q4 2023 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2024-02-02",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "META inaugural cash dividend",
+              "META first ever dividend"
+            ],
+            "attributes": {
+              "announced_date": "2024-02-01",
+              "annual_per_share": 2.0,
+              "applies_to": "Class A and Class B common stock",
+              "effective_date": "2024-03-26",
+              "per_share": 0.5,
+              "record_date": "2024-02-22",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "META First Cash Dividend (Q1 2024)",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "META $50B buyback expansion"
+            ],
+            "attributes": {
+              "amount_usd": 50000000000,
+              "effective_date": "2024-01",
+              "program_expiration": "none",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "META January 2024 $50B Share Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "period": "Q4 2023",
+              "remaining_authorization_usd": 30929000000,
+              "return_type": "buyback",
+              "shares": 19712000
+            },
+            "identifiers": {},
+            "name": "META Q4 2023 Share Repurchases",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "META First Cash Dividend (Q1 2024)",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "META January 2024 $50B Share Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "META Q4 2023 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2024-02-02",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-24-000012.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "b9e4bcc64199d736cdc42aef8627d4f60f7044d38a3e32fc84123d004c375f8d"
+    }
+  ],
+  "prompt_version": "v3"
+}

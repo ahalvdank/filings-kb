@@ -1,0 +1,410 @@
+{
+  "accession": "0000019617-24-000225",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-08-19T12:36:21Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "segment",
+            "content": "For management reporting purposes, JPMorgan Chase's activities are organized into four major reportable business segments, as well as a Corporate segment. The Firm's consumer business is the Consumer & Community Banking (\"CCB\") segment. The Firm's wholesale businesses are the Corporate & Investment Bank (\"CIB\"), Commercial Banking (\"CB\"), and Asset & Wealth Management (\"AWM\") segments.",
+            "entity_name": "JPM Consumer & Community Banking Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "On May 1, 2023, JPMorgan Chase acquired certain assets and assumed certain liabilities of First Republic Bank (the \"First Republic acquisition\") from the Federal Deposit Insurance Corporation (\"FDIC\").",
+            "entity_name": "JPM Acquisition of First Republic Bank",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The Firm is subject to a Deferred Prosecution Agreement entered into with the Department of Justice on September 29, 2020, relating to precious metals and U.S. Treasuries markets investigations, as well as a cooperation obligation under a related order issued by the CFTC.",
+            "entity_name": "JPM DOJ Deferred Prosecution Agreement (Precious Metals & Treasuries)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In July 2023, U.S. banking regulators released a proposal to amend the U.S. risk-based capital framework to incorporate certain elements of the revised international Basel III capital framework. The proposal would significantly revise risk-based capital requirements for banks with assets of $100 billion or more, including the Firm and other U.S. global systemically important banks (\"GSIBs\"). The proposed effective date is July 1, 2025 with a three-year transition period.",
+            "entity_name": "U.S. Basel III Capital Framework Revision Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In February 2023, the CFPB proposed a rule that would significantly reduce and limit the late payment fees that credit card issuers, including the Firm, would be permitted to charge to customers.",
+            "entity_name": "CFPB Proposed Credit Card Late Fee Rule Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In January 2024, the CFPB proposed a rule that could significantly restrict bank overdraft fees for certain insured depository institutions, including the Firm. The proposal would impose certain requirements on overdraft protections, similar to those that apply to credit cards, unless the financial institution prices the overdraft fee at the institution's cost to provide the product or at a benchmark determined by the CFPB.",
+            "entity_name": "CFPB Proposed Bank Overdraft Fee Rule Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In October 2023, the Federal Reserve Board proposed to lower the maximum interchange fee that large debit card issuers, including the Firm, would be permitted to receive for a debit card transaction. The proposal would also establish a process for automatically publishing an updated maximum fee amount every other year going forward.",
+            "entity_name": "Federal Reserve Proposed Debit Card Interchange Fee Reduction Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In October 2023, the Department of Labor (\"DOL\") proposed a new \"fiduciary\" rule that could significantly expand the scope for defining who can be deemed investment advice fiduciaries for purposes of retirement plans and individual retirement accounts (\"IRAs\") under the Employee Retirement Income Security Act of 1974, as amended. Among the most significant impacts of the proposed rule and related amendments to prohibited transaction exemptions would be the impact on the fee and compensation practices at financial institutions that offer investment recommendations to retirement clients, including in the context of rollovers from an employer plan to an IRA.",
+            "entity_name": "DOL Proposed Investment Advice Fiduciary Rule Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In August 2023, the FDIC released a proposal to revise the IDI Resolution Rule. For FDIC-insured depository institutions with $100 billion or more in total assets, such as JPMorgan Chase Bank, N.A., the proposal would revise the content requirements for resolution plan submissions, increase the frequency of resolution plan submissions to every two years (instead of the current three-year cycle) and require the filing of interim supplements in non-submission years.",
+            "entity_name": "FDIC Proposed IDI Resolution Rule Revision Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The Corporate Sustainability Reporting Directive (\"CSRD\") will replace and significantly expand the scope and content of certain EU ESG reporting requirements, with phased-in requirements starting with fiscal years in 2024. In addition, in December 2023, the EU reached agreement on the Corporate Sustainability Due Diligence Directive (\"CSDDD\"). The CSDDD sets mandatory due diligence obligations for companies to address actual and potential human rights violations and environmental adverse impacts stemming from their own operations and business relationships, including the activities of certain companies with which they have established business relationships and also requires the adoption of company-specific climate-related transition plans. Both the CSRD and CSDDD will impact certain of the Firm's EU and non-EU entities.",
+            "entity_name": "EU CSRD and CSDDD Sustainability Reporting Requirements Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "JPMorgan Chase",
+              "JPM",
+              "the Firm"
+            ],
+            "attributes": {
+              "as_of_date": "2023-12-31",
+              "employee_count": 309926,
+              "stockholders_equity_usd": 327900000000,
+              "total_assets_usd": 3900000000000
+            },
+            "identifiers": {
+              "ticker": "JPM"
+            },
+            "name": "JPMorgan Chase & Co.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "CCB",
+              "Consumer & Community Banking"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Consumer & Community Banking",
+              "ticker": "JPM"
+            },
+            "name": "JPM Consumer & Community Banking Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "CIB",
+              "Corporate & Investment Bank"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Corporate & Investment Bank",
+              "ticker": "JPM"
+            },
+            "name": "JPM Corporate & Investment Bank Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "CB",
+              "Commercial Banking"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Commercial Banking",
+              "ticker": "JPM"
+            },
+            "name": "JPM Commercial Banking Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "AWM",
+              "Asset & Wealth Management"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Asset & Wealth Management",
+              "ticker": "JPM"
+            },
+            "name": "JPM Asset & Wealth Management Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "First Republic acquisition"
+            ],
+            "attributes": {
+              "effective_date": "2023-05-01",
+              "event_type": "acquisition",
+              "seller": "Federal Deposit Insurance Corporation",
+              "target_company": "First Republic Bank"
+            },
+            "identifiers": {},
+            "name": "JPM Acquisition of First Republic Bank",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "DOJ DPA",
+              "DPA"
+            ],
+            "attributes": {
+              "agreement_date": "2020-09-29",
+              "counterparty": "Department of Justice",
+              "status": "pending",
+              "subject": "precious metals and U.S. Treasuries markets investigations"
+            },
+            "identifiers": {},
+            "name": "JPM DOJ Deferred Prosecution Agreement (Precious Metals & Treasuries)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Basel III endgame",
+              "U.S. risk-based capital rule revision"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States",
+              "proposed_effective_date": "2025-07-01"
+            },
+            "identifiers": {},
+            "name": "U.S. Basel III Capital Framework Revision Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "CFPB late fee rule"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "CFPB Proposed Credit Card Late Fee Rule Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "CFPB overdraft fee rule"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "CFPB Proposed Bank Overdraft Fee Rule Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Fed debit interchange fee rule"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "Federal Reserve Proposed Debit Card Interchange Fee Reduction Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "DOL fiduciary rule"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "DOL Proposed Investment Advice Fiduciary Rule Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "IDI Resolution Rule revision"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "FDIC Proposed IDI Resolution Rule Revision Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "CSRD risk",
+              "CSDDD risk",
+              "EU sustainability reporting requirements"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "European Union"
+            },
+            "identifiers": {},
+            "name": "EU CSRD and CSDDD Sustainability Reporting Requirements Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "JPM Acquisition of First Republic Bank",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "JPM DOJ Deferred Prosecution Agreement (Precious Metals & Treasuries)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "U.S. Basel III Capital Framework Revision Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "CFPB Proposed Credit Card Late Fee Rule Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "CFPB Proposed Bank Overdraft Fee Rule Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "Federal Reserve Proposed Debit Card Interchange Fee Reduction Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "DOL Proposed Investment Advice Fiduciary Rule Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "FDIC Proposed IDI Resolution Rule Revision Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "JPM 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "EU CSRD and CSDDD Sustainability Reporting Requirements Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/JPM/0000019617-24-000225.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "7837e68f4669934c5d589c7f34409e4fa329dafd62c2531a235068bff6ee48bb"
+    }
+  ],
+  "prompt_version": "v3"
+}

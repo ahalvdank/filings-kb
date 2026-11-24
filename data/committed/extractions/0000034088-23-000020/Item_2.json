@@ -1,0 +1,383 @@
+{
+  "accession": "0000034088-23-000020",
+  "item": "Item_2",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-09-01T02:31:31Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "Effective October 14, 2022, the Russian government unilaterally terminated the Corporation's interests in Sakhalin, transferring operations to a Russian operator.",
+            "entity_name": "XOM Sakhalin-1 Interests Termination by Russian Government",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "ExxonMobil also announced participation in Qatar's North Field East project via the Qatar Liquefied Gas Company Limited (QG7) venture, representing 18.5 thousand net acres and 8 million tonnes per year gross liquefied natural gas capacity expected to begin in 2026.",
+            "entity_name": "XOM Qatar North Field East LNG Joint Venture (QG7)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "On August 11, 2022, the leases for OML 133 and 138 were renewed under the savings provision.",
+            "entity_name": "XOM Nigeria OML 133 and OML 138 Lease Renewal",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2022, the Dutch Government further reduced Groningen gas extraction and continues to evaluate the timing for cessation of production.",
+            "entity_name": "XOM Netherlands Groningen Gas Production Curtailment",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The Corporation anticipates several projects will come online over the next few years providing additional production capacity. However, actual volumes will vary from year to year due to the timing of individual project start-ups; operational outages; reservoir performance; regulatory changes; the impact of fiscal and commercial terms; asset sales; weather events; price effects on production sharing contracts; changes in the amount and timing of capital investments that may vary depending on the oil and gas price environment; international trade patterns and relations; and other factors described in Item 1A. Risk Factors.",
+            "entity_name": "XOM Upstream Production Volume Variability Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "risk_factor",
+            "content": "In addition, proved reserves could be affected by an extended period of low prices which could reduce the level of the Corporation's capital spending and also impact our partners' capacity to fund their share of joint projects.",
+            "entity_name": "XOM Proved Reserves Risk from Extended Low Commodity Prices",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "ExxonMobil",
+              "XOM"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "XOM"
+            },
+            "name": "Exxon Mobil Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Sakhalin expropriation 2022",
+              "Russia Sakhalin termination"
+            ],
+            "attributes": {
+              "effective_date": "2022-10-14",
+              "event_type": "regulatory_action",
+              "geography": "Russia",
+              "note": "Russian government unilaterally terminated Corporation's interests in Sakhalin, transferring operations to a Russian operator"
+            },
+            "identifiers": {},
+            "name": "XOM Sakhalin-1 Interests Termination by Russian Government",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "QG7 venture",
+              "Qatar North Field East participation"
+            ],
+            "attributes": {
+              "event_type": "joint_venture",
+              "expected_start_year": 2026,
+              "geography": "Qatar",
+              "gross_capacity_mtpa": 8,
+              "jv_entity": "Qatar Liquefied Gas Company Limited (QG7)",
+              "net_acres": 18500
+            },
+            "identifiers": {},
+            "name": "XOM Qatar North Field East LNG Joint Venture (QG7)",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "OML 133 renewal",
+              "OML 138 renewal",
+              "Nigeria PIA savings provision lease renewal"
+            ],
+            "attributes": {
+              "effective_date": "2022-08-11",
+              "event_type": "regulatory_action",
+              "geography": "Nigeria",
+              "note": "Leases renewed under Petroleum Industry Act savings provision"
+            },
+            "identifiers": {},
+            "name": "XOM Nigeria OML 133 and OML 138 Lease Renewal",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Groningen production reduction 2022"
+            ],
+            "attributes": {
+              "event_type": "regulatory_action",
+              "geography": "Netherlands",
+              "note": "Dutch Government further reduced Groningen gas extraction and evaluating cessation timing",
+              "year": 2022
+            },
+            "identifiers": {},
+            "name": "XOM Netherlands Groningen Gas Production Curtailment",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "ExxonMobil production volume operational risk"
+            ],
+            "attributes": {
+              "category": "operational",
+              "geography": "Global"
+            },
+            "identifiers": {},
+            "name": "XOM Upstream Production Volume Variability Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "ExxonMobil low price reserves capital spending risk"
+            ],
+            "attributes": {
+              "category": "commodity_price",
+              "geography": "Global"
+            },
+            "identifiers": {},
+            "name": "XOM Proved Reserves Risk from Extended Low Commodity Prices",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Sakhalin-1 Interests Termination by Russian Government",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Qatar North Field East LNG Joint Venture (QG7)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Nigeria OML 133 and OML 138 Lease Renewal",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Netherlands Groningen Gas Production Curtailment",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Upstream Production Volume Variability Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Proved Reserves Risk from Extended Low Commodity Prices",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-23-000020.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "436dbcfcbdad4b5676996a371cb00cf2e3f8af510b799a2e5b1b11d21e0c3dc3"
+    },
+    {
+      "extracted_at": "2026-09-01T02:33:14Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In October 2022, the Corporation reached an agreement with Par Pacific Holdings for the sale of the Billings refinery and select midstream assets, which includes about 300 retail fuel sites, and expects the transaction to close in 2023.",
+            "entity_name": "XOM Divestiture of Billings Refinery to Par Pacific Holdings",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In December 2022, the Corporation reached an agreement with Italiana Petroli for the sale of the Italy fuels business, which includes about 2,300 retail fuel sites, and expects the transaction to close in 2023.",
+            "entity_name": "XOM Divestiture of Italy Fuels Business to Italiana Petroli",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "In January 2023, the Corporation announced the sale of its interest in Esso Thailand, which includes a network of about 800 retail fuel sites, and expects the transaction to close in 2023.",
+            "entity_name": "XOM Divestiture of Esso Thailand Interest",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {},
+            "identifiers": {},
+            "name": "Par Pacific Holdings",
+            "type": "Company"
+          },
+          {
+            "aliases": [],
+            "attributes": {},
+            "identifiers": {},
+            "name": "Italiana Petroli",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Billings refinery sale"
+            ],
+            "attributes": {
+              "agreement_date": "2022-10",
+              "assets": "Billings refinery and select midstream assets, including approximately 300 retail fuel sites",
+              "counterparty": "Par Pacific Holdings",
+              "event_type": "divestiture",
+              "expected_close_year": "2023"
+            },
+            "identifiers": {},
+            "name": "XOM Divestiture of Billings Refinery to Par Pacific Holdings",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Italy fuels sale"
+            ],
+            "attributes": {
+              "agreement_date": "2022-12",
+              "assets": "Italy fuels business, including approximately 2,300 retail fuel sites",
+              "counterparty": "Italiana Petroli",
+              "event_type": "divestiture",
+              "expected_close_year": "2023"
+            },
+            "identifiers": {},
+            "name": "XOM Divestiture of Italy Fuels Business to Italiana Petroli",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Esso Thailand sale",
+              "Sriracha refinery sale"
+            ],
+            "attributes": {
+              "announcement_date": "2023-01",
+              "assets": "Esso Thailand interest, including Sriracha refinery and approximately 800 retail fuel sites",
+              "event_type": "divestiture",
+              "expected_close_year": "2023"
+            },
+            "identifiers": {},
+            "name": "XOM Divestiture of Esso Thailand Interest",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Divestiture of Billings Refinery to Par Pacific Holdings",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Divestiture of Italy Fuels Business to Italiana Petroli",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "XOM 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "XOM Divestiture of Esso Thailand Interest",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/XOM/0000034088-23-000020.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "81d2593f405aece75285ac623d1070944d0c6345b5d054250c402a7de44ff04f"
+    }
+  ],
+  "prompt_version": "v3"
+}

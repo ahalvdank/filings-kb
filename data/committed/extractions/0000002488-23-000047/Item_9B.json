@@ -1,0 +1,56 @@
+{
+  "accession": "0000002488-23-000047",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T02:45:52Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "material_event",
+            "content": "During the fiscal quarter ended March 26, 2022, we and our subsidiaries, including Xilinx, suspended shipments to the Russian Federation.",
+            "entity_name": "AMD Russia Shipment Suspension",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "context": "Suspension of shipments to Russia by AMD and subsidiaries including Xilinx following FSB/OFAC sanctions compliance review",
+              "effective_period": "fiscal_quarter_ended_2022-03-26",
+              "event_type": "regulatory_action",
+              "geography": "Russian Federation"
+            },
+            "identifiers": {},
+            "name": "AMD Russia Shipment Suspension",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Russia Shipment Suspension",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-23-000047.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "95236b9c6aa5844eade060e1f51c20d84c75df6821ea1aaa4a8ef1c0dc9478ce"
+    }
+  ],
+  "prompt_version": "v3"
+}

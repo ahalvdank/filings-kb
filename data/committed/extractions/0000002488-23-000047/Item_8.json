@@ -1,0 +1,1046 @@
+{
+  "accession": "0000002488-23-000047",
+  "item": "Item_8",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T02:35:05Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On February 14, 2022, the Company completed the acquisition of all issued and outstanding shares of Xilinx, a leading provider of adaptive computing solutions, for a total purchase consideration of $48.8 billion ($46.4 billion, net of cash acquired of $2.4 billion). The acquisition of Xilinx expands the Company's product portfolio to include adaptable hardware platforms that enable hardware acceleration and rapid innovation across a variety of technologies.",
+            "entity_name": "AMD Acquisition of Xilinx",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "On May 26, 2022, the Company completed the acquisition of all issued and outstanding shares of Pensando, a leader in next-generation distributed computing, for a transaction valued at approximately $1.9 billion. The recorded purchase consideration of $1.7 billion is net of deferred cash compensation requiring future services and other customary closing adjustments.",
+            "entity_name": "AMD Acquisition of Pensando Systems",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "operating_income_usd_millions": 1848,
+              "period": "FY2022",
+              "revenue_usd_millions": 6043,
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "the Data Center segment, which primarily includes server CPUs and GPUs, DPUs, FPGAs and Adaptive SoC products for data centers",
+            "entity_name": "AMD Data Center Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "operating_income_usd_millions": 1190,
+              "period": "FY2022",
+              "revenue_usd_millions": 6201,
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "the Client segment, which primarily includes CPUs, accelerated processing units that integrate microprocessors and GPUs (APUs), and chipsets for desktop and notebook personal computers",
+            "entity_name": "AMD Client Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "operating_income_usd_millions": 953,
+              "period": "FY2022",
+              "revenue_usd_millions": 6805,
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "the Gaming segment, which primarily includes discrete GPUs, semi-custom SoC products and development services",
+            "entity_name": "AMD Gaming Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "operating_income_usd_millions": 2252,
+              "period": "FY2022",
+              "revenue_usd_millions": 4552,
+              "section_type": "Item_8"
+            },
+            "chunk_type": "segment",
+            "content": "the Embedded segment, which primarily includes embedded CPUs and GPUs, FPGAs, and Adaptive SoC products",
+            "entity_name": "AMD Embedded Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "In 2022, the Company elected to change its method of accounting for the United States GILTI tax from recording the tax impact in the period it is incurred to recognizing deferred taxes for temporary tax basis differences expected to reverse as GILTI tax in future years. The change is considered preferable based on the Company's facts and circumstances as it provides better and more timely information of expected future income tax liabilities arising from temporary tax differences primarily associated with the Xilinx acquisition.",
+            "entity_name": "AMD FY2022 GILTI Accounting Method Change",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2022",
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "Repurchases of common stock(3,702)(1,762)—",
+            "entity_name": "AMD FY2022 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Xilinx acquisition"
+            ],
+            "attributes": {
+              "consideration": "stock",
+              "effective_date": "2022-02-14",
+              "event_type": "acquisition",
+              "net_of_cash_consideration_usd": 46400000000,
+              "target_company": "Xilinx, Inc.",
+              "total_consideration_usd": 48800000000
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of Xilinx",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Pensando acquisition"
+            ],
+            "attributes": {
+              "consideration": "cash",
+              "effective_date": "2022-05-26",
+              "event_type": "acquisition",
+              "net_purchase_consideration_usd": 1655000000,
+              "target_company": "Pensando Systems, Inc.",
+              "transaction_value_usd": 1900000000
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of Pensando Systems",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Data Center"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Data Center",
+              "ticker": "AMD"
+            },
+            "name": "AMD Data Center Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Client"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Client",
+              "ticker": "AMD"
+            },
+            "name": "AMD Client Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Gaming"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Gaming",
+              "ticker": "AMD"
+            },
+            "name": "AMD Gaming Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Embedded"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Embedded",
+              "ticker": "AMD"
+            },
+            "name": "AMD Embedded Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "GILTI accounting change"
+            ],
+            "attributes": {
+              "event_type": "accounting_change"
+            },
+            "identifiers": {},
+            "name": "AMD FY2022 GILTI Accounting Method Change",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 3702000000,
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "AMD FY2022 Share Repurchases",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of Xilinx",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of Pensando Systems",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.636,
+              "margin": 0.306,
+              "period": "FY2022",
+              "revenue": 6043000000
+            },
+            "source_name": "AMD 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Data Center Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.1,
+              "margin": 0.192,
+              "period": "FY2022",
+              "revenue": 6201000000
+            },
+            "source_name": "AMD 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Client Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.214,
+              "margin": 0.14,
+              "period": "FY2022",
+              "revenue": 6805000000
+            },
+            "source_name": "AMD 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Gaming Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_note": "acquisition_distorted_by_xilinx",
+              "growth_pct": 17.5,
+              "margin": 0.495,
+              "period": "FY2022",
+              "revenue": 4552000000
+            },
+            "source_name": "AMD 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Embedded Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD FY2022 GILTI Accounting Method Change",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD FY2022 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-23-000047.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "ed55b5bc1a63b2e224378ca64fe5bf81a5f98b84860c055c12078504fd8283d1"
+    },
+    {
+      "extracted_at": "2026-06-22T02:41:14Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "On June 9, 2022, the Company issued $1.0 billion in aggregate principal amount of 3.924% Notes and 4.393% Notes. The 3.924% Notes and 4.393% Notes are general unsecured senior obligations of the Company. The interest is payable semi-annually on June 1 and December 1 of each year, commencing on December 1, 2022.",
+            "entity_name": "AMD June 2022 $1.0B Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "On April 29, 2022, the Company entered into a Credit Agreement (Revolving Credit Agreement) with Wells Fargo Bank, N.A. as administrative agent and the other banks identified therein as lenders. The Revolving Credit Agreement provides for a five-year revolving credit facility in an aggregate principal amount not to exceed $3.0 billion (subject to certain terms and conditions).",
+            "entity_name": "AMD April 2022 $3.0B Revolving Credit Facility",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "The Revolving Credit Agreement also contains a sustainability-linked pricing component which provides for interest rate and facility fee reductions or increases based on the Company meeting or missing targets related to environmental sustainability, specifically greenhouse gas emissions.",
+            "entity_name": "AMD April 2022 $3.0B Revolving Credit Facility",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "On November 3, 2022, the Company established a new commercial paper program, under which the Company may issue unsecured commercial paper notes up to a maximum principal amount outstanding at any time of $3 billion with a maturity of up to 397 days from the date of issue.",
+            "entity_name": "AMD November 2022 $3B Commercial Paper Program",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In August 2022, the Company repaid its $312 million 7.50% Senior Notes.",
+            "entity_name": "AMD August 2022 7.50% Notes Repayment",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "In connection with the acquisition of Xilinx, the Company assumed $1.5 billion in aggregate principal of Xilinx's 2.95% Notes and 2.375% Notes (together, the Assumed Xilinx Notes) which were recorded at fair value as of the Xilinx Acquisition Date.",
+            "entity_name": "AMD Assumed Xilinx Notes",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "In May 2021, the Company's Board of Directors approved a stock repurchase program authorizing up to $4 billion of the Company's common stock (Existing Repurchase Program).",
+            "entity_name": "AMD May 2021 $4B Stock Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "In February 2022, the Company's Board of Directors approved a new stock repurchase program in addition to the Existing Repurchase Program to purchase up to $8 billion of outstanding common stock in the open market (collectively referred to as the \"Repurchase Program\").",
+            "entity_name": "AMD February 2022 $8B Stock Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "capital_return",
+            "content": "During the year ended December 31, 2022, the Company repurchased 36.3 million shares of its common stock under the Repurchase Program for $3.7 billion. As of December 31, 2022, $6.5 billion remained available for future stock repurchases under this program. This Repurchase Program does not obligate the Company to acquire any common stock, has no termination date and may be suspended or discontinued at any time.",
+            "entity_name": "AMD FY2022 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On July 2, 2018, three entities named Aquila Innovations, Inc. (Aquila), Collabo Innovations, Inc. (Collabo), and Polaris Innovations, Ltd. (Polaris), filed separate patent infringement complaints against the Company in the United States District Court for the Western District of Texas. Aquila alleges that the Company infringes two patents (6,239,614 and 6,895,519) relating to power management; Collabo alleges that the Company infringes one patent (7,930,575) related to power management; and Polaris alleges that the Company infringes two patents (6,728,144 and 8,117,526) relating to control or use of dynamic random-access memory, or DRAM. Each of the three complaints seeks unspecified monetary damages, interest, fees, expenses, and costs against the Company; Aquila and Collabo also seek enhanced damages.",
+            "entity_name": "Quarterhill Patent Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On February 8, 2022, Polaris filed a lawsuit against Xilinx, Inc. alleging infringement of four patents related to memory chips and memory interfaces. On February 22, 2022, the Company was served with the complaint. On April 14, 2022, the Company filed a motion to dismiss the complaint. On April 28, 2022, Polaris filed an amended complaint. On May 12, 2022, the Company filed an answer to the amended complaint.",
+            "entity_name": "Quarterhill Patent Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On March 31, 2022, the Company entered into an agreement which will provide the Company a license to the Monterey Research patents. The agreement did not have a material adverse effect on the Company's financial condition, cash flows, or results of operation.",
+            "entity_name": "Monterey Research Patent Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "In November 2022, the Company and Analog Devices, Inc. resolved all ongoing patent litigations, based on mutually agreed upon terms. As part of this resolution, the two companies have committed to pursue technology collaborations to bring next generation solutions to their communications and data center customers. The agreement did not have a material adverse effect on the Company's financial condition, cash flows, or results of operations.",
+            "entity_name": "Analog Devices v. Xilinx/AMD Patent Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "On March 31, 2022, the Company entered into an agreement which will provide the Company a license to the Future Link patents. The agreement did not have a material adverse effect on the Company's financial condition, cash flows, or results of operations.",
+            "entity_name": "Future Link Systems Patent Litigation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "The Company is named as a responsible party on Superfund clean-up orders for three sites in Sunnyvale, California that are on the National Priorities List. Since 1981, the Company has discovered hazardous material releases to the groundwater from former underground tanks and proceeded to investigate and conduct remediation at these three sites.",
+            "entity_name": "AMD Sunnyvale Superfund Environmental Remediation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "To address anticipated future remediation costs under the orders, the Company has computed and recorded an estimated environmental liability of approximately $3.9 million and has not recorded any potential insurance recoveries in determining the estimated costs of the cleanup.",
+            "entity_name": "AMD Sunnyvale Superfund Environmental Remediation",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "As a result of the acquisition of Xilinx, the Company recorded $4.3 billion of net deferred tax liabilities primarily on the excess of book basis over the tax basis of the acquired intangible assets, including $857 million of GILTI net deferred tax liability.",
+            "entity_name": "AMD Acquisition of Xilinx",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "As discussed in Note 2 to the consolidated financial statements, the Company has elected to change its method of accounting for the United States Global Intangible Low-Taxed Income (GILTI) tax to recognize deferred taxes for temporary tax basis differences expected to reverse as GILTI tax in future years.",
+            "entity_name": "AMD GILTI Accounting Method Change",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "AMD 3.924% Notes Due 2032",
+              "AMD 4.393% Notes Due 2052"
+            ],
+            "attributes": {
+              "instrument_type": "notes",
+              "issuance_date": "2022-06-09",
+              "principal_usd": 1000000000,
+              "tranches": [
+                {
+                  "coupon": 0.03924,
+                  "maturity": "2032",
+                  "principal_usd": 500000000
+                },
+                {
+                  "coupon": 0.04393,
+                  "maturity": "2052",
+                  "principal_usd": 500000000
+                }
+              ]
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD June 2022 $1.0B Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "AMD Revolving Credit Agreement 2022"
+            ],
+            "attributes": {
+              "administrative_agent": "Wells Fargo Bank, N.A.",
+              "effective_date": "2022-04-29",
+              "esg_pricing_linked": true,
+              "instrument_type": "revolver",
+              "maturity_years": 5,
+              "principal_usd": 3000000000
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD April 2022 $3.0B Revolving Credit Facility",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "AMD commercial paper program 2022"
+            ],
+            "attributes": {
+              "established_date": "2022-11-03",
+              "instrument_type": "notes",
+              "max_maturity_days": 397,
+              "outstanding_as_of_dec2022_usd": 0,
+              "principal_usd": 3000000000
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD November 2022 $3B Commercial Paper Program",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "AMD 7.50% Senior Notes Due 2022 repayment"
+            ],
+            "attributes": {
+              "coupon": 0.075,
+              "instrument_type": "refinancing",
+              "principal_usd": 312000000,
+              "repayment_date": "2022-08"
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD August 2022 7.50% Notes Repayment",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Xilinx 2.95% Notes Due 2024",
+              "Xilinx 2.375% Notes Due 2030",
+              "Assumed Xilinx Notes"
+            ],
+            "attributes": {
+              "assumed_at_acquisition": "Xilinx, Inc.",
+              "instrument_type": "notes",
+              "principal_usd": 1500000000
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD Assumed Xilinx Notes",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Existing Repurchase Program"
+            ],
+            "attributes": {
+              "amount_usd": 4000000000,
+              "effective_date": "2021-05",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD May 2021 $4B Stock Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "AMD 2022 repurchase program expansion"
+            ],
+            "attributes": {
+              "amount_usd": 8000000000,
+              "effective_date": "2022-02",
+              "remaining_capacity_dec2022_usd": 6500000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD February 2022 $8B Stock Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 3700000000,
+              "period": "FY2022",
+              "return_type": "buyback",
+              "shares": 36300000
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD FY2022 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "Aquila Innovations litigation",
+              "Collabo Innovations litigation",
+              "Polaris Innovations litigation",
+              "WiLAN litigation"
+            ],
+            "attributes": {
+              "counterparty": "Quarterhill Inc.",
+              "courts": [
+                "Western District of Texas",
+                "Court of Appeals for the Federal Circuit",
+                "Hamburg Court",
+                "Munich Court"
+              ],
+              "status": "pending",
+              "subject_matter": "power management, DRAM control, memory chips and memory interfaces"
+            },
+            "identifiers": {},
+            "name": "Quarterhill Patent Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Monterey Research LLC v. AMD"
+            ],
+            "attributes": {
+              "counterparty": "Monterey Research, LLC",
+              "court": "District of Delaware",
+              "settlement_date": "2022-03-31",
+              "status": "settled"
+            },
+            "identifiers": {},
+            "name": "Monterey Research Patent Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "ADI v. Xilinx patent litigation",
+              "Analog Devices v. AMD"
+            ],
+            "attributes": {
+              "counterparty": "Analog Devices, Inc.",
+              "settlement_date": "2022-11",
+              "status": "settled"
+            },
+            "identifiers": {},
+            "name": "Analog Devices v. Xilinx/AMD Patent Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Future Link Systems LLC v. AMD"
+            ],
+            "attributes": {
+              "counterparty": "Future Link Systems, LLC",
+              "court": "Western District of Texas",
+              "settlement_date": "2022-03-31",
+              "status": "settled"
+            },
+            "identifiers": {},
+            "name": "Future Link Systems Patent Litigation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "AMD Sunnyvale groundwater remediation"
+            ],
+            "attributes": {
+              "accrued_liability_usd": 3900000,
+              "location": "Sunnyvale, California",
+              "sites": 3,
+              "status": "pending"
+            },
+            "identifiers": {},
+            "name": "AMD Sunnyvale Superfund Environmental Remediation",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "Xilinx acquisition",
+              "AMD-Xilinx merger"
+            ],
+            "attributes": {
+              "consideration": "stock",
+              "event_type": "acquisition",
+              "shares_issued": 429000000,
+              "target_company": "Xilinx, Inc."
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD Acquisition of Xilinx",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "AMD GILTI deferred tax policy change"
+            ],
+            "attributes": {
+              "event_type": "accounting_change"
+            },
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "AMD GILTI Accounting Method Change",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD June 2022 $1.0B Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD April 2022 $3.0B Revolving Credit Facility",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD November 2022 $3B Commercial Paper Program",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD August 2022 7.50% Notes Repayment",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Assumed Xilinx Notes",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD May 2021 $4B Stock Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD February 2022 $8B Stock Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD FY2022 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Quarterhill Patent Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Monterey Research Patent Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "new_status": "settled",
+              "prior_status": "pending"
+            },
+            "source_name": "Monterey Research Patent Litigation",
+            "source_type_entity": "LegalProceeding",
+            "target_name": "AMD 10-K 2022",
+            "target_type_entity": "Filing",
+            "type": "legal_proceeding_status_changed_in",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Analog Devices v. Xilinx/AMD Patent Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "new_status": "settled",
+              "prior_status": "pending"
+            },
+            "source_name": "Analog Devices v. Xilinx/AMD Patent Litigation",
+            "source_type_entity": "LegalProceeding",
+            "target_name": "AMD 10-K 2022",
+            "target_type_entity": "Filing",
+            "type": "legal_proceeding_status_changed_in",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "Future Link Systems Patent Litigation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "new_status": "settled",
+              "prior_status": "pending"
+            },
+            "source_name": "Future Link Systems Patent Litigation",
+            "source_type_entity": "LegalProceeding",
+            "target_name": "AMD 10-K 2022",
+            "target_type_entity": "Filing",
+            "type": "legal_proceeding_status_changed_in",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Sunnyvale Superfund Environmental Remediation",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of Xilinx",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD GILTI Accounting Method Change",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-23-000047.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "a55575b814c8e472b86adc8005cae2ba7640e6c71f674e9ae813bafff53703c0"
+    },
+    {
+      "extracted_at": "2026-06-22T02:42:40Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_8"
+            },
+            "chunk_type": "material_event",
+            "content": "During fiscal year 2022, the Company completed the acquisition of Xilinx, Inc. (\"Xilinx\") for consideration of $48.8 billion, as disclosed in Note 5 to the consolidated financial statements. The transaction was accounted for as a business combination.",
+            "entity_name": "AMD Acquisition of Xilinx, Inc.",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "AMD"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "Advanced Micro Devices, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Xilinx"
+            ],
+            "attributes": {},
+            "identifiers": {},
+            "name": "Xilinx, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Xilinx acquisition",
+              "AMD-Xilinx deal"
+            ],
+            "attributes": {
+              "consideration_usd": 48800000000,
+              "event_type": "acquisition",
+              "fiscal_year_completed": "2022",
+              "target_company": "Xilinx, Inc."
+            },
+            "identifiers": {},
+            "name": "AMD Acquisition of Xilinx, Inc.",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K FY2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD Acquisition of Xilinx, Inc.",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2023-02-27",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-23-000047.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "6e2e601fa7fd14cbe49eb7e2ea748f785147fae96e3ee7dd90b361a915f27a99"
+    }
+  ],
+  "prompt_version": "v3"
+}

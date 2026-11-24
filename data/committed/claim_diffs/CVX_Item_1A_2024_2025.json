@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-11-23T07:59:30.824884+00:00",
+  "current_fy": 2025,
+  "input_sha256": "fbad8cf6b47882c4fc4f122d4ca52b07a85546f4bea2fe97427cc8b4070fcc70",
+  "item": "Item_1A",
+  "model": "claude-sonnet-4-6",
+  "prior_fy": 2024,
+  "prompt_sha256": "71d2da8ab6cdab15e1608c2f958dd4ee476ccefb8769395dad274dfc53c246fc",
+  "result": {
+    "added": [
+      "CVX Artificial Intelligence Technology Risk",
+      "CVX Hess Midstream General Partner Liability Risk",
+      "CVX Acquisition of Hess Corporation"
+    ],
+    "changed": [
+      [
+        "CVX Cybersecurity Risk covers cybersecurity threats only",
+        "CVX Cybersecurity and Digital Infrastructure Risk expands scope to include digital infrastructure alongside cybersecurity"
+      ],
+      [
+        "CVX Resource Replacement and Business Decline Risk categorized as operational",
+        "CVX Resource Replacement and Business Decline Risk reclassified as strategic"
+      ],
+      [
+        "CVX Operational Hazards and Safety Risk named with explicit safety language, categorized as operational",
+        "CVX Operational Hazards Risk drops 'and Safety' from name, recategorized as operational_safety"
+      ],
+      [
+        "CVX Self-Insurance and Catastrophic Loss Risk framed around catastrophic loss exposure",
+        "CVX Self-Insurance Financial Exposure Risk drops catastrophic loss framing, recast as general financial exposure"
+      ],
+      [
+        "CVX Hess Integration Risk pre-acquisition completion, categorized as strategic with no close date",
+        "CVX Hess Acquisition Integration Risk post-acquisition completion (close_date=2025-07), recategorized as acquisition_integration"
+      ],
+      [
+        "CVX Political Instability and Regulatory Change Risk scoped globally with no named geographies",
+        "CVX Political Instability and Regulatory Environment Risk names specific geographies: Venezuela, Russia, European Union"
+      ],
+      [
+        "CVX Tax Law Change Risk covers general tax law changes with no named jurisdictions",
+        "CVX Tax Law Changes and Windfall Profit Tax Risk explicitly adds windfall profit tax exposure with California and Australia named as specific jurisdictions"
+      ],
+      [
+        "CVX ESG Attention and Capital Access Risk framed around capital access constraints from ESG scrutiny",
+        "CVX ESG Stakeholder Pressure and Divestment Risk reframed around stakeholder pressure and divestment risk, replacing capital access language"
+      ],
+      [
+        "CVX ESG Ambitions and Disclosure Risk scoped globally (category=esg, geography=global)",
+        "CVX ESG Ambitions and Disclosure Achievement Risk narrows category to esg_disclosure and drops global geography scope"
+      ]
+    ],
+    "removed": [
+      "CVX Net Zero Upstream Scope 1 and 2 by 2050",
+      "CVX Hess Acquisition Completion Risk",
+      "HGEL Stabroek Block ROFR Arbitration",
+      "CVX Hess FTC Antitrust Consent Agreement"
+    ]
+  },
+  "ticker": "CVX"
+}

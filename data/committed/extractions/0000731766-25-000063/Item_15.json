@@ -1,0 +1,160 @@
+{
+  "accession": "0000731766-25-000063",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T23:02:19Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "schedule": "Schedule_I_CashFlows",
+              "section_type": "Item_15",
+              "years": "2024_2023_2022"
+            },
+            "chunk_type": "capital_return",
+            "content": "Common stock repurchases(9,000)(8,000)(7,000)",
+            "entity_name": "UNH FY2024 Common Stock Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2025-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "schedule": "Schedule_I_CashFlows",
+              "section_type": "Item_15",
+              "years": "2024_2023_2022"
+            },
+            "chunk_type": "capital_return",
+            "content": "Cash dividends paid(7,533)(6,761)(5,991)",
+            "entity_name": "UNH FY2024 Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2025-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "schedule": "Schedule_I_CashFlows",
+              "section_type": "Item_15",
+              "years": "2024_2023_2022"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Proceeds from issuance of long-term debt17,811 6,394 14,819 Repayments of long-term debt(3,000)(2,125)(3,015)",
+            "entity_name": "UNH FY2024 Long-Term Debt Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2025-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "schedule": "Schedule_I_Note3",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Maturities of short-term borrowings and long-term debt for the years ending December 31 are as follows: 2025$4,350 20263,650 20273,425 20283,000 20293,550 Thereafter59,802",
+            "entity_name": "UNH FY2024 Long-Term Debt Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2025-02-27",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UnitedHealth Group",
+              "UNH"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "UNH"
+            },
+            "name": "UnitedHealth Group Incorporated",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "UNH 2024 share buyback"
+            ],
+            "attributes": {
+              "amount_usd": 9000000000,
+              "period": "FY2024",
+              "return_type": "buyback"
+            },
+            "identifiers": {},
+            "name": "UNH FY2024 Common Stock Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 7533000000,
+              "period": "FY2024",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "UNH FY2024 Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "notes",
+              "maturity_schedule_usd_millions": {
+                "2025": 4350,
+                "2026": 3650,
+                "2027": 3425,
+                "2028": 3000,
+                "2029": 3550,
+                "thereafter": 59802
+              },
+              "note": "Parent company only per Schedule I",
+              "period": "FY2024",
+              "principal_usd": 17811000000
+            },
+            "identifiers": {},
+            "name": "UNH FY2024 Long-Term Debt Issuance",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2024 Common Stock Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2025-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2024 Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2025-02-27",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "UNH FY2024 Long-Term Debt Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2025-02-27",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-25-000063.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "540b61c4d70047d6928a8f517274d2bdfbc389761beb7f17b3e2f1b7496365e9"
+    }
+  ],
+  "prompt_version": "v3"
+}

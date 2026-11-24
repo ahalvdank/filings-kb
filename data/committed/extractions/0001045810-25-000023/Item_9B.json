@@ -1,0 +1,203 @@
+{
+  "accession": "0001045810-25-000023",
+  "item": "Item_9B",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T12:25:59Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "The Rule 10b5-1 Trading Arrangement was adopted on September 27, 2024 for sales through March 31, 2026. No shares were sold under the plan prior to termination.",
+            "entity_name": "Aarti Shah 10b5-1 Plan Termination (2024-11-25)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Aarti ShahDirectorAdoptionNovember 25, 202439,000March 31, 2026",
+            "entity_name": "Aarti Shah 10b5-1 Plan Adoption (2024-11-25)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_9B"
+            },
+            "chunk_type": "insider_holding",
+            "content": "Estimated assuming our closing stock price as of January 24, 2025. The number of shares is based on an estimate because the plan specifies a formulaic dollar amount of shares to be sold.",
+            "entity_name": "John O. Dabiri 10b5-1 Plan Adoption (2024-12-09)",
+            "entity_type_entity": "InsiderTransaction",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "NVDA",
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Aarti Shah",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "NVDA",
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "John O. Dabiri",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "NVIDIA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVIDIA Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "NVIDIA Common Stock"
+            ],
+            "attributes": {
+              "security_type": "common_stock"
+            },
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Common Stock",
+            "type": "Security"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "original_plan_adoption_date": "2024-09-27",
+              "original_plan_expiration_date": "2026-03-31",
+              "plan_action": "termination",
+              "reporting_person": "Aarti Shah",
+              "shares": 29000,
+              "shares_sold_under_plan": 0,
+              "source": "10-K_Item_9B_partial",
+              "transaction_date": "2024-11-25"
+            },
+            "identifiers": {},
+            "name": "Aarti Shah 10b5-1 Plan Termination (2024-11-25)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_action": "adoption",
+              "plan_expiration_date": "2026-03-31",
+              "reporting_person": "Aarti Shah",
+              "shares": 39000,
+              "source": "10-K_Item_9B_partial",
+              "transaction_date": "2024-11-25"
+            },
+            "identifiers": {},
+            "name": "Aarti Shah 10b5-1 Plan Adoption (2024-11-25)",
+            "type": "InsiderTransaction"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "plan_action": "adoption",
+              "plan_expiration_date": "2025-12-02",
+              "price_estimate_date": "2025-01-24",
+              "reporting_person": "John O. Dabiri",
+              "shares": 3396,
+              "shares_are_estimated": true,
+              "source": "10-K_Item_9B_partial",
+              "transaction_date": "2024-12-09"
+            },
+            "identifiers": {},
+            "name": "John O. Dabiri 10b5-1 Plan Adoption (2024-12-09)",
+            "type": "InsiderTransaction"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Aarti Shah",
+            "source_type_entity": "Person",
+            "target_name": "NVIDIA Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "John O. Dabiri",
+            "source_type_entity": "Person",
+            "target_name": "NVIDIA Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_action": "adoption",
+              "plan_expiration_date": "2026-03-31",
+              "shares": 39000,
+              "transaction_date": "2024-11-25"
+            },
+            "source_name": "Aarti Shah",
+            "source_type_entity": "Person",
+            "target_name": "NVDA Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "plan_action": "adoption",
+              "plan_expiration_date": "2025-12-02",
+              "shares": 3396,
+              "shares_are_estimated": true,
+              "transaction_date": "2024-12-09"
+            },
+            "source_name": "John O. Dabiri",
+            "source_type_entity": "Person",
+            "target_name": "NVDA Common Stock",
+            "target_type_entity": "Security",
+            "type": "transacted_in",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-25-000023.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "c7ebf63b128a12faf3871888fca24d66712ab606afc29e14e0dc309b6627f4cb"
+    }
+  ],
+  "prompt_version": "v3"
+}

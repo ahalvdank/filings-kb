@@ -1,0 +1,394 @@
+{
+  "accession": "0001326801-22-000018",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T11:28:56Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "FoA revenue in 2021 increased $30.83 billion, or 36%, compared to 2020. The increase was mostly driven by an increase in advertising revenue.",
+            "entity_name": "META Family of Apps Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "RL revenue increased $1.14 billion, or 100%, from 2020 to 2021, and $638 million, or 127%, from 2019 to 2020. The increases in both periods were mostly driven by increases in the volume of our consumer hardware products sold.",
+            "entity_name": "META Reality Labs Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect 2022 capital expenditures to be in the range of $29-34 billion and total expenses to be in the range of $90-95 billion.",
+            "entity_name": "META FY2022 Capital Expenditures Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect 2022 capital expenditures to be in the range of $29-34 billion and total expenses to be in the range of $90-95 billion. In 2022, we also expect that our year-over-year total expense growth rates may significantly exceed our year-over-year revenue growth rates, which would adversely affect our operating margin and profitability.",
+            "entity_name": "META FY2022 Total Expenses Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "If our stock price remains constant to the January 28, 2022 price, and absent U.S. tax legislation changes and other one-time events, we expect our effective tax rate for the full year 2022 to be similar to the effective tax rate for the full year 2021.",
+            "entity_name": "META FY2022 Effective Tax Rate Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In 2021, we repurchased and subsequently retired 136 million shares of our Class A common stock for $44.81 billion.",
+            "entity_name": "META 2021 Class A Common Stock Repurchase Activity",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "As of December 31, 2021, $38.79 billion remained available and authorized for repurchases.",
+            "entity_name": "META Class A Share Repurchase Program Remaining Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In connection with our periodic reviews of the estimated useful lives of property and equipment, we extended the estimated average useful lives of our server and network assets category. The effect of the 2021 change was a reduction in depreciation expense of $620 million and an increase in net income of $516 million, or $0.18 per diluted share.",
+            "entity_name": "META Server and Network Asset Useful Life Extension 2021",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our advertising revenue growth in the second half of 2021 was adversely affected by reduced marketer spending as a result of limitations on our ad targeting and measurement tools arising from changes to the iOS operating system. We expect that future advertising revenue growth will continue to be adversely affected by these and other limitations on our ad targeting and measurement tools arising from changes to the regulatory environment and third-party mobile operating systems and browsers.",
+            "entity_name": "META iOS and Mobile OS Ad Targeting Limitations Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Family of Apps",
+              "FoA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Family of Apps",
+              "ticker": "META"
+            },
+            "name": "META Family of Apps Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Reality Labs",
+              "RL"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Reality Labs",
+              "ticker": "META"
+            },
+            "name": "META Reality Labs Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "capital_expenditures",
+              "new_value": "29_to_34_billion_usd",
+              "period": "FY2022",
+              "unit": "USD",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "META FY2022 Capital Expenditures Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "total_expenses",
+              "new_value": "90_to_95_billion_usd",
+              "period": "FY2022",
+              "unit": "USD",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "META FY2022 Total Expenses Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "effective_tax_rate",
+              "new_value": "similar_to_FY2021",
+              "period": "FY2022",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "META FY2022 Effective Tax Rate Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "META 2021 share buyback"
+            ],
+            "attributes": {
+              "amount_usd": 44810000000,
+              "return_type": "buyback",
+              "shares_repurchased": 136000000
+            },
+            "identifiers": {},
+            "name": "META 2021 Class A Common Stock Repurchase Activity",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 38790000000,
+              "effective_date": "2021-12-31",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "META Class A Share Repurchase Program Remaining Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "depreciation_reduction_usd": 620000000,
+              "eps_impact_diluted": 0.18,
+              "event_type": "accounting_change",
+              "net_income_impact_usd": 516000000
+            },
+            "identifiers": {},
+            "name": "META Server and Network Asset Useful Life Extension 2021",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "iOS ad targeting risk",
+              "mobile OS ad measurement risk"
+            ],
+            "attributes": {
+              "category": "technology"
+            },
+            "identifiers": {},
+            "name": "META iOS and Mobile OS Ad Targeting Limitations Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.36,
+              "margin": 0.49,
+              "operating_income": 56946000000,
+              "period": "FY2021",
+              "revenue": 115655000000
+            },
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META Family of Apps Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 1.0,
+              "margin": -4.48,
+              "operating_income": -10193000000,
+              "period": "FY2021",
+              "revenue": 2274000000
+            },
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META Reality Labs Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META FY2022 Capital Expenditures Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META FY2022 Total Expenses Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META FY2022 Effective Tax Rate Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META 2021 Class A Common Stock Repurchase Activity",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META Class A Share Repurchase Program Remaining Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META Server and Network Asset Useful Life Extension 2021",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META iOS and Mobile OS Ad Targeting Limitations Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-22-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "56f3359578a7afde68ee09b012482fd58c693e11f9f6dbb35f658f0564e7a3e6"
+    },
+    {
+      "extracted_at": "2026-07-20T11:30:17Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our other liabilities also include $4.40 billion related to the uncertain tax positions as of December 31, 2021. Due to uncertainties in the timing of the completion of tax audits, the timing of the resolution of these positions is uncertain and we are unable to make a reasonably reliable estimate of the timing of payments in individual years beyond 12 months.",
+            "entity_name": "META Uncertain Tax Position Timing Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "uncertain tax positions",
+              "unresolved tax audits"
+            ],
+            "attributes": {
+              "amount_usd": 4400000000,
+              "as_of_date": "2021-12-31",
+              "category": "tax"
+            },
+            "identifiers": {},
+            "name": "META Uncertain Tax Position Timing Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2021",
+            "source_type_entity": "Filing",
+            "target_name": "META Uncertain Tax Position Timing Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-22-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "ea41c3de3a52c08be71ca9d61a4efc9a1e04cebf1a0e2649131de4cf6c5d8432"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,62 @@
+{
+  "accession": "0001326801-25-000017",
+  "item": "Item_2",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T08:02:44Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_2"
+            },
+            "chunk_type": "material_event",
+            "content": "we owned and leased approximately 11 million square feet of office and building space for our corporate headquarters and in the surrounding areas, which included approximately two million square feet of unoccupied office and building space that we plan to either sublease, early terminate, or abandon related to our facilities consolidation restructuring efforts.",
+            "entity_name": "META Facilities Consolidation Restructuring",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "facilities consolidation",
+              "office space restructuring"
+            ],
+            "attributes": {
+              "event_type": "restructuring",
+              "planned_actions": [
+                "sublease",
+                "early_terminate",
+                "abandon"
+              ],
+              "unoccupied_sqft_affected": 2000000
+            },
+            "identifiers": {},
+            "name": "META Facilities Consolidation Restructuring",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "META 10-K FY2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Facilities Consolidation Restructuring",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-25-000017.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "1d0acc7da14b54a5f213296f29a6cf9da21460e2caf4bf37b389fdac85f860b1"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,32 @@
+{
+  "$id": "answer.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StructuredAnswer",
+  "description": "What the answer model returns (prompts/answer.md): paragraphs of one-sentence units, each citing at least one numbered passage.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["paragraphs"],
+  "properties": {
+    "paragraphs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["text", "cites"],
+          "properties": {
+            "text": {"type": "string", "minLength": 1, "pattern": "\\S"},
+            "cites": {
+              "type": "array",
+              "minItems": 1,
+              "items": {"type": "integer", "minimum": 1}
+            }
+          }
+        }
+      }
+    }
+  }
+}

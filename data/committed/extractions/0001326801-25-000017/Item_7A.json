@@ -1,0 +1,196 @@
+{
+  "accession": "0001326801-25-000017",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T08:20:41Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have foreign currency risks related to our revenue and operating expenses denominated in currencies other than the U.S. dollar, primarily the Euro. Accordingly, changes in exchange rates, and in particular a strengthening of the U.S. dollar, have in the past, and may in the future, negatively affect our revenue and other operating results as expressed in U.S. dollars.",
+            "entity_name": "META Foreign Currency Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Foreign currency exchange net losses of $690 million, $366 million, and $81 million were recognized in 2024, 2023, and 2022, respectively.",
+            "entity_name": "META Foreign Currency Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "A hypothetical 100 basis point increase in market interest rates would have resulted in a decrease of $680 million and $355 million in the market value of our available-for-sale debt securities and cash equivalents as of December 31, 2024 and 2023, respectively. Any realized gains or losses resulting from such interest rate changes and from the current unrealized gains or losses would only occur if we sold the investments prior to maturity.",
+            "entity_name": "META Interest Rate Sensitivity Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2024 and 2023, we also had aggregate principal amounts of fixed-rate senior notes (the Notes) outstanding of $29.0 billion and $18.50 billion, respectively. Since our Notes bear interest at fixed rates and are carried at amortized cost, fluctuations in interest rates do not have any impact on our consolidated financial statements. However, the fair value of the Notes will fluctuate with movements in market interest rates, increasing in periods of declining interest rates and declining in periods of increasing interest rates.",
+            "entity_name": "META Interest Rate Sensitivity Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We record marketable equity securities not accounted for under the equity method at fair value based on readily determinable market values, of which publicly traded stocks are subject to market price volatility and represent $1.23 billion of our investments as of December 31, 2024. A hypothetical adverse price change of 10% on our December 31, 2024 balance would decrease the fair value of marketable equity securities by $123 million.",
+            "entity_name": "META Marketable Equity Price Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Uncertainties in the global economic climate and financial markets could adversely impact the valuation of the companies we invest in and, therefore, result in a material impairment or downward adjustment in our investments. Our total non-marketable equity securities, which mostly consists of our investment in Jio Platforms Limited, had a carrying value of $6.07 billion and $6.14 billion as of December 31, 2024 and 2023, respectively.",
+            "entity_name": "META Non-Marketable Equity Valuation Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "FX risk",
+              "Euro exchange rate risk",
+              "foreign currency revenue risk"
+            ],
+            "attributes": {
+              "category": "market_risk",
+              "fx_loss_2022_usd": 81000000,
+              "fx_loss_2023_usd": 366000000,
+              "fx_loss_2024_usd": 690000000,
+              "primary_currency": "EUR",
+              "subcategory": "foreign_currency"
+            },
+            "identifiers": {},
+            "name": "META Foreign Currency Exchange Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "interest rate risk",
+              "market value interest rate exposure"
+            ],
+            "attributes": {
+              "category": "market_risk",
+              "fixed_rate_notes_outstanding_2023_usd": 18500000000,
+              "fixed_rate_notes_outstanding_2024_usd": 29000000000,
+              "hypothetical_100bps_impact_2023_usd": -355000000,
+              "hypothetical_100bps_impact_2024_usd": -680000000,
+              "subcategory": "interest_rate"
+            },
+            "identifiers": {},
+            "name": "META Interest Rate Sensitivity Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "equity price volatility risk",
+              "marketable equity fair value risk"
+            ],
+            "attributes": {
+              "category": "market_risk",
+              "hypothetical_10pct_adverse_impact_usd": -123000000,
+              "marketable_equity_fair_value_2024_usd": 1230000000,
+              "subcategory": "equity_price"
+            },
+            "identifiers": {},
+            "name": "META Marketable Equity Price Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "private equity valuation risk",
+              "Jio Platforms valuation risk",
+              "non-marketable equity impairment risk"
+            ],
+            "attributes": {
+              "carrying_value_2023_usd": 6140000000,
+              "carrying_value_2024_usd": 6070000000,
+              "category": "market_risk",
+              "primary_investee": "Jio Platforms Limited",
+              "subcategory": "equity_price"
+            },
+            "identifiers": {},
+            "name": "META Non-Marketable Equity Valuation Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Foreign Currency Exchange Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Interest Rate Sensitivity Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Marketable Equity Price Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Non-Marketable Equity Valuation Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-25-000017.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "dc6021ae5f77f65531c8b9c30ff0f48d3f8fba7e66fc9ab9f7d62a8c1afaa9ff"
+    }
+  ],
+  "prompt_version": "v3"
+}

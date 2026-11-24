@@ -1,0 +1,94 @@
+{
+  "accession": "0000731766-24-000081",
+  "item": "Item_1C",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T23:14:42Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "risk_factor",
+            "content": "As of December 31, 2023, the Company has not identified any risks from cybersecurity threats that have materially affected or are reasonably likely to materially affect the Company, including our business strategy, results of operations or financial condition, but there can be no assurance that any such risk will not materially affect the Company in the future.",
+            "entity_name": "UNH Cybersecurity Threat Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1C"
+            },
+            "chunk_type": "material_event",
+            "content": "On February 22, 2024, we disclosed the occurrence of a cybersecurity incident. We continue to investigate the extent of the incident, which we believe was committed by cybercrime threat actors. As of the date of this report, we have not determined the incident is reasonably likely to materially impact our financial condition or results of operations.",
+            "entity_name": "UNH February 2024 Cybersecurity Incident",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "cybersecurity risk",
+              "data protection risk"
+            ],
+            "attributes": {
+              "category": "cybersecurity",
+              "description": "Risk that cybersecurity threats materially affect business strategy, results of operations, or financial condition"
+            },
+            "identifiers": {
+              "ticker": "UNH"
+            },
+            "name": "UNH Cybersecurity Threat Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "UNH 2024 cybersecurity disclosure"
+            ],
+            "attributes": {
+              "disclosure_date": "2024-02-22",
+              "event_type": "cybersecurity_incident",
+              "materiality_determination": "not determined to be reasonably likely to materially impact financial condition or results of operations",
+              "threat_actor": "cybercrime threat actors"
+            },
+            "identifiers": {},
+            "name": "UNH February 2024 Cybersecurity Incident",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Cybersecurity Threat Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "UNH February 2024 Cybersecurity Incident",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-24-000081.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "5a6f2d02cd08e45a683a7ad629d78b6dded8c349951a20db0bf174880f5ef93e"
+    }
+  ],
+  "prompt_version": "v3"
+}

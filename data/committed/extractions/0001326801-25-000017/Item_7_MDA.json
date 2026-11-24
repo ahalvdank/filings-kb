@@ -1,0 +1,427 @@
+{
+  "accession": "0001326801-25-000017",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T08:19:25Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "FoA revenue in 2024 increased $29.35 billion, or 22%, compared to 2023. The increase was almost entirely driven by advertising revenue.",
+            "entity_name": "META Family of Apps Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "RL revenue in 2024 increased $250 million, or 13%, compared to 2023. The increase was mostly due to an increase in RL consumer hardware products sold. RL loss from operations in 2024 increased $1.61 billion, or 10%, compared to 2023, driven by an increase in RL costs and expenses.",
+            "entity_name": "META Reality Labs Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "In 2024, our RL segment reduced our overall operating profit by approximately $17.73 billion, and we continue to expect our RL operating losses to increase in 2025.",
+            "entity_name": "META RL Operating Losses 2025 Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "We anticipate making capital expenditures of approximately $60 billion to $65 billion in 2025 to support our core business and generative AI efforts.",
+            "entity_name": "META 2025 Capital Expenditure Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "initiation"
+            },
+            "chunk_type": "guidance",
+            "content": "If our stock price remains constant to the January 24, 2025 price, and absent any changes to our tax landscape, we expect our effective tax rate for the full year 2025 to be in the range of 12-15%.",
+            "entity_name": "META 2025 Effective Tax Rate Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In January 2025, we completed an assessment of the useful lives of certain servers and network assets, which resulted in an increase in their estimated useful life to 5.5 years, effective beginning fiscal year 2025. Based on the servers and network assets placed in service as of December 31, 2024, we expect this change in accounting estimate will reduce our full-year 2025 depreciation expense by approximately $2.9 billion.",
+            "entity_name": "META Server and Network Asset Useful Life Change 2025",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In 2024, we repurchased and subsequently retired 65 million shares of our Class A common stock for an aggregate amount of $29.75 billion.",
+            "entity_name": "META 2024 Class A Share Repurchase",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "As of December 31, 2024, $51.28 billion remained available and authorized for repurchases.",
+            "entity_name": "META Share Repurchase Remaining Authorization December 2024",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "We paid four quarterly cash dividends, including dividend equivalents, totaling $2.00 for each share of Class A and Class B common stock during the year ended December 31, 2024. Total dividends and dividend equivalents paid were $5.07 billion for the year ended December 31, 2024.",
+            "entity_name": "META 2024 Quarterly Cash Dividend",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "net_proceeds_august_2024_usd": 10430000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "As of December 31, 2024, we had outstanding long-term debt in the form of senior unsecured notes for an aggregate principal amount of $29.0 billion, which mature from 2027 through 2064.",
+            "entity_name": "META August 2024 Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our advertising revenue has been, and we expect will continue to be, adversely affected by reduced marketer spending as a result of limitations on our ad targeting and measurement tools arising from changes to the regulatory environment and third-party mobile operating systems and browsers.",
+            "entity_name": "META Advertising Revenue Regulatory and Platform Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Meta",
+              "META"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "META"
+            },
+            "name": "Meta Platforms, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Family of Apps",
+              "FoA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Family of Apps",
+              "ticker": "META"
+            },
+            "name": "META Family of Apps Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Reality Labs",
+              "RL"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Reality Labs",
+              "ticker": "META"
+            },
+            "name": "META Reality Labs Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "reality_labs_operating_loss",
+              "period": "FY2025",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "META RL Operating Losses 2025 Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "capital_expenditures",
+              "new_value": "60B-65B",
+              "period": "FY2025",
+              "unit": "USD",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "META 2025 Capital Expenditure Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "effective_tax_rate",
+              "new_value": "12-15pct",
+              "period": "FY2025",
+              "update_type": "initiation"
+            },
+            "identifiers": {},
+            "name": "META 2025 Effective Tax Rate Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "META depreciation accounting change 2025"
+            ],
+            "attributes": {
+              "effective_date": "2025-01",
+              "event_type": "accounting_change",
+              "expected_2025_depreciation_reduction_usd": 2900000000,
+              "new_useful_life_years": 5.5
+            },
+            "identifiers": {},
+            "name": "META Server and Network Asset Useful Life Change 2025",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 29750000000,
+              "period": "FY2024",
+              "return_type": "buyback",
+              "shares_repurchased": 65000000
+            },
+            "identifiers": {},
+            "name": "META 2024 Class A Share Repurchase",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 51280000000,
+              "as_of_date": "2024-12-31",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "META Share Repurchase Remaining Authorization December 2024",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 5070000000,
+              "per_share": 2.0,
+              "period": "FY2024",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "META 2024 Quarterly Cash Dividend",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "notes",
+              "issuance_date": "2024-08",
+              "maturity_range": "2027-2064",
+              "note_type": "fixed_rate_senior_unsecured",
+              "outstanding_aggregate_principal_usd": 29000000000,
+              "principal_usd": 10430000000
+            },
+            "identifiers": {},
+            "name": "META August 2024 Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [
+              "Meta ad targeting regulatory risk",
+              "Meta iOS advertising targeting risk"
+            ],
+            "attributes": {
+              "affected_line": "advertising_revenue",
+              "category": "regulatory",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "META Advertising Revenue Regulatory and Platform Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.22,
+              "margin": 0.54,
+              "operating_income_usd": 87109000000,
+              "period": "FY2024",
+              "revenue": 162355000000
+            },
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Family of Apps Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.13,
+              "margin": -8.26,
+              "operating_loss_usd": 17729000000,
+              "period": "FY2024",
+              "revenue": 2146000000
+            },
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Reality Labs Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META RL Operating Losses 2025 Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META 2025 Capital Expenditure Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "initiation"
+            },
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META 2025 Effective Tax Rate Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Server and Network Asset Useful Life Change 2025",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META 2024 Class A Share Repurchase",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Share Repurchase Remaining Authorization December 2024",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META 2024 Quarterly Cash Dividend",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META August 2024 Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "META 10-K 2024",
+            "source_type_entity": "Filing",
+            "target_name": "META Advertising Revenue Regulatory and Platform Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2025-02-02",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/META/0001326801-25-000017.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "4e7491a8b58fb9bbabb3555ee393e6fc27376c701752d5f5e7e92ee4947ba959"
+    }
+  ],
+  "prompt_version": "v3"
+}

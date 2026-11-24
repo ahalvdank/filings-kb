@@ -1,0 +1,268 @@
+{
+  "accession": "0001628280-26-004357",
+  "item": "Item_1",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-01T04:10:50Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We may experience additional work stoppages in the future, which could materially adversely affect our business, financial position, results of operations and cash flows and result in the diversion of management's attention from other ongoing business concerns.",
+            "entity_name": "Boeing Labor Work Stoppage Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "context": "prior_period_strike_as_risk_context",
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "During 2025, employees represented by IAM District 837, which represents approximately 3,200 employees at our St. Louis area sites, went out on strike for 101 days, disrupting our St. Louis operations and impacting programs including F/A-18, F-15, T-7A, MQ-25 and Weapons.",
+            "entity_name": "Boeing Labor Work Stoppage Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "failure of suppliers or subcontractors to meet commitments has and could continue to adversely affect product quality, production schedules and program/contract profitability, thereby jeopardizing our ability to fulfill commitments to our customers. We have also experienced significant increases in supplier prices which are adversely affecting our business.",
+            "entity_name": "Boeing Supplier and Supply Chain Dependency Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Many major components and product equipment items are procured or subcontracted on a sole-source basis. We continue to work with a small number of sole-source suppliers to ensure continuity of supply for certain items.",
+            "entity_name": "Boeing Supplier and Supply Chain Dependency Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "It is reasonably possible that costs incurred to ensure continued environmental compliance could have a material impact on our results of operations, financial condition or cash flows if additional work requirements or more stringent clean-up standards are imposed by regulators, new areas of soil, air and groundwater contamination are discovered and/or expansions of work scope are prompted by the results of investigations.",
+            "entity_name": "Boeing Environmental Compliance Cost Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The U.S. government, and other governments, may terminate any of our government contracts at their convenience, as well as for default based on our failure to meet specified performance requirements. If any of our government contracts were to be terminated for default, generally the U.S. government would pay only for the work that has been accepted and could require us to pay the difference between the original contract price and the cost to re-procure the contract items, net of the work accepted from the original contract.",
+            "entity_name": "Boeing Government Contract Termination Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our non-U.S. sales are subject to both U.S. and non-U.S. governmental regulations and procurement policies and practices, including regulations relating to import-export control, tariffs, investment, exchange controls, anti-corruption and repatriation of earnings. Non-U.S. sales are also subject to varying currency, political and economic risks.",
+            "entity_name": "Boeing Non-U.S. Sales Regulatory and Currency Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_1"
+            },
+            "chunk_type": "material_event",
+            "content": "as a result of the 737-9 door plug accident in January 2024, the FAA investigated the 737 quality control system, including Spirit AeroSystems Holdings, Inc. (Spirit), and increased its oversight of our production and quality and safety management systems. The 737 program may only increase production rates and/or implement new production lines with the concurrence of the FAA.",
+            "entity_name": "FAA Enhanced Oversight of Boeing 737 Production Quality",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-01-28",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Boeing",
+              "BA"
+            ],
+            "attributes": {
+              "hq": "Arlington, Virginia",
+              "incorporated_in": "Delaware"
+            },
+            "identifiers": {
+              "ticker": "BA"
+            },
+            "name": "The Boeing Company",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "work stoppage risk",
+              "union strike risk",
+              "labor disruption risk"
+            ],
+            "attributes": {
+              "category": "labor_relations",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "Boeing Labor Work Stoppage Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "sole-source supplier risk",
+              "supply chain risk",
+              "supplier delivery risk"
+            ],
+            "attributes": {
+              "category": "supply_chain"
+            },
+            "identifiers": {},
+            "name": "Boeing Supplier and Supply Chain Dependency Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "environmental regulatory risk",
+              "environmental remediation risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "subcategory": "environmental"
+            },
+            "identifiers": {},
+            "name": "Boeing Environmental Compliance Cost Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "government contract default risk",
+              "contract termination for convenience risk"
+            ],
+            "attributes": {
+              "category": "government_contracts"
+            },
+            "identifiers": {},
+            "name": "Boeing Government Contract Termination Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "international sales risk",
+              "export control risk",
+              "currency and political risk"
+            ],
+            "attributes": {
+              "category": "geopolitical_and_regulatory",
+              "geography": "non-U.S."
+            },
+            "identifiers": {},
+            "name": "Boeing Non-U.S. Sales Regulatory and Currency Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "737 FAA enhanced oversight",
+              "FAA 737 production rate restriction"
+            ],
+            "attributes": {
+              "event_type": "regulatory_action",
+              "program": "737",
+              "regulator": "FAA",
+              "trigger": "737-9 door plug accident January 2024"
+            },
+            "identifiers": {},
+            "name": "FAA Enhanced Oversight of Boeing 737 Production Quality",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Labor Work Stoppage Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Supplier and Supply Chain Dependency Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Environmental Compliance Cost Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Government Contract Termination Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Boeing Non-U.S. Sales Regulatory and Currency Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-01-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "BA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "FAA Enhanced Oversight of Boeing 737 Production Quality",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-01-28",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/BA/0001628280-26-004357.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "e85984cc360a945acdfc563532c74a487eb5b76b5d52ea60e500dc97ab57700d"
+    }
+  ],
+  "prompt_version": "v3"
+}

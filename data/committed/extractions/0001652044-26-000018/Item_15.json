@@ -1,0 +1,211 @@
+{
+  "accession": "0001652044-26-000018",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T14:13:09Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "8k_date": "2025-05-01",
+              "exhibit_numbers": [
+                "4.18",
+                "4.19",
+                "4.20",
+                "4.21"
+              ],
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Form of Global Note representing the Registrant's 4.000% notes due 2030; Form of Global Note representing the Registrant's 4.500% notes due 2035; Form of Global Note representing the Registrant's 5.250% notes due 2055; Form of Global Note representing the Registrant's 5.300% notes due 2065",
+            "entity_name": "GOOGL May 1 2025 Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "8k_date": "2025-05-06",
+              "exhibit_numbers": [
+                "4.22",
+                "4.23",
+                "4.24",
+                "4.25",
+                "4.26"
+              ],
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Form of Global Note representing the Registrant's 2.500% notes due 2029; Form of Global Note representing the Registrant's 3.000% notes due 2033; Form of Global Note representing the Registrant's 3.375% notes due 2037; Form of Global Note representing the Registrant's 3.875% notes due 2045; Form of Global Note representing the Registrant's 4.000% notes due 2054",
+            "entity_name": "GOOGL May 6 2025 Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "8k_date": "2025-11-06",
+              "exhibit_numbers": [
+                "4.27",
+                "4.28",
+                "4.29",
+                "4.30",
+                "4.31",
+                "4.32",
+                "4.33",
+                "4.34",
+                "4.35",
+                "4.36",
+                "4.37",
+                "4.38",
+                "4.39",
+                "4.40"
+              ],
+              "section_type": "Item_15"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "Form of Global Note representing the Registrant's 2.375% notes due 2028; Form of Global Note representing the Registrant's 2.875% notes due 2031; Form of Global Note representing the Registrant's 3.125% notes due 2034; Form of Global Note representing the Registrant's 3.500% notes due 2038; Form of Global Note representing the Registrant's 4.000% notes due 2044; Form of Global Note representing the Registrant's 4.375% notes due 2064; Form of Global Note representing the Registrant's floating rate notes due 2028; Form of Global Note representing the Registrant's 3.875% notes due 2028; Form of Global Note representing the Registrant's 4.100% notes due 2030; Form of Global Note representing the Registrant's 4.375% notes due 2032; Form of Global Note representing the Registrant's 4.700% notes due 2035; Form of Global Note representing the Registrant's 5.350% notes due 2045; Form of Global Note representing the Registrant's 5.450% notes due 2055; Form of Global Note representing the Registrant's 5.700% notes due 2075",
+            "entity_name": "GOOGL November 6 2025 Senior Notes Issuance",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit_number": "10.03",
+              "management_compensatory_arrangement": true,
+              "section_type": "Item_15"
+            },
+            "chunk_type": "material_event",
+            "content": "Letter Agreement dated June 3, 2024, between Anat Ashkenazi and Alphabet",
+            "entity_name": "GOOGL Anat Ashkenazi Letter Agreement (June 2024)",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "notes",
+              "issuance_date": "2025-05-01",
+              "note_tranches": [
+                "4.000% due 2030",
+                "4.500% due 2035",
+                "5.250% due 2055",
+                "5.300% due 2065"
+              ]
+            },
+            "identifiers": {},
+            "name": "GOOGL May 1 2025 Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "notes",
+              "issuance_date": "2025-05-06",
+              "note_tranches": [
+                "2.500% due 2029",
+                "3.000% due 2033",
+                "3.375% due 2037",
+                "3.875% due 2045",
+                "4.000% due 2054"
+              ]
+            },
+            "identifiers": {},
+            "name": "GOOGL May 6 2025 Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "instrument_type": "notes",
+              "issuance_date": "2025-11-06",
+              "note_tranches": [
+                "2.375% due 2028",
+                "2.875% due 2031",
+                "3.125% due 2034",
+                "3.500% due 2038",
+                "4.000% due 2044",
+                "4.375% due 2064",
+                "floating rate due 2028",
+                "3.875% due 2028",
+                "4.100% due 2030",
+                "4.375% due 2032",
+                "4.700% due 2035",
+                "5.350% due 2045",
+                "5.450% due 2055",
+                "5.700% due 2075"
+              ]
+            },
+            "identifiers": {},
+            "name": "GOOGL November 6 2025 Senior Notes Issuance",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "effective_date": "2024-06-03",
+              "event_type": "compensation_disclosure",
+              "person": "Anat Ashkenazi"
+            },
+            "identifiers": {},
+            "name": "GOOGL Anat Ashkenazi Letter Agreement (June 2024)",
+            "type": "MaterialEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL May 1 2025 Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL May 6 2025 Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL November 6 2025 Senior Notes Issuance",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Anat Ashkenazi Letter Agreement (June 2024)",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-04",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-26-000018.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "7d23efb4b772fbddc52c77fb098f6fb2f89560d525e84d7e2a41bb95245643fe"
+    }
+  ],
+  "prompt_version": "v3"
+}

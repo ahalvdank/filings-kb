@@ -1,0 +1,432 @@
+{
+  "accession": "0000050863-22-000007",
+  "item": "Item_15",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-28T19:52:56Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Patrick P. Gelsinger\nChief Executive Officer, Director, and Principal Executive Officer\nJanuary 26, 2022",
+            "entity_name": "Patrick P. Gelsinger",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "exhibit_number": "10.11",
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Offer Letter between Intel Corporation and Patrick Gelsinger, dated January 13, 2021",
+            "entity_name": "Patrick P. Gelsinger",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "David Zinsner\nExecutive Vice President, Chief Financial Officer, Principal\nFinancial Officer, and Principal Accounting Officer\nJanuary 26, 2022",
+            "entity_name": "David Zinsner",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Dr. Omar Ishrak\nChairman of the Board and Director\nJanuary 26, 2022",
+            "entity_name": "Omar Ishrak",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "James J. Goetz\nDirector\nJanuary 26, 2022",
+            "entity_name": "James J. Goetz",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Dr. Tsu-Jae King Liu\nDirector\nJanuary 26, 2022",
+            "entity_name": "Tsu-Jae King Liu",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Andrea J. Goldsmith\nDirector\nJanuary 26, 2022",
+            "entity_name": "Andrea J. Goldsmith",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Gregory D. Smith\nDirector\nJanuary 26, 2022",
+            "entity_name": "Gregory D. Smith",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Alyssa Henry\nDirector\nJanuary 26, 2022",
+            "entity_name": "Alyssa Henry",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Dion J. Weisler\nDirector\nJanuary 26, 2022",
+            "entity_name": "Dion J. Weisler",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Dr. Risa Lavizzo-Mourey\nDirector\nJanuary 26, 2022",
+            "entity_name": "Risa Lavizzo-Mourey",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_15"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Frank D. Yeary\nDirector\nJanuary 26, 2022",
+            "entity_name": "Frank D. Yeary",
+            "entity_type_entity": "Person",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Intel"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "INTC"
+            },
+            "name": "Intel Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Pat Gelsinger"
+            ],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "officer",
+              "officer_role": "CEO",
+              "tenure_start_date": "2021-01"
+            },
+            "identifiers": {},
+            "name": "Patrick P. Gelsinger",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "officer",
+              "officer_role": "CFO"
+            },
+            "identifiers": {},
+            "name": "David Zinsner",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Dr. Omar Ishrak"
+            ],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "director",
+              "officer_role": "ChairOfBoard"
+            },
+            "identifiers": {},
+            "name": "Omar Ishrak",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "James J. Goetz",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Dr. Tsu-Jae King Liu"
+            ],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Tsu-Jae King Liu",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Dr. Andrea J. Goldsmith"
+            ],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Andrea J. Goldsmith",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Gregory D. Smith",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Alyssa Henry",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Dion J. Weisler",
+            "type": "Person"
+          },
+          {
+            "aliases": [
+              "Dr. Risa Lavizzo-Mourey"
+            ],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Risa Lavizzo-Mourey",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "INTC",
+              "insider_status": "director",
+              "officer_role": "BoardMember"
+            },
+            "identifiers": {},
+            "name": "Frank D. Yeary",
+            "type": "Person"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "role": "CEO",
+              "tenure_start_date": "2021-01"
+            },
+            "source_name": "Patrick P. Gelsinger",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2021-01-13",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO"
+            },
+            "source_name": "David Zinsner",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "ChairOfBoard"
+            },
+            "source_name": "Omar Ishrak",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "James J. Goetz",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Tsu-Jae King Liu",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Andrea J. Goldsmith",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Gregory D. Smith",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Alyssa Henry",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Dion J. Weisler",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Risa Lavizzo-Mourey",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "BoardMember"
+            },
+            "source_name": "Frank D. Yeary",
+            "source_type_entity": "Person",
+            "target_name": "Intel Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2022-01-26",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/INTC/0000050863-22-000007.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "b6dc4979aa8cddc1859b6011ca2738baba3f0cda96d7702bafc5a8eeaaf7de86"
+    }
+  ],
+  "prompt_version": "v3"
+}

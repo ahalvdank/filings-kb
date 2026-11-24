@@ -1,0 +1,870 @@
+{
+  "accession": "0001193125-26-323660",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-11-02T03:58:29Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Microsoft Cloud revenue increased 27% to $214.4 billion.",
+            "entity_name": "MSFT Microsoft Cloud Revenue",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Microsoft Cloud gross margin percentage decreased to 66% driven by continued investments in AI infrastructure and growing AI product usage, offset in part by efficiency gains in Azure and Microsoft 365 Commercial cloud.",
+            "entity_name": "MSFT Microsoft Cloud Revenue",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue increased $19.2 billion or 16%. Microsoft 365 Commercial products and cloud services revenue increased $14.2 billion or 16%. Microsoft 365 Commercial cloud revenue grew 17% with growth in revenue per user driven by Microsoft 365 Copilot and Microsoft 365 E5. Microsoft 365 Commercial seats grew 6% driven by small and medium businesses and frontline worker offerings.",
+            "entity_name": "MSFT Productivity and Business Processes Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue increased $31.5 billion or 30%. Server products and cloud services revenue increased $31.0 billion or 31% driven by Azure and other cloud services. Azure and other cloud services revenue grew 41% driven by demand for services across the platform with continued growth across all workloads.",
+            "entity_name": "MSFT Intelligent Cloud Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenue decreased $597 million or 1%. Windows and Devices revenue decreased $230 million or 1%. Windows OEM and Devices revenue decreased slightly driven by a decline in Devices, offset in part by Windows OEM growth of 5% with inventory levels that remained elevated. XBOX revenue decreased $1.7 billion or 7% driven by declines in XBOX content and services and XBOX hardware.",
+            "entity_name": "MSFT More Personal Computing Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Azure and other cloud services revenue grew 41% driven by demand for services across the platform with continued growth across all workloads.",
+            "entity_name": "MSFT Azure and Other Cloud Services",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Microsoft 365 Commercial cloud revenue grew 17% with growth in revenue per user driven by Microsoft 365 Copilot and Microsoft 365 E5. Microsoft 365 Commercial seats grew 6% driven by small and medium businesses and frontline worker offerings.",
+            "entity_name": "MSFT Microsoft 365 Commercial Cloud",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Microsoft 365 Consumer cloud revenue grew 28% driven by growth in revenue per user and Microsoft 365 Consumer subscriber growth of 7%.",
+            "entity_name": "MSFT Microsoft 365 Consumer Cloud",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "LinkedIn revenue increased $2.0 billion or 11% with growth across all lines of business.",
+            "entity_name": "MSFT LinkedIn Revenue",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2026",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Dynamics 365 revenue grew 18% with growth across all workloads.",
+            "entity_name": "MSFT Dynamics 365 Revenue",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal years 2026 and 2025, we repurchased 36 million shares and 31 million shares of our common stock for $16.7 billion and $13.0 billion, respectively, through our share repurchase program. All repurchases were made using cash resources.",
+            "entity_name": "MSFT FY2026 Share Repurchase Activity",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "As of June 30, 2026, $40.6 billion remained of our $60 billion share repurchase program.",
+            "entity_name": "MSFT $60B Share Repurchase Program",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "During fiscal years 2026 and 2025, our Board of Directors declared dividends totaling $27.0 billion and $24.7 billion, respectively. We intend to continue returning capital to shareholders in the form of dividends, subject to declaration by our Board of Directors.",
+            "entity_name": "MSFT FY2026 Dividends Declared",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "legal_proceeding",
+            "content": "We remain under audit by the IRS for tax years 2014 to 2017. With respect to the audit for tax years 2004 to 2013, on September 26, 2023, we received Notices of Proposed Adjustment (\"NOPAs\") from the IRS. The primary issues in the NOPAs relate to intercompany transfer pricing. In the NOPAs, the IRS is seeking an additional tax payment of $28.9 billion plus penalties and interest. As of June 30, 2026, we believe our allowances for income tax contingencies are adequate. We disagree with the proposed adjustments and will vigorously contest the NOPAs through the IRS's administrative appeals office and, if necessary, judicial proceedings.",
+            "entity_name": "MSFT IRS Transfer Pricing Dispute (Tax Years 2004-2017)",
+            "entity_type_entity": "LegalProceeding",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "We have a long-term strategic partnership with OpenAI which was originally established in 2019. In October 2025 and April 2026, we extended this partnership and continue to build on our shared vision to advance artificial intelligence responsibly and make its benefits broadly accessible. Microsoft is a major investor in OpenAI and will continue to receive revenue-sharing payments. We hold rights to OpenAI's intellectual property, including models and infrastructure, for integration into our products.",
+            "entity_name": "MSFT OpenAI Long-Term Partnership Extension FY2026",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "Other income (expense), net included $6.5 billion of net gains and $4.8 billion of net losses for fiscal years 2026 and 2025, respectively, from investments in OpenAI, primarily net recognized gains (losses) on our equity method investment reflected in Other, net. The net gains recorded for fiscal year 2026 primarily relate to the dilution gain from the OpenAI Recapitalization.",
+            "entity_name": "MSFT OpenAI Recapitalization Dilution Gain FY2026",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "Operating expenses increased $940 million or 6% driven by impairment and other related expenses in our XBOX business and continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio.",
+            "entity_name": "MSFT XBOX Business Impairment FY2026",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, and material capital expenditures, for at least the next 12 months and thereafter for the foreseeable future.",
+            "entity_name": "MSFT Liquidity Sufficiency Confirmation FY2026",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "The investments we are making in cloud and AI infrastructure and devices will continue to increase our operating costs and may decrease our operating margins.",
+            "entity_name": "MSFT AI Infrastructure Investment Operating Margin Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Some of our products contain certain components for which there are very few qualified suppliers. Extended or unforeseen disruptions, or limited availability of components from these suppliers could impact our ability to operate our datacenters and manufacture devices on time to meet consumer demand.",
+            "entity_name": "MSFT Supply Chain Component Availability Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "global, regional, and local economic developments and changes in global trade policies such as restrictions on international trade, including tariffs and other controls on imports or exports, could result in increased supply chain challenges, cost volatility, and consumer and economic uncertainty which may adversely affect our results of operations.",
+            "entity_name": "MSFT Trade Policy and Tariff Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Satya Nadella Chief Executive Officer",
+            "entity_name": "Satya Nadella",
+            "entity_type_entity": "Person",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Amy E. Hood Executive Vice President and Chief Financial Officer",
+            "entity_name": "Amy E. Hood",
+            "entity_type_entity": "Person",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "executive_biography",
+            "content": "Alice L. Jolla Corporate Vice President and Chief Accounting Officer",
+            "entity_name": "Alice L. Jolla",
+            "entity_type_entity": "Person",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Microsoft",
+              "MSFT"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "MSFT"
+            },
+            "name": "Microsoft Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Microsoft Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Microsoft Cloud",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Microsoft Cloud Revenue",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Productivity and Business Processes"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Productivity and Business Processes",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Productivity and Business Processes Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Intelligent Cloud"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Intelligent Cloud",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Intelligent Cloud Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "More Personal Computing"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "More Personal Computing",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT More Personal Computing Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Azure"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Azure and other cloud services",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Azure and Other Cloud Services",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Microsoft 365 Commercial",
+              "M365 Commercial"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Microsoft 365 Commercial cloud",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Microsoft 365 Commercial Cloud",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Microsoft 365 Consumer",
+              "M365 Consumer"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Microsoft 365 Consumer cloud",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Microsoft 365 Consumer Cloud",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "LinkedIn"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "LinkedIn",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT LinkedIn Revenue",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Dynamics 365"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Dynamics 365",
+              "ticker": "MSFT"
+            },
+            "name": "MSFT Dynamics 365 Revenue",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 16700000000,
+              "period": "FY2026",
+              "return_type": "buyback",
+              "shares_repurchased": 36000000
+            },
+            "identifiers": {},
+            "name": "MSFT FY2026 Share Repurchase Activity",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 60000000000,
+              "as_of_date": "2026-06-30",
+              "remaining_authorization_usd": 40600000000,
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "MSFT $60B Share Repurchase Program",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 27000000000,
+              "period": "FY2026",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "MSFT FY2026 Dividends Declared",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "IRS NOPA",
+              "Microsoft IRS audit transfer pricing"
+            ],
+            "attributes": {
+              "amount_claimed_usd": 28900000000,
+              "counterparty": "Internal Revenue Service",
+              "primary_issue": "intercompany transfer pricing",
+              "status": "pending",
+              "tax_years": "2004-2017"
+            },
+            "identifiers": {},
+            "name": "MSFT IRS Transfer Pricing Dispute (Tax Years 2004-2017)",
+            "type": "LegalProceeding"
+          },
+          {
+            "aliases": [
+              "OpenAI partnership extension"
+            ],
+            "attributes": {
+              "event_type": "joint_venture",
+              "extension_dates": [
+                "2025-10",
+                "2026-04"
+              ],
+              "note": "Extended in October 2025 and April 2026; Microsoft holds IP rights including models and infrastructure and will continue to receive revenue-sharing payments",
+              "partner": "OpenAI"
+            },
+            "identifiers": {},
+            "name": "MSFT OpenAI Long-Term Partnership Extension FY2026",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "OpenAI Recapitalization"
+            ],
+            "attributes": {
+              "dilution_gain_usd": 6500000000,
+              "event_type": "business_combination",
+              "partner": "OpenAI",
+              "period": "FY2026"
+            },
+            "identifiers": {},
+            "name": "MSFT OpenAI Recapitalization Dilution Gain FY2026",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "XBOX impairment charge"
+            ],
+            "attributes": {
+              "business_unit": "XBOX",
+              "event_type": "goodwill_impairment",
+              "period": "FY2026"
+            },
+            "identifiers": {},
+            "name": "MSFT XBOX Business Impairment FY2026",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "liquidity_sufficiency",
+              "new_value": "sufficient_for_at_least_next_12_months",
+              "period": "next_12_months_and_beyond",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "MSFT Liquidity Sufficiency Confirmation FY2026",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "AI infrastructure cost risk",
+              "cloud investment margin risk"
+            ],
+            "attributes": {
+              "category": "operational"
+            },
+            "identifiers": {},
+            "name": "MSFT AI Infrastructure Investment Operating Margin Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "datacenter component supply risk",
+              "GPU supply chain risk"
+            ],
+            "attributes": {
+              "category": "supply_chain"
+            },
+            "identifiers": {},
+            "name": "MSFT Supply Chain Component Availability Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "international trade restriction risk",
+              "tariff risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "global"
+            },
+            "identifiers": {},
+            "name": "MSFT Trade Policy and Tariff Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "MSFT",
+              "insider_status": "officer",
+              "officer_role": "CEO"
+            },
+            "identifiers": {},
+            "name": "Satya Nadella",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "MSFT",
+              "insider_status": "officer",
+              "officer_role": "CFO"
+            },
+            "identifiers": {},
+            "name": "Amy E. Hood",
+            "type": "Person"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "current_company_id": "MSFT",
+              "insider_status": "officer",
+              "officer_role": "Other"
+            },
+            "identifiers": {},
+            "name": "Alice L. Jolla",
+            "type": "Person"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.27,
+              "margin": 0.66,
+              "period": "FY2026",
+              "revenue": 214400000000
+            },
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Microsoft Cloud Revenue",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.16,
+              "operating_income": 83879000000,
+              "period": "FY2026",
+              "revenue": 139996000000
+            },
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Productivity and Business Processes Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.3,
+              "operating_income": 56972000000,
+              "period": "FY2026",
+              "revenue": 137791000000
+            },
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Intelligent Cloud Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.01,
+              "operating_income": 14386000000,
+              "period": "FY2026",
+              "revenue": 54052000000
+            },
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT More Personal Computing Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.41,
+              "period": "FY2026"
+            },
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Azure and Other Cloud Services",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.17,
+              "period": "FY2026"
+            },
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Microsoft 365 Commercial Cloud",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.28,
+              "period": "FY2026"
+            },
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Microsoft 365 Consumer Cloud",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.11,
+              "period": "FY2026"
+            },
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT LinkedIn Revenue",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.18,
+              "period": "FY2026"
+            },
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Dynamics 365 Revenue",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2026 Share Repurchase Activity",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT $60B Share Repurchase Program",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT FY2026 Dividends Declared",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT IRS Transfer Pricing Dispute (Tax Years 2004-2017)",
+            "target_type_entity": "LegalProceeding",
+            "type": "discloses_legal_proceeding",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT OpenAI Long-Term Partnership Extension FY2026",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT OpenAI Recapitalization Dilution Gain FY2026",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT XBOX Business Impairment FY2026",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Liquidity Sufficiency Confirmation FY2026",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT AI Infrastructure Investment Operating Margin Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Supply Chain Component Availability Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "MSFT 10-K 2026",
+            "source_type_entity": "Filing",
+            "target_name": "MSFT Trade Policy and Tariff Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CEO"
+            },
+            "source_name": "Satya Nadella",
+            "source_type_entity": "Person",
+            "target_name": "Microsoft Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "CFO"
+            },
+            "source_name": "Amy E. Hood",
+            "source_type_entity": "Person",
+            "target_name": "Microsoft Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "role": "Chief Accounting Officer"
+            },
+            "source_name": "Alice L. Jolla",
+            "source_type_entity": "Person",
+            "target_name": "Microsoft Corporation",
+            "target_type_entity": "Company",
+            "type": "is_officer_of",
+            "valid_from": "2026-11-01",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/MSFT/0001193125-26-323660.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "500c9c5952e507c16e4e0012f00e5ec6fde92ae11ae6a364df119185e159baae"
+    }
+  ],
+  "prompt_version": "v3"
+}

@@ -1,0 +1,203 @@
+{
+  "accession": "0000002488-23-000047",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T02:23:27Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In May 2021, our Board of Directors approved a stock repurchase program of up to $4 billion of our common stock (Existing Repurchase Program).",
+            "entity_name": "AMD May 2021 $4B Stock Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "In February 2022, our Board of Directors approved a new stock repurchase program in addition to the Existing Repurchase Program to purchase up to additional $8 billion of our outstanding common stock in the open market (collectively referred to as the \"Repurchase Program\"). We expect to fund repurchases through cash generated from operations which have been strengthened by our strong operational results. Our Repurchase Program does not obligate us to acquire any common stock, has no termination date and may be suspended or discontinued at any time.",
+            "entity_name": "AMD February 2022 $8B Additional Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Repurchases during each fiscal quarter of 2022:\nDecember 26, 2021 - March 26, 2022 15,785,806 $121.03 15,785,806 $8,327\nMarch 27, 2022 - June 25, 2022 10,159,900 $90.58 10,159,900 $7,407\nJune 26, 2022 - September 24, 2022 6,895,972 $89.52 6,895,972 $6,790\nSeptember 25, 2022 - December 31, 2022 3,484,459 $71.75 3,484,459 $6,540\n36,326,137 36,326,137",
+            "entity_name": "AMD FY2022 Common Stock Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "On January 3, 2023, we issued warrants to purchase 300,260 shares of our common stock to a commercial partner pursuant to a strategic arrangement executed in 2018 with such partner. The warrants have an exercise price of $25.4994 per share and expire on January 3, 2026. The warrants were issued pursuant to Section 4(a)(2) of the Securities Act of 1933.",
+            "entity_name": "AMD January 2023 Warrant Issuance to Commercial Partner",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_structure_event",
+            "content": "On February 9, 2023, we issued 27,230 shares of AMD's common stock pursuant to an exercise in full by a commercial partner of warrants to purchase up to 42,260 shares of AMD's common stock at an exercise price of $25.4994 per share (the Warrants). As a result, the Warrants are no longer outstanding. The shares of common stock were issued pursuant to Section 3(a)(9) of the Securities Act of 1933.",
+            "entity_name": "AMD February 2023 Warrant Exercise by Commercial Partner",
+            "entity_type_entity": "CapitalStructureEvent",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "AMD"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "AMD"
+            },
+            "name": "Advanced Micro Devices, Inc.",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "AMD Existing Repurchase Program"
+            ],
+            "attributes": {
+              "amount_usd": 4000000000,
+              "effective_date": "2021-05",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "AMD May 2021 $4B Stock Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 8000000000,
+              "effective_date": "2022-02",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "AMD February 2022 $8B Additional Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "period": "FY2022",
+              "remaining_authorization_usd": 6540000000,
+              "return_type": "buyback",
+              "shares": 36326137
+            },
+            "identifiers": {},
+            "name": "AMD FY2022 Common Stock Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "exemption": "Section 4(a)(2) Securities Act of 1933",
+              "exercise_price": 25.4994,
+              "expiration_date": "2026-01-03",
+              "instrument_type": "equity_issuance",
+              "issuance_date": "2023-01-03",
+              "warrant_shares": 300260
+            },
+            "identifiers": {},
+            "name": "AMD January 2023 Warrant Issuance to Commercial Partner",
+            "type": "CapitalStructureEvent"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "exemption": "Section 3(a)(9) Securities Act of 1933",
+              "exercise_price": 25.4994,
+              "instrument_type": "equity_issuance",
+              "issuance_date": "2023-02-09",
+              "original_warrant_shares": 42260,
+              "shares_issued": 27230
+            },
+            "identifiers": {},
+            "name": "AMD February 2023 Warrant Exercise by Commercial Partner",
+            "type": "CapitalStructureEvent"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD May 2021 $4B Stock Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD February 2022 $8B Additional Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD FY2022 Common Stock Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD January 2023 Warrant Issuance to Commercial Partner",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMD 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMD February 2023 Warrant Exercise by Commercial Partner",
+            "target_type_entity": "CapitalStructureEvent",
+            "type": "discloses_capital_structure_event",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMD/0000002488-23-000047.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "33d5ae6033963b68eb6123e8e685442c8d099d2e63ae98a168331a78e49ca919"
+    }
+  ],
+  "prompt_version": "v3"
+}

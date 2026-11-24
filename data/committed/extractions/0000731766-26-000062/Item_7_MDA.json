@@ -1,0 +1,758 @@
+{
+  "accession": "0000731766-26-000062",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-20T21:53:28Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "growth_pct": 0.16,
+              "operating_margin": 0.027,
+              "period": "FY2025",
+              "revenue_usd": 344903000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "UnitedHealthcare's revenues increased due to the IRA-driven impacts on Medicare Part D plans and growth in the number of people served through Medicare Advantage, fee-based commercial offerings, those with higher acuity needs and Medicaid rates, partially offset by a decrease in people served through risk-based commercial offerings and Medicaid offerings.",
+            "entity_name": "UNH UnitedHealthcare Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.03,
+              "operating_margin": -0.003,
+              "period": "FY2025",
+              "revenue_usd": 101957000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues at Optum Health decreased primarily due to the conversion of risk-based contracts to fee-based, Medicare Advantage funding reductions and the profile of members served, partially offset by growth in patients served under value-based arrangements. Earnings from operations decreased due to Medicare Advantage funding reductions; elevated medical cost trends; the member profile of newly added patients under value-based care arrangements; the impacts of restructuring and other actions, including the establishment a loss contract reserve related to anticipated future losses in 2026 for certain value-based care businesses; gains on dispositions in 2024; impacts of net portfolio divestitures in 2025; and reduced investment income; partially offset by cost management initiatives and incremental medical costs for accommodations to support care providers in 2024 as a result of the Change Healthcare cyberattack. Optum Health served approximately 95 million people as of December 31, 2025 compared to 100 million people as of December 31, 2024.",
+            "entity_name": "UNH Optum Health Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.04,
+              "operating_margin": 0.135,
+              "period": "FY2025",
+              "revenue_usd": 19417000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues increased due to decreased impacts related to the Change Healthcare cyberattack and growth in technology services, partially offset by lower volumes within business services. Earnings from operations decreased due to gains related to business portfolio refinement in 2024, lower volumes within business services and the impacts of restructuring and other actions, partially offset by decreased impacts related to the Change Healthcare cyberattack.",
+            "entity_name": "UNH Optum Insight Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.16,
+              "operating_margin": 0.046,
+              "period": "FY2025",
+              "revenue_usd": 154726000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Revenues at Optum Rx increased due to higher script volumes from both new clients and growth in existing clients and growth in pharmacy services. Earnings from operations increased due to the impacts of net portfolio divestitures, including a gain recognized on the deconsolidation of a business, and the factors impacting revenue, partially offset by restructuring and other actions and decreased investment income. Optum Rx fulfilled 1,659 million and 1,623 million adjusted scripts in 2025 and 2024, respectively.",
+            "entity_name": "UNH Optum Rx Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.23,
+              "period": "FY2025",
+              "revenue_usd": 171285000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Medicare Advantage funding continues to be pressured, as discussed below in \"Regulatory Trends and Uncertainties\" and we have observed increased care patterns as discussed below in \"Medical Cost Trends\", which is contemplated in our 2026 benefit design approach. As a result of continued funding pressures, which have resulted in benefit and pricing actions, we expect that our Medicare Advantage membership will contract in 2026.",
+            "entity_name": "UNH UnitedHealthcare Medicare & Retirement",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.17,
+              "period": "FY2025",
+              "revenue_usd": 94390000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Due to elevated care activity in Medicaid, specifically related to behavioral, pharmacy and home health, there continues to be a timing mismatch between the health status of people served and state rate updates. The funding and payment rate environment remains insufficient to meet the health needs of patients and creates the risk of continued downward pressure on Medicaid margin percentages.",
+            "entity_name": "UNH UnitedHealthcare Community & State",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.01,
+              "period": "FY2025",
+              "revenue_usd": 79228000000,
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "The commercial risk market remains highly competitive in the small group, large group and individual segments. We expect broad-based competition to continue as the industry adapts to individual and employer needs. Continued increased medical costs may impact both future pricing and benefit design, including for our individual exchange products in markets where we choose to remain, and may result in shifts between product categories for our employer benefits.",
+            "entity_name": "UNH UnitedHealthcare Employer & Individual",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "In the fourth quarter of 2025, the Company took various actions as a result of a strategic review of the Company's assets and businesses to operationally advance and scale core businesses and initiatives, including the value-based care business at Optum Health. These actions primarily include losses on business exits and dispositions and other businesses held for sale and a gain on the deconsolidation of a business. As a result of the Company's portfolio actions, the Company recorded a net gain of $568 million, which included a net gain of $1.5 billion at Optum Rx, partially offset by losses of $821 million and $68 million at Optum Health and Optum Insight, respectively.",
+            "entity_name": "UNH Q4 2025 Net Portfolio Divestitures",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "Additionally, in the fourth quarter of 2025 the Company took restructuring and other actions that resulted in a total impact of $2.5 billion, which included real estate rationalization and workforce reductions of $746 million, contractual reassessments of $573 million, the establishment a loss contract reserve related to anticipated future losses in 2026 for certain value-based care businesses of $623 million, net valuation losses on equity securities of $329 million and the advance funding of the United Health Foundation of $250 million.",
+            "entity_name": "UNH Q4 2025 Restructuring and Other Actions",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "To support care providers impacted by the Change Healthcare cyberattack that occurred on February 21, 2024, the Company provided interest-free loans. In the fourth quarter of 2025, the Company increased its reserves for net collection expectations associated with provider loans and other customer balances of $799 million, which were recorded within operating costs on the Consolidated Statements of Operations and related to Optum Insight.",
+            "entity_name": "Change Healthcare Cyberattack Q4 2025 Reserve Increase",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "material_event",
+            "content": "On January 1, 2026, we realigned certain of our businesses to respond to changes in the markets we serve and the opportunities that are emerging as the health system evolves. Optum Financial, including Optum Bank, which was historically included in Optum Health, will now be included in Optum Insight.",
+            "entity_name": "UNH 2026 Business Realignment",
+            "entity_type_entity": "MaterialEvent",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "As a result of continued funding pressures, which have resulted in benefit and pricing actions, we expect that our Medicare Advantage membership will contract in 2026.",
+            "entity_name": "UNH 2026 Medicare Advantage Membership Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect Medicaid membership losses in 2026 as a result of reduced Medicaid eligibility and the exit from one state.",
+            "entity_name": "UNH 2026 Medicaid Membership Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "As a result of increased pricing in response to anticipated care patterns in 2026 and decreased people served through UnitedHealthcare Medicare Advantage offerings, we expect the number of people served under value-based care arrangements to contract.",
+            "entity_name": "UNH 2026 Value-Based Care People Served Outlook",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In June 2025, our Board of Directors increased our quarterly cash dividend to shareholders to an annual rate of $8.84 compared to $8.40 per share.",
+            "entity_name": "UNH June 2025 Dividend Increase",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "As of December 31, 2025, we had Board of Directors' authorization to purchase up to 21 million shares of our common stock.",
+            "entity_name": "UNH Share Repurchase Authorization (21M Shares Remaining)",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Medicare Advantage rate notices for numerous years have resulted in industry base rates well below the industry forward medical cost trend. While the Final Notice for 2026 approached the expected industry forward medical cost trend, the Advanced Notice for 2027 is far below. Additionally, increased medical costs in 2025, which are expected to continue in future periods, have added to the compounding impact of the previous multi-year rate shortfalls creating sustained pressure on the Medicare Advantage program.",
+            "entity_name": "UNH Medicare Advantage Funding Pressure",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have observed increased care patterns that are above what we expected and contemplated in our pricing and benefits design. We have also observed an increase in health care unit costs and in the intensity of services delivered, driven by increases in provider pricing and additional services bundled per visit.",
+            "entity_name": "UNH Elevated Medical Cost Trend",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Due to elevated care activity in Medicaid, specifically related to behavioral, pharmacy and home health, there continues to be a timing mismatch between the health status of people served and state rate updates. The funding and payment rate environment remains insufficient to meet the health needs of patients and creates the risk of continued downward pressure on Medicaid margin percentages.",
+            "entity_name": "UNH Medicaid Rate Insufficiency Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "UnitedHealth Group",
+              "UNH"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "UNH"
+            },
+            "name": "UnitedHealth Group Incorporated",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "UnitedHealthcare"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "UnitedHealthcare",
+              "ticker": "UNH"
+            },
+            "name": "UNH UnitedHealthcare Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Health"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Health",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Health Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Insight"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Insight",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Insight Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Optum Rx"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Optum Rx",
+              "ticker": "UNH"
+            },
+            "name": "UNH Optum Rx Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "UHC Medicare & Retirement",
+              "UnitedHealthcare Medicare & Retirement"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "UnitedHealthcare Medicare & Retirement",
+              "ticker": "UNH"
+            },
+            "name": "UNH UnitedHealthcare Medicare & Retirement",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "UHC Community & State",
+              "UNH Medicaid segment"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "UnitedHealthcare Community & State",
+              "ticker": "UNH"
+            },
+            "name": "UNH UnitedHealthcare Community & State",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "UHC Employer & Individual"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "UnitedHealthcare Employer & Individual",
+              "ticker": "UNH"
+            },
+            "name": "UNH UnitedHealthcare Employer & Individual",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "UNH 2025 portfolio actions",
+              "UNH Q4 2025 business exits"
+            ],
+            "attributes": {
+              "event_type": "divestiture",
+              "net_gain_usd": 568000000,
+              "optum_health_loss_usd": 821000000,
+              "optum_insight_loss_usd": 68000000,
+              "optum_rx_gain_usd": 1500000000,
+              "period": "Q4-2025"
+            },
+            "identifiers": {},
+            "name": "UNH Q4 2025 Net Portfolio Divestitures",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "UNH 2025 restructuring"
+            ],
+            "attributes": {
+              "contractual_reassessments_usd": 573000000,
+              "equity_valuation_losses_usd": 329000000,
+              "event_type": "restructuring",
+              "foundation_advance_usd": 250000000,
+              "loss_contract_reserve_usd": 623000000,
+              "period": "Q4-2025",
+              "real_estate_workforce_usd": 746000000,
+              "total_impact_usd": 2500000000
+            },
+            "identifiers": {},
+            "name": "UNH Q4 2025 Restructuring and Other Actions",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Change Healthcare cyberattack 2025 reserve",
+              "Change Healthcare provider loan reserve"
+            ],
+            "attributes": {
+              "event_type": "cybersecurity_incident",
+              "note": "Reserve increase for net collection expectations on provider loans and other customer balances; underlying cyberattack occurred February 21, 2024",
+              "period": "Q4-2025",
+              "reserve_increase_usd": 799000000
+            },
+            "identifiers": {},
+            "name": "Change Healthcare Cyberattack Q4 2025 Reserve Increase",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "Optum Financial segment realignment 2026"
+            ],
+            "attributes": {
+              "description": "Optum Financial, including Optum Bank, moved from Optum Health to Optum Insight segment",
+              "effective_date": "2026-01-01",
+              "event_type": "restructuring"
+            },
+            "identifiers": {},
+            "name": "UNH 2026 Business Realignment",
+            "type": "MaterialEvent"
+          },
+          {
+            "aliases": [
+              "UNH MA membership 2026 guidance"
+            ],
+            "attributes": {
+              "metric": "medicare_advantage_membership",
+              "new_value": "contraction",
+              "period": "FY2026",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "UNH 2026 Medicare Advantage Membership Outlook",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "UNH Medicaid membership losses 2026"
+            ],
+            "attributes": {
+              "metric": "medicaid_membership",
+              "new_value": "losses",
+              "period": "FY2026",
+              "reason": "reduced Medicaid eligibility and exit from one state",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "UNH 2026 Medicaid Membership Outlook",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "UNH VBC membership 2026 guidance"
+            ],
+            "attributes": {
+              "metric": "value_based_care_people_served",
+              "new_value": "contraction",
+              "period": "FY2026",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "UNH 2026 Value-Based Care People Served Outlook",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "UNH 2025 quarterly dividend increase"
+            ],
+            "attributes": {
+              "effective_date": "2025-06",
+              "per_share": 8.84,
+              "prior_per_share": 8.4,
+              "return_type": "dividend_increase"
+            },
+            "identifiers": {},
+            "name": "UNH June 2025 Dividend Increase",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "UNH buyback authorization 2025"
+            ],
+            "attributes": {
+              "as_of_date": "2025-12-31",
+              "return_type": "repurchase_authorization",
+              "shares_remaining": 21000000
+            },
+            "identifiers": {},
+            "name": "UNH Share Repurchase Authorization (21M Shares Remaining)",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [
+              "MA rate shortfall risk",
+              "Medicare Advantage rate pressure"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "UNH Medicare Advantage Funding Pressure",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "medical cost trend above pricing assumptions",
+              "UNH MCR pressure"
+            ],
+            "attributes": {
+              "category": "operational",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "UNH Elevated Medical Cost Trend",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Medicaid funding timing mismatch",
+              "Medicaid margin pressure"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "United States"
+            },
+            "identifiers": {},
+            "name": "UNH Medicaid Rate Insufficiency Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 0.16,
+              "margin": 0.027,
+              "period": "FY2025",
+              "revenue": 344903000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH UnitedHealthcare Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": -0.03,
+              "margin": -0.003,
+              "period": "FY2025",
+              "revenue": 101957000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Health Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.04,
+              "margin": 0.135,
+              "period": "FY2025",
+              "revenue": 19417000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Insight Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.16,
+              "margin": 0.046,
+              "period": "FY2025",
+              "revenue": 154726000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Optum Rx Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.23,
+              "period": "FY2025",
+              "revenue": 171285000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH UnitedHealthcare Medicare & Retirement",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.17,
+              "period": "FY2025",
+              "revenue": 94390000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH UnitedHealthcare Community & State",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.01,
+              "period": "FY2025",
+              "revenue": 79228000000
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH UnitedHealthcare Employer & Individual",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Q4 2025 Net Portfolio Divestitures",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Q4 2025 Restructuring and Other Actions",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "Change Healthcare Cyberattack Q4 2025 Reserve Increase",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH 2026 Business Realignment",
+            "target_type_entity": "MaterialEvent",
+            "type": "discloses_event",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH 2026 Medicare Advantage Membership Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH 2026 Medicaid Membership Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH 2026 Value-Based Care People Served Outlook",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH June 2025 Dividend Increase",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Share Repurchase Authorization (21M Shares Remaining)",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Medicare Advantage Funding Pressure",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Elevated Medical Cost Trend",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "UNH 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "UNH Medicaid Rate Insufficiency Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": "2026-02-28",
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/UNH/0000731766-26-000062.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "a2c828385011b57184e531ce2a039c510b99337b957f62168b70c7597ddfe830"
+    }
+  ],
+  "prompt_version": "v3"
+}

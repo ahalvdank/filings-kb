@@ -1,0 +1,169 @@
+{
+  "accession": "0001018724-23-000004",
+  "item": "Item_7A",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-22T16:31:36Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Fixed income securities may have their fair market value adversely affected due to a rise in interest rates, and we may suffer losses in principal if forced to sell securities that have declined in market value due to changes in interest rates.",
+            "entity_name": "AMZN Interest Rate Risk on Investment Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our long-term debt is carried at amortized cost and fluctuations in interest rates do not impact our consolidated financial statements. However, the fair value of our long-term debt, which pays interest at a fixed rate, will generally fluctuate with movements of interest rates, increasing in periods of declining rates of interest and declining in periods of increasing rates of interest.",
+            "entity_name": "AMZN Interest Rate Risk on Investment Portfolio",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Based on the balance of foreign funds as of December 31, 2022, of $18.3 billion, an assumed 5%, 10%, and 20% adverse change to foreign exchange would result in declines of $915 million, $1.8 billion, and $3.7 billion.",
+            "entity_name": "AMZN Foreign Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Net sales and related expenses generated from our internationally-focused stores, including within Canada and Mexico (which are included in our North America segment), are primarily denominated in the functional currencies of the corresponding stores and primarily include Euros, British Pounds, and Japanese Yen. The results of operations of, and certain of our intercompany balances associated with, our internationally-focused stores and AWS are exposed to foreign exchange rate fluctuations.",
+            "entity_name": "AMZN Foreign Exchange Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our equity and equity warrant investments in publicly traded companies, which primarily relate to Rivian, represent $5.0 billion of our investments as of December 31, 2022, and are recorded at fair value, which is subject to market price volatility.",
+            "entity_name": "AMZN Equity Investment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7A"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Valuations of private companies are inherently more complex due to the lack of readily available market data. The current global economic conditions provide additional uncertainty.",
+            "entity_name": "AMZN Equity Investment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "interest rate risk",
+              "fixed income portfolio interest rate risk"
+            ],
+            "attributes": {
+              "cash_equivalents_and_marketable_fixed_income_usd": 56016000000,
+              "category": "interest_rate",
+              "scope": "investment_portfolio_and_long_term_debt"
+            },
+            "identifiers": {},
+            "name": "AMZN Interest Rate Risk on Investment Portfolio",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "FX risk",
+              "currency risk",
+              "international currency exposure"
+            ],
+            "attributes": {
+              "category": "foreign_exchange",
+              "foreign_funds_usd": 18300000000,
+              "geography": "International",
+              "primary_currencies": [
+                "EUR",
+                "GBP",
+                "JPY"
+              ]
+            },
+            "identifiers": {},
+            "name": "AMZN Foreign Exchange Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "equity portfolio risk",
+              "Rivian investment risk",
+              "equity warrant investment risk"
+            ],
+            "attributes": {
+              "category": "equity_investment",
+              "primary_public_investment": "Rivian",
+              "public_investment_fair_value_usd": 5000000000,
+              "recorded_value_usd": 7200000000
+            },
+            "identifiers": {},
+            "name": "AMZN Equity Investment Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Interest Rate Risk on Investment Portfolio",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Foreign Exchange Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "AMZN 10-K 2022",
+            "source_type_entity": "Filing",
+            "target_name": "AMZN Equity Investment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/AMZN/0001018724-23-000004.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "a06ad452dafda94005be5a3f183b43f4b93bc653582d8898a0cc54621dceb820"
+    }
+  ],
+  "prompt_version": "v3"
+}

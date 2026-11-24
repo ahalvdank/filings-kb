@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-11-23T07:50:28.598341+00:00",
+  "current_fy": 2025,
+  "input_sha256": "a6ec920b96f7187f64c53d954494e6496742cab15810c20247b791a3979fe16d",
+  "item": "Item_1A",
+  "model": "claude-sonnet-4-6",
+  "prior_fy": 2024,
+  "prompt_sha256": "71d2da8ab6cdab15e1608c2f958dd4ee476ccefb8769395dad274dfc53c246fc",
+  "result": {
+    "added": [
+      "AMD Competitive Market Intensity Risk",
+      "AMD China Export Control Market Access Risk",
+      "AMD AI Infrastructure Demand Trajectory Risk",
+      "AMD Memory and Materials Supply Shortage Risk",
+      "AMD Tariff and Trade Policy Risk",
+      "AMD THATIC JV BIS Entity List Exposure",
+      "AMD U.S. Government MI308 Revenue Sharing Demand Risk",
+      "AMD MI308 Export Restriction and Inventory Charge",
+      "BIS AI Diffusion Rule Rescission",
+      "BIS Entity List 50% Ownership Rule",
+      "AMD Export Control and EAR/ITAR Compliance Risk",
+      "AMD Tax Law Change and Examination Risk",
+      "AMD Environmental and Conflict Minerals Compliance Risk",
+      "AMD ESG and Corporate Responsibility Compliance Risk",
+      "AMD Responsible AI Use and Reputational Risk",
+      "AMD Commercial Commitment and Counterparty Risk"
+    ],
+    "changed": [
+      [
+        "AMD Third-Party Foundry Concentration Risk: key suppliers listed as TSMC, GLOBALFOUNDRIES, UMC, Samsung",
+        "AMD Third-Party Wafer Foundry Concentration Risk: key suppliers narrowed to TSMC and GLOBALFOUNDRIES only"
+      ],
+      [
+        "AMD Deferred Tax Asset Realization Risk: category=tax",
+        "AMD Deferred Tax Asset Realization Risk: category=financial"
+      ],
+      [
+        "AMD Litigation and IP Infringement Risk: listed as two separate entries (AMD Litigation and Legal Claims Risk and AMD Litigation and IP Infringement Risk)",
+        "AMD Litigation and IP Infringement Risk: consolidated into a single entry"
+      ],
+      [
+        "AMD Environmental and Regulatory Compliance Risk: category=regulatory; geography=global",
+        "AMD Environmental and Conflict Minerals Compliance Risk: scope expanded to include conflict minerals"
+      ],
+      [
+        "AMD ESG and Corporate Responsibility Reporting Risk: framed as a reporting risk",
+        "AMD ESG and Corporate Responsibility Compliance Risk: reframed as a compliance risk"
+      ],
+      [
+        "AMD Responsible AI Use Risk: category=reputational (standalone)",
+        "AMD Responsible AI Use and Reputational Risk: explicitly combined with reputational dimension in name"
+      ],
+      [
+        "AMD Acquisitions and Integration Risk / AMD Acquisition and Integration Risk: two overlapping entries, category=merger_acquisition and category=strategic",
+        "AMD Acquisition and Integration Risk: single entry, category=operational"
+      ],
+      [
+        "AMD ZT Systems Acquisition Closing Risk: status=pending_at_filing; termination_fee_usd=300000000",
+        "AMD Acquisition of ZT Systems: effective_date=2025-03; acquisition completed"
+      ],
+      [
+        "AMD $12B Stock Repurchase Program: amount_usd=12000000000; remaining_usd=4700000000 as of 2024-12-28",
+        "AMD $14B Stock Repurchase Authorization: amount_usd=14000000000; remaining_usd=9400000000 as of 2025-12-27"
+      ],
+      [
+        "AMD Cybersecurity and IT Outage Risk: category=cybersecurity",
+        "AMD Cybersecurity and IT Systems Threat Risk: category=operational"
+      ],
+      [
+        "AMD Natural Disaster and Climate Operational Risk: no geography specified",
+        "AMD Natural Disaster and Climate Operational Risk: geography=global added"
+      ],
+      [
+        "AMD Talent Retention Risk: category=human_capital",
+        "AMD Employee Retention and Talent Risk: category=operational"
+      ],
+      [
+        "AMD Debt Covenant Restriction Risk: category=financial",
+        "AMD Debt Covenant Operating Restriction Risk: category=financial (name expanded to emphasize operating restrictions)"
+      ],
+      [
+        "AMD Geopolitical and International Operations Risk: category=geopolitical; geography=global",
+        "AMD Geopolitical and Global Operations Risk: category=geopolitical; geography=global (minor rename)"
+      ]
+    ],
+    "removed": [
+      "AMD Intel Microprocessor Competition Risk",
+      "AMD Nvidia GPU and AI Accelerator Competition Risk",
+      "AMD End-Market Demand Fluctuation Risk",
+      "AMD Product Development and Introduction Timing Risk",
+      "AMD Customer Concentration Risk",
+      "AMD Macroeconomic and Market Uncertainty Risk",
+      "AMD Intellectual Property Protection Risk",
+      "AMD Foreign Currency Exchange Rate Risk",
+      "AMD Essential Equipment and Materials Availability Risk",
+      "AMD Third-Party Manufacturing Yield Risk",
+      "AMD Semi-Custom SoC Revenue Dependency Risk",
+      "AMD Product Security Vulnerability Risk",
+      "AMD Demand Forecasting and Inventory Management Risk",
+      "AMD Microsoft Software Support Dependency Risk",
+      "AMD Distributor and AIB Partner Risk",
+      "AMD Gray Market Sales Risk",
+      "AMD Export Control and China AI Chip Restriction Risk",
+      "AMD Global Tax Liability and Regulatory Change Risk",
+      "AMD ZT Systems Acquisition Closing Risk",
+      "AMD Defective Products Risk",
+      "AMD Litigation and Legal Claims Risk",
+      "AMD ESG and Corporate Responsibility Reporting Risk",
+      "AMD Responsible AI Use Risk",
+      "AMD Acquisition and Integration Risk",
+      "AMD ZT Systems Manufacturing Business Divestiture",
+      "AMD Senior Notes 3.924% due 2032 and 4.393% due 2052",
+      "AMD Guarantee of Xilinx 2.375% Notes due 2030",
+      "AMD $3.0B Revolving Credit Agreement",
+      "AMD Acquisition of Silo AI Oy"
+    ]
+  },
+  "ticker": "AMD"
+}

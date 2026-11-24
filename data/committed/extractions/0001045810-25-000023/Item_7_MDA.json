@@ -1,0 +1,426 @@
+{
+  "accession": "0001045810-25-000023",
+  "item": "Item_7_MDA",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-06-17T12:19:11Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Compute & Networking revenue – The year over year increase was due to strong demand for our accelerated computing and AI solutions. Revenue from Data Center computing grew 162% driven primarily by demand for our Hopper computing platform used for large language models, recommendation engines, and generative AI applications. Revenue from Data Center networking grew 51% driven by Ethernet for AI revenue, which includes Spectrum-X end-to-end ethernet platform.",
+            "entity_name": "NVDA Compute & Networking Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "period": "FY2025",
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "segment",
+            "content": "Graphics revenue – The year over year increase was driven by sales of our GeForce RTX 40 Series GPUs.",
+            "entity_name": "NVDA Graphics Segment",
+            "entity_type_entity": "RevenueSegment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "On August 26, 2024, our Board of Directors approved an additional $50 billion to our share repurchase authorization, without expiration.",
+            "entity_name": "NVDA August 2024 $50B Repurchase Authorization",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In fiscal year 2025, we repurchased 310 million shares of our common stock for $34.0 billion. As of January 26, 2025, we were authorized, subject to certain specifications, to repurchase up to $38.7 billion of our common stock.",
+            "entity_name": "NVDA FY2025 Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "In fiscal year 2025, we paid cash dividends to our shareholders of $834 million.",
+            "entity_name": "NVDA FY2025 Cash Dividends",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "capital_return",
+            "content": "From January 27, 2025 through February 21, 2025, we repurchased 29 million shares for $3.7 billion pursuant to a pre-established trading plan.",
+            "entity_name": "NVDA Post-FY2025 Share Repurchases Jan-Feb 2025",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA",
+              "update_type": "confirmation"
+            },
+            "chunk_type": "guidance",
+            "content": "We expect to increase capital expenditures in fiscal year 2026 relative to fiscal year 2025 to support the future growth of our business.",
+            "entity_name": "NVDA FY2026 Capital Expenditure Growth Guidance",
+            "entity_type_entity": "GuidanceUpdate",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Our competitive position has been harmed by the existing export controls, and our competitive position and future results may be further harmed, over the long term, if there are further changes in the USG's export controls. Given the increasing strategic importance of AI and rising geopolitical tensions, the USG has changed and may again change the export control rules at any time and further subject a wider range of our products to export restrictions and licensing requirements, negatively impacting our business and financial results.",
+            "entity_name": "NVDA Export Control and AI Diffusion IFR Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "On January 15, 2025, the USG published the \"AI Diffusion\" IFR in the Federal Register. After a 120-day delayed compliance period, the IFR will, unless modified, impose a worldwide licensing requirement on all products classified under Export Control Classification Numbers, or ECCNs, 3A090.a, 4A090.a, or corresponding .z ECCNs, including all related software and technology.",
+            "entity_name": "NVDA Export Control and AI Diffusion IFR Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "Product transitions are complex and we often ship both new and prior architecture products simultaneously as our channel partners prepare to ship and support new products. We are generally in various stages of transitioning the architectures of our Data Center, Gaming, Professional Visualization, and Automotive products. The computing industry is experiencing a broader and faster launch cadence of accelerated computing platforms to meet a growing and diverse set of AI opportunities.",
+            "entity_name": "NVDA Product Transition and Demand Volatility Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We have incurred and may in the future incur inventory provisions or impairments if our inventory or supply or capacity commitments exceed demand for our products or demand declines.",
+            "entity_name": "NVDA Inventory Provisioning and Supply Commitment Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "section_type": "Item_7_MDA"
+            },
+            "chunk_type": "risk_factor",
+            "content": "We are monitoring the impact of the geopolitical conflict in and around Israel on our operations, including the health and safety of our approximately 4,700 employees in the region who primarily support the research and development, operations, and sales and marketing of our networking products.",
+            "entity_name": "NVDA Israel Geopolitical Operational Risk",
+            "entity_type_entity": "Risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "NVIDIA",
+              "NVDA"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "ticker": "NVDA"
+            },
+            "name": "NVIDIA Corporation",
+            "type": "Company"
+          },
+          {
+            "aliases": [
+              "Compute & Networking"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Compute & Networking",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Compute & Networking Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "Graphics"
+            ],
+            "attributes": {},
+            "identifiers": {
+              "segment_name": "Graphics",
+              "ticker": "NVDA"
+            },
+            "name": "NVDA Graphics Segment",
+            "type": "RevenueSegment"
+          },
+          {
+            "aliases": [
+              "NVDA Aug 2024 buyback expansion"
+            ],
+            "attributes": {
+              "amount_usd": 50000000000,
+              "effective_date": "2024-08-26",
+              "return_type": "repurchase_authorization"
+            },
+            "identifiers": {},
+            "name": "NVDA August 2024 $50B Repurchase Authorization",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 34000000000,
+              "period": "FY2025",
+              "return_type": "buyback",
+              "shares": 310000000
+            },
+            "identifiers": {},
+            "name": "NVDA FY2025 Share Repurchases",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 834000000,
+              "period": "FY2025",
+              "return_type": "dividend"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2025 Cash Dividends",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "amount_usd": 3700000000,
+              "effective_date": "2025-01-27",
+              "return_type": "buyback",
+              "shares": 29000000
+            },
+            "identifiers": {},
+            "name": "NVDA Post-FY2025 Share Repurchases Jan-Feb 2025",
+            "type": "CapitalReturn"
+          },
+          {
+            "aliases": [],
+            "attributes": {
+              "metric": "capital_expenditures",
+              "new_value": "higher_than_FY2025",
+              "period": "FY2026",
+              "update_type": "confirmation"
+            },
+            "identifiers": {},
+            "name": "NVDA FY2026 Capital Expenditure Growth Guidance",
+            "type": "GuidanceUpdate"
+          },
+          {
+            "aliases": [
+              "China export control risk",
+              "AI Diffusion IFR risk",
+              "USG licensing requirement risk"
+            ],
+            "attributes": {
+              "category": "regulatory",
+              "geography": "China, Middle East, Tier 2 countries"
+            },
+            "identifiers": {},
+            "name": "NVDA Export Control and AI Diffusion IFR Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "product transition risk",
+              "new architecture launch risk"
+            ],
+            "attributes": {
+              "category": "operational"
+            },
+            "identifiers": {},
+            "name": "NVDA Product Transition and Demand Volatility Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "inventory excess risk",
+              "supply commitment risk"
+            ],
+            "attributes": {
+              "category": "operational"
+            },
+            "identifiers": {},
+            "name": "NVDA Inventory Provisioning and Supply Commitment Risk",
+            "type": "Risk"
+          },
+          {
+            "aliases": [
+              "Israel conflict employee risk"
+            ],
+            "attributes": {
+              "category": "geopolitical",
+              "geography": "Israel"
+            },
+            "identifiers": {},
+            "name": "NVDA Israel Geopolitical Operational Risk",
+            "type": "Risk"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {
+              "growth_pct": 1.45,
+              "margin": 0.713,
+              "period": "FY2025",
+              "revenue": 116193000000
+            },
+            "source_name": "NVDA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Compute & Networking Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "growth_pct": 0.06,
+              "margin": 0.356,
+              "period": "FY2025",
+              "revenue": 14304000000
+            },
+            "source_name": "NVDA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Graphics Segment",
+            "target_type_entity": "RevenueSegment",
+            "type": "reports_segment",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA August 2024 $50B Repurchase Authorization",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2025 Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2025 Cash Dividends",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Post-FY2025 Share Repurchases Jan-Feb 2025",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {
+              "update_type": "confirmation"
+            },
+            "source_name": "NVDA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA FY2026 Capital Expenditure Growth Guidance",
+            "target_type_entity": "GuidanceUpdate",
+            "type": "updates_guidance_for",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Export Control and AI Diffusion IFR Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Product Transition and Demand Volatility Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Inventory Provisioning and Supply Commitment Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          },
+          {
+            "attributes": {},
+            "source_name": "NVDA 10-K 2025",
+            "source_type_entity": "Filing",
+            "target_name": "NVDA Israel Geopolitical Operational Risk",
+            "target_type_entity": "Risk",
+            "type": "discloses_risk",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/NVDA/0001045810-25-000023.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "b3dfe51c8c0af8314d950dbf9cf187adf8d96dbf5dd17f6a297abab4f4985d10"
+    }
+  ],
+  "prompt_version": "v3"
+}

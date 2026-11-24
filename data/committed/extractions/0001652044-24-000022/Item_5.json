@@ -1,0 +1,62 @@
+{
+  "accession": "0001652044-24-000022",
+  "item": "Item_5",
+  "model": "claude-sonnet-4-6",
+  "origin": "imported",
+  "parts": [
+    {
+      "extracted_at": "2026-07-19T19:03:05Z",
+      "payload": {
+        "chunks": [
+          {
+            "attributes": {
+              "section_type": "Item_5"
+            },
+            "chunk_type": "capital_return",
+            "content": "Repurchases are being executed from time to time, subject to general business and market conditions and other investment opportunities, through open market purchases or privately negotiated transactions, including through Rule 10b5-1 plans. The repurchase program does not have an expiration date.",
+            "entity_name": "GOOGL Q4 2023 Class A and Class C Share Repurchases",
+            "entity_type_entity": "CapitalReturn",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "entities": [
+          {
+            "aliases": [
+              "Alphabet Q4 2023 buyback",
+              "Alphabet Q4 2023 repurchase program"
+            ],
+            "attributes": {
+              "class_a_shares_purchased_thousands": 26622,
+              "class_c_shares_purchased_thousands": 91645,
+              "period": "Q4_2023",
+              "program_no_expiration_date": true,
+              "remaining_authorization_usd": 36347000000,
+              "return_type": "buyback",
+              "total_shares_purchased_thousands": 118267
+            },
+            "identifiers": {},
+            "name": "GOOGL Q4 2023 Class A and Class C Share Repurchases",
+            "type": "CapitalReturn"
+          }
+        ],
+        "relationships": [
+          {
+            "attributes": {},
+            "source_name": "GOOGL 10-K 2023",
+            "source_type_entity": "Filing",
+            "target_name": "GOOGL Q4 2023 Class A and Class C Share Repurchases",
+            "target_type_entity": "CapitalReturn",
+            "type": "discloses_capital_return",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "source_file": "filings/GOOGL/0001652044-24-000022.json",
+        "source_type": "sec_filing"
+      },
+      "text_sha256": "0ea455d5fc4ce1815f4163c21e2b51af3b429c8484077567b340b113f8a4794d"
+    }
+  ],
+  "prompt_version": "v3"
+}
