@@ -1,0 +1,67 @@
+# Recall@k candidate questions, author: Claude (Opus 5.5), drafted 2026-11-25.
+# Each question targets ONE filing section: retrieval runs inside (ticker, fiscal_year, item),
+# exactly as the trace retriever does. kind: fact = one specific disclosure, likely 1-2
+# relevant passages; thematic = a topic spread over several passages.
+# These are candidates: 30 of the 60 (this file + questions_gemini.yaml) are picked after
+# cross-review, and only the picked set is frozen in questions.yaml before labelling.
+questions:
+  - {id: c01, ticker: AMD, fiscal_year: 2025, item: Item_1A, kind: fact,
+     question: "What does AMD say about U.S. export restrictions on its MI308 accelerators and the charges that followed?"}
+  - {id: c02, ticker: AMD, fiscal_year: 2025, item: Item_1A, kind: thematic,
+     question: "What risks does AMD describe from relying on third-party foundries such as TSMC to manufacture its products?"}
+  - {id: c03, ticker: AMD, fiscal_year: 2025, item: Item_8, kind: fact,
+     question: "What are the terms of the warrant AMD issued to OpenAI in October 2025?"}
+  - {id: c04, ticker: AMD, fiscal_year: 2025, item: Item_7_MDA, kind: thematic,
+     question: "How did AMD's Data Center segment revenue and operating income change in 2025, and what drove the change?"}
+  - {id: c05, ticker: AMZN, fiscal_year: 2025, item: Item_1A, kind: thematic,
+     question: "How does Amazon describe its exposure to changes in foreign exchange rates?"}
+  - {id: c06, ticker: AMZN, fiscal_year: 2025, item: Item_8, kind: fact,
+     question: "What is the status of the Indian tax authority's dispute with Amazon over cloud services?"}
+  - {id: c07, ticker: BA, fiscal_year: 2024, item: Item_7_MDA, kind: thematic,
+     question: "How did the 2024 machinists' strike affect Boeing's commercial airplane production and results?"}
+  - {id: c08, ticker: BA, fiscal_year: 2025, item: Item_7_MDA, kind: fact,
+     question: "When does Boeing expect to deliver the first 777-9, and what is the timing for the 777-8 Freighter?"}
+  - {id: c09, ticker: BA, fiscal_year: 2025, item: Item_7_MDA, kind: fact,
+     question: "How did Boeing's credit ratings and rating outlooks change during 2025?"}
+  - {id: c10, ticker: BA, fiscal_year: 2025, item: Item_8, kind: fact,
+     question: "What did Boeing agree to with the Department of Justice over the 737 MAX accidents?"}
+  - {id: c11, ticker: BA, fiscal_year: 2025, item: Item_8, kind: thematic,
+     question: "Which fixed-price defense development programs caused Boeing to record reach-forward losses?"}
+  - {id: c12, ticker: CVX, fiscal_year: 2025, item: Item_1, kind: thematic,
+     question: "Which upstream assets did Chevron sell or exit during 2025?"}
+  - {id: c13, ticker: CVX, fiscal_year: 2025, item: Item_1, kind: fact,
+     question: "What worldwide oil-equivalent production does Chevron expect for 2026?"}
+  - {id: c14, ticker: GOOGL, fiscal_year: 2025, item: Item_1A, kind: thematic,
+     question: "What risks does Alphabet see from AI changing how people search and how advertising works?"}
+  - {id: c15, ticker: GOOGL, fiscal_year: 2025, item: Item_8, kind: fact,
+     question: "What did the court decide on remedies in the Department of Justice search antitrust case against Google?"}
+  - {id: c16, ticker: GOOGL, fiscal_year: 2025, item: Item_7_MDA, kind: fact,
+     question: "What does Alphabet expect for capital expenditures on technical infrastructure in 2026?"}
+  - {id: c17, ticker: INTC, fiscal_year: 2025, item: Item_1A, kind: thematic,
+     question: "What risks does Intel describe around winning external customers for its foundry business?"}
+  - {id: c18, ticker: INTC, fiscal_year: 2025, item: Item_8, kind: fact,
+     question: "How many shares did Intel sell to NVIDIA and SoftBank in 2025, and for how much?"}
+  - {id: c19, ticker: JPM, fiscal_year: 2025, item: Item_1A, kind: fact,
+     question: "What risk does JPMorgan describe if a central counterparty it uses were to fail?"}
+  - {id: c20, ticker: JPM, fiscal_year: 2025, item: Item_1A, kind: thematic,
+     question: "What risks does JPMorgan associate with using artificial intelligence and other new technologies?"}
+  - {id: c21, ticker: META, fiscal_year: 2025, item: Item_1A, kind: fact,
+     question: "What did the European Commission decide about Meta's subscription-for-no-ads model under the Digital Markets Act?"}
+  - {id: c22, ticker: META, fiscal_year: 2025, item: Item_1A, kind: thematic,
+     question: "What litigation does Meta face over the safety and well-being of young users?"}
+  - {id: c23, ticker: META, fiscal_year: 2025, item: Item_7_MDA, kind: fact,
+     question: "What range of capital expenditures does Meta expect in 2026, and what is driving it?"}
+  - {id: c24, ticker: MSFT, fiscal_year: 2026, item: Item_7_MDA, kind: fact,
+     question: "How did OpenAI's recapitalization affect Microsoft's fiscal 2026 results?"}
+  - {id: c25, ticker: MSFT, fiscal_year: 2026, item: Item_1A, kind: thematic,
+     question: "What does Microsoft say about the availability of datacenter capacity and power?"}
+  - {id: c26, ticker: NVDA, fiscal_year: 2023, item: Item_1A, kind: fact,
+     question: "What licensing requirement did the U.S. government impose in 2022 on NVIDIA's A100 and H100 sales to China?"}
+  - {id: c27, ticker: NVDA, fiscal_year: 2026, item: Item_1A, kind: fact,
+     question: "What happened with NVIDIA's H20 export licenses and the related inventory charge in fiscal 2026?"}
+  - {id: c28, ticker: NVDA, fiscal_year: 2026, item: Item_1A, kind: thematic,
+     question: "How does NVIDIA describe its dependence on a small number of customers?"}
+  - {id: c29, ticker: UNH, fiscal_year: 2025, item: Item_7_MDA, kind: thematic,
+     question: "How did UnitedHealth's medical costs and medical care ratio trend in 2025?"}
+  - {id: c30, ticker: UNH, fiscal_year: 2024, item: Item_1A, kind: fact,
+     question: "What does UnitedHealth disclose about the February 2024 cyberattack on Change Healthcare?"}
