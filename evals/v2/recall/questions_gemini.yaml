@@ -1,0 +1,61 @@
+questions:
+  - {id: g01, ticker: AMD, fiscal_year: 2025, item: Item_1A, kind: thematic,
+     question: "How does AMD describe the regulatory and geopolitical risks around selling AI chips internationally?"}
+  - {id: g02, ticker: AMD, fiscal_year: 2025, item: Item_8, kind: fact,
+     question: "How much did AMD raise in its March 2025 senior notes offering?"}
+  - {id: g03, ticker: AMD, fiscal_year: 2023, item: Item_1A, kind: fact,
+     question: "What greenhouse gas reduction target did AMD set for 2030?"}
+  - {id: g04, ticker: AMZN, fiscal_year: 2025, item: Item_8, kind: fact,
+     question: "What size did Amazon expand its commercial paper program to in April 2025?"}
+  - {id: g05, ticker: AMZN, fiscal_year: 2024, item: Item_8, kind: thematic,
+     question: "What antitrust and competition-related fines or lawsuits does Amazon disclose in its financial statement notes?"}
+  - {id: g06, ticker: AMZN, fiscal_year: 2023, item: Item_8, kind: fact,
+     question: "How did extending the estimated useful life of servers in late 2023 affect Amazon's expected 2024 operating income?"}
+  - {id: g07, ticker: BA, fiscal_year: 2025, item: Item_8, kind: fact,
+     question: "What exchangeable notes did Boeing assume as part of the Spirit AeroSystems transaction?"}
+  - {id: g08, ticker: BA, fiscal_year: 2024, item: Item_7_MDA, kind: thematic,
+     question: "How did Boeing bolster its liquidity and capital structure through debt and equity markets during 2024?"}
+  - {id: g09, ticker: BA, fiscal_year: 2022, item: Item_7_MDA, kind: fact,
+     question: "What was Boeing's revised estimate for total abnormal production costs on the 787 program?"}
+  - {id: g10, ticker: CVX, fiscal_year: 2025, item: Item_1, kind: thematic,
+     question: "How is Chevron reshaping its upstream portfolio through acquisitions, divestitures, and new exploration blocks?"}
+  - {id: g11, ticker: CVX, fiscal_year: 2024, item: Item_1, kind: fact,
+     question: "What daily production milestone was Chevron targeting in the Permian Basin for 2025?"}
+  - {id: g12, ticker: CVX, fiscal_year: 2022, item: Item_1, kind: thematic,
+     question: "How does Chevron describe its lower-carbon energy strategy and maritime decarbonization efforts?"}
+  - {id: g13, ticker: GOOGL, fiscal_year: 2025, item: Item_8, kind: fact,
+     question: "How much did Alphabet spend on share repurchases during fiscal 2025?"}
+  - {id: g14, ticker: GOOGL, fiscal_year: 2024, item: Item_1A, kind: thematic,
+     question: "What legal, ethical, and competitive risks does Alphabet highlight around developing and deploying AI?"}
+  - {id: g15, ticker: GOOGL, fiscal_year: 2023, item: Item_8, kind: thematic,
+     question: "What major government antitrust cases and regulatory objections does Alphabet report in its legal contingencies?"}
+  - {id: g16, ticker: INTC, fiscal_year: 2025, item: Item_1A, kind: fact,
+     question: "Who was appointed Intel's new CEO in March 2025?"}
+  - {id: g17, ticker: INTC, fiscal_year: 2024, item: Item_1A, kind: thematic,
+     question: "What asset impairments, write-downs, and construction penalties did Intel disclose as risk factors in 2024?"}
+  - {id: g18, ticker: INTC, fiscal_year: 2023, item: Item_8, kind: fact,
+     question: "When does Intel's $5 billion revolving credit facility mature following its extension?"}
+  - {id: g19, ticker: JPM, fiscal_year: 2024, item: Item_1A, kind: thematic,
+     question: "How does JPMorgan describe its credit exposure to commercial real estate and declining collateral values?"}
+  - {id: g20, ticker: JPM, fiscal_year: 2023, item: Item_1A, kind: thematic,
+     question: "What risks does JPMorgan associate with Basel III capital reforms and global systemically important bank buffers?"}
+  - {id: g21, ticker: META, fiscal_year: 2025, item: Item_1A, kind: thematic,
+     question: "What European privacy and competition enforcement actions pose ongoing operational risks to Meta?"}
+  - {id: g22, ticker: META, fiscal_year: 2025, item: Item_8, kind: fact,
+     question: "What quarterly cash dividend per share did Meta declare after its early 2025 increase?"}
+  - {id: g23, ticker: META, fiscal_year: 2022, item: Item_7_MDA, kind: thematic,
+     question: "What financial outlook did Meta provide for 2023 capital spending, restructuring charges, and its effective tax rate?"}
+  - {id: g24, ticker: MSFT, fiscal_year: 2026, item: Item_8, kind: fact,
+     question: "What quarterly dividend per share did Microsoft pay in fiscal 2026?"}
+  - {id: g25, ticker: MSFT, fiscal_year: 2025, item: Item_8, kind: thematic,
+     question: "How does Microsoft describe its ongoing IRS transfer pricing dispute covering tax years 2004 through 2013?"}
+  - {id: g26, ticker: MSFT, fiscal_year: 2023, item: Item_1, kind: thematic,
+     question: "What long-term environmental sustainability commitments does Microsoft outline for carbon and water?"}
+  - {id: g27, ticker: NVDA, fiscal_year: 2026, item: Item_15, kind: fact,
+     question: "How large was the share buyback authorization NVIDIA's board approved in August 2025?"}
+  - {id: g28, ticker: NVDA, fiscal_year: 2024, item: Item_1A, kind: thematic,
+     question: "How does NVIDIA describe climate-related operational risks and broader sustainability scrutiny?"}
+  - {id: g29, ticker: UNH, fiscal_year: 2025, item: Item_8, kind: fact,
+     question: "What annual dividend rate did UnitedHealth reach after its June 2025 increase?"}
+  - {id: g30, ticker: UNH, fiscal_year: 2024, item: Item_8, kind: thematic,
+     question: "How does UnitedHealth describe its exposure to federal risk-adjustment audits of its local health plans?"}
