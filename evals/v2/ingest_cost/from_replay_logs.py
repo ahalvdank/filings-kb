@@ -29,12 +29,13 @@ The output holds aggregates only: no accessions, and no tickers beyond the run's
 import argparse
 import csv
 import json
+import math
 import re
 import statistics
 import sys
 import tempfile
 from datetime import datetime, timezone
-from decimal import Decimal
+from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -68,7 +69,13 @@ def parse_extract_ok(line: str) -> dict | None:
     missing = [key for key in ("acc", "cost_usd", "wallclock") if key not in kv]
     if missing:
         raise ValueError(f"extract ok line missing {missing}")
-    Decimal(kv["cost_usd"])
+    try:
+        cost = Decimal(kv["cost_usd"])
+    except InvalidOperation as exc:
+        raise ValueError(f"extract ok line has non-numeric cost_usd {kv['cost_usd']!r}") from exc
+    wall = float(kv["wallclock"].rstrip("s"))
+    if not cost.is_finite() or not math.isfinite(wall):
+        raise ValueError("extract ok line has a non-finite cost_usd or wallclock")
 
     def count(key: str) -> int | None:
         return int(kv[key]) if key in kv else None
@@ -78,7 +85,7 @@ def parse_extract_ok(line: str) -> dict | None:
         "accession": kv["acc"],
         "section": kv.get("section"),
         "usd_cost": kv["cost_usd"],
-        "wall_seconds": float(kv["wallclock"].rstrip("s")),
+        "wall_seconds": wall,
         "input_tokens_uncached": count("input_tokens"),
         "output_tokens": count("output_tokens"),
         "cache_creation_tokens": count("cache_creation"),

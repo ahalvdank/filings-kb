@@ -73,6 +73,22 @@ def test_extract_ok_missing_required_field_raises_value_error(drop):
         parse_extract_ok(mangled)
 
 
+@pytest.mark.parametrize("old,new", [("cost_usd=0.100000", "cost_usd=abc"),
+                                     ("cost_usd=0.100000", "cost_usd=NaN"),
+                                     ("cost_usd=0.100000", "cost_usd=Infinity"),
+                                     ("wallclock=100.0s", "wallclock=inf"),
+                                     ("wallclock=100.0s", "wallclock=abc")])
+def test_non_numeric_or_non_finite_values_are_excluded_as_malformed(tmp_path, old, new):
+    bad = line(section="Item_2").replace(old, new)
+    assert new in bad
+    with pytest.raises(ValueError):
+        parse_extract_ok(bad)
+    log, tsv = write(tmp_path, "AAA", [line(), bad], [tsv_row("AAA", START)])
+    records, stats = to_stage_records([log], tsv)
+    assert len(records) == 1
+    assert stats["excluded_malformed"] == 1
+
+
 def test_malformed_extract_ok_lines_are_excluded_and_counted(tmp_path):
     no_acc = " ".join(p for p in line(section="Item_2").split(" ") if not p.startswith("acc="))
     no_cost = " ".join(p for p in line(section="Item_3").split(" ")
