@@ -26,6 +26,7 @@ heading, then the sentence, then the passages it cites. Judge every unit indepen
 by the rules above: use only that unit's own passages, and let no other unit's sentence or
 passages affect its verdict.
 
+For this packet, the line format below overrides "Reply with the JSON object only." above.
 Reply with one JSON object per line, in this exact form, and nothing else:
 
 {"unit_id": "...", "verdict": "supported|partial|unsupported", "unsupported_span": "..."|null}

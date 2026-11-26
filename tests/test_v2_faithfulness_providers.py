@@ -47,11 +47,13 @@ class FakeOpenAI:
 
 
 def _oa_usage(input_tokens: int = 1000, output_tokens: int = 200, cached: int = 0,
-              reasoning: int = 150, cache_write: int = 0) -> SimpleNamespace:
+              reasoning: int = 150, cache_write: int = 0, ttl_12h: int = 0) -> SimpleNamespace:
+    ttl = SimpleNamespace(ttl_12h_tokens=ttl_12h, ttl_30m_tokens=cache_write - ttl_12h)
     return SimpleNamespace(
         input_tokens=input_tokens, output_tokens=output_tokens,
         total_tokens=input_tokens + output_tokens,
-        input_tokens_details=SimpleNamespace(cached_tokens=cached, cache_write_tokens=cache_write),
+        input_tokens_details=SimpleNamespace(cached_tokens=cached, cache_write_tokens=cache_write,
+                                             cache_write_tokens_details=ttl),
         output_tokens_details=SimpleNamespace(reasoning_tokens=reasoning))
 
 
@@ -141,6 +143,39 @@ def test_openai_call_cost_bills_reasoning_once_and_cached_at_cached_rate() -> No
     assert isinstance(judge.call_cost(usage, model="gpt-6.2-sol"), Decimal)
 
 
+def test_openai_call_cost_bills_cache_writes_at_the_cache_write_rate() -> None:
+    usage = {"input_tokens": 10_000, "output_tokens": 3_000, "cached_tokens": 4_000,
+             "cache_write_tokens": 5_000, "reasoning_tokens": 2_500}
+    # (10000 - 4000 - 5000) * 2.00 + 4000 * 0.10 + 5000 * 2.50 + 3000 * 10.00
+    # = 2000 + 400 + 12500 + 30000 = 44900 micro-$. Billing writes inside input at 2.00
+    # would give 0.0424; adding them on top of input would give 0.0549.
+    assert judge.call_cost(usage, model="gpt-6.2-sol") == Decimal("0.0449")
+    response = _oa_response(_verdict("supported"),
+                            usage=_oa_usage(input_tokens=10_000, output_tokens=3_000,
+                                            cached=4_000, reasoning=2_500, cache_write=5_000))
+    result = judge.judge_unit_openai(FakeOpenAI([response]), _unit("a:p1u1"), "PROMPT",
+                                     model="gpt-6.2-sol")
+    assert result["usage"]["cache_write_tokens"] == 5_000
+    assert judge.call_cost(result["usage"], model="gpt-6.2-sol") == Decimal("0.0449")
+
+
+def test_openai_12h_cache_writes_raise_because_no_rate_is_configured(tmp_path) -> None:
+    response = _oa_response(_verdict("supported"),
+                            usage=_oa_usage(cache_write=500, ttl_12h=200))
+    response.id = "resp_12h"
+    with pytest.raises(ValueError, match="12h") as exc:
+        judge.judge_unit_openai(FakeOpenAI([response]), _unit("a:p1u1"), "PROMPT",
+                                model="gpt-6.2-sol")
+    assert "resp_12h" in str(exc.value)
+    out = tmp_path / "o.jsonl"
+    first = _oa_response(_verdict("supported"))
+    with pytest.raises(ValueError, match=r"resp_12h.*spent so far \$0\.004 "):
+        judge.run([_unit("a:p1u1"), _unit("a:p1u2")], out, "g",
+                  client=FakeOpenAI([first, response]), prompt_path=_prompt_file(tmp_path),
+                  provider="openai", model="gpt-6.2-sol")
+    assert [r["unit_id"] for r in _records(out)] == ["a:p1u1"]
+
+
 def test_openai_cost_from_a_fake_response_round_trips_through_usage() -> None:
     response = _oa_response(_verdict("supported"),
                             usage=_oa_usage(input_tokens=10_000, output_tokens=3_000,
@@ -154,12 +189,14 @@ def test_openai_missing_usage_stops_the_run(tmp_path) -> None:
     # Zeros would leave spend uncounted and the cap unable to fire; raising stops the run.
     response = _oa_response(_verdict("supported"))
     response.usage = None
-    with pytest.raises(RuntimeError, match="usage"):
+    response.id = "resp_nousage"
+    with pytest.raises(RuntimeError, match="usage") as exc:
         judge.judge_unit_openai(FakeOpenAI([response]), _unit("a:p1u1"), "PROMPT",
                                 model="gpt-6.2-sol")
+    assert "resp_nousage" in str(exc.value)
     out = tmp_path / "o.jsonl"
-    first = _oa_response(_verdict("supported"))
-    with pytest.raises(RuntimeError):
+    first = _oa_response(_verdict("supported"))  # 1000 in * 2.00 + 200 out * 10.00 = $0.0040
+    with pytest.raises(RuntimeError, match=r"resp_nousage.*spent so far \$0\.004"):
         judge.run([_unit("a:p1u1"), _unit("a:p1u2")], out, "g",
                   client=FakeOpenAI([first, response]), prompt_path=_prompt_file(tmp_path),
                   provider="openai", model="gpt-6.2-sol")
@@ -169,7 +206,9 @@ def test_openai_missing_usage_stops_the_run(tmp_path) -> None:
 def test_openai_projection_uses_openai_prices() -> None:
     unit = _unit("a:p1u1")
     est_input = -(-(len("p") + len(judge.user_message(unit))) // judge.CHARS_PER_TOKEN_ESTIMATE)
-    expected = (Decimal(est_input) * 2 + Decimal(judge.MAX_TOKENS) * 10) / Decimal(1_000_000)
+    # All input at the cache-write rate ($2.50, the highest input rate), so it stays a bound.
+    expected = (Decimal(est_input) * Decimal("2.50") + Decimal(judge.MAX_TOKENS) * 10) \
+        / Decimal(1_000_000)
     assert judge.projected_call_cost("p", unit, "gpt-6.2-sol") == expected
 
 
@@ -315,6 +354,7 @@ def test_manual_export_renders_prompt_and_exact_passages(tmp_path) -> None:
     prompt = (out_dir / "PROMPT.md").read_text(encoding="utf-8")
     judge_prompt = judge.PROMPT_PATH.read_text(encoding="utf-8")
     assert judge_prompt in prompt
+    assert 'overrides "Reply with the JSON object only."' in prompt
     assert "2 units" in prompt and "exactly once" in prompt
     assert '{"unit_id": "...", "verdict": "supported|partial|unsupported", ' \
            '"unsupported_span": "..."|null}' in prompt
@@ -348,7 +388,25 @@ def test_manual_import_round_trips_with_fences_and_blank_lines() -> None:
                      "raw": _reply_line("a:p1u1", "supported"), "stop_reason": None,
                      "usage": None, "model": "gemini-x", "effort": None,
                      "prompt_sha256": judge.sha256_file(judge.PROMPT_PATH),
+                     "packet_prompt_sha256": first["packet_prompt_sha256"],
+                     "packet_units_sha256": first["packet_units_sha256"],
                      "run_label": "gemini1", "cost_usd": "0", "provider": "manual"}
+
+
+def test_manual_import_records_hashes_of_the_exported_packet(tmp_path) -> None:
+    rows = [_unit("a:p1u1"), _unit("a:p1u2")]
+    manual.export(rows, tmp_path)
+    reply = "\n".join(_reply_line(u["unit_id"], "supported") for u in rows)
+    records = manual.import_reply(rows, reply, run_label="g", model="m")
+    assert {r["packet_prompt_sha256"] for r in records} == \
+        {judge.sha256_file(tmp_path / "PROMPT.md")}
+    assert {r["packet_units_sha256"] for r in records} == \
+        {judge.sha256_file(tmp_path / "units_for_manual_judge.md")}
+    assert records[0]["packet_prompt_sha256"] != records[0]["prompt_sha256"]
+    # A different unit list renders a different packet, so the hash changes.
+    other = manual.import_reply(rows[:1], reply.splitlines()[0], run_label="g", model="m")
+    assert other[0]["packet_units_sha256"] != records[0]["packet_units_sha256"]
+    assert other[0]["packet_prompt_sha256"] != records[0]["packet_prompt_sha256"]  # unit count
 
 
 @pytest.mark.parametrize("line", [
@@ -431,3 +489,10 @@ def test_manual_cli_export_writes_both_files(tmp_path) -> None:
     out_dir = tmp_path / "m"
     manual.main(["export", "--units", str(units_path), "--out-dir", str(out_dir)])
     assert sorted(p.name for p in out_dir.iterdir()) == ["PROMPT.md", "units_for_manual_judge.md"]
+
+
+def test_committed_manual_packet_matches_a_fresh_export(tmp_path) -> None:
+    committed = Path(__file__).resolve().parents[1] / "evals/v2/faithfulness"
+    manual.export(units.read_units(committed / "units.jsonl"), tmp_path)
+    for name in ("PROMPT.md", "units_for_manual_judge.md"):
+        assert (committed / "manual" / name).read_bytes() == (tmp_path / name).read_bytes(), name

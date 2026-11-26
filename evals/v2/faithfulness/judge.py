@@ -50,13 +50,16 @@ PRICING: dict[str, dict[str, Decimal]] = {
                         "cache_read": Decimal("0.2"), "cache_write": Decimal("5")},
 }
 # USD per million tokens. Source: https://developers.openai.com/api/docs/pricing, Standard
-# tier, <=272K context, read 2026-11-26. ``cached_tokens`` is a subset of ``input_tokens``
-# and ``reasoning_tokens`` a subset of ``output_tokens`` (openai 3.60.0,
-# types/responses/response_usage.py), so each token is billed once.
+# tier, <=272K context, read 2026-11-26 (cache_write: 30-minute TTL writes). ``cached_tokens``
+# and ``cache_write_tokens`` are subsets of ``input_tokens``, and ``reasoning_tokens`` a
+# subset of ``output_tokens`` (openai 3.60.0, types/responses/response_usage.py), so each
+# token is billed once. Prompt caching is implicit with a 30m TTL by default
+# (types/responses/response_create_params.py, PromptCacheOptions), so writes do happen.
+# No 12-hour write rate is configured; a response reporting 12h writes raises.
 OPENAI_MODEL = "gpt-6.2-sol"
 OPENAI_PRICING: dict[str, dict[str, Decimal]] = {
     "gpt-6.2-sol": {"input": Decimal("2.00"), "cached_input": Decimal("0.10"),
-                    "output": Decimal("10.00")},
+                    "cache_write": Decimal("2.50"), "output": Decimal("10.00")},
 }
 PROVIDERS = ("anthropic", "openai")
 DEFAULT_MODELS = {"anthropic": MODEL, "openai": OPENAI_MODEL}
@@ -110,21 +113,34 @@ def call_cost(usage: dict[str, int], model: str = MODEL) -> Decimal:
 
 
 def _openai_call_cost(usage: dict[str, int], model: str) -> Decimal:
-    """Cached input at the cached rate, the rest of the input at the input rate, and all
-    output (reasoning included) at the output rate. ``cache_write_tokens`` has no separate
-    price here and is billed inside ``input_tokens``."""
+    """Exact cost of one OpenAI call.
+
+    ``(input - cached - cache_write) * input + cached * cached_input
+    + cache_write * cache_write + output * output``, per million tokens. Cached and
+    cache-write tokens are parts of ``input_tokens``; reasoning tokens are part of
+    ``output_tokens`` and are not added again.
+    """
     price = OPENAI_PRICING[model]
     cached = Decimal(usage.get("cached_tokens", 0))
-    micro = ((Decimal(usage.get("input_tokens", 0)) - cached) * price["input"]
+    written = Decimal(usage.get("cache_write_tokens", 0))
+    micro = ((Decimal(usage.get("input_tokens", 0)) - cached - written) * price["input"]
              + cached * price["cached_input"]
+             + written * price["cache_write"]
              + Decimal(usage.get("output_tokens", 0)) * price["output"])
     return micro / _PER_TOKEN
 
 
 def projected_call_cost(prompt: str, unit: dict, model: str = MODEL) -> Decimal:
-    """Worst-case cost of one call for ``unit``: full ``MAX_TOKENS`` output plus estimated input."""
+    """Worst-case cost of one call for ``unit``: full ``MAX_TOKENS`` output plus estimated input.
+
+    For an OpenAI model all estimated input is priced as cache writes, its highest input
+    rate, so the projection stays an upper bound.
+    """
     chars = len(prompt) + len(user_message(unit))
     est_input = -(-chars // CHARS_PER_TOKEN_ESTIMATE)  # ceiling division
+    if model in OPENAI_PRICING:
+        return call_cost({"input_tokens": est_input, "cache_write_tokens": est_input,
+                          "output_tokens": MAX_TOKENS}, model)
     return call_cost({"input_tokens": est_input, "output_tokens": MAX_TOKENS}, model)
 
 
@@ -179,20 +195,36 @@ def judge_unit(client: Any, unit: dict, prompt: str, model: str = MODEL,
             "stop_reason": response.stop_reason, "usage": _usage(response)}
 
 
+class NoUsageError(RuntimeError):
+    """An OpenAI response came back without usage, so its cost cannot be counted."""
+
+
+class UnpricedUsageError(ValueError):
+    """An OpenAI response reports tokens no configured rate covers (12h cache writes)."""
+
+
 def _openai_usage(response: Any) -> dict[str, int]:
     """Token counts from an ``openai.types.responses.ResponseUsage``.
 
     Raises:
-        RuntimeError: if the response has no usage (the SDK types it Optional). Recording
+        NoUsageError: if the response has no usage (the SDK types it Optional). Recording
             zeros would let spend go uncounted and the budget cap never fire, so the run
             stops at the first such call instead.
+        UnpricedUsageError: if ``cache_write_tokens_details.ttl_12h_tokens`` is non-zero,
+            since no 12-hour cache-write rate is configured.
     """
+    response_id = getattr(response, "id", None)
     usage = response.usage
     if usage is None:
-        raise RuntimeError("OpenAI response has no usage; its cost cannot be counted "
-                           "toward --max-usd, so the run stops here")
+        raise NoUsageError(f"OpenAI response {response_id} has no usage; its cost cannot be "
+                           "counted toward --max-usd, so the run stops here")
     inp = getattr(usage, "input_tokens_details", None)
     out = getattr(usage, "output_tokens_details", None)
+    ttl = getattr(inp, "cache_write_tokens_details", None)
+    ttl_12h = int(getattr(ttl, "ttl_12h_tokens", None) or 0)
+    if ttl_12h:
+        raise UnpricedUsageError(f"OpenAI response {response_id} reports {ttl_12h} 12h "
+                                 "cache-write tokens; no 12h rate is configured")
     return {"input_tokens": int(usage.input_tokens or 0),
             "output_tokens": int(usage.output_tokens or 0),
             "cached_tokens": int(getattr(inp, "cached_tokens", None) or 0),
@@ -315,7 +347,11 @@ def run(units: list[dict], out_jsonl: Path, run_label: str, max_usd: Decimal = D
             if spent + projected > max_usd:
                 stopped = True
                 break
-            result = judge_call(client, unit, prompt, model=model, effort=effort)
+            try:
+                result = judge_call(client, unit, prompt, model=model, effort=effort)
+            except (NoUsageError, UnpricedUsageError) as exc:
+                raise type(exc)(f"{exc}; spent so far ${spent} of ${max_usd} (this call's "
+                                "cost is not included)") from exc
             cost = call_cost(result["usage"], model)
             spent += cost
             max_cost = cost if max_cost is None else max(max_cost, cost)

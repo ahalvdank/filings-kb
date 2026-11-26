@@ -7,6 +7,12 @@ API judges saw). ``import`` turns the reply into judge records with the same fie
 an API run, ``provider: "manual"``, ``usage`` null and ``cost_usd`` "0", so
 ``evaluate_faithfulness_v2`` scores them like any other run.
 
+Provenance: ``prompt_sha256`` is the hash of ``judge_prompt.md`` (the rubric), as on API
+records. Manual records add ``packet_prompt_sha256`` and ``packet_units_sha256``, the
+hashes of the ``PROMPT.md`` and ``units_for_manual_judge.md`` that ``export`` renders for
+the same units. ``import_reply`` recomputes them, so they match the committed packet files
+only if the packet pasted was rendered from the same units and the same code.
+
 The reply must hold one JSON object per line. Code-fence lines and blank lines are
 skipped; any other line that is not a JSON object with a ``unit_id`` raises. A line whose
 verdict is not exactly the schema becomes ``parse_error``.
@@ -21,6 +27,7 @@ CLI (no API calls)::
 """
 
 import argparse
+import hashlib
 import json
 import sys
 from pathlib import Path
@@ -51,6 +58,7 @@ heading, then the sentence, then the passages it cites. Judge every unit indepen
 by the rules above: use only that unit's own passages, and let no other unit's sentence or
 passages affect its verdict.
 
+For this packet, the line format below overrides "Reply with the JSON object only." above.
 Reply with one JSON object per line, in this exact form, and nothing else:
 
 {REPLY_FORMAT}
@@ -66,13 +74,21 @@ next unit. Keep going until all {n_units} units are done.
 """
 
 
+def render_units(units: list[dict]) -> str:
+    """``units_for_manual_judge.md``: every unit, separated by blank lines."""
+    return "\n\n".join(render_unit(u) for u in units) + "\n"
+
+
+def _sha256_text(text: str) -> str:
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
+
 def export(units: list[dict], out_dir: Path, prompt_path: Path = PROMPT_PATH) -> None:
     """Write ``PROMPT.md`` and ``units_for_manual_judge.md`` into ``out_dir``."""
     out_dir.mkdir(parents=True, exist_ok=True)
     prompt = prompt_path.read_text(encoding="utf-8")
     (out_dir / PROMPT_FILE).write_text(render_prompt(prompt, len(units)), encoding="utf-8")
-    body = "\n\n".join(render_unit(u) for u in units) + "\n"
-    (out_dir / UNITS_FILE).write_text(body, encoding="utf-8")
+    (out_dir / UNITS_FILE).write_text(render_units(units), encoding="utf-8")
 
 
 def _reply_rows(reply: str) -> list[tuple[str, str, dict]]:
@@ -111,7 +127,9 @@ def import_reply(units: list[dict], reply: str, run_label: str, model: str,
         One record per unit: ``unit_id``, ``verdict`` (a schema verdict or
         ``parse_error``), ``unsupported_span``, ``raw`` (the reply line), ``stop_reason``
         None, ``usage`` None, ``model``, ``effort`` None, ``prompt_sha256``,
-        ``run_label``, ``cost_usd`` "0" and ``provider`` "manual".
+        ``packet_prompt_sha256`` and ``packet_units_sha256`` (hashes of the packet files
+        ``export`` renders for ``units``), ``run_label``, ``cost_usd`` "0" and
+        ``provider`` "manual".
 
     Raises:
         ValueError: if a line cannot be attributed to a unit, or the reply does not name
@@ -132,6 +150,9 @@ def import_reply(units: list[dict], reply: str, run_label: str, model: str,
         raise ValueError(f"reply must name every unit exactly once: missing {missing}, "
                          f"duplicate {sorted(duplicate)}, unknown {unknown}")
     prompt_sha = sha256_file(prompt_path)
+    packet_prompt_sha = _sha256_text(render_prompt(prompt_path.read_text(encoding="utf-8"),
+                                                   len(units)))
+    packet_units_sha = _sha256_text(render_units(units))
     records = []
     for unit_id in wanted:
         line, data = seen[unit_id]
@@ -140,7 +161,9 @@ def import_reply(units: list[dict], reply: str, run_label: str, model: str,
         verdict, span = parsed if parsed is not None else ("parse_error", None)
         records.append({"unit_id": unit_id, "verdict": verdict, "unsupported_span": span,
                         "raw": line, "stop_reason": None, "usage": None, "model": model,
-                        "effort": None, "prompt_sha256": prompt_sha, "run_label": run_label,
+                        "effort": None, "prompt_sha256": prompt_sha,
+                        "packet_prompt_sha256": packet_prompt_sha,
+                        "packet_units_sha256": packet_units_sha, "run_label": run_label,
                         "cost_usd": "0", "provider": "manual"})
     return records
 
