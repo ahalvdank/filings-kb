@@ -14,3 +14,10 @@
   --out evals/v2/faithfulness/judge_gemini_manual.jsonl --run-label gemini-neon-manual --model gemini-neon`
 - All 126 units are judged in one conversation, so this is a second-opinion judge, not an
   independent replicate of the API runs.
+
+# Spot-check supplement
+
+`spot_sheet.csv` (40 rows) was frozen from Opus run 1 before the GPT and Gemini runs existed. After
+them, 12 units flagged by some judge (11 GPT-only, 1 Gemini-only, or flagged only by Opus run 2) were
+not on it. `spot_sheet_supplement.csv` adds exactly those 12 units, shuffled with seed 20261126,
+same columns, no judge verdict shown. Built by the controller with `units.format_passages`.
