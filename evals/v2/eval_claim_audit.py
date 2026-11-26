@@ -1,7 +1,7 @@
 """v2 Eval 3: the 50-claim manual extraction audit.
 
-Worksheet (CSV, header required): ``claim_id,ticker,claim_type,statement,source_quote,label``,
-plus an optional ``note`` column. ``label`` is ``TP`` or one failure mode: hallucinated,
+Worksheet (CSV, header required): ``claim_id,claim_type,label``; ``note`` is optional and any
+extra columns (the generated sheet's, or the old 6-column worksheet's) are allowed. ``label`` is ``TP`` or one failure mode: hallucinated,
 wrong_entity_link, wrong_fiscal_year, truncated_context, schema_misclassification,
 wrong_attribute, other. The standard is the whole record: when several fields are wrong, use
 one primary code, the first wrong field in sheet order. ``other`` needs a non-empty ``note``.
@@ -19,7 +19,7 @@ FAILURE_MODES = frozenset({
     "schema_misclassification", "wrong_attribute", "other",
 })
 VALID_LABELS = frozenset({"TP"}) | FAILURE_MODES
-COLUMNS = ("claim_id", "ticker", "claim_type", "statement", "source_quote", "label")
+COLUMNS = ("claim_id", "claim_type", "label")  # required; ``note`` and any other columns optional
 
 
 def score_claim_audit(worksheet_csv: Path) -> dict:

@@ -250,6 +250,18 @@ def _git_commit() -> str:
     return res.stdout.strip() or "unknown"
 
 
+def _db_counts(db: Path) -> dict[str, int]:
+    with closing(_connect(db)) as conn:
+        return {tbl: conn.execute(f"SELECT COUNT(*) FROM {tbl}").fetchone()[0]
+                for tbl in ("claim_evidence", "sections", "chunks")}
+
+
+def _dirty() -> bool:
+    res = subprocess.run(["git", "status", "--porcelain", "--", "evals/v2"],
+                         capture_output=True, text=True, check=False)
+    return bool(res.stdout.strip())
+
+
 def main(argv: list[str] | None = None) -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--db", type=Path, required=True)
@@ -257,7 +269,8 @@ def main(argv: list[str] | None = None) -> None:
     ap.add_argument("--seed", type=int, required=True)
     args = ap.parse_args(argv)
     meta = {"excluded_no_public_section": excluded_no_public_section(args.db),
-            "git_commit": _git_commit(), "built_at": datetime.now(UTC).isoformat(),
+            "git_commit": _git_commit(), "dirty": _dirty(),
+            "db_counts": _db_counts(args.db), "built_at": datetime.now(UTC).isoformat(),
             "seed": args.seed}
     counts = claim_counts_by_type(args.db)
     per_type = default_per_type(counts)

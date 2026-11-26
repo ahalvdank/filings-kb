@@ -218,3 +218,37 @@ def test_locate_weak_match_is_flagged() -> None:
     para, kind = build.locate("zzzz qqqq xxxx jjjj wwww vvvv kkkk", text)
     assert kind.startswith("fuzzy:") and int(kind.split(":")[1]) < 60
     assert para.startswith("[WEAK MATCH] ")
+
+
+def test_sheet_built_by_write_sheet_is_scored_end_to_end(tmp_path: Path) -> None:
+    db = _full_db(tmp_path)
+    sample = build.sample_claims(db, {"Risk": 4}, seed=1)
+    out = tmp_path / "sheet.csv"
+    build.write_sheet(sample, db, out)
+    with out.open(newline="", encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    for r, (label, note) in zip(rows, [("TP", ""), ("TP", ""), ("wrong_attribute", ""),
+                                        ("other", "odd record")]):
+        r["label"], r["note"] = label, note
+    with out.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0]))
+        w.writeheader()
+        w.writerows(rows)
+    res = eval_claim_audit.score_claim_audit(out)
+    assert res["total_claims"] == 4 and res["precision"] == 0.5
+    assert res["failure_breakdown"]["wrong_attribute"] == 1
+    assert res["failure_breakdown"]["other"] == 1
+
+
+def test_main_writes_three_files_with_provenance_meta(tmp_path: Path) -> None:
+    _full_db(tmp_path)
+    out = tmp_path / "out"
+    build.main(["--db", str(tmp_path / "kb.sqlite"), "--out-dir", str(out), "--seed", "5"])
+    assert (out / "sheet.csv").exists()
+    for name in ("sample.json", "verbatim.json"):
+        meta = json.loads((out / name).read_text(encoding="utf-8"))["meta"]
+        assert {"git_commit", "built_at", "seed", "db_counts", "dirty"} <= set(meta)
+        assert meta["seed"] == 5
+        assert set(meta["db_counts"]) == {"claim_evidence", "sections", "chunks"}
+        assert meta["db_counts"]["sections"] == 1
+        assert isinstance(meta["dirty"], bool)
