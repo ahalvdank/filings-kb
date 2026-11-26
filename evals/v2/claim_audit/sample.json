@@ -1,0 +1,1014 @@
+{
+  "meta": {
+    "git_commit": "3ec68a37682000690d3e0cb045451d31fdc6ceec",
+    "built_at": "2026-11-26T03:29:12.112345+00:00",
+    "seed": 20261125
+  },
+  "distinct_claims_by_type": {
+    "Risk": 2151,
+    "MaterialEvent": 998,
+    "RevenueSegment": 735,
+    "LegalProceeding": 694,
+    "CapitalReturn": 419,
+    "CapitalStructureEvent": 371,
+    "GuidanceUpdate": 208,
+    "ESGCommitment": 132,
+    "InsiderTransaction": 62
+  },
+  "per_type": {
+    "Risk": 6,
+    "MaterialEvent": 6,
+    "RevenueSegment": 6,
+    "LegalProceeding": 6,
+    "CapitalReturn": 6,
+    "CapitalStructureEvent": 5,
+    "GuidanceUpdate": 5,
+    "ESGCommitment": 5,
+    "InsiderTransaction": 5
+  },
+  "claims": [
+    {
+      "claim_id": "ca01",
+      "accession": "0000002488-23-000047",
+      "item": "Item_1A",
+      "claim_type": "Risk",
+      "name": "AMD Customer Concentration Risk",
+      "ticker": "AMD",
+      "fiscal_year": 2022,
+      "subject": "ADVANCED MICRO DEVICES INC",
+      "attributes": {
+        "category": "customer",
+        "geography": "global"
+      },
+      "excerpt": "We depend on a small number of customers for a substantial portion of our business and we expect that a small number of customers will continue to account for a significant part of our revenue in the future. If one of our key customers decides to stop buying our products, or if one of these customers materially reduces its operations or its demand for our products, our business would be materially adversely affected.",
+      "excerpts": [
+        "We depend on a small number of customers for a substantial portion of our business and we expect that a small number of customers will continue to account for a significant part of our revenue in the future. If one of our key customers decides to stop buying our products, or if one of these customers materially reduces its operations or its demand for our products, our business would be materially adversely affected."
+      ]
+    },
+    {
+      "claim_id": "ca02",
+      "accession": "0000950170-24-087843",
+      "item": "Item_7A",
+      "claim_type": "Risk",
+      "name": "MSFT Equity Price Risk",
+      "ticker": "MSFT",
+      "fiscal_year": 2024,
+      "subject": "MICROSOFT CORP",
+      "attributes": {
+        "category": "equity_price",
+        "impact_type": "earnings",
+        "portfolio": "equity_investments",
+        "sensitivity_10pct_price_decrease_impact_usd_millions": -1078,
+        "sensitivity_measurement_date": "2024-06-30"
+      },
+      "excerpt": "Securities held in our equity investments portfolio are subject to price risk.",
+      "excerpts": [
+        "Securities held in our equity investments portfolio are subject to price risk."
+      ]
+    },
+    {
+      "claim_id": "ca03",
+      "accession": "0001628280-26-003942",
+      "item": "Item_1A",
+      "claim_type": "Risk",
+      "name": "META Consumer Hardware Inventory Risk",
+      "ticker": "META",
+      "fiscal_year": 2025,
+      "subject": "Meta Platforms, Inc.",
+      "attributes": {
+        "category": "operational_risk"
+      },
+      "excerpt": "We are exposed to inventory risks with respect to our consumer hardware products as a result of rapid changes in product cycles and pricing, unsafe or defective merchandise, supply chain disruptions, changes in consumer demand and consumer spending patterns, changes in consumer tastes with respect to our consumer hardware products, higher tariffs that increase consumer prices, and other factors.",
+      "excerpts": [
+        "We are exposed to inventory risks with respect to our consumer hardware products as a result of rapid changes in product cycles and pricing, unsafe or defective merchandise, supply chain disruptions, changes in consumer demand and consumer spending patterns, changes in consumer tastes with respect to our consumer hardware products, higher tariffs that increase consumer prices, and other factors."
+      ]
+    },
+    {
+      "claim_id": "ca04",
+      "accession": "0000050863-26-000011",
+      "item": "Item_2",
+      "claim_type": "Risk",
+      "name": "INTC Wafer Fabrication Supply Constraint Risk 2026",
+      "ticker": "INTC",
+      "fiscal_year": 2025,
+      "subject": "INTEL CORP",
+      "attributes": {
+        "category": "manufacturing",
+        "impact_period": "persists into 2026, most severe Q1 2026",
+        "nodes_affected": "Intel 7, Intel 3"
+      },
+      "excerpt": "client volume decreased in Q4 2025 as market demand exceeded our available supply of products due to Intel Foundry wafer fabrication supply constraints, primarily with respect to our Intel 7 process node. We expect these supply constraints to persist into 2026, with the most severe constraints impacting Q1 2026, limiting our ability to fully meet customer demand.",
+      "excerpts": [
+        "client volume decreased in Q4 2025 as market demand exceeded our available supply of products due to Intel Foundry wafer fabrication supply constraints, primarily with respect to our Intel 7 process node. We expect these supply constraints to persist into 2026, with the most severe constraints impacting Q1 2026, limiting our ability to fully meet customer demand."
+      ]
+    },
+    {
+      "claim_id": "ca05",
+      "accession": "0000002488-26-000018",
+      "item": "Item_1A",
+      "claim_type": "Risk",
+      "name": "AMD Competitive Market Intensity Risk",
+      "ticker": "AMD",
+      "fiscal_year": 2025,
+      "subject": "ADVANCED MICRO DEVICES INC",
+      "attributes": {
+        "category": "competitive",
+        "geography": "global"
+      },
+      "excerpt": "Intel Corporation (Intel) uses its microprocessor market position to price its products aggressively and target our customers and channel partners with special incentives. These aggressive activities have reduced and may reduce our unit sales and average selling prices for many of our products, adversely affecting our business. Similarly, Nvidia Corporation (Nvidia) leverages its market position in data center GPU, financial resources, and proprietary software ecosystem to promote its systems and influences customers who do business with us.",
+      "excerpts": [
+        "Some of our competitors may possess stronger market positions, larger customer bases, more design wins, and greater financial, sales, marketing, and distribution resources than us. As a result, they may be able to acquire market share or limit our ability to do so, more effectively capitalize on new market opportunities, and transition their products more efficiently than we can.",
+        "Intel Corporation (Intel) uses its microprocessor market position to price its products aggressively and target our customers and channel partners with special incentives. These aggressive activities have reduced and may reduce our unit sales and average selling prices for many of our products, adversely affecting our business. Similarly, Nvidia Corporation (Nvidia) leverages its market position in data center GPU, financial resources, and proprietary software ecosystem to promote its systems and influences customers who do business with us.",
+        "in September 2025, Nvidia announced a partnership and investment in Intel to partner on new data center and client platform products. This partnership may result in increased competition and pricing pressure for our products or could prevent us from participating in other opportunities, which could materially adversely impact our business, financial condition and margins."
+      ]
+    },
+    {
+      "claim_id": "ca06",
+      "accession": "0001652044-26-000018",
+      "item": "Item_1A",
+      "claim_type": "Risk",
+      "name": "GOOGL IT Systems Interruption Risk",
+      "ticker": "GOOGL",
+      "fiscal_year": 2025,
+      "subject": "Alphabet Inc.",
+      "attributes": {
+        "category": "operational",
+        "geography": "Global"
+      },
+      "excerpt": "Our systems are vulnerable to damage, interference, or interruption from modifications or upgrades, terrorist attacks, state-sponsored attacks, natural disasters or pandemics, geopolitical tensions or armed conflicts, export controls and sanctions, tariffs and non-tariff trade barriers, the effects of climate change, power and transmission availability challenges, utility outages, telecommunications failures, computer viruses, software bugs, cyber attacks, supply-chain attacks, computer denial of service attacks, phishing schemes, or other attempts to harm or access our systems.",
+      "excerpts": [
+        "Our systems are vulnerable to damage, interference, or interruption from modifications or upgrades, terrorist attacks, state-sponsored attacks, natural disasters or pandemics, geopolitical tensions or armed conflicts, export controls and sanctions, tariffs and non-tariff trade barriers, the effects of climate change, power and transmission availability challenges, utility outages, telecommunications failures, computer viruses, software bugs, cyber attacks, supply-chain attacks, computer denial of service attacks, phishing schemes, or other attempts to harm or access our systems."
+      ]
+    },
+    {
+      "claim_id": "ca07",
+      "accession": "0000050863-24-000010",
+      "item": "Item_5",
+      "claim_type": "MaterialEvent",
+      "name": "INTC 5G Smartphone Modem Business Exit 2019",
+      "ticker": "INTC",
+      "fiscal_year": 2023,
+      "subject": "INTEL CORP",
+      "attributes": {
+        "effective_date": "2019",
+        "event_type": "restructuring"
+      },
+      "excerpt": "Significant business changes are inherently risky and are not always successful. For example, in 2022, we wound down Intel Optane; in 2020, we agreed to sell our NAND memory business to SK hynix; and in 2019, we exited the 5G smartphone modem business based on our determination that there was no clear path to profitability for those businesses.",
+      "excerpts": [
+        "Significant business changes are inherently risky and are not always successful. For example, in 2022, we wound down Intel Optane; in 2020, we agreed to sell our NAND memory business to SK hynix; and in 2019, we exited the 5G smartphone modem business based on our determination that there was no clear path to profitability for those businesses."
+      ]
+    },
+    {
+      "claim_id": "ca08",
+      "accession": "0000019617-24-000225",
+      "item": "Item_15",
+      "claim_type": "MaterialEvent",
+      "name": "JPM Acquisition of Aumni Inc. (2023)",
+      "ticker": "JPM",
+      "fiscal_year": 2023,
+      "subject": "JPMORGAN CHASE & CO",
+      "attributes": {
+        "acquiring_segment": "CIB",
+        "event_type": "acquisition",
+        "fiscal_year": 2023,
+        "target_company": "Aumni Inc."
+      },
+      "excerpt": "For 2023, predominantly represents estimated goodwill associated with the acquisition of the remaining 51% interest in CIFM in AWM and the acquisition of Aumni Inc. in CIB.",
+      "excerpts": [
+        "For 2023, predominantly represents estimated goodwill associated with the acquisition of the remaining 51% interest in CIFM in AWM and the acquisition of Aumni Inc. in CIB."
+      ]
+    },
+    {
+      "claim_id": "ca09",
+      "accession": "0000731766-26-000062",
+      "item": "Item_8",
+      "claim_type": "MaterialEvent",
+      "name": "UNH FY2025 Business Deconsolidation ($1.7B Gain)",
+      "ticker": "UNH",
+      "fiscal_year": 2025,
+      "subject": "UNITEDHEALTH GROUP INC",
+      "attributes": {
+        "deconsolidated_net_assets_usd": 1400000000,
+        "equity_method_investment_usd": 575000000,
+        "event_type": "business_combination",
+        "gain_usd": 1700000000,
+        "redeemable_nci_usd": 2600000000
+      },
+      "excerpt": "Due to changes in governance rights, the Company deconsolidated a business that had net assets and redeemable noncontrolling interests with carrying values of $1.4 billion and $2.6 billion, respectively. As a result of the deconsolidation, the Company recorded an equity method investment of $575 million and recognized a gain of $1.7 billion, which was included within operating costs on the Consolidated Statements of Operations.",
+      "excerpts": [
+        "Due to changes in governance rights, the Company deconsolidated a business that had net assets and redeemable noncontrolling interests with carrying values of $1.4 billion and $2.6 billion, respectively. As a result of the deconsolidation, the Company recorded an equity method investment of $575 million and recognized a gain of $1.7 billion, which was included within operating costs on the Consolidated Statements of Operations."
+      ]
+    },
+    {
+      "claim_id": "ca10",
+      "accession": "0000050863-25-000009",
+      "item": "Item_8",
+      "claim_type": "MaterialEvent",
+      "name": "INTC Arizona SCIP Brookfield Joint Venture",
+      "ticker": "INTC",
+      "fiscal_year": 2024,
+      "subject": "INTEL CORP",
+      "attributes": {
+        "arizona_scip_assets_dec2024_usd": 11500000000,
+        "brookfield_ownership_pct": 0.49,
+        "event_type": "joint_venture",
+        "partner": "Brookfield Asset Management",
+        "purpose": "two new chip factories in Arizona",
+        "total_construction_cost_estimate_usd": 29000000000
+      },
+      "excerpt": "We consolidate the results of an Arizona limited liability company (Arizona SCIP), a VIE, into our Consolidated Financial Statements because we are the primary beneficiary. Generally, contributions will be made to, and distributions will be received from Arizona SCIP based on Intel's and Brookfield Asset Management's (Brookfield's) proportional ownership. We will be the sole operator and main beneficiary of two new chip factories that will be constructed by Arizona SCIP, and we will have the right to purchase 100% of the related factory output. The total construction costs were estimated at $29.0 billion when we entered into the definitive agreement with Brookfield in 2022.",
+      "excerpts": [
+        "We consolidate the results of an Arizona limited liability company (Arizona SCIP), a VIE, into our Consolidated Financial Statements because we are the primary beneficiary. Generally, contributions will be made to, and distributions will be received from Arizona SCIP based on Intel's and Brookfield Asset Management's (Brookfield's) proportional ownership. We will be the sole operator and main beneficiary of two new chip factories that will be constructed by Arizona SCIP, and we will have the right to purchase 100% of the related factory output. The total construction costs were estimated at $29.0 billion when we entered into the definitive agreement with Brookfield in 2022."
+      ]
+    },
+    {
+      "claim_id": "ca11",
+      "accession": "0001045810-23-000017",
+      "item": "Item_15",
+      "claim_type": "MaterialEvent",
+      "name": "NVDA Arm Acquisition Termination",
+      "ticker": "NVDA",
+      "fiscal_year": 2023,
+      "subject": "NVIDIA CORP",
+      "attributes": {
+        "counterparty": "SoftBank",
+        "effective_date": "2022-02",
+        "event_type": "regulatory_action",
+        "target_company": "Arm",
+        "termination_cost_usd": 1350000000
+      },
+      "excerpt": "In February 2022, NVIDIA and SoftBank announced the termination of the Share Purchase Agreement whereby NVIDIA would have acquired Arm from SoftBank. The parties agreed to terminate due to significant regulatory challenges preventing the completion of the transaction. We recorded an acquisition termination cost of $1.35 billion in fiscal year 2023 reflecting the write-off of the prepayment provided at signing.",
+      "excerpts": [
+        "In February 2022, NVIDIA and SoftBank announced the termination of the Share Purchase Agreement whereby NVIDIA would have acquired Arm from SoftBank. The parties agreed to terminate due to significant regulatory challenges preventing the completion of the transaction. We recorded an acquisition termination cost of $1.35 billion in fiscal year 2023 reflecting the write-off of the prepayment provided at signing.",
+        "(1)Refer to Note 2 - Business Combination for further details on the Arm acquisition."
+      ]
+    },
+    {
+      "claim_id": "ca12",
+      "accession": "0000012927-25-000015",
+      "item": "Item_8",
+      "claim_type": "MaterialEvent",
+      "name": "BA 2024 737-9 Grounding Customer Concessions Charge",
+      "ticker": "BA",
+      "fiscal_year": 2024,
+      "subject": "BOEING CO",
+      "attributes": {
+        "charge_usd": 443000000,
+        "event_type": "regulatory_action",
+        "fiscal_year": 2024,
+        "net_of_insurance": true
+      },
+      "excerpt": "During 2024, we recorded an earnings charge of $443, net of insurance recoveries, in connection with estimated considerations to customers for disruption related to the Alaska Airlines 737-9 accident and 737-9 grounding. This charge is reflected in the financial statements as a reduction to Sales of products.",
+      "excerpts": [
+        "During 2024, we recorded an earnings charge of $443, net of insurance recoveries, in connection with estimated considerations to customers for disruption related to the Alaska Airlines 737-9 accident and 737-9 grounding. This charge is reflected in the financial statements as a reduction to Sales of products."
+      ]
+    },
+    {
+      "claim_id": "ca13",
+      "accession": "0000050863-25-000009",
+      "item": "Item_5",
+      "claim_type": "RevenueSegment",
+      "name": "INTC DCAI Segment",
+      "ticker": "INTC",
+      "fiscal_year": 2024,
+      "subject": "INTEL CORP",
+      "attributes": {},
+      "excerpt": "DCAI revenue increased 1% from 2023 driven by higher server revenue primarily from high core count products, which increased ASPs and lowered volume compared to 2023.",
+      "excerpts": [
+        "DCAI revenue increased 1% from 2023 driven by higher server revenue primarily from high core count products, which increased ASPs and lowered volume compared to 2023."
+      ]
+    },
+    {
+      "claim_id": "ca14",
+      "accession": "0001628280-26-008131",
+      "item": "Item_15",
+      "claim_type": "RevenueSegment",
+      "name": "JPM Consumer & Community Banking Segment",
+      "ticker": "JPM",
+      "fiscal_year": 2025,
+      "subject": "JPMORGAN CHASE & CO",
+      "attributes": {},
+      "excerpt": "Consumer & Community Banking offers products and services to consumers and small businesses through bank branches, ATMs, digital (including mobile and online) and telephone banking. CCB is organized into Banking & Wealth Management (including Consumer Banking, Business Banking and J.P. Morgan Wealth Management), Home Lending (including Home Lending Production, Home Lending Servicing and Real Estate Portfolios) and Card Services & Auto.",
+      "excerpts": [
+        "Consumer & Community Banking offers products and services to consumers and small businesses through bank branches, ATMs, digital (including mobile and online) and telephone banking. CCB is organized into Banking & Wealth Management (including Consumer Banking, Business Banking and J.P. Morgan Wealth Management), Home Lending (including Home Lending Production, Home Lending Servicing and Real Estate Portfolios) and Card Services & Auto."
+      ]
+    },
+    {
+      "claim_id": "ca15",
+      "accession": "0000950170-25-100235",
+      "item": "Item_8",
+      "claim_type": "RevenueSegment",
+      "name": "MSFT Microsoft Cloud",
+      "ticker": "MSFT",
+      "fiscal_year": 2025,
+      "subject": "MICROSOFT CORP",
+      "attributes": {},
+      "excerpt": "Our Microsoft Cloud revenue, which includes Microsoft 365 Commercial cloud, Azure and other cloud services, the commercial portion of LinkedIn, and Dynamics 365, was $168.9 billion, $137.7 billion, and $111.6 billion in fiscal years 2025, 2024, and 2023, respectively.",
+      "excerpts": [
+        "Our Microsoft Cloud revenue, which includes Microsoft 365 Commercial cloud, Azure and other cloud services, the commercial portion of LinkedIn, and Dynamics 365, was $168.9 billion, $137.7 billion, and $111.6 billion in fiscal years 2025, 2024, and 2023, respectively."
+      ]
+    },
+    {
+      "claim_id": "ca16",
+      "accession": "0000012927-22-000010",
+      "item": "Item_7_MDA",
+      "claim_type": "RevenueSegment",
+      "name": "BA Commercial Airplanes Segment",
+      "ticker": "BA",
+      "fiscal_year": 2021,
+      "subject": "BOEING CO",
+      "attributes": {},
+      "excerpt": "BCA loss from operations was $6,475 million in 2021 compared with $13,847 million in 2020. The 2021 loss includes a reach-forward loss on the 787 program of $3,460 million, abnormal production costs related to 737 MAX of $1,887 million, and abnormal production costs related to the 787 program of $468 million resulting from continued production issues, inspections and rework, partially offset by higher 737 MAX deliveries.",
+      "excerpts": [
+        "BCA revenues increased by $3,331 million in 2021 compared with 2020 primarily due to higher 737 MAX deliveries driven by recertification and return to service in most jurisdictions and the absence of charges for 737 MAX customer considerations which reduced revenues in 2020, partially offset by lower 787 deliveries in 2021.",
+        "BCA loss from operations was $6,475 million in 2021 compared with $13,847 million in 2020. The 2021 loss includes a reach-forward loss on the 787 program of $3,460 million, abnormal production costs related to 737 MAX of $1,887 million, and abnormal production costs related to the 787 program of $468 million resulting from continued production issues, inspections and rework, partially offset by higher 737 MAX deliveries."
+      ]
+    },
+    {
+      "claim_id": "ca17",
+      "accession": "0001628280-26-004357",
+      "item": "Item_8",
+      "claim_type": "RevenueSegment",
+      "name": "BA Global Services Segment",
+      "ticker": "BA",
+      "fiscal_year": 2025,
+      "subject": "BOEING CO",
+      "attributes": {},
+      "excerpt": "Revenues:\nGlobal Services20,923 19,954 19,127 \nEarnings/(loss) from operations:\nGlobal Services13,474 3,618 3,329",
+      "excerpts": [
+        "Revenues:\nGlobal Services20,923 19,954 19,127 \nEarnings/(loss) from operations:\nGlobal Services13,474 3,618 3,329",
+        "Total segment revenues$20,923 $19,954 $19,127"
+      ]
+    },
+    {
+      "claim_id": "ca18",
+      "accession": "0001652044-22-000019",
+      "item": "Item_1",
+      "claim_type": "RevenueSegment",
+      "name": "GOOGL Google Cloud Segment",
+      "ticker": "GOOGL",
+      "fiscal_year": 2021,
+      "subject": "Alphabet Inc.",
+      "attributes": {},
+      "excerpt": "We see significant opportunity in helping businesses utilize these strengths with features like data migration, modern development environments, and machine learning tools to provide enterprise-ready cloud services, including Google Cloud Platform and Google Workspace.",
+      "excerpts": [
+        "We see significant opportunity in helping businesses utilize these strengths with features like data migration, modern development environments, and machine learning tools to provide enterprise-ready cloud services, including Google Cloud Platform and Google Workspace."
+      ]
+    },
+    {
+      "claim_id": "ca19",
+      "accession": "0001018724-25-000004",
+      "item": "Item_8",
+      "claim_type": "LegalProceeding",
+      "name": "Amazon Biometric Privacy Class Actions",
+      "ticker": "AMZN",
+      "fiscal_year": 2024,
+      "subject": "AMAZON COM INC",
+      "attributes": {
+        "court": "United States District Court for the Northern District of Illinois",
+        "status": "pending",
+        "subject": "Illinois Biometric Information Privacy Act violations"
+      },
+      "excerpt": "Beginning in June 2019 with Wilcosky v. Amazon.com, Inc., now pending in the United States District Court for the Northern District of Illinois (\"N.D. Ill.\"), private litigants have filed a number of cases in U.S. federal and state courts, including Hogan v. Amazon.com, Inc. (N.D. Ill.), alleging, among other things, that Amazon's collection, storage, use, retention, and protection of biometric identifiers violated the Illinois Biometric Information Privacy Act.",
+      "excerpts": [
+        "Beginning in June 2019 with Wilcosky v. Amazon.com, Inc., now pending in the United States District Court for the Northern District of Illinois (\"N.D. Ill.\"), private litigants have filed a number of cases in U.S. federal and state courts, including Hogan v. Amazon.com, Inc. (N.D. Ill.), alleging, among other things, that Amazon's collection, storage, use, retention, and protection of biometric identifiers violated the Illinois Biometric Information Privacy Act."
+      ]
+    },
+    {
+      "claim_id": "ca20",
+      "accession": "0001652044-24-000022",
+      "item": "Item_8",
+      "claim_type": "LegalProceeding",
+      "name": "State AG Ad Tech Antitrust v. Google (E.D. Tex.)",
+      "ticker": "GOOGL",
+      "fiscal_year": 2023,
+      "subject": "Alphabet Inc.",
+      "attributes": {
+        "counterparty": "State Attorneys General",
+        "court": "U.S. District Court for the Eastern District of Texas",
+        "filed": "2020-12-16",
+        "status": "pending",
+        "subject": "advertising technology antitrust",
+        "trial_scheduled": "2025-03"
+      },
+      "excerpt": "On December 16, 2020, a number of state Attorneys General filed an antitrust complaint in the U.S. District Court for the Eastern District of Texas, alleging that Google violated U.S. antitrust laws as well as state deceptive trade laws relating to its advertising technology, and a trial is scheduled for March 2025.",
+      "excerpts": [
+        "On December 16, 2020, a number of state Attorneys General filed an antitrust complaint in the U.S. District Court for the Eastern District of Texas, alleging that Google violated U.S. antitrust laws as well as state deceptive trade laws relating to its advertising technology, and a trial is scheduled for March 2025."
+      ]
+    },
+    {
+      "claim_id": "ca21",
+      "accession": "0000012927-24-000010",
+      "item": "Item_7_MDA",
+      "claim_type": "LegalProceeding",
+      "name": "Boeing SEC 737 MAX Enforcement Settlement",
+      "ticker": "BA",
+      "fiscal_year": 2023,
+      "subject": "BOEING CO",
+      "attributes": {
+        "counterparty": "Securities and Exchange Commission",
+        "matter": "737 MAX accidents",
+        "settlement_amount_usd": 200000000,
+        "status": "settled"
+      },
+      "excerpt": "Eliminations and other unallocated expense increased by $498 million in 2022 primarily due to a $200 million settlement with the Securities and Exchange Commission related to the 737 MAX accidents, lower income from operating investments and an increase in environmental remediation expense.",
+      "excerpts": [
+        "Eliminations and other unallocated expense increased by $498 million in 2022 primarily due to a $200 million settlement with the Securities and Exchange Commission related to the 737 MAX accidents, lower income from operating investments and an increase in environmental remediation expense."
+      ]
+    },
+    {
+      "claim_id": "ca22",
+      "accession": "0000012927-22-000010",
+      "item": "Item_1A",
+      "claim_type": "LegalProceeding",
+      "name": "SEC Investigation into Boeing re 737 MAX",
+      "ticker": "BA",
+      "fiscal_year": 2021,
+      "subject": "BOEING CO",
+      "attributes": {
+        "counterparty": "U.S. Securities and Exchange Commission",
+        "status": "pending",
+        "subject": "737 MAX evaluation by the FAA"
+      },
+      "excerpt": "We also are fully cooperating with U.S. government investigations related to the accidents and the 737 MAX, including an ongoing investigation by the Securities and Exchange Commission.",
+      "excerpts": [
+        "We also are fully cooperating with U.S. government investigations related to the accidents and the 737 MAX, including an ongoing investigation by the Securities and Exchange Commission."
+      ]
+    },
+    {
+      "claim_id": "ca23",
+      "accession": "0001652044-22-000019",
+      "item": "Item_8",
+      "claim_type": "LegalProceeding",
+      "name": "GOOGL Irish Tax Authority Examination 2014-2020",
+      "ticker": "GOOGL",
+      "fiscal_year": 2021,
+      "subject": "Alphabet Inc.",
+      "attributes": {
+        "counterparty": "Irish tax authorities",
+        "jurisdiction": "Ireland",
+        "status": "pending",
+        "years_under_examination": "2014-2020"
+      },
+      "excerpt": "The tax years 2014 through 2020 remain subject to examination by the appropriate governmental agencies for Irish tax purposes. There are other ongoing audits in various other jurisdictions that are not material to our financial statements.",
+      "excerpts": [
+        "The tax years 2014 through 2020 remain subject to examination by the appropriate governmental agencies for Irish tax purposes. There are other ongoing audits in various other jurisdictions that are not material to our financial statements."
+      ]
+    },
+    {
+      "claim_id": "ca24",
+      "accession": "0001018724-22-000005",
+      "item": "Item_8",
+      "claim_type": "LegalProceeding",
+      "name": "European Commission State Aid Appeal re Amazon Luxembourg Tax",
+      "ticker": "AMZN",
+      "fiscal_year": 2021,
+      "subject": "AMAZON COM INC",
+      "attributes": {
+        "counterparty": "European Commission",
+        "ec_appeal_to_coj_date": "2021-07",
+        "eu_general_court_annulment_date": "2021-05",
+        "investigation_opened": "2014-10",
+        "status": "appealed",
+        "subject": "EU state aid rules compliance re Luxembourg corporate income tax treatment"
+      },
+      "excerpt": "On October 4, 2017, the European Commission announced its decision that determinations by the tax authorities in Luxembourg did not comply with European Union rules on state aid. Based on that decision the European Commission announced an estimated recovery amount of approximately €250 million, plus interest, for the period May 2006 through June 2014, and ordered Luxembourg tax authorities to calculate the actual amount of additional taxes subject to recovery. On May 12, 2021, the European Union General Court annulled the European Commission's state aid decision. In July 2021, the European Commission appealed the decision to the European Court of Justice.",
+      "excerpts": [
+        "On October 4, 2017, the European Commission announced its decision that determinations by the tax authorities in Luxembourg did not comply with European Union rules on state aid. Based on that decision the European Commission announced an estimated recovery amount of approximately €250 million, plus interest, for the period May 2006 through June 2014, and ordered Luxembourg tax authorities to calculate the actual amount of additional taxes subject to recovery. On May 12, 2021, the European Union General Court annulled the European Commission's state aid decision. In July 2021, the European Commission appealed the decision to the European Court of Justice."
+      ]
+    },
+    {
+      "claim_id": "ca25",
+      "accession": "0001628280-26-008131",
+      "item": "Item_15",
+      "claim_type": "CapitalReturn",
+      "name": "JPM FY2025 Common Stock Buyback",
+      "ticker": "JPM",
+      "fiscal_year": 2025,
+      "subject": "JPMORGAN CHASE & CO",
+      "attributes": {
+        "amount_usd": 31924000000,
+        "fiscal_year": "2025",
+        "return_type": "buyback"
+      },
+      "excerpt": "Treasury stock, at cost\nBalance at January 1(134,018)(116,217)(107,336)\nRepurchase(31,924)(19,007)(9,980)\nReissuance1,351 1,206 1,099\nBalance at December 31(164,591)(134,018)(116,217)",
+      "excerpts": [
+        "Treasury stock, at cost\nBalance at January 1(134,018)(116,217)(107,336)\nRepurchase(31,924)(19,007)(9,980)\nReissuance1,351 1,206 1,099\nBalance at December 31(164,591)(134,018)(116,217)"
+      ]
+    },
+    {
+      "claim_id": "ca26",
+      "accession": "0001326801-24-000012",
+      "item": "Item_7_MDA",
+      "claim_type": "CapitalReturn",
+      "name": "META January 2024 $50B Repurchase Authorization",
+      "ticker": "META",
+      "fiscal_year": 2023,
+      "subject": "Meta Platforms, Inc.",
+      "attributes": {
+        "amount_usd": 50000000000,
+        "effective_date": "2024-01",
+        "return_type": "repurchase_authorization"
+      },
+      "excerpt": "In January 2024, an additional $50 billion of repurchases was authorized under this program.",
+      "excerpts": [
+        "In January 2024, an additional $50 billion of repurchases was authorized under this program."
+      ]
+    },
+    {
+      "claim_id": "ca27",
+      "accession": "0001045810-25-000023",
+      "item": "Item_7_MDA",
+      "claim_type": "CapitalReturn",
+      "name": "NVDA FY2025 Cash Dividends",
+      "ticker": "NVDA",
+      "fiscal_year": 2025,
+      "subject": "NVIDIA CORP",
+      "attributes": {
+        "amount_usd": 834000000,
+        "period": "FY2025",
+        "return_type": "dividend"
+      },
+      "excerpt": "In fiscal year 2025, we paid cash dividends to our shareholders of $834 million.",
+      "excerpts": [
+        "In fiscal year 2025, we paid cash dividends to our shareholders of $834 million."
+      ]
+    },
+    {
+      "claim_id": "ca28",
+      "accession": "0000019617-24-000225",
+      "item": "Item_15",
+      "claim_type": "CapitalReturn",
+      "name": "JPM Quarterly Common Dividend $1.05 Per Share",
+      "ticker": "JPM",
+      "fiscal_year": 2023,
+      "subject": "JPMORGAN CHASE & CO",
+      "attributes": {
+        "per_share": 1.05,
+        "return_type": "dividend"
+      },
+      "excerpt": "The Firm's quarterly common stock dividend is currently $1.05 per share. The Firm's dividends are subject to approval by the Board of Directors on a quarterly basis.",
+      "excerpts": [
+        "The Firm's quarterly common stock dividend is currently $1.05 per share. The Firm's dividends are subject to approval by the Board of Directors on a quarterly basis."
+      ]
+    },
+    {
+      "claim_id": "ca29",
+      "accession": "0001326801-22-000018",
+      "item": "Item_8",
+      "claim_type": "CapitalReturn",
+      "name": "META 2021 Class A Common Stock Repurchases",
+      "ticker": "META",
+      "fiscal_year": 2021,
+      "subject": "Meta Platforms, Inc.",
+      "attributes": {
+        "amount_usd": 44810000000,
+        "cash_paid_usd": 44537000000,
+        "fiscal_year": "2021",
+        "return_type": "buyback",
+        "shares_repurchased_millions": 136
+      },
+      "excerpt": "Repurchases of Class A common stock(44,537)(6,272)(4,202)",
+      "excerpts": [
+        "Repurchases of Class A common stock(44,537)(6,272)(4,202)"
+      ]
+    },
+    {
+      "claim_id": "ca30",
+      "accession": "0000012927-23-000007",
+      "item": "Item_5",
+      "claim_type": "CapitalReturn",
+      "name": "BA Share Repurchase Program Termination",
+      "ticker": "BA",
+      "fiscal_year": 2022,
+      "subject": "BOEING CO",
+      "attributes": {
+        "note": "Board of Directors terminated prior authorization on March 21, 2020; no open market repurchases since April 2019",
+        "return_type": "repurchase_authorization",
+        "status": "terminated",
+        "suspension_since": "2019-04",
+        "termination_date": "2020-03-21"
+      },
+      "excerpt": "On March 21, 2020, the Board of Directors terminated its prior authorization to repurchase shares of the Company's outstanding common stock. Share repurchases under this open market repurchase program have been suspended since April 2019.",
+      "excerpts": [
+        "On March 21, 2020, the Board of Directors terminated its prior authorization to repurchase shares of the Company's outstanding common stock. Share repurchases under this open market repurchase program have been suspended since April 2019."
+      ]
+    },
+    {
+      "claim_id": "ca31",
+      "accession": "0000050863-22-000007",
+      "item": "Item_2",
+      "claim_type": "CapitalStructureEvent",
+      "name": "INTC FY2021 Term Debt Issuance",
+      "ticker": "INTC",
+      "fiscal_year": 2021,
+      "subject": "INTEL CORP",
+      "attributes": {
+        "instrument_type": "notes",
+        "period": "FY2021",
+        "principal_usd": 4974000000
+      },
+      "excerpt": "Issuance of term debt, net of issuance costs4,974 10,247 3,392",
+      "excerpts": [
+        "Issuance of term debt, net of issuance costs4,974 10,247 3,392"
+      ]
+    },
+    {
+      "claim_id": "ca32",
+      "accession": "0000050863-23-000006",
+      "item": "Item_2",
+      "claim_type": "CapitalStructureEvent",
+      "name": "INTC 2022 $600M CIDA Arizona Bonds",
+      "ticker": "INTC",
+      "fiscal_year": 2022,
+      "subject": "INTEL CORP",
+      "attributes": {
+        "coupon": 0.05,
+        "instrument_type": "bonds",
+        "mandatory_tender_date": "September 2027",
+        "maturity": "2042 and 2052",
+        "principal_usd": 600000000
+      },
+      "excerpt": "In 2022, we received proceeds of $600 million in the aggregate for the sale of bonds issued by the Industrial Development Authority of the City of Chandler, Arizona (CIDA). The bonds are our unsecured general obligations in accordance with the loan with the CIDA. The bonds mature in 2042 and 2052 and carry an interest rate of 5.0%.",
+      "excerpts": [
+        "In 2022, we received proceeds of $600 million in the aggregate for the sale of bonds issued by the Industrial Development Authority of the City of Chandler, Arizona (CIDA). The bonds are our unsecured general obligations in accordance with the loan with the CIDA. The bonds mature in 2042 and 2052 and carry an interest rate of 5.0%."
+      ]
+    },
+    {
+      "claim_id": "ca33",
+      "accession": "0000050863-26-000011",
+      "item": "Item_2",
+      "claim_type": "CapitalStructureEvent",
+      "name": "INTC 364-day Credit Facility Amendment 2025 ($8B to $5B)",
+      "ticker": "INTC",
+      "fiscal_year": 2025,
+      "subject": "INTEL CORP",
+      "attributes": {
+        "instrument_type": "revolver",
+        "maturity": "2026-01",
+        "new_commitment_usd": 5000000000,
+        "prior_commitment_usd": 8000000000,
+        "term": "364-day"
+      },
+      "excerpt": "In 2025, we amended our 364-day $8.0 billion credit facility agreement to $5.0 billion, and the maturity date was extended by one year to January 2026. We expect to replace or amend the 364-day $5.0 billion credit facility agreement prior to its maturity at the end of January 2026.",
+      "excerpts": [
+        "In 2025, we amended our 364-day $8.0 billion credit facility agreement to $5.0 billion, and the maturity date was extended by one year to January 2026. We expect to replace or amend the 364-day $5.0 billion credit facility agreement prior to its maturity at the end of January 2026."
+      ]
+    },
+    {
+      "claim_id": "ca34",
+      "accession": "0001628280-26-008131",
+      "item": "Item_15",
+      "claim_type": "CapitalStructureEvent",
+      "name": "JPM 2025 Parent Company Senior Notes Issuance",
+      "ticker": "JPM",
+      "fiscal_year": 2025,
+      "subject": "JPMORGAN CHASE & CO",
+      "attributes": {
+        "instrument_type": "notes",
+        "issuance_year": 2025,
+        "issuer": "JPMorgan Chase & Co. (Parent Company)",
+        "non_us_market_usd": 2084000000,
+        "principal_usd": 21084000000,
+        "us_market_usd": 19000000000
+      },
+      "excerpt": "Senior notes issued in the U.S. market$19,000 Senior notes issued in non-U.S. markets2,084 Total senior notes21,084",
+      "excerpts": [
+        "Senior notes issued in the U.S. market$19,000 Senior notes issued in non-U.S. markets2,084 Total senior notes21,084"
+      ]
+    },
+    {
+      "claim_id": "ca35",
+      "accession": "0000050863-24-000010",
+      "item": "Item_2",
+      "claim_type": "CapitalStructureEvent",
+      "name": "Intel 2023 $11.0B Senior Notes Issuance",
+      "ticker": "INTC",
+      "fiscal_year": 2023,
+      "subject": "INTEL CORP",
+      "attributes": {
+        "instrument_type": "notes",
+        "principal_usd": 11000000000
+      },
+      "excerpt": "In 2023, we issued a total of $11.0 billion aggregate principal amount of senior notes.",
+      "excerpts": [
+        "In 2023, we issued a total of $11.0 billion aggregate principal amount of senior notes."
+      ]
+    },
+    {
+      "claim_id": "ca36",
+      "accession": "0001652044-24-000022",
+      "item": "Item_7_MDA",
+      "claim_type": "GuidanceUpdate",
+      "name": "GOOGL FY2024 OECD Minimum Tax No-Material-Impact Guidance",
+      "ticker": "GOOGL",
+      "fiscal_year": 2023,
+      "subject": "Alphabet Inc.",
+      "attributes": {
+        "metric": "income_tax_provision_oecd_global_minimum_tax_impact",
+        "new_value": "no_material_change",
+        "period": "FY2024",
+        "update_type": "confirmation"
+      },
+      "excerpt": "While various countries have implemented the legislation as of January 1, 2024, we do not expect a resulting material change to our income tax provision for the 2024 fiscal year.",
+      "excerpts": [
+        "While various countries have implemented the legislation as of January 1, 2024, we do not expect a resulting material change to our income tax provision for the 2024 fiscal year."
+      ]
+    },
+    {
+      "claim_id": "ca37",
+      "accession": "0000034088-25-000010",
+      "item": "Item_5",
+      "claim_type": "GuidanceUpdate",
+      "name": "XOM $20B Annual Share Repurchase Pace Guidance Through 2026",
+      "ticker": "XOM",
+      "fiscal_year": 2024,
+      "subject": "EXXON MOBIL CORP",
+      "attributes": {
+        "metric": "share_repurchase_pace",
+        "new_value": "20000000000",
+        "period": "through 2026",
+        "unit": "USD_per_year",
+        "update_type": "confirmation"
+      },
+      "excerpt": "In its 2024 Corporate Plan Update released December 11, 2024, the Corporation stated that it expects to continue its share repurchase program with a $20 billion repurchase pace per year through 2026, assuming reasonable market conditions.",
+      "excerpts": [
+        "In its 2024 Corporate Plan Update released December 11, 2024, the Corporation stated that it expects to continue its share repurchase program with a $20 billion repurchase pace per year through 2026, assuming reasonable market conditions."
+      ]
+    },
+    {
+      "claim_id": "ca38",
+      "accession": "0000050863-26-000011",
+      "item": "Item_2",
+      "claim_type": "GuidanceUpdate",
+      "name": "INTC Non-Controlling Interests Net Income Outlook 2026-2027",
+      "ticker": "INTC",
+      "fiscal_year": 2025,
+      "subject": "INTEL CORP",
+      "attributes": {
+        "metric": "net_income_attributable_to_NCI",
+        "period": "FY2026-FY2027",
+        "update_type": "confirmation"
+      },
+      "excerpt": "We anticipate that net income attributable to non-controlling interests will continue to increase in 2026 as additional tranches of Arizona SCIP's manufacturing assets are placed into service, and to increase significantly in 2027 following our expected completion of construction of Fab 34 in Ireland.",
+      "excerpts": [
+        "We anticipate that net income attributable to non-controlling interests will continue to increase in 2026 as additional tranches of Arizona SCIP's manufacturing assets are placed into service, and to increase significantly in 2027 following our expected completion of construction of Fab 34 in Ireland."
+      ]
+    },
+    {
+      "claim_id": "ca39",
+      "accession": "0000050863-26-000011",
+      "item": "Item_8",
+      "claim_type": "GuidanceUpdate",
+      "name": "INTC 2025 Restructuring Plan Total Charge Estimate",
+      "ticker": "INTC",
+      "fiscal_year": 2025,
+      "subject": "INTEL CORP",
+      "attributes": {
+        "metric": "total_restructuring_charges_2025_plan",
+        "new_value": 2200000000,
+        "period": "FY2025-FY2026",
+        "unit": "USD",
+        "update_type": "confirmation"
+      },
+      "excerpt": "The cumulative cost of the 2025 Restructuring Plan as of December 27, 2025 was $2.0 billion. Any changes to our estimates or timing will be reflected in our results of operations in future periods. We expect to recognize total charges of approximately $2.2 billion under the 2025 Restructuring Plan. A substantial majority of actions pursuant to the 2025 Restructuring Plan were completed in the fourth quarter of 2025 with the remainder expected to be completed in 2026.",
+      "excerpts": [
+        "The cumulative cost of the 2025 Restructuring Plan as of December 27, 2025 was $2.0 billion. Any changes to our estimates or timing will be reflected in our results of operations in future periods. We expect to recognize total charges of approximately $2.2 billion under the 2025 Restructuring Plan. A substantial majority of actions pursuant to the 2025 Restructuring Plan were completed in the fourth quarter of 2025 with the remainder expected to be completed in 2026."
+      ]
+    },
+    {
+      "claim_id": "ca40",
+      "accession": "0001628280-26-003942",
+      "item": "Item_5",
+      "claim_type": "GuidanceUpdate",
+      "name": "META Quarterly Dividend Continuation Guidance",
+      "ticker": "META",
+      "fiscal_year": 2025,
+      "subject": "Meta Platforms, Inc.",
+      "attributes": {
+        "metric": "quarterly_cash_dividend",
+        "period": "ongoing",
+        "update_type": "confirmation"
+      },
+      "excerpt": "Subject to legally available funds and future declaration by our board of directors, we currently intend to continue to pay a quarterly cash dividend on our outstanding common stock.",
+      "excerpts": [
+        "Subject to legally available funds and future declaration by our board of directors, we currently intend to continue to pay a quarterly cash dividend on our outstanding common stock."
+      ]
+    },
+    {
+      "claim_id": "ca41",
+      "accession": "0000093410-24-000013",
+      "item": "Item_1",
+      "claim_type": "ESGCommitment",
+      "name": "CVX Lower Carbon Energy Strategy",
+      "ticker": "CVX",
+      "fiscal_year": 2023,
+      "subject": "CHEVRON CORP",
+      "attributes": {
+        "commitment_type": "ghg_reduction",
+        "focus_areas": [
+          "renewable_fuels",
+          "carbon_capture_and_offsets",
+          "hydrogen"
+        ],
+        "scope": "operations_and_lower_carbon_businesses"
+      },
+      "excerpt": "Chevron's strategy is to leverage our strengths to safely deliver lower carbon energy to a growing world. Our objective is to safely deliver higher returns, lower carbon and superior shareholder value in any business environment. We aim to grow our oil and gas business, lower the carbon intensity of our operations and grow lower carbon businesses in renewable fuels, carbon capture and offsets, hydrogen and other emerging technologies.",
+      "excerpts": [
+        "Chevron's strategy is to leverage our strengths to safely deliver lower carbon energy to a growing world. Our objective is to safely deliver higher returns, lower carbon and superior shareholder value in any business environment. We aim to grow our oil and gas business, lower the carbon intensity of our operations and grow lower carbon businesses in renewable fuels, carbon capture and offsets, hydrogen and other emerging technologies."
+      ]
+    },
+    {
+      "claim_id": "ca42",
+      "accession": "0000950170-24-087843",
+      "item": "Item_1",
+      "claim_type": "ESGCommitment",
+      "name": "MSFT 2030 Carbon Negative Commitment",
+      "ticker": "MSFT",
+      "fiscal_year": 2024,
+      "subject": "MICROSOFT CORP",
+      "attributes": {
+        "commitment_date": "2020",
+        "commitment_type": "carbon_neutral",
+        "note": "commitment is carbon negative, more aggressive than carbon neutral",
+        "target_year": 2030
+      },
+      "excerpt": "In 2020, we committed to being a carbon negative, water positive, and zero waste company by 2030.",
+      "excerpts": [
+        "In 2020, we committed to being a carbon negative, water positive, and zero waste company by 2030."
+      ]
+    },
+    {
+      "claim_id": "ca43",
+      "accession": "0000002488-24-000012",
+      "item": "Item_8",
+      "claim_type": "ESGCommitment",
+      "name": "AMD Sustainability-Linked Revolving Credit GHG Pricing",
+      "ticker": "AMD",
+      "fiscal_year": 2023,
+      "subject": "ADVANCED MICRO DEVICES INC",
+      "attributes": {
+        "commitment_type": "ghg_reduction",
+        "note": "Revolving Credit Agreement contains sustainability-linked pricing with interest rate and facility fee reductions or increases based on meeting or missing greenhouse gas emissions targets"
+      },
+      "excerpt": "The Revolving Credit Agreement also contains a sustainability-linked pricing component which provides for interest rate and facility fee reductions or increases based on the Company meeting or missing targets related to environmental sustainability, specifically greenhouse gas emissions.",
+      "excerpts": [
+        "The Revolving Credit Agreement also contains a sustainability-linked pricing component which provides for interest rate and facility fee reductions or increases based on the Company meeting or missing targets related to environmental sustainability, specifically greenhouse gas emissions."
+      ]
+    },
+    {
+      "claim_id": "ca44",
+      "accession": "0001564590-22-026876",
+      "item": "Item_1",
+      "claim_type": "ESGCommitment",
+      "name": "MSFT Racial Equity Initiative DEI Commitment",
+      "ticker": "MSFT",
+      "fiscal_year": 2022,
+      "subject": "MICROSOFT CORP",
+      "attributes": {
+        "commitment_type": "dei",
+        "goal": "double_Black_African_American_Hispanic_Latinx_leaders_US",
+        "investment_usd": 150000000,
+        "target_year": 2025
+      },
+      "excerpt": "Increasing representation and strengthening inclusion: build on our momentum, adding a $150 million investment to strengthen inclusion and double the number of Black, African American, Hispanic, and Latinx leaders in the United States by 2025.",
+      "excerpts": [
+        "Increasing representation and strengthening inclusion: build on our momentum, adding a $150 million investment to strengthen inclusion and double the number of Black, African American, Hispanic, and Latinx leaders in the United States by 2025."
+      ]
+    },
+    {
+      "claim_id": "ca45",
+      "accession": "0001045810-25-000023",
+      "item": "Item_1",
+      "claim_type": "ESGCommitment",
+      "name": "NVDA Scope 3 Supplier Science-Based Targets FY2026",
+      "ticker": "NVDA",
+      "fiscal_year": 2025,
+      "subject": "NVIDIA CORP",
+      "attributes": {
+        "commitment_type": "ghg_reduction",
+        "target_value": "engage suppliers comprising 67% of scope 3 category 1 GHG emissions",
+        "target_year": 2026
+      },
+      "excerpt": "By the end of fiscal year 2026, we also aim to engage manufacturing suppliers comprising at least 67% of NVIDIA's scope 3 category 1 GHG emissions with the goal of effecting supplier adoption of science-based targets.",
+      "excerpts": [
+        "By the end of fiscal year 2026, we also aim to engage manufacturing suppliers comprising at least 67% of NVIDIA's scope 3 category 1 GHG emissions with the goal of effecting supplier adoption of science-based targets."
+      ]
+    },
+    {
+      "claim_id": "ca46",
+      "accession": "0001018724-26-000004",
+      "item": "Item_9B",
+      "claim_type": "InsiderTransaction",
+      "name": "Jeffrey P. Bezos 10b5-1 Plan Adoption 2025-11-14",
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "subject": "AMAZON COM INC",
+      "attributes": {
+        "plan_action": "adoption",
+        "plan_end_date": "2027-02-26",
+        "reporting_person": "Jeffrey P. Bezos",
+        "shares": 15000000,
+        "source": "10-K_Item_9B_partial",
+        "transaction_code": "S",
+        "transaction_date": "2025-11-14"
+      },
+      "excerpt": "On November 14, 2025, Jeffrey P. Bezos, our founder and Executive Chair, adopted a trading plan intended to satisfy Rule 10b5-1(c) to sell up to 15,000,000 shares of Amazon.com, Inc. common stock over a period ending on February 26, 2027, subject to certain conditions.",
+      "excerpts": [
+        "On November 14, 2025, Jeffrey P. Bezos, our founder and Executive Chair, adopted a trading plan intended to satisfy Rule 10b5-1(c) to sell up to 15,000,000 shares of Amazon.com, Inc. common stock over a period ending on February 26, 2027, subject to certain conditions."
+      ]
+    },
+    {
+      "claim_id": "ca47",
+      "accession": "0000019617-24-000225",
+      "item": "Item_9B",
+      "claim_type": "InsiderTransaction",
+      "name": "Stacey Friedman 10b5-1 Plan Q4-2023 (6,030 shares)",
+      "ticker": "JPM",
+      "fiscal_year": 2023,
+      "subject": "JPMORGAN CHASE & CO",
+      "attributes": {
+        "plan_adoption_date": "2023-11-07",
+        "plan_duration_end": "2024-05-17",
+        "plan_duration_start": "2023-11-07",
+        "reporting_person": "Stacey Friedman",
+        "shares": 6030,
+        "source": "10-K_Item_9B_10b5-1_plan",
+        "transaction_code": "S"
+      },
+      "excerpt": "Stacey Friedman General Counsel November 7, 2023 November 7, 2023 - May 17, 2024 6,030",
+      "excerpts": [
+        "Stacey Friedman General Counsel November 7, 2023 November 7, 2023 - May 17, 2024 6,030"
+      ]
+    },
+    {
+      "claim_id": "ca48",
+      "accession": "0001628280-26-008131",
+      "item": "Item_9B",
+      "claim_type": "InsiderTransaction",
+      "name": "Ashley Bacon 10b5-1 Plan Q4-2025 (PSU Sale)",
+      "ticker": "JPM",
+      "fiscal_year": 2025,
+      "subject": "JPMORGAN CHASE & CO",
+      "attributes": {
+        "plan_adoption_date": "2025-11-12",
+        "plan_expiry": "2026-06-30",
+        "reporting_person": "Ashley Bacon",
+        "shares_description": "50% of net issued shares from PSUs vesting 2026-03-25",
+        "source": "10-K_Item_9B_10b5-1",
+        "transaction_code": "S"
+      },
+      "excerpt": "Ashley BaconChief Risk OfficerNovember 12, 2025November 12, 2025 – June 30, 202650% of the net issued shares received as a result of Performance Share Units (\"PSUs\") vesting on March 25, 2026",
+      "excerpts": [
+        "Ashley BaconChief Risk OfficerNovember 12, 2025November 12, 2025 – June 30, 202650% of the net issued shares received as a result of Performance Share Units (\"PSUs\") vesting on March 25, 2026"
+      ]
+    },
+    {
+      "claim_id": "ca49",
+      "accession": "0001018724-26-000004",
+      "item": "Item_9B",
+      "claim_type": "InsiderTransaction",
+      "name": "Douglas J. Herrington 10b5-1 Plan Adoption 2025-11-10",
+      "ticker": "AMZN",
+      "fiscal_year": 2025,
+      "subject": "AMAZON COM INC",
+      "attributes": {
+        "plan_action": "adoption",
+        "plan_end_date": "2026-12-31",
+        "reporting_person": "Douglas J. Herrington",
+        "shares": 132937,
+        "source": "10-K_Item_9B_partial",
+        "transaction_code": "S",
+        "transaction_date": "2025-11-10"
+      },
+      "excerpt": "On November 10, 2025, Douglas J. Herrington, CEO Worldwide Amazon Stores, adopted a trading plan intended to satisfy Rule 10b5-1(c) to sell up to 132,937 shares of Amazon.com, Inc. common stock over a period ending on December 31, 2026, subject to certain conditions.",
+      "excerpts": [
+        "On November 10, 2025, Douglas J. Herrington, CEO Worldwide Amazon Stores, adopted a trading plan intended to satisfy Rule 10b5-1(c) to sell up to 132,937 shares of Amazon.com, Inc. common stock over a period ending on December 31, 2026, subject to certain conditions."
+      ]
+    },
+    {
+      "claim_id": "ca50",
+      "accession": "0000019617-25-000270",
+      "item": "Item_9B",
+      "claim_type": "InsiderTransaction",
+      "name": "Jennifer Piepszak 10b5-1 Plan Oct-2024",
+      "ticker": "JPM",
+      "fiscal_year": 2024,
+      "subject": "JPMORGAN CHASE & CO",
+      "attributes": {
+        "plan_adoption_date": "2024-10-30",
+        "plan_expiration": "2025-03-31",
+        "plan_type": "10b5-1",
+        "reporting_person": "Jennifer Piepszak",
+        "shares": 8545,
+        "source": "10-K_Item_9B",
+        "transaction_code": "S",
+        "transaction_date": "2024-10-30"
+      },
+      "excerpt": "Jennifer Piepszak(b)\n\nCo-CEO, CIB\n\nOctober 30, 2024October 30, 2024 - March 31, 2025\n\n8,545",
+      "excerpts": [
+        "Jennifer Piepszak(b)\n\nCo-CEO, CIB\n\nOctober 30, 2024October 30, 2024 - March 31, 2025\n\n8,545"
+      ]
+    }
+  ]
+}
