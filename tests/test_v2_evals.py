@@ -1,5 +1,6 @@
 """Tests for the v2 eval skeletons (audit fixes 1.10 and 2.11 applied)."""
 
+import csv
 import json
 from decimal import Decimal
 from pathlib import Path
@@ -122,3 +123,107 @@ def test_ingest_cost_keys_by_accession_and_reports_p90_and_stages(tmp_path) -> N
 def test_ingest_cost_rejects_an_unknown_stage(tmp_path) -> None:
     with pytest.raises(ValueError, match="stage"):
         eval_ingest_cost.summarize_ingest_costs(_log(tmp_path, [_rec("a", "rerank", "0")]))
+
+
+class TestPooledRecall:
+    @staticmethod
+    def _setup(tmp_path: Path, questions: dict[str, dict], labels: dict[tuple[str, str], str]):
+        pool = {"meta": {}, "questions": {
+            qid: {"accession": "a", "item": "1A", "question": "q",
+                  "dense_ranking": q["dense"], "bm25_top": q.get("bm25", []),
+                  "pooled": sorted(set(q["dense"][:5]) | set(q.get("bm25", [])))}
+            for qid, q in questions.items()}}
+        pool_json = tmp_path / "pool.json"
+        pool_json.write_text(json.dumps(pool), encoding="utf-8")
+        labels_csv = tmp_path / "labels.csv"
+        with labels_csv.open("w", encoding="utf-8", newline="") as fh:
+            writer = csv.writer(fh)
+            writer.writerow(["qid", "question", "row", "chunk_id", "passage", "relevant"])
+            for i, ((qid, cid), lab) in enumerate(labels.items(), start=1):
+                writer.writerow([qid, "q", i, cid, "text", lab])
+        return pool_json, labels_csv
+
+    @staticmethod
+    def _dense(prefix: str) -> list[str]:
+        return [f"{prefix}{i}" for i in range(1, 21)]
+
+    def _standard(self, tmp_path: Path):
+        q1, q2 = self._dense("a"), self._dense("b")
+        questions = {"q1": {"dense": q1}, "q2": {"dense": q2}}
+        labels = {("q1", c): "n" for c in q1[:5]}
+        labels[("q1", "a1")] = "y"
+        labels.update({("q2", c): "n" for c in q2[:5]})
+        labels[("q2", "b3")] = "y"
+        return questions, labels
+
+    def test_pooled_recall_micro_and_macro(self, tmp_path) -> None:
+        # q1: 2 relevant at dense ranks 1 and 8 (rank 8 is outside the pooled top 5, so it
+        # is unlabelled by construction; the second relevant id is pooled via BM25).
+        q1, q2 = self._dense("a"), self._dense("b")
+        questions = {"q1": {"dense": q1, "bm25": ["a8"]}, "q2": {"dense": q2}}
+        labels = {("q1", c): "n" for c in q1[:5] + ["a8"]}
+        labels[("q1", "a1")] = "y"
+        labels[("q1", "a8")] = "y"
+        labels.update({("q2", c): "n" for c in q2[:5]})
+        labels[("q2", "b3")] = "y"
+        pool_json, labels_csv = self._setup(tmp_path, questions, labels)
+
+        result = eval_recall.evaluate_pooled_recall(pool_json, labels_csv)
+
+        assert result["recall@5"] == {"micro": 2 / 3, "macro": (0.5 + 1) / 2}
+        assert result["recall@10"] == {"micro": 1.0, "macro": 1.0}
+        assert result["recall@20"] == {"micro": 1.0, "macro": 1.0}
+        assert result["relevant_passages"] == 3
+        assert result["questions_scored"] == 2
+        assert result["questions_excluded_no_relevant"] == []
+        assert result["labelled_rows"] == 11
+
+    def test_pooled_recall_relevant_outside_dense_top20_counts_as_miss(self, tmp_path) -> None:
+        q1 = self._dense("a")
+        questions = {"q1": {"dense": q1, "bm25": ["only_bm25"]}}
+        labels = {("q1", c): "n" for c in q1[:5]}
+        labels[("q1", "only_bm25")] = "y"
+        labels[("q1", "a2")] = "y"
+        pool_json, labels_csv = self._setup(tmp_path, questions, labels)
+
+        result = eval_recall.evaluate_pooled_recall(pool_json, labels_csv)
+
+        for k in (5, 10, 20):
+            assert result[f"recall@{k}"] == {"micro": 0.5, "macro": 0.5}
+
+    def test_pooled_recall_excludes_question_with_no_relevant(self, tmp_path) -> None:
+        questions, labels = self._standard(tmp_path)
+        labels[("q1", "a1")] = "n"
+        pool_json, labels_csv = self._setup(tmp_path, questions, labels)
+
+        result = eval_recall.evaluate_pooled_recall(pool_json, labels_csv)
+
+        assert result["questions_excluded_no_relevant"] == ["q1"]
+        assert result["questions_scored"] == 1
+        assert result["relevant_passages"] == 1
+        assert result["recall@5"] == {"micro": 1.0, "macro": 1.0}
+
+    def test_pooled_recall_rejects_label_not_y_or_n(self, tmp_path) -> None:
+        questions, labels = self._standard(tmp_path)
+        labels[("q1", "a1")] = "Y "
+        pool_json, labels_csv = self._setup(tmp_path, questions, labels)
+        assert eval_recall.evaluate_pooled_recall(pool_json, labels_csv)["relevant_passages"] == 2
+
+        for bad in ("yes", ""):
+            labels[("q1", "a2")] = bad
+            pool_json, labels_csv = self._setup(tmp_path, questions, labels)
+            with pytest.raises(ValueError, match="q1.*a2"):
+                eval_recall.evaluate_pooled_recall(pool_json, labels_csv)
+
+    def test_pooled_recall_rejects_rows_not_in_pool_and_missing_pool_rows(self, tmp_path) -> None:
+        questions, labels = self._standard(tmp_path)
+        del labels[("q2", "b4")]
+        labels[("q2", "stranger")] = "n"
+        pool_json, labels_csv = self._setup(tmp_path, questions, labels)
+
+        with pytest.raises(ValueError) as exc:
+            eval_recall.evaluate_pooled_recall(pool_json, labels_csv)
+
+        message = str(exc.value)
+        assert "stranger" in message and "q2" in message
+        assert "b4" in message
