@@ -140,8 +140,9 @@ def write_spot_sheet(units: list[dict], judge_jsonl: Path, out_csv: Path, n: int
 
     Flagged means anything but ``supported``: ``partial``, ``unsupported``, and the
     harness verdicts ``parse_error`` and ``refusal`` (scoring leaves those out of the 2x2,
-    but a human label on them is still worth having). Supported units are sampled (seeded) until the sheet has ``n`` rows; if more than ``n``
-    units are flagged, all of them are kept. Rows are shuffled with the same seed so their
+    but a human label on them is still worth having). Supported units are sampled
+    (seeded) until the sheet has ``n`` rows; if more than ``n`` units are flagged, all of
+    them are kept. Rows are shuffled with the same seed so their
     order does not reveal the judge's verdict, and there is no judge column.
 
     Returns:

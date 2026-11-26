@@ -10,6 +10,7 @@ from types import SimpleNamespace
 import pytest
 
 from evals.v2 import eval_faithfulness
+from filings_kb.answer import PassageSnapshot, build_user_message
 from evals.v2.faithfulness import judge, units
 
 SLUG = "q-one"
@@ -495,3 +496,19 @@ def test_v2_scoring_raises_on_judged_unit_not_in_units(tmp_path) -> None:
     units.write_units([_unit("a:p1u1")], units_path)
     with pytest.raises(ValueError, match="z:p9u9"):
         eval_faithfulness.evaluate_faithfulness_v2(judge_jsonl, expected_units=units_path)
+
+
+@pytest.mark.parametrize("item", ["Item_1A", "Item_7_MDA", "Item_9C", "Item_16"])
+def test_passage_header_matches_answer_model_input(item) -> None:
+    # Parity with the real model-input renderer, so a change there breaks this test.
+    text = "Chunk text the answer model saw."
+    snapshot = PassageSnapshot(
+        chunk_id=f"acc:{item}:0001", score=0.9, included=True, cite=3, ticker="XOM",
+        company="EXXON MOBIL CORP", form="10-K/A", fiscal_year=2024, filed="2025-02-19",
+        item=item, accession="acc", sec_url="https://www.sec.gov/x",
+        context={"before": "", "match": text, "after": ""})
+    unit_passage = {"cite": 3, "chunk_id": snapshot.chunk_id, "ticker": "XOM",
+                    "fiscal_year": 2024, "form": "10-K/A", "item": item, "text": text}
+    model_input = build_user_message(SimpleNamespace(question="q"), [snapshot], [])
+    assert units.passage_header(unit_passage) + "\n" + text in model_input
+    assert units.format_passages({"passages": [unit_passage]}) in model_input
