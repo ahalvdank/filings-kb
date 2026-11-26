@@ -7,6 +7,7 @@ from decimal import Decimal
 import pytest
 
 from evals.v2.ingest_cost.from_replay_logs import (
+    exclude_accessions,
     main,
     parse_extract_ok,
     summarize_replay,
@@ -253,3 +254,88 @@ def test_main_allow_unconfirmed_writes_result_with_unconfirmed_listed(tmp_path):
 def test_main_missing_tsv_raises(tmp_path):
     with pytest.raises(FileNotFoundError):
         main(["--logs", str(tmp_path), "--out", str(tmp_path / "r.json")])
+
+
+def test_prev_log_merges_with_current_log_per_accession(tmp_path):
+    acc = "0000000001-00-000001"
+    prev = tmp_path / "replay_AAA.20301201120000.prev.log"
+    prev.write_text(line(acc=acc, section="Item_1") + "\n")
+    log, tsv = write(tmp_path, "AAA", [line(acc=acc, section="Item_1A")],
+                     [tsv_row("AAA", START)])
+    records, stats = to_stage_records([prev, log], tsv)
+    assert sorted(r["section"] for r in records) == ["Item_1", "Item_1A"]
+    assert {r["ticker"] for r in records} == {"AAA"}
+    assert summarize_replay(records, stats)["filings_measured"] == 1
+
+
+def test_default_only_ticker_keeps_calls_logged_before_its_row_start(tmp_path):
+    # Row start 2030-01-15T20:00Z == 15:00 local; the call is at 10:00 local (killed first run).
+    log, tsv = write(tmp_path, "AAA", [line(ts=f"{DAY} 10:00:00,000")],
+                     [tsv_row("AAA", "2030-01-15T20:00:00Z")])
+    records, stats = to_stage_records([log], tsv)
+    assert len(records) == 1
+    assert stats["excluded_lean_mode"] == 0
+
+
+def test_oauth_rows_are_notional_not_unconfirmed(tmp_path):
+    log, tsv = write(tmp_path, "AAA", [line(), line(section="Item_2")],
+                     [tsv_row("AAA", START, mode="default(lean=false) oauth")])
+    records, stats = to_stage_records([log], tsv)
+    assert records == []
+    assert stats["excluded_oauth_notional"] == 2
+    assert stats["tickers_oauth_notional"] == ["AAA"]
+    assert stats["excluded_mode_unconfirmed"] == 0
+    assert stats["tickers_unconfirmed"] == []
+
+
+def test_main_does_not_exit_3_for_oauth_only_ticker(tmp_path):
+    write(tmp_path, "AAA", [line()], [tsv_row("AAA", START, mode="default(lean=false) oauth")])
+    out = tmp_path / "result.json"
+    main(["--logs", str(tmp_path), "--out", str(out)])
+    data = json.loads(out.read_text(encoding="utf-8"))
+    assert data["excluded_oauth_notional"] == 1
+    assert data["tickers_oauth_notional"] == ["AAA"]
+
+
+def test_other_mode_strings_stay_unconfirmed(tmp_path):
+    log, tsv = write(tmp_path, "AAA", [line()],
+                     [tsv_row("AAA", START, mode="default(lean=false) oauthx")])
+    _, stats = to_stage_records([log], tsv)
+    assert stats["excluded_mode_unconfirmed"] == 1
+    assert stats["excluded_oauth_notional"] == 0
+
+
+def test_exclude_accessions_drops_records_and_reports_reason_and_calls_only():
+    a, b = "0000000001-00-000001", "0000000002-00-000002"
+    recs = [{"accession": a}, {"accession": a}, {"accession": b}]
+    kept, excluded = exclude_accessions(recs, {a: "outlier"})
+    assert kept == [{"accession": b}]
+    assert excluded == [{"reason": "outlier", "calls": 2}]
+
+
+def test_exclude_accessions_raises_when_accession_has_no_records():
+    with pytest.raises(ValueError):
+        exclude_accessions([{"accession": "0000000001-00-000001"}],
+                           {"0000000009-00-000009": "typo"})
+
+
+def test_main_exclude_accession_is_repeatable_and_never_prints_the_accession(tmp_path):
+    a, b, c = "0000000001-00-000001", "0000000002-00-000002", "0000000003-00-000003"
+    write(tmp_path, "AAA", [line(acc=a), line(acc=a, section="Item_2"), line(acc=b),
+                            line(acc=c)], [tsv_row("AAA", START)])
+    out = tmp_path / "result.json"
+    main(["--logs", str(tmp_path), "--out", str(out),
+          "--exclude-accession", f"{a}=too long", "--exclude-accession", f"{b}=retried"])
+    text = out.read_text(encoding="utf-8")
+    assert a not in text and b not in text
+    data = json.loads(text)
+    assert data["filings_measured"] == 1
+    assert data["excluded_filings"] == [{"reason": "too long", "calls": 2},
+                                        {"reason": "retried", "calls": 1}]
+
+
+def test_main_exclude_accession_with_no_records_raises(tmp_path):
+    write(tmp_path, "AAA", [line()], [tsv_row("AAA", START)])
+    with pytest.raises(ValueError):
+        main(["--logs", str(tmp_path), "--out", str(tmp_path / "r.json"),
+              "--exclude-accession", "0000000009-00-000009=typo"])

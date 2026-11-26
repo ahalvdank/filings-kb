@@ -10,13 +10,21 @@ Rules:
 * Excluded and counted, in this order:
   ``excluded_malformed`` (an ``extract ok`` line missing ``acc``, ``cost_usd`` or
   ``wallclock``, or with a non-numeric value);
-  ``excluded_mode_unconfirmed`` (ticker absent from ``replay_costs.tsv``, or with no
-  ``default(lean=false)`` row and no lean row; the ticker is listed in
+  ``excluded_oauth_notional`` (ticker with a ``default(lean=false) oauth`` row and no plain
+  default row: Claude-subscription calls, not billed per call; listed in
+  ``tickers_oauth_notional``; never triggers the exit 3 below);
+  ``excluded_mode_unconfirmed`` (ticker absent from ``replay_costs.tsv``, or whose rows are
+  none of ``default(lean=false)``, ``... oauth`` or ``lean...``; the ticker is listed in
   ``tickers_unconfirmed`` and the CLI exits 3 unless ``--allow-unconfirmed``);
-  ``excluded_lean_mode`` (ticker whose only rows are lean, or a call logged before the
-  earliest default row's ``start`` for a ticker that has both lean and default rows);
+  ``excluded_lean_mode`` (ticker whose only rows are lean, or, for a ticker with both lean
+  and default rows, a call logged before the earliest default row's ``start``; a ticker with
+  only default rows keeps every call, since a killed first run writes no TSV row);
   ``excluded_missing_tokens`` (no ``input_tokens``/``output_tokens``).
   ``excluded_lean_or_missing_tokens`` is the sum of the last two.
+* Logs for one ticker merge by accession: ``replay_<T>.log``, ``replay_<T>.lean_probe.log``
+  and the renamed ``replay_<T>.<YYYYMMDDHHMMSS>.prev.log``.
+* ``--exclude-accession ACC=REASON`` drops a filing before aggregation; the output carries
+  only the reason and call count.
 * Log timestamps are local New York time (``America/New_York``, DST-aware); TSV times are UTC.
 * Seconds per filing is the sum of ``wallclock`` over its calls, so it includes retries and
   waits.
@@ -42,8 +50,10 @@ from zoneinfo import ZoneInfo
 from evals.v2.eval_ingest_cost import percentile, summarize_ingest_costs
 
 DEFAULT_MODE = "default(lean=false)"
+OAUTH_MODE = "default(lean=false) oauth"
 LOG_TZ = ZoneInfo("America/New_York")
 PROBE_SUFFIX = ".lean_probe"
+_PREV_RE = re.compile(r"\.\d{14}\.prev$")
 _LINE_RE = re.compile(r"^(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3}) .*? extract ok (.*)$")
 _KV_RE = re.compile(r"(\w+)=(\S+)")
 _TOKEN_KINDS = ("input_tokens_uncached", "cache_creation_tokens", "cache_read_tokens",
@@ -95,7 +105,7 @@ def parse_extract_ok(line: str) -> dict | None:
 
 def _ticker_of(log_path: Path) -> str:
     name = log_path.stem.removeprefix("replay_")
-    return name.removesuffix(PROBE_SUFFIX)
+    return _PREV_RE.sub("", name).removesuffix(PROBE_SUFFIX)
 
 
 def _read_tsv(tsv: Path) -> list[dict]:
@@ -127,9 +137,11 @@ def to_stage_records(log_paths: list[Path], tsv: Path) -> tuple[list[dict], dict
         partial += int(row["partial"])
         timeouts += int(row["timeouts"])
     has_lean_row = {row["ticker"] for row in rows if row["mode"].startswith("lean")}
+    oauth_tickers = {row["ticker"] for row in rows if row["mode"] == OAUTH_MODE}
 
     records: list[dict] = []
     excluded_lean = excluded_missing = excluded_unconfirmed = excluded_malformed = 0
+    excluded_oauth = 0
     unconfirmed: set[str] = set()
     for log_path in sorted(log_paths):
         ticker = _ticker_of(log_path)
@@ -142,12 +154,16 @@ def to_stage_records(log_paths: list[Path], tsv: Path) -> tuple[list[dict], dict
                 continue
             if rec is None:
                 continue
-            if cutoff is None and ticker not in has_lean_row:
-                excluded_unconfirmed += 1
-                unconfirmed.add(ticker)
+            if cutoff is None:
+                if ticker in oauth_tickers:
+                    excluded_oauth += 1
+                elif ticker in has_lean_row:
+                    excluded_lean += 1
+                else:
+                    excluded_unconfirmed += 1
+                    unconfirmed.add(ticker)
                 continue
-            logged_utc = rec["logged_at"].replace(tzinfo=LOG_TZ)
-            if cutoff is None or logged_utc < cutoff:
+            if ticker in has_lean_row and rec["logged_at"].replace(tzinfo=LOG_TZ) < cutoff:
                 excluded_lean += 1
                 continue
             if rec["input_tokens_uncached"] is None or rec["output_tokens"] is None:
@@ -167,13 +183,40 @@ def to_stage_records(log_paths: list[Path], tsv: Path) -> tuple[list[dict], dict
         "excluded_lean_mode": excluded_lean,
         "excluded_missing_tokens": excluded_missing,
         "excluded_mode_unconfirmed": excluded_unconfirmed,
+        "excluded_oauth_notional": excluded_oauth,
         "excluded_malformed": excluded_malformed,
         "partial": partial,
         "timeouts": timeouts,
         "tickers": sorted(default_starts),
         "tickers_unconfirmed": sorted(unconfirmed),
+        "tickers_oauth_notional": sorted(oauth_tickers - set(default_starts)),
     }
     return records, stats
+
+
+def exclude_accessions(records: list[dict],
+                       reasons: dict[str, str]) -> tuple[list[dict], list[dict]]:
+    """Drop the records of the given accessions.
+
+    Args:
+        records: stage records.
+        reasons: accession -> reason.
+
+    Returns:
+        ``(kept, excluded_filings)`` where each excluded entry is ``{"reason", "calls"}``
+        (never the accession).
+
+    Raises:
+        ValueError: when an excluded accession has no records.
+    """
+    excluded = []
+    for acc, reason in reasons.items():
+        calls = sum(1 for r in records if r["accession"] == acc)
+        if calls == 0:
+            raise ValueError(f"--exclude-accession given for an accession with no records "
+                             f"(reason: {reason!r})")
+        excluded.append({"reason": reason, "calls": calls})
+    return [r for r in records if r["accession"] not in reasons], excluded
 
 
 def _spread(values: list[int]) -> dict:
@@ -210,6 +253,8 @@ def summarize_replay(records: list[dict], stats: dict) -> dict:
     summary["excluded_mode_unconfirmed"] = stats["excluded_mode_unconfirmed"]
     summary["excluded_malformed"] = stats["excluded_malformed"]
     summary["tickers_unconfirmed"] = stats["tickers_unconfirmed"]
+    summary["excluded_oauth_notional"] = stats["excluded_oauth_notional"]
+    summary["tickers_oauth_notional"] = stats["tickers_oauth_notional"]
     summary["partial"] = stats["partial"]
     summary["timeouts"] = stats["timeouts"]
     summary["tickers"] = stats["tickers"]
@@ -228,7 +273,17 @@ def main(argv: list[str] | None = None) -> None:
     parser.add_argument("--out", type=Path, required=True)
     parser.add_argument("--allow-unconfirmed", action="store_true",
                         help="write the result even if some tickers have no confirmed mode")
+    parser.add_argument("--exclude-accession", action="append", default=[],
+                        metavar="ACC=REASON",
+                        help="drop a filing before aggregation (repeatable); only the "
+                             "reason and call count are written")
     args = parser.parse_args(argv)
+    reasons: dict[str, str] = {}
+    for item in args.exclude_accession:
+        acc, sep, reason = item.partition("=")
+        if not sep or not acc or not reason:
+            parser.error(f"--exclude-accession expects ACC=REASON, got {item!r}")
+        reasons[acc] = reason
     tsv = args.logs / "replay_costs.tsv"
     if not tsv.is_file():
         raise FileNotFoundError(tsv)
@@ -239,7 +294,9 @@ def main(argv: list[str] | None = None) -> None:
               f"{', '.join(stats['tickers_unconfirmed'])}. Wait for the run to finish or "
               f"pass --allow-unconfirmed.", file=sys.stderr)
         raise SystemExit(3)
+    records, excluded_filings = exclude_accessions(records, reasons)
     summary = summarize_replay(records, stats)
+    summary["excluded_filings"] = excluded_filings
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {args.out}: {summary['filings_measured']} filings")
