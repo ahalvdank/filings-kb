@@ -26,8 +26,10 @@ Rules:
 * ``--exclude-accession ACC=REASON`` drops a filing before aggregation; the output carries
   only the reason and call count.
 * Log timestamps are local New York time (``America/New_York``, DST-aware); TSV times are UTC.
-* Seconds per filing is the sum of ``wallclock`` over its calls, so it includes retries and
-  waits.
+* Seconds per filing is the sum of ``wallclock`` over its logged (successful) calls. A
+  successful call's wallclock includes the extractor's in-call retries; a call that failed
+  outright (a timeout, or a killed run) writes no ``extract ok`` line, so its time and any cost
+  it billed are not counted. Cost likewise covers logged calls only.
 * ``input_tokens`` in the log is only the uncached part. Prompt caching puts nearly all input
   into ``cache_creation``/``cache_read``, so the four token kinds are reported separately.
 
@@ -245,8 +247,11 @@ def summarize_replay(records: list[dict], stats: dict) -> dict:
     summary["tokens_per_filing"] = {
         kind: _spread([b[kind] for b in per_filing.values()]) for kind in _TOKEN_KINDS}
     summary["total_seconds"] = round(sum(r["wall_seconds"] for r in records), 1)
-    summary["seconds_basis"] = ("sum of wallclock over a filing's extract calls; includes "
-                                "retries and waits")
+    summary["seconds_basis"] = ("sum of wallclock over a filing's logged (successful) extract "
+                                "calls; calls that failed outright wrote no line and are not "
+                                "counted")
+    summary["cost_basis"] = ("sum of cost_usd logged by the claude CLI on successful calls, at "
+                             "list price; failed attempts and CLI helper calls are not logged")
     summary["excluded_lean_or_missing_tokens"] = stats["excluded_lean_or_missing_tokens"]
     summary["excluded_lean_mode"] = stats["excluded_lean_mode"]
     summary["excluded_missing_tokens"] = stats["excluded_missing_tokens"]

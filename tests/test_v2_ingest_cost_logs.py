@@ -202,6 +202,8 @@ def test_per_filing_aggregation_sums_sections_and_subchunks(tmp_path):
     assert summary["total_usd"] == "0.41"          # exact decimal, 0.10+0.25+0.05+0.01
     assert summary["median_usd"] == "0.205"         # median of 0.40 and 0.01
     assert summary["seconds_basis"].startswith("sum of wallclock")
+    assert "not counted" in summary["seconds_basis"]
+    assert "not logged" in summary["cost_basis"]
     assert summary["total_seconds"] == 36.5
     tok = summary["tokens_per_filing"]
     assert tok["input_tokens_uncached"]["total"] == 8
