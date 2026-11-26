@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "source": "private pipeline (not the public sample): replay of 10-K extraction for UAA, USB, VFC, last 5 fiscal years each",
+    "stage": "extraction only (fetch/section/chunk ran earlier; embed and entity link not in this run)",
+    "model": "claude-sonnet-4-6",
+    "prompt_version": "v3",
+    "mode": "default (KB_LEAN_EXTRACTION=false)",
+    "backend": "claude -p, billed to an Anthropic API key",
+    "run_dates_utc": "2026-11-26",
+    "parser_commit": "0d4b5855c32ff29758356393a640420b3a252885",
+    "billed_reconciliation": "pending (Andrew's by-model billing snapshot)"
+  },
+  "filings_measured": 14,
+  "median_usd": "3.8165305",
+  "p90_usd": "5.665028",
+  "median_seconds": 2713.9,
+  "p90_seconds": 3738.8,
+  "total_usd": "50.216124",
+  "per_stage": {
+    "extract_claims": {
+      "usd": "50.216124",
+      "seconds": 31832.9,
+      "tokens": 10966504
+    }
+  },
+  "tokens_per_filing": {
+    "input_tokens_uncached": {
+      "median": 33.5,
+      "p90": 43,
+      "total": 479
+    },
+    "cache_creation_tokens": {
+      "median": 355649.5,
+      "p90": 494718,
+      "total": 5043819
+    },
+    "cache_read_tokens": {
+      "median": 274080.0,
+      "p90": 338869,
+      "total": 3957877
+    },
+    "total_input_tokens": {
+      "median": 653220.5,
+      "p90": 830306,
+      "total": 9002175
+    },
+    "output_tokens": {
+      "median": 162093.5,
+      "p90": 244693,
+      "total": 1964329
+    }
+  },
+  "total_seconds": 31832.9,
+  "seconds_basis": "sum of wallclock over a filing's logged (successful) extract calls; calls that failed outright wrote no line and are not counted",
+  "cost_basis": "sum of cost_usd logged by the claude CLI on successful calls, at list price; failed attempts and CLI helper calls are not logged",
+  "excluded_lean_or_missing_tokens": 1,
+  "excluded_lean_mode": 1,
+  "excluded_missing_tokens": 0,
+  "excluded_mode_unconfirmed": 0,
+  "excluded_malformed": 0,
+  "tickers_unconfirmed": [],
+  "excluded_oauth_notional": 1,
+  "tickers_oauth_notional": [
+    "VICI"
+  ],
+  "partial": 1,
+  "timeouts": 1,
+  "tickers": [
+    "UAA",
+    "USB",
+    "VFC"
+  ],
+  "excluded_filings": [
+    {
+      "reason": "one Item_1A sub-chunk was cached without a logged cost (first run killed), so its logged cost is known to be low",
+      "calls": 15
+    }
+  ]
+}
