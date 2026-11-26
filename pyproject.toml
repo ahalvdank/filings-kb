@@ -21,6 +21,7 @@ dependencies = [
 [project.optional-dependencies]
 dev = ["pytest>=8"]
 anthropic = ["anthropic>=0.40"]
+openai = ["openai>=3.60"]
 
 [tool.setuptools]
 packages = ["filings_kb"]
