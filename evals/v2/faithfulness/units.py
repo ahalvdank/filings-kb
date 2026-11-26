@@ -4,7 +4,10 @@ A unit is one answer sentence (``paragraphs[i-1][j-1]``, numbered 1-based as in
 ``filings_kb.answer``) of a question that has an exported trace. Its passages are the
 ``chunks.text`` of each cited chunk, which is the text the answer model saw: the model
 input renders ``PassageSnapshot.text``, which is ``context["match"]``, which is the chunk
-text. The database is only ever opened read-only.
+text. Each passage also carries the answer passage's ticker, fiscal year, form and item,
+so ``format_passages`` renders the same ``[cite] TICKER FY2025 10-K, Item 1A`` header the
+answer model saw (``filings_kb.answer.build_user_message``); a sentence's fiscal year is
+often stated only there. The database is only ever opened read-only.
 
 CLI::
 
@@ -22,9 +25,13 @@ import sqlite3
 from contextlib import closing
 from pathlib import Path
 
+from filings_kb.answer import item_label
+
 SPOT_N = 40
 SPOT_SEED = 20261125
-FLAGGED_VERDICTS = ("partial", "unsupported")
+# Every unit the judge did not call supported, including units it gave no verdict on.
+FLAGGED_VERDICTS = ("partial", "unsupported", "parse_error", "refusal")
+HEADER_FIELDS = ("ticker", "fiscal_year", "form", "item")
 SPOT_COLUMNS = ("unit_id", "sentence", "passages", "human_verdict", "note")
 
 
@@ -43,9 +50,9 @@ def _chunk_texts(db: Path, chunk_ids: set[str]) -> dict[str, str]:
     return out
 
 
-def _cite_map(slug: str, answer: dict) -> dict[int, str]:
-    """``cite -> chunk_id`` for the included passages; raises on a cite given twice."""
-    out: dict[int, str] = {}
+def _cite_map(slug: str, answer: dict) -> dict[int, dict]:
+    """``cite -> answer passage`` for the included passages; raises on a cite given twice."""
+    out: dict[int, dict] = {}
     for p in answer["passages"]:
         if p["cite"] is None:
             continue
@@ -53,7 +60,7 @@ def _cite_map(slug: str, answer: dict) -> dict[int, str]:
             raise ValueError(f"{slug}: cite {p['cite']} is given to two passages")
         if not p["included"]:
             raise ValueError(f"{slug}: cite {p['cite']} is on a passage that is not included")
-        out[p["cite"]] = p["chunk_id"]
+        out[p["cite"]] = p
     return out
 
 
@@ -62,13 +69,14 @@ def build_units(answers_dir: Path, traces_dir: Path, db: Path) -> list[dict]:
 
     Returns:
         Units ``{"unit_id", "slug", "sentence", "cites", "passages": [{"cite", "chunk_id",
-        "text"}]}``, one passage per cite in the sentence's cite order.
+        "ticker", "fiscal_year", "form", "item", "text"}]}``, one passage per cite in the
+        sentence's cite order.
 
     Raises:
         ValueError: if a trace has no answer, a cite has no passage or points at a passage
             that was not included, or a cited chunk is missing from the database.
     """
-    raw: list[tuple[str, int, int, dict, dict[int, str]]] = []
+    raw: list[tuple[str, int, int, dict, dict[int, dict]]] = []
     for trace in sorted(traces_dir.glob("*.json")):
         slug = trace.stem
         answer_path = answers_dir / f"{slug}.json"
@@ -83,15 +91,18 @@ def build_units(answers_dir: Path, traces_dir: Path, db: Path) -> list[dict]:
                         raise ValueError(f"{slug}:p{i}u{j}: cite {c} has no passage")
                 raw.append((slug, i, j, unit, cites))
 
-    texts = _chunk_texts(db, {cites[c] for *_, unit, cites in raw for c in unit["cites"]})
+    texts = _chunk_texts(db, {cites[c]["chunk_id"] for *_, unit, cites in raw
+                              for c in unit["cites"]})
     units: list[dict] = []
     for slug, i, j, unit, cites in raw:
         passages = []
         for c in unit["cites"]:
-            chunk_id = cites[c]
+            source = cites[c]
+            chunk_id = source["chunk_id"]
             if chunk_id not in texts:
                 raise ValueError(f"{slug}:p{i}u{j}: chunk {chunk_id} is not in {db}")
-            passages.append({"cite": c, "chunk_id": chunk_id, "text": texts[chunk_id]})
+            passages.append({"cite": c, "chunk_id": chunk_id,
+                             **{f: source[f] for f in HEADER_FIELDS}, "text": texts[chunk_id]})
         units.append({"unit_id": f"{slug}:p{i}u{j}", "slug": slug, "sentence": unit["text"],
                       "cites": list(unit["cites"]), "passages": passages})
     return units
@@ -109,9 +120,14 @@ def read_units(path: Path) -> list[dict]:
             if line.strip()]
 
 
+def passage_header(p: dict) -> str:
+    """The header the answer model saw for a passage, e.g. ``[1] NVDA FY2026 10-K, Item 1A``."""
+    return f"[{p['cite']}] {p['ticker']} FY{p['fiscal_year']} {p['form']}, {item_label(p['item'])}"
+
+
 def format_passages(unit: dict) -> str:
-    """The unit's passages as ``[cite] chunk_id`` headers each followed by its text."""
-    return "\n\n".join(f"[{p['cite']}] {p['chunk_id']}\n{p['text']}" for p in unit["passages"])
+    """The unit's passages, each as its model-input header followed by its text."""
+    return "\n\n".join(f"{passage_header(p)}\n{p['text']}" for p in unit["passages"])
 
 
 def _judge_verdicts(judge_jsonl: Path) -> dict[str, str]:
@@ -122,9 +138,9 @@ def write_spot_sheet(units: list[dict], judge_jsonl: Path, out_csv: Path, n: int
                      seed: int = SPOT_SEED) -> int:
     """Blind human-labelling sheet: every flagged unit plus a seeded sample of supported ones.
 
-    Flagged means the judge said ``partial`` or ``unsupported``. ``parse_error`` and
-    ``refusal`` units carry no judge verdict to compare against, so they are left out.
-    Supported units are sampled (seeded) until the sheet has ``n`` rows; if more than ``n``
+    Flagged means anything but ``supported``: ``partial``, ``unsupported``, and the
+    harness verdicts ``parse_error`` and ``refusal`` (scoring leaves those out of the 2x2,
+    but a human label on them is still worth having). Supported units are sampled (seeded) until the sheet has ``n`` rows; if more than ``n``
     units are flagged, all of them are kept. Rows are shuffled with the same seed so their
     order does not reveal the judge's verdict, and there is no judge column.
 
@@ -132,13 +148,17 @@ def write_spot_sheet(units: list[dict], judge_jsonl: Path, out_csv: Path, n: int
         The number of rows written.
 
     Raises:
-        ValueError: if the judge file names a unit that is not in ``units``.
+        ValueError: if the judge file names a unit that is not in ``units``, or does not
+            cover every unit (the sheet is drawn only from a complete run).
     """
     verdicts = _judge_verdicts(judge_jsonl)
     by_id = {u["unit_id"]: u for u in units}
     unknown = sorted(set(verdicts) - set(by_id))
     if unknown:
         raise ValueError(f"judge file names units not in the unit list: {unknown[:5]}")
+    missing = sorted(set(by_id) - set(verdicts))
+    if missing:
+        raise ValueError(f"judge file does not cover {len(missing)} units, e.g. {missing[:5]}")
     flagged = sorted(u for u, v in verdicts.items() if v in FLAGGED_VERDICTS)
     supported = sorted(u for u, v in verdicts.items() if v == "supported")
     rng = random.Random(seed)

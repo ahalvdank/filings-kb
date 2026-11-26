@@ -32,8 +32,11 @@ def _answer(paragraphs: list[list[dict]], passages: list[dict]) -> dict:
     return {"paragraphs": paragraphs, "passages": passages}
 
 
-def _passage(cite: int | None, chunk_id: str, included: bool = True) -> dict:
-    return {"cite": cite, "chunk_id": chunk_id, "included": included,
+HEADER = {"ticker": "NVDA", "fiscal_year": 2026, "form": "10-K", "item": "Item_1A"}
+
+
+def _passage(cite: int | None, chunk_id: str, included: bool = True, **header) -> dict:
+    return {"cite": cite, "chunk_id": chunk_id, "included": included, **(HEADER | header),
             "context": {"before": "", "match": "IGNORED", "after": ""}}
 
 
@@ -52,7 +55,8 @@ def _write_case(tmp_path: Path, answer: dict, *, with_trace: bool = True,
 
 def _unit(unit_id: str, sentence: str = "Revenue was $5.5 billion.") -> dict:
     return {"unit_id": unit_id, "slug": unit_id.split(":")[0], "sentence": sentence,
-            "cites": [1], "passages": [{"cite": 1, "chunk_id": "c1", "text": "passage text"}]}
+            "cites": [1], "passages": [{"cite": 1, "chunk_id": "c1", **HEADER,
+                                        "text": "passage text"}]}
 
 
 class FakeMessages:
@@ -100,7 +104,8 @@ def test_build_units_maps_cites_to_chunk_text_and_counts(tmp_path) -> None:
             [{"text": "Sentence one.", "cites": [2, 1]}, {"text": "Sentence two.", "cites": [1]}],
             [{"text": "Sentence three.", "cites": [3]}],
         ],
-        passages=[_passage(1, "c-a"), _passage(2, "c-b"), _passage(3, "c-c"),
+        passages=[_passage(1, "c-a"), _passage(2, "c-b", ticker="AMD", fiscal_year=2025,
+                                              item="Item_7_MDA"), _passage(3, "c-c"),
                   _passage(None, "c-rejected", included=False)],
     )
     answers, traces = _write_case(tmp_path, answer, extra_answer_slug="no-trace")
@@ -111,8 +116,9 @@ def test_build_units_maps_cites_to_chunk_text_and_counts(tmp_path) -> None:
     assert [u["unit_id"] for u in built] == [f"{SLUG}:p1u1", f"{SLUG}:p1u2", f"{SLUG}:p2u1"]
     assert built[0] == {
         "unit_id": f"{SLUG}:p1u1", "slug": SLUG, "sentence": "Sentence one.", "cites": [2, 1],
-        "passages": [{"cite": 2, "chunk_id": "c-b", "text": "Text B."},
-                     {"cite": 1, "chunk_id": "c-a", "text": "Text A."}],
+        "passages": [{"cite": 2, "chunk_id": "c-b", "ticker": "AMD", "fiscal_year": 2025,
+                      "form": "10-K", "item": "Item_7_MDA", "text": "Text B."},
+                     {"cite": 1, "chunk_id": "c-a", **HEADER, "text": "Text A."}],
     }
     assert sum(len(u["cites"]) for u in built) == 4  # (unit, cite) pairs
     assert {u["slug"] for u in built} == {SLUG}  # the answer without a trace is skipped
@@ -177,7 +183,21 @@ def test_judge_unit_parses_structured_verdict() -> None:
     assert fmt["schema"]["properties"]["verdict"]["enum"] == ["supported", "partial", "unsupported"]
     assert "thinking" not in call and "tool_choice" not in call
     user = call["messages"][0]["content"]
-    assert "Revenue was $5.5 billion." in user and "[1]" in user and "passage text" in user
+    assert "Revenue was $5.5 billion." in user and "passage text" in user
+    assert "[1] NVDA FY2026 10-K, Item 1A\npassage text" in user
+
+
+def test_judge_message_uses_the_answer_models_passage_header(tmp_path) -> None:
+    # Built from a fixture answer, the judge must see the header the answer model saw
+    # (filings_kb.answer.build_user_message), not the chunk_id.
+    answer = _answer([[{"text": "In FY2025 AMD said X.", "cites": [1]}]],
+                     [_passage(1, "acc-1:Item_7_MDA:0003", ticker="AMD", fiscal_year=2025,
+                               item="Item_7_MDA")])
+    answers, traces = _write_case(tmp_path, answer)
+    (built,) = units.build_units(answers, traces, _db(tmp_path, {"acc-1:Item_7_MDA:0003": "X."}))
+    message = judge.user_message(built)
+    assert "[1] AMD FY2025 10-K, Item 7\nX." in message
+    assert "acc-1:Item_7_MDA:0003" not in message
 
 
 @pytest.mark.parametrize("response", [
@@ -248,6 +268,19 @@ def test_run_stops_before_exceeding_budget(tmp_path) -> None:
     assert first["usage"]["output_tokens"] == 300_000
 
 
+def test_run_projects_a_larger_unit_than_any_seen(tmp_path) -> None:
+    # The first call costs about $0.004; the second unit's own worst case (about 1M input
+    # tokens = $4, plus full output) is far above that, so it is not sent under a $1 cap.
+    cheap = _response(_verdict("supported"), input_tokens=1000, output_tokens=0)
+    client = FakeClient([cheap, cheap])
+    big = _unit("a:p1u2", sentence="x" * 3_000_000)
+    summary = judge.run([_unit("a:p1u1"), big], tmp_path / "o.jsonl", "run1",
+                        max_usd=Decimal("1"), client=client, prompt_path=_prompt_file(tmp_path))
+    assert len(client.messages.calls) == 1
+    assert summary["stopped_on_budget"] is True
+    assert judge.projected_call_cost("p", big) > Decimal("4")
+
+
 def test_run_first_call_projection_blocks_tiny_budget(tmp_path) -> None:
     client = FakeClient([_six_dollar_response()])
     summary = judge.run([_unit("a:p1u1")], tmp_path / "out.jsonl", "run1",
@@ -316,16 +349,23 @@ def test_spot_sheet_includes_all_flagged_and_hides_judge(tmp_path) -> None:
         rows = list(reader)
         assert reader.fieldnames == ["unit_id", "sentence", "passages", "human_verdict", "note"]
     ids = [r["unit_id"] for r in rows]
+    flagged = {"a:p1u3", "a:p1u7", "a:p1u9", "a:p1u11"}
     assert written == 8 and len(ids) == 8 and len(set(ids)) == 8
-    assert {"a:p1u3", "a:p1u7"} <= set(ids)  # every flagged unit
-    assert not {"a:p1u9", "a:p1u11"} & set(ids)  # no judge verdict to compare against
-    assert all(verdicts[i] == "supported" for i in set(ids) - {"a:p1u3", "a:p1u7"})
+    assert flagged <= set(ids)  # every non-supported unit, harness verdicts included
+    assert all(verdicts[i] == "supported" for i in set(ids) - flagged)
     assert all(r["human_verdict"] == "" and r["note"] == "" for r in rows)
-    assert "[1] c1" in rows[0]["passages"] and "passage text" in rows[0]["passages"]
+    assert rows[0]["passages"] == "[1] NVDA FY2026 10-K, Item 1A\npassage text"
     # Seeded: the same call gives the same sheet.
     again = tmp_path / "again.csv"
     units.write_spot_sheet(all_units, judge_jsonl, again, n=8)
     assert again.read_text() == out.read_text()
+
+
+def test_spot_sheet_raises_when_judge_run_is_incomplete(tmp_path) -> None:
+    all_units = [_unit("a:p1u1"), _unit("a:p1u2")]
+    judge_jsonl = _judge_file(tmp_path / "judge.jsonl", {"a:p1u1": "supported"})
+    with pytest.raises(ValueError, match="does not cover"):
+        units.write_spot_sheet(all_units, judge_jsonl, tmp_path / "s.csv")
 
 
 def test_spot_sheet_takes_all_flagged_when_over_n(tmp_path) -> None:
@@ -363,10 +403,11 @@ def test_v2_scoring_excludes_parse_errors_and_builds_2x2(tmp_path) -> None:
     assert (result["supported"], result["partial"], result["unsupported"]) == (3, 1, 1)
     assert (result["parse_errors"], result["refusals"]) == (1, 1)
     assert result["faithfulness"] == pytest.approx(3 / 5)
+    assert result["faithfulness_lower_bound"] == pytest.approx(3 / 7)
     assert result["spot_n"] == 5
     assert result["table"] == {
-        "judge_supported&human_supported": 2, "judge_supported&human_unsupported": 1,
-        "judge_unsupported&human_supported": 1, "judge_unsupported&human_unsupported": 1,
+        "judge_supported&human_supported": 2, "judge_supported&human_not_supported": 1,
+        "judge_not_supported&human_supported": 1, "judge_not_supported&human_not_supported": 1,
     }
     assert result["raw_agreement"] == pytest.approx(3 / 5)
     # po = 0.6; pe = 0.6*0.6 + 0.4*0.4 = 0.52; kappa = 0.08 / 0.48
@@ -434,3 +475,23 @@ def test_run_refuses_to_mix_configurations_in_one_file(tmp_path) -> None:
     prompt.write_text("A changed judge prompt.")
     with pytest.raises(ValueError, match="prompt_sha256"):
         judge.run([_unit("a:p1u2")], out, "run1", client=FakeClient([]), prompt_path=prompt)
+
+
+def test_v2_scoring_reports_coverage(tmp_path) -> None:
+    judge_jsonl = _judge_file(tmp_path / "judge.jsonl", {"a:p1u1": "supported",
+                                                          "a:p1u2": "partial"})
+    by_count = eval_faithfulness.evaluate_faithfulness_v2(judge_jsonl, expected_units=4)
+    assert (by_count["expected_units"], by_count["coverage"]) == (4, 0.5)
+    units_path = tmp_path / "units.jsonl"
+    units.write_units([_unit(f"a:p1u{i}") for i in range(1, 6)], units_path)
+    by_path = eval_faithfulness.evaluate_faithfulness_v2(judge_jsonl, expected_units=units_path)
+    assert by_path["coverage"] == pytest.approx(2 / 5)
+    assert "coverage" not in eval_faithfulness.evaluate_faithfulness_v2(judge_jsonl)
+
+
+def test_v2_scoring_raises_on_judged_unit_not_in_units(tmp_path) -> None:
+    judge_jsonl = _judge_file(tmp_path / "judge.jsonl", {"a:p1u1": "supported", "z:p9u9": "partial"})
+    units_path = tmp_path / "units.jsonl"
+    units.write_units([_unit("a:p1u1")], units_path)
+    with pytest.raises(ValueError, match="z:p9u9"):
+        eval_faithfulness.evaluate_faithfulness_v2(judge_jsonl, expected_units=units_path)

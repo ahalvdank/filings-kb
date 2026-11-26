@@ -6,6 +6,11 @@ adds two verdicts of its own: ``refusal`` (``stop_reason == "refusal"``) and
 ``parse_error`` (any other non-``end_turn`` stop, no text block, or output that is not
 exactly the schema). The judge model is fixed: no fallback model is configured.
 
+Records are append-only. A rerun on the same ``--out`` file resumes: it skips every unit
+already recorded (``parse_error`` and ``refusal`` included) and counts the spend already
+recorded toward ``--max-usd``. To retry failures, run again with a new ``--run-label`` and
+a new ``--out`` file over the units to retry; never delete or edit lines in a run file.
+
 CLI (makes paid calls; needs ``ANTHROPIC_API_KEY``)::
 
     python -m evals.v2.faithfulness.judge --units evals/v2/faithfulness/units.jsonl \
@@ -76,8 +81,8 @@ def call_cost(usage: dict[str, int], model: str = MODEL) -> Decimal:
     return micro / _PER_TOKEN
 
 
-def first_call_projection(prompt: str, unit: dict, model: str = MODEL) -> Decimal:
-    """Worst-case cost of a call before any has been observed: full output plus estimated input."""
+def projected_call_cost(prompt: str, unit: dict, model: str = MODEL) -> Decimal:
+    """Worst-case cost of one call for ``unit``: full ``MAX_TOKENS`` output plus estimated input."""
     chars = len(prompt) + len(user_message(unit))
     est_input = -(-chars // CHARS_PER_TOKEN_ESTIMATE)  # ceiling division
     return call_cost({"input_tokens": est_input, "output_tokens": MAX_TOKENS}, model)
@@ -159,9 +164,10 @@ def run(units: list[dict], out_jsonl: Path, run_label: str, max_usd: Decimal = D
     """Judge every unit not already in ``out_jsonl``, appending one record per call.
 
     Spend already recorded in ``out_jsonl`` counts toward ``max_usd``, so restarting does
-    not reset the cap. Before each call the cost is projected from the most expensive call
-    so far (or ``first_call_projection`` before any), and the run stops if
-    ``spent + projected > max_usd``.
+    not reset the cap. Before each call the cost is projected as the larger of the most
+    expensive call so far and ``projected_call_cost`` for this unit (full ``MAX_TOKENS``
+    output), so a unit larger than any seen cannot push spend over the cap, and the run
+    stops if ``spent + projected > max_usd``.
 
     Returns:
         ``{"called", "skipped", "spent_usd": Decimal, "stopped_on_budget": bool}``.
@@ -182,7 +188,9 @@ def run(units: list[dict], out_jsonl: Path, run_label: str, max_usd: Decimal = D
                 continue
             if limit is not None and called >= limit:
                 break
-            projected = max_cost if max_cost is not None else first_call_projection(prompt, unit, model)
+            projected = projected_call_cost(prompt, unit, model)
+            if max_cost is not None:
+                projected = max(projected, max_cost)
             if spent + projected > max_usd:
                 stopped = True
                 break

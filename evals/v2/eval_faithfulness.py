@@ -115,15 +115,36 @@ def _binary(verdict: str) -> int:
     return int(verdict == "supported")
 
 
+def _expected_count(expected_units: int | Path, judged: dict[str, str]) -> int:
+    """Number of units the run should cover.
+
+    Raises:
+        ValueError: if ``expected_units`` is a units.jsonl path and the judge file names a
+            unit that is not in it.
+    """
+    if isinstance(expected_units, int):
+        return expected_units
+    ids = {json.loads(line)["unit_id"] for line in
+           expected_units.read_text(encoding="utf-8").splitlines() if line.strip()}
+    unknown = sorted(set(judged) - ids)
+    if unknown:
+        raise ValueError(f"judge file names units not in {expected_units}: {unknown[:5]}")
+    return len(ids)
+
+
 def evaluate_faithfulness_v2(judge_jsonl: Path, spot_csv: Path | None = None,
-                             second_run: Path | None = None) -> dict:
+                             second_run: Path | None = None,
+                             expected_units: int | Path | None = None) -> dict:
     """Three-way judge verdict counts, judge-human 2x2 and kappa, and judge self-agreement.
 
     ``faithfulness`` is ``supported / (units - parse_errors - refusals)``: a unit the judge
-    gave no verdict on is excluded, not counted as a failure, and None if none remain. The
-    2x2 and kappa are binary (``supported`` vs not) over labelled spot rows that have a
-    judge verdict. ``self_agreement`` compares ``judge_jsonl`` with ``second_run`` over
-    units with a verdict in both.
+    gave no verdict on is excluded, and the rate is None if none remain.
+    ``faithfulness_lower_bound`` is ``supported / units``, counting those excluded units as
+    not supported. With ``expected_units`` (a count, or the units.jsonl path) ``coverage``
+    is ``units / expected``. The 2x2 and kappa are binary (``supported`` vs
+    ``not_supported``) over labelled spot rows that have a judge verdict.
+    ``self_agreement`` compares ``judge_jsonl`` with ``second_run`` over units with a
+    verdict in both.
     """
     judged = _judge_verdicts(judge_jsonl)
     counts = {v: sum(1 for x in judged.values() if x == v)
@@ -134,12 +155,17 @@ def evaluate_faithfulness_v2(judge_jsonl: Path, spot_csv: Path | None = None,
         "unsupported": counts["unsupported"], "parse_errors": counts["parse_error"],
         "refusals": counts["refusal"],
         "faithfulness": counts["supported"] / scored if scored else None,
+        "faithfulness_lower_bound": counts["supported"] / len(judged) if judged else None,
     }
+    if expected_units is not None:
+        expected = _expected_count(expected_units, judged)
+        result |= {"expected_units": expected,
+                   "coverage": len(judged) / expected if expected else None}
     if spot_csv is not None:
         humans = _human_verdicts(spot_csv, judged)
         pairs = [(_binary(h), _binary(judged[u])) for u, h in humans.items()
                  if judged[u] in JUDGE_VERDICTS]
-        name = {1: "supported", 0: "unsupported"}
+        name = {1: "supported", 0: "not_supported"}
         table = {f"judge_{name[j]}&human_{name[h]}": 0 for j in (1, 0) for h in (1, 0)}
         for h, j in pairs:
             table[f"judge_{name[j]}&human_{name[h]}"] += 1
