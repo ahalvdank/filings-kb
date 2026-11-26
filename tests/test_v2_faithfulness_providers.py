@@ -150,12 +150,20 @@ def test_openai_cost_from_a_fake_response_round_trips_through_usage() -> None:
     assert judge.call_cost(result["usage"], model="gpt-6.2-sol") == Decimal("0.0424")
 
 
-def test_openai_missing_usage_records_zero_tokens() -> None:
+def test_openai_missing_usage_stops_the_run(tmp_path) -> None:
+    # Zeros would leave spend uncounted and the cap unable to fire; raising stops the run.
     response = _oa_response(_verdict("supported"))
     response.usage = None
-    result = judge.judge_unit_openai(FakeOpenAI([response]), _unit("a:p1u1"), "PROMPT",
-                                     model="gpt-6.2-sol")
-    assert result["usage"] == {f: 0 for f in judge.OPENAI_USAGE_FIELDS}
+    with pytest.raises(RuntimeError, match="usage"):
+        judge.judge_unit_openai(FakeOpenAI([response]), _unit("a:p1u1"), "PROMPT",
+                                model="gpt-6.2-sol")
+    out = tmp_path / "o.jsonl"
+    first = _oa_response(_verdict("supported"))
+    with pytest.raises(RuntimeError):
+        judge.run([_unit("a:p1u1"), _unit("a:p1u2")], out, "g",
+                  client=FakeOpenAI([first, response]), prompt_path=_prompt_file(tmp_path),
+                  provider="openai", model="gpt-6.2-sol")
+    assert [r["unit_id"] for r in _records(out)] == ["a:p1u1"]  # earlier records stay flushed
 
 
 def test_openai_projection_uses_openai_prices() -> None:

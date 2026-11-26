@@ -180,10 +180,17 @@ def judge_unit(client: Any, unit: dict, prompt: str, model: str = MODEL,
 
 
 def _openai_usage(response: Any) -> dict[str, int]:
-    """Token counts from an ``openai.types.responses.ResponseUsage``; zeros if absent."""
+    """Token counts from an ``openai.types.responses.ResponseUsage``.
+
+    Raises:
+        RuntimeError: if the response has no usage (the SDK types it Optional). Recording
+            zeros would let spend go uncounted and the budget cap never fire, so the run
+            stops at the first such call instead.
+    """
     usage = response.usage
     if usage is None:
-        return {f: 0 for f in OPENAI_USAGE_FIELDS}
+        raise RuntimeError("OpenAI response has no usage; its cost cannot be counted "
+                           "toward --max-usd, so the run stops here")
     inp = getattr(usage, "input_tokens_details", None)
     out = getattr(usage, "output_tokens_details", None)
     return {"input_tokens": int(usage.input_tokens or 0),
