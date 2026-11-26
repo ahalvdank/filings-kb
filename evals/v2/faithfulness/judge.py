@@ -206,6 +206,20 @@ def run(units: list[dict], out_jsonl: Path, run_label: str, max_usd: Decimal = D
     return {"called": called, "skipped": skipped, "spent_usd": spent, "stopped_on_budget": stopped}
 
 
+def api_key(env_file: Path | None) -> str | None:
+    """``ANTHROPIC_API_KEY`` from the environment, else from ``env_file`` if given.
+
+    Only that one variable is read from the file, and nothing is put into
+    ``os.environ``, so the file's other settings never reach this process.
+    """
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    if not key and env_file is not None:
+        from dotenv import dotenv_values
+
+        key = dotenv_values(env_file).get("ANTHROPIC_API_KEY")
+    return key or None
+
+
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description="Judge faithfulness units (paid API calls).")
     parser.add_argument("--units", type=Path, required=True)
@@ -213,16 +227,19 @@ def main(argv: list[str] | None = None) -> None:
     parser.add_argument("--run-label", required=True)
     parser.add_argument("--max-usd", type=Decimal, required=True)
     parser.add_argument("--limit", type=int, default=None)
+    parser.add_argument("--env-file", type=Path, default=None,
+                        help="read ANTHROPIC_API_KEY from this .env when it is not set")
     args = parser.parse_args(argv)
 
-    if not os.environ.get("ANTHROPIC_API_KEY"):
+    key = api_key(args.env_file)
+    if not key:
         print("ANTHROPIC_API_KEY is not set; the judge makes paid API calls and needs it.",
               file=sys.stderr)
         sys.exit(2)
     import anthropic  # the optional extra; only needed for a real run
 
     summary = run(read_units(args.units), args.out, args.run_label, args.max_usd,
-                  client=anthropic.Anthropic(), limit=args.limit)
+                  client=anthropic.Anthropic(api_key=key), limit=args.limit)
     print(f"called {summary['called']}, skipped {summary['skipped']}, "
           f"spent ${summary['spent_usd']}, stopped on budget: {summary['stopped_on_budget']}")
 

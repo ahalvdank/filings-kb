@@ -2,6 +2,7 @@
 
 import csv
 import json
+import os
 import sqlite3
 from decimal import Decimal
 from pathlib import Path
@@ -324,6 +325,26 @@ def test_main_exits_2_without_api_key(tmp_path, monkeypatch, capsys) -> None:
                     "--run-label", "run1", "--max-usd", "15"])
     assert exc.value.code == 2
     assert "ANTHROPIC_API_KEY" in capsys.readouterr().err
+
+
+def test_api_key_reads_only_that_variable_from_env_file(tmp_path, monkeypatch) -> None:
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    monkeypatch.delenv("OTHER_SETTING", raising=False)
+    env = tmp_path / ".env"
+    env.write_text("ANTHROPIC_API_KEY=test-key\nOTHER_SETTING=x\n")
+    assert judge.api_key(env) == "test-key"
+    assert "OTHER_SETTING" not in os.environ and "ANTHROPIC_API_KEY" not in os.environ
+
+
+def test_api_key_prefers_environment_and_handles_missing(tmp_path, monkeypatch) -> None:
+    env = tmp_path / ".env"
+    env.write_text("ANTHROPIC_API_KEY=file-key\n")
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "env-key")
+    assert judge.api_key(env) == "env-key"
+    monkeypatch.delenv("ANTHROPIC_API_KEY")
+    (tmp_path / "empty.env").write_text("OTHER=1\n")
+    assert judge.api_key(tmp_path / "empty.env") is None
+    assert judge.api_key(None) is None
 
 
 # --- spot sheet --------------------------------------------------------------------
