@@ -8,7 +8,27 @@
     "backend": "claude -p, billed to an Anthropic API key",
     "run_dates_utc": "2026-11-26",
     "parser_commit": "0d4b5855c32ff29758356393a640420b3a252885",
-    "billed_reconciliation": "pending (Andrew's by-model billing snapshot)"
+    "billed_reconciliation": {
+      "read_by": "Andrew, Anthropic console usage by model, 2026-11-26 21:46 EST",
+      "billed_sonnet_4_6_usd": "61.20",
+      "billed_haiku_5_5_usd": "0.50",
+      "billed_opus_5_5_usd": "2.47",
+      "opus_is": "the faithfulness judge (logged $2.47; matches)",
+      "extraction_billed_usd": "61.70",
+      "extraction_logged_usd_all_lines": "53.713190",
+      "unlogged_usd": "7.986810",
+      "logged_share_of_billed": "0.871",
+      "filings_billed": 15,
+      "billed_mean_usd_per_10k": "4.11",
+      "assumption": "all Sonnet 4.6 and Haiku 5.5 usage on this key in the window is this extraction run (15 filings: UAA 5, USB 5, VFC 5, plus one redone lean probe call)",
+      "api_billed_logs": [
+        "replay_UAA.log",
+        "replay_UAA.lean_probe.log",
+        "replay_USB.log",
+        "replay_VFC.20261126113404.prev.log",
+        "replay_VFC.log"
+      ]
+    }
   },
   "filings_measured": 14,
   "median_usd": "3.8165305",
